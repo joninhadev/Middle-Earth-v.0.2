@@ -21,6 +21,7 @@ TaskSystem = {
     maxDist = 7,
     players = {},
     dailyTaskLimit = 3, 
+    TASKS_PER_PAGE = 12,
     
     checkTaskTypeLimit = function(player, taskId)
         local task = nil
@@ -75,8 +76,6 @@ TaskSystem = {
         end
 
         function initializeTasksAndPoints()
-            --print("Initializing tasks and points...")
-
             for i = 1, #configTasks do
                 table.insert(TaskSystem.list, {
                     id = i,
@@ -93,7 +92,7 @@ TaskSystem = {
                     points = 0,
                     limitStorage = configTasks[i].limitStorage, 
                     timeStorage = configTasks[i].timeStorage,
-					resetCost = configTasks[i].resetCost or 0 -- ?? novo campo
+                    resetCost = configTasks[i].resetCost or 0
                 })
             end
 
@@ -121,9 +120,14 @@ TaskSystem = {
 
         for _, task in ipairs(TaskSystem.list) do
             if (player:getStorageValue(TaskSystem.baseStorage + task.id) > 0) then
-                local playerTask = task -- deepcopy(task)
+                local playerTask = task
                 playerTask.left = player:getStorageValue(TaskSystem.baseStorage + task.id)
                 playerTask.done = playerTask.kills - (playerTask.left - 1)
+                
+                -- Garantir que done não seja maior que kills
+                if playerTask.done > playerTask.kills then
+                    playerTask.done = playerTask.kills
+                end
                 
                 local taskLimitInfo = TaskSystem.checkTaskTypeLimit(player, task.id)
                 playerTask.dailyCompleted = taskLimitInfo.completed
@@ -148,19 +152,10 @@ TaskSystem = {
         return tasks
     end,
     
-    getTaskNames = function(player)
-        local tasks = {}
-
-        for _, task in ipairs(TaskSystem.list) do
-            table.insert(tasks, '{' .. task.name:lower() .. '}')
-        end
-
-        return table.concat(tasks, ', ')
-    end,
-    
     onAction = function(player, data)
         if (data['action'] == 'info') then
-            TaskSystem.sendData(player)
+            local page = data['page'] or 1
+            TaskSystem.sendData(player, page)
             TaskSystem.players[player.uid] = 1
         elseif (data['action'] == 'hide') then
             TaskSystem.players[player.uid] = nil
@@ -197,7 +192,7 @@ Você já completou o limite diário de %d tasks de '%s'.
 
 Tempo restante: %d horas e %d minutos.
 
-Espere o tempo restante ou use o comando !resetTask %d para resetar a task.
+Espere o tempo restante ou use o botão Reset para resetar a task.
 ]], TaskSystem.dailyTaskLimit, task.name, hoursLeft, minutesLeft, task.id)
                         
                         player:popupFYI(message)
@@ -214,7 +209,7 @@ Espere o tempo restante ou use o comando !resetTask %d para resetar a task.
                         color = 'green'
                     })
 
-                    return TaskSystem.sendData(player)
+                    return TaskSystem.sendData(player, data['page'] or 1)
                 end
             end
 
@@ -240,7 +235,7 @@ Espere o tempo restante ou use o comando !resetTask %d para resetar a task.
                         color = 'green'
                     })
 
-                    return TaskSystem.sendData(player)
+                    return TaskSystem.sendData(player, data['page'] or 1)
                 end
             end
 
@@ -283,7 +278,7 @@ You have already completed the daily limit of %d tasks for '%s'.
 
 Time remaining: %d hours and %d minutes.
 
-Wait for the time to pass or use !resetTask %d to purchase a reset.
+Use the Reset button to purchase a reset.
 ]], TaskSystem.dailyTaskLimit, task.name, hoursLeft, minutesLeft, task.id)
                         
                         player:popupFYI(message)
@@ -328,7 +323,7 @@ Parabéns, você completou a task: %s
 Você atingiu o máximo de tasks desse tipo hoje.
 Tempo até a reinicialização: %d horas e %d minutos.
 
-Use o comando !resetTask %d para comprar o reset e faze-la novamente!
+Use o botão Reset para comprar o reset e faze-la novamente!
 ]], task.name, hoursLeft, minutesLeft, task.id)
                         player:popupFYI(message)
                     end
@@ -337,7 +332,7 @@ Use o comando !resetTask %d para comprar o reset e faze-la novamente!
                         message = "Task completed successfully.",
                         color = 'green'
                     })
-                    return TaskSystem.sendData(player)
+                    return TaskSystem.sendData(player, data['page'] or 1)
                 end
             end
 
@@ -345,6 +340,133 @@ Use o comando !resetTask %d para comprar o reset e faze-la novamente!
                 message = 'Unknown task.',
                 color = 'red'
             })
+        elseif (data['action'] == 'reset') then
+            local taskId = data['entry']
+            local playerTaskIds = TaskSystem.getPlayerTaskIds(player)
+            
+            if table.contains(playerTaskIds, taskId) then
+                return player:sendExtendedJSONOpcode(215, {
+                    message = "You cannot reset a task that is currently active. Cancel it first.",
+                    color = 'red'
+                })
+            end
+
+            local task = nil
+            for _, t in ipairs(TaskSystem.list) do
+                if t.id == taskId then
+                    task = t
+                    break
+                end
+            end
+            
+            if not task then
+                return player:sendExtendedJSONOpcode(215, {
+                    message = "Task not found.",
+                    color = 'red'
+                })
+            end
+            
+            local taskLimitInfo = TaskSystem.checkTaskTypeLimit(player, taskId)
+            if taskLimitInfo.completed < TaskSystem.dailyTaskLimit then
+                return player:sendExtendedJSONOpcode(215, {
+                    message = "You haven't reached the daily limit for this task yet.",
+                    color = 'red'
+                })
+            end
+            
+            local crystalCoinId = 2160
+            local cost = task.resetCost or 0
+            
+            if cost <= 0 then
+                return player:sendExtendedJSONOpcode(215, {
+                    message = "This task does not have a reset cost configured.",
+                    color = 'red'
+                })
+            end
+            
+            if player:getItemCount(crystalCoinId) < cost then
+                return player:sendExtendedJSONOpcode(215, {
+                    message = string.format("You need %d crystal coin(s) to reset this task.", cost),
+                    color = 'red'
+                })
+            end
+            
+            -- Enviar confirmação com custo para o cliente
+            return player:sendExtendedJSONOpcode(215, {
+                action = 'confirm_reset',
+                taskId = taskId,
+                taskName = task.name,
+                cost = cost,
+                page = data['page'] or 1
+            })
+            
+        elseif (data['action'] == 'confirm_reset_yes') then
+            local taskId = data['entry']
+            local playerTaskIds = TaskSystem.getPlayerTaskIds(player)
+            
+            if table.contains(playerTaskIds, taskId) then
+                return player:sendExtendedJSONOpcode(215, {
+                    message = "You cannot reset a task that is currently active. Cancel it first.",
+                    color = 'red'
+                })
+            end
+
+            local task = nil
+            for _, t in ipairs(TaskSystem.list) do
+                if t.id == taskId then
+                    task = t
+                    break
+                end
+            end
+            
+            if not task then
+                return player:sendExtendedJSONOpcode(215, {
+                    message = "Task not found.",
+                    color = 'red'
+                })
+            end
+            
+            local taskLimitInfo = TaskSystem.checkTaskTypeLimit(player, taskId)
+            if taskLimitInfo.completed < TaskSystem.dailyTaskLimit then
+                return player:sendExtendedJSONOpcode(215, {
+                    message = "You haven't reached the daily limit for this task yet.",
+                    color = 'red'
+                })
+            end
+            
+            local crystalCoinId = 2160
+            local cost = task.resetCost or 0
+            
+            if cost <= 0 then
+                return player:sendExtendedJSONOpcode(215, {
+                    message = "This task does not have a reset cost configured.",
+                    color = 'red'
+                })
+            end
+            
+            if player:getItemCount(crystalCoinId) < cost then
+                return player:sendExtendedJSONOpcode(215, {
+                    message = string.format("You need %d crystal coin(s) to reset this task.", cost),
+                    color = 'red'
+                })
+            end
+            
+            if not player:removeItem(crystalCoinId, cost) then
+                return player:sendExtendedJSONOpcode(215, {
+                    message = "Error removing crystal coins.",
+                    color = 'red'
+                })
+            end
+            
+            -- Reset the task limit
+            player:setStorageValue(task.limitStorage, 0)
+            
+            player:sendExtendedJSONOpcode(215, {
+                message = string.format("Task '%s' reset successfully! Cost: %d crystal coin(s)", task.name, cost),
+                color = 'green'
+            })
+            
+            return TaskSystem.sendData(player, data['page'] or 1)
         end
     end,
     
@@ -363,7 +485,7 @@ Use o comando !resetTask %d para comprar o reset e faze-la novamente!
 
         player:setStorageValue(TaskSystem.baseStorage + task.id, left - 1)
         if (TaskSystem.players[player.uid]) then
-            return TaskSystem.sendData(player)
+            return TaskSystem.sendData(player, 1)
         end
     end,
 
@@ -427,7 +549,8 @@ Use o comando !resetTask %d para comprar o reset e faze-la novamente!
         end
     end,
     
-    sendData = function(player)
+    sendData = function(player, page)
+        page = page or 1
         local playerTasks = TaskSystem.getCurrentTasks(player)
         
         local taskLimits = {}
@@ -440,12 +563,28 @@ Use o comando !resetTask %d para comprar o reset e faze-la novamente!
             }
         end
         
+        local totalTasks = #TaskSystem.list
+        local totalPages = math.ceil(totalTasks / TaskSystem.TASKS_PER_PAGE)
+        local startIndex = (page - 1) * TaskSystem.TASKS_PER_PAGE + 1
+        local endIndex = math.min(startIndex + TaskSystem.TASKS_PER_PAGE - 1, totalTasks)
+        
+        local paginatedTasks = {}
+        for i = startIndex, endIndex do
+            table.insert(paginatedTasks, TaskSystem.list[i])
+        end
+        
         local response = {
             pointsGeneral = player:getStorageValue(playerPointsStorage),
-            allTasks = TaskSystem.list,
+            allTasks = paginatedTasks,
             playerTasks = playerTasks,
             taskLimits = taskLimits,
-            dailyTaskLimit = TaskSystem.dailyTaskLimit
+            dailyTaskLimit = TaskSystem.dailyTaskLimit,
+            pagination = {
+                currentPage = page,
+                totalPages = totalPages,
+                totalTasks = totalTasks,
+                tasksPerPage = TaskSystem.TASKS_PER_PAGE
+            }
         }
         player:sendExtendedJSONOpcode(215, response)
     end
@@ -479,122 +618,13 @@ for _, event in ipairs(events) do
     event:register()
 end
 
-function completeTask(player, task)
-    player:setStorageValue(task.killStorage, player:getStorageValue(task.killStorage) + 1)
-end
-
-function shouldDisplayTask(player, task)
-    local currentKills = player:getStorageValue(task.killStorage)
-    return currentKills
-end
-
-function showTaskWindow(player)
-    local taskWindow = "Available Tasks:\n"
-
-    for _, task in ipairs(configTasks) do
-        local currentKills = player:getStorageValue(task.killStorage)
-        local limitInfo = TaskSystem.checkTaskTypeLimit(player, task.id)
-        local completedToday = limitInfo.completed
-        local maxDaily = TaskSystem.dailyTaskLimit
-
-        taskWindow = taskWindow .. "\n" .. task.nameOfTheTask .. ": " .. currentKills .. "/" .. task.killsRequired .. " kills (Daily: " .. completedToday .. "/" .. maxDaily .. ")"
-    end
-
-    player:sendTextMessage(MESSAGE_INFO_DESCR, taskWindow)
-end
-
-function getCompletedTasksCount(player, taskId)
-    return player:getStorageValue(TaskSystem.baseStorage + taskId)
-end
-
-function getPlayerPoints(player)
-    return player:getStorageValue(playerPointsStorage)
-end
-
-function resetAllTasks(player)
-    for _, task in ipairs(TaskSystem.list) do
-        player:setStorageValue(TaskSystem.baseStorage + task.id, -1)
-    end
-
-    player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "All tasks reset.")
-    return TaskSystem.sendData(player)
-end
-
-function isTaskLimitReached(player, task)
-    local completedCount = getCompletedTasksCount(player, task.id)
-    return completedCount >= task.limit
-end
-
-function canAcceptTask(player, task)
-    return not isTaskLimitReached(player, task)
-end
-
-function isTaskAccomplished(player, task)
-    local completedCount = getCompletedTasksCount(player, task.id)
-    return completedCount > 0
-end
-
-function resetAllTaskTypeLimits()
-    for _, player in ipairs(Game.getPlayers()) do
-        for _, task in ipairs(TaskSystem.list) do
-            player:setStorageValue(task.limitStorage, 0)
-        end
-    end
-    print("All daily task type limits have been reset.")
-end
-
-function getTimeUntilTaskTypeReset(player, taskId)
-    local task = nil
-    
-    for _, t in ipairs(TaskSystem.list) do
-        if t.id == taskId then
-            task = t
-            break
-        end
-    end
-    
-    if not task then
-        return 0
-    end
-    
-    local lastTaskTime = player:getStorageValue(task.timeStorage)
-    if lastTaskTime <= 0 then
-        return 0
-    end
-    
-    local currentTime = os.time()
-    local elapsedTime = currentTime - lastTaskTime
-    local remainingTime = math.max(0, 86400 - elapsedTime)
-    
-    return remainingTime
-end
-
-function formatTimeRemaining(seconds)
-    local hours = math.floor(seconds / 3600)
-    local minutes = math.floor((seconds % 3600) / 60)
-    local secs = seconds % 60
-    
-    return string.format("%02d:%02d:%02d", hours, minutes, secs)
-end
-
-local dailyResetEvent = GlobalEvent("DailyTaskReset")
-
-function dailyResetEvent.onTime()
-    resetAllTaskTypeLimits()
-    return true
-end
-
-dailyResetEvent:time("00:00:00") -- Reset at midnight server time
-dailyResetEvent:register()
-
-
 local talkaction = TalkAction("!resetTask")
 
 function talkaction.onSay(player, words, param)
     local taskId = tonumber(param)
     
     if not taskId then
-        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Por favor, use o comando !resetTask [task ID]. Por exemplo: !resetTask 1")
+        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Please use the reset button in the task window or use !resetTask [task ID]")
         return false
     end
     
@@ -607,52 +637,55 @@ function talkaction.onSay(player, words, param)
     end
     
     if not task then
-        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Task não encontrada. Use um ID válido.")
+        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Task not found. Use a valid ID.")
         return false
     end
     
-    local crystalCoinId = 2160 -- ID da Crystal Coin
-    local cost = task.resetCost or 0 -- custo definido na tabela da task
+    local taskLimitInfo = TaskSystem.checkTaskTypeLimit(player, taskId)
+    if taskLimitInfo.completed < TaskSystem.dailyTaskLimit then
+        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "You haven't reached the daily limit for this task yet.")
+        return false
+    end
+    
+    local crystalCoinId = 2160
+    local cost = task.resetCost or 0
     
     if cost <= 0 then
-        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "Esta task não possui custo de reset configurado.")
+        player:sendTextMessage(MESSAGE_STATUS_CONSOLE_BLUE, "This task does not have a reset cost configured.")
         return false
     end
     
     if player:getItemCount(crystalCoinId) < cost then
         player:popupFYI(string.format(
-            "Você não tem crystal coins suficientes para resetar a task.\n\nCusta: %d crystal coin(s).",
+            "You don't have enough crystal coins to reset the task.\n\nCost: %d crystal coin(s).",
             cost
         ))
         return false
     end
     
     if not player:removeItem(crystalCoinId, cost) then
-        player:popupFYI("Ocorreu um erro ao tentar remover os crystal coins.")
+        player:popupFYI("An error occurred while trying to remove crystal coins.")
         return false
     end
     
-    -- reseta o limite da task
     player:setStorageValue(task.limitStorage, 0)
     
     local message = string.format([[ 
-== TASK RESETADA ==
+== TASK RESET ==
 
-O limite diário para '%s' foi resetado com sucesso!
+The daily limit for '%s' has been successfully reset!
 
-Agora você já pode iniciar novamente essa task.
+You can now start this task again.
 
-Custo: %d crystal coin(s)
+Cost: %d crystal coin(s)
 ]], task.nameOfTheTask or task.name, cost)
 
     player:popupFYI(message)
     
-    TaskSystem.sendData(player)
+    TaskSystem.sendData(player, 1)
     
     return true
 end
 
 talkaction:separator(" ")
 talkaction:register()
-
-

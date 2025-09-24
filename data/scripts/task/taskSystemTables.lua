@@ -6,7 +6,7 @@ configTasks = {
         nameOfTheTask = "Minos",
         mobsToKill = {"Minotaur", "Minotaur Archer", "Minotaur Guard"},
         looktype = { type = 25 },
-        killsRequired = 200,
+        killsRequired = 100,
         expReward = 20000,
         itemRewards = 2160,
         itemRewardsCount = 2,
@@ -16,8 +16,73 @@ configTasks = {
         resetCost = 12
     },
     [2] = { 
+        nameOfTheTask = "Cyclops",
+        mobsToKill = {"Cyclops", "Cyclops Drone", "Cyclops Smith"},
+        looktype = { type = 22 },
+        killsRequired = 100,
+        expReward = 20000,
+        itemRewards = 2160,
+        itemRewardsCount = 2,
+        pointsReward = 2,
+        limit = 5,
+        rewards = true,
+        resetCost = 12
+    },
+    [3] = { 
+        nameOfTheTask = "Hatchlings",
+        mobsToKill = {"Dragon Hatchling", "Dragon Lord Hatchling"},
+        looktype = { type = 271 },
+        killsRequired = 200,
+        expReward = 25000,
+        itemRewards = 2160,
+        itemRewardsCount = 3,
+        pointsReward = 3,
+        limit = 5,
+        rewards = true,
+        resetCost = 18
+    },
+    [4] = { 
+        nameOfTheTask = "Wyverns",
+        mobsToKill = {"Wyvern"},
+        looktype = { type = 239 },
+        killsRequired = 300,
+        expReward = 25000,
+        itemRewards = 2160,
+        itemRewardsCount = 4,
+        pointsReward = 4,
+        limit = 5,
+        rewards = true,
+        resetCost = 24
+    },
+    [5] = { 
+        nameOfTheTask = "Bonebeasts",
+        mobsToKill = {"Bonebeast"},
+        looktype = { type = 101 },
+        killsRequired = 300,
+        expReward = 25000,
+        itemRewards = 2160,
+        itemRewardsCount = 4,
+        pointsReward = 4,
+        limit = 5,
+        rewards = true,
+        resetCost = 24
+    },
+    [6] = { 
+        nameOfTheTask = "Ice Witchs",
+        mobsToKill = {"Ice Witch"},
+        looktype = { type = 149, feet = 105, legs = 105, head = 0, body = 47 },
+        killsRequired = 300,
+        expReward = 25000,
+        itemRewards = 2160,
+        itemRewardsCount = 4,
+        pointsReward = 4,
+        limit = 5,
+        rewards = true,
+        resetCost = 24
+    },
+    [7] = { 
         nameOfTheTask = "Dragons",
-        mobsToKill = {"Dragon", "Dragon Lord", "Hydra", "Frost Dragon"},
+        mobsToKill = {"Dragon", "Dragon Lord"},
         looktype = { type = 39, feet = 76, legs = 85, head = 19, body = 57 },
         killsRequired = 500,
         expReward = 200000,
@@ -27,10 +92,49 @@ configTasks = {
         limit = 5,
         rewards = true,
         resetCost = 30
+    },
+    [8] = { 
+        nameOfTheTask = "Lichs",
+        mobsToKill = {"Lich"},
+        looktype = { type = 99},
+        killsRequired = 500,
+        expReward = 200000,
+        itemRewards = 2160,
+        itemRewardsCount = 5,
+        pointsReward = 3,
+        limit = 5,
+        rewards = true,
+        resetCost = 30
+    },
+    [9] = { 
+        nameOfTheTask = "Hydras",
+        mobsToKill = {"Hydra"},
+        looktype = { type = 121},
+        killsRequired = 500,
+        expReward = 200000,
+        itemRewards = 2160,
+        itemRewardsCount = 5,
+        pointsReward = 3,
+        limit = 5,
+        rewards = true,
+        resetCost = 30
     },	
-    [3] = { 
-        nameOfTheTask = "Humanos",
-        mobsToKill = {"Hero", "Black Knight"},
+    [10] = { 
+        nameOfTheTask = "Frost Dragons",
+        mobsToKill = {"Frost Dragon"},
+        looktype = { type = 248},
+        killsRequired = 500,
+        expReward = 200000,
+        itemRewards = 2160,
+        itemRewardsCount = 5,
+        pointsReward = 3,
+        limit = 5,
+        rewards = true,
+        resetCost = 30
+    },
+    [11] = { 
+        nameOfTheTask = "Black Knights",
+        mobsToKill = {"Black Knight"},
         looktype = { type = 131, feet = 95, legs = 95, head = 95, body = 95},
         killsRequired = 500,
         expReward = 200000,
@@ -41,7 +145,20 @@ configTasks = {
         rewards = true,
         resetCost = 30
     },
-    [4] = { 
+    [12] = { 
+        nameOfTheTask = "Heros",
+        mobsToKill = {"Hero"},
+        looktype = { type = 73},
+        killsRequired = 500,
+        expReward = 200000,
+        itemRewards = 2160,
+        itemRewardsCount = 5,
+        pointsReward = 3,
+        limit = 4,
+        rewards = true,
+        resetCost = 30
+    },
+    [13] = { 
         nameOfTheTask = "Darkness",
         mobsToKill = {"Destroyer", "Gravedigger", "Nightmare"},
         looktype = { type = 558},
@@ -54,9 +171,9 @@ configTasks = {
         rewards = true,
         resetCost = 36
     },
-    [5] = { 
-        nameOfTheTask = "Rhinos",
-        mobsToKill = {"Stampor", "Stone Rhino"},
+    [14] = { 
+        nameOfTheTask = "Stone Rhinos",
+        mobsToKill = {"Stone Rhino"},
         looktype = { type = 936},
         killsRequired = 500,
         expReward = 300000,
@@ -67,22 +184,48 @@ configTasks = {
         rewards = true,
         resetCost = 36
     },
-    [6] = { 
-        nameOfTheTask = "Gigantes",
-        mobsToKill = {"Behemoth", "Mancubus", "Gorbalg", "Braugor", "Cyclops Drone", "Hellforger Cyclops"},
-        looktype = { type = 607},
+    [15] = { 
+        nameOfTheTask = "Stampor",
+        mobsToKill = {"Stampor"},
+        looktype = { type = 381},
         killsRequired = 500,
         expReward = 300000,
         itemRewards = 2160,
         itemRewardsCount = 6,
-        pointsReward = 4,
+        pointsReward = 3,
         limit = 4,
         rewards = true,
         resetCost = 36
     },
-    [7] = { 
-        nameOfTheTask = "Dragons II",
-        mobsToKill = {"Ghastly Dragon", "Wyrm", "Elder Wyrm", "Dragonling", "Draco", "Uruloki", "Chaos Draco", "Undead Dragon"},
+    [16] = { 
+        nameOfTheTask = "Vampires",
+        mobsToKill = {"Vampire", "Vampire Bride"},
+        looktype = { type = 312},
+        killsRequired = 500,
+        expReward = 300000,
+        itemRewards = 2160,
+        itemRewardsCount = 6,
+        pointsReward = 3,
+        limit = 4,
+        rewards = true,
+        resetCost = 36
+    },
+    [17] = { 
+        nameOfTheTask = "Gigantes",
+        mobsToKill = {"Behemoth", "Mancubus", "Gorbalg", "Braugor"},
+        looktype = { type = 607},
+        killsRequired = 500,
+        expReward = 300000,
+        itemRewards = 2160,
+        itemRewardsCount = 7,
+        pointsReward = 4,
+        limit = 4,
+        rewards = true,
+        resetCost = 42
+    },
+    [18] = { 
+        nameOfTheTask = "Dragons C. II",
+        mobsToKill = {"Ghastly Dragon", "Dragonling", "Draco", "Uruloki", "Chaos Draco", "Undead Dragon"},
         looktype = { type = 231},
         killsRequired = 500,
         expReward = 350000,
@@ -93,9 +236,22 @@ configTasks = {
         rewards = true,
         resetCost = 42
     },
-    [8] = { 
+    [19] = { 
+        nameOfTheTask = "Wyrms",
+        mobsToKill = {"Wyrm", "Elder Wyrm"},
+        looktype = { type = 291},
+        killsRequired = 500,
+        expReward = 350000,
+        itemRewards = 2160,
+        itemRewardsCount = 7,
+        pointsReward = 5,
+        limit = 4,
+        rewards = true,
+        resetCost = 42
+    },
+    [20] = { 
         nameOfTheTask = "Lizards",
-        mobsToKill = {"Lizard Leggionaire", "Lizard Zaogun", "Lizard Chosen", "Lizard High Guard", "Draken Warmaster", "Draken Spellweaver"},
+        mobsToKill = {"Lizard Leggionaire", "Lizard Zaogun", "Lizard Chosen", "Lizard High Guard", "Draken Warmaster", "Draken Spellweaver", "Draken Elite", "Draken Abomination"},
         looktype = { type = 344},
         killsRequired = 600,
         expReward = 400000,
@@ -106,9 +262,35 @@ configTasks = {
         rewards = true,
         resetCost = 48
     },
-    [9] = { 
-        nameOfTheTask = "Harlond",
-        mobsToKill = {"Oxyurus", "Medusa", "Enyd", "Terminator"},
+    [21] = { 
+        nameOfTheTask = "Oxyurus",
+        mobsToKill = {"Oxyurus"},
+        looktype = { type = 295},
+        killsRequired = 700,
+        expReward = 450000,
+        itemRewards = 2160,
+        itemRewardsCount = 10,
+        pointsReward = 5,
+        limit = 4,
+        rewards = true,
+        resetCost = 60
+    },
+    [22] = { 
+        nameOfTheTask = "Medusas",
+        mobsToKill = {"Medusa"},
+        looktype = { type = 330},
+        killsRequired = 700,
+        expReward = 450000,
+        itemRewards = 2160,
+        itemRewardsCount = 10,
+        pointsReward = 5,
+        limit = 4,
+        rewards = true,
+        resetCost = 60
+    },
+    [23] = { 
+        nameOfTheTask = "Enyds",
+        mobsToKill = {"Enyd"},
         looktype = { type = 320},
         killsRequired = 700,
         expReward = 450000,
@@ -119,9 +301,9 @@ configTasks = {
         rewards = true,
         resetCost = 60
     },
-    [10] = { 
+    [24] = { 
         nameOfTheTask = "Asuras",
-        mobsToKill = {"Dawnfire Asura", "Midnight Asura", "Frost Flower Asura"},
+        mobsToKill = {"Dawnfire Asura", "Midnight Asura", "Frost Flower Asura", "True Midnight Asura", "True Dawnfire Asura", "True Frost Flower Asura"},
         looktype = { type = 150, feet = 79, legs = 78, head = 114, body = 94},
         killsRequired = 1000,
         expReward = 500000,
@@ -132,7 +314,7 @@ configTasks = {
         rewards = true,
         resetCost = 72
     },
-    [11] = { 
+    [25] = { 
         nameOfTheTask = "Demons",
         mobsToKill = {"Demon", "Shaburak Lord", "Shaburak Prince", "Shaburak Demon"},
         looktype = { type = 417},
@@ -145,7 +327,20 @@ configTasks = {
         rewards = true,
         resetCost = 72
     },
-    [12] = { 
+    [26] = { 
+        nameOfTheTask = "Wizards",
+        mobsToKill = {"Warlock", "Solarian", "Bloodboil", "Shade of Akama"},
+        looktype = { type = 130, feet = 95, legs = 128, head = 0, body = 52},
+        killsRequired = 500,
+        expReward = 500000,
+        itemRewards = 2160,
+        itemRewardsCount = 15,
+        pointsReward = 8,
+        limit = 4,
+        rewards = true,
+        resetCost = 90
+    },
+    [27] = { 
         nameOfTheTask = "Carnivors",
         mobsToKill = {"Spiky Carnivor", "Menacing Carnivor", "Lumbering Carnivor"},
         looktype = { type = 1139, feet = 85, legs = 57, head = 79, body = 119},
@@ -158,7 +353,7 @@ configTasks = {
         rewards = true,
         resetCost = 90
     },
-    [13] = { 
+    [28] = { 
         nameOfTheTask = "Spectres",
         mobsToKill = {"Gazer Spectre", "Burster Spectre", "Shadow Spectre"},
         looktype = { type = 1122, feet = 19, legs = 86, head = 7, body = 19},
@@ -171,7 +366,7 @@ configTasks = {
         rewards = true,
         resetCost = 102
     },
-    [14] = { 
+    [29] = { 
         nameOfTheTask = "Cobras",
         mobsToKill = {"Cobra Assassin", "Cobra Scout", "Cobra Vizier"},
         looktype = { type = 1217, feet = 1, legs = 77, head = 2, body = 2},
@@ -184,7 +379,20 @@ configTasks = {
         rewards = true,
         resetCost = 108
     },
-    [15] = { 
+    [30] = { 
+        nameOfTheTask = "Lions",
+        mobsToKill = {"Werelion", "Werelioness", "White Lion"},
+        looktype = { type = 1301, feet = 10, legs = 94, head = 58, body = 2},
+        killsRequired = 1000,
+        expReward = 600000,
+        itemRewards = 2160,
+        itemRewardsCount = 18,
+        pointsReward = 10,
+        limit = 4,
+        rewards = true,
+        resetCost = 120
+    },
+    [31] = { 
         nameOfTheTask = "Wardragons",
         mobsToKill = {"Wardragon", "Dragolisk", "Mega Dragon"},
         looktype = { type = 1708},
@@ -197,7 +405,7 @@ configTasks = {
         rewards = true,
         resetCost = 132
     },
-    [16] = { 
+    [32] = { 
         nameOfTheTask = "Lost Souls",
         mobsToKill = {"Flimsy Lost Soul", "Mean Lost Soul", "Freakish Lost Soul"},
         looktype = { type = 1268, feet = 83, legs = 0, head = 0, body = 74},
@@ -210,10 +418,10 @@ configTasks = {
         rewards = true,
         resetCost = 132
     },
-    [17] = { 
-        nameOfTheTask = "Livraria",
-        mobsToKill = {"Icecold Book", "Animated Feather", "Squid Warden", "Burning Book", "Rage Squid", "Guardian Of Tales", "Energetic Book", "Energuardian of Tales", "Brain Squid", "Ink Blob", "Biting Book", "Cursed Book"},
-        looktype = { type = 1058},
+    [33] = { 
+        nameOfTheTask = "Ice Livraria",
+        mobsToKill = {"Icecold Book", "Animated Feather", "Squid Warden"},
+        looktype = {type = 1061, feet = 0, legs = 79, head = 87, body = 85},
         killsRequired = 1500,
         expReward = 1500000,
         itemRewards = 2160,
@@ -222,7 +430,46 @@ configTasks = {
         limit = 4,
         rewards = true,
         resetCost = 140
-    }
+    },
+    [34] = { 
+        nameOfTheTask = "Fire Livraria",
+        mobsToKill = {"Burning Book", "Rage Squid", "Guardian Of Tales"},
+        looktype = {type = 1061, feet = 0, legs = 78, head = 79, body = 113},
+        killsRequired = 1500,
+        expReward = 1500000,
+        itemRewards = 2160,
+        itemRewardsCount = 20,
+        pointsReward = 15,
+        limit = 4,
+        rewards = true,
+        resetCost = 140
+    },
+    [35] = { 
+        nameOfTheTask = "Energy Livraria",
+        mobsToKill = {"Energetic Book", "Energuardian of Tales", "Brain Squid"},
+        looktype = {type = 1061, feet = 0, legs = 85, head = 15, body = 91},
+        killsRequired = 1500,
+        expReward = 1500000,
+        itemRewards = 2160,
+        itemRewardsCount = 20,
+        pointsReward = 15,
+        limit = 4,
+        rewards = true,
+        resetCost = 140
+    },
+    [36] = { 
+        nameOfTheTask = "Earth Livraria",
+        mobsToKill = {"Ink Blob", "Biting Book", "Cursed Book"},
+        looktype = {type = 1061, feet = 0, legs = 113, head = 79, body = 83},
+        killsRequired = 1500,
+        expReward = 1500000,
+        itemRewards = 2160,
+        itemRewardsCount = 20,
+        pointsReward = 15,
+        limit = 4,
+        rewards = true,
+        resetCost = 140
+    },
 }
 
 for taskId, task in pairs(configTasks) do
