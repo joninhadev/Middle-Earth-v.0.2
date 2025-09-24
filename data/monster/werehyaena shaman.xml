@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Werehyaena Shaman" nameDescription="a werehyaena shaman" race="blood" experience="7500" speed="120">
+    <health now="4700" max="4700" />
+    <look type="1300" head="0" body="0" legs="94" feet="95" corpse="39593" />
+    <targetchange interval="4000" chance="10" />
+    <flags>
+        <flag summonable="0" />
+        <flag attackable="1" />
+        <flag hostile="1" />
+        <flag illusionable="0" />
+        <flag convinceable="0" />
+        <flag pushable="0" />
+        <flag canpushitems="0" />
+        <flag canpushcreatures="1" />
+        <flag targetdistance="1" />
+        <flag staticattack="90" />
+        <flag runonhealth="0" />
+        <flag canwalkonenergy="0" />
+        <flag canwalkonfire="0" />
+        <flag canwalkonpoison="0" />
+    </flags>
+    <attacks>
+        <attack name="melee" interval="2000" min="-250" max="-350" />
+		<attack name="death beam" interval="2000" chance="30" min="-250" max="-400"><!-- Death Beam  -->
+			<attribute key="shootEffect" value="death" />
+		</attack>
+		<attack name="earth" interval="2500" chance="30" range="7" radius="4" target="1" min="-250" max="-370"><!-- Bomb em Area -->
+			<attribute key="shootEffect" value="earth" />
+			<attribute key="areaEffect" value="greenspark" />
+		</attack>
+		<attack name="death" interval="2000" chance="25" target="0" radius="3" min="-220" max="-320"><!-- Exori de Morte -->
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+    </attacks>
+    <defenses armor="35" defense="35">
+        <defense name="speed" interval="2000" chance="15" speedchange="700" duration="5000">
+            <attribute key="areaEffect" value="redshimmer" />
+        </defense>
+    </defenses>
+    <elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="100"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+    </elements>
+    <immunities>
+        <immunity invisible="1" />
+    </immunities>
+    <loot>
+	<item name="platinum coin" countmax="3" chance="100000"/>
+	<item name="werehyaena nose" countmax="2" chance="50000"/>
+	<item name="red gem" chance="1500"/>
+	<item name="green crystal splinter" countmax="2" chance="1500"/>
+	<item name="ratana" chance="1000"/>
+	<item name="yellow gem" chance="2000"/>
+	<item name="axe" chance="100000"/>
+	<item name="halberd" chance="1000"/>
+	<item name="red crystal fragment" chance="2200"/>
+	<item name="hailstorm rod" chance="2500"/>
+	<item name="skull helmet" chance="500"/>
+	<item name="skull staff" chance="700"/>
+    </loot>
+</monster>

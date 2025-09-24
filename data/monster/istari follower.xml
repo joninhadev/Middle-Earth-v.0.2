@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Istari Follower" nameDescription=" um istari follower" race="blood" experience="12500" speed="170" manacost="0">
+  <health now="14000" max="14000"/>
+  <look type="309" corpse="20547"/>
+  <targetchange interval="8000" chance="20"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="1000"/>
+  </flags>
+  
+  <attacks>
+	<attack name="melee" interval="1650" min="-560" max="-850"/>
+
+	<attack name="speed" interval="5400" chance="25" range="7" speedchange="-300" duration="4000">
+		<attribute key="areaEffect" value="redshimmer"/>
+	</attack>
+
+	<attack name="manadrain" interval="2750" chance="50" range="7" min="-180" max="-300"/>
+
+	<attack name="firefield" interval="2230" chance="33" range="3" radius="2" target="1">
+		<attribute key="shootEffect" value="fire"/>
+	</attack>
+	
+	<attack name="lifedrain" interval="1720" chance="30" range="7" radius="3" target="1" min="-450" max="-600">
+      <attribute key="shootEffect" value="flammingarrow"/>
+      <attribute key="areaEffect" value="redshimmer"/>
+    </attack>
+
+	<attack name="energy" interval="2320" chance="30" target="1" range="7" min="-400" max="-800">
+		<attribute key="shootEffect" value="energy"/>
+		<attribute key="areaEffect" value="energyarea"/>
+	</attack>
+
+	<attack name="fire" interval="1800" chance="40" range="7" radius="2" target="1" min="-270" max="-600">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="explosionarea"/>
+	</attack>
+
+	<attack name="energy" interval="2550" chance="25" length="8" spread="0" min="-540" max="-900">
+		<attribute key="areaEffect" value="energy"/>
+	</attack>
+
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="4220" chance="35" min="190" max="450">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+<elements>
+	<element physicalPercent="20"/>
+	<element earthPercent="15"/>
+	<element firePercent="20"/>
+	<element deathPercent="20"/>
+	<element energyPercent="99"/>
+	<element holyPercent="20"/>
+	<element icePercent="50"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+
+<summons maxSummons="1">
+	<summon name="stone golem" interval="1000" chance="10" max="1"/>
+</summons>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Muahahahaha!!!"/>
+    
+  </voices>
+
+<loot capacity="900">
+	<item id="2148" countmax="89" chance="35000"/>
+	<item id="2148" countmax="89" chance="35000"/>
+	<item id="2446" chance="150"/>
+	<item id="2662" chance="2000"/>
+	<item id="2656" chance="500"/>
+	<item id="8879" chance="25"/>
+	<item id="2436" chance="800"/>
+	<item id="2163" chance="3000"/>
+		
+			<item id="2148" countmax="100" chance1="80000"/>
+			<item id="2146" countmax="8" chance1="950"/>
+			<item id="2600" chance="10000"/>
+			<item id="2123" chance="15"/>
+			<item id="2167" chance="750"/>
+</loot>
+
+</monster>

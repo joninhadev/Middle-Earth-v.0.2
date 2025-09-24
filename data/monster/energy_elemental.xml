@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Energy Elemental" nameDescription="an energy elemental" race="energy" experience="550" speed="115" raceid="457">
+	<health now="500" max="500"/>
+	<look type="293" corpse="8966"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="0"/>
+		<flag staticattack="85"/>
+		<flag lightlevel="0"/>
+		<flag lightcolor="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-175"/>
+		<attack name="energy" interval="2000" chance="10" range="7" radius="2" target="1" min="-125" max="-252">
+			<attribute key="shootEffect" value="energy"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="15" range="7" target="1" min="-100" max="-130">
+			<attribute key="shootEffect" value="energyball"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="energy elemental electrify" interval="2000" chance="20"/>
+	</attacks>
+	<defenses armor="15" defense="15">
+		<defense name="healing" interval="2000" chance="10" min="90" max="150">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="20"/>
+		<element earthPercent="15"/>
+		<element firePercent="20"/>
+		<element deathPercent="20"/>
+		<element energyPercent="99"/>
+		<element holyPercent="20"/>
+		<element icePercent="50"/>
+	</elements>
+	<immunities>
+		<immunity fire="1"/>
+		<immunity energy="1"/>
+		<immunity ice="1"/>
+		<immunity lifedrain="1"/>
+		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<loot>
+	</loot>
+</monster>

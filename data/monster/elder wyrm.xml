@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elder Wyrm" nameDescription="um elder wyrm" race="blood" experience="3940" speed="120" manacost="0">
+	<health now="4800" max="4800"/>
+	<look type="561" corpse="21283"/>
+	<targetchange interval="4000" chance="15"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag staticattack="80"/>
+		<flag lightlevel="0"/>
+		<flag lightcolor="0"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+	<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="10"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	
+	<attacks>
+		<attack name="melee" interval="1900" min="-250" max="-450"/>
+		<attack name="energy" interval="2500" chance="20" radius="5" target="0" min="-350" max="-450">
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+		<attack name="energy" interval="2500" chance="10" length="8" spread="0" min="-350" max="-450">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+		<attack name="death" interval="2000" chance="10" length="5" spread="2" target="1" min="-250" max="-450">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+	</defenses>
+	<immunities>
+    <immunity physical="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="GRRR!"/>
+		<voice sentence="GROOOOAAAAAAAAR!"/>
+	</voices>
+<loot>
+    <item id="2672" countmax="3" chance1="10000" chancemax="0"/> 
+	<item id="2474" chance="170"/>
+	<item id="10582" chance="300"/>
+    <item id="2492" chance="450"/>  
+    <item id="8871" chance="500"/>   
+	<item id="2148" countmax="75" chance1="40000" chancemax="0"/> 
+	<item id="2148" countmax="75" chance1="40000" chancemax="0"/> 
+	<item id="2148" countmax="75" chance1="40000" chancemax="0"/> 
+	<item id="2148" countmax="75" chance1="40000" chancemax="0"/> 
+	<item id="2148" countmax="75" chance1="40000" chancemax="0"/> 
+	<item id="2146" countmax="1" chance1="2000" chancemax="0"/> 
+	<item id="2542" chance="300"/> 
+	<item name="lightning pendant" chance="150"/>
+</loot>
+</monster>

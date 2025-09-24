@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ice Serpente" nameDescription="uma ice serpente" race="undead" experience="11500" speed="150" manacost="0">
+  <health now="10500" max="10500"/>
+  <look type="275" corpse="8307"/>
+  <targetchange interval="8000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+  <attacks>
+	<attack name="melee" interval="1800" min="-450" max="-750"/>
+
+	<attack name="speed" interval="5400" chance="35" range="7" speedchange="-450" duration="4000">
+		<attribute key="areaEffect" value="giantice"/>
+	</attack>
+
+	<attack name="manadrain" interval="2750" chance="60" range="7" min="-100" max="-200"/>
+
+	<attack name="ice" interval="2100" chance="40" target="1" range="7" min="-550" max="-850">
+		<attribute key="shootEffect" value="ice"/>
+		<attribute key="areaEffect" value="icearea"/>
+	</attack>
+
+	<attack name="ice" interval="2450" chance="50" range="7" radius="2" target="1" min="-520" max="-750">
+		<attribute key="shootEffect" value="ice"/>
+		<attribute key="areaEffect" value="giantice"/>
+	</attack>
+
+	<attack name="ice" interval="2800" chance="65" length="8" spread="0" min="-200" max="-400">
+		<attribute key="areaEffect" value="poff"/>
+	</attack>
+  </attacks>
+  
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="4220" chance="35" min="190" max="450">
+			
+		</defense>
+	</defenses>
+	
+	<elements>
+		<element firePercent="10"/>
+		<element holyPercent="30"/>
+		<element deathPercent="30"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="100"/>
+	</elements>
+  
+  <immunities>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  
+  <voices interval="2000" chance="5">
+    <voice sentence="Chrr."/>
+  </voices>
+  
+  <loot>
+    <item id="2145" countmax="1" chance1="500" chancemax="0"/> 
+	<item id="24170" chance="500"/> 
+    <item id="7902" chance="290"/> 
+	<item id="8887" chance="220"/> 
+	<item id="8878" chance="35"/> 
+	<item id="7730" chance="150"/> 
+	<item id="7892" chance="265"/> 
+	<item id="11117" chance="180"/> 
+	<item id="7893" chance="150"/> 
+	<item id="2396" chance="400"/> 
+	<item id="2445" chance="220"/> 
+	<item id="2542" chance="95"/> 
+      
+	      <item id="2148" countmax="98" chance1="45000" chancemax="0"/> 
+		  <item id="2148" countmax="98" chance1="45000" chancemax="0"/> 
+          <item id="2146" countmax="1" chance1="500" chancemax="0"/> 
+      
+  </loot>
+  
+</monster>

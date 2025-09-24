@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Stherix" script="default.lua" access="3" lookdir="2" speed="50" walkinterval="0">
+    <mana now="1000" max="1000"/>
+    <health now="1000" max="1000"/>
+    <look type="141" head="91" body="127" legs="94" feet="61" addon="3" corpse="3128"/>
+
+    <parameters>
+        <parameter key="module_shop" value="1"/>
+        <parameter key="message_greet" value="Ola. Como posso te ajudar |PLAYERNAME|?"/>
+        <parameter key="shop_buyable" value="Energy Ring,2167,3000;
+                                            Time Ring,2169,3000;
+                                            Club Ring,2209,3000;
+                                            Axe Ring,2208,3000;
+                                            Sword Ring,2207,3000;
+											Life Ring,2168,3000;
+											Might Ring,2164,30000,10;
+                                            Dwarven Ring,2213,3000;
+                                            Stealth Ring,2165,3000;
+                                            Ring of Healing,2214,3000;"/>
+    </parameters>
+</npc>

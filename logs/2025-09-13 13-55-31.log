@@ -1,0 +1,183 @@
+2025-09-13 13:55:32 -  [Thread debugging using libthread_db enabled]
+2025-09-13 13:55:32 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-09-13 13:55:32 -  [New Thread 0x7ffff5b23700 (LWP 340817)]
+2025-09-13 13:55:32 -  The OTG-BR - Version: (1.4)
+2025-09-13 13:55:32 -  Compiled with: GNU C++ version 9.4.0
+2025-09-13 13:55:32 -  Compiled on Sep 11 2025 23:45:59 for platform x64
+2025-09-13 13:55:32 -  
+2025-09-13 13:55:32 -  Engine Credits for: TFS Team, OTG Team....
+2025-09-13 13:55:32 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-09-13 13:55:32 -  
+2025-09-13 13:55:32 -  >> Loading config: config.lua
+2025-09-13 13:55:32 -  [New Thread 0x7ffff5322700 (LWP 340818)]
+2025-09-13 13:55:32 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-13 13:55:32 -   MySQL 8.0.42
+2025-09-13 13:55:32 -  >> Running database manager
+2025-09-13 13:55:32 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-13 13:55:32 -  [New Thread 0x7ffff4b0d700 (LWP 340819)]
+2025-09-13 13:55:32 -  > Optimizing table players_online... [success]
+2025-09-13 13:55:32 -  > Optimizing table player_depotitems... [success]
+2025-09-13 13:55:32 -  > Optimizing table player_items... [success]
+2025-09-13 13:55:32 -  > Optimizing table player_deaths... [success]
+2025-09-13 13:55:32 -  > Optimizing table tile_store... [success]
+2025-09-13 13:55:33 -  > Optimizing table player_storage... [success]
+2025-09-13 13:55:33 -  >> Loading vocations
+2025-09-13 13:55:33 -  >> Loading items
+2025-09-13 13:55:33 -  >> Loading script systems
+2025-09-13 13:55:33 -  >> Loading lua libs
+2025-09-13 13:55:33 -  >> Loading bestiary
+2025-09-13 13:55:33 -  >> Loading lua scripts
+2025-09-13 13:55:34 -  >> Loading monsters
+2025-09-13 13:55:34 -  >> Loading lua monsters
+2025-09-13 13:55:34 -  >> Loading outfits
+2025-09-13 13:55:34 -  >> Loading imbuements
+2025-09-13 13:55:34 -  >> Loading charms
+2025-09-13 13:55:34 -  >> Loading Store
+2025-09-13 13:55:34 -  >> Loading prey data
+2025-09-13 13:55:34 -  >> Checking world type... RETRO-PVP
+2025-09-13 13:55:34 -  >> Loading map
+2025-09-13 13:55:40 -  > Map size: 2293x2048.
+2025-09-13 13:55:55 -  > Map loading time: 21.611 seconds.
+2025-09-13 13:55:56 -  > Loaded house items in: 0.014 s
+2025-09-13 13:55:56 -  >> Loading guilds... All guilds have been loaded.
+2025-09-13 13:55:56 -  >> Initializing gamestate
+2025-09-13 13:55:57 -  > Loaded spawns in 0.859 seconds.
+2025-09-13 13:55:57 -  >> Loaded 203 npcs and spawned 25133 monsters.
+2025-09-13 13:55:57 -  >> Loaded 17 towns with 588 houses in total.
+2025-09-13 13:55:57 -  >> Start time: 13.09.2025 - 13:55:57
+2025-09-13 13:55:57 -  Initialization complete.
+2025-09-13 13:55:57 -  >> Loaded all modules, server starting up...
+2025-09-13 13:55:57 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-09-13 13:55:57 -  >> Middle Earth Server Server Online!
+2025-09-13 13:55:57 -  
+2025-09-13 13:55:57 -  >> Server started in 25.279 seconds.
+2025-09-13 13:55:57 -  Loading Benn Beckmann...
+2025-09-13 13:55:57 -  Benn Beckmann has logged in.
+2025-09-13 13:55:57 -  Loading Derethor...
+2025-09-13 13:55:57 -  Derethor has logged in.
+2025-09-13 13:55:57 -  Loading [GOD] Middle Earth...
+2025-09-13 13:55:57 -  [GOD] Middle Earth has logged in.
+2025-09-13 13:55:57 -  Loading Sauron...
+2025-09-13 13:55:57 -  Sauron has logged in.
+2025-09-13 13:55:58 -  Loading Sir Daniel...
+2025-09-13 13:55:58 -  Sir Daniel has logged in.
+2025-09-13 13:55:58 -  Loading Snop Doog...
+2025-09-13 13:55:58 -  Snop Doog has logged in.
+2025-09-13 13:55:58 -  Loading Massey...
+2025-09-13 13:55:58 -  Massey has logged in.
+2025-09-13 13:55:58 -  Loading Tolkien...
+2025-09-13 13:55:58 -  Tolkien has logged in.
+2025-09-13 13:55:58 -  Loading Autobot Onn...
+2025-09-13 13:55:58 -  Autobot Onn has logged in.
+2025-09-13 13:55:58 -  Loading Eufi...
+2025-09-13 13:55:58 -  Eufi has logged in.
+2025-09-13 13:55:58 -  Loading Drumbash Pebblebeard...
+2025-09-13 13:55:58 -  Drumbash Pebblebeard has logged in.
+2025-09-13 13:55:58 -  Loading Alexandre De Moraes...
+2025-09-13 13:55:58 -  Alexandre De Moraes has logged in.
+2025-09-13 13:55:58 -  Loading Ozymandias...
+2025-09-13 13:55:58 -  Ozymandias has logged in.
+2025-09-13 13:55:58 -  Loading Criador De Jutsu...
+2025-09-13 13:55:58 -  Criador De Jutsu has logged in.
+2025-09-13 13:55:58 -  Loading Gorbatchov...
+2025-09-13 13:55:58 -  Gorbatchov has logged in.
+2025-09-13 13:55:58 -  Loading Skull Warrior...
+2025-09-13 13:55:58 -  Skull Warrior has logged in.
+2025-09-13 13:55:58 -  Loading Black Lottus...
+2025-09-13 13:55:58 -  Black Lottus has logged in.
+2025-09-13 13:55:58 -  Loading Ogro Sinistro...
+2025-09-13 13:55:58 -  Ogro Sinistro has logged in.
+2025-09-13 13:55:58 -  Loading Sou Broxa...
+2025-09-13 13:55:58 -  Sou Broxa has logged in.
+2025-09-13 13:55:58 -  Loading Charlie Brown...
+2025-09-13 13:55:58 -  Charlie Brown has logged in.
+2025-09-13 13:55:58 -  Loading Eho Jhon...
+2025-09-13 13:55:58 -  Eho Jhon has logged in.
+2025-09-13 13:55:59 -  Loading Safe Heaven...
+2025-09-13 13:55:59 -  Safe Heaven has logged in.
+2025-09-13 13:55:59 -  Loading Illidian Rullex...
+2025-09-13 13:55:59 -  Illidian Rullex has logged in.
+2025-09-13 13:55:59 -  Loading Caduhzin Here...
+2025-09-13 13:55:59 -  Caduhzin Here has logged in.
+2025-09-13 13:55:59 -  Loading Gordaum...
+2025-09-13 13:55:59 -  Gordaum has logged in.
+2025-09-13 13:55:59 -  Loading Orc Vegano...
+2025-09-13 13:55:59 -  Orc Vegano has logged in.
+2025-09-13 13:55:59 -  Loading John Wick...
+2025-09-13 13:55:59 -  John Wick has logged in.
+2025-09-13 13:55:59 -  Loading Mano Crack...
+2025-09-13 13:55:59 -  Mano Crack has logged in.
+2025-09-13 13:55:59 -  Loading Stormy...
+2025-09-13 13:55:59 -  Stormy has logged in.
+2025-09-13 13:55:59 -  Loading Bryan Mbeumo...
+2025-09-13 13:55:59 -  Bryan Mbeumo has logged in.
+2025-09-13 13:55:59 -  Loading Kael...
+2025-09-13 13:55:59 -  Kael has logged in.
+2025-09-13 13:55:59 -  Loading Orc The Criar...
+2025-09-13 13:55:59 -  Orc The Criar has logged in.
+2025-09-13 13:56:00 -  Loading Azul...
+2025-09-13 13:56:00 -  Azul has logged in.
+2025-09-13 13:56:00 -  Loading Victorsemc...
+2025-09-13 13:56:00 -  Victorsemc has logged in.
+2025-09-13 13:56:00 -  Loading Totz...
+2025-09-13 13:56:00 -  Totz has logged in.
+2025-09-13 13:56:00 -  Loading Elrond Druid...
+2025-09-13 13:56:00 -  Elrond Druid has logged in.
+2025-09-13 13:56:00 -  Loading Amarelo...
+2025-09-13 13:56:00 -  Amarelo has logged in.
+2025-09-13 13:56:00 -  Loading Shawty...
+2025-09-13 13:56:00 -  Shawty has logged in.
+2025-09-13 13:56:00 -  Loading Nattus...
+2025-09-13 13:56:00 -  Nattus has logged in.
+2025-09-13 13:56:01 -  Loading Elven Sinistro...
+2025-09-13 13:56:01 -  Elven Sinistro has logged in.
+2025-09-13 13:56:01 -  Elven Sinistro has logged out.
+2025-09-13 13:56:01 -  Shawty has logged out.
+2025-09-13 13:56:01 -  Amarelo has logged out.
+2025-09-13 13:56:01 -  Elrond Druid has logged out.
+2025-09-13 13:56:01 -  Totz has logged out.
+2025-09-13 13:56:01 -  Azul has logged out.
+2025-09-13 13:56:01 -  Bryan Mbeumo has logged out.
+2025-09-13 13:56:01 -  Eufi has logged out.
+2025-09-13 13:56:01 -  Snop Doog has logged out.
+2025-09-13 13:56:01 -  Mano Crack has logged out.
+2025-09-13 13:56:01 -  Tolkien has logged out.
+2025-09-13 13:56:01 -  Safe Heaven has logged out.
+2025-09-13 13:56:01 -  Nattus has logged out.
+2025-09-13 13:56:01 -  Ozymandias has logged out.
+2025-09-13 13:56:01 -  Autobot Onn has logged out.
+2025-09-13 13:56:01 -  Massey has logged out.
+2025-09-13 13:56:01 -  Drumbash Pebblebeard has logged out.
+2025-09-13 13:56:01 -  Sauron has logged out.
+2025-09-13 13:56:01 -  [GOD] Middle Earth has logged out.
+2025-09-13 13:56:01 -  Gordaum has logged out.
+2025-09-13 13:56:01 -  Derethor has logged out.
+2025-09-13 13:56:01 -  Criador De Jutsu has logged out.
+2025-09-13 13:56:01 -  Gorbatchov has logged out.
+2025-09-13 13:56:01 -  Sir Daniel has logged out.
+2025-09-13 13:56:01 -  Skull Warrior has logged out.
+2025-09-13 13:56:01 -  Charlie Brown has logged out.
+2025-09-13 13:56:01 -  Black Lottus has logged out.
+2025-09-13 13:56:01 -  Orc The Criar has logged out.
+2025-09-13 13:56:01 -  Eho Jhon has logged out.
+2025-09-13 13:56:01 -  Ogro Sinistro has logged out.
+2025-09-13 13:56:01 -  Victorsemc has logged out.
+2025-09-13 13:56:01 -  Sou Broxa has logged out.
+2025-09-13 13:56:01 -  Caduhzin Here has logged out.
+2025-09-13 13:56:01 -  Alexandre De Moraes has logged out.
+2025-09-13 13:56:01 -  Illidian Rullex has logged out.
+2025-09-13 13:56:01 -  Orc Vegano has logged out.
+2025-09-13 13:56:01 -  John Wick has logged out.
+2025-09-13 13:56:02 -  Kael has logged out.
+2025-09-13 13:56:02 -  Benn Beckmann has logged out.
+2025-09-13 13:56:02 -  Stormy has logged out.
+2025-09-13 13:56:02 -  Saving server... 13/09/2025 13:56:02
+2025-09-13 13:56:02 -  > Saved house items in: 0.173 s
+2025-09-13 13:56:02 -  Shutting down...Saving server... 13/09/2025 13:56:02
+2025-09-13 13:56:02 -  > Saved house items in: 0.144 s
+2025-09-13 13:56:02 -  [Thread 0x7ffff4b0d700 (LWP 340819) exited]
+2025-09-13 13:56:02 -  [Thread 0x7ffff5322700 (LWP 340818) exited]
+2025-09-13 13:56:02 -   done!
+2025-09-13 13:56:02 -  [Thread 0x7ffff5b23700 (LWP 340817) exited]
+2025-09-13 13:56:05 -  >> Saving player items.
+2025-09-13 13:56:05 -  [Inferior 1 (process 340813) exited normally]

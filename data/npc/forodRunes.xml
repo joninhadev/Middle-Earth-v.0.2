@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Btopar" script="default.lua" access="3" walkinterval="0">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="251" head="78" body="78" legs="58" feet="0" addon="0" corpse="3128"/>
+  
+<parameters>
+  <parameter key="module_shop" value="1"/>
+  <parameter key="message_greet" value="Ola. Como posso te ajudar |PLAYERNAME|?"/>
+<parameter key="shop_buyable" value="Antidote,2266,11,0;Avalanche,2274,30,0;Avalanche,2274,44,0;Energy Bomb,2262,25,0;Energy Field,2277,10,0;Explosion,2313,60,0;Fireball,2302,6,0;Fire Bomb,2305,25,0;Fire Field,2301,10,0;Great Fireball,2304,19,0;Heavy Magic Missile,2311,12,0;Icicle,2271,12,0;Intense Healing,2265,22,0;Light Magic Missile,2287,3,0;Poison Bomb,2286,25,0;Poison Field,2285,10,0;Rejuvenation,2272,220,0;Sudden Death,2268,140,0;Ultimate Healing,2273,70,0;blank,2260,10,0"/>
+ </parameters>
+</npc>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prey>
+	<configs>
+		<config timeToFreeReroll="1200" /> <!-- minutes -->
+		<config preyDuration="7200" /> <!-- seconds -->
+		<config rerollPricePerLevel ="40" />
+	</configs>
+	<bonuses>
+		<bonus type="damageReduction" initialValue="7" step="2" />
+		<bonus type="damageBoost" initialValue="7" step="2" />
+		<bonus type="bonusExperience" initialValue="5" step="2" />
+		<bonus type="improvedLoot" initialValue="5" step="3" />
+	</bonuses>
+	<monsters>
+	
+				<!-- Falcons -->
+	<monster name="Falcon Knight"/>
+	<monster name="Falcon Paladin"/>	
+	<monster name="Braugor"/>	
+	<monster name="Gorbalg"/>	
+	<monster name="Gravedigger"/>
+	
+	<monster name="Barkless Devotee"/>
+	<monster name="Barkless Fanatic"/>
+	
+				<!-- Keepers -->
+	<monster name="Holy Keeper"/>
+	<monster name="Town Keeper"/>
+	
+				<!-- Flimsy -->
+	<monster name="Flimsy Lost Soul"/>
+	<monster name="Mean Lost Soul"/>
+	<monster name="Freakish Lost Soul"/>
+	
+				<!-- Bashmus -->
+	<monster name="Bashmu"/>
+	<monster name="Juvenile Bashmu"/>
+	
+				<!-- Livraria -->
+	<monster name="Icecold Book"/>
+	<monster name="Biting Book"/>
+	<monster name="Burning Book"/>
+	<monster name="Cursed Book"/>
+	<monster name="Energetic Book"/>
+	<monster name="Flying Book"/>
+	<monster name="Brain Squid"/>
+	<monster name="Rage Squid"/>
+	<monster name="Squid Warden"/>
+	<monster name="Ink Blob"/>
+	<monster name="Animated Feather"/>
+	<monster name="Guardian of Tales"/>
+	<monster name="Energuardian of Tales"/>
+	<monster name="Knowledge Elemental"/>
+	
+			<!-- Asuras -->
+	<monster name="Dawnfire Asura"/>
+	<monster name="Midnight Asura"/>
+	<monster name="Frost Flower Asura"/>
+	<monster name="Hellspawn"/>
+	<monster name="True Midnight Asura"/>
+	<monster name="True Dawnfire Asura"/>
+	<monster name="True Frost Flower Asura"/>
+	
+	
+			<!-- Deathlings -->
+	<monster name="Deathling Scout"/>
+	<monster name="Deathling Spellsinger"/>
+	
+			<!-- Otherworld -->
+	<monster name="Breach Brood"/>
+	<monster name="Dread Intruder"/>
+	<monster name="Spark Of Destruction"/>
+	
+	<monster name="Infernal Demon"/>
+	<monster name="Infernal Phantom"/>
+	<monster name="Brachiodemon"/>
+	
+			<!-- Ogres -->
+	<monster name="Ogre Savage"/>
+	<monster name="Ogre Brute"/>
+	<monster name="Ogre Shaman"/>
+	
+			<!-- Hive -->
+	<monster name="Kollos"/>
+	<monster name="Spidris"/>
+	
+			<!-- Werelions -->
+	<monster name="Werelion"/>
+	<monster name="Werelioness"/>
+	<monster name="White Lion"/>
+	
+			<!-- Carnivors -->
+	<monster name="Lumbering Carnivor"/>
+	<monster name="Spiky Carnivor"/>
+	<monster name="Menacing Carnivor"/>
+			
+			<!-- Shaburaks -->
+	<monster name="Shaburak Demon"/>
+	<monster name="Shaburak Lord"/>
+	<monster name="Shaburak Prince"/>
+	
+			<!-- Werehyaenas -->
+	<monster name="Werehyaena"/>
+	<monster name="Werehyaena Shaman"/>
+	
+			<!-- Cobras -->
+	<monster name="Cobra Vizier"/>
+	<monster name="Cobra Scout"/>
+	<monster name="Cobra Assassin"/>
+	
+			<!-- Spectres -->
+	<monster name="Shadow Spectre"/>
+	<monster name="Gazer Spectre"/>
+	<monster name="Ripper Spectre"/>
+	<monster name="Burster Spectre"/>
+	
+			<!-- ??? -->
+	<monster name="Choking Fear"/>
+	<monster name="Crawler"/>
+	<monster name="Cliff Strider"/>
+	<monster name="Deepling Brawler"/>
+	<monster name="Deepling Warrior"/>
+	<monster name="Deepling Master"/>
+	<monster name="Deepling Master Summon"/>
+	<monster name="Dragonling"/>
+	<monster name="Frazzlemaw"/>
+	<monster name="Ghastly Dragon"/>
+	<monster name="Guzzlemaw"/>
+	<monster name="Retching Horror"/>
+	<monster name="Ironblight"/>
+	<monster name="Magma Crawler"/>
+	<monster name="Shock Head"/>
+	<monster name="Sight Of Surrender"/>
+	<monster name="Silencer"/>
+	<monster name="Stampor"/>
+	<monster name="Stone Devourer"/>
+	<monster name="Waspoid"/>
+	<monster name="Draken Abomination"/>
+	<monster name="Draken Elite"/>
+	<monster name="Draken Spellweaver"/>
+	<monster name="Draken Warmaster"/>
+	<monster name="Elf Lightmaster"/>
+	<monster name="Elder Wyrm"/>
+	<monster name="Stone Rhino"/>
+	<monster name="Crystal Spider"/>
+	<monster name="Giant Spider"/>
+	<monster name="Hellhound"/>
+	<monster name="Yeti"/>
+	<monster name="Dark Torturer"/>
+	<monster name="Demon"/>
+	<monster name="Demon Outcast"/>
+	<monster name="Destroyer"/>
+	<monster name="Fury"/>
+	<monster name="Hand Of Cursed Fate"/>
+	<monster name="Wyrm"/>
+	<monster name="Nightmare"/>
+	<monster name="Plaguesmith"/>
+	<monster name="Dragon Lord"/>
+	<monster name="Dragon"/>
+	<monster name="Frost Dragon"/>
+	<monster name="Hydra"/>
+	<monster name="Dwarf Guard"/>
+	<monster name="Elf Ranger"/>
+	<monster name="Elf Soldier"/>
+	<monster name="Elf Arcanist"/>
+	<monster name="Spectre"/>
+	<monster name="Behemoth"/>
+	<monster name="Cyclops"/>
+	<monster name="Ancient Scarab"/>
+	<monster name="Minotaur Guard"/>
+	<monster name="Minotaur"/>
+	<monster name="Necromancer"/>
+	<monster name="Orc Warlord"/>
+	<monster name="Orc Warrior"/>
+	<monster name="Black Knight"/>
+	<monster name="Hero"/>
+	<monster name="Pirate Buccaneer"/>
+	<monster name="Pirate Corsair"/>
+	<monster name="Hellfire Fighter"/>
+	<monster name="Quara Constrictor"/>
+	<monster name="Quara Hydromancer"/>
+	<monster name="Quara Mantassin"/>
+	<monster name="Quara Pincher"/>
+	<monster name="Quara Predator"/>
+	<monster name="Serpent Spawn"/>
+	<monster name="Wyvern"/>
+	<monster name="Bonebeast"/>
+	<monster name="Demon Skeleton"/>
+	<monster name="Lost Soul"/>
+	<monster name="Undead Dragon"/>
+	<monster name="Defiler"/>
+	<monster name="Slime"/>
+	<monster name="Ice Witch"/>
+	<monster name="Warlock"/>
+	<monster name="Banshee"/>
+	<monster name="Blightwalker"/>
+	<monster name="Lich"/>
+	<monster name="Vampire"/>
+	<monster name="Dragon Hatchling"/>
+	<monster name="Dragon Lord Hatchling"/>
+	<monster name="Juggernaut"/>
+	<monster name="Frost Torog"/>
+	<monster name="Mancubus"/>
+	<monster name="Hellforger Cyclops"/>
+	<monster name="Cyclopslave"/>
+	<monster name="Abyssal Cursed Stone"/>
+	<monster name="Uruloki"/>
+	<monster name="Draco"/>
+	<monster name="Chaos Draco"/>
+	<monster name="Haunted Treeling"/>
+	<monster name="Nightstalker"/>
+	<monster name="Vampire Bride"/>
+	<monster name="Werewolf"/>
+	<monster name="Mutated Bat"/>
+	<monster name="Earth Elemental"/>
+	<monster name="Spirit Of Fire"/>
+	<monster name="Lizard Zaogun"/>
+	<monster name="Lizard Chosen"/>
+	<monster name="Lizard Dragon Priest"/>
+	<monster name="Lizard High Guard"/>
+	<monster name="Lizard Legionnaire"/>
+	<monster name="Succubus"/>
+	<monster name="Phantasm"/>
+	<monster name="Dwarf Miner"/>
+	<monster name="Skeleton Miner"/>
+	<monster name="Belzebuth Minion"/>
+	<monster name="Grim Reaper"/>
+	<monster name="Istari Follower"/>
+	<monster name="Saurons Possessed Beholder"/>
+	<monster name="Terminator"/>
+	<monster name="Mephisto"/>
+	<monster name="Allukard"/>
+	<monster name="High Elf"/>
+	<monster name="Enyd"/>
+	<monster name="Oxyurus"/>
+	<monster name="Medusa"/>
+	<monster name="Ice Serpente"/>
+	<monster name="Soul Burner"/>
+	<monster name="Solarian"/>
+	<monster name="Bloodboil"/>
+	<monster name="Shade Of Akama"/>
+	<monster name="Souleater"/>
+	<monster name="Wardragon"/>
+	<monster name="Dragolisk"/>
+	<monster name="Mega Dragon"/>
+
+
+	</monsters>
+</prey>

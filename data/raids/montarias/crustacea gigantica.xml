@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Alguns Crustacios Gigantes estão comendo os buffalos de argond, ajude-os." /> 
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Crustacea Gigantica" x="535" y="1033" z="7" />
+  <singlespawn delay="1000" name="Crustacea Gigantica" x="507" y="1010" z="7" />
+  <singlespawn delay="1000" name="Crustacea Gigantica" x="497" y="958" z="7" />
+  <singlespawn delay="1000" name="Crustacea Gigantica" x="483" y="897" z="7" />
+  <singlespawn delay="1000" name="Crustacea Gigantica" x="577" y="1006" z="7" />
+ </raid>

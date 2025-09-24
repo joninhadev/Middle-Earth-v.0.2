@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<monster name="Lost Soul" nameDescription="um lost soul" race="undead" experience="2500" speed="120">
+  <health now="8500" max="8500"/>
+  <look type="232" corpse="6310"/>
+  <targetchange interval="6000" chance="7"/>
+  <strategy attack="100" defense="20"/>
+  
+<flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-200" max="-320"/>
+
+	<attack name="lifedrain" interval="1850" chance="25" length="6" spread="0" min="-150" max="-300">
+		<attribute key="areaEffect" value="redshimmer"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+</defenses>
+<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="10"/>
+		<element icePercent="20"/>
+</elements>
+<immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+	<immunity drown="0"/>
+	<immunity ice="0"/>
+	<immunity holy="0"/>
+	<immunity death="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+<voices interval="10000" chance="10">
+	<voice sentence="Mouuuurn meeee!" yell="0"/>
+	<voice sentence="Forgive Meeeee!" yell="0"/>
+</voices>
+  
+<loot capacity="900">
+ 	<item id="2480" chance="3000"/>
+	<item id="2483" chance="3000"/>
+	<item id="2133" chance="1000"/>
+	<item id="5626" chance="300"/>
+	<item id="5801" chance="300"/>
+	<item id="2197" chance="200"/>
+	<item id="2436" chance="400"/>
+</loot>
+
+</monster>
+

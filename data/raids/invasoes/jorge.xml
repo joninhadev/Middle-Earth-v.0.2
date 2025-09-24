@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="A terrível Jormungand foi vista chegando na Cidade Bree"/>
+<announce delay="30000" type="Event" message="Preparem-se para a batalha"/>
+<announce delay="65000" type="Event" message="Os fortes lutem e os fracos corram!"/>
+<announce delay="85000" type="Event" message="Ela parece estar mais enfezada do que nunca, desta vez trouxe reforços!"/>
+
+<singlespawn delay="95000" name="Jormungand" x="742" y="544" z="7" />
+
+<announce delay="98000" type="Event" message="Jormungand chegou em Bree, so nos resta combate-la!"/>
+
+<areaspawn delay="105000" fromx="728" fromy="506" fromz="7" tox="750" toy="538" toz="7">
+	<monster name="Scorpion" amount="30" />
+</areaspawn>
+
+<areaspawn delay="115000" fromx="728" fromy="506" fromz="7" tox="750" toy="538" toz="7">
+	<monster name="Scorpion" amount="30" />
+</areaspawn>
+
+<announce delay="120000" type="Event" message="Jormungand esta acabando com a cidade de Bree! Venham ajudar!"/>
+
+<areaspawn delay="125000" fromx="728" fromy="506" fromz="7" tox="750" toy="538" toz="7">
+	<monster name="Carniphila" amount="20" />
+</areaspawn>
+
+<areaspawn delay="145000" fromx="728" fromy="506" fromz="7" tox="750" toy="538" toz="7">
+	<monster name="Beholder" amount="20" />
+</areaspawn>
+
+<areaspawn delay="165000" fromx="728" fromy="506" fromz="7" tox="750" toy="538" toz="7">
+	<monster name="Acid Blob" amount="30" />
+</areaspawn>
+
+</raid>

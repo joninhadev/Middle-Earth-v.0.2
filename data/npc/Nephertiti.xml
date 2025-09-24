@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Nephertiti" script="default.lua" access="3" walkinterval="0">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="150" head="78" body="73" legs="60" feet="19" addon="3" corpse="3128"/>
+	
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="red crystal fragment, 18420, 300;brown crystal splinter, 18417, 300;giant sapphire, 34554,150000;giant emerald, 34553, 150000;giant topaz, 37349, 150000;prismatic quartz, 27630,700; violet crystal shard, 18414, 1000;green crystal shard, 18415, 1000; hexagonal ruby,34673,50000;elven brooch,2122,200;crystal ring,2124,250;emerald bangle,2127,350;crown,2128,600;silver brooch,2134,180;black pearl,2144,150;white pearl,2143,100;silver amulet,2170,120;bronze amulet,2172,75;green gem,2155,1000;purple gem,2153,10000;white gem,37495,20000;red gem,2156,1000;yellow gem,2154,1000;blue gem,2158,1000;small topaz,9970,250;gold ring,2179,450;small emerald,2149,220;small amethyst,2150,240;small sapphire,2146,180;small ruby,2147,260;small diamond,2145,300" />
+
+		<parameter key="message_greet" value="Ola |PLAYERNAME|, eu compro joias"/>
+	</parameters>
+	
+</npc>

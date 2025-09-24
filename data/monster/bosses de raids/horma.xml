@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Horma" nameDescription="Horma" race="blood" experience="225000" speed="290" manacost="590">
+  <health now="75000" max="75000"/>
+ <look type="264" head="78" body="116" legs="95" feet="121" corpse="20339"/>
+    <targetchange interval="5500" chance="70"/>
+    <strategy attack="100" defense="0"/>
+	
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="70"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+	
+	<attacks>
+		<attack name="melee" interval="1500" min="-1000" max="-1200"/>
+		
+		<attack name="physical" interval="1420" chance="99" target="1" range="8" min="-1200" max="-1400">
+			<attribute key="shooteffect" value="whirlwindaxe"/>
+			<attribute key="areaEffect" value="redspark"/>
+		</attack>
+		
+		<attack name="physical" interval="1855" chance="75" radius="8" target="0" min="-1200" max="-1600">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+		
+		<attack name="speed" interval="3380" chance="75" radius="8" target="0" speedchange="-600" duration="3500">
+			<attribute key="areaEffect" value="whitenote"/>
+		</attack>
+	</attacks>
+	
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="500" chance="100" min="150" max="200"/>
+	</defenses>
+	
+	<elements><element physicalPercent="5"/>
+		<element icePercent="95"/>
+		<element poisonPercent="55"/>
+		<element firePercent="55"/>
+		<element energyPercent="55"/>
+		<element holyPercent="55"/>
+		<element deathPercent="55"/>
+	</elements>
+
+	<immunities>
+		<immunity drown="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="0"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	
+    <voices interval="8000" chance="10">
+      <voice sentence="Lai lai lalalai." yell="1"/>
+    </voices>
+	
+    <loot>
+		<item id="2168" chance="50000"/>
+		<item id="2168" chance="50000"/>
+		<item id="7462" chance="50000"/>
+		<item id="8887" chance="2000"/>
+		<item id="8890" chance="50000"/>
+		<item id="2454" chance="50000"/>
+    </loot>
+	
+  </monster>

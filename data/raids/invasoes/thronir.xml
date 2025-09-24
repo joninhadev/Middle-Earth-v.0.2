@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="Um bando de dwarfs saiu da montanha e esta indo atacar a cidade de Esgaroth!"/>
+<announce delay="30000" type="Event" message="Corram todos para salvar a cidade!"/>
+<announce delay="60000" type="Event" message="Nossos sentinelas avistaram mais de 300 dwarfs vindo a caminho de Esgaroth!"/>
+
+<announce delay="70000" type="Event" message="Um grupo deles ja chegou a entrada da cidade!"/>
+
+<areaspawn delay="71000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf" amount="50" />
+</areaspawn>
+
+<areaspawn delay="90000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf" amount="50" />
+</areaspawn>
+
+<announce delay="95000" type="Event" message="Os anões estão atacando a cidade de Esgaroth, ajudem!"/>
+
+<areaspawn delay="120000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="50" />
+</areaspawn>
+
+<areaspawn delay="150000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="50" />
+</areaspawn>
+
+<announce delay="160000" type="Event" message="Estão chegando cada vez mais!"/>
+
+<areaspawn delay="180000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Guard" amount="50" />
+</areaspawn>
+
+<areaspawn delay="195000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="50" />
+</areaspawn>
+
+<areaspawn delay="210000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Guard" amount="50" />
+</areaspawn>
+
+<areaspawn delay="220000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="50" />
+</areaspawn>
+
+<areaspawn delay="235000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Guard" amount="50" />
+</areaspawn>
+
+<announce delay="259000" type="Event" message="O terrivel Thronir veio ajudar seus soldados na batalha!"/>
+
+<singlespawn delay="260000" name="Thronir" x="1385" y="495" z="7" />
+
+<areaspawn delay="270000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="40" />
+</areaspawn>
+
+<areaspawn delay="280000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="40" />
+</areaspawn>
+
+<areaspawn delay="290000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="40" />
+</areaspawn>
+
+<areaspawn delay="300000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="40" />
+</areaspawn>
+
+<announce delay="305000" type="Event" message="O inimigo esta enfraquecendo, e hora de pressionar o ataque!"/>
+
+<areaspawn delay="310000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="30" />
+</areaspawn>
+
+<areaspawn delay="320000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="20" />
+</areaspawn>
+
+<areaspawn delay="330000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="10" />
+</areaspawn>
+
+<areaspawn delay="340000" fromx="1374" fromy="475" fromz="7" tox="1391" toy="509" toz="7">
+	<monster name="Dwarf Soldier" amount="10" />
+</areaspawn>
+
+
+</raid>

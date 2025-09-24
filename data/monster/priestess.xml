@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Priestess" nameDescription="uma priestess" race="blood" experience="420" speed="70" manacost="0">
+  <health now="390" max="390"/>
+  <look type="58" corpse="20491"/>
+  <targetchange interval="2000" chance="50"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+  <attacks>
+    <attack name="melee" interval="2200" min="-20" max="-60" poison="250"/>
+	
+    <attack name="physical" interval="2000" chance="25" range="7" min="-55" max="-95">
+		<attribute key="shootEffect" value="suddendeath"/>
+    </attack>
+	
+    <attack name="manadrain" interval="5200" chance="25" range="7" min="-50" max="-100"/>
+	
+  </attacks>
+
+  <defenses armor="0" defense="0">
+    <defense name="healing" interval="1700" chance="15" min="34" max="56">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <summons maxSummons="2">
+    <summon name="ghoul" interval="3000" chance="33" max="2"/>
+  </summons>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Your energy is mine."/>
+    <voice sentence="Now, your life has come to an end, hahahha!"/>
+    <voice sentence="Throw the soul on the altar!"/>
+  </voices>
+
+  <loot capacity="500">
+    	<item id="2529" chance="320"/> 
+ 	<item id="2183" chance="850"/> 
+ 	<item id="2200" chance="100"/> 
+ 	<item id="10556" chance="1500"/>
+ 	<item id="2148" countmax="40" chance1="90000"/> 
+ 	<item id="2070" chance="1000"/> 
+ 	<item id="2032" chance="2000"/> 
+	<item id="2143" countmax="1" chance1="500"/> 
+ 	<item id="2114" chance="690"/>
+ 	<item id="2134" chance="550"/> 
+	<item id="2151" countmax="1" chance1="150"/> 
+	<item id="2145" countmax="1" chance1="200"/> 
+  </loot>
+
+</monster>

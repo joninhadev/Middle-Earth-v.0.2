@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Glooth Fairy" nameDescription="um glooth fairy" race="blood" experience="600000" speed="400" manacost="490" script="rewardboss.lua">
+	<health now="85000" max="85000"/>
+	<look type="679" corpse="23343"/>
+	<targetchange interval="4000" chance="10"/>
+	
+	<flags>
+	    <flag rewardboss="1" />
+        <flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+	<attacks>
+		<attack name="melee" interval="1200" skill="150" attack="120" poison="260" />
+		<attack name="poison" interval="1500" chance="100" range="7" min="-1750" max="-2000" target="1">
+			<attribute key="shootEffect" value="greenstar" />
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="poison" interval="2500" chance="45" range="7" radius="5" min="-1800" max="-1900" target="1">
+			<attribute key="shootEffect" value="greenstar" />
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="fire" interval="3000" chance="40" range="7" length="7"  min="-2500" max="-3500" target="1">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="fire" />
+		</attack>
+		<attack name="poisoncondition" interval="3700" chance="60" radius="4" target="0" min="-1850" max="-2400">
+			<attribute key="areaEffect" value="greenshimmer" />
+		</attack>
+	</attacks>
+	
+	<defenses armor="0" defense="0"/>
+	
+	<elements>
+	<element physicalPercent="5"/>
+	<element physicalPercent="80"/>
+	<element icePercent="80"/>
+	<element poisonPercent="80"/>
+	<element firePercent="80"/>
+	<element energyPercent="80"/>
+	<element holyPercent="80"/>
+	<element deathPercent="80"/>
+	</elements>
+	
+	<voices interval="5000" chance="10">
+		<voice sentence="Il lorstok human!"/>
+		<voice sentence="Toks utat."/>
+		<voice sentence="Human, uh whil dyh!"/>
+		<voice sentence="Youh ah trak!"/>
+		<voice sentence="Let da mashing begin!"/>
+	</voices>
+	
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	  
+	  <summons maxSummons="2">
+    <summon name="walker" interval="3000" chance="50" max="2"/>
+  </summons>
+	
+	<loot>
+    <item id="23529" unique="1" chance="200" /> <!-- Glooth Spear -->
+	<item id="23549" unique="1" chance="1000" /> <!-- Glooth axe -->
+	<item id="23550" unique="1" chance="1000" /> <!-- Glooth blade -->
+	<item id="23551" unique="1" chance="1000" /> <!-- Glooth club -->
+	<item id="23666" chance="100000" />
+	<item id="23557" unique="1" chance="7000" />
+	<item id="2160" chance="15600" countmax="2" />
+	<item id="2151" chance="24500" countmax="3" />
+	<item id="2147" chance="18500" countmax="6" />
+	<item id="2149" chance="18500" countmax="6" />
+	<item id="2150" chance="18500" countmax="6" />
+	<item id="2145" chance="18500" countmax="6" />
+	</loot>
+	
+</monster>

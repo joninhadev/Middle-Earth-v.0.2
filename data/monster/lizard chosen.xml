@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lizard Chosen" nameDescription="um lizard chosen" race="blood" experience="7000" speed="150" manacost="0">
+<health now="5000" max="5000"/>
+<look type="344" corpse="11285"/>
+<targetchange interval="9000" chance="8"/>
+<strategy attack="100" defense="0"/>
+
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="1"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="0"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="90"/>
+	<flag runonhealth="50"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="1900" min="-160" max="-320"/>
+	
+	<attack name="melee" interval="8000" min="-200" max="-480" chance="80">
+		<attribute key="areaEffect" value="stun"/>
+	</attack>
+	
+	<attack name="poison" interval="2300" chance="40" range="7" radius="3" target="1" min="-200" max="-500">
+		<attribute key="shootEffect" value="whirlwindclub"/>
+		<attribute key="areaEffect" value="greenbubble"/>
+	</attack>
+	
+	<attack name="physical" interval="2500" chance="45" range="7" radius="3" target="1" min="-200" max="-550">
+		<attribute key="shootEffect" value="whirlwindclub"/>
+		<attribute key="areaEffect" value="poff"/>
+	</attack>
+	
+	<attack name="physical" interval="2800" chance="50" target="0" radius="2" min="-300" max="-600">
+		<attribute key="areaEffect" value="redspark"/>
+	</attack>
+	
+	<attack name="poisoncondition" interval="6100" chance="60" range="1" target="1" start="300">
+		<attribute key="areaEffect" value="greenbubble"/>
+	</attack>
+
+</attacks>
+
+	<defenses armor="0" defense="0"/>
+	
+	<elements>
+		<element firePercent="10"/>
+		<element holyPercent="20"/>
+		<element deathPercent="20"/>
+		<element earthPercent="100"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="20"/>
+		<element icePercent="30"/>
+	</elements>
+	
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	
+	<voices interval="5000" chance="10">
+		<voice sentence="Ssssss!"/>
+	</voices>
+	
+	<loot>
+		<item id="5876" chance="13000"/> 
+		<item id="5881" chance="3000"/> 
+		<item id="11302" chance="120"/> 
+		<item id="11301" chance="120"/> 
+		<item id="2459" chance="880"/> 
+		<item id="7885" chance="430"/> 
+		<item id="11308" chance="90"/> 
+		<item id="7427" chance="310"/> 
+		<item id="7886" chance="450"/> 
+		<item id="2672" countmax="5" chance="10200"/> 	
+		<item id="2155" chance="510"/> 
+		<item id="2149" countmax="5" chance="650"/> 
+		<item id="2148" countmax="65" chance="35000"/> 
+		<item id="2148" countmax="65" chance="35000"/> 
+		<item id="2148" countmax="65" chance="35000"/> 
+	</loot>
+</monster>
+
+
+
+
+
+
+
+
+
+
+

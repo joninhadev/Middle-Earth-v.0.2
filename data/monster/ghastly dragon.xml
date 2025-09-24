@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ghastly Dragon" nameDescription="a ghastly dragon" race="undead" experience="3200" speed="140" manacost="0">
+<health now="4200" max="4200"/>
+<look type="351" corpse="11362"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="366"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-150" max="-250"/>
+		<attack name="poisoncondition" interval="2000" chance="15" target="1" range="7" min="-250" max="-400">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="25" range="7" target="1" min="-120" max="-250">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="30" range="7" target="1" min="-300" max="-500">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="10" radius="4" min="-80" max="-200">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="speed" interval="2000" chance="10" speedchange="550" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="100"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+		<immunity death="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="EMBRACE MY GIFTS!" yell="1"/>
+		<voice sentence="I WILL FEAST ON YOUR SOUL!" yell="1"/>
+	</voices>
+	<loot>
+		<item id="2495" chance="320" /><!-- demon legs-->
+        <item id="8883" chance="400" />
+		<item id="24663" chance="1500" />
+	    <item id="2640" chance="250" /><!-- soft boots-->
+	    <item id="21452" chance="350" /><!-- nail case-->
+		<item id="2148" countmax="300" chance="100000"/>
+        <item id="2672" countmax="5" chance="80000"/>
+	</loot>
+</monster>

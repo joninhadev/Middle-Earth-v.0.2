@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draken Spellweaver" nameDescription="a draken spellweaver" race="blood" experience="5500" speed="150" manacost="0">
+	<health now="6500" max="6500"/>
+	<look type="340" corpse="11316"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1900" min="-240" max="-320"/>
+		<attack name="fire" interval="2000" chance="15" range="7" radius="1" target="1" min="-280" max="-400">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" interval="1800" chance="40" length="4" spread="3" min="-280" max="-380">
+			<attribute key="shootEffect" value="explosion"/>
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="30" range="7" target="1" min="-200" max="-350">
+			<attribute key="shootEffect" value="energyball"/>
+			<attribute key="areaEffect" value="energy"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="6" target="0" radius="6" min="-200" max="-380">			
+		<attribute key="areaEffect" value="poff"/>		
+		</attack>	
+		</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="invisible" interval="2000" chance="10">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item id="2152" countmax="5" chance="6600" /><!-- Platinum -->
+		<item id="2148" countmax="100" chance="41300" /><!-- Gold -->
+		<item id="2148" countmax="98" chance="41300" /><!-- Gold -->
+		<item id="2147" countmax="5" chance="1725" /><!-- Emerald -->
+		<item id="8871" chance="100" /><!-- Focus Cape -->
+		<item id="2666" chance="30400" /><!-- Meat -->
+		<item id="11303" chance="320" /><!-- Z. Boots -->
+		<item id="2187" chance="800" /><!-- WOI -->
+		<item id="11314" chance="15525" /><!-- weaver's wandtip -->
+		<item id="2123" chance="100" /><!-- Ring Of the Sky -->
+		<item id="11304" chance="280" /><!-- Z. Legs -->
+		<item id="12614" chance="1500"/><!-- Draken Sulphur -->
+	</loot>
+</monster>

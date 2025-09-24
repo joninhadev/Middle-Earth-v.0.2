@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Venerable Girtablilu" nameDescription="a Venerable Girtablilu" race="undead" experience="11300" speed="220">
+	<health now="8500" max="8500" />
+	<look type="1407" head="19" body="39" legs="114" feet="3" addons="3" corpse="42356" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="4" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-200" max="-400" />
+	    <attack name="death" interval="2080" chance="50" range="4" min="-250" max="-360">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="death" interval="2000" chance="55" target="1" radius="4" min="-300" max="-350"><!-- UE EM DEATH -->
+		<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="35" target="0" radius="4" min="-320" max="-400"><!-- UE EM EARTH -->
+		<attribute key="areaEffect" value="explosion"/>
+		</attack>			
+	</attacks>
+	<defenses armor="65" defense="80">
+		<defense name="healing" interval="2000" chance="10" min="60" max="100">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="30"/>
+		<element earthPercent="100"/>
+		<element firePercent="30"/>
+		<element deathPercent="99"/>
+		<element energyPercent="20"/>
+		<element holyPercent="20"/>
+		<element icePercent="20"/>
+	</elements>
+	<immunities>
+		<immunity earth="1" />
+		<immunity invisible="1" />
+	</immunities>
+
+	<loot>
+		<item name="green gem" chance="3000"/>
+		<item name="red gem" chance="3000"/>
+		<item name="yellow gem" chance="3000"/>
+		<item name="platinum coin" countmax="5" chance="399999"/>
+		<item name="gold coin" countmax="100" chance="399999"/>
+		<item name="violet crystal shard" countmax="2" chance="1500"/>
+		<item name="blue crystal shard" countmax="2" chance="1500"/>
+	</loot>
+</monster>

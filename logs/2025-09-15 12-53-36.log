@@ -1,0 +1,260 @@
+2025-09-15 12:53:38 -  [Thread debugging using libthread_db enabled]
+2025-09-15 12:53:38 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-09-15 12:53:38 -  [New Thread 0x7ffff5b23700 (LWP 366217)]
+2025-09-15 12:53:38 -  The OTG-BR - Version: (1.4)
+2025-09-15 12:53:38 -  Compiled with: GNU C++ version 9.4.0
+2025-09-15 12:53:38 -  Compiled on Sep 11 2025 23:45:59 for platform x64
+2025-09-15 12:53:38 -  
+2025-09-15 12:53:38 -  Engine Credits for: TFS Team, OTG Team....
+2025-09-15 12:53:38 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-09-15 12:53:38 -  
+2025-09-15 12:53:38 -  >> Loading config: config.lua
+2025-09-15 12:53:38 -  [New Thread 0x7ffff5322700 (LWP 366218)]
+2025-09-15 12:53:38 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-15 12:53:38 -   MySQL 8.0.42
+2025-09-15 12:53:38 -  >> Running database manager
+2025-09-15 12:53:38 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-15 12:53:38 -  [New Thread 0x7ffff4b0d700 (LWP 366219)]
+2025-09-15 12:53:38 -  > Optimizing table players_online... [success]
+2025-09-15 12:53:38 -  > Optimizing table player_depotitems... [success]
+2025-09-15 12:53:39 -  > Optimizing table player_items... [success]
+2025-09-15 12:53:39 -  > Optimizing table player_deaths... [success]
+2025-09-15 12:53:39 -  > Optimizing table player_storage... [success]
+2025-09-15 12:53:39 -  >> Loading vocations
+2025-09-15 12:53:39 -  >> Loading items
+2025-09-15 12:53:40 -  >> Loading script systems
+2025-09-15 12:53:40 -  >> Loading lua libs
+2025-09-15 12:53:41 -  >> Loading bestiary
+2025-09-15 12:53:41 -  >> Loading lua scripts
+2025-09-15 12:53:41 -  >> Loading monsters
+2025-09-15 12:53:42 -  >> Loading lua monsters
+2025-09-15 12:53:42 -  >> Loading outfits
+2025-09-15 12:53:42 -  >> Loading imbuements
+2025-09-15 12:53:42 -  >> Loading charms
+2025-09-15 12:53:42 -  >> Loading Store
+2025-09-15 12:53:42 -  >> Loading prey data
+2025-09-15 12:53:42 -  >> Checking world type... RETRO-PVP
+2025-09-15 12:53:42 -  >> Loading map
+2025-09-15 12:53:54 -  > Map size: 2293x2048.
+2025-09-15 12:54:11 -  > Map loading time: 28.901 seconds.
+2025-09-15 12:54:12 -  > Loaded house items in: 0.015 s
+2025-09-15 12:54:12 -  >> Loading guilds... All guilds have been loaded.
+2025-09-15 12:54:12 -  >> Initializing gamestate
+2025-09-15 12:54:12 -  > Loaded spawns in 0.782 seconds.
+2025-09-15 12:54:12 -  >> Loaded 203 npcs and spawned 25133 monsters.
+2025-09-15 12:54:12 -  >> Loaded 17 towns with 588 houses in total.
+2025-09-15 12:54:12 -  >> Start time: 15.09.2025 - 12:54:12
+2025-09-15 12:54:12 -  Initialization complete.
+2025-09-15 12:54:12 -  >> Loaded all modules, server starting up...
+2025-09-15 12:54:12 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-09-15 12:54:12 -  >> Server started in >> Middle Earth Server Server Online!
+2025-09-15 12:54:12 -  
+2025-09-15 12:54:12 -  34.162 seconds.
+2025-09-15 12:54:13 -  Loading Verity...
+2025-09-15 12:54:13 -  Verity has logged in.
+2025-09-15 12:54:13 -  Loading Kael...
+2025-09-15 12:54:13 -  Kael has logged in.
+2025-09-15 12:54:13 -  Loading Ogro Sinistro...
+2025-09-15 12:54:13 -  Ogro Sinistro has logged in.
+2025-09-15 12:54:13 -  Loading Elven Sinistro...
+2025-09-15 12:54:13 -  Elven Sinistro has logged in.
+2025-09-15 12:54:13 -  Loading Tolkien...
+2025-09-15 12:54:13 -  Tolkien has logged in.
+2025-09-15 12:54:13 -  Loading Stormy...
+2025-09-15 12:54:13 -  Stormy has logged in.
+2025-09-15 12:54:13 -  Loading Babalu...
+2025-09-15 12:54:13 -  Babalu has logged in.
+2025-09-15 12:54:13 -  Loading Antedeguemon...
+2025-09-15 12:54:13 -  Antedeguemon has logged in.
+2025-09-15 12:54:13 -  Loading Safe Heaven...
+2025-09-15 12:54:13 -  Safe Heaven has logged in.
+2025-09-15 12:54:13 -  Loading Autobot Onn...
+2025-09-15 12:54:13 -  Autobot Onn has logged in.
+2025-09-15 12:54:13 -  Loading Gorbatchov...
+2025-09-15 12:54:13 -  Gorbatchov has logged in.
+2025-09-15 12:54:13 -  Loading Lutaki Bebo...
+2025-09-15 12:54:13 -  Lutaki Bebo has logged in.
+2025-09-15 12:54:13 -  Loading John Wick...
+2025-09-15 12:54:13 -  John Wick has logged in.
+2025-09-15 12:54:13 -  Loading Elrond Druid...
+2025-09-15 12:54:13 -  Elrond Druid has logged in.
+2025-09-15 12:54:13 -  Loading Joninha...
+2025-09-15 12:54:13 -  Joninha has logged in.
+2025-09-15 12:54:13 -  Loading Eho Jhon...
+2025-09-15 12:54:13 -  Eho Jhon has logged in.
+2025-09-15 12:54:13 -  Loading Kyou Kai...
+2025-09-15 12:54:13 -  Kyou Kai has logged in.
+2025-09-15 12:54:13 -  Loading Magic Of Caos...
+2025-09-15 12:54:13 -  Magic Of Caos has logged in.
+2025-09-15 12:54:13 -  Loading Nightwolf...
+2025-09-15 12:54:13 -  Nightwolf has logged in.
+2025-09-15 12:54:13 -  Loading Illidian Rullex...
+2025-09-15 12:54:13 -  Illidian Rullex has logged in.
+2025-09-15 12:54:13 -  Loading Muzan...
+2025-09-15 12:54:13 -  Muzan has logged in.
+2025-09-15 12:54:13 -  Loading Andin Inevitavel...
+2025-09-15 12:54:14 -  Andin Inevitavel has logged in.
+2025-09-15 12:54:14 -  Loading Mano Crack...
+2025-09-15 12:54:14 -  Mano Crack has logged in.
+2025-09-15 12:54:14 -  Loading Orc Vegano...
+2025-09-15 12:54:14 -  Orc Vegano has logged in.
+2025-09-15 12:54:14 -  Loading Orc The Criar...
+2025-09-15 12:54:14 -  Orc The Criar has logged in.
+2025-09-15 12:54:14 -  Loading Maker Hydra...
+2025-09-15 12:54:14 -  Maker Hydra has logged in.
+2025-09-15 12:54:14 -  Loading Benn Beckmann...
+2025-09-15 12:54:14 -  Benn Beckmann has logged in.
+2025-09-15 12:54:14 -  Loading Enfermeira Joy...
+2025-09-15 12:54:14 -  Enfermeira Joy has logged in.
+2025-09-15 12:54:14 -  Loading Caduhzin Here...
+2025-09-15 12:54:14 -  Caduhzin Here has logged in.
+2025-09-15 12:54:14 -  Loading Derethor...
+2025-09-15 12:54:14 -  Derethor has logged in.
+2025-09-15 12:54:14 -  Loading Roxo...
+2025-09-15 12:54:14 -  Roxo has logged in.
+2025-09-15 12:54:14 -  Loading Awesome Sophia...
+2025-09-15 12:54:14 -  Awesome Sophia has logged in.
+2025-09-15 12:54:14 -  Loading Skull Warrior...
+2025-09-15 12:54:14 -  Skull Warrior has logged in.
+2025-09-15 12:54:14 -  Loading Marmaduk Com Alzheime...
+2025-09-15 12:54:14 -  Marmaduk Com Alzheime has logged in.
+2025-09-15 12:54:15 -  Loading Branco...
+2025-09-15 12:54:15 -  Branco has logged in.
+2025-09-15 12:54:15 -  Loading Lic Loc...
+2025-09-15 12:54:15 -  Lic Loc has logged in.
+2025-09-15 12:54:15 -  Loading Totz...
+2025-09-15 12:54:15 -  Totz has logged in.
+2025-09-15 12:54:15 -  Loading Silveex...
+2025-09-15 12:54:15 -  Silveex has logged in.
+2025-09-15 12:54:15 -  Loading Gynga Bilola...
+2025-09-15 12:54:15 -  Gynga Bilola has logged in.
+2025-09-15 12:54:15 -  Loading Mono Dedo...
+2025-09-15 12:54:15 -  Mono Dedo has logged in.
+2025-09-15 12:54:15 -  Loading Almoco De Peixe Frito...
+2025-09-15 12:54:15 -  Almoco De Peixe Frito has logged in.
+2025-09-15 12:54:15 -  Loading Druid Sinistro...
+2025-09-15 12:54:15 -  Druid Sinistro has logged in.
+2025-09-15 12:54:16 -  Loading Xupaengola...
+2025-09-15 12:54:16 -  Xupaengola has logged in.
+2025-09-15 12:54:18 -  Loading Aleska Teodoro...
+2025-09-15 12:54:18 -  Aleska Teodoro has logged in.
+2025-09-15 12:54:21 -  Loading Putifero...
+2025-09-15 12:54:21 -  Putifero has logged in.
+2025-09-15 12:54:22 -  Loading Porno Gay...
+2025-09-15 12:54:22 -  Porno Gay has logged in.
+2025-09-15 12:54:22 -  Loading [GOD] Middle Earth...
+2025-09-15 12:54:22 -  [GOD] Middle Earth has logged in.
+2025-09-15 12:54:22 -  Loading Arthur Leywin...
+2025-09-15 12:54:22 -  Arthur Leywin has logged in.
+2025-09-15 12:54:22 -  Loading Alagoano Alma...
+2025-09-15 12:54:22 -  Alagoano Alma has logged in.
+2025-09-15 12:54:22 -  Loading Negrosaki...
+2025-09-15 12:54:22 -  Negrosaki has logged in.
+2025-09-15 12:54:24 -  Loading Czolg Wojenny...
+2025-09-15 12:54:24 -  Czolg Wojenny has logged in.
+2025-09-15 12:54:26 -  Loading Suukram...
+2025-09-15 12:54:26 -  Suukram has logged in.
+2025-09-15 12:54:27 -  Loading Mellion Adyarus...
+2025-09-15 12:54:27 -  Mellion Adyarus has logged in.
+2025-09-15 12:54:30 -  Loading Receptaculo...
+2025-09-15 12:54:30 -  Receptaculo has logged in.
+2025-09-15 12:54:33 -  Loading Nattus...
+2025-09-15 12:54:33 -  Nattus has logged in.
+2025-09-15 12:54:35 -  Loading Karol Star...
+2025-09-15 12:54:35 -  Karol Star has logged in.
+2025-09-15 12:54:40 -  Loading Skylline...
+2025-09-15 12:54:40 -  Skylline has logged in.
+2025-09-15 12:54:45 -  Loading [CM] Middle Earth...
+2025-09-15 12:54:45 -  [CM] Middle Earth has logged in.
+2025-09-15 12:54:53 -  Loading Jumahu...
+2025-09-15 12:54:53 -  Jumahu has logged in.
+2025-09-15 12:54:54 -  Loading Logitch...
+2025-09-15 12:54:54 -  Logitch has logged in.
+2025-09-15 12:54:55 -  Loading Alone Schadeck...
+2025-09-15 12:54:55 -  Alone Schadeck has logged in.
+2025-09-15 12:54:55 -  Loading Paramax...
+2025-09-15 12:54:55 -  Paramax has logged in.
+2025-09-15 12:54:57 -  Loading Elzinho Druid...
+2025-09-15 12:54:57 -  Elzinho Druid has logged in.
+2025-09-15 12:55:03 -  Loading Zuckinha Pastor...
+2025-09-15 12:55:03 -  Zuckinha Pastor has logged in.
+2025-09-15 12:55:05 -  Loading Jordin Sparks...
+2025-09-15 12:55:05 -  Jordin Sparks has logged in.
+2025-09-15 12:55:15 -  Loading Sacolin...
+2025-09-15 12:55:15 -  Sacolin has logged in.
+2025-09-15 12:55:44 -  Sacolin has logged out.
+2025-09-15 12:55:44 -  Elzinho Druid has logged out.
+2025-09-15 12:55:44 -  Paramax has logged out.
+2025-09-15 12:55:44 -  Alone Schadeck has logged out.
+2025-09-15 12:55:44 -  Logitch has logged out.
+2025-09-15 12:55:44 -  Enfermeira Joy has logged out.
+2025-09-15 12:55:44 -  Lic Loc has logged out.
+2025-09-15 12:55:44 -  Orc The Criar has logged out.
+2025-09-15 12:55:44 -  Eho Jhon has logged out.
+2025-09-15 12:55:44 -  Roxo has logged out.
+2025-09-15 12:55:44 -  Benn Beckmann has logged out.
+2025-09-15 12:55:44 -  Joninha has logged out.
+2025-09-15 12:55:44 -  Jordin Sparks has logged out.
+2025-09-15 12:55:44 -  Kael has logged out.
+2025-09-15 12:55:44 -  Stormy has logged out.
+2025-09-15 12:55:44 -  Czolg Wojenny has logged out.
+2025-09-15 12:55:44 -  Orc Vegano has logged out.
+2025-09-15 12:55:44 -  Silveex has logged out.
+2025-09-15 12:55:44 -  Mono Dedo has logged out.
+2025-09-15 12:55:44 -  Magic Of Caos has logged out.
+2025-09-15 12:55:44 -  Kyou Kai has logged out.
+2025-09-15 12:55:44 -  Antedeguemon has logged out.
+2025-09-15 12:55:44 -  Marmaduk Com Alzheime has logged out.
+2025-09-15 12:55:44 -  Illidian Rullex has logged out.
+2025-09-15 12:55:44 -  Negrosaki has logged out.
+2025-09-15 12:55:44 -  Andin Inevitavel has logged out.
+2025-09-15 12:55:44 -  Nightwolf has logged out.
+2025-09-15 12:55:44 -  Caduhzin Here has logged out.
+2025-09-15 12:55:44 -  Maker Hydra has logged out.
+2025-09-15 12:55:44 -  Porno Gay has logged out.
+2025-09-15 12:55:44 -  Elrond Druid has logged out.
+2025-09-15 12:55:44 -  Autobot Onn has logged out.
+2025-09-15 12:55:44 -  Receptaculo has logged out.
+2025-09-15 12:55:44 -  Verity has logged out.
+2025-09-15 12:55:44 -  Tolkien has logged out.
+2025-09-15 12:55:44 -  Skull Warrior has logged out.
+2025-09-15 12:55:44 -  Ogro Sinistro has logged out.
+2025-09-15 12:55:44 -  Almoco De Peixe Frito has logged out.
+2025-09-15 12:55:44 -  Mano Crack has logged out.
+2025-09-15 12:55:44 -  Mellion Adyarus has logged out.
+2025-09-15 12:55:44 -  Babalu has logged out.
+2025-09-15 12:55:44 -  John Wick has logged out.
+2025-09-15 12:55:44 -  Gynga Bilola has logged out.
+2025-09-15 12:55:44 -  Lutaki Bebo has logged out.
+2025-09-15 12:55:44 -  Gorbatchov has logged out.
+2025-09-15 12:55:44 -  Safe Heaven has logged out.
+2025-09-15 12:55:44 -  Derethor has logged out.
+2025-09-15 12:55:44 -  Awesome Sophia has logged out.
+2025-09-15 12:55:44 -  Branco has logged out.
+2025-09-15 12:55:44 -  Totz has logged out.
+2025-09-15 12:55:44 -  [CM] Middle Earth has logged out.
+2025-09-15 12:55:44 -  Elven Sinistro has logged out.
+2025-09-15 12:55:44 -  Skylline has logged out.
+2025-09-15 12:55:44 -  Zuckinha Pastor has logged out.
+2025-09-15 12:55:44 -  Druid Sinistro has logged out.
+2025-09-15 12:55:44 -  Xupaengola has logged out.
+2025-09-15 12:55:44 -  Putifero has logged out.
+2025-09-15 12:55:44 -  [GOD] Middle Earth has logged out.
+2025-09-15 12:55:44 -  Aleska Teodoro has logged out.
+2025-09-15 12:55:44 -  Arthur Leywin has logged out.
+2025-09-15 12:55:44 -  Alagoano Alma has logged out.
+2025-09-15 12:55:44 -  Muzan has logged out.
+2025-09-15 12:55:44 -  Nattus has logged out.
+2025-09-15 12:55:45 -  Suukram has logged out.
+2025-09-15 12:55:45 -  Karol Star has logged out.
+2025-09-15 12:55:45 -  Jumahu has logged out.
+2025-09-15 12:55:45 -  Saving server... 15/09/2025 12:55:45
+2025-09-15 12:55:45 -  > Saved house items in: 0.167 s
+2025-09-15 12:55:45 -  Shutting down...Saving server... 15/09/2025 12:55:45
+2025-09-15 12:55:45 -  > Saved house items in: 0.146 s
+2025-09-15 12:55:45 -  [Thread 0x7ffff4b0d700 (LWP 366219) exited]
+2025-09-15 12:55:45 -  [Thread 0x7ffff5322700 (LWP 366218) exited]
+2025-09-15 12:55:45 -   done!
+2025-09-15 12:55:45 -  [Thread 0x7ffff5b23700 (LWP 366217) exited]
+2025-09-15 12:55:48 -  >> Saving player items.
+2025-09-15 12:55:49 -  [Inferior 1 (process 366213) exited normally]

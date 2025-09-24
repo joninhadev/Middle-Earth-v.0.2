@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crypt Warden" nameDescription="a crypt warden" race="blood" experience="16200" speed="145">
+	<health now="8300" max="8300"/>
+	<look type="1190" head="41" body="38" legs="0" feet="0" corpse="36364"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+		<flag canwalkonpoison="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-344" max="-600"/>
+		<attack name="warden x" interval="2000" chance="15" min="-300" max="-516"/>
+		<attack name="warden ring" interval="2000" chance="8" min="-300" max="-456"/>
+		<attack name="earth" interval="2000" chance="12" radius="2" min="-240" max="-576">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</attack>
+		<attack name="holy" interval="2000" chance="13" length="5" spread="0" min="-360" max="-540">
+			<attribute key="areaEffect" value="holyarea"/>
+		</attack>
+	</attacks>
+
+	<defenses armor="84" defense="84"/>
+	<elements>
+		<element firePercent="50"/>
+		<element holyPercent="100"/>
+		<element deathPercent="5"/>
+		<element earthPercent="50"/>
+		<element energyPercent="10"/>
+		<element physicalPercent="10"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item name="platinum coin" countmax="3" chance="100000"/>
+		<item name="cyan crystal fragment" chance="13670"/>
+		<item name="green crystal fragment" chance="1770"/>
+		<item name="lamassu horn" chance="10770"/>
+		<item name="lamassu hoof" chance="9700"/>
+		<item name="small amethyst" chance="8680"/>
+		<item name="green gem" chance="1290"/>
+	</loot>
+</monster>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="True Frost Flower Asura" nameDescription="a true frost flower asura" race="blood" experience="7830" speed="180">
+	<health now="4000" max="4000" />
+	<look type="1068" head="58" body="0" legs="19" feet="38" addons="2" corpse="33182" />
+	<targetchange interval="4000" chance="5" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="3" />
+		<flag staticattack="1" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-300" max="-540" />
+		<attack name="ice" interval="2000" chance="10" length="8" spread="0" min="-350" max="-400">
+			<attribute key="areaEffect" value="purpleenergy" />
+		</attack>
+		<attack name="ice" interval="2000" chance="10" length="8" spread="0" min="-485" max="-495">
+			<attribute key="areaEffect" value="icetornado" />
+		</attack>
+		<attack name="ice" interval="2000" chance="20" range="4" min="-380" max="-415">
+			<attribute key="shootEffect" value="ice" />
+		</attack>
+		<attack name="manadrain" interval="2000" chance="10" radius="4" target="1" min="-50" max="-300">
+			<attribute key="areaEffect" value="stun" />
+		</attack>
+	</attacks>
+	<defenses armor="55" defense="55">
+		<defense name="healing" interval="2000" chance="15" min="130" max="170">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="10"/>
+		<element holyPercent="30"/>
+		<element deathPercent="30"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="100"/>
+	</elements>
+	<immunities>
+		<immunity ice="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="7">
+		<voice sentence="Ah, the sweet music of a beating heart!" />
+		<voice sentence="Death and Darkness"/>
+		<voice sentence="Embrace the night!" />
+		<voice sentence="May night fall upon you!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="180" chance="100000" /><!-- gold coin -->
+		<item id="2152" countmax="3" chance="100000"/><!-- platinum coin -->	
+		<item id="2170" countmax="1" chance="880"/><!-- Crystal coin -->				
+		<item id="7590" countmax="2" chance="1070" /><!-- Great Mana Potion -->		
+		<item id="2147" countmax="1" chance="410" /><!-- Small Ruby -->						
+		<item id="6500" chance="22120" /><!-- Demonic Essence -->
+		<item id="2145" countmax="2" chance="480" /><!-- Smal Diamond -->			
+		<item id="2149" countmax="5" chance="460" /><!-- Small Emerald -->	
+		<item id="2150" countmax="2" chance="410" /><!-- Small Amethyst -->	
+		<item id="9970" coutnmax="2" chance="450" /><!-- Small Topaz -->	
+		<item id="2147" coutnmax="2" chance="450" /><!-- Small Ruby -->		
+	</loot>
+</monster>

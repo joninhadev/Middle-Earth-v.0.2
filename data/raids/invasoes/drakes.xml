@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="3 enormes Dragões foram avistados chegando a Edoras!"/>
+<announce delay="25000" type="Event" message="Corram todos para salvar a cidade!"/>
+<announce delay="45000" type="Event" message="Os fracos, corram para suas casas!"/>
+
+<announce delay="65000" type="Event" message="Um enorme dragão venenoso está na entrada de Edoras!"/>
+<announce delay="95000" type="Event" message="Um terrível dragão de gelo chegou dentro da cidade!"/>
+<announce delay="125000" type="Event" message="Um feroz dragão de fogo chegou ao lado do depot de Edoras!"/>
+
+<singlespawn delay="60000" name="Venom Drake" x="1063" y="985" z="7" />
+<singlespawn delay="90000" name="Ice Drake" x="1073" y="999" z="6" />
+<singlespawn delay="120000" name="Fire Drake" x="1065" y="1005" z="5" />
+
+<announce delay="180000" type="Event" message="Os 3 dragoes estao acabando com a cidade de Edoras! Venham ajudar!"/>
+<announce delay="240000" type="Event" message="Os 3 dragoes estao acabando com a cidade de Edoras! Venham ajudar!"/>
+<announce delay="600000" type="Event" message="A cidade esta salva, mas inumeros guerreiros perderam suas vidas"/>
+</raid>

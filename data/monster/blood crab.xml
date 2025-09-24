@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Blood Crab" nameDescription="um blood crab" race="blood" experience="160" speed="150" manacost="505">
+  <health now="290" max="290"/>
+  <look type="200" head="0" body="0" legs="0" feet="0" corpse="6075"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="50" attack="30"/>
+    </attacks>
+  <defenses armor="0" defense="0"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+  </voices>
+  <loot capacity="600">
+      <item id="2148" countmax="30" chance1="80000"/>
+	<item id="2667" countmax="2" chance1="15000"/>
+ 	<item id="2478" chance="2000"/>
+	<item id="10550" chance="3000"/>
+ 	<item id="2143" countmax="1" chance1="4000"/>
+  </loot>
+</monster>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Enlightened of the Cult" nameDescription="um enlightened of the cult" race="blood" experience="500" speed="95" manacost="0">
+  <health now="700" max="700"/>
+  <look type="193" corpse="20391"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="3"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-60" max="-140"/>
+
+	<attack name="energy" interval="1600" chance="18" length="8" spread="0" min="-120" max="-160">
+		<attribute key="areaEffect" value="energy"/>
+	</attack>
+
+	<attack name="energyfield" interval="1000" chance="20" range="8" radius="3" target="1">
+		<attribute key="shootEffect" value="energy"/>
+	</attack>
+
+	<attack name="energy" interval="1600" chance="45" range="6" target="1" min="-30" max="-80">
+		<attribute key="shootEffect" value="energy"/>
+		<attribute key="areaEffect" value="energy"/>
+	</attack>
+
+	<attack name="energycondition" interval="3000" chance="30" target="1" range="6" min="-30" max="-80" duration="15000" tick="2000" start="15">
+		<attribute key="shootEffect" value="energy"/>
+		<attribute key="areaEffect" value="bluebubble"/>
+	</attack>
+
+</attacks>                                                  
+
+<defenses armor="0" defense="0"/>                         
+
+<immunities>
+	<immunity physical="0"/>
+	<immunity energy="1"/>
+	<immunity fire="0"/>
+	<immunity poison="0"/>
+	<immunity lifedrain="0"/>
+	<immunity paralyze="1"/>
+	<immunity outfit="1"/>
+	<immunity drunk="0"/>
+	<immunity invisible="1"/>
+</immunities>
+
+<summons maxSummons="4">
+	<summon name="ghoul" interval="2000" chance="17" max="2"/>
+	<summon name="crypt chambler" interval="2500" chance="15" max="2"/>
+</summons>
+
+<loot>
+	<item id="2148" countmax="50" chance1="40000" chancemax=""/>
+    <item id="2152" countmax="1" chance1="9000" chancemax="0"/> 
+	<item id="6087" chance="300"/>
+    <item id="10555" chance="1500"/><!-- Cultish Mask -->	
+	<item id="2662" chance="160"/> 
+	<item id="2656" chance="250"/> 
+	<item id="2542" chance="20"/> 
+	<item id="2172" chance="800"/> 
+	<item id="2175" chance="5000"/> 
+	<item id="2146" countmax="1" chance1="5500" chancemax="0"/> 
+	<item id="2167" chance="1500"/> 
+	<item id="2169" chance="800"/> 
+		
+</loot>
+
+</monster>

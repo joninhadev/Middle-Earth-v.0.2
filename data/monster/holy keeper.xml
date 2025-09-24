@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Holy Keeper" nameDescription="um holy keeper" race="blood" experience="52000" speed="240" manacost="0">
+  <health now="8500" max="8500"/>
+  <look type="193" corpse="20391"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-60" max="-140"/>
+	<attack name="light san ethreal" interval="2500" min="-250" max="-400"/>
+	<attack name="strong holy beam" interval="7000" min="-500" max="-1500"/>
+	<attack name="great holy wave" interval="3800" min="-250" max="-700"/>
+
+</attacks>                                                  
+
+<defenses armor="0" defense="0">
+	<defense name="divine healing" interval="4350" chance="22" min="350" max="750"/>
+</defenses>                
+
+<elements>
+	<element physicalPercent="99"/>
+	<element icePercent="10"/>
+	<element poisonPercent="10"/>
+	<element firePercent="5"/>
+	<element energyPercent="35"/>
+	<element holyPercent="90"/>
+	<element deathPercent="15"/>
+</elements>
+
+<immunities>
+	<immunity physical="0"/>
+	<immunity energy="1"/>
+	<immunity fire="0"/>
+	<immunity poison="0"/>
+	<immunity lifedrain="0"/>
+	<immunity paralyze="1"/>
+	<immunity outfit="1"/>
+	<immunity drunk="0"/>
+	<immunity invisible="1"/>
+</immunities>
+
+<summons maxSummons="4">
+	<summon name="beholder" interval="2000" chance="17" max="2"/>
+</summons>
+
+<loot>
+	<item name="yellow piece of cloth" countmax="3" chance="9999"/>
+	<item name="holy missile rune" countmax="2" chance="9999"/>
+	<item name="platinum coin" countmax="2" chance="9999999"/>
+</loot>
+
+</monster>

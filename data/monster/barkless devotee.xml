@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Barkless Devotee" nameDescription="a barkless devotee" race="blood" experience="8000" speed="240" manacost="390" raceid="1486">
+	<health now="4800" max="4800" />
+	<look type="990" corpse="6012" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-250" max="-350" />
+		<attack name="earth" interval="2000" chance="20" range="7" target="1" radius="4" min="-250" max="-420">
+			<attribute key="shootEffect" value="spear" />
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+		<attack name="earth" interval="2000" chance="10" radius="6" target="0" min="-150" max="-350">
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+	</attacks>
+	<defenses armor="35" defense="35">
+	</defenses>
+	<elements>
+		<element firePercent="50"/>
+		<element holyPercent="100"/>
+		<element deathPercent="5"/>
+		<element earthPercent="50"/>
+		<element energyPercent="10"/>
+		<element physicalPercent="10"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="7000" chance="13">
+		<voice sentence="Prepare yourself!" />
+		<voice sentence="You are not loved by this world!" />
+		<voice sentence="Pain and suffering!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="199" chance="48000" />	<!-- GOLD COIN -->
+		<item id="29044" chance="1540" />		<!-- BED OF NAILS  -->
+		<item id="29043" chance="4050" />		<!-- FIG LEAF -->
+		<item id="29045" chance="970" />		<!-- TORN SHIRT  -->
+	</loot>
+</monster>

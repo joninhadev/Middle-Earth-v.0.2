@@ -1,0 +1,876 @@
+2025-08-29 23:02:14 -  [Thread debugging using libthread_db enabled]
+2025-08-29 23:02:14 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-08-29 23:02:14 -  [New Thread 0x7ffff5b23700 (LWP 184347)]
+2025-08-29 23:02:14 -  [New Thread 0x7ffff5322700 (LWP 184348)]
+2025-08-29 23:02:14 -  The OTG-BR - Version: (1.4)
+2025-08-29 23:02:14 -  Compiled with: GNU C++ version 9.4.0
+2025-08-29 23:02:14 -  Compiled on Aug 12 2025 23:00:12 for platform x64
+2025-08-29 23:02:14 -  
+2025-08-29 23:02:14 -  Engine Credits for: TFS Team, OTG Team....
+2025-08-29 23:02:14 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-08-29 23:02:14 -  
+2025-08-29 23:02:14 -  >> Loading config: config.lua
+2025-08-29 23:02:14 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-08-29 23:02:14 -   MySQL 8.0.42
+2025-08-29 23:02:14 -  >> Running database manager
+2025-08-29 23:02:14 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-08-29 23:02:14 -  [New Thread 0x7ffff4b0d700 (LWP 184349)]
+2025-08-29 23:02:14 -  > No tables were optimized.
+2025-08-29 23:02:14 -  >> Loading vocations
+2025-08-29 23:02:14 -  >> Loading items
+2025-08-29 23:02:14 -  >> Loading script systems
+2025-08-29 23:02:14 -  >> Loading lua libs
+2025-08-29 23:02:15 -  >> Loading bestiary
+2025-08-29 23:02:15 -  >> Loading lua scripts
+2025-08-29 23:02:15 -  >> Loading monsters
+2025-08-29 23:02:15 -  >> Loading lua monsters
+2025-08-29 23:02:15 -  >> Loading outfits
+2025-08-29 23:02:15 -  >> Loading imbuements
+2025-08-29 23:02:15 -  >> Loading charms
+2025-08-29 23:02:15 -  >> Loading Store
+2025-08-29 23:02:15 -  >> Loading prey data
+2025-08-29 23:02:15 -  >> Checking world type... RETRO-PVP
+2025-08-29 23:02:15 -  >> Loading map
+2025-08-29 23:02:23 -  > Map size: 2293x2048.
+2025-08-29 23:02:49 -  > Map loading time: 33.855 seconds.
+2025-08-29 23:02:50 -  > Loaded house items in: 0.007 s
+2025-08-29 23:02:50 -  >> Loading guilds... No guild to load.
+2025-08-29 23:02:50 -  >> Initializing gamestate
+2025-08-29 23:02:51 -  > Loaded spawns in 0.53 seconds.
+2025-08-29 23:02:51 -  >> Loaded 202 npcs and spawned 21092 monsters.
+2025-08-29 23:02:51 -  >> Loaded 17 towns with 588 houses in total.
+2025-08-29 23:02:51 -  >> Start time: 29.08.2025 - 23:02:51
+2025-08-29 23:02:51 -  Initialization complete.
+2025-08-29 23:02:51 -  >> Loaded all modules, server starting up...
+2025-08-29 23:02:51 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-08-29 23:02:51 -  >> Middle Earth Server Server Online!
+2025-08-29 23:02:51 -  
+2025-08-29 23:02:51 -  >> Server started in 37.119 seconds.
+2025-08-29 23:02:51 -  Loading Stormy...
+2025-08-29 23:02:51 -  Stormy has logged in.
+2025-08-29 23:02:51 -  Loading Tolkien...
+2025-08-29 23:02:51 -  Tolkien has logged in.
+2025-08-29 23:02:51 -  Loading Sujiro Kimechup...
+2025-08-29 23:02:51 -  Sujiro Kimechup has logged in.
+2025-08-29 23:02:51 -  Loading Anna Koldings...
+2025-08-29 23:02:51 -  Anna Koldings has logged in.
+2025-08-29 23:02:51 -  Loading [GOD] Middle Earth...
+2025-08-29 23:02:51 -  [GOD] Middle Earth has logged in.
+2025-08-29 23:02:51 -  Loading Eho Jhon...
+2025-08-29 23:02:51 -  Eho Jhon has logged in.
+2025-08-29 23:02:51 -  Loading Logitch...
+2025-08-29 23:02:51 -  Logitch has logged in.
+2025-08-29 23:02:51 -  Loading Jumahu...
+2025-08-29 23:02:51 -  Jumahu has logged in.
+2025-08-29 23:02:51 -  Loading Dean Winchester...
+2025-08-29 23:02:51 -  Dean Winchester has logged in.
+2025-08-29 23:02:51 -  Loading Paramax...
+2025-08-29 23:02:51 -  Paramax has logged in.
+2025-08-29 23:02:51 -  Loading Kropokiev...
+2025-08-29 23:02:51 -  Kropokiev has logged in.
+2025-08-29 23:02:51 -  Loading Sauron...
+2025-08-29 23:02:51 -  Sauron has logged in.
+2025-08-29 23:02:51 -  Loading Orc Vegano...
+2025-08-29 23:02:51 -  Orc Vegano has logged in.
+2025-08-29 23:02:51 -  Loading Labanquito...
+2025-08-29 23:02:51 -  Labanquito has logged in.
+2025-08-29 23:02:51 -  Loading Criador De Jutsu...
+2025-08-29 23:02:51 -  Criador De Jutsu has logged in.
+2025-08-29 23:02:51 -  Loading Oppenheimer...
+2025-08-29 23:02:51 -  Oppenheimer has logged in.
+2025-08-29 23:02:51 -  Loading Aokiji...
+2025-08-29 23:02:51 -  Aokiji has logged in.
+2025-08-29 23:02:51 -  Loading Benn Beckmann...
+2025-08-29 23:02:51 -  Benn Beckmann has logged in.
+2025-08-29 23:02:51 -  Loading China Weed Lover...
+2025-08-29 23:02:51 -  China Weed Lover has logged in.
+2025-08-29 23:02:51 -  Loading Mata Jack...
+2025-08-29 23:02:51 -  Mata Jack has logged in.
+2025-08-29 23:02:51 -  Loading The Pusher...
+2025-08-29 23:02:51 -  The Pusher has logged in.
+2025-08-29 23:02:51 -  Loading Stark...
+2025-08-29 23:02:51 -  Stark has logged in.
+2025-08-29 23:02:51 -  Loading Re Zero Beatrice...
+2025-08-29 23:02:51 -  Re Zero Beatrice has logged in.
+2025-08-29 23:02:51 -  Loading Skull Warrior...
+2025-08-29 23:02:51 -  Skull Warrior has logged in.
+2025-08-29 23:02:51 -  Loading China Money Maker...
+2025-08-29 23:02:51 -  China Money Maker has logged in.
+2025-08-29 23:02:51 -  Loading Aragorn...
+2025-08-29 23:02:51 -  Aragorn has logged in.
+2025-08-29 23:02:51 -  Loading Kaka Bueno...
+2025-08-29 23:02:51 -  Kaka Bueno has logged in.
+2025-08-29 23:02:51 -  Loading Reiyu Shita...
+2025-08-29 23:02:51 -  Reiyu Shita has logged in.
+2025-08-29 23:02:51 -  Loading Papa Leguas...
+2025-08-29 23:02:51 -  Papa Leguas has logged in.
+2025-08-29 23:02:51 -  Loading Tu Culo Es Mio...
+2025-08-29 23:02:51 -  Tu Culo Es Mio has logged in.
+2025-08-29 23:02:51 -  Loading Aleska Teodoro...
+2025-08-29 23:02:51 -  Aleska Teodoro has logged in.
+2025-08-29 23:02:51 -  Loading Skylline...
+2025-08-29 23:02:51 -  Skylline has logged in.
+2025-08-29 23:02:51 -  Loading Duboldinho...
+2025-08-29 23:02:51 -  Duboldinho has logged in.
+2025-08-29 23:02:51 -  Loading Elfzada...
+2025-08-29 23:02:51 -  Elfzada has logged in.
+2025-08-29 23:02:52 -  Loading Awesome Sophia...
+2025-08-29 23:02:52 -  Awesome Sophia has logged in.
+2025-08-29 23:02:52 -  Loading Zangief...
+2025-08-29 23:02:52 -  Zangief has logged in.
+2025-08-29 23:02:52 -  Loading Ozymandias...
+2025-08-29 23:02:52 -  Ozymandias has logged in.
+2025-08-29 23:02:52 -  Loading Pinoquio...
+2025-08-29 23:02:52 -  Pinoquio has logged in.
+2025-08-29 23:02:52 -  Loading Tumzao...
+2025-08-29 23:02:52 -  Tumzao has logged in.
+2025-08-29 23:02:52 -  Loading Robin Hood...
+2025-08-29 23:02:52 -  Robin Hood has logged in.
+2025-08-29 23:02:52 -  Loading Tutubarao...
+2025-08-29 23:02:52 -  Tutubarao has logged in.
+2025-08-29 23:02:52 -  Loading Finado Guerme...
+2025-08-29 23:02:52 -  Finado Guerme has logged in.
+2025-08-29 23:02:52 -  Loading Orappa...
+2025-08-29 23:02:52 -  Orappa has logged in.
+2025-08-29 23:02:52 -  Loading Elrond Druid...
+2025-08-29 23:02:52 -  Elrond Druid has logged in.
+2025-08-29 23:02:52 -  Loading Gorbatchov...
+2025-08-29 23:02:52 -  Gorbatchov has logged in.
+2025-08-29 23:02:52 -  Loading Terceiro...
+2025-08-29 23:02:52 -  Terceiro has logged in.
+2025-08-29 23:02:53 -  Loading Luana Moranguinho...
+2025-08-29 23:02:53 -  Luana Moranguinho has logged in.
+2025-08-29 23:02:53 -  Loading Holly Bolter...
+2025-08-29 23:02:53 -  Holly Bolter has logged in.
+2025-08-29 23:02:53 -  Loading Dark Bebo...
+2025-08-29 23:02:53 -  Dark Bebo has logged in.
+2025-08-29 23:02:53 -  Loading Not Havenick...
+2025-08-29 23:02:53 -  Not Havenick has logged in.
+2025-08-29 23:02:56 -  Loading Putifero...
+2025-08-29 23:02:56 -  Putifero has logged in.
+2025-08-29 23:02:57 -  Loading Receptaculo...
+2025-08-29 23:02:57 -  Receptaculo has logged in.
+2025-08-29 23:02:58 -  Loading Ojuara...
+2025-08-29 23:02:58 -  Ojuara has logged in.
+2025-08-29 23:02:58 -  Loading Alagoano Alma...
+2025-08-29 23:02:58 -  Alagoano Alma has logged in.
+2025-08-29 23:02:58 -  Tumzao has logged out.
+2025-08-29 23:02:59 -  Terceiro has logged out.
+2025-08-29 23:02:59 -  Loading Xupaengola...
+2025-08-29 23:02:59 -  Xupaengola has logged in.
+2025-08-29 23:02:59 -  Criador De Jutsu has logged out.
+2025-08-29 23:03:00 -  Loading Lula...
+2025-08-29 23:03:00 -  Lula has logged in.
+2025-08-29 23:03:00 -  Tu Culo Es Mio has logged out.
+2025-08-29 23:03:01 -  Jumahu has logged out.
+2025-08-29 23:03:03 -  Loading Tu Culo Es Mio...
+2025-08-29 23:03:03 -  Tu Culo Es Mio has logged in.
+2025-08-29 23:03:03 -  Zangief has logged out.
+2025-08-29 23:03:05 -  Loading Zhang Chulan...
+2025-08-29 23:03:05 -  Zhang Chulan has logged in.
+2025-08-29 23:03:07 -  Re Zero Beatrice has logged out.
+2025-08-29 23:03:07 -  Logitch has logged out.
+2025-08-29 23:03:09 -  Loading Re Zero Beatrice...
+2025-08-29 23:03:09 -  Re Zero Beatrice has logged in.
+2025-08-29 23:03:09 -  Dark Bebo has logged out.
+2025-08-29 23:03:11 -  Loading Dark Bebo...
+2025-08-29 23:03:11 -  Dark Bebo has logged in.
+2025-08-29 23:03:11 -  Loading Tumzao...
+2025-08-29 23:03:11 -  Tumzao has logged in.
+2025-08-29 23:03:12 -  Loading Jumahu...
+2025-08-29 23:03:12 -  Jumahu has logged in.
+2025-08-29 23:03:14 -  Loading Logitch...
+2025-08-29 23:03:14 -  Logitch has logged in.
+2025-08-29 23:03:15 -  Gorbatchov has logged out.
+2025-08-29 23:03:16 -  Loading Gorbatchov...
+2025-08-29 23:03:16 -  Gorbatchov has logged in.
+2025-08-29 23:03:17 -  Loading Zangief...
+2025-08-29 23:03:17 -  Zangief has logged in.
+2025-08-29 23:03:18 -  Loading Criador De Jutsu...
+2025-08-29 23:03:18 -  Criador De Jutsu has logged in.
+2025-08-29 23:03:26 -  Sauron has logged out.
+2025-08-29 23:03:28 -  Loading Sauron...
+2025-08-29 23:03:28 -  Sauron has logged in.
+2025-08-29 23:03:48 -  Loading Thaynan Charlove...
+2025-08-29 23:03:48 -  Thaynan Charlove has logged in.
+2025-08-29 23:03:49 -  Ozymandias has logged out.
+2025-08-29 23:03:50 -  Loading Ozymandias...
+2025-08-29 23:03:50 -  Ozymandias has logged in.
+2025-08-29 23:03:51 -  Aokiji has logged out.
+2025-08-29 23:03:56 -  Thaynan Charlove has logged out.
+2025-08-29 23:04:12 -  Loading Joninha...
+2025-08-29 23:04:12 -  Joninha has logged in.
+2025-08-29 23:04:14 -  Loading Thaynan Charlove...
+2025-08-29 23:04:14 -  Thaynan Charlove has logged in.
+2025-08-29 23:04:18 -  Criador De Jutsu has logged out.
+2025-08-29 23:04:26 -  Loading Criador De Jutsu...
+2025-08-29 23:04:26 -  Criador De Jutsu has logged in.
+2025-08-29 23:04:29 -  Loading Dwarf King...
+2025-08-29 23:04:29 -  Dwarf King has logged in.
+2025-08-29 23:04:35 -  The Pusher has logged out.
+2025-08-29 23:04:37 -  Loading The Pusher...
+2025-08-29 23:04:37 -  The Pusher has logged in.
+2025-08-29 23:05:01 -  Loading Meliodas...
+2025-08-29 23:05:01 -  Meliodas has logged in.
+2025-08-29 23:05:04 -  Loading Aokiji...
+2025-08-29 23:05:04 -  Aokiji has logged in.
+2025-08-29 23:05:09 -  Xupaengola has logged out.
+2025-08-29 23:05:27 -  Criador De Jutsu has logged out.
+2025-08-29 23:05:38 -  Loading Mono Dedo...
+2025-08-29 23:05:38 -  Mono Dedo has logged in.
+2025-08-29 23:05:51 -  Loading Magnitsky...
+2025-08-29 23:05:51 -  Magnitsky has logged in.
+2025-08-29 23:06:05 -  Aokiji has logged out.
+2025-08-29 23:06:11 -  Loading Aokiji...
+2025-08-29 23:06:11 -  Aokiji has logged in.
+2025-08-29 23:07:04 -  Magnitsky has logged out.
+2025-08-29 23:07:05 -  Loading Magnitsky...
+2025-08-29 23:07:05 -  Magnitsky has logged in.
+2025-08-29 23:07:11 -  Loading Dumdum...
+2025-08-29 23:07:11 -  Dumdum has logged in.
+2025-08-29 23:07:12 -  Aokiji has logged out.
+2025-08-29 23:08:08 -  Loading Aokiji...
+2025-08-29 23:08:08 -  Aokiji has logged in.
+2025-08-29 23:09:08 -  Aokiji has logged out.
+2025-08-29 23:09:09 -  Loading Orc The Criar...
+2025-08-29 23:09:09 -  Orc The Criar has logged in.
+2025-08-29 23:09:12 -  Dark Bebo has logged out.
+2025-08-29 23:09:14 -  Loading Dark Bebo...
+2025-08-29 23:09:14 -  Dark Bebo has logged in.
+2025-08-29 23:09:23 -  Loading Terceiro...
+2025-08-29 23:09:23 -  Terceiro has logged in.
+2025-08-29 23:10:09 -  Orc The Criar has logged out.
+2025-08-29 23:10:09 -  Loading Gepeto...
+2025-08-29 23:10:09 -  Gepeto has logged in.
+2025-08-29 23:10:13 -  Loading Orc The Criar...
+2025-08-29 23:10:13 -  Orc The Criar has logged in.
+2025-08-29 23:10:16 -  Gepeto has logged out.
+2025-08-29 23:10:23 -  Terceiro has logged out.
+2025-08-29 23:10:23 -  191.242.223.13 disconnected for exceeding packet per second limit.
+2025-08-29 23:10:33 -  Loading Terceiro...
+2025-08-29 23:10:33 -  Terceiro has logged in.
+2025-08-29 23:10:54 -  Loading Alexia Putellas...
+2025-08-29 23:10:54 -  Alexia Putellas has logged in.
+2025-08-29 23:10:56 -  Alexia Putellas has logged out.
+2025-08-29 23:10:57 -  Loading Alexia Putellas...
+2025-08-29 23:10:57 -  Alexia Putellas has logged in.
+2025-08-29 23:11:13 -  Orc The Criar has logged out.
+2025-08-29 23:11:22 -  Loading Aokiji...
+2025-08-29 23:11:22 -  Aokiji has logged in.
+2025-08-29 23:11:33 -  Terceiro has logged out.
+2025-08-29 23:11:47 -  Loading Criador De Jutsu...
+2025-08-29 23:11:47 -  Criador De Jutsu has logged in.
+2025-08-29 23:12:22 -  Aokiji has logged out.
+2025-08-29 23:12:25 -  Loading Xupaengola...
+2025-08-29 23:12:25 -  Xupaengola has logged in.
+2025-08-29 23:12:47 -  Criador De Jutsu has logged out.
+2025-08-29 23:14:08 -  Alexia Putellas has logged out.
+2025-08-29 23:14:21 -  Loading Alexia Putellas...
+2025-08-29 23:14:21 -  Alexia Putellas has logged in.
+2025-08-29 23:15:26 -  Loading Criador De Jutsu...
+2025-08-29 23:15:26 -  Criador De Jutsu has logged in.
+2025-08-29 23:15:28 -  Loading Derethor...
+2025-08-29 23:15:28 -  Derethor has logged in.
+2025-08-29 23:15:28 -  Kaka Bueno has logged out.
+2025-08-29 23:16:00 -  Loading Kaka Bueno...
+2025-08-29 23:16:00 -  Kaka Bueno has logged in.
+2025-08-29 23:16:16 -  Loading Terceiro...
+2025-08-29 23:16:16 -  Terceiro has logged in.
+2025-08-29 23:16:26 -  Criador De Jutsu has logged out.
+2025-08-29 23:16:29 -  Loading Criador De Jutsu...
+2025-08-29 23:16:29 -  Criador De Jutsu has logged in.
+2025-08-29 23:16:59 -  Re Zero Beatrice has logged out.
+2025-08-29 23:17:00 -  Loading Re Zero Beatrice...
+2025-08-29 23:17:00 -  Re Zero Beatrice has logged in.
+2025-08-29 23:17:16 -  Terceiro has logged out.
+2025-08-29 23:17:29 -  Criador De Jutsu has logged out.
+2025-08-29 23:17:49 -  Loading Terceiro...
+2025-08-29 23:17:49 -  Terceiro has logged in.
+2025-08-29 23:17:58 -  Dark Bebo has logged out.
+2025-08-29 23:18:00 -  Loading Dark Bebo...
+2025-08-29 23:18:00 -  Dark Bebo has logged in.
+2025-08-29 23:18:15 -  Loading Criador De Jutsu...
+2025-08-29 23:18:15 -  Criador De Jutsu has logged in.
+2025-08-29 23:18:49 -  Terceiro has logged out.
+2025-08-29 23:18:51 -  Loading Terceiro...
+2025-08-29 23:18:51 -  Terceiro has logged in.
+2025-08-29 23:18:57 -  Terceiro has logged out.
+2025-08-29 23:19:15 -  Criador De Jutsu has logged out.
+2025-08-29 23:19:28 -  Loading Terceiro...
+2025-08-29 23:19:28 -  Terceiro has logged in.
+2025-08-29 23:20:28 -  Terceiro has logged out.
+2025-08-29 23:20:51 -  Elfzada has logged out.
+2025-08-29 23:21:08 -  Loading Elfzada...
+2025-08-29 23:21:08 -  Elfzada has logged in.
+2025-08-29 23:21:09 -  Loading Criador De Jutsu...
+2025-08-29 23:21:09 -  Criador De Jutsu has logged in.
+2025-08-29 23:21:21 -  Re Zero Beatrice has logged out.
+2025-08-29 23:21:22 -  Loading Re Zero Beatrice...
+2025-08-29 23:21:22 -  Re Zero Beatrice has logged in.
+2025-08-29 23:22:01 -  Loading Terceiro...
+2025-08-29 23:22:01 -  Terceiro has logged in.
+2025-08-29 23:22:09 -  Criador De Jutsu has logged out.
+2025-08-29 23:22:13 -  Loading Criador De Jutsu...
+2025-08-29 23:22:13 -  Criador De Jutsu has logged in.
+2025-08-29 23:22:41 -  [BOSS SYSTEM] Spawned: Olog-hai
+2025-08-29 23:22:41 -  Loading Gepeto...
+2025-08-29 23:22:41 -  Gepeto has logged in.
+2025-08-29 23:23:13 -  Criador De Jutsu has logged out.
+2025-08-29 23:23:29 -  Loading Rulex Infernalist...
+2025-08-29 23:23:29 -  Rulex Infernalist has logged in.
+2025-08-29 23:23:31 -  Derethor has logged out.
+2025-08-29 23:23:31 -  191.242.223.13 disconnected for exceeding packet per second limit.
+2025-08-29 23:23:32 -  Loading Derethor...
+2025-08-29 23:23:32 -  Derethor has logged in.
+2025-08-29 23:23:35 -  Re Zero Beatrice has logged out.
+2025-08-29 23:23:37 -  Loading Re Zero Beatrice...
+2025-08-29 23:23:37 -  Re Zero Beatrice has logged in.
+2025-08-29 23:24:29 -  Rulex Infernalist has logged out.
+2025-08-29 23:24:53 -  Loading Criador De Jutsu...
+2025-08-29 23:24:53 -  Criador De Jutsu has logged in.
+2025-08-29 23:25:05 -  Dean Winchester has logged out.
+2025-08-29 23:25:09 -  Loading Dean Winchester...
+2025-08-29 23:25:09 -  Dean Winchester has logged in.
+2025-08-29 23:25:43 -  Re Zero Beatrice has logged out.
+2025-08-29 23:25:48 -  Loading Re Zero Beatrice...
+2025-08-29 23:25:48 -  Re Zero Beatrice has logged in.
+2025-08-29 23:25:50 -  The Pusher has logged out.
+2025-08-29 23:25:52 -  Loading The Pusher...
+2025-08-29 23:25:52 -  The Pusher has logged in.
+2025-08-29 23:25:54 -  Criador De Jutsu has logged out.
+2025-08-29 23:25:59 -  Sauron has logged out.
+2025-08-29 23:26:02 -  Loading Sauron...
+2025-08-29 23:26:02 -  Sauron has logged in.
+2025-08-29 23:26:11 -  The Pusher has logged out.
+2025-08-29 23:26:42 -  Eho Jhon has logged out.
+2025-08-29 23:26:53 -  Loading Eho Jhon...
+2025-08-29 23:26:53 -  Eho Jhon has logged in.
+2025-08-29 23:26:55 -  Loading Negrosaki...
+2025-08-29 23:26:55 -  Negrosaki has logged in.
+2025-08-29 23:26:59 -  Loading Soul Magister...
+2025-08-29 23:26:59 -  Soul Magister has logged in.
+2025-08-29 23:27:19 -  Loading Drumbash Pebblebeard...
+2025-08-29 23:27:19 -  Drumbash Pebblebeard has logged in.
+2025-08-29 23:27:34 -  Loading Shawty...
+2025-08-29 23:27:34 -  Shawty has logged in.
+2025-08-29 23:27:55 -  Loading Rap Da Alma...
+2025-08-29 23:27:55 -  Rap Da Alma has logged in.
+2025-08-29 23:28:19 -  Re Zero Beatrice has logged out.
+2025-08-29 23:28:21 -  Loading Re Zero Beatrice...
+2025-08-29 23:28:21 -  Re Zero Beatrice has logged in.
+2025-08-29 23:28:23 -  Skylline has logged out.
+2025-08-29 23:28:38 -  Not Havenick has logged out.
+2025-08-29 23:28:40 -  Loading Not Havenick...
+2025-08-29 23:28:40 -  Not Havenick has logged in.
+2025-08-29 23:28:44 -  Ozymandias has logged out.
+2025-08-29 23:28:55 -  Rap Da Alma has logged out.
+2025-08-29 23:29:14 -  Loading Criador De Jutsu...
+2025-08-29 23:29:14 -  Criador De Jutsu has logged in.
+2025-08-29 23:29:41 -  Not Havenick has logged out.
+2025-08-29 23:29:54 -  Shawty has logged out.
+2025-08-29 23:30:14 -  Criador De Jutsu has logged out.
+2025-08-29 23:30:15 -  Loading Criador De Jutsu...
+2025-08-29 23:30:15 -  Criador De Jutsu has logged in.
+2025-08-29 23:30:33 -  Joninha has logged out.
+2025-08-29 23:31:16 -  Criador De Jutsu has logged out.
+2025-08-29 23:31:24 -  Loading Rap Da Alma...
+2025-08-29 23:31:24 -  Rap Da Alma has logged in.
+2025-08-29 23:32:24 -  Rap Da Alma has logged out.
+2025-08-29 23:32:25 -  Elrond Druid has logged out.
+2025-08-29 23:32:28 -  Loading Elrond Druid...
+2025-08-29 23:32:28 -  Elrond Druid has logged in.
+2025-08-29 23:32:40 -  Saving server... 29/08/2025 23:32:40
+2025-08-29 23:32:40 -  > Saved house items in: 0.133 s
+2025-08-29 23:32:49 -  Reloaded monsters.
+2025-08-29 23:32:49 -  Loading Criador De Jutsu...
+2025-08-29 23:32:49 -  Criador De Jutsu has logged in.
+2025-08-29 23:33:49 -  Eho Jhon has logged out.
+2025-08-29 23:33:49 -  Criador De Jutsu has logged out.
+2025-08-29 23:33:54 -  Loading Eho Jhon...
+2025-08-29 23:33:54 -  Eho Jhon has logged in.
+2025-08-29 23:34:19 -  Re Zero Beatrice has logged out.
+2025-08-29 23:34:32 -  Loading Re Zero Beatrice...
+2025-08-29 23:34:32 -  Re Zero Beatrice has logged in.
+2025-08-29 23:34:56 -  Tumzao has logged out.
+2025-08-29 23:35:28 -  Loading Tumzao...
+2025-08-29 23:35:28 -  Tumzao has logged in.
+2025-08-29 23:40:30 -  Aragorn has logged out.
+2025-08-29 23:41:41 -  Re Zero Beatrice has logged out.
+2025-08-29 23:41:44 -  Loading Re Zero Beatrice...
+2025-08-29 23:41:44 -  Re Zero Beatrice has logged in.
+2025-08-29 23:43:12 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-08-29 23:43:12 -  Loading Criador De Jutsu...
+2025-08-29 23:43:12 -  Criador De Jutsu has logged in.
+2025-08-29 23:44:06 -  Stark has logged out.
+2025-08-29 23:44:12 -  Criador De Jutsu has logged out.
+2025-08-29 23:44:18 -  Loading Stark...
+2025-08-29 23:44:18 -  Stark has logged in.
+2025-08-29 23:44:59 -  Loading Criador De Jutsu...
+2025-08-29 23:44:59 -  Criador De Jutsu has logged in.
+2025-08-29 23:46:00 -  Criador De Jutsu has logged out.
+2025-08-29 23:46:37 -  Re Zero Beatrice has logged out.
+2025-08-29 23:46:39 -  Loading Re Zero Beatrice...
+2025-08-29 23:46:39 -  Re Zero Beatrice has logged in.
+2025-08-29 23:46:56 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-08-29 23:46:59 -  Loading Criador De Jutsu...
+2025-08-29 23:46:59 -  Criador De Jutsu has logged in.
+2025-08-29 23:47:26 -  Loading Verde Orc...
+2025-08-29 23:47:26 -  Verde Orc has logged in.
+2025-08-29 23:47:59 -  Criador De Jutsu has logged out.
+2025-08-29 23:48:32 -  Verde Orc has logged out.
+2025-08-29 23:49:12 -  Loading Verde Orc...
+2025-08-29 23:49:12 -  Verde Orc has logged in.
+2025-08-29 23:49:48 -  Robin Hood has logged out.
+2025-08-29 23:49:50 -  Loading Robin Hood...
+2025-08-29 23:49:50 -  Robin Hood has logged in.
+2025-08-29 23:50:44 -  Verde Orc has logged out.
+2025-08-29 23:51:39 -  Loading Criador De Jutsu...
+2025-08-29 23:51:39 -  Criador De Jutsu has logged in.
+2025-08-29 23:52:13 -  Loading Aokiji...
+2025-08-29 23:52:13 -  Aokiji has logged in.
+2025-08-29 23:52:40 -  Criador De Jutsu has logged out.
+2025-08-29 23:53:00 -  Orc Vegano has logged out.
+2025-08-29 23:53:14 -  Aokiji has logged out.
+2025-08-29 23:54:03 -  Loading Aokiji...
+2025-08-29 23:54:03 -  Aokiji has logged in.
+2025-08-29 23:55:04 -  Aokiji has logged out.
+2025-08-29 23:55:05 -  Loading Aokiji...
+2025-08-29 23:55:05 -  Aokiji has logged in.
+2025-08-29 23:56:06 -  Aokiji has logged out.
+2025-08-29 23:56:42 -  Loading [CM] Middle Earth...
+2025-08-29 23:56:42 -  [CM] Middle Earth has logged in.
+2025-08-29 23:58:26 -  Loading Aokiji...
+2025-08-29 23:58:26 -  Aokiji has logged in.
+2025-08-29 23:59:26 -  Aokiji has logged out.
+2025-08-29 23:59:47 -  Loading Aokiji...
+2025-08-29 23:59:47 -  Aokiji has logged in.
+2025-08-30 00:00:48 -  All daily task type limits have been reset.
+2025-08-30 00:00:48 -  Aokiji has logged out.
+2025-08-30 00:00:55 -  Skull Warrior has logged out.
+2025-08-30 00:04:15 -  [BOSS SYSTEM] Spawned: Ungoliant
+2025-08-30 00:04:15 -  Saving server... 30/08/2025 00:04:15
+2025-08-30 00:04:16 -  > Saved house items in: 0.121 s
+2025-08-30 00:07:18 -  Dark Bebo has logged out.
+2025-08-30 00:07:21 -  Tu Culo Es Mio has logged out.
+2025-08-30 00:07:21 -  Loading Dark Bebo...
+2025-08-30 00:07:21 -  Dark Bebo has logged in.
+2025-08-30 00:07:22 -  Loading Tu Culo Es Mio...
+2025-08-30 00:07:22 -  Tu Culo Es Mio has logged in.
+2025-08-30 00:09:28 -  Luana Moranguinho has logged out.
+2025-08-30 00:09:31 -  Aleska Teodoro has logged out.
+2025-08-30 00:09:32 -  Oppenheimer has logged out.
+2025-08-30 00:09:33 -  Loading Aleska Teodoro...
+2025-08-30 00:09:33 -  Aleska Teodoro has logged in.
+2025-08-30 00:09:36 -  Loading Oppenheimer...
+2025-08-30 00:09:36 -  Oppenheimer has logged in.
+2025-08-30 00:09:37 -  Loading Luana Moranguinho...
+2025-08-30 00:09:37 -  Luana Moranguinho has logged in.
+2025-08-30 00:11:47 -  Loading Aokiji...
+2025-08-30 00:11:47 -  Aokiji has logged in.
+2025-08-30 00:12:47 -  Aokiji has logged out.
+2025-08-30 00:13:20 -  Loading Aokiji...
+2025-08-30 00:13:20 -  Aokiji has logged in.
+2025-08-30 00:13:56 -  Labanquito has logged out.
+2025-08-30 00:13:56 -  Mono Dedo has logged out.
+2025-08-30 00:13:57 -  [GOD] Middle Earth has logged out.
+2025-08-30 00:13:59 -  Loading Mono Dedo...
+2025-08-30 00:13:59 -  Mono Dedo has logged in.
+2025-08-30 00:14:00 -  Loading Labanquito...
+2025-08-30 00:14:00 -  Labanquito has logged in.
+2025-08-30 00:14:01 -  Mono Dedo has logged out.
+2025-08-30 00:14:03 -  Loading Mono Dedo...
+2025-08-30 00:14:03 -  Mono Dedo has logged in.
+2025-08-30 00:14:06 -  Mono Dedo has logged out.
+2025-08-30 00:14:17 -  Loading Gaara...
+2025-08-30 00:14:17 -  Gaara has logged in.
+2025-08-30 00:14:20 -  Aokiji has logged out.
+2025-08-30 00:16:01 -  Loading [GOD] Middle Earth...
+2025-08-30 00:16:01 -  [GOD] Middle Earth has logged in.
+2025-08-30 00:16:36 -  Loading Morte...
+2025-08-30 00:16:36 -  Morte has logged in.
+2025-08-30 00:17:06 -  Gepeto has logged out.
+2025-08-30 00:18:36 -  Finado Guerme has logged out.
+2025-08-30 00:18:48 -  Holly Bolter has logged out.
+2025-08-30 00:18:51 -  Loading Holly Bolter...
+2025-08-30 00:18:51 -  Holly Bolter has logged in.
+2025-08-30 00:18:57 -  Loading Finado Guerme...
+2025-08-30 00:18:57 -  Finado Guerme has logged in.
+2025-08-30 00:18:58 -  Loading Aokiji...
+2025-08-30 00:18:58 -  Aokiji has logged in.
+2025-08-30 00:19:03 -  Holly Bolter has logged out.
+2025-08-30 00:19:05 -  Loading Holly Bolter...
+2025-08-30 00:19:05 -  Holly Bolter has logged in.
+2025-08-30 00:19:45 -  Re Zero Beatrice has logged out.
+2025-08-30 00:19:47 -  Loading Re Zero Beatrice...
+2025-08-30 00:19:47 -  Re Zero Beatrice has logged in.
+2025-08-30 00:19:57 -  Duboldinho has logged out.
+2025-08-30 00:19:58 -  Aokiji has logged out.
+2025-08-30 00:20:15 -  Reiyu Shita has logged out.
+2025-08-30 00:20:41 -  Loading Archmage...
+2025-08-30 00:20:41 -  Archmage has logged in.
+2025-08-30 00:20:47 -  Loading Reiyu Shita...
+2025-08-30 00:20:47 -  Reiyu Shita has logged in.
+2025-08-30 00:20:56 -  Loading Aokiji...
+2025-08-30 00:20:56 -  Aokiji has logged in.
+2025-08-30 00:21:06 -  Saving server... 30/08/2025 00:21:06
+2025-08-30 00:21:06 -  > Saved house items in: 0.123 s
+2025-08-30 00:21:23 -  Reloaded movements.
+2025-08-30 00:21:23 -  Gaara has logged out.
+2025-08-30 00:21:24 -  Loading Gaara...
+2025-08-30 00:21:24 -  Gaara has logged in.
+2025-08-30 00:21:57 -  Aokiji has logged out.
+2025-08-30 00:22:07 -  Re Zero Beatrice has logged out.
+2025-08-30 00:22:09 -  Loading Re Zero Beatrice...
+2025-08-30 00:22:09 -  Re Zero Beatrice has logged in.
+2025-08-30 00:22:14 -  Saving server... 30/08/2025 00:22:14
+2025-08-30 00:22:15 -  > Saved house items in: 0.122 s
+2025-08-30 00:22:56 -  Reloaded config.
+2025-08-30 00:22:56 -  [BOSS SYSTEM] Spawned: Ancalagon
+2025-08-30 00:22:56 -  Loading Aokiji...
+2025-08-30 00:22:56 -  Aokiji has logged in.
+2025-08-30 00:23:20 -  Dwarf King has logged out.
+2025-08-30 00:23:36 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-08-30 00:23:56 -  Aokiji has logged out.
+2025-08-30 00:25:11 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-08-30 00:26:25 -  Loading Elzinho Druid...
+2025-08-30 00:26:25 -  Elzinho Druid has logged in.
+2025-08-30 00:28:29 -  Orappa has logged out.
+2025-08-30 00:28:33 -  Loading Orappa...
+2025-08-30 00:28:33 -  Orappa has logged in.
+2025-08-30 00:29:22 -  Loading Royal Flash...
+2025-08-30 00:29:22 -  Royal Flash has logged in.
+2025-08-30 00:29:30 -  Finado Guerme has logged out.
+2025-08-30 00:29:34 -  Loading Finado Guerme...
+2025-08-30 00:29:34 -  Finado Guerme has logged in.
+2025-08-30 00:31:18 -  Dark Bebo has logged out.
+2025-08-30 00:31:38 -  Labanquito has logged out.
+2025-08-30 00:31:39 -  Loading Labanquito...
+2025-08-30 00:31:39 -  Labanquito has logged in.
+2025-08-30 00:31:51 -  Loading Dark Bebo...
+2025-08-30 00:31:51 -  Dark Bebo has logged in.
+2025-08-30 00:32:39 -  Loading Aokiji...
+2025-08-30 00:32:39 -  Aokiji has logged in.
+2025-08-30 00:32:39 -  [CM] Middle Earth has logged out.
+2025-08-30 00:33:12 -  Loading Gepeto...
+2025-08-30 00:33:12 -  Gepeto has logged in.
+2025-08-30 00:33:19 -  Gepeto has logged out.
+2025-08-30 00:33:39 -  Aokiji has logged out.
+2025-08-30 00:35:10 -  Re Zero Beatrice has logged out.
+2025-08-30 00:35:12 -  Loading Re Zero Beatrice...
+2025-08-30 00:35:12 -  Re Zero Beatrice has logged in.
+2025-08-30 00:37:26 -  Stormy has logged out.
+2025-08-30 00:37:38 -  Gaara has logged out.
+2025-08-30 00:37:38 -  Tolkien has logged out.
+2025-08-30 00:38:21 -  Loading Mono Dedo...
+2025-08-30 00:38:21 -  Mono Dedo has logged in.
+2025-08-30 00:38:42 -  Thaynan Charlove has logged out.
+2025-08-30 00:38:50 -  Loading Thaynan Charlove...
+2025-08-30 00:38:50 -  Thaynan Charlove has logged in.
+2025-08-30 00:39:06 -  Re Zero Beatrice has logged out.
+2025-08-30 00:39:08 -  Loading Re Zero Beatrice...
+2025-08-30 00:39:08 -  Re Zero Beatrice has logged in.
+2025-08-30 00:41:11 -  Loading The Pusher...
+2025-08-30 00:41:12 -  The Pusher has logged in.
+2025-08-30 00:41:13 -  The Pusher has logged out.
+2025-08-30 00:41:15 -  Loading The Pusher...
+2025-08-30 00:41:15 -  The Pusher has logged in.
+2025-08-30 00:41:19 -  The Pusher has logged out.
+2025-08-30 00:42:12 -  Re Zero Beatrice has logged out.
+2025-08-30 00:42:14 -  Loading Re Zero Beatrice...
+2025-08-30 00:42:14 -  Re Zero Beatrice has logged in.
+2025-08-30 00:42:34 -  [BOSS SYSTEM] Spawned: Evancing
+2025-08-30 00:42:34 -  Royal Flash has logged out.
+2025-08-30 00:42:39 -  Loading Royal Flash...
+2025-08-30 00:42:39 -  Royal Flash has logged in.
+2025-08-30 00:42:52 -  Kaka Bueno has logged out.
+2025-08-30 00:42:54 -  Loading Kaka Bueno...
+2025-08-30 00:42:54 -  Kaka Bueno has logged in.
+2025-08-30 00:42:59 -  Negrosaki has logged out.
+2025-08-30 00:44:59 -  Eho Jhon has logged out.
+2025-08-30 00:45:06 -  Loading Eho Jhon...
+2025-08-30 00:45:06 -  Eho Jhon has logged in.
+2025-08-30 00:45:22 -  Elfzada has logged out.
+2025-08-30 00:45:28 -  Loading Elfzada...
+2025-08-30 00:45:28 -  Elfzada has logged in.
+2025-08-30 00:49:12 -  Zhang Chulan has logged out.
+2025-08-30 00:52:50 -  Loading [CM] Middle Earth...
+2025-08-30 00:52:50 -  [CM] Middle Earth has logged in.
+2025-08-30 00:53:25 -  Terceiro has logged out.
+2025-08-30 00:53:36 -  Magnitsky has logged out.
+2025-08-30 00:53:40 -  Alexia Putellas has logged out.
+2025-08-30 00:57:37 -  Re Zero Beatrice has logged out.
+2025-08-30 00:57:51 -  Labanquito has logged out.
+2025-08-30 00:57:53 -  Dean Winchester has logged out.
+2025-08-30 00:57:54 -  Loading Labanquito...
+2025-08-30 00:57:54 -  Labanquito has logged in.
+2025-08-30 00:58:09 -  Loading Re Zero Beatrice...
+2025-08-30 00:58:09 -  Re Zero Beatrice has logged in.
+2025-08-30 01:00:28 -  Orappa has logged out.
+2025-08-30 01:00:30 -  Loading Orappa...
+2025-08-30 01:00:30 -  Orappa has logged in.
+2025-08-30 01:01:03 -  Mono Dedo has logged out.
+2025-08-30 01:01:06 -  Loading Mono Dedo...
+2025-08-30 01:01:06 -  Mono Dedo has logged in.
+2025-08-30 01:01:08 -  Mono Dedo has logged out.
+2025-08-30 01:01:22 -  Sauron has logged out.
+2025-08-30 01:03:00 -  [BOSS SYSTEM] Spawned: Jaul
+2025-08-30 01:03:00 -  Loading Lamoone...
+2025-08-30 01:03:00 -  Lamoone has logged in.
+2025-08-30 01:03:07 -  Loading Gepeto...
+2025-08-30 01:03:07 -  Gepeto has logged in.
+2025-08-30 01:03:12 -  Orappa has logged out.
+2025-08-30 01:03:14 -  Loading Orappa...
+2025-08-30 01:03:14 -  Orappa has logged in.
+2025-08-30 01:04:15 -  Saving server... 30/08/2025 01:04:15
+2025-08-30 01:04:16 -  > Saved house items in: 0.116 s
+2025-08-30 01:06:36 -  Tu Culo Es Mio has logged out.
+2025-08-30 01:09:41 -  Anna Koldings has logged out.
+2025-08-30 01:13:48 -  Dark Bebo has logged out.
+2025-08-30 01:13:50 -  Loading Dark Bebo...
+2025-08-30 01:13:50 -  Dark Bebo has logged in.
+2025-08-30 01:14:03 -  Benn Beckmann has logged out.
+2025-08-30 01:14:05 -  Loading Benn Beckmann...
+2025-08-30 01:14:05 -  Benn Beckmann has logged in.
+2025-08-30 01:15:27 -  Benn Beckmann has logged out.
+2025-08-30 01:15:34 -  Loading Benn Beckmann...
+2025-08-30 01:15:34 -  Benn Beckmann has logged in.
+2025-08-30 01:16:58 -  Lamoone has logged out.
+2025-08-30 01:17:04 -  Kaka Bueno has logged out.
+2025-08-30 01:17:07 -  Loading Kaka Bueno...
+2025-08-30 01:17:07 -  Kaka Bueno has logged in.
+2025-08-30 01:18:03 -  Loading Negrosaki...
+2025-08-30 01:18:03 -  Negrosaki has logged in.
+2025-08-30 01:20:09 -  Thaynan Charlove has logged out.
+2025-08-30 01:20:10 -  Loading Thaynan Charlove...
+2025-08-30 01:20:10 -  Thaynan Charlove has logged in.
+2025-08-30 01:22:32 -  [BOSS SYSTEM] Spawned: Deathstrike
+2025-08-30 01:22:32 -  Loading Mono Dedo...
+2025-08-30 01:22:33 -  Loading Mono Dedo...
+2025-08-30 01:22:33 -  Loading Mono Dedo...
+2025-08-30 01:22:33 -  Loading Mono Dedo...
+2025-08-30 01:22:34 -  Loading Mono Dedo...
+2025-08-30 01:23:00 -  Thaynan Charlove has logged out.
+2025-08-30 01:23:39 -  Kaka Bueno has logged out.
+2025-08-30 01:23:41 -  Loading Kaka Bueno...
+2025-08-30 01:23:41 -  Kaka Bueno has logged in.
+2025-08-30 01:27:20 -  Dark Bebo has logged out.
+2025-08-30 01:27:24 -  Loading Dark Bebo...
+2025-08-30 01:27:24 -  Dark Bebo has logged in.
+2025-08-30 01:35:13 -  Re Zero Beatrice has logged out.
+2025-08-30 01:35:16 -  Loading Re Zero Beatrice...
+2025-08-30 01:35:16 -  Re Zero Beatrice has logged in.
+2025-08-30 01:36:13 -  Re Zero Beatrice has logged out.
+2025-08-30 01:36:15 -  Loading Re Zero Beatrice...
+2025-08-30 01:36:15 -  Re Zero Beatrice has logged in.
+2025-08-30 01:39:30 -  Loading Zhang Chulan...
+2025-08-30 01:39:30 -  Zhang Chulan has logged in.
+2025-08-30 01:40:28 -  Dark Bebo has logged out.
+2025-08-30 01:40:33 -  Loading Dark Bebo...
+2025-08-30 01:40:33 -  Dark Bebo has logged in.
+2025-08-30 01:41:16 -  Lula has logged out.
+2025-08-30 01:41:18 -  Loading Lula...
+2025-08-30 01:41:18 -  Lula has logged in.
+2025-08-30 01:48:15 -  [BOSS SYSTEM] Spawned: Adramelech
+2025-08-30 01:48:15 -  Loading Terceiro...
+2025-08-30 01:48:15 -  Terceiro has logged in.
+2025-08-30 01:48:19 -  Loading Magnitsky...
+2025-08-30 01:48:19 -  Magnitsky has logged in.
+2025-08-30 01:50:28 -  Terceiro has logged out.
+2025-08-30 01:56:53 -  Logitch has logged out.
+2025-08-30 02:01:10 -  Loading Thaynan Charlove...
+2025-08-30 02:01:10 -  Thaynan Charlove has logged in.
+2025-08-30 02:03:54 -  [BOSS SYSTEM] Spawned: Khel Thuzad
+2025-08-30 02:03:54 -  Zangief has logged out.
+2025-08-30 02:04:02 -  Dark Bebo has logged out.
+2025-08-30 02:04:06 -  Loading Dark Bebo...
+2025-08-30 02:04:06 -  Dark Bebo has logged in.
+2025-08-30 02:04:15 -  Saving server... 30/08/2025 02:04:15
+2025-08-30 02:04:16 -  > Saved house items in: 0.122 s
+2025-08-30 02:04:17 -  Loading Zangief...
+2025-08-30 02:04:17 -  Zangief has logged in.
+2025-08-30 02:08:55 -  Orappa has logged out.
+2025-08-30 02:08:57 -  Loading Orappa...
+2025-08-30 02:08:57 -  Orappa has logged in.
+2025-08-30 02:20:21 -  Royal Flash has logged out.
+2025-08-30 02:20:24 -  Loading Royal Flash...
+2025-08-30 02:20:24 -  Royal Flash has logged in.
+2025-08-30 02:20:30 -  Royal Flash has logged out.
+2025-08-30 02:20:34 -  Loading Royal Flash...
+2025-08-30 02:20:34 -  Royal Flash has logged in.
+2025-08-30 02:21:00 -  Royal Flash has logged out.
+2025-08-30 02:21:52 -  Mata Jack has logged out.
+2025-08-30 02:22:36 -  [BOSS SYSTEM] Spawned: Scatha
+2025-08-30 02:22:36 -  Lula has logged out.
+2025-08-30 02:22:40 -  Loading Lula...
+2025-08-30 02:22:40 -  Lula has logged in.
+2025-08-30 02:22:40 -  Zangief has logged out.
+2025-08-30 02:22:45 -  Loading Zangief...
+2025-08-30 02:22:45 -  Zangief has logged in.
+2025-08-30 02:22:47 -  Gorbatchov has logged out.
+2025-08-30 02:22:47 -  Orappa has logged out.
+2025-08-30 02:22:47 -  Dark Bebo has logged out.
+2025-08-30 02:22:49 -  Loading Gorbatchov...
+2025-08-30 02:22:49 -  Gorbatchov has logged in.
+2025-08-30 02:22:58 -  Loading Dark Bebo...
+2025-08-30 02:22:58 -  Dark Bebo has logged in.
+2025-08-30 02:24:33 -  Oppenheimer has logged out.
+2025-08-30 02:26:02 -  Gorbatchov has logged out.
+2025-08-30 02:27:18 -  Loading Oppenheimer...
+2025-08-30 02:27:18 -  Oppenheimer has logged in.
+2025-08-30 02:33:10 -  Dark Bebo has logged out.
+2025-08-30 02:33:14 -  Loading Dark Bebo...
+2025-08-30 02:33:14 -  Dark Bebo has logged in.
+2025-08-30 02:33:54 -  Elzinho Druid has logged out.
+2025-08-30 02:34:34 -  Archmage has logged out.
+2025-08-30 02:35:46 -  Dark Bebo has logged out.
+2025-08-30 02:35:52 -  Loading Pinokio...
+2025-08-30 02:35:52 -  Pinokio has logged in.
+2025-08-30 02:35:59 -  Loading Orappa...
+2025-08-30 02:35:59 -  Orappa has logged in.
+2025-08-30 02:39:10 -  Gepeto has logged out.
+2025-08-30 02:39:11 -  Loading Gepeto...
+2025-08-30 02:39:11 -  Gepeto has logged in.
+2025-08-30 02:39:53 -  Magnitsky has logged out.
+2025-08-30 02:39:55 -  Loading Magnitsky...
+2025-08-30 02:39:55 -  Magnitsky has logged in.
+2025-08-30 02:41:55 -  Paramax has logged out.
+2025-08-30 02:42:28 -  [BOSS SYSTEM] Spawned: Baalrog
+2025-08-30 02:42:28 -  Jumahu has logged out.
+2025-08-30 02:42:55 -  [CM] Middle Earth has logged out.
+2025-08-30 02:50:15 -  Pinokio has logged out.
+2025-08-30 02:50:17 -  Loading Dark Bebo...
+2025-08-30 02:50:17 -  Dark Bebo has logged in.
+2025-08-30 02:51:46 -  Dark Bebo has logged out.
+2025-08-30 02:51:47 -  Loading Pinokio...
+2025-08-30 02:51:47 -  Pinokio has logged in.
+2025-08-30 02:53:02 -  Pinokio has logged out.
+2025-08-30 02:53:03 -  Loading Dark Bebo...
+2025-08-30 02:53:03 -  Dark Bebo has logged in.
+2025-08-30 02:56:23 -  Negrosaki has logged out.
+2025-08-30 02:56:24 -  Loading Negrosaki...
+2025-08-30 02:56:24 -  Negrosaki has logged in.
+2025-08-30 02:56:44 -  Derethor has logged out.
+2025-08-30 03:00:52 -  Re Zero Beatrice has logged out.
+2025-08-30 03:00:53 -  Loading Re Zero Beatrice...
+2025-08-30 03:00:53 -  Re Zero Beatrice has logged in.
+2025-08-30 03:04:15 -  [BOSS SYSTEM] Spawned: Smaug
+2025-08-30 03:04:15 -  Saving server... 30/08/2025 03:04:15
+2025-08-30 03:04:16 -  > Saved house items in: 0.152 s
+2025-08-30 03:04:30 -  Robin Hood has logged out.
+2025-08-30 03:04:33 -  Loading Robin Hood...
+2025-08-30 03:04:33 -  Robin Hood has logged in.
+2025-08-30 03:11:39 -  Benn Beckmann has logged out.
+2025-08-30 03:11:52 -  Thaynan Charlove has logged out.
+2025-08-30 03:13:32 -  Lula has logged out.
+2025-08-30 03:14:38 -  [GOD] Middle Earth has logged out.
+2025-08-30 03:23:17 -  [BOSS SYSTEM] Spawned: Lord of The Elements
+2025-08-30 03:23:17 -  Oppenheimer has logged out.
+2025-08-30 03:23:18 -  Loading Oppenheimer...
+2025-08-30 03:23:18 -  Oppenheimer has logged in.
+2025-08-30 03:23:58 -  Luana Moranguinho has logged out.
+2025-08-30 03:24:43 -  Loading Luana Moranguinho...
+2025-08-30 03:24:43 -  Luana Moranguinho has logged in.
+2025-08-30 03:28:19 -  Oppenheimer has logged out.
+2025-08-30 03:30:36 -  Aleska Teodoro has logged out.
+2025-08-30 03:30:37 -  Loading Aleska Teodoro...
+2025-08-30 03:30:37 -  Aleska Teodoro has logged in.
+2025-08-30 03:32:02 -  Loading Mata Jack...
+2025-08-30 03:32:02 -  Mata Jack has logged in.
+2025-08-30 03:32:50 -  Loading Oppenheimer...
+2025-08-30 03:32:50 -  Oppenheimer has logged in.
+2025-08-30 03:35:49 -  Re Zero Beatrice has logged out.
+2025-08-30 03:36:44 -  Loading Ozymandias...
+2025-08-30 03:36:44 -  Ozymandias has logged in.
+2025-08-30 03:37:29 -  Loading Lula...
+2025-08-30 03:37:29 -  Lula has logged in.
+2025-08-30 03:54:40 -  [BOSS SYSTEM] Spawned: Saruman
+2025-08-30 03:54:40 -  Magnitsky has logged out.
+2025-08-30 03:54:51 -  Tutubarao has logged out.
+2025-08-30 03:55:24 -  Loading Tutubarao...
+2025-08-30 03:55:24 -  Tutubarao has logged in.
+2025-08-30 03:59:33 -  Putifero has logged out.
+2025-08-30 03:59:39 -  Loading Putifero...
+2025-08-30 03:59:39 -  Putifero has logged in.
+2025-08-30 03:59:53 -  Putifero has logged out.
+2025-08-30 04:00:33 -  Mata Jack has logged out.
+2025-08-30 04:01:42 -  Receptaculo has logged out.
+2025-08-30 04:02:19 -  [BOSS SYSTEM] Spawned: Laracna
+2025-08-30 04:02:19 -  Ojuara has logged out.
+2025-08-30 04:03:50 -  Alagoano Alma has logged out.
+2025-08-30 04:04:15 -  Saving server... 30/08/2025 04:04:15
+2025-08-30 04:04:16 -  > Saved house items in: 0.126 s
+2025-08-30 04:11:51 -  Loading Alagoano Alma...
+2025-08-30 04:11:51 -  Alagoano Alma has logged in.
+2025-08-30 04:20:33 -  Lula has logged out.
+2025-08-30 04:21:12 -  Loading Lula...
+2025-08-30 04:21:12 -  Lula has logged in.
+2025-08-30 04:30:52 -  [BOSS SYSTEM] Spawned: Adramelech
+2025-08-30 04:30:52 -  Loading Receptaculo...
+2025-08-30 04:30:52 -  Receptaculo has logged in.
+2025-08-30 04:31:15 -  Orappa has logged out.
+2025-08-30 04:31:55 -  Loading Ojuara...
+2025-08-30 04:31:55 -  Ojuara has logged in.
+2025-08-30 04:32:38 -  Loading Putifero...
+2025-08-30 04:32:38 -  Putifero has logged in.
+2025-08-30 04:46:17 -  [BOSS SYSTEM] Spawned: Wormageddon
+2025-08-30 04:46:17 -  Aleska Teodoro has logged out.
+2025-08-30 04:46:23 -  Zhang Chulan has logged out.
+2025-08-30 04:46:31 -  Loading Aleska Teodoro...
+2025-08-30 04:46:31 -  Aleska Teodoro has logged in.
+2025-08-30 04:52:33 -  Receptaculo has logged out.
+2025-08-30 04:52:35 -  Putifero has logged out.
+2025-08-30 04:53:06 -  Loading Receptaculo...
+2025-08-30 04:53:06 -  Receptaculo has logged in.
+2025-08-30 04:53:07 -  Loading Putifero...
+2025-08-30 04:53:07 -  Putifero has logged in.
+2025-08-30 05:00:00 -  Putifero has logged out.
+2025-08-30 05:00:00 -  Receptaculo has logged out.
+2025-08-30 05:00:00 -  Aleska Teodoro has logged out.
+2025-08-30 05:00:00 -  Ojuara has logged out.
+2025-08-30 05:00:00 -  Lula has logged out.
+2025-08-30 05:00:00 -  Alagoano Alma has logged out.
+2025-08-30 05:00:00 -  Tutubarao has logged out.
+2025-08-30 05:00:00 -  Ozymandias has logged out.
+2025-08-30 05:00:00 -  Oppenheimer has logged out.
+2025-08-30 05:00:00 -  Luana Moranguinho has logged out.
+2025-08-30 05:00:00 -  Robin Hood has logged out.
+2025-08-30 05:00:00 -  Negrosaki has logged out.
+2025-08-30 05:00:00 -  Dark Bebo has logged out.
+2025-08-30 05:00:00 -  Gepeto has logged out.
+2025-08-30 05:00:00 -  Zangief has logged out.
+2025-08-30 05:00:00 -  Kaka Bueno has logged out.
+2025-08-30 05:00:00 -  Labanquito has logged out.
+2025-08-30 05:00:00 -  Elfzada has logged out.
+2025-08-30 05:00:00 -  Eho Jhon has logged out.
+2025-08-30 05:00:00 -  Finado Guerme has logged out.
+2025-08-30 05:00:00 -  Reiyu Shita has logged out.
+2025-08-30 05:00:00 -  Holly Bolter has logged out.
+2025-08-30 05:00:00 -  Morte has logged out.
+2025-08-30 05:00:00 -  Stark has logged out.
+2025-08-30 05:00:00 -  Tumzao has logged out.
+2025-08-30 05:00:00 -  Elrond Druid has logged out.
+2025-08-30 05:00:00 -  Drumbash Pebblebeard has logged out.
+2025-08-30 05:00:00 -  Soul Magister has logged out.
+2025-08-30 05:00:00 -  Xupaengola has logged out.
+2025-08-30 05:00:00 -  Dumdum has logged out.
+2025-08-30 05:00:00 -  China Money Maker has logged out.
+2025-08-30 05:00:00 -  Sujiro Kimechup has logged out.
+2025-08-30 05:00:00 -  China Weed Lover has logged out.
+2025-08-30 05:00:00 -  Kropokiev has logged out.
+2025-08-30 05:00:00 -  Awesome Sophia has logged out.
+2025-08-30 05:00:00 -  Pinoquio has logged out.
+2025-08-30 05:00:00 -  Papa Leguas has logged out.
+2025-08-30 05:00:00 -  Meliodas has logged out.
+2025-08-30 05:00:00 -  Saving server... 30/08/2025 05:00:00
+2025-08-30 05:00:00 -  > Saved house items in: 0.125 s
+2025-08-30 05:00:00 -  >> 0 player kickado
+2025-08-30 05:00:00 -  Saving server... 30/08/2025 05:00:00
+2025-08-30 05:00:01 -  > Saved house items in: 0.122 s
+2025-08-30 05:00:01 -  Shutting down...Saving server... 30/08/2025 05:00:01
+2025-08-30 05:00:01 -  > Saved house items in: 0.126 s
+2025-08-30 05:00:01 -  [Thread 0x7ffff4b0d700 (LWP 184349) exited]
+2025-08-30 05:00:01 -  [Thread 0x7ffff5322700 (LWP 184348) exited]
+2025-08-30 05:00:01 -   done!
+2025-08-30 05:00:01 -  [Thread 0x7ffff5b23700 (LWP 184347) exited]
+2025-08-30 05:00:04 -  >> Saving player items.
+2025-08-30 05:00:05 -  [Inferior 1 (process 184343) exited normally]

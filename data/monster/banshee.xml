@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Banshee" nameDescription="um banshee" race="undead" experience="900" speed="150" manacost="0">
+  <health now="1000" max="1000"/>
+  <look type="78" head="0" body="0" legs="0" feet="0" corpse="2998"/>
+  <targetchange interval="2000" chance="3"/>
+  <strategy attack="80" defense="10"/>
+  <flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag runonhealth="500"/>
+  </flags>
+	
+<attacks>
+	<attack name="melee" interval="2000" min="-120" max="-200" poison="-15" tick="3000"/>
+	
+	<attack name="speed" interval="5000" chance="10" range="7" speedchange="-500" duration="4000">
+		<attribute key="areaEffect" value="redshimmer"/>
+	</attack>
+	
+	<attack name="lifedrain" interval="1700" chance="34" radius="4" target="0" min="-120" max="-200"> 
+		<attribute key="areaEffect" value="rednote"/>
+	</attack>
+</attacks>
+  
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="2100" chance="25" min="113" max="187">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+  <immunities>
+	<immunity physical="0"/>
+	<immunity energy="0"/>
+	<immunity fire="1"/>
+	<immunity poison="1"/>
+	<immunity lifedrain="1"/>
+	<immunity paralyze="1"/>
+	<immunity outfit="1"/>
+	<immunity drunk="1"/>
+	<immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+	<voice sentence="Are you ready to rock?"/>
+	<voice sentence="That's what I call easy listening!"/>
+	<voice sentence="Let the music play!"/>
+	<voice sentence="I will mourn your death!"/>
+	<voice sentence="IIIIEEEeeeeeehhhHHHHH!" yell="1"/>
+	<voice sentence="Dance for me your dance of death!"/>
+	<voice sentence="Feel my gentle kiss of death."/>
+  </voices>
+  <loot capacity="600">
+	<item id="2657" chance="1000"/>
+ 	<item id="2654" chance="4000"/>
+	<item id="11337" chance="1000"/>
+ 	<item id="2170" chance="900"/>
+ 	<item id="2656" chance="130"/>
+	<item id="2158" chance="500"/>
+ 	
+ 	<item id="2148" countmax="90" chance1="100000"/>
+ 	<item id="2168" chance="150"/>
+ 	<item id="2144" countmax="1" chance1="1000"/>
+ 	<item id="2197" chance="100"/>
+ 	<item id="2143" countmax="1" chance1="1000"/>
+ 	<item id="2655" chance="10"/>
+ 	<item id="6087" chance="4000"/>
+ 	
+
+  </loot>
+</monster>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="White Lion" nameDescription="a white lion" race="fire" experience="10000" speed="200">
+	<health now="6000" max="6000" />
+	<look type="1290" corpse="39647" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-150" max="-300" />
+		<attack name="physical" interval="2000" chance="20" radius="3" target="0" min="-250" max="300">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+		<attack name="holy" interval="2000" chance="35" radius="3" target="0" min="-250" max="300">
+			<attribute key="shootEffect" value="smallholy" />
+			<attribute key="areaEffect" value="holydamage" />
+		</attack>
+		<attack name="fire" interval="3000" chance="50" radius="3" target="0" min="-250" max="300">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>	
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>		
+	<loot>		
+		<item name="platinum coin" countmax="3" chance="60000" />
+		<item name="lion's mane"  chance="3430" />	
+		<item name="twin hooks"  chance="1830" />	
+		<item name="cyan crystal fragment"  chance="1500" />
+		<item name="yellow gem"  chance="1400" />
+		<item name="terra boots" chance="1200" />
+		<item name="green crystal shard" chance="1500" />
+		<item name="green crystal fragment" chance="1500" />	
+		<item name="axe" chance="4000" />	
+		<item name="leather boots" chance="4000" />		
+		<item name="war hammer" chance="700" />
+	</loot>
+</monster>

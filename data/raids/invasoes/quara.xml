@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="Um bando de Quaras foi visto chegando a Belfallas!"/>
+<announce delay="25000" type="Event" message="Belfallas está sendo atacado, corram para ajudar!"/>
+
+<areaspawn delay="35000" fromx="1180" fromy="1512" fromz="7" tox="1188" toy="1515" toz="7">
+	<monster name="Quara Constrictor" amount="5" />
+</areaspawn>
+
+<areaspawn delay="45000" fromx="1180" fromy="1512" fromz="7" tox="1188" toy="1515" toz="7">
+	<monster name="Quara Constrictor" amount="8" />
+</areaspawn>
+
+<areaspawn delay="60000" fromx="1180" fromy="1512" fromz="7" tox="1188" toy="1515" toz="7">
+	<monster name="Quara Constrictor" amount="10" />
+</areaspawn>
+
+<areaspawn delay="75000" fromx="1174" fromy="1504" fromz="7" tox="1180" toy="1508" toz="7">
+	<monster name="Quara Constrictor" amount="8" />
+	<monster name="Quara Mantassin" amount="4" />
+</areaspawn>
+
+<areaspawn delay="95000" fromx="1174" fromy="1504" fromz="7" tox="1180" toy="1508" toz="7">
+	<monster name="Quara Constrictor" amount="8" />
+	<monster name="Quara Mantassin" amount="6" />
+</areaspawn>
+
+<areaspawn delay="120000" fromx="1184" fromy="1499" fromz="7" tox="1192" toy="1506" toz="7">
+	<monster name="Quara Constrictor" amount="8" />
+	<monster name="Quara Mantassin" amount="10" />
+</areaspawn>
+
+<areaspawn delay="140000" fromx="1184" fromy="1499" fromz="7" tox="1192" toy="1506" toz="7">
+	<monster name="Quara Constrictor" amount="8" />
+	<monster name="Quara Mantassin" amount="12" />
+</areaspawn>
+
+<areaspawn delay="155000" fromx="1171" fromy="1500" fromz="7" tox="1193" toy="1506" toz="7">
+	<monster name="Quara Constrictor" amount="12" />
+	<monster name="Quara Mantassin" amount="16" />
+</areaspawn>
+
+<areaspawn delay="170000" fromx="1171" fromy="1500" fromz="7" tox="1193" toy="1506" toz="7">
+	<monster name="Quara Constrictor" amount="12" />
+	<monster name="Quara Mantassin" amount="16" />
+</areaspawn>
+
+<areaspawn delay="190000" fromx="1171" fromy="1500" fromz="7" tox="1193" toy="1506" toz="7">
+	<monster name="Quara Hydromancer" amount="12" />
+	<monster name="Quara Mantassin" amount="16" />
+</areaspawn>
+
+<announce delay="191000" type="Event" message="Os Quaras estão atacando Belfallas! Venham Ajudar!"/>
+
+<areaspawn delay="220000" fromx="1171" fromy="1500" fromz="7" tox="1193" toy="1506" toz="7">
+	<monster name="Quara Hydromancer" amount="12" />
+	<monster name="Quara Mantassin" amount="16" />
+</areaspawn>
+
+<areaspawn delay="240000" fromx="1192" fromy="1500" fromz="7" tox="1201" toy="1508" toz="7">
+	<monster name="Quara Hydromancer" amount="14" />
+	<monster name="Quara Mantassin" amount="16" />
+</areaspawn>
+
+<areaspawn delay="265000" fromx="1192" fromy="1500" fromz="7" tox="1201" toy="1508" toz="7">
+	<monster name="Quara Hydromancer" amount="18" />
+	<monster name="Quara Mantassin" amount="10" />
+</areaspawn>
+
+<singlespawn delay="285000" name="Quara Predator" x="1195" y="1503" z="7"/>
+<singlespawn delay="290000" name="Quara Predator" x="1195" y="1503" z="7"/>
+
+<areaspawn delay="300000" fromx="1191" fromy="1500" fromz="7" tox="1200" toy="1501" toz="7">
+	<monster name="Quara Hydromancer" amount="16" />
+</areaspawn>
+
+<areaspawn delay="330000" fromx="1191" fromy="1509" fromz="7" tox="1200" toy="1510" toz="7">
+	<monster name="Quara Hydromancer" amount="16" />
+</areaspawn>
+
+<announce delay="358000" type="Event" message="Final Wave!"/>
+
+<areaspawn delay="360000" fromx="1191" fromy="1500" fromz="7" tox="1201" toy="1510" toz="7">
+	<monster name="Quara Predator" amount="20" />
+</areaspawn>
+
+</raid>

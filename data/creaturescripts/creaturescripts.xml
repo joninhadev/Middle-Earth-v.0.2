@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<creaturescripts>
+
+	<!-- AUTO LOOT -->
+	<event type="modalwindow" name="autoloot" script="autoloot.lua"/>
+	<event type="modalwindow" name="AutoLoot" script="autoloot.lua"/>
+
+	<!-- Spell Utamo Grav -->
+	<event type="healthchange" name="blockAll" script="utamo_grav.lua"/>
+	<event type="healthchange" name="blockGreatAll" script="utamo_gran_grav.lua"/>
+	
+	<event type="login" name="vocationOutfit" script="outfits_vocation/outfits_vocation.lua"/>
+	
+	<!-- AutoLoot -->
+	<event type="modalwindow" name="AutoLoot" script="autoloot.lua"/>
+	
+	<!-- Dano de monstros que REFLETEM  -->
+	<event type="healthchange" name="reflect" script="others/reflect.lua" />
+
+    <!-- Modal Window -->
+	<event type="modalwindow" name="ModalWindowHelper" script="modalwindowhelper.lua" />
+	<event type="ModalWindow" name="Modal_tpsystem" script="modalTpSystem.lua"/>
+
+    <!-- Sistema de Recompensa [Reward Chest, 19/01] -->
+	<event type="login" name="LoginBossPlayer" script="rewardChest/boss.lua" />
+ 	<event type="death" name="BossDeath" script="rewardChest/boss.lua" />
+ 	<event type="healthchange" name="BossParticipation" script="rewardChest/boss.lua" />
+ 	<event type="think" name="BossThink" script="rewardChest/boss.lua" />
+	<event type="login" name="PlayerLogin" script="others/login.lua" />
+	<event type="login" name="RegenerateStamina" script="others/regeneratestamina.lua" />
+	<event type="login" name="OfflineTraining" script="others/offlinetraining.lua" />
+	<event type="logout" name="PlayerLogout" script="others/logout.lua" />
+	<event type="death" name="PlayerDeath" script="others/playerdeath.lua" />
+	<event type="death" name="DropLoot" script="others/droploot.lua" />
+	<event type="advance" name="AdvanceSave" script="others/advance_save.lua" />
+	<event type="healthchange" name="imbueDamage" script="imbuementElementalProtection.lua"/>
+
+	<!-- Extended Opcode -->
+	<event type="extendedopcode" name="ExtendedOpcode" script="extended_opcode.lua" />
+
+	
+	
+</creaturescripts>

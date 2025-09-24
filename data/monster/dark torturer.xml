@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dark Torturer" nameDescription="um dark torturer" race="blood" experience="8000" speed="220">
+  <health now="7350" max="7350"/>
+  <look type="234" head="20" body="30" legs="40" feet="50" corpse="6328"/>
+  <targetchange interval="4000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+    <attack name="melee" interval="2000" min="-240" max="-360"/>
+	
+	<attack name="speed" interval="6500" chance="30" range="6" speedchange="-500" duration="6000">
+		<attribute key="areaEffect" value="redshimmer"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0"/>
+
+	<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="10"/>
+		<element icePercent="20"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="0"/>
+		<immunity drunk="0"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+  <loot capacity="800">
+    <item id="5741" chance="120"/><!-- Skull Helmet -->
+ 	<item id="2476" chance="200"/><!-- Knight Armor -->
+ 	<item id="2477" chance="220"/><!-- Knight Legs -->
+ 	<item id="2528" chance="150"/><!-- Tower Shield -->
+	<item id="3962" chance="50"/><!-- Axe Of Maim -->
+    <item id="13940" chance="100"/><!-- Elemental Spikes -->
+ 	<item id="2169" chance="1500"/><!-- Time Ring -->
+ 	<item id="5480" chance="5000"/><!-- Catspaw -->
+ 	<item id="6537" chance="6000"/><!-- Algema -->
+ 	<item id="2148" countmax="65" chance1="95000"/><!-- Gold Coin -->
+ 	
+
+  </loot>
+
+</monster>

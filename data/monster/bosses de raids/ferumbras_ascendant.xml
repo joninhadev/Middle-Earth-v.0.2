@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Ferumbras Ascendant" nameDescription="the Ferumbras Ascendant" race="blood" experience="10000000" speed="290" manacost="0">
+    <health now="600000" max="600000"/>
+  <look type="844" corpse="5527"/>
+    <targetchange interval="2500" chance="70"/>
+    <strategy attack="100" defense="0"/>
+	
+    <flags>
+    	<flag rewardboss="1"/>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="70"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+	
+	<attacks>
+		<attack name="melee" interval="1500" min="-1500" max="-1700"/>
+		<attack name="death chain" interval="3000" chance="40"/>
+		<attack name="great death beam" interval="4000" chance="30"/>
+		<attack name="great flame beam" interval="4000" chance="30"/>
+		<attack name="death" interval="1500" radius="7" chance="60" target="0" range="8" min="-1500" max="-2800">
+			<attribute key="shooteffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="fire" interval="3000" radius="7" chance="80" target="0" range="8" min="-1400" max="-2200">
+			<attribute key="shooteffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>		
+	</attacks>
+	
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="500" chance="100" min="150" max="250"/>
+	</defenses>
+	
+	<elements>
+		<element physicalPercent="30"/>
+		<element physicalPercent="30"/>
+		<element icePercent="30"/>
+		<element poisonPercent="30"/>
+		<element firePercent="30"/>
+		<element energyPercent="30"/>
+		<element holyPercent="30"/>
+		<element deathPercent="30"/>
+	</elements>
+
+	<immunities>
+		<immunity drown="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="0"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	
+    <voices interval="8000" chance="10">
+      <voice sentence="I will create chaos in Middle Earth!" yell="1"/>
+    </voices>
+	
+    <loot>
+		<item name="crystal coin" countmax="20" chance="99999"/>
+		<item name="ferumbras' hat" unique="1" chance="99999"/>
+		<item name="magic plate armor" chance="3000"/>
+		<item name="ring of the sky" chance="5000"/>
+		<item id="8910" chance="99999"/>
+		<item name="valar kilt" unique="1" chance="4000"/>
+		<item name="divine cuirass" unique="1" chance="4000"/>
+		<item name="voltagor backpack" chance="3000"/>
+		<item name="infernatus backpack" chance="3000"/>
+		<item name="terramorfo backpack" chance="3000"/>
+		<item name="necroshade backpack" chance="3000"/>
+    </loot>
+	
+  </monster>

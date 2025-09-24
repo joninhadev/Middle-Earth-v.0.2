@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Grim Reaper" nameDescription="um grim reaper" race="undead" experience="10500" speed="190" manacost="0">
+  <health now="12500" max="12500"/>
+  <look type="300" corpse="8955"/>
+  <targetchange interval="5000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+  <attacks>
+  	<attack name="melee" interval="1680" min="-320" max="-624"/>
+	
+	<attack name="death" interval="2520" chance="33" range="7" min="-350" max="-450">
+	  <attribute key="shootEffect" value="suddendeath"/>
+	  <attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	
+	<attack name="lifedrain" interval="2850" chance="29" length="7" spread="0" min="-500" max="-950">
+	  <attribute key="areaEffect" value="redspark"/>
+	</attack>
+	
+	<attack name="physical" interval="3100" chance="32" range="7" radius="4" target="1" min="-350" max="-495">
+	  <attribute key="shootEffect" value="fire"/>
+	  <attribute key="areaEffect" value="redspark"/>
+   	</attack>
+	
+	<attack name="physical" interval="1220" chance="17" lenght="7" spread="3" min="-150" max="-300">
+	  <attribute key="areaEffect" value="redshimmer"/>
+	</attack>
+	
+  </attacks>
+  
+  <defenses armor="0" defense="0">
+		<defense name="healing" interval="2000" chance="30" min="0" max="1">
+			<attribute key="areaEffect" value="energy"/>
+		</defense>
+	</defenses>
+	
+<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="100"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+</elements>
+	
+<immunities>
+	<immunity drown="0"/>
+	<immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+</immunities>
+
+<voices interval="5000" chance="10">
+	<voice sentence="Let me see you..."/>
+	<voice sentence="I can see your death!!!"/>
+</voices>
+
+<loot capacity="900">
+	<item id="2148" countmax="59" chance="35000"/>
+	<item id="2148" countmax="59" chance="35000"/>
+	<item id="3972" chance="1500"/>
+	<item id="2518" chance="1800"/>
+	<item id="10577" chance="1500"/><!-- Mystical Hourglass -->
+	<item id="12426" chance="100"/>
+	<item id="8865" chance="90"/>
+	<item id="7895" chance="120"/>
+	<item id="2436" chance="800"/>
+	<item id="2163" chance="3000"/>
+
+		
+			<item id="2148" countmax="100" chance1="80000"/>
+			<item id="2149" countmax="5" chance1="950"/>
+			<item id="2127" chance="1200"/>
+			<item id="2167" chance="750"/>
+</loot>
+
+</monster>

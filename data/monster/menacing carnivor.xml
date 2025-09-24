@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Menacing Carnivor" nameDescription="a menacing carnivor" race="blood" experience="5500" speed="170" manacost="0" raceid="1723">
+	<health now="4500" max="4500" />
+	<look type="1139" head="128" body="128" legs="81" feet="91" addons="3" corpse="34596" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-250" max="-450" />
+		<attack name="lifedrain" interval="2000" chance="20"  length="4" spread="0" min="-200" max="-280">
+			<attribute key="areaEffect" value="smoke" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="14"  length="4" spread="0" min="-200" max="-300">
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+		<attack name="physical" interval="2000" chance="15" radius="4" min="-190" max="-330">
+			<attribute key="areaEffect" value="groundshaker" />
+		</attack>
+	</attacks>
+	<defenses armor="68" defense="0">
+		<defense name="healing" interval="2000" chance="10" min="150" max="200">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="10"/>
+		<element holyPercent="20"/>
+		<element deathPercent="20"/>
+		<element earthPercent="100"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="20"/>
+		<element icePercent="30"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<loot>
+		<item name="Platinum Coin" countmin="1" countmax="2" chance="100000" /> 
+		<item name="terra mantle" chance="400"/>
+		<item name="terra legs" chance="400"/>
+		<item name="terra boots" chance="600"/>
+		<item name="terra hood" chance="750"/>
+</loot>
+</monster>

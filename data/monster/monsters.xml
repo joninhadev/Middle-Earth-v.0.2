@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monsters>
+
+	<monster name="Dol Gate Guard" file="guild house/gh1_tower_1.xml"/>
+	<monster name="Dol Hall Guard" file="guild house/gh1_tower_2.xml"/>
+	<monster name="Dol Elite Guard" file="guild house/gh1_tower_3.xml"/>
+
+
+	<!-- Bosses de Invasões Aleatórias -->
+	<monster name="Zavarash" file="bosses de raids aleatorias/easy/zavarash.xml"/>
+	<monster name="Terror Deep" file="bosses de raids aleatorias/easy/terror deep.xml"/>
+	<monster name="Baron Bellow" file="bosses de raids aleatorias/easy/baron bellow.xml"/>
+	<monster name="Maxxen" file="bosses de raids aleatorias/easy/maxxen.xml"/>
+	<monster name="Shatterer" file="bosses de raids aleatorias/easy/shatterer.xml"/>
+	
+	<monster name="The Welter" file="bosses de raids aleatorias/medium/the welter.xml"/>
+	<monster name="God Essence" file="bosses de raids aleatorias/medium/god essence.xml"/>
+	<monster name="Drazzak" file="bosses de raids aleatorias/medium/drazzak.xml"/>
+	<monster name="Voidborn" file="bosses de raids aleatorias/medium/voidborn.xml"/>
+	<monster name="Colored Dragon" file="bosses de raids aleatorias/medium/colored dragon.xml"/>
+	
+	<!-- Holy Island -->
+	<monster name="Barkless Devotee" file="barkless devotee.xml"/>
+	<monster name="Barkless Fanatic" file="barkless fanatic.xml"/>
+	<monster name="Crypt Warden" file="crypt warden.xml"/>
+	<monster name="Sphinx" file="sphinx.xml"/>
+	
+	<!-- Keepers -->
+	<monster name="Town Keeper" file="town keeper.xml"/>
+	<monster name="Holy Keeper" file="holy keeper.xml"/>
+	<monster name="Truth Keeper" file="truth keeper.xml"/>
+	
+	<!-- Flimsy -->
+	<monster name="Flimsy Lost Soul" file="flimsy lost soul.xml"/>
+	<monster name="Mean Lost Soul" file="mean lost soul.xml"/>
+	<monster name="Freakish Lost Soul" file="freakish lost soul.xml"/>
+	
+	
+	<!-- Bosses de Task -->
+	<monster name="Grishnakh" file="bosses de task/grishnakh.xml"/>
+	<monster name="Kalyassa" file="bosses de task/kalyassa.xml"/>
+	<monster name="Nimrion" file="bosses de task/nimrion.xml"/>
+	<monster name="Aulmog" file="bosses de task/aulmog.xml"/>
+	<monster name="Morvandir" file="bosses de task/morvandir.xml"/>
+
+	<!-- WarDragons -->
+	<monster name="Wardragon" file="wardragon.xml"/>
+	<monster name="Dragolisk" file="dragolisk.xml"/>
+	<monster name="Mega Dragon" file="mega dragon.xml"/>
+
+	<!-- Bosses de Respawn -->
+	<monster name="Pirate Captain" file="bosses de respawn/pirate captain.xml"/>
+	<monster name="Laracna" file="bosses de respawn/laracna.xml"/>
+	<monster name="Olog-Hai" file="bosses de respawn/olog-hai.xml"/>
+	<monster name="Son Of Ancalagon" file="bosses de respawn/son of ancalagon.xml"/>
+	<monster name="Smaug" file="bosses de respawn/smaug.xml"/>
+	<monster name="Ancalagon" file="bosses de respawn/ancalagon.xml"/>
+	<monster name="Scatha" file="bosses de respawn/scatha.xml"/>
+	<monster name="Adramelech" file="bosses de respawn/adramelech.xml"/>
+	<monster name="Ferumbras" file="bosses de respawn/ferumbras.xml"/>
+	<monster name="Valaraukar" file="bosses de respawn/valaraukar.xml"/>
+	<monster name="Wormageddon" file="bosses de respawn/wormageddon.xml"/>
+	<monster name="The Necromancer" file="bosses de respawn/the necromancer.xml"/>
+	<monster name="O Necromancer" file="bosses de respawn/o necromancer.xml"/>
+	<monster name="Khel Thuzad" file="bosses de respawn/khel thuzad.xml"/>
+	<monster name="Saruman" file="bosses de respawn/saruman.xml"/>
+	<monster name="Ungoliant" file="bosses de respawn/ungoliant.xml"/>
+	<monster name="Baalrog" file="bosses de respawn/baalrog.xml"/>
+	<monster name="Cerberus" file="bosses de respawn/cerberus.xml"/>
+	<monster name="Azaka" file="bosses de respawn/azaka.xml"/>
+	<monster name="Melkors Summon" file="bosses de respawn/melkors summon.xml"/>
+	<monster name="Avari Leader" file="bosses de respawn/avari leader.xml"/>
+	<monster name="Azazel" file="bosses de respawn/azazel.xml"/>
+	<monster name="Lord of the Elements" file="bosses de respawn/lord of the elements.xml"/>
+	<monster name="Deathstrike" file="bosses de respawn/deathstrike.xml"/>
+	<monster name="Obujos" file="bosses de respawn/obujos.xml"/>
+	<monster name="Jaul" file="bosses de respawn/jaul.xml"/>
+	<monster name="Evancing" file="bosses de respawn/evancing.xml"/>
+	<monster name="Zamulosh" file="bosses de respawn/zamulosh.xml"/>
+	<monster name="Sauron" file="bosses de respawn/sauron.xml"/>
+	<monster name="Jormungand" file="bosses de raids/jormungand.xml"/>
+	
+	<!-- Elfos -->
+	<monster name="Crazed Summer Rearguard" file="crazed_summer_rearguard.xml" />
+	<monster name="Crazed Summer Vanguard" file="crazed_summer_vanguard.xml" />
+	<monster name="Crazed Winter Rearguard" file="crazed_winter_rearguard.xml" />
+	<monster name="Crazed Winter Vanguard" file="crazed_winter_vanguard.xml" />
+	<monster name="Thanatursus" file="thanatursus.xml"/>
+	<monster name="Hibernal Moth" file="hibernal moth.xml"/>
+	<monster name="Arachnophobica" file="arachnophobica.xml"/>
+	
+	<!-- Bosses de Ilhas -->
+	<monster name="Lokathmor" file="bosses de ilhas/lokathmor.xml"/>
+	<monster name="Glaurivorn" file="bosses de ilhas/glaurivorn.xml"/>
+	<monster name="Yselda" file="bosses de ilhas/yselda.xml"/>
+	<monster name="Alptramun" file="bosses de ilhas/alptramun.xml"/>
+	<monster name="Ancalagon the Black" file="bosses de ilhas/ancalagon the black.xml"/>
+	<monster name="Lorien" file="bosses de ilhas/lorien.xml"/>
+	<monster name="Izcandar" file="bosses de ilhas/izcandar.xml"/>
+	
+	<!-- Bosses de Alavanca -->
+	<monster name="General Azog" file="bosses de alavanca/general azog.xml"/>
+	<monster name="Emelianenko" file="bosses de alavanca/emelianenko.xml"/>
+	<monster name="Thorondor" file="bosses de alavanca/thorondor.xml"/>
+	<monster name="Scarlett Etzel" file="bosses de alavanca/scarlett etzel.xml"/>
+	<monster name="Grand Master Oberon" file="bosses de alavanca/grand master oberon.xml"/>
+	<monster name="King Zelos" file="bosses de alavanca/king zelos.xml"/>
+	<monster name="Malboro" file="bosses de alavanca/malboro.xml"/>
+	
+	<!-- Bosses de City Quests -->
+	<monster name="Gothmog" file="bosses de city quests/gothmog.xml"/>
+	<monster name="Beelzeboss" file="bosses de city quests/beelzeboss.xml"/>
+	<monster name="Ratzinger" file="bosses de city quests/ratzinger.xml"/>
+	<monster name="Goronwy" file="bosses de city quests/goronwy.xml"/>
+	<monster name="Fingerless Butcher" file="bosses de city quests/fingerless butcher.xml"/>
+	<monster name="Gargantua" file="bosses de city quests/gargantua.xml"/>
+	<monster name="Rupture" file="bosses de city quests/rupture.xml"/>
+	<monster name="Eradicator" file="bosses de city quests/eradicator.xml"/>
+	<monster name="Aftershock" file="bosses de city quests/aftershock.xml"/>
+	<monster name="World Devourer" file="bosses de city quests/world devourer.xml"/>
+
+	<!-- Bosses de Raids -->
+	<monster name="Gaz'haragoth" file="bosses de respawn/gaz'haragoth.xml"/>
+	<monster name="Achilles" file="bosses de raids/achilles.xml"/>
+	<monster name="Ice of Eru Iluvatar" file="bosses de raids/ice of eru iluvatar.xml"/>
+    <monster name="Baby Sladran" file="bosses de raids/baby sladran.xml"/>
+	<monster name="Ferumbras Ascendant" file="bosses de raids/ferumbras_ascendant.xml"/>
+	<monster name="Myrmidon" file="bosses de raids/myrmidon.xml"/>
+	<monster name="Eddie" file="bosses de raids/eddie.xml"/>
+	<monster name="Vanska" file="bosses de raids/vanska.xml"/>
+	<monster name="Horma" file="bosses de raids/horma.xml"/>
+	<monster name="Nygard" file="bosses de raids/nygard.xml"/>
+	<monster name="Wickstrom" file="bosses de raids/wickstrom.xml"/>
+	<monster name="Fire Drake" file="bosses de raids/fire drake.xml"/>
+	<monster name="Ice Drake" file="bosses de raids/ice drake.xml"/>
+	<monster name="Venom Drake" file="bosses de raids/venom drake.xml"/>
+	
+	<!-- Monstros de City Quests -->
+	<monster name="Elite Smuggler" file="mobs de city quests/elite smuggler.xml"/>
+	<monster name="Elite Amazon" file="mobs de city quests/elite amazon.xml"/>
+	<monster name="Elite Bandit" file="mobs de city quests/elite bandit.xml"/>
+	<monster name="Elite Valkyrie" file="mobs de city quests/elite valkyrie.xml"/>
+	<monster name="Elite Assasin" file="mobs de city quests/elite assasin.xml"/>
+	<monster name="Elite Novice" file="mobs de city quests/elite novice.xml"/>
+	<monster name="Elite Dark Monk" file="mobs de city quests/elite dark monk.xml"/>
+	<monster name="Elite Witch" file="mobs de city quests/elite witch.xml"/>
+	<monster name="Elite Monk" file="mobs de city quests/elite monk.xml"/>
+	<monster name="Elite Acolyte" file="mobs de city quests/elite acolyte.xml"/>
+	<monster name="Elite Wyvern" file="mobs de city quests/elite wyvern.xml"/>
+	<monster name="Elite Dragon Lord" file="mobs de city quests/elite dragon lord.xml"/>
+	<monster name="Elite Hellfire" file="mobs de city quests/elite hellfire.xml"/>
+	<monster name="Elite Warlock" file="mobs de city quests/elite warlock.xml"/>
+	<monster name="Elite Demon" file="mobs de city quests/elite demon.xml"/>
+	<monster name="Elite Frost Giant" file="mobs de city quests/elite frost giant.xml"/>
+	<monster name="Elite Yeti" file="mobs de city quests/elite yeti.xml"/>
+	<monster name="Elite Ice Witch" file="mobs de city quests/elite ice witch.xml"/>
+	<monster name="Elite Crystal Spider" file="mobs de city quests/elite crystal spider.xml"/>
+	<monster name="Elite Frost Dragon" file="mobs de city quests/elite frost dragon.xml"/>
+	<monster name="Elite Zaogun" file="mobs de city quests/elite zaogun.xml"/>
+	<monster name="Elite Chosen" file="mobs de city quests/elite chosen.xml"/>
+	<monster name="Elite Dragon Priest" file="mobs de city quests/elite dragon priest.xml"/>
+	<monster name="Elite High Guard" file="mobs de city quests/elite high guard.xml"/>
+	<monster name="Elite Legionnaire" file="mobs de city quests/elite legionnaire.xml"/>
+
+	
+    <monster name="Blue Butterfly" file="blue butterfly.xml"/>
+	<monster name="Bashmu" file="bashmu.xml"/>
+	<monster name="Juvenile Bashmu" file="juvenile bashmu.xml"/>
+	<monster name="Falcon Knight" file="falcon knight.xml"/>
+	<monster name="Falcon Paladin" file="falcon paladin.xml"/>
+	<monster name="Icecold Book" file="icecold_book.xml"/>
+	<monster name="Biting Book" file="biting_book.xml"/>
+	<monster name="Burning Book" file="burning_book.xml"/>
+	<monster name="Cursed Book" file="cursed_book.xml"/>
+	<monster name="Energetic Book" file="energetic_book.xml"/>
+	<monster name="Flying Book" file="flying_book.xml"/>
+	<monster name="Brain Squid" file="brain_squid.xml"/>
+	<monster name="Rage Squid" file="rage_squid.xml"/>
+	<monster name="Squid Warden" file="squid_warden.xml"/>
+	<monster name="Ink Blob" file="ink_blob.xml"/>
+	<monster name="Animated Feather" file="animated_feather.xml"/>
+	<monster name="Guardian of Tales" file="guardian_of_tales.xml"/>
+	<monster name="Energuardian of Tales" file="energuardian_of_tales.xml"/>
+	<monster name="Knowledge Elemental" file="knowledge_elemental.xml"/>		
+	<monster name="Vibrant Phantom" file="vibrant phantom.xml"/>
+	<monster name="Courage Leech" file="courage leech.xml"/>
+	<monster name="Cloak of Terror" file="cloak of terror.xml"/>
+	<monster name="Rustheap Golem" file="rustheap golem.xml"/>
+	<monster name="Deathling Scout" file="deathling scout.xml"/>
+	<monster name="Deathling Spellsinger" file="deathling spellsinger.xml"/>
+	<monster name="Frost Flower Asura" file="frost flower asura.xml"/>
+	<monster name="Midnight Asura" file="midnight asura.xml"/>
+	<monster name="Dawnfire Asura" file="dawnfire asura.xml"/>
+	<monster name="True Frost Flower Asura" file="true frost flower asura.xml"/>
+	<monster name="True Midnight Asura" file="true midnight asura.xml"/>
+	<monster name="True Dawnfire Asura" file="true dawnfire asura.xml"/>
+	<monster name="Infernal Demon" file="infernal demon.xml"/>
+	<monster name="Infernal Phantom" file="infernal phantom.xml"/>
+	<monster name="Brachiodemon" file="brachiodemon.xml"/>
+	<monster name="Werehyaena" file="werehyaena.xml"/>
+	<monster name="Werehyaena Shaman" file="werehyaena shaman.xml"/>
+	<monster name="Werelion" file="werelion.xml"/>
+	<monster name="Werelioness" file="werelioness.xml"/>
+	<monster name="White Lion" file="white lion.xml"/>
+	<monster name="Shaburak Demon" file="shaburak demon.xml"/>
+	<monster name="Shaburak Prince" file="shaburak prince.xml"/>
+	<monster name="Shaburak Lord" file="shaburak lord.xml"/>
+	<monster name="Lumbering Carnivor" file="lumbering carnivor.xml"/>
+	<monster name="Spiky Carnivor" file="spiky carnivor.xml"/>
+	<monster name="Menacing Carnivor" file="menacing carnivor.xml"/>
+	<monster name="Breach Brood" file="breach brood.xml"/>
+	<monster name="Dread Intruder" file="dread intruder.xml"/>
+	<monster name="Spark of Destruction" file="spark of destruction.xml"/>
+	<monster name="Sparkion" file="sparkion.xml"/>
+	<monster name="Cobra Vizier" file="cobra vizier.xml"/>
+	<monster name="Cobra Scout" file="cobra scout.xml"/>
+	<monster name="Cobra Assassin" file="cobra assassin.xml"/>
+	<monster name="Shadow Spectre" file="shadow spectre.xml"/>
+	<monster name="Gazer Spectre" file="gazer spectre.xml"/>
+	<monster name="Burster Spectre" file="burster spectre.xml"/>
+	<monster name="Ripper Spectre" file="ripper spectre.xml"/>
+	<monster name="Khamul" file="bosses nazguls/khamul.xml"/>
+	<monster name="Morgomir" file="bosses nazguls/morgomir.xml"/>
+	<monster name="The Betrayer" file="bosses nazguls/the betrayer.xml"/>
+	<monster name="The Dark Marshal" file="bosses nazguls/the dark marshal.xml"/>
+	<monster name="The Dwimmerlaik" file="bosses nazguls/the dwimmerlaik.xml"/>
+	<monster name="The Knight of Umbar" file="bosses nazguls/the knight of umbar.xml"/>
+	<monster name="The Shadow Lord" file="bosses nazguls/the shadow lord.xml"/>
+	<monster name="The Tainted" file="bosses nazguls/the tainted.xml"/> 
+	<monster name="The Undying" file="bosses nazguls/the undying.xml"/>
+	<monster name="Ogre Shaman" file="ogre shaman.xml"/>
+	<monster name="Ogre Brute" file="ogre brute.xml"/>
+	<monster name="Ogre Savage" file="ogre savage.xml"/>
+	<monster name="Boar" file="boar.xml"/>
+	<monster name="Choking Fear" file="choking fear.xml"/>
+	<monster name="crustacea gigantica" file="crustacea gigantica.xml"/>
+	<monster name="crystal wolf" file="crystal wolf.xml"/>
+	<monster name="sandstone scorpion" file="sandstone scorpion.xml"/>
+	<monster name="Cliff Strider" file="cliff strider.xml"/>
+	<monster name="Deepling Brawler" file="deepling brawler.xml"/>
+	<monster name="Deepling Warrior" file="deepling warrior.xml"/>	
+	<monster name="Deepling Master" file="deepling master.xml"/>	
+	<monster name="Deepling Master Summon" file="deepling master summon.xml"/>	
+	<monster name="Donkey" file="donkey.xml"/>
+	<monster name="Dragonling" file="dragonling.xml"/>	
+	<monster name="draptor" file="draptor.xml"/>
+	<monster name="dromedary" file="dromedary.xml"/>
+	<monster name="enraged white deer" file="enraged white deer.xml"/>
+	<monster name="Frazzlemaw" file="frazzlemaw.xml"/>
+	<monster name="ghastly dragon" file="ghastly dragon.xml"/>
+	<monster name="goblin assassin" file="goblin assassin.xml"/>
+	<monster name="Gravedigger" file="gravedigger.xml"/>	
+	<monster name="Guzzlemaw" file="guzzlemaw.xml"/>
+	<monster name="retching horror" file="retching horror.xml"/>
+	<monster name="midnight panther" file="midnight panther.xml"/>
+	<monster name="Ironblight" file="ironblight.xml"/>
+	<monster name="Lancer Beetle" file="lancer beetle.xml"/>
+	<monster name="Magma Crawler" file="magma crawler.xml"/>
+	<monster name="Manta Ray" file="manta ray.xml"/>
+	<monster name="Shock Head" file="shock head.xml"/>	
+	<monster name="Sight of Surrender" file="sight of surrender.xml"/>
+	<monster name="Silencer" file="silencer.xml"/>
+	<monster name="slug" file="slug.xml"/>
+	<monster name="Stampor" file="stampor.xml"/>
+	<monster name="Stone Devourer" file="stone devourer.xml"/>
+	<monster name="Swampling" file="swampling.xml"/>
+	<monster name="undead cavebear" file="undead cavebear.xml"/>
+	<monster name="Wailing Widow" file="wailing widow.xml"/>
+	<monster name="Brimstone Bug" file="brimstone_bug.xml"/>
+	<monster name="Water Buffalo" file="water buffalo.xml"/>
+	<monster name="Wild Horse" file="wild horse.xml"/>
+	<monster name="Horse" file="horse.xml"/>
+	<monster name="Brown Horse" file="brown horse.xml"/>
+	<monster name="Gray Horse" file="gray horse.xml"/>
+	<monster name="draken abomination" file="draken abomination.xml"/>
+	<monster name="draken elite" file="draken elite.xml"/>
+	<monster name="draken spellweaver" file="draken spellweaver.xml"/>
+	<monster name="draken warmaster" file="draken warmaster.xml"/>
+    <monster name="elf lightmaster" file="elf lightmaster.xml"/>
+    <monster name="elder wyrm" file="elder wyrm.xml"/>
+	<monster name="noble lion" file="noble lion.xml"/>
+	<monster name="stone rhino" file="stone rhino.xml"/>
+	<monster name="Insectoid Worker" file="insectoid worker.xml"/>
+	<monster name="Lady Bug" file="lady bug.xml"/>
+	<monster name="Swarmer" file="swarmer.xml"/>		
+	<monster name="Waspoid" file="waspoid.xml"/>
+	<monster name="Crawler" file="crawler.xml"/>
+	<monster name="Kollos" file="kollos.xml"/>
+	<monster name="Spidris" file="spidris.xml"/>
+	<monster name="Souleater" file="souleater.xml"/>
+	<monster name="Amazon" file="amazon.xml"/>
+	<monster name="Valkyrie" file="valkyrie.xml"/>
+	<monster name="Carrion Worm" file="carrion worm.xml"/>
+	<monster name="Rotworm" file="rotworm.xml"/>
+	<monster name="Kongra" file="kongra.xml"/>
+	<monster name="Merlkin" file="merlkin.xml"/>
+	<monster name="Sibang" file="sibang.xml"/>
+	<monster name="Crystal Spider" file="crystal spider.xml"/>
+	<monster name="Giant Spider" file="giant spider.xml"/>
+	<monster name="Poison Spider" file="poison spider.xml"/>
+	<monster name="Scorpion" file="scorpion.xml"/>
+	<monster name="Spider" file="spider.xml"/>
+	<monster name="Tarantula" file="tarantula.xml"/>	
+	<monster name="Carniphila" file="carniphila.xml"/>
+	<monster name="Barbarian Bloodwalker" file="barbarian bloodwalker.xml"/>
+	<monster name="Barbarian Brutetamer" file="barbarian brutetamer.xml"/>
+	<monster name="Barbarian Headsplitter" file="barbarian headsplitter.xml"/>
+	<monster name="Barbarian Skullhunter" file="barbarian skullhunter.xml"/>
+	<monster name="Bear" file="bear.xml"/>
+	<monster name="Polar Bear" file="polar bear.xml"/>
+	<monster name="Beholder" file="beholder.xml"/>
+	<monster name="Elder Beholder" file="elder beholder.xml"/>
+	<monster name="Gazer" file="gazer.xml"/>
+	<monster name="Chicken" file="chicken.xml"/>
+	<monster name="Flamingo" file="flamingo.xml"/>
+	<monster name="Parrot" file="parrot.xml"/>
+	<monster name="Terror Bird" file="terror bird.xml"/>
+	<monster name="Dog" file="dog.xml"/>
+	<monster name="Hellhound" file="hellhound.xml"/>
+	<monster name="War wolf" file="war wolf.xml"/>
+	<monster name="Winter wolf" file="winter wolf.xml"/>
+	<monster name="Wolf" file="wolf.xml"/>
+	<monster name="Chakoya toolshaper" file="chakoya toolshaper.xml"/>
+	<monster name="Chakoya tribewarden" file="chakoya tribewarden.xml"/>
+	<monster name="Chakoya windcaller" file="chakoya windcaller.xml"/>
+	<monster name="Blood Crab" file="blood crab.xml"/>
+	<monster name="Crab" file="crab.xml"/>
+	<monster name="Frost Giant" file="frost giant.xml"/>
+	<monster name="Frost Giantess" file="frost giantess.xml"/>
+	<monster name="Yeti" file="yeti.xml"/>
+	<monster name="Nogueira" file="nogueira.xml"/>
+	<monster name="Acolyte of the Cult" file="acolyte of the cult.xml"/>
+	<monster name="Adept of the Cult" file="adept of the cult.xml"/>
+	<monster name="Enlightened of the Cult" file="enlightened of the cult.xml"/>
+	<monster name="Novice of the Cult" file="novice of the cult.xml"/>
+	<monster name="Dark Torturer" file="dark torturer.xml"/>
+	<monster name="Demon" file="demon.xml"/>
+	<monster name="Demon Outcast" file="demon_outcast.xml"/>
+	<monster name="seagull" file="seagull.xml"/>
+	<monster name="Destroyer" file="destroyer.xml"/>
+	<monster name="Diabolic Imp" file="diabolic imp.xml"/>
+	<monster name="Fire Devil" file="fire devil.xml"/>
+	<monster name="Fury" file="fury.xml"/>
+	<monster name="Hand of Cursed Fate" file="hand of cursed fate.xml"/>
+	<monster name="Wyrm" file="wyrm.xml"/>
+	<monster name="Nightmare" file="nightmare.xml"/>
+	<monster name="Plaguesmith" file="plaguesmith.xml"/>
+	<monster name="Dragon Lord" file="dragon lord.xml"/>
+	<monster name="Dragon" file="dragon.xml"/>
+	<monster name="Frost Dragon" file="frost dragon.xml"/>
+	<monster name="Hydra" file="hydra.xml"/>
+	<monster name="Dwarf Geomancer" file="dwarf geomancer.xml"/>
+	<monster name="Dwarf Guard" file="dwarf guard.xml"/>
+	<monster name="Dwarf Soldier" file="dwarf soldier.xml"/>
+	<monster name="Dwarf" file="dwarf.xml"/>
+	<monster name="David Nelson" file="dwarf.xml"/>
+	<monster name="Dworc fleshhunter" file="dworc fleshhunter.xml"/>
+	<monster name="Dworc venomsniper" file="dworc venomsniper.xml"/>
+	<monster name="Dworc voodoomaster" file="dworc voodoomaster.xml"/>
+	<monster name="Elephant" file="elephant.xml"/>
+	<monster name="Elf Scout" file="elf scout.xml"/>
+	<monster name="Elf" file="elf.xml"/>
+	<monster name="Elf Ranger" file="elf ranger.xml"/>
+	<monster name="Elf Soldier" file="elf soldier.xml"/>
+	<monster name="Elf Arcanist" file="elf arcanist.xml"/>
+	<monster name="Lion" file="lion.xml"/>
+	<monster name="Tiger" file="tiger.xml"/>
+	<monster name="Slim" file="slim.xml"/>
+	<monster name="Toad" file="toad.xml"/>
+	<monster name="Gargoyle" file="gargoyle.xml"/>
+	<monster name="Stone Golem" file="stone golem.xml"/>
+	<monster name="ghost" file="ghost.xml"/>
+	<monster name="pirate ghost" file="pirate ghost.xml"/>
+	<monster name="spectre" file="spectre.xml"/>
+	<monster name="Behemoth" file="behemoth.xml"/>
+	<monster name="Cyclops" file="cyclops.xml"/>
+	<monster name="Cyclops Drone" file="cyclops drone.xml"/>
+	<monster name="Cyclops Smith" file="cyclops smith.xml"/>
+	<monster name="Ancient Scarab" file="ancient scarab.xml"/>
+	<monster name="Bug" file="bug.xml"/>
+	<monster name="Centipede" file="centipede.xml"/>
+	<monster name="Larva" file="larva.xml"/>
+	<monster name="Scarab" file="scarab.xml"/>
+	<monster name="Wasp" file="wasp.xml"/>
+	<monster name="Lizard Sentinel" file="lizard sentinel.xml"/>
+	<monster name="Lizard Snakecharmer" file="lizard snakecharmer.xml"/>
+	<monster name="Lizard Templar" file="lizard templar.xml"/>
+	<monster name="minotaur archer" file="minotaur archer.xml"/>
+	<monster name="minotaur guard" file="minotaur guard.xml"/>
+	<monster name="minotaur" file="minotaur.xml"/>
+	<monster name="minotaur Mage" file="minotaur mage.xml"/>
+	<monster name="Gorbalg" file="gorbalg.xml"/>
+	<monster name="Braugor" file="braugor.xml"/>
+	<monster name="Badger" file="badger.xml"/>
+	<monster name="Bat" file="bat.xml"/>
+	<monster name="panda" file="panda.xml"/>
+	<monster name="Deer" file="deer.xml"/>
+	<monster name="Hyaena" file="hyaena.xml"/>
+	<monster name="Pig" file="pig.xml"/>
+	<monster name="Rabbit" file="rabbit.xml"/>
+	<monster name="Skunk" file="skunk.xml"/>
+	<monster name="Robin Kid" file="robin kid.xml"/>
+	<monster name="Dark Monk" file="dark monk.xml"/>
+	<monster name="Monk" file="monk.xml"/>
+	<monster name="Red Butterfly" file="red butterfly.xml"/>
+	<monster name="Necromancer" file="necromancer.xml"/>
+	<monster name="Priestess" file="priestess.xml"/>
+	<monster name="Goblin" file="goblin.xml"/>
+	<monster name="Orc Berserker" file="orc berserker.xml"/>
+	<monster name="Orc Leader" file="orc leader.xml"/>
+	<monster name="Orc Rider" file="orc rider.xml"/>
+	<monster name="Orc Shaman" file="orc shaman.xml"/>
+	<monster name="Orc Spearman" file="orc spearman.xml"/>
+	<monster name="Orc Warlord" file="orc warlord.xml"/>
+	<monster name="Orc Warrior" file="orc warrior.xml"/>
+	<monster name="orc" file="orc.xml"/>
+	<monster name="Assassin" file="assassin.xml"/>
+	<monster name="Bandit" file="bandit.xml"/>
+	<monster name="Black Knight" file="black knight.xml"/>
+	<monster name="Hero" file="hero.xml"/>
+	<monster name="Hunter" file="hunter.xml"/>
+	<monster name="Nomad" file="nomad.xml"/>
+	<monster name="Smuggler" file="smuggler.xml"/>
+	<monster name="Stalker" file="stalker.xml"/>
+	<monster name="Wild Warrior" file="wild warrior.xml"/>
+	<monster name="Pirate Buccaneer" file="pirate buccaneer.xml"/>
+	<monster name="Pirate Corsair" file="pirate corsair.xml"/>
+	<monster name="Pirate Cutthroat" file="pirate cutthroat.xml"/>
+	<monster name="Pirate Marauder" file="pirate marauder.xml"/>
+	<monster name="Fire Elemental" file="fire elemental.xml"/>
+	<monster name="Hellfire Fighter" file="hellfire fighter.xml"/>
+	<monster name="Quara Constrictor" file="quara constrictor.xml"/>
+	<monster name="Quara Hydromancer" file="quara hydromancer.xml"/>
+	<monster name="Quara Mantassin" file="quara mantassin.xml"/>
+	<monster name="Quara Pincher" file="quara pincher.xml"/>
+	<monster name="Quara Predator" file="quara predator.xml"/>
+	<monster name="Cave Rat" file="cave rat.xml"/>
+	<monster name="Rat" file="rat.xml"/>
+	<monster name="Cobra" file="cobra.xml"/>
+	<monster name="Crocodile" file="crocodile.xml"/>
+	<monster name="Serpent Spawn" file="serpent spawn.xml"/>
+	<monster name="Snake" file="snake.xml"/>
+	<monster name="Wyvern" file="wyvern.xml"/>
+	<monster name="Black Sheep" file="black sheep.xml"/>
+	<monster name="Sheep" file="sheep.xml"/>
+	<monster name="Bonebeast" file="bone beast.xml"/>
+	<monster name="Demon Skeleton" file="demon skeleton.xml"/>
+	<monster name="Lost Soul" file="lost soul.xml"/>
+	<monster name="Pirate Skeleton" file="pirate skeleton.xml"/>
+	<monster name="Skeleton" file="skeleton.xml"/>
+	<monster name="Undead Dragon" file="undead dragon.xml"/>
+	<monster name="Defiler" file="defiler.xml"/>
+	<monster name=" Slime" file="slime summon.xml"/>
+	<monster name="Slime" file="slime.xml"/>
+	<monster name="Ice Witch" file="ice witch.xml"/>
+	<monster name="Warlock" file="warlock.xml"/>
+	<monster name="Witch" file="witch.xml"/>
+	<monster name="Thornback Tortoise" file="thornback tortoise.xml"/>
+	<monster name="Tortoise" file="tortoise.xml"/>
+	<monster name="Troll" file="troll.xml"/>
+	<monster name="Banshee" file="banshee.xml"/>
+	<monster name="Blightwalker" file="blightwalker.xml"/>
+	<monster name="Crypt Shambler" file="crypt shambler.xml"/>
+	<monster name="Ghoul" file="ghoul.xml"/>
+	<monster name="Lich" file="lich.xml"/>
+	<monster name="Mummy" file="mummy.xml"/>
+	<monster name="Vampire" file="vampire.xml"/>
+
+
+	<monster name="Dragon Hatchling" file="dragon hatchling.xml"/>
+	<monster name="Dragon Lord Hatchling" file="dragon lord hatchling.xml"/>
+	<monster name="Juggernaut" file="juggernaut.xml"/>
+	<monster name="Netunos Essence" file="netunos essence.xml"/>
+	<monster name="Frost Torog" file="frost torog.xml"/>
+	<monster name="Mancubus" file="mancubus.xml"/>
+	<monster name="Hellforger Cyclops" file="hellforger cyclops.xml"/>
+	<monster name="Cyclopslave" file="cyclopslave.xml"/>
+	<monster name="Abyssal Cursed Stone" file="abyssal cursed stone.xml"/>
+	<monster name="Uruloki" file="uruloki.xml"/>
+	<monster name="Draco" file="draco.xml"/>
+	<monster name="Chaos Draco" file="chaos draco.xml"/>
+	<monster name="Acid Blob" file="acid blob.xml"/>
+	<monster name="Death Blob" file="death blob.xml"/>
+	<monster name="Haunted Treeling" file="haunted treeling.xml"/>
+	<monster name="Mercury Blob" file="mercury blob.xml"/>
+	<monster name="Nightstalker" file="nightstalker.xml"/>
+	<monster name="Vampire Bride" file="vampire bride.xml"/>
+	<monster name="Werewolf" file="werewolf.xml"/>
+	<monster name="Mutated Bat" file="mutated bat.xml"/>
+	<monster name="Earth Elemental" file="earth elemental.xml"/>
+	<monster name="Spirit of Fire" file="spirit of fire.xml"/>
+	<monster name="Cockroach" file="cockroach.xml"/>
+	<monster name="Lizard Zaogun" file="lizard zaogun.xml"/>
+	<monster name="Lizard Chosen" file="lizard chosen.xml"/>
+	<monster name="Lizard Dragon Priest" file="lizard dragon priest.xml"/>
+	<monster name="Lizard High Guard" file="lizard high guard.xml"/>
+	<monster name="Lizard Legionnaire" file="lizard legionnaire.xml"/>
+	<monster name="Uruk-hai" file="uruk-hai.xml"/>
+	<monster name="Rohirrim" file="rohirrim.xml"/>
+	<monster name="Rohirim" file="rohirim.xml"/>
+	<monster name="Elf Citizen" file="elf citizen.xml"/>
+	<monster name="Succubus" file="succubus.xml"/>
+	<monster name="phantasm" file="phantasm.xml"/>
+	<monster name="phantasm summon" file="phantasm summon.xml"/>
+	<monster name="Dwarf Miner" file="dwarf miner.xml"/>
+	<monster name="Skeleton Miner" file="skeleton miner.xml"/>
+	<monster name="Treinador" file="treinador.xml"/>
+	<monster name="Belzebuth Minion" file="belzebuth minion.xml"/>
+	<monster name="Grim Reaper" file="grim reaper.xml"/>
+	<monster name="Istari Follower" file="istari follower.xml"/>
+	<monster name="Saurons Possessed Beholder" file="saurons possessed beholder.xml"/>
+	<monster name="Terminator" file="terminator.xml"/>
+	<monster name="Mephisto" file="mephisto.xml"/>
+	<monster name="Allukard" file="allukard.xml"/>
+	<monster name="High Elf" file="high elf.xml"/>
+	<monster name="Enyd" file="enyd.xml"/>
+	<monster name="Oxyurus" file="oxyurus.xml"/>
+	<monster name="Medusa" file="medusa.xml"/>
+	<monster name="Ice Serpente" file="ice serpente.xml"/>
+	<monster name="Soul Burner" file="soul burner.xml"/>
+    <monster name="Solarian" file="solarian.xml"/>
+	<monster name="Bloodboil" file="bloodboil.xml"/>
+	<monster name="Shade of Akama" file="shade of akama.xml"/>
+	<monster name="Hellspawn" file="hellspawn.xml"/>
+	<monster name="Blood Beast" file="blood beast.xml"/>
+	<monster name="Worm Priestess" file="worm priestess.xml"/>
+	<monster name="Glooth Anemone" file="glooth anemone.xml"/>
+	<monster name="Minotaur Amazon" file="minotaur amazon.xml"/>
+	<monster name="Minotaur Hunter" file="minotaur hunter.xml"/>
+	
+</monsters>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

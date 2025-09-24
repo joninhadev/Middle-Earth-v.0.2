@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<monster name="Skeleton Miner" nameDescription="um skeleton miner" race="undead" experience="185" speed="188">
+  <health now="270" max="270"/>
+  <look type="232" corpse="6310"/>
+  <targetchange interval="6000" chance="7"/>
+  <strategy attack="100" defense="20"/>
+  
+<flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-70" max="-100"/>
+
+	<attack name="lifedrain" interval="4100" chance="50" length="6" spread="0" min="-30" max="-60">
+		<attribute key="areaEffect" value="redshimmer"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+</defenses>
+
+<immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="1"/>
+	<immunity drown="0"/>
+	<immunity ice="0"/>
+	<immunity holy="0"/>
+	<immunity death="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+<voices interval="10000" chance="10">
+	<voice sentence="So ul ahderr cy!" yell="0"/>
+	</voices>
+  
+<loot capacity="900">
+ 	<item id="2483" chance="3000"/>
+	<item id="2197" count="3" chance="500"/>
+	<item id="2436" chance="40"/>
+	<item id="2044" countmax="1" chance1="10000"/> 
+	<item id="2536" countmax="1" chance1="40"/>  
+	<item id="2150" countmax="2" chance1="230"/> 
+	<item id="2147" countmax="2" chance1="230"/> 
+	<item id="2149" countmax="2" chance1="250"/> 
+	<item id="2145" countmax="2" chance1="230"/> 
+	<item id="2553" chance="3000"/> 
+
+	
+	
+</loot>
+
+</monster>
+

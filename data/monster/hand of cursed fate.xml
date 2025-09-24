@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<monster name="Hand of Cursed Fate" nameDescription="uma hand of cursed fate" race="undead" experience="7000" speed="140" manacost="690">
+	<health now="10500" max="10500"/>
+	<look type="230" corpse="6312"/>
+	<targetchange interval="7000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag runonhealth="300"/>
+</flags>
+	
+<attacks>
+  <attack name="melee" speed="1800" min="-160" max="-480"/>
+  <attack name="melee" speed="1200" chance="40" min="-160" max="-320"/>
+  
+  <attack name="manadrain" interval="4200" chance="25" range="6" min="-200" max="-800"/>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="invisible" interval="9000" chance="60" duration="6000">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+	
+	<defense name="healing" interval="6000" chance="30" min="200" max="400">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="10"/>
+		<element icePercent="20"/>
+</elements>
+
+<immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+	<immunity drown="1"/>
+	<immunity ice="0"/>
+	<immunity holy="0"/>
+	<immunity death="0"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+
+<loot capacity="800">
+	
+		<item id="2148" countmax="100" chance="70000"/>
+		<item id="2178" countmax="1" chance="1000"/>
+		<item id="6558" countmax="1" chance="1000"/>
+		<item id="2187" countmax="1" chance="1000"/>
+		<item id="2153" countmax="1" chance="1000"/>
+		<item id="5799" countmax="1" chance="1000"/>
+   
+</loot>
+
+</monster>

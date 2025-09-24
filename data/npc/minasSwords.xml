@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Halifirien" script="default.lua" access="3" walkinterval="0">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="134" head="78" body="19" legs="19" feet="97" addon="2" corpse="3128"/>
+
+<parameters>
+<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value="rapier,2384,30;short sword,2406,50;sabre,2385,80;bone sword,2450,120;sword,2376,100;katana,2412,240;heavy machete,2442,1900;long sword,2397,450;poison dagger,2411,1500;scimitar,2419,530;templar scytheblade,3963,800;broad sword,2413,600;spike sword,2383,1400;serpent sword,2409,1800;two handed sword,2377,2400;wyvern fang,7408,2800;sting,7404,5400;fire sword,2392,8000;bright sword,2407,11000;djin blade,2451,14000;"/>
+<parameter key="shop_sellable" value="gladium aureum,8931,300000;shiny blade,18465,300000;sword of elendil,7405,200000;blade of corruption,12649,140000;heavy trident,13838,70000;rapier,2384,15;short sword,2406,25;sabre,2385,40;bone sword,2450,60;sword,2376,50;katana,2412,120;heavy machete,2442,950;long sword,2397,225;poison dagger,2411,750;scimitar,2419,265;templar scytheblade,3963,400;broad sword,2413,300;spike sword,2383,700;serpent sword,2409,900;two handed sword,2377,1200;wyvern fang,7408,1400;sting,7404,2700;fire sword,2392,4000;bright sword,2407,5500;djin blade,2451,7000;pharao sword,2446,13000;emerald sword,8930,15000;haunted blade,7407,18000;the herugrin,7391,20000;giant sword,2393,25000;demonrage sword,7382,50000;magic sword,2400,75000;chaos blade,11307,85000;warlord sword,2408,100000;anduril,2390,200000;narsil,6528,400000;"/>
+</parameters>
+</npc>
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="Os terríveis Myrmindons estão atacando a praia de Belfallas!"/>
+<announce delay="25000" type="Event" message="Apenas os mais fortes e destemidos devem comparecer!"/>
+<announce delay="40000" type="Event" message="Eles já estão na praia, salvem suas vidas."/>
+
+<singlespawn delay="42000" name="Myrmidon" x="1180" y="1515" z="7" />
+<singlespawn delay="42000" name="Myrmidon" x="1181" y="1514" z="7" />
+
+<singlespawn delay="60000" name="Myrmidon" x="1180" y="1515" z="7" />
+<singlespawn delay="60000" name="Myrmidon" x="1181" y="1514" z="7" />
+
+<singlespawn delay="90000" name="Myrmidon" x="1187" y="1514" z="7" />
+<singlespawn delay="90000" name="Myrmidon" x="1186" y="1514" z="7" />
+<singlespawn delay="90000" name="Myrmidon" x="1188" y="1514" z="7" />
+
+<singlespawn delay="120000" name="Myrmidon" x="1195" y="1506" z="7" />
+<singlespawn delay="120000" name="Myrmidon" x="1194" y="1506" z="7" />
+<singlespawn delay="120000" name="Myrmidon" x="1196" y="1506" z="7" />
+
+<singlespawn delay="150000" name="Myrmidon" x="1194" y="1500" z="7" />
+<singlespawn delay="150000" name="Myrmidon" x="1193" y="1500" z="7" />
+<singlespawn delay="150000" name="Myrmidon" x="1195" y="1500" z="7" />
+
+<singlespawn delay="180000" name="Myrmidon" x="1194" y="1494" z="7" />
+<singlespawn delay="180000" name="Myrmidon" x="1193" y="1494" z="7" />
+<singlespawn delay="180000" name="Myrmidon" x="1195" y="1494" z="7" />
+
+<singlespawn delay="210000" name="Myrmidon" x="1194" y="1490" z="7" />
+<singlespawn delay="210000" name="Myrmidon" x="1193" y="1490" z="7" />
+<singlespawn delay="210000" name="Myrmidon" x="1195" y="1490" z="7" />
+
+<singlespawn delay="240000" name="Myrmidon" x="1194" y="1485" z="7" />
+<singlespawn delay="240000" name="Myrmidon" x="1193" y="1485" z="7" />
+<singlespawn delay="240000" name="Myrmidon" x="1195" y="1485" z="7" />
+
+<announce delay="245000" type="Event" message="A guerra contra os Myrmindons continua.."/>
+
+<singlespawn delay="270000" name="Myrmidon" x="1198" y="1480" z="7" />
+<singlespawn delay="270000" name="Myrmidon" x="1197" y="1480" z="7" />
+<singlespawn delay="270000" name="Myrmidon" x="1199" y="1480" z="7" />
+
+<singlespawn delay="300000" name="Myrmidon" x="1203" y="1475" z="7" />
+<singlespawn delay="300000" name="Myrmidon" x="1202" y="1475" z="7" />
+<singlespawn delay="300000" name="Myrmidon" x="1204" y="1475" z="7" />
+
+<singlespawn delay="348000" name="Myrmidon" x="1208" y="1470" z="7" />
+<singlespawn delay="350000" name="Myrmidon" x="1208" y="1470" z="7" />
+<singlespawn delay="350000" name="Myrmidon" x="1209" y="1470" z="7" />
+<singlespawn delay="350000" name="Myrmidon" x="1207" y="1470" z="7" />
+
+<announce delay="378000" type="Event" message="O poderoso Achilles apareceu na batalha, corram por suas vidas."/>
+
+<singlespawn delay="380000" name="Achilles" x="1202" y="1467" z="7" />
+</raid>

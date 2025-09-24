@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Eddie" nameDescription="Eddie" race="UNDEAD" experience="80000" speed="300" manacost="0">
+	<health now="55000" max="55000"/>
+	<look type="90" head="20" body="30" legs="40" feet="50" corpse="6025"/>
+	<targetchange interval="5500" chance="40"/>
+	<strategy attack="100" defense="0"/>
+	
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="0"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+	<attacks>
+		<attack name="melee" interval="2000" min="-400" max="-800"/>
+		
+		<attack name="lifedrain" interval="2750" chance="35" radius="4" target="0" min="-400" max="-700">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		
+		<attack name="death" interval="2320" chance="65" radius="8" target="0" min="-600" max="-800">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		
+		<attack name="poisoncondition" interval="2100" chance="20" tick="500" start="85">
+			<attribute key="shootEffect" value="poisonarrow"/>
+		</attack>
+		
+		<attack name="fire" interval="1900" chance="99" range="7" min="-450" max="-750">
+			<attribute key="shootEffect" value="burstarrow"/>
+			<attribute key="areaEffect" value="explosionarea"/>
+		</attack>
+		
+		<attack name="speed" interval="2350" chance="20" range="7" target="0" speedchange="-600" duration="5000">
+			<attribute key="areaEffect" value="greenbubble"/>
+		</attack>
+	</attacks>
+	
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="500" chance="100" min="250" max="300"/>
+	</defenses>
+	
+<elements><element physicalPercent="5"/>
+	<element physicalPercent="70"/>
+	<element icePercent="60"/>
+	<element poisonPercent="95"/>
+	<element firePercent="80"/>
+	<element energyPercent="60"/>
+	<element holyPercent="60"/>
+	<element deathPercent="95"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+	
+	<summons maxSummons="10">
+		<summon name="Crypt Shambler" interval="2100" chance="1000"/>
+		<summon name="Mummy" interval="2000" chance="1000"/>
+		<summon name="Demon Skeleton" interval="1850" chance="1000"/>
+	</summons>
+	
+	<voices interval="4000" chance="10">
+		<voice sentence="The evil that men do lives on!"/>
+		<voice sentence="Eddie is gonna get you no matter how far!"/>
+		<voice sentence="Show them no fear! Show them no pain!"/>
+		<voice sentence="Enter the risen Osiris"/>
+	</voices>
+	
+<loot>
+    <item id="2443" chance="2500"/>
+	<item id="2176" chance="40000"/> 
+    <item id="2539" chance="1300"/> 
+    <item id="8865" chance="1200"/>  
+	<item id="2185" chance="38000"/> 
+	<item id="2663" chance="38000"/> 
+	<item id="7885" chance="15000"/> 
+	<item id="7893" chance="12000"/> 
+	<item id="2663" chance="2200"/> 
+	<item id="2004" chance="100000">
+      
+        <item id="2148" countmax="100" chance1="20000" chancemax="0"/> 
+		<item id="2148" countmax="100" chance1="20000" chancemax="0"/> 
+		<item id="2148" countmax="100" chance1="20000" chancemax="0"/> 
+		<item id="2148" countmax="100" chance1="20000" chancemax="0"/> 
+		<item id="2148" countmax="100" chance1="20000" chancemax="0"/> 
+		<item id="2148" countmax="100" chance1="20000" chancemax="0"/> 
+        <item id="2147" countmax="6" chance1="24000" chancemax="0"/> 
+		<item id="2149" countmax="8" chance1="24000" chancemax="0"/> 
+		<item id="2150" countmax="6" chance1="24000" chancemax="0"/> 
+        <item id="2344" chance="38000"/> 
+        <item id="2140" chance="3000"/> 
+      
+    </item>
+  </loot>
+  
+</monster>

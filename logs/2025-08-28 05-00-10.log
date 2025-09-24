@@ -1,0 +1,671 @@
+2025-08-28 05:00:11 -  [Thread debugging using libthread_db enabled]
+2025-08-28 05:00:11 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-08-28 05:00:11 -  [New Thread 0x7ffff5b23700 (LWP 161861)]
+2025-08-28 05:00:11 -  [New Thread 0x7ffff5322700 (LWP 161862)]
+2025-08-28 05:00:11 -  The OTG-BR - Version: (1.4)
+2025-08-28 05:00:11 -  Compiled with: GNU C++ version 9.4.0
+2025-08-28 05:00:11 -  Compiled on Aug 12 2025 23:00:12 for platform x64
+2025-08-28 05:00:11 -  
+2025-08-28 05:00:11 -  Engine Credits for: TFS Team, OTG Team....
+2025-08-28 05:00:11 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-08-28 05:00:11 -  
+2025-08-28 05:00:11 -  >> Loading config: config.lua
+2025-08-28 05:00:11 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-08-28 05:00:11 -   MySQL 8.0.42
+2025-08-28 05:00:11 -  >> Running database manager
+2025-08-28 05:00:11 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-08-28 05:00:11 -  [New Thread 0x7ffff4b0d700 (LWP 161863)]
+2025-08-28 05:00:11 -  > Optimizing table players_online... [success]
+2025-08-28 05:00:11 -  >> Loading vocations
+2025-08-28 05:00:11 -  >> Loading items
+2025-08-28 05:00:11 -  >> Loading script systems
+2025-08-28 05:00:11 -  >> Loading lua libs
+2025-08-28 05:00:12 -  >> Loading bestiary
+2025-08-28 05:00:12 -  >> Loading lua scripts
+2025-08-28 05:00:12 -  >> Loading monsters
+2025-08-28 05:00:12 -  >> Loading lua monsters
+2025-08-28 05:00:12 -  >> Loading outfits
+2025-08-28 05:00:12 -  >> Loading imbuements
+2025-08-28 05:00:12 -  >> Loading charms
+2025-08-28 05:00:12 -  >> Loading Store
+2025-08-28 05:00:12 -  >> Loading prey data
+2025-08-28 05:00:12 -  >> Checking world type... RETRO-PVP
+2025-08-28 05:00:12 -  >> Loading map
+2025-08-28 05:00:24 -  > Map size: 2293x2048.
+2025-08-28 05:00:46 -  > Map loading time: 33.994 seconds.
+2025-08-28 05:00:47 -  > Loaded house items in: 0.005 s
+2025-08-28 05:00:47 -  >> Loading guilds... No guild to load.
+2025-08-28 05:00:47 -  >> Initializing gamestate
+2025-08-28 05:00:48 -  > Loaded spawns in 0.617 seconds.
+2025-08-28 05:00:48 -  >> Loaded 202 npcs and spawned 20940 monsters.
+2025-08-28 05:00:48 -  >> Loaded 17 towns with 588 houses in total.
+2025-08-28 05:00:48 -  >> Start time: 28.08.2025 - 05:00:48
+2025-08-28 05:00:48 -  Initialization complete.
+2025-08-28 05:00:48 -  >> Loaded all modules, server starting up...
+2025-08-28 05:00:48 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-08-28 05:00:48 -  >> Server started in 36.837 seconds.
+2025-08-28 05:00:48 -  >> Middle Earth Server Server Online!
+2025-08-28 05:00:48 -  
+2025-08-28 05:00:48 -  Loading Stormy...
+2025-08-28 05:00:48 -  Stormy has logged in.
+2025-08-28 05:00:48 -  Loading Orc Lokao...
+2025-08-28 05:00:48 -  Orc Lokao has logged in.
+2025-08-28 05:00:48 -  Loading Thaynan Charlove...
+2025-08-28 05:00:48 -  Thaynan Charlove has logged in.
+2025-08-28 05:00:48 -  Loading Aleska Teodoro...
+2025-08-28 05:00:48 -  Aleska Teodoro has logged in.
+2025-08-28 05:00:48 -  Loading Drumbash Pebblebeard...
+2025-08-28 05:00:48 -  Drumbash Pebblebeard has logged in.
+2025-08-28 05:00:48 -  Loading Danilandia...
+2025-08-28 05:00:48 -  Danilandia has logged in.
+2025-08-28 05:00:48 -  Loading Luana Moranguinho...
+2025-08-28 05:00:48 -  Luana Moranguinho has logged in.
+2025-08-28 05:00:48 -  Loading Hector Bonilha...
+2025-08-28 05:00:48 -  Hector Bonilha has logged in.
+2025-08-28 05:00:48 -  Loading Oppenheimer...
+2025-08-28 05:00:48 -  Oppenheimer has logged in.
+2025-08-28 05:00:48 -  Loading Zhang Chulan...
+2025-08-28 05:00:48 -  Zhang Chulan has logged in.
+2025-08-28 05:00:48 -  Loading Chou Soran...
+2025-08-28 05:00:48 -  Chou Soran has logged in.
+2025-08-28 05:00:48 -  Loading Reiyu Shita...
+2025-08-28 05:00:48 -  Reiyu Shita has logged in.
+2025-08-28 05:00:48 -  Loading Shawty...
+2025-08-28 05:00:48 -  Shawty has logged in.
+2025-08-28 05:00:48 -  Loading Negrosaki...
+2025-08-28 05:00:48 -  Negrosaki has logged in.
+2025-08-28 05:00:49 -  Loading Anna Koldings...
+2025-08-28 05:00:49 -  Anna Koldings has logged in.
+2025-08-28 05:00:49 -  Loading Robin Hood...
+2025-08-28 05:00:49 -  Robin Hood has logged in.
+2025-08-28 05:00:49 -  Loading [GOD] Middle Earth...
+2025-08-28 05:00:49 -  [GOD] Middle Earth has logged in.
+2025-08-28 05:00:49 -  Loading Orc The Criar...
+2025-08-28 05:00:49 -  Orc The Criar has logged in.
+2025-08-28 05:00:49 -  Loading Criador De Jutsu...
+2025-08-28 05:00:49 -  Criador De Jutsu has logged in.
+2025-08-28 05:00:49 -  Loading Usain Arrow...
+2025-08-28 05:00:49 -  Usain Arrow has logged in.
+2025-08-28 05:00:49 -  Loading Wheely...
+2025-08-28 05:00:49 -  Wheely has logged in.
+2025-08-28 05:00:49 -  Loading Ojuara...
+2025-08-28 05:00:49 -  Ojuara has logged in.
+2025-08-28 05:00:50 -  Loading Lula...
+2025-08-28 05:00:50 -  Lula has logged in.
+2025-08-28 05:00:50 -  Loading Tolkien...
+2025-08-28 05:00:50 -  Tolkien has logged in.
+2025-08-28 05:00:51 -  Loading Putifero...
+2025-08-28 05:00:51 -  Putifero has logged in.
+2025-08-28 05:00:51 -  Loading Receptaculo...
+2025-08-28 05:00:51 -  Receptaculo has logged in.
+2025-08-28 05:00:51 -  Loading Alagoano Alma...
+2025-08-28 05:00:51 -  Alagoano Alma has logged in.
+2025-08-28 05:01:01 -  Robin Hood has logged out.
+2025-08-28 05:01:33 -  Loading Robin Hood...
+2025-08-28 05:01:33 -  Robin Hood has logged in.
+2025-08-28 05:03:49 -  [GOD] Middle Earth has logged out.
+2025-08-28 05:25:30 -  [BOSS SYSTEM] Spawned: Scatha
+2025-08-28 05:25:30 -  Loading Andin Inevitavel...
+2025-08-28 05:25:30 -  Andin Inevitavel has logged in.
+2025-08-28 06:02:12 -  [BOSS SYSTEM] Spawned: Azazel
+2025-08-28 06:02:12 -  [BOSS SYSTEM] Spawned: Zamulosh
+2025-08-28 06:02:12 -  Saving server... 28/08/2025 06:02:12
+2025-08-28 06:02:13 -  > Saved house items in: 0.14 s
+2025-08-28 06:03:20 -  Loading Ozymandias...
+2025-08-28 06:03:20 -  Ozymandias has logged in.
+2025-08-28 06:10:27 -  Zhang Chulan has logged out.
+2025-08-28 06:11:00 -  Loading Zhang Chulan...
+2025-08-28 06:11:00 -  Zhang Chulan has logged in.
+2025-08-28 06:14:54 -  Usain Arrow has logged out.
+2025-08-28 06:14:54 -  Wheely has logged out.
+2025-08-28 06:25:02 -  [BOSS SYSTEM] Spawned: Eddie
+2025-08-28 06:25:02 -  Loading Usain Arrow...
+2025-08-28 06:25:02 -  Usain Arrow has logged in.
+2025-08-28 06:26:12 -  Usain Arrow has logged out.
+2025-08-28 06:26:14 -  Loading Usain Arrow...
+2025-08-28 06:26:15 -  Usain Arrow has logged in.
+2025-08-28 06:26:22 -  Usain Arrow has logged out.
+2025-08-28 06:26:44 -  Loading Wheely...
+2025-08-28 06:26:44 -  Wheely has logged in.
+2025-08-28 06:27:16 -  Wheely has logged out.
+2025-08-28 06:58:57 -  [BOSS SYSTEM] Spawned: Wormageddon
+2025-08-28 06:58:57 -  Aleska Teodoro has logged out.
+2025-08-28 06:59:29 -  Loading Aleska Teodoro...
+2025-08-28 06:59:29 -  Aleska Teodoro has logged in.
+2025-08-28 07:02:12 -  [BOSS SYSTEM] Spawned: Ancalagon
+2025-08-28 07:02:12 -  Saving server... 28/08/2025 07:02:12
+2025-08-28 07:02:13 -  > Saved house items in: 0.121 s
+2025-08-28 07:17:36 -  Andin Inevitavel has logged out.
+2025-08-28 07:17:39 -  Loading Andinn Inevitavel...
+2025-08-28 07:17:39 -  Andinn Inevitavel has logged in.
+2025-08-28 07:28:14 -  [BOSS SYSTEM] Spawned: Evancing
+2025-08-28 07:28:14 -  Loading Criei Druid...
+2025-08-28 07:28:14 -  Criei Druid has logged in.
+2025-08-28 07:37:12 -  Hector Bonilha has logged out.
+2025-08-28 07:37:16 -  Danilandia has logged out.
+2025-08-28 07:40:15 -  [BOSS SYSTEM] Spawned: Olog-hai
+2025-08-28 07:40:15 -  Loading Gorbatchov...
+2025-08-28 07:40:15 -  Gorbatchov has logged in.
+2025-08-28 07:45:47 -  Gorbatchov has logged out.
+2025-08-28 07:45:48 -  Loading Gorbatchov...
+2025-08-28 07:45:48 -  Gorbatchov has logged in.
+2025-08-28 07:46:18 -  Criei Druid has logged out.
+2025-08-28 07:46:52 -  Negrosaki has logged out.
+2025-08-28 07:50:54 -  Gorbatchov has logged out.
+2025-08-28 07:53:16 -  Andinn Inevitavel has logged out.
+2025-08-28 07:53:19 -  Loading Andin Inevitavel...
+2025-08-28 07:53:19 -  Andin Inevitavel has logged in.
+2025-08-28 07:53:43 -  Andin Inevitavel has logged out.
+2025-08-28 07:53:45 -  Loading Andinn Inevitavel...
+2025-08-28 07:53:45 -  Andinn Inevitavel has logged in.
+2025-08-28 07:54:30 -  Andinn Inevitavel has logged out.
+2025-08-28 07:54:32 -  Loading Andin Inevitavel...
+2025-08-28 07:54:32 -  Andin Inevitavel has logged in.
+2025-08-28 07:54:56 -  Andin Inevitavel has logged out.
+2025-08-28 07:54:59 -  Loading Andinn Inevitavel...
+2025-08-28 07:54:59 -  Andinn Inevitavel has logged in.
+2025-08-28 07:58:13 -  Loading Negrosaki...
+2025-08-28 07:58:13 -  Negrosaki has logged in.
+2025-08-28 08:02:12 -  [BOSS SYSTEM] Spawned: Lord of The Elements
+2025-08-28 08:02:12 -  Saving server... 28/08/2025 08:02:12
+2025-08-28 08:02:13 -  > Saved house items in: 0.205 s
+2025-08-28 08:10:27 -  Loading Elf Do Sann...
+2025-08-28 08:10:27 -  Elf Do Sann has logged in.
+2025-08-28 08:14:47 -  Negrosaki has logged out.
+2025-08-28 08:14:49 -  Loading Negrosaki...
+2025-08-28 08:14:49 -  Negrosaki has logged in.
+2025-08-28 08:15:07 -  Negrosaki has logged out.
+2025-08-28 08:15:09 -  Loading Negrosaki...
+2025-08-28 08:15:09 -  Negrosaki has logged in.
+2025-08-28 08:15:16 -  Negrosaki has logged out.
+2025-08-28 08:26:28 -  [BOSS SYSTEM] Spawned: The Necromancer
+2025-08-28 08:26:28 -  Loading Joninha...
+2025-08-28 08:26:28 -  Joninha has logged in.
+2025-08-28 08:27:39 -  Joninha has logged out.
+2025-08-28 08:31:17 -  Tolkien has logged out.
+2025-08-28 08:31:41 -  Stormy has logged out.
+2025-08-28 08:55:31 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-08-28 08:55:31 -  Loading El Felca...
+2025-08-28 08:55:31 -  El Felca has logged in.
+2025-08-28 09:02:12 -  [BOSS SYSTEM] Spawned: Smaug
+2025-08-28 09:02:12 -  Saving server... 28/08/2025 09:02:12
+2025-08-28 09:02:13 -  > Saved house items in: 0.115 s
+2025-08-28 09:06:30 -  Andinn Inevitavel has logged out.
+2025-08-28 09:06:32 -  Loading Andin Inevitavel...
+2025-08-28 09:06:32 -  Andin Inevitavel has logged in.
+2025-08-28 09:08:55 -  Loading China Weed Lover...
+2025-08-28 09:08:55 -  China Weed Lover has logged in.
+2025-08-28 09:13:11 -  China Weed Lover has logged out.
+2025-08-28 09:13:12 -  Loading China Weed Lover...
+2025-08-28 09:13:12 -  China Weed Lover has logged in.
+2025-08-28 09:13:22 -  Ozymandias has logged out.
+2025-08-28 09:14:29 -  Loading Ozymandias...
+2025-08-28 09:14:29 -  Ozymandias has logged in.
+2025-08-28 09:16:42 -  El Felca has logged out.
+2025-08-28 09:20:07 -  Loading El Felca...
+2025-08-28 09:20:07 -  El Felca has logged in.
+2025-08-28 09:21:26 -  [BOSS SYSTEM] Spawned: Deathstrike
+2025-08-28 09:21:26 -  China Weed Lover has logged out.
+2025-08-28 09:21:28 -  Loading China Weed Lover...
+2025-08-28 09:21:28 -  China Weed Lover has logged in.
+2025-08-28 09:22:58 -  Loading Gandalffo...
+2025-08-28 09:22:58 -  Gandalffo has logged in.
+2025-08-28 09:25:07 -  Gandalffo has logged out.
+2025-08-28 09:25:21 -  Loading Legollas...
+2025-08-28 09:25:21 -  Legollas has logged in.
+2025-08-28 09:28:11 -  Legollas has logged out.
+2025-08-28 09:28:13 -  Loading Gandalffo...
+2025-08-28 09:28:13 -  Gandalffo has logged in.
+2025-08-28 09:28:22 -  Gandalffo has logged out.
+2025-08-28 09:28:24 -  Loading Legollas...
+2025-08-28 09:28:24 -  Legollas has logged in.
+2025-08-28 09:30:32 -  Ozymandias has logged out.
+2025-08-28 09:30:34 -  Loading Ozymandias...
+2025-08-28 09:30:34 -  Ozymandias has logged in.
+2025-08-28 09:34:33 -  Ozymandias has logged out.
+2025-08-28 09:35:07 -  Lula has logged out.
+2025-08-28 09:35:29 -  Loading Fuu Houhou...
+2025-08-28 09:35:29 -  Fuu Houhou has logged in.
+2025-08-28 09:36:13 -  Loading Ozymandias...
+2025-08-28 09:36:13 -  Ozymandias has logged in.
+2025-08-28 09:36:51 -  Loading Lula...
+2025-08-28 09:36:51 -  Lula has logged in.
+2025-08-28 09:41:15 -  [BOSS SYSTEM] Spawned: Laracna
+2025-08-28 09:41:15 -  Receptaculo has logged out.
+2025-08-28 09:41:17 -  Loading Receptaculo...
+2025-08-28 09:41:17 -  Receptaculo has logged in.
+2025-08-28 09:42:12 -  Receptaculo has logged out.
+2025-08-28 09:42:14 -  Loading Receptaculo...
+2025-08-28 09:42:14 -  Receptaculo has logged in.
+2025-08-28 09:42:32 -  El Felca has logged out.
+2025-08-28 09:42:36 -  Loading El Felca...
+2025-08-28 09:42:36 -  El Felca has logged in.
+2025-08-28 09:44:51 -  Andin Inevitavel has logged out.
+2025-08-28 09:45:21 -  Loading Andin Inevitavel...
+2025-08-28 09:45:21 -  Andin Inevitavel has logged in.
+2025-08-28 09:45:43 -  Andin Inevitavel has logged out.
+2025-08-28 09:45:46 -  Loading Andin Inevitavel...
+2025-08-28 09:45:46 -  Andin Inevitavel has logged in.
+2025-08-28 09:45:52 -  Legollas has logged out.
+2025-08-28 09:45:54 -  Loading Gandalffo...
+2025-08-28 09:45:54 -  Gandalffo has logged in.
+2025-08-28 09:46:00 -  Criador De Jutsu has logged out.
+2025-08-28 09:46:01 -  Loading Rap Da Alma...
+2025-08-28 09:46:01 -  Rap Da Alma has logged in.
+2025-08-28 09:46:04 -  El Felca has logged out.
+2025-08-28 09:46:06 -  Loading El Felca...
+2025-08-28 09:46:06 -  El Felca has logged in.
+2025-08-28 09:46:06 -  Gandalffo has logged out.
+2025-08-28 09:46:08 -  Loading Gandalffo...
+2025-08-28 09:46:08 -  Gandalffo has logged in.
+2025-08-28 09:46:10 -  Gandalffo has logged out.
+2025-08-28 09:46:12 -  Loading Legollas...
+2025-08-28 09:46:12 -  Legollas has logged in.
+2025-08-28 09:46:15 -  Rap Da Alma has logged out.
+2025-08-28 09:46:18 -  Loading Rulex Infernalist...
+2025-08-28 09:46:18 -  Rulex Infernalist has logged in.
+2025-08-28 09:46:50 -  Rulex Infernalist has logged out.
+2025-08-28 09:46:50 -  Receptaculo has logged out.
+2025-08-28 09:46:51 -  Chou Soran has logged out.
+2025-08-28 09:46:52 -  Loading Receptaculo...
+2025-08-28 09:46:52 -  Receptaculo has logged in.
+2025-08-28 09:46:53 -  Loading Chou Soran...
+2025-08-28 09:46:53 -  Chou Soran has logged in.
+2025-08-28 09:46:53 -  Loading Criador De Jutsu...
+2025-08-28 09:46:53 -  Criador De Jutsu has logged in.
+2025-08-28 09:47:06 -  El Felca has logged out.
+2025-08-28 09:47:26 -  Legollas has logged out.
+2025-08-28 09:51:13 -  Lula has logged out.
+2025-08-28 09:51:14 -  Loading Lula...
+2025-08-28 09:51:14 -  Lula has logged in.
+2025-08-28 09:54:39 -  Loading Orc Vegano...
+2025-08-28 09:54:39 -  Orc Vegano has logged in.
+2025-08-28 10:02:12 -  [BOSS SYSTEM] Spawned: Ferumbras
+2025-08-28 10:02:12 -  Saving server... 28/08/2025 10:02:12
+2025-08-28 10:02:13 -  > Saved house items in: 0.124 s
+2025-08-28 10:04:54 -  Orc The Criar has logged out.
+2025-08-28 10:05:04 -  Loading Aokiji...
+2025-08-28 10:05:04 -  Aokiji has logged in.
+2025-08-28 10:12:25 -  Loading Legollas...
+2025-08-28 10:12:25 -  Legollas has logged in.
+2025-08-28 10:19:27 -  Loading Negrosaki...
+2025-08-28 10:19:27 -  Negrosaki has logged in.
+2025-08-28 10:36:15 -  [BOSS SYSTEM] Spawned: Valaraukar
+2025-08-28 10:36:15 -  Loading [GOD] Middle Earth...
+2025-08-28 10:36:15 -  [GOD] Middle Earth has logged in.
+2025-08-28 10:46:26 -  [BOSS SYSTEM] Spawned: Khel Thuzad
+2025-08-28 10:46:26 -  Chou Soran has logged out.
+2025-08-28 10:46:31 -  Fuu Houhou has logged out.
+2025-08-28 10:47:58 -  Andin Inevitavel has logged out.
+2025-08-28 10:48:01 -  Loading Andinn Inevitavel...
+2025-08-28 10:48:01 -  Andinn Inevitavel has logged in.
+2025-08-28 10:49:35 -  Andinn Inevitavel has logged out.
+2025-08-28 10:49:38 -  Loading Andin Inevitavel...
+2025-08-28 10:49:38 -  Andin Inevitavel has logged in.
+2025-08-28 10:49:52 -  Andin Inevitavel has logged out.
+2025-08-28 10:49:55 -  Loading Andinn Inevitavel...
+2025-08-28 10:49:55 -  Andinn Inevitavel has logged in.
+2025-08-28 11:00:46 -  [BOSS SYSTEM] Spawned: Obujos
+2025-08-28 11:00:46 -  Ozymandias has logged out.
+2025-08-28 11:02:12 -  Saving server... 28/08/2025 11:02:12
+2025-08-28 11:02:13 -  > Saved house items in: 0.11 s
+2025-08-28 11:03:36 -  Lula has logged out.
+2025-08-28 11:05:29 -  Loading Tolkien...
+2025-08-28 11:05:29 -  Tolkien has logged in.
+2025-08-28 11:06:35 -  Loading Stormy...
+2025-08-28 11:06:35 -  Stormy has logged in.
+2025-08-28 11:10:03 -  Stormy has logged out.
+2025-08-28 11:10:06 -  Tolkien has logged out.
+2025-08-28 11:10:16 -  Loading Awesome Sophia...
+2025-08-28 11:10:16 -  Awesome Sophia has logged in.
+2025-08-28 11:10:39 -  Loading Tolkien...
+2025-08-28 11:10:39 -  Tolkien has logged in.
+2025-08-28 11:10:48 -  Loading Stormy...
+2025-08-28 11:10:48 -  Stormy has logged in.
+2025-08-28 11:17:37 -  Loading Zico Dez...
+2025-08-28 11:17:37 -  Zico Dez has logged in.
+2025-08-28 11:18:33 -  Loading Dulokz...
+2025-08-28 11:18:33 -  Dulokz has logged in.
+2025-08-28 11:19:14 -  Thaynan Charlove has logged out.
+2025-08-28 11:23:26 -  [BOSS SYSTEM] Spawned: Adramelech
+2025-08-28 11:23:26 -  Legollas has logged out.
+2025-08-28 11:23:29 -  Loading Legollas...
+2025-08-28 11:23:29 -  Legollas has logged in.
+2025-08-28 11:32:15 -  Stormy has logged out.
+2025-08-28 11:32:16 -  Tolkien has logged out.
+2025-08-28 11:33:00 -  Loading Stormy...
+2025-08-28 11:33:00 -  Stormy has logged in.
+2025-08-28 11:33:07 -  Loading Tolkien...
+2025-08-28 11:33:07 -  Tolkien has logged in.
+2025-08-28 11:33:12 -  Stormy has logged out.
+2025-08-28 11:33:13 -  Tolkien has logged out.
+2025-08-28 11:34:20 -  Andinn Inevitavel has logged out.
+2025-08-28 11:34:25 -  Loading Andin Inevitavel...
+2025-08-28 11:34:25 -  Andin Inevitavel has logged in.
+2025-08-28 11:36:03 -  Loading Boia Fria...
+2025-08-28 11:36:03 -  Boia Fria has logged in.
+2025-08-28 11:36:54 -  Loading Thaynan Charlove...
+2025-08-28 11:36:54 -  Thaynan Charlove has logged in.
+2025-08-28 11:37:01 -  Thaynan Charlove has logged out.
+2025-08-28 11:37:25 -  Loading Thaynan Charlove...
+2025-08-28 11:37:25 -  Thaynan Charlove has logged in.
+2025-08-28 11:37:31 -  Loading Stormy...
+2025-08-28 11:37:31 -  Stormy has logged in.
+2025-08-28 11:37:36 -  Loading Tolkien...
+2025-08-28 11:37:36 -  Tolkien has logged in.
+2025-08-28 11:39:31 -  Legollas has logged out.
+2025-08-28 11:39:34 -  Loading Legollas...
+2025-08-28 11:39:34 -  Legollas has logged in.
+2025-08-28 11:45:30 -  [BOSS SYSTEM] Spawned: Ungoliant
+2025-08-28 11:45:30 -  Loading Skylline...
+2025-08-28 11:45:30 -  Skylline has logged in.
+2025-08-28 11:48:38 -  Skylline has logged out.
+2025-08-28 11:48:40 -  Loading Skylline...
+2025-08-28 11:48:40 -  Skylline has logged in.
+2025-08-28 11:50:31 -  Negrosaki has logged out.
+2025-08-28 11:54:03 -  China Weed Lover has logged out.
+2025-08-28 11:54:05 -  Loading China Weed Lover...
+2025-08-28 11:54:05 -  China Weed Lover has logged in.
+2025-08-28 11:55:36 -  Legollas has logged out.
+2025-08-28 11:55:39 -  Loading Legollas...
+2025-08-28 11:55:39 -  Legollas has logged in.
+2025-08-28 11:56:19 -  Loading Orappa...
+2025-08-28 11:56:19 -  Orappa has logged in.
+2025-08-28 11:56:41 -  Andin Inevitavel has logged out.
+2025-08-28 11:56:44 -  Loading Andin Inevitavel...
+2025-08-28 11:56:44 -  Andin Inevitavel has logged in.
+2025-08-28 11:57:13 -  Loading Fuu Houhou...
+2025-08-28 11:57:13 -  Fuu Houhou has logged in.
+2025-08-28 11:57:35 -  Fuu Houhou has logged out.
+2025-08-28 12:00:35 -  [BOSS SYSTEM] Spawned: Emelianenko
+2025-08-28 12:00:35 -  Andin Inevitavel has logged out.
+2025-08-28 12:00:38 -  Loading Andinn Inevitavel...
+2025-08-28 12:00:38 -  Andinn Inevitavel has logged in.
+2025-08-28 12:01:29 -  Andinn Inevitavel has logged out.
+2025-08-28 12:01:33 -  Loading Andin Inevitavel...
+2025-08-28 12:01:33 -  Andin Inevitavel has logged in.
+2025-08-28 12:02:12 -  Saving server... 28/08/2025 12:02:12
+2025-08-28 12:02:13 -  > Saved house items in: 0.121 s
+2025-08-28 12:11:41 -  Legollas has logged out.
+2025-08-28 12:11:44 -  Loading Legollas...
+2025-08-28 12:11:44 -  Legollas has logged in.
+2025-08-28 12:11:53 -  Skylline has logged out.
+2025-08-28 12:11:56 -  Loading Skylline...
+2025-08-28 12:11:56 -  Skylline has logged in.
+2025-08-28 12:12:59 -  Orc Lokao has logged out.
+2025-08-28 12:13:01 -  Loading Orc Lokao...
+2025-08-28 12:13:01 -  Orc Lokao has logged in.
+2025-08-28 12:14:14 -  Drumbash Pebblebeard has logged out.
+2025-08-28 12:14:22 -  Loading Drumbash Pebblebeard...
+2025-08-28 12:14:22 -  Drumbash Pebblebeard has logged in.
+2025-08-28 12:17:00 -  Loading Chou Soran...
+2025-08-28 12:17:00 -  Chou Soran has logged in.
+2025-08-28 12:19:38 -  Loading Fuu Houhou...
+2025-08-28 12:19:38 -  Fuu Houhou has logged in.
+2025-08-28 12:19:42 -  Fuu Houhou has logged out.
+2025-08-28 12:21:05 -  [BOSS SYSTEM] Spawned: Jaul
+2025-08-28 12:21:05 -  Andin Inevitavel has logged out.
+2025-08-28 12:21:08 -  Loading Andinn Inevitavel...
+2025-08-28 12:21:08 -  Andinn Inevitavel has logged in.
+2025-08-28 12:21:22 -  Dulokz has logged out.
+2025-08-28 12:21:24 -  Zico Dez has logged out.
+2025-08-28 12:21:24 -  Loading Dulokz...
+2025-08-28 12:21:24 -  Dulokz has logged in.
+2025-08-28 12:21:26 -  Loading Zico Dez...
+2025-08-28 12:21:26 -  Zico Dez has logged in.
+2025-08-28 12:21:36 -  Skylline has logged out.
+2025-08-28 12:22:09 -  Loading Skylline...
+2025-08-28 12:22:09 -  Skylline has logged in.
+2025-08-28 12:23:10 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-08-28 12:24:31 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-08-28 12:27:46 -  Legollas has logged out.
+2025-08-28 12:27:49 -  Loading Legollas...
+2025-08-28 12:27:49 -  Legollas has logged in.
+2025-08-28 12:31:45 -  Aokiji has logged out.
+2025-08-28 12:31:50 -  Loading Aokiji...
+2025-08-28 12:31:50 -  Aokiji has logged in.
+2025-08-28 12:34:44 -  Skylline has logged out.
+2025-08-28 12:34:46 -  Loading Skylline...
+2025-08-28 12:34:46 -  Skylline has logged in.
+2025-08-28 12:37:32 -  Chou Soran has logged out.
+2025-08-28 12:37:43 -  Zhang Chulan has logged out.
+2025-08-28 12:38:22 -  Reiyu Shita has logged out.
+2025-08-28 12:39:00 -  Loading Chou Soran...
+2025-08-28 12:39:00 -  Chou Soran has logged in.
+2025-08-28 12:39:00 -  Loading Reiyu Shita...
+2025-08-28 12:39:00 -  Reiyu Shita has logged in.
+2025-08-28 12:39:00 -  Loading Zhang Chulan...
+2025-08-28 12:39:00 -  Zhang Chulan has logged in.
+2025-08-28 12:42:39 -  [BOSS SYSTEM] Spawned: Saruman
+2025-08-28 12:42:39 -  Andinn Inevitavel has logged out.
+2025-08-28 12:42:41 -  Loading Andinn Inevitavel...
+2025-08-28 12:42:41 -  Andinn Inevitavel has logged in.
+2025-08-28 12:43:52 -  Legollas has logged out.
+2025-08-28 12:43:54 -  Loading Legollas...
+2025-08-28 12:43:54 -  Legollas has logged in.
+2025-08-28 12:46:06 -  Andinn Inevitavel has logged out.
+2025-08-28 12:46:29 -  Loading Andinn Inevitavel...
+2025-08-28 12:46:29 -  Andinn Inevitavel has logged in.
+2025-08-28 12:55:31 -  Tolkien has logged out.
+2025-08-28 12:55:43 -  Loading Tolkien...
+2025-08-28 12:55:43 -  Tolkien has logged in.
+2025-08-28 12:56:15 -  Andinn Inevitavel has logged out.
+2025-08-28 12:56:19 -  Loading Andinn Inevitavel...
+2025-08-28 12:56:19 -  Andinn Inevitavel has logged in.
+2025-08-28 12:59:56 -  Legollas has logged out.
+2025-08-28 12:59:59 -  Loading Legollas...
+2025-08-28 12:59:59 -  Legollas has logged in.
+2025-08-28 13:02:12 -  [BOSS SYSTEM] Spawned: Son of Ancalagon
+2025-08-28 13:02:12 -  Saving server... 28/08/2025 13:02:12
+2025-08-28 13:02:13 -  > Saved house items in: 0.128 s
+2025-08-28 13:04:32 -  Luana Moranguinho has logged out.
+2025-08-28 13:05:05 -  Loading Luana Moranguinho...
+2025-08-28 13:05:05 -  Luana Moranguinho has logged in.
+2025-08-28 13:05:12 -  Aleska Teodoro has logged out.
+2025-08-28 13:05:44 -  Loading Aleska Teodoro...
+2025-08-28 13:05:44 -  Aleska Teodoro has logged in.
+2025-08-28 13:15:59 -  Aleska Teodoro has logged out.
+2025-08-28 13:16:01 -  Legollas has logged out.
+2025-08-28 13:16:04 -  Loading Legollas...
+2025-08-28 13:16:04 -  Legollas has logged in.
+2025-08-28 13:16:10 -  Loading Aleska Teodoro...
+2025-08-28 13:16:10 -  Aleska Teodoro has logged in.
+2025-08-28 13:26:56 -  [BOSS SYSTEM] Spawned: Jormungand
+2025-08-28 13:26:56 -  Loading Fuu Houhou...
+2025-08-28 13:26:56 -  Fuu Houhou has logged in.
+2025-08-28 13:30:41 -  Fuu Houhou has logged out.
+2025-08-28 13:32:07 -  Legollas has logged out.
+2025-08-28 13:32:10 -  Loading Legollas...
+2025-08-28 13:32:10 -  Legollas has logged in.
+2025-08-28 13:42:21 -  [BOSS SYSTEM] Spawned: Cerberus
+2025-08-28 13:42:21 -  Loading Fuu Houhou...
+2025-08-28 13:42:21 -  Fuu Houhou has logged in.
+2025-08-28 13:42:52 -  Fuu Houhou has logged out.
+2025-08-28 13:42:57 -  Loading Fuu Houhou...
+2025-08-28 13:42:57 -  Fuu Houhou has logged in.
+2025-08-28 13:48:12 -  Legollas has logged out.
+2025-08-28 13:48:15 -  Loading Legollas...
+2025-08-28 13:48:15 -  Legollas has logged in.
+2025-08-28 13:48:17 -  Stormy has logged out.
+2025-08-28 13:48:24 -  Loading Stormy...
+2025-08-28 13:48:24 -  Stormy has logged in.
+2025-08-28 13:49:49 -  Stormy has logged out.
+2025-08-28 13:49:57 -  Loading Stormy...
+2025-08-28 13:49:57 -  Stormy has logged in.
+2025-08-28 13:51:16 -  Saving server... 28/08/2025 13:51:16
+2025-08-28 13:51:16 -  > Saved house items in: 0.127 s
+2025-08-28 13:51:21 -  Reloaded talk.
+2025-08-28 13:51:21 -  Saving server... 28/08/2025 13:51:21
+2025-08-28 13:51:21 -  > Saved house items in: 0.131 s
+2025-08-28 13:54:15 -  Reloaded talkactions.
+2025-08-28 13:54:15 -  Oppenheimer has logged out.
+2025-08-28 13:54:16 -  Loading Oppenheimer...
+2025-08-28 13:54:16 -  Oppenheimer has logged in.
+2025-08-28 13:59:01 -  Fuu Houhou has logged out.
+2025-08-28 13:59:44 -  Loading Fuu Houhou...
+2025-08-28 13:59:44 -  Fuu Houhou has logged in.
+2025-08-28 14:01:25 -  [BOSS SYSTEM] Spawned: Avari Leader
+2025-08-28 14:01:25 -  Saving server... 28/08/2025 14:01:25
+2025-08-28 14:01:26 -  > Saved house items in: 0.127 s
+2025-08-28 14:01:28 -  Saving server... 28/08/2025 14:01:28
+2025-08-28 14:01:29 -  > Saved house items in: 0.109 s
+2025-08-28 14:02:12 -  Reloaded config.
+2025-08-28 14:02:12 -  Saving server... 28/08/2025 14:02:12
+2025-08-28 14:02:13 -  > Saved house items in: 0.129 s
+2025-08-28 14:04:20 -  Legollas has logged out.
+2025-08-28 14:04:22 -  Loading Legollas...
+2025-08-28 14:04:22 -  Legollas has logged in.
+2025-08-28 14:04:28 -  Orappa has logged out.
+2025-08-28 14:04:33 -  Loading Orappa...
+2025-08-28 14:04:33 -  Orappa has logged in.
+2025-08-28 14:08:05 -  Stormy has logged out.
+2025-08-28 14:09:35 -  Loading Sujiro Kimechup...
+2025-08-28 14:09:35 -  Sujiro Kimechup has logged in.
+2025-08-28 14:09:41 -  Loading Stormy...
+2025-08-28 14:09:41 -  Stormy has logged in.
+2025-08-28 14:11:13 -  Fuu Houhou has logged out.
+2025-08-28 14:11:35 -  Loading Fuu Houhou...
+2025-08-28 14:11:35 -  Fuu Houhou has logged in.
+2025-08-28 14:19:56 -  Sujiro Kimechup has logged out.
+2025-08-28 14:20:06 -  Loading Sujiro Kimechup...
+2025-08-28 14:20:06 -  Sujiro Kimechup has logged in.
+2025-08-28 14:20:25 -  [BOSS SYSTEM] Spawned: Azaka
+2025-08-28 14:20:25 -  Legollas has logged out.
+2025-08-28 14:20:27 -  Loading Legollas...
+2025-08-28 14:20:27 -  Legollas has logged in.
+2025-08-28 14:23:36 -  Loading Duboldinho...
+2025-08-28 14:23:36 -  Duboldinho has logged in.
+2025-08-28 14:24:57 -  Aokiji has logged out.
+2025-08-28 14:25:29 -  Loading Aokiji...
+2025-08-28 14:25:29 -  Aokiji has logged in.
+2025-08-28 14:34:16 -  Andinn Inevitavel has logged out.
+2025-08-28 14:34:18 -  Loading Andinn Inevitavel...
+2025-08-28 14:34:18 -  Andinn Inevitavel has logged in.
+2025-08-28 14:34:25 -  Andinn Inevitavel has logged out.
+2025-08-28 14:34:27 -  Loading Anderson Inevitavel...
+2025-08-28 14:34:27 -  Anderson Inevitavel has logged in.
+2025-08-28 14:36:30 -  Legollas has logged out.
+2025-08-28 14:36:33 -  Loading Legollas...
+2025-08-28 14:36:33 -  Legollas has logged in.
+2025-08-28 14:39:49 -  Aleska Teodoro has logged out.
+2025-08-28 14:40:02 -  Loading Aleska Teodoro...
+2025-08-28 14:40:02 -  Aleska Teodoro has logged in.
+2025-08-28 14:40:08 -  [GOD] Middle Earth has logged out.
+2025-08-28 14:44:17 -  [BOSS SYSTEM] Spawned: Baalrog
+2025-08-28 14:44:17 -  Aleska Teodoro has logged out.
+2025-08-28 14:44:28 -  Loading Aleska Teodoro...
+2025-08-28 14:44:28 -  Aleska Teodoro has logged in.
+2025-08-28 14:44:43 -  Loading [GOD] Middle Earth...
+2025-08-28 14:44:43 -  [GOD] Middle Earth has logged in.
+2025-08-28 14:45:41 -  [GOD] Middle Earth has logged out.
+2025-08-28 14:45:42 -  Loading [GOD] Middle Earth...
+2025-08-28 14:45:42 -  [GOD] Middle Earth has logged in.
+2025-08-28 14:46:39 -  Luana Moranguinho has logged out.
+2025-08-28 14:46:44 -  Loading Luana Moranguinho...
+2025-08-28 14:46:44 -  Luana Moranguinho has logged in.
+2025-08-28 14:52:35 -  Legollas has logged out.
+2025-08-28 14:52:38 -  Loading Legollas...
+2025-08-28 14:52:38 -  Legollas has logged in.
+2025-08-28 14:56:09 -  Orappa has logged out.
+2025-08-28 14:56:11 -  Loading Orappa...
+2025-08-28 14:56:11 -  Orappa has logged in.
+2025-08-28 14:57:28 -  Chou Soran has logged out.
+2025-08-28 14:58:00 -  Loading Chou Soran...
+2025-08-28 14:58:00 -  Chou Soran has logged in.
+2025-08-28 14:58:21 -  Anderson Inevitavel has logged out.
+2025-08-28 14:58:25 -  Loading Andin Inevitavel...
+2025-08-28 14:58:25 -  Andin Inevitavel has logged in.
+2025-08-28 14:59:36 -  Andin Inevitavel has logged out.
+2025-08-28 14:59:38 -  Loading Anderson Inevitavel...
+2025-08-28 14:59:38 -  Anderson Inevitavel has logged in.
+2025-08-28 15:01:16 -  Aleska Teodoro has logged out.
+2025-08-28 15:01:49 -  Loading Aleska Teodoro...
+2025-08-28 15:01:49 -  Aleska Teodoro has logged in.
+2025-08-28 15:02:12 -  Saving server... 28/08/2025 15:02:12
+2025-08-28 15:02:13 -  > Saved house items in: 0.118 s
+2025-08-28 15:02:33 -  Orappa has logged out.
+2025-08-28 15:02:38 -  Loading Orappa...
+2025-08-28 15:02:38 -  Orappa has logged in.
+2025-08-28 15:08:41 -  Legollas has logged out.
+2025-08-28 15:08:44 -  Loading Legollas...
+2025-08-28 15:08:44 -  Legollas has logged in.
+2025-08-28 15:09:09 -  Saving server... 28/08/2025 15:09:09
+2025-08-28 15:09:09 -  > Saved house items in: 0.114 s
+2025-08-28 15:09:46 -  Reloaded monsters.
+2025-08-28 15:09:46 -  Tolkien has logged out.
+2025-08-28 15:09:49 -  Loading Tolkien...
+2025-08-28 15:09:49 -  Tolkien has logged in.
+2025-08-28 15:10:27 -  Orappa has logged out.
+2025-08-28 15:10:29 -  Loading Orappa...
+2025-08-28 15:10:29 -  Orappa has logged in.
+2025-08-28 15:10:36 -  Aleska Teodoro has logged out.
+2025-08-28 15:10:53 -  Loading Aleska Teodoro...
+2025-08-28 15:10:53 -  Aleska Teodoro has logged in.
+2025-08-28 15:15:12 -  Chou Soran has logged out.
+2025-08-28 15:15:18 -  Loading Chou Soran...
+2025-08-28 15:15:18 -  Chou Soran has logged in.
+2025-08-28 15:17:38 -  Loading Joninha...
+2025-08-28 15:17:38 -  Joninha has logged in.
+2025-08-28 15:19:48 -  Aleska Teodoro has logged out.
+2025-08-28 15:19:49 -  Orappa has logged out.
+2025-08-28 15:19:51 -  Loading Orappa...
+2025-08-28 15:19:51 -  Orappa has logged in.
+2025-08-28 15:20:20 -  Loading Aleska Teodoro...
+2025-08-28 15:20:20 -  Aleska Teodoro has logged in.
+2025-08-28 15:22:53 -  > [GOD] Middle Earth broadcasted: "O servidor será reiniciado as 15:25 para correções importantes.".
+2025-08-28 15:22:53 -  189.13.226.199 disconnected for exceeding packet per second limit.
+2025-08-28 15:24:26 -  > [GOD] Middle Earth broadcasted: "O servidor será reiniciado em 3 minutos, saiam das hunts e áreas perigosas!".
+2025-08-28 15:24:26 -  Saving server... 28/08/2025 15:24:26
+2025-08-28 15:24:26 -  > Saved house items in: 0.113 s
+2025-08-28 15:24:47 -  Legollas has logged out.
+2025-08-28 15:24:50 -  Loading Legollas...
+2025-08-28 15:24:50 -  Legollas has logged in.
+2025-08-28 15:25:08 -  Aleska Teodoro has logged out.
+2025-08-28 15:25:08 -  Orappa has logged out.
+2025-08-28 15:25:08 -  Tolkien has logged out.
+2025-08-28 15:25:08 -  Anderson Inevitavel has logged out.
+2025-08-28 15:25:08 -  Luana Moranguinho has logged out.
+2025-08-28 15:25:08 -  Aokiji has logged out.
+2025-08-28 15:25:08 -  Duboldinho has logged out.
+2025-08-28 15:25:08 -  Sujiro Kimechup has logged out.
+2025-08-28 15:25:08 -  Fuu Houhou has logged out.
+2025-08-28 15:25:08 -  Joninha has logged out.
+2025-08-28 15:25:08 -  Stormy has logged out.
+2025-08-28 15:25:08 -  Zhang Chulan has logged out.
+2025-08-28 15:25:08 -  Reiyu Shita has logged out.
+2025-08-28 15:25:08 -  Skylline has logged out.
+2025-08-28 15:25:08 -  Zico Dez has logged out.
+2025-08-28 15:25:08 -  Dulokz has logged out.
+2025-08-28 15:25:08 -  Drumbash Pebblebeard has logged out.
+2025-08-28 15:25:08 -  Orc Lokao has logged out.
+2025-08-28 15:25:08 -  China Weed Lover has logged out.
+2025-08-28 15:25:08 -  Shawty has logged out.
+2025-08-28 15:25:08 -  Putifero has logged out.
+2025-08-28 15:25:08 -  Alagoano Alma has logged out.
+2025-08-28 15:25:08 -  Oppenheimer has logged out.
+2025-08-28 15:25:08 -  Ojuara has logged out.
+2025-08-28 15:25:08 -  Chou Soran has logged out.
+2025-08-28 15:25:08 -  Awesome Sophia has logged out.
+2025-08-28 15:25:08 -  Thaynan Charlove has logged out.
+2025-08-28 15:25:08 -  Elf Do Sann has logged out.
+2025-08-28 15:25:08 -  Anna Koldings has logged out.
+2025-08-28 15:25:08 -  Robin Hood has logged out.
+2025-08-28 15:25:08 -  Receptaculo has logged out.
+2025-08-28 15:25:08 -  Criador De Jutsu has logged out.
+2025-08-28 15:25:08 -  Legollas has logged out.
+2025-08-28 15:25:08 -  Orc Vegano has logged out.
+2025-08-28 15:25:08 -  Boia Fria has logged out.
+2025-08-28 15:25:08 -  Saving server... 28/08/2025 15:25:08
+2025-08-28 15:25:08 -  > Saved house items in: 0.112 s
+2025-08-28 15:25:10 -  Saving server... 28/08/2025 15:25:10
+2025-08-28 15:25:10 -  > Saved house items in: 0.108 s
+2025-08-28 15:25:22 -  [GOD] Middle Earth has logged out.
+2025-08-28 15:25:22 -  Saving server... 28/08/2025 15:25:22
+2025-08-28 15:25:23 -  > Saved house items in: 0.117 s
+2025-08-28 15:25:23 -  Shutting down...Saving server... 28/08/2025 15:25:23
+2025-08-28 15:25:23 -  > Saved house items in: 0.108 s
+2025-08-28 15:25:23 -  [Thread 0x7ffff4b0d700 (LWP 161863) exited]
+2025-08-28 15:25:23 -  [Thread 0x7ffff5322700 (LWP 161862) exited]
+2025-08-28 15:25:23 -   done!
+2025-08-28 15:25:23 -  [Thread 0x7ffff5b23700 (LWP 161861) exited]
+2025-08-28 15:25:26 -  >> Saving player items.

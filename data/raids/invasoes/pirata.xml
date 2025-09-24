@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="Os mais terríveis piratas estão vindo atacar Edoras!"/>
+<announce delay="35000" type="Event" message="Eles estão chegando na entrada cidade, venham bravos guerreiros antes que seja tarde!"/>
+<announce delay="55000" type="Event" message="Seu ataque chegou mais rápido do que previamos, agora o que resta é lutar!"/>
+
+
+<areaspawn delay="65000" fromx="1063" fromy="971" fromz="7" tox="1069" toy="987" toz="7">
+	<monster name="Pirate Skeleton" amount="7" />
+	<monster name="Pirate Marauder" amount="5" />
+</areaspawn>
+
+<areaspawn delay="85000" fromx="1058" fromy="981" fromz="7" tox="1074" toy="988" toz="7">
+	<monster name="Pirate Skeleton" amount="8" />
+	<monster name="Pirate Marauder" amount="6" />
+</areaspawn>
+
+<areaspawn delay="105000" fromx="1058" fromy="981" fromz="7" tox="1074" toy="988" toz="7">
+	<monster name="Pirate Cutthroat" amount="8" />
+</areaspawn>
+
+<areaspawn delay="125000" fromx="1058" fromy="981" fromz="7" tox="1074" toy="988" toz="7">
+	<monster name="Pirate Cutthroat" amount="5" />
+	<monster name="Pirate Buccaneer" amount="3" />
+</areaspawn>
+
+<announce delay="135000" type="Event" message="Nossa primeira resistência não foi o suficiente, eles estão dentro da cidade!"/>
+
+<areaspawn delay="140000" fromx="1062" fromy="991" fromz="6" tox="1074" toy="995" toz="6">
+	<monster name="Pirate Cutthroat" amount="6" />
+	<monster name="Pirate Buccaneer" amount="4" />
+</areaspawn>
+
+<areaspawn delay="155000" fromx="1047" fromy="995" fromz="6" tox="1053" toy="999" toz="6">
+	<monster name="Pirate Ghost" amount="6" />
+	<monster name="Pirate Buccaneer" amount="4" />
+</areaspawn>
+
+<areaspawn delay="165000" fromx="1070" fromy="995" fromz="6" tox="1075" toy="999" toz="6">
+	<monster name="Pirate Ghost" amount="6" />
+	<monster name="Pirate Cutthroat" amount="4" />
+</areaspawn>
+
+<areaspawn delay="185000" fromx="1062" fromy="991" fromz="6" tox="1074" toy="995" toz="6">
+	<monster name="Pirate Cutthroat" amount="5" />
+	<monster name="Pirate Buccaneer" amount="3" />
+	<monster name="Pirate Corsair" amount="3" />
+</areaspawn>
+
+<areaspawn delay="200000" fromx="1047" fromy="995" fromz="6" tox="1053" toy="999" toz="6">
+	<monster name="Pirate Ghost" amount="5" />
+	<monster name="Pirate Buccaneer" amount="3" />
+	<monster name="Pirate Corsair" amount="3" />
+</areaspawn>
+
+<areaspawn delay="215000" fromx="1070" fromy="995" fromz="6" tox="1075" toy="999" toz="6">
+	<monster name="Pirate Ghost" amount="6" />
+	<monster name="Pirate Cutthroat" amount="4" />
+	<monster name="Pirate Corsair" amount="2" />
+</areaspawn>
+
+<announce delay="220000" type="Event" message="Eles estão saqueando toda a cidade!"/>
+
+<areaspawn delay="235000" fromx="1071" fromy="1007" fromz="6" tox="1086" toy="1010" toz="6">
+	<monster name="Pirate Marauder" amount="5" />
+	<monster name="Pirate Ghost" amount="2" />
+	<monster name="Pirate Cutthroat" amount="4" />
+	<monster name="Pirate Corsair" amount="4" />
+</areaspawn>
+
+<areaspawn delay="265000" fromx="1070" fromy="992" fromz="6" tox="1074" toy="1010" toz="6">
+	<monster name="Pirate Skeleton" amount="6" />
+	<monster name="Pirate Ghost" amount="2" />
+	<monster name="Pirate Buccaneer" amount="3" />
+	<monster name="Pirate Corsair" amount="4" />
+</areaspawn>
+
+<areaspawn delay="285000" fromx="1070" fromy="992" fromz="6" tox="1074" toy="1010" toz="6">
+	<monster name="Pirate Skeleton" amount="5" />
+	<monster name="Pirate Ghost" amount="2" />
+	<monster name="Pirate Buccaneer" amount="3" />
+	<monster name="Pirate Corsair" amount="3" />
+	<monster name="Pirate Captain" amount="1" />
+</areaspawn>
+
+<announce delay="310000" type="Event" message="Os piratas chegaram ao depot, lutem ou corram por suas vidas!"/>
+
+<areaspawn delay="315000" fromx="1063" fromy="996" fromz="5" tox="1068" toy="1018" toz="5">
+	<monster name="Pirate Skeleton" amount="5" />
+	<monster name="Pirate Marauder" amount="5" />
+	<monster name="Pirate Ghost" amount="2" />
+	<monster name="Pirate Buccaneer" amount="3" />
+	<monster name="Pirate Cutthroat" amount="3" />
+	<monster name="Pirate Corsair" amount="3" />
+</areaspawn>
+
+<areaspawn delay="335000" fromx="1068" fromy="1012" fromz="5" tox="1072" toy="1019" toz="5">
+	<monster name="Pirate Buccaneer" amount="4" />
+	<monster name="Pirate Cutthroat" amount="4" />
+	<monster name="Pirate Corsair" amount="3" />
+</areaspawn>
+
+<areaspawn delay="345000" fromx="1046" fromy="1010" fromz="5" tox="1053" toy="1017" toz="5">
+	<monster name="Pirate Buccaneer" amount="5" />
+	<monster name="Pirate Cutthroat" amount="5" />
+	<monster name="Pirate Corsair" amount="4" />
+</areaspawn>
+
+<areaspawn delay="365000" fromx="1063" fromy="996" fromz="5" tox="1068" toy="1018" toz="5">
+	<monster name="Pirate Skeleton" amount="4" />
+	<monster name="Pirate Marauder" amount="4" />
+	<monster name="Pirate Ghost" amount="2" />
+	<monster name="Pirate Buccaneer" amount="3" />
+	<monster name="Pirate Cutthroat" amount="3" />
+	<monster name="Pirate Corsair" amount="2" />
+	<monster name="Pirate Captain" amount="1" />
+</areaspawn>
+
+<areaspawn delay="375000" fromx="1068" fromy="1012" fromz="5" tox="1072" toy="1019" toz="5">
+	<monster name="Pirate Buccaneer" amount="4" />
+	<monster name="Pirate Cutthroat" amount="4" />
+	<monster name="Pirate Corsair" amount="3" />
+	<monster name="Pirate Captain" amount="1" />
+</areaspawn>
+
+<areaspawn delay="385000" fromx="1046" fromy="1010" fromz="5" tox="1053" toy="1017" toz="5">
+	<monster name="Pirate Buccaneer" amount="4" />
+	<monster name="Pirate Cutthroat" amount="4" />
+	<monster name="Pirate Corsair" amount="3" />
+	<monster name="Pirate Captain" amount="1" />
+</areaspawn>
+
+<announce delay="390000" type="Event" message="O ataque está cada vez mais forte e os capitães estão por toda parte"/>
+
+<areaspawn delay="395000" fromx="1070" fromy="992" fromz="6" tox="1074" toy="1010" toz="6">
+	<monster name="Pirate Skeleton" amount="5" />
+	<monster name="Pirate Ghost" amount="2" />
+	<monster name="Pirate Buccaneer" amount="3" />
+	<monster name="Pirate Corsair" amount="3" />
+	<monster name="Pirate Captain" amount="1" />
+</areaspawn>
+
+<areaspawn delay="435000" fromx="1063" fromy="996" fromz="5" tox="1068" toy="1018" toz="5">
+	<monster name="Pirate Skeleton" amount="5" />
+	<monster name="Pirate Marauder" amount="5" />
+	<monster name="Pirate Ghost" amount="2" />
+	<monster name="Pirate Buccaneer" amount="3" />
+	<monster name="Pirate Cutthroat" amount="3" />
+	<monster name="Pirate Corsair" amount="3" />
+</areaspawn>
+
+<areaspawn delay="455000" fromx="1068" fromy="1012" fromz="5" tox="1072" toy="1019" toz="5">
+	<monster name="Pirate Buccaneer" amount="4" />
+	<monster name="Pirate Cutthroat" amount="4" />
+	<monster name="Pirate Corsair" amount="3" />
+</areaspawn>
+
+<areaspawn delay="465000" fromx="1046" fromy="1010" fromz="5" tox="1053" toy="1017" toz="5">
+	<monster name="Pirate Buccaneer" amount="5" />
+	<monster name="Pirate Cutthroat" amount="5" />
+	<monster name="Pirate Corsair" amount="4" />
+</areaspawn>
+
+<areaspawn delay="470000" fromx="1065" fromy="1007" fromz="4" tox="1067" toy="1010" toz="4">
+	<monster name="Pirate Buccaneer" amount="1" />
+	<monster name="Pirate Cutthroat" amount="1" />
+	<monster name="Pirate Captain" amount="1" />
+</areaspawn>
+
+<areaspawn delay="485000" fromx="1063" fromy="996" fromz="5" tox="1068" toy="1018" toz="5">
+	<monster name="Pirate Skeleton" amount="4" />
+	<monster name="Pirate Marauder" amount="4" />
+	<monster name="Pirate Ghost" amount="2" />
+	<monster name="Pirate Buccaneer" amount="2" />
+	<monster name="Pirate Cutthroat" amount="2" />
+	<monster name="Pirate Corsair" amount="2" />
+	<monster name="Pirate Captain" amount="1" />
+</areaspawn>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</raid>

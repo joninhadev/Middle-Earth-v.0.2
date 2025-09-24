@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Shadow Spectre" nameDescription="a shadow spectre" race="blood" experience="12000" speed="195" manacost="0" raceid="1725">
+	<health now="6000" max="6000" />
+	<look type="1122" head="19" body="22" legs="76" feet="22" corpse="34505" />
+	<targetchange interval="6000" chance="25" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-250" max="-500" />
+	    <attack name="death" interval="2080" chance="50" range="4" min="-350" max="-360">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="death" interval="2000" chance="55" target="0" radius="3" min="-400" max="-550"><!-- EXORI DE MORTE -->
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="death" interval="2000" chance="55" target="1" radius="4" min="-400" max="-650"><!-- UE EM DEATH -->
+		<attribute key="areaEffect" value="mortarea"/>
+		</attack>		
+	</attacks>
+	<defenses armor="78" defense="78">
+		<defense name="healing" interval="2000" chance="10" min="150" max="200">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="10"/>
+		<element holyPercent="10"/>
+		<element deathPercent="100"/>
+		<element earthPercent="30"/>
+		<element energyPercent="10"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Deathhh... is... a.... doooor!!" />
+		<voice sentence="Tiiimeee... is... a... windowww!" />
+	</voices>
+	<loot>
+		<item name="platinum coin" countmax="5" chance="39999"/>
+		<item name="prismatic quartz" chance="1520" />
+		<item name="dark lord's cape" chance="700"/>
+		<item name="motaba wand" chance="1000"/>
+		<item name="onyx chip" chance="1440" />
+		<item name="hexagonal ruby" chance="800" /> 
+</loot>
+</monster>

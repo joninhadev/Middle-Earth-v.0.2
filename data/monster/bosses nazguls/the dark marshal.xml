@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Dark Marshal" nameDescription="the Dark Marshal" race="fire" experience="1000000" speed="300" manacost="0">
+  <health now="300000" max="300000"/>
+  <look type="1271" addons="0" head="0" body="0" legs="0" feet="0" mount="1321" corpse="6324"/>
+  <targetchange interval="6000" chance="80"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+  <flag rewardboss="1" />
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="90"/>
+	<flag runonhealth="5000"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="1000" min="-1200" max="-1500"/>
+	<attack name="energy" interval="2000" chance="55" target="0" radius="3" min="-1500" max="-2000">
+		<attribute key="areaEffect" value="purpleenergy"/>
+	</attack>
+	
+	<attack name="death" interval="2850" chance="22" length="7" spread="0" min="-2500" max="-3900">
+	  <attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	<attack name="energy" interval="2100" chance="50" radius="8" spread="3" min="-1500" max="-2300">
+	<attribute key="areaEffect" value="bigclouds"/>
+	</attack>
+	<attack name="death" interval="4000" chance="55" radius="6" target="0" min="-1900" max="-2800">
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+		<attack name="energy" interval="2000" chance="50" range="7" min="-800" max="-1800"><!-- EXORI VIS -->
+			<attribute key="shootEffect" value="energy" />
+		</attack>
+
+	
+</attacks>
+
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="1200" chance="30" min="300" max="500"/>
+	<defense name="invisible" interval="6000" chance="20" duration="5000">
+		<attribute key="areaEffect" value="poff"/>
+	</defense>
+</defenses>
+
+<elements>
+	<element physicalPercent="20"/>
+	<element icePercent="50"/>
+	<element poisonPercent="50"/>
+	<element firePercent="50"/>
+	<element energyPercent="50"/>
+	<element holyPercent="50"/>
+	<element deathPercent="99"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+<summons maxSummons="0">
+</summons>
+
+<voices interval="5000" chance="20">
+	<voice sentence="Gu kibum kelkum-ishi" yell="1"/>
+	<voice sentence=" burzum-ishi. Akha-gum-ishi ashi gurum" yell="1"/>
+</voices>
+  
+ <loot>
+	<item name="crystal coin" countmax="20" chance="99999"/>
+	<item name="pair of soulstalkers" chance="50"/>
+	<item name="pair of soulwalkers" chance="50"/>
+	<item name="soulbastion" chance="20"/>
+	<item name="soulbiter" chance="70"/>
+	<item name="soulbleeder" chance="50"/>
+	<item name="soulcrusher" chance="70"/>
+	<item name="soulcutter" chance="70"/>
+	<item name="souleater" chance="70"/>
+	<item name="soulhexer" chance="70"/>
+	<item name="soulmaimer" chance="70"/>
+	<item name="soulmantle" chance="30"/>
+	<item name="soulpiercer" chance="60"/>
+	<item name="soulshanks" chance="30"/>
+	<item name="soulshell" chance="20"/>
+	<item name="soulshredder" chance="50"/>
+	<item name="soulshroud" chance="30"/>
+	<item name="soulstrider" chance="30"/>
+	<item name="soultainter" chance="70"/>
+ </loot>
+</monster>

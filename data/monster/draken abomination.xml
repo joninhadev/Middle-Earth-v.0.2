@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draken Abomination" nameDescription="a draken abomination" race="blood" experience="7500" speed="150" manacost="0">
+<health now="8500" max="8500"/>
+<look type="357" corpse="12623"/>
+<targetchange interval="2000" chance="5"/>
+<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1900" min="-400" max="-480"/>
+		<attack name="fire" interval="2000" chance="20" length="4" spread="3" min="-600" max="-800">
+			<attribute key="shootEffect" value="explosion"/>
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+		<attack name="death" interval="2000" chance="30" length="8" spread="3" min="-400" max="-700">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="drunk" interval="2000" chance="10" target="0" radius="5">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="2000" chance="15" min="650" max="700">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="100"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="2">
+		<summon name="Death Blob" interval="2000" chance="10" max="2"/>
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="Ugggh!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="40825" /><!-- Gold -->
+		<item id="2148" countmax="100" chance="40825" /><!-- Gold -->
+		<item id="2666" countmax="4" chance="50450" /><!-- Meat -->
+		<item id="2152" countmax="8" chance="28900" /><!-- Platinum Coins -->
+		<item id="12627" chance="9250" /><!-- Eye Of Corruption -->
+		<item id="12628" chance="6400" /><!-- PC -->
+		<item id="12629" chance="1167" /><!-- CP -->
+		<item id="12646" chance="50" /><!-- Draken Boots -->
+	    <item id="12630" chance="60" /><!-- Cobra Crown -->
+	    <item id="12645" chance="50" /><!-- Elite Draken Helmet -->
+		<item id="11301" chance="110" /><!-- Zaoan Cuirass -->
+		<item id="2123" chance="20" /><!-- Roots -->
+	</loot>
+</monster>

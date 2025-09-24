@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hero" nameDescription="um hero" race="blood" experience="1200" speed="150" manacost="0">
+  <health now="1400" max="1400"/>
+  <look type="73" corpse="20415"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="10"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="1800" min="-112" max="-160"/>
+
+	<attack name="physical" interval="2150" chance="60" range="7" min="-70" max="-160">
+		<attribute key="shootEffect" value="arrow"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="3200" chance="20" min="100" max="200">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+<elements>
+	<element physicalPercent="50"/>
+	<element earthPercent="20"/>
+	<element firePercent="30"/>
+	<element deathPercent="15"/>
+	<element energyPercent="20"/>
+	<element holyPercent="20"/>
+	<element icePercent="30"/>
+</elements>
+
+<immunities>
+	<immunity drown="0"/>
+	<immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+</immunities>
+
+<voices interval="5000" chance="10">
+    <voice sentence="Let's have a fight!"/>
+    <voice sentence="Welcome to my battleground."/>
+    <voice sentence="Have you seen princess Lumelia?"/>
+    <voice sentence="I will sing a tune at your grave."/>
+</voices>
+
+<loot capacity="800">
+	<item id="2491" chance="320"/>
+ 	<item id="2487" chance="350"/>
+ 	<item id="2661" chance="2000"/>
+ 	<item id="5911" chance="3000"/>
+	<item id="13295" chance="500"/>
+	<item id="2392" chance="400"/>
+ 	<item id="2519" chance="300"/>
+ 	<item id="2488" chance="320"/>
+	<item id="2148" countmax="75" chance1="100000"/>
+	<item id="2456" chance="8000"/>
+	<item id="2681" chance="10000"/>
+	<item id="2071" chance="1000"/>
+	<item id="2544" countmax="30" chance1="20000"/>
+	<item id="2121" chance="400"/>
+	<item id="2744" chance="5000"/>
+	
+</loot>
+
+</monster>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gazer Spectre" nameDescription="a gazer spectre" race="blood" experience="13000" speed="195" manacost="0" raceid="1725">
+	<health now="8000" max="8000" />
+	<look type="1122" head="94" body="20" legs="77" feet="20" corpse="34660" />
+	<targetchange interval="8000" chance="5" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-350" max="-480" />
+		<attack name="flame strike" interval="2000" chance="30" range="6" min="-250" max="-450">
+		</attack>
+		<attack name="fireball" interval="2500" chance="35" range="6" min="-250" max="-450">
+		</attack>
+	</attacks>
+	<defenses armor="78" defense="78">
+		<defense name="healing" interval="2000" chance="10" min="150" max="200">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Deathhh... is... a.... doooor!!" />
+		<voice sentence="Tiiimeee... is... a... windowww!" />
+	</voices>
+<loot>
+	<item name="platinum coin" countmax="2" chance="39999"/>
+	<item name="gold coin" countmax="99" chance="99999"/>
+	<item name="gold coin" countmax="99" chance="99999"/>
+	<item name="gold coin" countmax="99" chance="99999"/>
+	<item name="prismatic quartz" countmax="2" chance="5000"/>
+	<item name="magma coat" chance="400"/>
+	<item name="magma legs" chance="400"/>
+	<item name="hexagonal ruby" chance="450"/>
+	<item name="wand of inferno" chance="800"/>
+</loot>
+</monster>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Mean Lost Soul" nameDescription="an flimsy lost soul" race="blood" experience="9500" speed="240" manacost="450" raceid="224">
+	<health now="7500" max="7500"/>
+	<look type="1268" head="0" body="14" legs="0" feet="83" addons="3" corpse="5527"/>
+	<targetchange interval="4000" chance="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="1"/>
+		<flag canwalkonfire="1"/>
+		<flag canwalkonpoison="1"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-200" max="-450"/>
+		<attack name="manadrain" interval="2000" chance="10" radius="4" target="0" min="-80" max="-150">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15"  length="4" spread="0" min="-350" max="-430">
+			<attribute key="areaEffect" value="yellowenergy" />
+		</attack>
+	    <attack name="death" interval="2480" chance="30" range="4" min="-350" max="-460">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>	
+	<attack name="energy" interval="1810" chance="55" range="7" radius="2" target="1" min="-300" max="-400">
+		<attribute key="shootEffect" value="energy"/>
+		<attribute key="areaEffect" value="yellowenergy"/>
+	</attack>
+	</attacks>
+	<defenses armor="79" defense="15">
+		<defense name="invisible" interval="2000" chance="10" duration="2000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="20"/>
+		<element earthPercent="30"/>
+		<element firePercent="15"/>
+		<element deathPercent="99"/>
+		<element energyPercent="30"/>
+		<element holyPercent="5"/>
+		<element icePercent="20"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Help! Help!!"/>
+		<voice sentence="Woo woo!!"/>
+	</voices>
+	<loot>
+		<item name="platinum coin" countmax="3" chance="9929980"/>
+		<item name="gold coin" countmax="99" chance="999999"/>
+		<item name="gold coin" countmax="99" chance="999999"/>
+		<item name="gold coin" countmax="99" chance="999999"/>
+		<item name="lost soul" countmax="2" chance="500"/>
+		<item name="death toll" chance="220"/>
+		<item name="dark lord's cape" chance="400"/>
+		<item name="motaba wand" chance="450"/>
+		<item name="hailstorm rod" chance="600"/>
+		<item name="skull staff" chance="600"/>
+		<item name="cursed bone" chance="220"/>
+	</loot>
+</monster>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Shaburak Prince" nameDescription="a shaburak Prince" race="fire" experience="4300" speed="200" raceid="726">
+	<health now="4000" max="4000"/>
+	<look type="418" corpse="13969"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="80"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-200" max="-350"/>
+		<attack name="flame beam" interval="4000" chance="30" min="-200" max="350"/>
+		<attack name="fire" interval="3000" chance="20" range="7" radius="3" target="0" min="-150" max="-300">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" interval="3000" chance="20" range="7" target="1" min="-200" max="-350">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="fireattack"/>
+		</attack>
+	</attacks>
+	<elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity fire="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="GREEN IS MEAN!" yell="1"/>
+		<voice sentence="WE RULE!" yell="1"/>
+		<voice sentence="POWER TO THE SHABURAK!" yell="1"/>
+		<voice sentence="DEATH TO THE ASKARAK!"/>
+		<voice sentence="ONLY WE ARE TRUE DEMONS!"/>
+	</voices>
+	<loot>
+		<item name="small ruby" countmax="5" chance="4761"/>
+		<item name="platinum coin" countmax="2" chance="399999"/>
+		<item name="energy ring" chance="1052"/>
+		<item name="wand of inferno" chance="700"/>
+		<item name="fire mushroom" chance="3846"/>
+		<item name="strong mana potion" chance="5000"/>
+		<item name="magma legs" chance="550"/>
+		<item name="magma coat" chance="550"/>
+	</loot>
+</monster>

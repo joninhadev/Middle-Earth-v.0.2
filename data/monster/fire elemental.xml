@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Fire Elemental" nameDescription="um fire elemental" race="fire" experience="220" speed="150" manacost="690">
+	<health now="280" max="280"/>
+	<look type="49" head="0" body="0" legs="0" feet="0" corpse="1487"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="80" defense="0"/>
+	
+<flags>
+	<flag summonable="1"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="1"/>
+	<flag convinceable="1"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="0"/>
+	<flag targetdistance="1"/>
+	<flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-50" max="-100" fire="100" tick="2500"/>
+	
+	<attack name="fire" interval="2100" chance="35" range="7" radius="2" target="1" min="-55" max="-155">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+	<attack name="firefield" interval="2900" chance="99" range="7" radius="1" target="1">
+		<attribute key="shootEffect" value="fire"/>
+	</attack>
+</attacks>
+	
+<defenses armor="0" defense="0"/>
+	
+	<elements><element physicalPercent="5"/>
+		<element energyPercent="0"/>
+		<element earthPercent="5"/>
+		<element icePercent="-20"/>
+		<element firePercent="99"/>
+		<element holyPercent="10"/>
+		<element deathPercent="20"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="0"/>
+		<immunity drunk="0"/>
+		<immunity invisible="0"/>
+	</immunities>
+
+</monster>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Asima" script="default.lua" access="3" lookdir="2" speed="50" walkinterval="0">
+    <mana now="1000" max="1000"/>
+    <health now="1000" max="1000"/>
+    <look type="141" head="91" body="127" legs="94" feet="61" addons="3" corpse="3128"/>
+
+    <parameters>
+        <parameter key="module_shop" value="1"/>
+        <parameter key="message_greet" value="Ola. Como posso te ajudar |PLAYERNAME|?"/>
+        <parameter key="shop_buyable" value="			exercise rod,33086,2500000,5000;
+			exercise wand,33087,2500000,5000;
+			exercise sword,33082,2500000,5000;
+			exercise axe,33083,2500000,5000;
+			exercise club,33084,2500000,5000;
+			exercise bow,33085,2500000,5000;
+			strawberry cupcake,31720,1500000,1;
+			blueberry cupcake,31719,1500000,1;"/>
+    </parameters>
+</npc>

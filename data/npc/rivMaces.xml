@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Dion" script="default.lua" access="3" lookdir="2" speed="60" walkinterval="0">
+	<mana now="10" max="10"/>
+	<health now="10" max="10"/>
+	<look type="146" head="0" body="95" legs="60" feet="19" addon="2" corpse="3128"/>
+
+	<parameters>
+  <parameter key="module_shop" value="1"/>
+  <parameter key="message_greet" value="Ola. Como posso te ajudar |PLAYERNAME|?"/>
+<parameter key="shop_buyable" value="club,2382,16;studded club,2448,20;bone club,2449,50;mace,2398,90;daramanian mace,2439,300;battle hammer,2417,700;mammoth whopper,7381,1600;morning star,2394,1100;banana staff,3966,1400;clerical mace,2423,1800;dragon hammer,2434,5000;skull staff,2436,8000;sapphire hammer,7437,10000;chaos mace,7427,30000;crystal mace,2445,20000;diamond sceptre,7387,50000;"/>
+<parameter key="shop_sellable" value="club,2382,8;studded club,2448,10;bone club,2449,25;mace,2398,45;daramanian mace,2439,150;battle hammer,2417,350;mammoth whopper,7381,800;morning star,2394,550;banana staff,3966,700;clerical mace,2423,900;dragon hammer,2434,2500;skull staff,2436,4000;sapphire hammer,7437,5000;chaos mace,7427,15000;crystal mace,2445,10000;diamond sceptre,7387,25000;"/>
+ </parameters>
+</npc>

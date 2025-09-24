@@ -1,0 +1,231 @@
+local baseTaskLimitStorage = 5170
+local baseLastTaskTimeStorage = 5190
+
+configTasks = {
+    [1] = { 
+        nameOfTheTask = "Minos",
+        mobsToKill = {"Minotaur", "Minotaur Archer", "Minotaur Guard"},
+        looktype = { type = 25 },
+        killsRequired = 200,
+        expReward = 20000,
+        itemRewards = 2160,
+        itemRewardsCount = 2,
+        pointsReward = 2,
+        limit = 5,
+        rewards = true,
+        resetCost = 12
+    },
+    [2] = { 
+        nameOfTheTask = "Dragons",
+        mobsToKill = {"Dragon", "Dragon Lord", "Hydra", "Frost Dragon"},
+        looktype = { type = 39, feet = 76, legs = 85, head = 19, body = 57 },
+        killsRequired = 500,
+        expReward = 200000,
+        itemRewards = 2160,
+        itemRewardsCount = 5,
+        pointsReward = 3,
+        limit = 5,
+        rewards = true,
+        resetCost = 30
+    },	
+    [3] = { 
+        nameOfTheTask = "Humanos",
+        mobsToKill = {"Hero", "Black Knight"},
+        looktype = { type = 131, feet = 95, legs = 95, head = 95, body = 95},
+        killsRequired = 500,
+        expReward = 200000,
+        itemRewards = 2160,
+        itemRewardsCount = 5,
+        pointsReward = 3,
+        limit = 4,
+        rewards = true,
+        resetCost = 30
+    },
+    [4] = { 
+        nameOfTheTask = "Darkness",
+        mobsToKill = {"Destroyer", "Gravedigger", "Nightmare"},
+        looktype = { type = 558},
+        killsRequired = 500,
+        expReward = 300000,
+        itemRewards = 2160,
+        itemRewardsCount = 6,
+        pointsReward = 3,
+        limit = 4,
+        rewards = true,
+        resetCost = 36
+    },
+    [5] = { 
+        nameOfTheTask = "Rhinos",
+        mobsToKill = {"Stampor", "Stone Rhino"},
+        looktype = { type = 936},
+        killsRequired = 500,
+        expReward = 300000,
+        itemRewards = 2160,
+        itemRewardsCount = 6,
+        pointsReward = 3,
+        limit = 4,
+        rewards = true,
+        resetCost = 36
+    },
+    [6] = { 
+        nameOfTheTask = "Gigantes",
+        mobsToKill = {"Behemoth", "Mancubus", "Gorbalg", "Braugor", "Cyclops Drone", "Hellforger Cyclops"},
+        looktype = { type = 607},
+        killsRequired = 500,
+        expReward = 300000,
+        itemRewards = 2160,
+        itemRewardsCount = 6,
+        pointsReward = 4,
+        limit = 4,
+        rewards = true,
+        resetCost = 36
+    },
+    [7] = { 
+        nameOfTheTask = "Dragons II",
+        mobsToKill = {"Ghastly Dragon", "Wyrm", "Elder Wyrm", "Dragonling", "Draco", "Uruloki", "Chaos Draco", "Undead Dragon"},
+        looktype = { type = 231},
+        killsRequired = 500,
+        expReward = 350000,
+        itemRewards = 2160,
+        itemRewardsCount = 7,
+        pointsReward = 5,
+        limit = 4,
+        rewards = true,
+        resetCost = 42
+    },
+    [8] = { 
+        nameOfTheTask = "Lizards",
+        mobsToKill = {"Lizard Leggionaire", "Lizard Zaogun", "Lizard Chosen", "Lizard High Guard", "Draken Warmaster", "Draken Spellweaver"},
+        looktype = { type = 344},
+        killsRequired = 600,
+        expReward = 400000,
+        itemRewards = 2160,
+        itemRewardsCount = 8,
+        pointsReward = 5,
+        limit = 4,
+        rewards = true,
+        resetCost = 48
+    },
+    [9] = { 
+        nameOfTheTask = "Harlond",
+        mobsToKill = {"Oxyurus", "Medusa", "Enyd", "Terminator"},
+        looktype = { type = 320},
+        killsRequired = 700,
+        expReward = 450000,
+        itemRewards = 2160,
+        itemRewardsCount = 10,
+        pointsReward = 5,
+        limit = 4,
+        rewards = true,
+        resetCost = 60
+    },
+    [10] = { 
+        nameOfTheTask = "Asuras",
+        mobsToKill = {"Dawnfire Asura", "Midnight Asura", "Frost Flower Asura"},
+        looktype = { type = 150, feet = 79, legs = 78, head = 114, body = 94},
+        killsRequired = 1000,
+        expReward = 500000,
+        itemRewards = 2160,
+        itemRewardsCount = 12,
+        pointsReward = 5,
+        limit = 4,
+        rewards = true,
+        resetCost = 72
+    },
+    [11] = { 
+        nameOfTheTask = "Demons",
+        mobsToKill = {"Demon", "Shaburak Lord", "Shaburak Prince", "Shaburak Demon"},
+        looktype = { type = 417},
+        killsRequired = 1000,
+        expReward = 500000,
+        itemRewards = 2160,
+        itemRewardsCount = 12,
+        pointsReward = 5,
+        limit = 4,
+        rewards = true,
+        resetCost = 72
+    },
+    [12] = { 
+        nameOfTheTask = "Carnivors",
+        mobsToKill = {"Spiky Carnivor", "Menacing Carnivor", "Lumbering Carnivor"},
+        looktype = { type = 1139, feet = 85, legs = 57, head = 79, body = 119},
+        killsRequired = 1000,
+        expReward = 400000,
+        itemRewards = 2160,
+        itemRewardsCount = 15,
+        pointsReward = 6,
+        limit = 4,
+        rewards = true,
+        resetCost = 90
+    },
+    [13] = { 
+        nameOfTheTask = "Spectres",
+        mobsToKill = {"Gazer Spectre", "Burster Spectre", "Shadow Spectre"},
+        looktype = { type = 1122, feet = 19, legs = 86, head = 7, body = 19},
+        killsRequired = 1000,
+        expReward = 600000,
+        itemRewards = 2160,
+        itemRewardsCount = 17,
+        pointsReward = 7,
+        limit = 4,
+        rewards = true,
+        resetCost = 102
+    },
+    [14] = { 
+        nameOfTheTask = "Cobras",
+        mobsToKill = {"Cobra Assassin", "Cobra Scout", "Cobra Vizier"},
+        looktype = { type = 1217, feet = 1, legs = 77, head = 2, body = 2},
+        killsRequired = 1000,
+        expReward = 650000,
+        itemRewards = 2160,
+        itemRewardsCount = 18,
+        pointsReward = 10,
+        limit = 4,
+        rewards = true,
+        resetCost = 108
+    },
+    [15] = { 
+        nameOfTheTask = "Wardragons",
+        mobsToKill = {"Wardragon", "Dragolisk", "Mega Dragon"},
+        looktype = { type = 1708},
+        killsRequired = 1000,
+        expReward = 1000000,
+        itemRewards = 2160,
+        itemRewardsCount = 18,
+        pointsReward = 10,
+        limit = 4,
+        rewards = true,
+        resetCost = 132
+    },
+    [16] = { 
+        nameOfTheTask = "Lost Souls",
+        mobsToKill = {"Flimsy Lost Soul", "Mean Lost Soul", "Freakish Lost Soul"},
+        looktype = { type = 1268, feet = 83, legs = 0, head = 0, body = 74},
+        killsRequired = 1200,
+        expReward = 1000000,
+        itemRewards = 2160,
+        itemRewardsCount = 18,
+        pointsReward = 10,
+        limit = 4,
+        rewards = true,
+        resetCost = 132
+    },
+    [17] = { 
+        nameOfTheTask = "Livraria",
+        mobsToKill = {"Icecold Book", "Animated Feather", "Squid Warden", "Burning Book", "Rage Squid", "Guardian Of Tales", "Energetic Book", "Energuardian of Tales", "Brain Squid", "Ink Blob", "Biting Book", "Cursed Book"},
+        looktype = { type = 1058},
+        killsRequired = 1500,
+        expReward = 1500000,
+        itemRewards = 2160,
+        itemRewardsCount = 20,
+        pointsReward = 15,
+        limit = 4,
+        rewards = true,
+        resetCost = 140
+    }
+}
+
+for taskId, task in pairs(configTasks) do
+    task.limitStorage = baseTaskLimitStorage + (taskId - 1)
+    task.timeStorage = baseLastTaskTimeStorage + (taskId - 1)
+end

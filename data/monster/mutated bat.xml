@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mutated Bat" nameDescription="um mutated bat" race="blood" experience="825" speed="85" manacost="0">
+	<health now="900" max="900"/>
+	<look type="307" corpse="9829"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+	<attacks>
+		<attack name="melee" interval="2000" min="-104" max="-176"/>
+		
+		<attack name="earth" interval="2500" chance="25" range="7" target="1" min="-60" max="-110">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+		
+		<attack name="drown" interval="3200" chance="15" target="0" radius="6" min="-100" max="-130">
+			<attribute key="areaEffect" value="whitenote"/>
+		</attack>
+		
+		<attack name="drunk" interval="7000" chance="30" target="0" radius="6" duration="5000">
+			<attribute key="areaeffect" value="yellownote"/>
+		</attack>
+		
+	</attacks>
+	
+	<defenses armor="0" defense="0"/>
+	
+	<immunities>
+		<immunity death="1"/>
+		<immunity earth="1"/>
+		<immunity drown="1"/>
+		<immunity invisible="1"/>
+		<immunity drunk="1"/>
+	</immunities>
+	
+	<voices interval="2500" chance="10">
+	</voices>
+	
+	<loot>
+		<item id="2148" countmax="50" chance1="20000" chancemax="0"/>
+		<item id="2800" chance="13000"/> 
+		<item id="5894" countmax="3" chance1="24200"/> 	
+		<item id="2534" chance="45"/>
+		<item id="2150" countmax="1" chance1="800"/> 
+		<item id="2144" countmax="3" chance1="600"/> 
+		<item id="7407" chance="100"/>
+		<item id="2165" chance="650"/>
+		<item id="10016" chance="150"/> 
+			
+	</loot>
+</monster>

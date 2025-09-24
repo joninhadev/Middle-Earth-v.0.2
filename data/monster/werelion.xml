@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Werelion" nameDescription="a werelion" race="fire" experience="10024" speed="200">
+	<health now="6500" max="6500" />
+	<look type="1301"  head="58" body="2" legs="94" feet="10" addons="2" corpse="39229" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-250" max="-350" />
+		<attack name="light san ethreal" interval="2000" chance="45" min="-300" max="-350"/>
+		<attack name="fire" interval="4200" chance="40" target="0" radius="3" min="-320" max="-370">
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+	<attack name="holy" interval="5000" chance="30" length="4" min="-350" max="-400">
+		<attribute key="areaEffect" value="holyarea"/>
+	</attack>
+	
+	</attacks>
+	<defenses armor="38" defense="40">
+		<defense name="healing" interval="2000" chance="15" min="180" max="250">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>		
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>	
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>		
+	<loot>		
+		<item name="gold coin" countmax="100" chance="60000" />
+		<item name="platinum coin" countmax="4" chance="60000" />
+		<item name="black pearl" countmax="2" chance="3130" />	
+		<item name="ankh" chance="1500" />	
+		<item name="serpent sword"  chance="2100" />	
+		<item name="rapier" chance="3200" />
+		<item name="leather helmet"  chance="4100" />
+		<item name="meat" countmax="2" chance="4100" />
+		<item name="soul orb" chance="2700" />	
+		<item name="lion's mane" chance="970" />		
+		<item name="aghanim mask" chance="450" />
+		<item name="white pearl" countmax="2" chance="1000" />	
+		<item name="ivory carving" chance="1470" />		
+		<item name="magma legs" chance="600" />	
+		<item name="crown helmet" chance="1000" />	
+		<item name="lion figurine" chance="500" />	
+		<item name="white silk flower" chance="900" />		
+	</loot>
+</monster>

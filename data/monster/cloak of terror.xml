@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Cloak of Terror" nameDescription="a cloak of terror" race="fire" experience="125000" speed="250">
+	<health now="28000" max="28000" />
+	<look type="1295" corpse="39205" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+	    <flag canwalkonfire="1" />
+	    <flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-700" max="-1050" />
+		<!-- BR -->
+		<attack name="energy" interval="3000" chance="20" range="7" radius="5" target="0" min="-800" max="-1000"><!-- AREA-->
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="purpleenergy" />
+		</attack>
+		<attack name="holy" interval="2000" chance="25" range="7" radius="3" target="1" min="-800" max="-1000"><!-- AREA-->
+			<attribute key="shootEffect" value="holy" />
+			<attribute key="areaEffect" value="yellowspark" />
+		</attack>
+		<attack name="holy" interval="2000" chance="40" range="7" min="-400" max="-800"><!-- EXORI SAN -->
+			<attribute key="shootEffect" value="smallholy" />
+		</attack>
+		<attack name="energy" interval="2000" chance="40" range="7" min="-400" max="-800"><!-- EXORI VIS -->
+			<attribute key="shootEffect" value="energy" />
+		</attack>
+	</attacks>
+	<defenses armor="70" defense="70">
+		<defense name="healing" interval="2000" chance="15" min="280" max="450">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="320" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="20"/>
+		<element earthPercent="5"/>
+		<element firePercent="20"/>
+		<element deathPercent="10"/>
+		<element energyPercent="99"/>
+		<element holyPercent="20"/>
+		<element icePercent="50"/>
+	</elements>
+	<immunities>
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Shocked to meet you." />
+		<voice sentence="Power up!" />
+		<voice sentence="You should be more positive!" />
+	</voices>
+	<loot>
+		<item name="crystal coin" countmax="1" chance="8000" />
+		<item name="violet gem" chance="800"/>
+		<item name="blue gem" chance="800"/>
+		<item name="green gem" chance="800"/>
+		<item name="aghanim mask" chance="500"/>
+		<item name="voltage armor" chance="50"/>
+		<item name="hailstorm rod" chance="850"/>
+		<item name="gold ingot" chance="300"/>
+		<item name="platinum coin" countmax="5" chance="100000"/>
+	</loot>
+</monster>

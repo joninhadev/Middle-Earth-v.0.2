@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Giant Spider" nameDescription="uma giant spider" race="venom" experience="900" speed="150" manacost="0">
+	<health now="1300" max="1300"/>
+	<look type="38" head="0" body="0" legs="0" feet="0" corpse="2857"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="70" defense="20"/>
+
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-80" max="-200" poison="200" tick="3000"/>
+	
+	<attack name="poisonfield" interval="1000" chance="17" range="7" radius="1" target="1">
+		<attribute key="shootEffect" value="poison"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="speed" interval="4000" chance="25" speedchange="300" duration="8000">
+		<attribute key="areaEffect" value="redshimmer"/>
+	</defense>
+</defenses>
+
+	<elements><element physicalPercent="5"/>
+		<element energyPercent="10"/>
+		<element earthPercent="99"/>
+		<element icePercent="15"/>
+		<element firePercent="0"/>
+		<element holyPercent="25"/>
+		<element deathPercent="25"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="0"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	
+<summons maxSummons="2">
+	<summon name="poison spider" interval="6000" chance="10" max="2"/>
+</summons>
+	
+<loot capacity="500">
+	<item id="2463" chance="600"/> 
+ 	<item id="2478" chance="2500"/> 
+ 	<item id="5879" chance1="5000"/>
+	<item id="2476" chance="420"/> 
+ 	<item id="2477" chance="410"/> 	
+	<item id="2148" countmax="50" chance1="90000"/>
+	<item id="2171" chance="400"/> 
+	<item id="2169" chance="550"/> 
+	<item id="2138" chance="10"/> 
+</loot>
+
+</monster>

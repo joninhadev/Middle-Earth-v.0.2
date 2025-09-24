@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Zavarash" nameDescription="Zavarash" race="blood" experience="1000000" speed="240" >
+	<health now="200000" max="200000" />
+	<look type="12" head="19" body="0" legs="77" feet="79" addons="0" corpse="6068"/>
+	<targetchange interval="4000" chance="25"/>
+	<flags>
+		<flag rewardboss="1" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-350" max="-750" />
+        <attack name="physical" interval="2000" chance="15" radius="3" min="-200" max="-700">
+            <attribute key="areaEffect" value="groundshaker" />
+        </attack>
+		<attack name="energy" interval="2000" chance="15" length="8" spread="0" min="-300" max="-590">
+			<attribute key="areaEffect" value="purpleenergy"/>
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="15" radius="6" min="-300" max="-730">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="15" range="5" target="1" min="-200" max="-860">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+		<attack name="speed" interval="3000" chance="10" range="7" radius="4" target="1" speedchange="-700" duration="15000">
+			<attribute key="shootEffect" value="poison" />
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+	</attacks>
+	<defenses armor="55" defense="65">
+		<defense name="healing" interval="2000" chance="30" min="400" max="600" radius="8">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="18" speedchange="784" duration="7000">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+		<defense name="invisible" interval="2000" chance="20" duration="10000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="50"/>
+		<element energyPercent="50"/>
+		<element earthPercent="50"/>
+		<element holyPercent="50"/>
+		<element deathPercent="50"/>
+		<element firePercent="50"/>
+		<element drownPercent="50"/>
+	</elements>
+	<immunities>
+		<immunity poison="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="2">
+		<summon name="demon" interval="1000" chance="100" max="2" />
+	</summons>
+	<voices interval="2000" chance="5">
+		<voice sentence="Harrr, Harrr!" yell="1"/>
+	</voices>
+	<loot>
+		<item name="small amethyst" chance="9999" countmax="40"/>
+		<item name="gold coin" countmax="99" chance="3999999"/>
+		<item name="gold coin" countmax="99" chance="3999999"/>
+		<item name="gold coin" countmax="99" chance="3999999"/>
+		<item name="gold coin" countmax="99" chance="3999999"/>
+		<item name="platinum coin" countmax="99" chance="399999"/>
+		<item name="crystal coin" countmax="10" chance="99999"/>
+		<item name="windborn colossus armor" chance="500"/>
+		<item name="shield of corruption" chance="400"/>
+		<item name="magic steel helmet" chance="400"/>
+	</loot>
+</monster>

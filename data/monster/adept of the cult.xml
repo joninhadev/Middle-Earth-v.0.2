@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Adept of the Cult" nameDescription="um adept of the cult" race="blood" experience="400" speed="120" manacost="0">
+  <health now="430" max="430"/>
+  <look type="194" head="114" body="94" legs="94" feet="57" corpse="20311"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-35" max="-100"/>
+
+	<attack name="holy" interval="1700" chance="33" range="3" min="-40" max="-70">
+		<attribute key="shootEffect" value="holy"/>
+		<attribute key="areaEffect" value="holydamage"/>
+	</attack>
+
+	<attack name="energycondition" interval="1600" chance="99" range="7" tick="3000" start="15" min="-20" max="-20">
+		<attribute key="shootEffect" value="energy"/>
+		<attribute key="areaEffect" value="energy"/>
+	</attack>
+
+</attacks>                         
+
+
+
+	<elements><element physicalPercent="5"/>
+		<element energyPercent="30"/>
+		<element earthPercent="20"/>
+		<element icePercent="10"/>
+		<element firePercent="10"/>
+		<element holyPercent="90"/>
+		<element deathPercent="20"/>
+		<element physicalPercent="10"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+<summons maxSummons="2">
+	<summon name="Ghoul" interval="3500" chance="50"/>
+</summons>
+
+<loot>
+	<item id="6087" chance="100"/> 
+	<item id="2662" chance="150"/> 
+	<item id="2656" chance="80"/> 
+	<item id="2531" chance="900"/>
+	<item id="10556" chance="1500"/>
+	<item id="12448" chance="1500"/> 
+	
+		<item id="2148" countmax="50" chance1="100000" chancemax="0"/> 
+		<item id="2146" countmax="1" chance1="1500" chancemax="0"/> 
+		<item id="2167" chance="600"/> 
+		<item id="2169" chance="420"/> 
+	
+</loot>
+
+</monster>

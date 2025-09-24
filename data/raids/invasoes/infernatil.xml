@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="Criaturas infernais estão surgindo em Ashenport.."/>
+<announce delay="45000" type="Event" message="Guerreiros valorosos, respondam ao chamado! As criaturas estão surgindo dos subsolos do Inferno."/>
+<announce delay="90000" type="Event" message="O inferno chegou a terra média, lutem por suas vidas!"/>
+<announce delay="115000" type="Event" message="As legiões de demonios infernais chegaram em Ashenport."/>
+
+
+<areaspawn delay="120000" fromx="344" fromy="614" fromz="7" tox="437" toy="645" toz="7"> <!-- 344, 614, 7 //437, 645, 7 -->
+	<monster name="Infernal Demon" amount="3" />
+	<monster name="Infernal Phantom" amount="2" />
+	<monster name="Brachiodemon" amount="2"/>
+</areaspawn>
+
+<areaspawn delay="120000" fromx="344" fromy="614" fromz="7" tox="437" toy="645" toz="7"> <!-- 344, 614, 7 //437, 645, 7 -->
+	<monster name="Infernal Demon" amount="3" />
+	<monster name="Infernal Phantom" amount="2" />
+	<monster name="Brachiodemon" amount="2"/>
+</areaspawn>
+
+<areaspawn delay="120000" fromx="344" fromy="614" fromz="7" tox="437" toy="645" toz="7"> <!-- 344, 614, 7 //437, 645, 7 -->
+	<monster name="Infernal Demon" amount="20" />
+	<monster name="Infernal Phantom" amount="15" />
+	<monster name="Brachiodemon" amount="15"/>
+</areaspawn>
+
+<areaspawn delay="120000" fromx="344" fromy="614" fromz="7" tox="437" toy="645" toz="7"> <!-- 344, 614, 7 //437, 645, 7 -->
+	<monster name="Infernal Demon" amount="3" />
+	<monster name="Infernal Phantom" amount="2" />
+	<monster name="Brachiodemon" amount="2"/>
+</areaspawn>
+
+<areaspawn delay="120000" fromx="344" fromy="614" fromz="7" tox="437" toy="645" toz="7"> <!-- 344, 614, 7 //437, 645, 7 -->
+	<monster name="Infernal Demon" amount="15" />
+	<monster name="Infernal Phantom" amount="20" />
+	<monster name="Brachiodemon" amount="10"/>
+</areaspawn>
+
+<areaspawn delay="120000" fromx="344" fromy="614" fromz="7" tox="437" toy="645" toz="7"> <!-- 344, 614, 7 //437, 645, 7 -->
+	<monster name="Infernal Demon" amount="3" />
+	<monster name="Infernal Phantom" amount="2" />
+	<monster name="Brachiodemon" amount="2"/>
+</areaspawn>
+
+<areaspawn delay="120000" fromx="344" fromy="614" fromz="7" tox="437" toy="645" toz="7"> <!-- 344, 614, 7 //437, 645, 7 -->
+	<monster name="Infernal Demon" amount="30" />
+	<monster name="Infernal Phantom" amount="15" />
+	<monster name="Brachiodemon" amount="10"/>
+</areaspawn>
+
+
+<announce delay="250000" type="Event" message="Oque há de mais terrivel chegou na terra média! Infernatil spawnou em Slime3."/>
+
+<singlespawn delay="300000" name="Infernatil" x="410" y="632" z="7" /><!-- 410, 632, 7 -->
+
+
+</raid>

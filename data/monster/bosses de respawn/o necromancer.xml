@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="The Necromancer" nameDescription="O Necromancer" race="blood" experience="600000" speed="150" manacost="0">
+  <health now="60000" max="60000"/>
+  <look type="9" head="0" body="0" legs="0" feet="0" corpse="3058"/>
+  <targetchange interval="4000" chance="50"/>
+  <strategy attack="100" defense="0"/>
+  
+<flags>
+	<flag rewardboss="1"/>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="3"/>
+    <flag runonhealth="0"/>
+</flags>
+  
+<attacks>
+    <attack name="melee" interval="2000" min="-900" max="-1200"/>
+	
+    <attack name="lifedrain" interval="2550" chance="20" target="1" range="1" min="-700" max="-900">
+		<attribute key="areaEffect" value="redspark"/>
+    </attack>
+	
+	<attack name="poison" interval="2230" chance="30" target="1" range="7" min="-600" max="-900">
+		<attribute key="shootEffect" value="poison"/>
+		<attribute key="areaEffect" value="yellowbubble"/>
+    </attack>
+	
+	<attack name="poisoncondition" interval="6200" chance="20" range="7" target="1" start="65" tick="2000">
+		<attribute key="shootEffect" value="poison"/>
+	</attack>
+	
+	<attack name="death" interval="2860" chance="20" length="8" spread="0" min="-1000" max="-1500">
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	
+    <attack name="poison" interval="2530" chance="40" range="8" radius="7" target="1" min="-350" max="-550">
+	 <attribute key="shootEffect" value="earth"/>
+	 <attribute key="areaEffect" value="greenbubble"/>
+	</attack>
+</attacks>
+	
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="800" chance="100" min="120" max="150"/>
+	
+	<defense name="invisible" interval="6000" chance="30" duration="5000">
+		<attribute key="areaEffect" value="poff"/>
+	</defense>
+</defenses>
+  
+<elements>
+	<element physicalPercent="5"/>
+	<element physicalPercent="30"/>
+	<element icePercent="30"/>
+	<element poisonPercent="90"/>
+	<element firePercent="30"/>
+	<element energyPercent="30"/>
+	<element holyPercent="20"/>
+	<element deathPercent="100"/>
+</elements>
+
+<immunities>
+	<immunity drown="0"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+  <summons maxSummons="4">
+    <summon name="banshee" interval="3000" chance="25" max="2"/>
+    <summon name="blightwalker" interval="2500" chance="15" max="1"/>
+    <summon name="warlock" interval="3800" chance="13" max="1"/>
+  </summons>
+  
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Nos vemos no Inferno!"/>
+    <voice sentence="Se renda ao poder de Sauron!"/>
+  </voices>
+  
+  <loot capacity="300">
+    <item id="2663" chance="45000"/> 
+	<item id="2138" chance="15000"/> 
+	<item id="2495" chance="2000"/> 
+	<item id="2493" chance="2000"/> 
+	<item id="2494" chance="2000"/> 
+	<item id="8865" chance="3000"/>
+	<item id="2640" chance="1200"/> 
+ 	<item id="2514" chance="2500"/> 
+ 	<item id="7407" chance="7500"/> 
+	<item id="7451" chance="6500"/> 
+	<item id="2365" chance="100000">
+	<item id="6433" chance="200"/><!-- Necromanceer Shield -->
+	<item id="2152" countmax="25" chance1="42000"/> 
+	<item id="2152" countmax="25" chance1="22000"/> 
+	<item id="2144" countmax="15" chance1="35000"/> 
+	<item id="5930" countmax="10" chance1="20500"/> 			
+	<item id="4863" chance="30500"/> 
+	<item id="2804" countmax="3" chance1="35000"/> 
+	<item id="5944" chance="45000"/> 
+	<item id="2197" chance="22000"/> 
+	<item id="2197" chance="20000"/> 
+	<item id="5809" chance="15400"/> 
+ 	</item>
+
+  </loot>
+</monster>

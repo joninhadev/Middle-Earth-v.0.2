@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Quara Hydromancer" nameDescription="um quara hydromancer" race="undead" experience="800" speed="150" manacost="0">
+  <health now="1100" max="1100"/>
+  <look type="47" head="0" body="0" legs="0" feet="0" corpse="6066"/>
+  <targetchange interval="8000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="2000" min="-48" max="-104" poison="20" tick="2000"/>
+	
+	<attack name="ice" interval="2550" chance="20" length="6" spread="0" min="-110" max="-180">
+		<attribute key="areaEffect" value="bluebubble"/>
+	</attack>
+	
+	<attack name="ice" interval="2150" chance="15" radius="1" target="0" min="-126" max="-140">
+		<attribute key="areaEffect" value="bluebubble"/>
+	</attack>
+	
+	<attack name="lifedrain" interval="2725" chance="20" range="2" min="-110" max="-130"/>
+	
+	<attack name="speed" interval="6000" chance="20" range="7" radius="1" target="1" speedchange="-500" duration="5000">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</attack>
+</attacks>
+  
+  
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="6000" chance="20" min="50" max="150">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+<immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+	<immunity drown="1"/>
+	<immunity ice="1"/>
+	<immunity holy="0"/>
+	<immunity death="0"/>
+	<immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+</immunities>
+
+  <voices interval="2000" chance="5">
+    <voice sentence="Qua hah tsh!"/>
+    <voice sentence="Blubber"/>
+  </voices>
+  
+<loot>
+	<item id="2148" countmax="40" chance1="100000" chancemax="0"/>
+	<item id="2670" countmax="6" chance1="25000" chancemax="0"/>
+	<item id="2401" chance="3000"/>
+	<item id="2143" countmax="2" chance1="3000" chancemax="0"/>
+	<item id="5895" countmax="1" chance1="300" chancemax="0"/>
+	<item id="2189" chance="400"/>
+	<item id="2214" chance="350"/>
+	<item id="7896" chance="300"/>
+</loot>
+
+</monster>

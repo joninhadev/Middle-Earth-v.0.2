@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Izcandar" nameDescription="Izcandar the Banished" race="blood" experience="4000000" speed="250" manacost="0">
+	<health now="300000" max="300000" />
+	<look type="1137" addons="3" corpse="6324" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+        <flag rewardboss="1" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+			<attack name="melee" interval="2000" min="-920" max="-1250" />		
+		<attack name="ice" interval="2000" chance="40" radius="6" min="-1500" max="-2850">
+			<attribute key="areaEffect" value="giantice"/>
+		</attack>		
+		<attack name="drown" interval="2000" chance="15" length="8" spread="3" min="-800" max="-1550">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>	
+		<attack name="manadrain" interval="2000" chance="15" target="1" radius="4" min="-244" max="-850">
+			<attribute key="areaEffect" value="mortarea" />
+			<attribute key="shootEffect" value="suddendeath" />
+		</attack>		
+		<attack name="death" interval="2000" chance="15" length="9" spread="0" min="-1410" max="-2250">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>		
+		<attack name="fire" interval="2000" chance="15" length="9" spread="0" min="-1410" max="-2250">
+			<attribute key="areaEffect" value="fire"/>
+		</attack>		
+		<attack name="ice" interval="2000" chance="15" length="9" spread="0" min="-1410" max="-2250">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>		
+		<attack name="earth" interval="2000" chance="20" radius="3" min="-1410" max="-2550">
+			<attribute key="shootEffect" value="smallearth"/>
+			<attribute key="areaEffect" value="greenbubble"/>
+		</attack>
+	</attacks>
+	<defenses armor="76" defense="76">
+		<defense name="healing" interval="2000" chance="15" min="310" max="840">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="75"/>
+		<element icePercent="75"/>
+		<element poisonPercent="75"/>
+		<element firePercent="75"/>
+		<element energyPercent="75"/>
+		<element holyPercent="75"/>
+		<element deathPercent="75"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Dream or nightmare?" />
+	</voices>
+	<loot>
+		<item name="crystal coin" countmax="15" chance="99999"/>
+		<item name="divine doll" chance="600"/>
+		<item name="elvenhair rope" chance="4000"/>
+		<item name="golden boots" chance="700"/>
+		<item name="golden legs" chance="600"/>
+		<item name="golden helmet" chance="600"/>
+		<item name="blessed shield" chance="600"/>
+	</loot>
+</monster>

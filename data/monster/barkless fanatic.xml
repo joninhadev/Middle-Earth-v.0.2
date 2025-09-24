@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Barkless Fanatic" nameDescription="a barkless fanatic" race="blood" experience="8500" speed="240" manacost="390" raceid="1488">
+	<health now="5200" max="5200" />
+	<look type="990" corpse="6012" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-200" max="-330" />
+		<attack name="earth" interval="2000" chance="20" range="7" target="1" radius="4" min="-220" max="-450">
+			<attribute key="shootEffect" value="spear" />
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+		<attack name="earth" interval="2000" chance="10" radius="6" target="0" min="-250" max="-350">
+			<attribute key="areaEffect" value="greenbubble" />
+		</attack>
+	</attacks>
+	<defenses armor="35" defense="35">
+	</defenses>
+	<elements>
+		<element firePercent="50"/>
+		<element holyPercent="100"/>
+		<element deathPercent="5"/>
+		<element earthPercent="50"/>
+		<element energyPercent="10"/>
+		<element physicalPercent="10"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="13">
+		<voice sentence="DO NOT LEAVE THIS WORLD AS A WIMP!" />
+		<voice sentence="PAIN PURIFIES! PAIN PURIFIES!" />
+		<voice sentence="PROVE YOUR WORTH, BLEED!" />
+	</voices>
+	<loot>
+		<item id="2148" countmax="199" chance="100000" />	<!-- GOLD COIN -->
+		<item id="29044" chance="2310" />		<!-- BED OF NAILS  -->
+		<item id="29043" chance="12690" />		<!-- FIG LEAF -->
+		<item id="27629" chance="6920" />		<!-- TIGER EYE  -->
+	</loot>
+</monster>

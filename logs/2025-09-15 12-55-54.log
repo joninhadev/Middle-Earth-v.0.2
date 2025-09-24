@@ -1,0 +1,1596 @@
+2025-09-15 12:55:55 -  [Thread debugging using libthread_db enabled]
+2025-09-15 12:55:55 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-09-15 12:55:55 -  [New Thread 0x7ffff5b23700 (LWP 366345)]
+2025-09-15 12:55:55 -  [New Thread 0x7ffff5322700 (LWP 366346)]
+2025-09-15 12:55:55 -  The OTG-BR - Version: (1.4)
+2025-09-15 12:55:55 -  Compiled with: GNU C++ version 9.4.0
+2025-09-15 12:55:55 -  Compiled on Sep 11 2025 23:45:59 for platform x64
+2025-09-15 12:55:55 -  
+2025-09-15 12:55:55 -  Engine Credits for: TFS Team, OTG Team....
+2025-09-15 12:55:55 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-09-15 12:55:55 -  
+2025-09-15 12:55:55 -  >> Loading config: config.lua
+2025-09-15 12:55:55 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-15 12:55:55 -   MySQL 8.0.42
+2025-09-15 12:55:55 -  >> Running database manager
+2025-09-15 12:55:55 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-15 12:55:55 -  [New Thread 0x7ffff4b0d700 (LWP 366347)]
+2025-09-15 12:55:55 -  > Optimizing table players_online... [success]
+2025-09-15 12:55:55 -  > Optimizing table player_depotitems... [success]
+2025-09-15 12:55:55 -  > Optimizing table player_items... [success]
+2025-09-15 12:55:55 -  > Optimizing table player_storage... [success]
+2025-09-15 12:55:55 -  >> Loading vocations
+2025-09-15 12:55:55 -  >> Loading items
+2025-09-15 12:55:55 -  >> Loading script systems
+2025-09-15 12:55:55 -  >> Loading lua libs
+2025-09-15 12:55:56 -  >> Loading bestiary
+2025-09-15 12:55:56 -  >> Loading lua scripts
+2025-09-15 12:55:56 -  >> Loading monsters
+2025-09-15 12:55:56 -  >> Loading lua monsters
+2025-09-15 12:55:56 -  >> Loading outfits
+2025-09-15 12:55:56 -  >> Loading imbuements
+2025-09-15 12:55:56 -  >> Loading charms
+2025-09-15 12:55:56 -  >> Loading Store
+2025-09-15 12:55:56 -  >> Loading prey data
+2025-09-15 12:55:56 -  >> Checking world type... RETRO-PVP
+2025-09-15 12:55:56 -  >> Loading map
+2025-09-15 12:56:01 -  > Map size: 2293x2048.
+2025-09-15 12:56:12 -  > Map loading time: 16.297 seconds.
+2025-09-15 12:56:13 -  > Loaded house items in: 0.014 s
+2025-09-15 12:56:13 -  >> Loading guilds... All guilds have been loaded.
+2025-09-15 12:56:13 -  >> Initializing gamestate
+2025-09-15 12:56:14 -  > Loaded spawns in 0.791 seconds.
+2025-09-15 12:56:14 -  >> Loaded 203 npcs and spawned 25133 monsters.
+2025-09-15 12:56:14 -  >> Loaded 17 towns with 588 houses in total.
+2025-09-15 12:56:14 -  >> Start time: 15.09.2025 - 12:56:14
+2025-09-15 12:56:14 -  Initialization complete.
+2025-09-15 12:56:14 -  >> Loaded all modules, server starting up...
+2025-09-15 12:56:14 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-09-15 12:56:14 -  >> Middle Earth Server Server Online!
+2025-09-15 12:56:14 -  
+2025-09-15 12:56:14 -  >> Server started in 19.498 seconds.
+2025-09-15 12:56:14 -  Loading Marmaduk Com Alzheime...
+2025-09-15 12:56:14 -  Marmaduk Com Alzheime has logged in.
+2025-09-15 12:56:14 -  Loading Roxo...
+2025-09-15 12:56:14 -  Roxo has logged in.
+2025-09-15 12:56:14 -  Loading Caduhzin Here...
+2025-09-15 12:56:14 -  Caduhzin Here has logged in.
+2025-09-15 12:56:14 -  Loading Babalu...
+2025-09-15 12:56:14 -  Babalu has logged in.
+2025-09-15 12:56:14 -  Loading Stormy...
+2025-09-15 12:56:14 -  Stormy has logged in.
+2025-09-15 12:56:14 -  Loading Xupaengola...
+2025-09-15 12:56:14 -  Xupaengola has logged in.
+2025-09-15 12:56:15 -  Loading [CM] Middle Earth...
+2025-09-15 12:56:15 -  [CM] Middle Earth has logged in.
+2025-09-15 12:56:15 -  Loading Autobot Onn...
+2025-09-15 12:56:15 -  Autobot Onn has logged in.
+2025-09-15 12:56:15 -  Loading Derethor...
+2025-09-15 12:56:15 -  Derethor has logged in.
+2025-09-15 12:56:15 -  Loading Orc Vegano...
+2025-09-15 12:56:15 -  Orc Vegano has logged in.
+2025-09-15 12:56:15 -  Loading Benn Beckmann...
+2025-09-15 12:56:15 -  Benn Beckmann has logged in.
+2025-09-15 12:56:15 -  Loading John Wick...
+2025-09-15 12:56:15 -  John Wick has logged in.
+2025-09-15 12:56:15 -  Loading Safe Heaven...
+2025-09-15 12:56:15 -  Safe Heaven has logged in.
+2025-09-15 12:56:15 -  Loading Elven Sinistro...
+2025-09-15 12:56:15 -  Elven Sinistro has logged in.
+2025-09-15 12:56:15 -  Loading Awesome Sophia...
+2025-09-15 12:56:15 -  Awesome Sophia has logged in.
+2025-09-15 12:56:15 -  Loading Illidian Rullex...
+2025-09-15 12:56:15 -  Illidian Rullex has logged in.
+2025-09-15 12:56:15 -  Loading Maker Hydra...
+2025-09-15 12:56:15 -  Maker Hydra has logged in.
+2025-09-15 12:56:15 -  Loading Joninha...
+2025-09-15 12:56:15 -  Joninha has logged in.
+2025-09-15 12:56:15 -  Loading Eho Jhon...
+2025-09-15 12:56:15 -  Eho Jhon has logged in.
+2025-09-15 12:56:15 -  Loading Enfermeira Joy...
+2025-09-15 12:56:15 -  Enfermeira Joy has logged in.
+2025-09-15 12:56:15 -  Loading Branco...
+2025-09-15 12:56:15 -  Branco has logged in.
+2025-09-15 12:56:15 -  Loading Gynga Bilola...
+2025-09-15 12:56:15 -  Gynga Bilola has logged in.
+2025-09-15 12:56:15 -  Loading Muzan...
+2025-09-15 12:56:15 -  Muzan has logged in.
+2025-09-15 12:56:15 -  Loading Totz...
+2025-09-15 12:56:15 -  Totz has logged in.
+2025-09-15 12:56:15 -  Loading Arthur Leywin...
+2025-09-15 12:56:15 -  Arthur Leywin has logged in.
+2025-09-15 12:56:15 -  Loading Mono Dedo...
+2025-09-15 12:56:15 -  Mono Dedo has logged in.
+2025-09-15 12:56:15 -  Loading Almoco De Peixe Frito...
+2025-09-15 12:56:15 -  Almoco De Peixe Frito has logged in.
+2025-09-15 12:56:15 -  Loading Antedeguemon...
+2025-09-15 12:56:15 -  Antedeguemon has logged in.
+2025-09-15 12:56:15 -  Loading Silveex...
+2025-09-15 12:56:15 -  Silveex has logged in.
+2025-09-15 12:56:15 -  Loading Elrond Druid...
+2025-09-15 12:56:15 -  Elrond Druid has logged in.
+2025-09-15 12:56:15 -  Loading Skull Warrior...
+2025-09-15 12:56:15 -  Skull Warrior has logged in.
+2025-09-15 12:56:15 -  Loading Gorbatchov...
+2025-09-15 12:56:15 -  Gorbatchov has logged in.
+2025-09-15 12:56:15 -  Loading Verity...
+2025-09-15 12:56:15 -  Verity has logged in.
+2025-09-15 12:56:15 -  Loading Ogro Sinistro...
+2025-09-15 12:56:15 -  Ogro Sinistro has logged in.
+2025-09-15 12:56:15 -  Loading Andin Inevitavel...
+2025-09-15 12:56:15 -  Andin Inevitavel has logged in.
+2025-09-15 12:56:15 -  Loading Tolkien...
+2025-09-15 12:56:16 -  Tolkien has logged in.
+2025-09-15 12:56:16 -  Loading Lic Loc...
+2025-09-15 12:56:16 -  Lic Loc has logged in.
+2025-09-15 12:56:16 -  Loading Mano Crack...
+2025-09-15 12:56:16 -  Mano Crack has logged in.
+2025-09-15 12:56:16 -  Loading Nightwolf...
+2025-09-15 12:56:16 -  Nightwolf has logged in.
+2025-09-15 12:56:17 -  Loading Magic Of Caos...
+2025-09-15 12:56:17 -  Magic Of Caos has logged in.
+2025-09-15 12:56:17 -  Loading Kyou Kai...
+2025-09-15 12:56:17 -  Kyou Kai has logged in.
+2025-09-15 12:56:17 -  Loading Druid Sinistro...
+2025-09-15 12:56:17 -  Druid Sinistro has logged in.
+2025-09-15 12:56:19 -  Loading Czolg Wojenny...
+2025-09-15 12:56:19 -  Czolg Wojenny has logged in.
+2025-09-15 12:56:20 -  Loading Suukram...
+2025-09-15 12:56:20 -  Suukram has logged in.
+2025-09-15 12:56:20 -  Loading Aleska Teodoro...
+2025-09-15 12:56:20 -  Aleska Teodoro has logged in.
+2025-09-15 12:56:20 -  Loading Orc The Criar...
+2025-09-15 12:56:20 -  Orc The Criar has logged in.
+2025-09-15 12:56:20 -  Loading Mellion Adyarus...
+2025-09-15 12:56:20 -  Mellion Adyarus has logged in.
+2025-09-15 12:56:22 -  Loading Porno Gay...
+2025-09-15 12:56:22 -  Porno Gay has logged in.
+2025-09-15 12:56:23 -  Loading [GOD] Middle Earth...
+2025-09-15 12:56:23 -  [GOD] Middle Earth has logged in.
+2025-09-15 12:56:25 -  Loading Skylline...
+2025-09-15 12:56:25 -  Skylline has logged in.
+2025-09-15 12:56:27 -  Loading Negrosaki...
+2025-09-15 12:56:27 -  Negrosaki has logged in.
+2025-09-15 12:56:27 -  Loading Receptaculo...
+2025-09-15 12:56:27 -  Receptaculo has logged in.
+2025-09-15 12:56:27 -  Loading Putifero...
+2025-09-15 12:56:27 -  Putifero has logged in.
+2025-09-15 12:56:27 -  Loading Alagoano Alma...
+2025-09-15 12:56:27 -  Alagoano Alma has logged in.
+2025-09-15 12:56:32 -  Loading Kael...
+2025-09-15 12:56:32 -  Kael has logged in.
+2025-09-15 12:57:25 -  Loading Sacolin...
+2025-09-15 12:57:25 -  Sacolin has logged in.
+2025-09-15 12:57:47 -  Loading Zuckinha Pastor...
+2025-09-15 12:57:47 -  Zuckinha Pastor has logged in.
+2025-09-15 12:58:18 -  Loading Tutubarao...
+2025-09-15 12:58:18 -  Tutubarao has logged in.
+2025-09-15 12:58:19 -  Loading Atiira Muito...
+2025-09-15 12:58:19 -  Atiira Muito has logged in.
+2025-09-15 12:58:31 -  Loading Jumahu...
+2025-09-15 12:58:31 -  Jumahu has logged in.
+2025-09-15 12:58:31 -  Loading Logitch...
+2025-09-15 12:58:31 -  Logitch has logged in.
+2025-09-15 12:58:32 -  Loading Alone Schadeck...
+2025-09-15 12:58:32 -  Alone Schadeck has logged in.
+2025-09-15 12:58:33 -  Loading Paramax...
+2025-09-15 12:58:33 -  Paramax has logged in.
+2025-09-15 12:58:34 -  Loading Elzinho Druid...
+2025-09-15 12:58:34 -  Elzinho Druid has logged in.
+2025-09-15 12:58:35 -  Loading Jordin Sparks...
+2025-09-15 12:58:35 -  Jordin Sparks has logged in.
+2025-09-15 12:58:46 -  Loading Tumzao...
+2025-09-15 12:58:46 -  Tumzao has logged in.
+2025-09-15 12:59:47 -  Loading Anton Lavey...
+2025-09-15 12:59:47 -  Anton Lavey has logged in.
+2025-09-15 13:00:08 -  Loading Growatt...
+2025-09-15 13:00:08 -  Growatt has logged in.
+2025-09-15 13:01:16 -  Illidian Rullex has logged out.
+2025-09-15 13:03:18 -  Saving server... 15/09/2025 13:03:18
+2025-09-15 13:03:20 -  > Saved house items in: 0.146 s
+2025-09-15 13:03:52 -  Reloaded monsters.
+2025-09-15 13:03:52 -  Saving server... 15/09/2025 13:03:52
+2025-09-15 13:03:53 -  > Saved house items in: 0.139 s
+2025-09-15 13:04:08 -  Reloaded monsters.
+2025-09-15 13:04:08 -  Loading Karol Star...
+2025-09-15 13:04:08 -  Karol Star has logged in.
+2025-09-15 13:04:28 -  Loading Severino Elza...
+2025-09-15 13:04:28 -  Severino Elza has logged in.
+2025-09-15 13:04:28 -  Loading Terceiro...
+2025-09-15 13:04:28 -  Terceiro has logged in.
+2025-09-15 13:07:40 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-15 13:07:53 -  Loading Eufi...
+2025-09-15 13:07:53 -  Eufi has logged in.
+2025-09-15 13:08:37 -  Anton Lavey has logged out.
+2025-09-15 13:08:50 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-15 13:09:42 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-15 13:09:59 -  Loading Tu Culo Es Mio...
+2025-09-15 13:09:59 -  Tu Culo Es Mio has logged in.
+2025-09-15 13:10:17 -  Loading Alexandre De Moraes...
+2025-09-15 13:10:17 -  Alexandre De Moraes has logged in.
+2025-09-15 13:10:22 -  Loading Barnabe...
+2025-09-15 13:10:22 -  Barnabe has logged in.
+2025-09-15 13:10:48 -  Joninha has logged out.
+2025-09-15 13:12:08 -  
+2025-09-15 13:12:08 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:12:08 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 13:12:08 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 13:12:08 -  stack traceback:
+2025-09-15 13:12:08 -  	[C]: in function 'getLevel'
+2025-09-15 13:12:08 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 13:12:11 -  
+2025-09-15 13:12:11 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:12:11 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 13:12:11 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 13:12:11 -  stack traceback:
+2025-09-15 13:12:11 -  	[C]: in function 'getLevel'
+2025-09-15 13:12:11 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 13:12:50 -  Xupaengola has logged out.
+2025-09-15 13:12:52 -  Loading Xupaengola...
+2025-09-15 13:12:52 -  Xupaengola has logged in.
+2025-09-15 13:12:59 -  Loading Anton Lavey...
+2025-09-15 13:12:59 -  Anton Lavey has logged in.
+2025-09-15 13:13:07 -  Xupaengola has logged out.
+2025-09-15 13:13:08 -  Loading Xupaengola...
+2025-09-15 13:13:08 -  Xupaengola has logged in.
+2025-09-15 13:14:50 -  Xupaengola has logged out.
+2025-09-15 13:15:57 -  [BOSS SYSTEM] Spawned: Wormageddon
+2025-09-15 13:15:57 -  Loading Xupaengola...
+2025-09-15 13:15:57 -  Xupaengola has logged in.
+2025-09-15 13:16:02 -  Loading Paladin...
+2025-09-15 13:16:02 -  Paladin has logged in.
+2025-09-15 13:16:08 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-15 13:16:08 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-15 13:19:55 -  Loading Jurasmo...
+2025-09-15 13:19:55 -  Jurasmo has logged in.
+2025-09-15 13:22:24 -  
+2025-09-15 13:22:24 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:22:24 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:22:24 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:22:24 -  stack traceback:
+2025-09-15 13:22:24 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:22:24 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:22:24 -  
+2025-09-15 13:22:24 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:22:24 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:22:24 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:22:24 -  stack traceback:
+2025-09-15 13:22:24 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:22:24 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:22:24 -  	[C]: at 0x55555580592e
+2025-09-15 13:22:25 -  
+2025-09-15 13:22:25 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:22:25 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:22:25 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:22:25 -  stack traceback:
+2025-09-15 13:22:25 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:22:25 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:22:26 -  
+2025-09-15 13:22:26 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:22:26 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:22:26 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:22:26 -  stack traceback:
+2025-09-15 13:22:26 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:22:26 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:22:26 -  	[C]: at 0x55555580592e
+2025-09-15 13:22:27 -  
+2025-09-15 13:22:27 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:22:27 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:22:27 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:22:27 -  stack traceback:
+2025-09-15 13:22:27 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:22:27 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:22:27 -  	[C]: at 0x55555580592e
+2025-09-15 13:22:28 -  
+2025-09-15 13:22:28 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:22:28 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:22:28 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:22:28 -  stack traceback:
+2025-09-15 13:22:28 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:22:28 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:22:28 -  	[C]: at 0x55555580592e
+2025-09-15 13:22:28 -  Skylline has logged out.
+2025-09-15 13:22:29 -  Loading Skylline...
+2025-09-15 13:22:30 -  Skylline has logged in.
+2025-09-15 13:23:46 -  Arthur Leywin has logged out.
+2025-09-15 13:24:20 -  Anton Lavey has logged out.
+2025-09-15 13:24:31 -  Loading Podolski...
+2025-09-15 13:24:31 -  Podolski has logged in.
+2025-09-15 13:26:28 -  Alexandre De Moraes has logged out.
+2025-09-15 13:26:31 -  Loading Alexandre De Moraes...
+2025-09-15 13:26:31 -  Alexandre De Moraes has logged in.
+2025-09-15 13:26:55 -  
+2025-09-15 13:26:55 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:26:55 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:26:55 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:26:55 -  stack traceback:
+2025-09-15 13:26:55 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:26:55 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:26:55 -  	[C]: at 0x55555580592e
+2025-09-15 13:26:56 -  
+2025-09-15 13:26:56 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:26:56 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:26:56 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:26:56 -  stack traceback:
+2025-09-15 13:26:56 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:26:56 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:26:57 -  
+2025-09-15 13:26:57 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:26:57 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:26:57 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:26:57 -  stack traceback:
+2025-09-15 13:26:57 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:26:57 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:26:59 -  
+2025-09-15 13:26:59 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:26:59 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:26:59 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:26:59 -  stack traceback:
+2025-09-15 13:26:59 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:26:59 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:26:59 -  	[C]: at 0x55555580592e
+2025-09-15 13:27:00 -  
+2025-09-15 13:27:00 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:00 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:00 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:00 -  stack traceback:
+2025-09-15 13:27:00 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:00 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:00 -  	[C]: at 0x55555580592e
+2025-09-15 13:27:01 -  
+2025-09-15 13:27:01 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:01 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:01 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:01 -  stack traceback:
+2025-09-15 13:27:01 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:01 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:01 -  	[C]: at 0x55555580592e
+2025-09-15 13:27:02 -  
+2025-09-15 13:27:02 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:02 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:02 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:02 -  stack traceback:
+2025-09-15 13:27:02 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:02 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:16 -  
+2025-09-15 13:27:16 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:16 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:16 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:16 -  stack traceback:
+2025-09-15 13:27:16 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:16 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:16 -  	[C]: at 0x55555580592e
+2025-09-15 13:27:17 -  
+2025-09-15 13:27:17 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:17 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:17 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:17 -  stack traceback:
+2025-09-15 13:27:17 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:17 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:19 -  
+2025-09-15 13:27:19 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:19 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:19 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:19 -  stack traceback:
+2025-09-15 13:27:19 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:19 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:19 -  	[C]: in function 'doCombat'
+2025-09-15 13:27:19 -  	data/spells/scripts/attack/multi.lua:140: in function <data/spells/scripts/attack/multi.lua:139>
+2025-09-15 13:27:19 -  
+2025-09-15 13:27:19 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:19 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:19 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:19 -  stack traceback:
+2025-09-15 13:27:19 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:19 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:19 -  	[C]: at 0x55555580592e
+2025-09-15 13:27:20 -  
+2025-09-15 13:27:20 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:20 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:20 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:20 -  stack traceback:
+2025-09-15 13:27:20 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:20 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:39 -  
+2025-09-15 13:27:39 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:39 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:39 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:39 -  stack traceback:
+2025-09-15 13:27:39 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:39 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:39 -  	[C]: at 0x55555580592e
+2025-09-15 13:27:39 -  
+2025-09-15 13:27:39 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:39 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:39 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:39 -  stack traceback:
+2025-09-15 13:27:39 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:39 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:41 -  
+2025-09-15 13:27:41 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:41 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:41 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:41 -  stack traceback:
+2025-09-15 13:27:41 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:41 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:41 -  	[C]: at 0x55555580592e
+2025-09-15 13:27:41 -  
+2025-09-15 13:27:41 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:41 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:41 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:41 -  stack traceback:
+2025-09-15 13:27:41 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:41 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:43 -  
+2025-09-15 13:27:43 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:43 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:43 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:43 -  stack traceback:
+2025-09-15 13:27:43 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:43 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:43 -  	[C]: in function 'doCombat'
+2025-09-15 13:27:43 -  	data/spells/scripts/attack/multi.lua:130: in function <data/spells/scripts/attack/multi.lua:129>
+2025-09-15 13:27:43 -  
+2025-09-15 13:27:43 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:43 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:43 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:43 -  stack traceback:
+2025-09-15 13:27:43 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:43 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:43 -  	[C]: in function 'doCombat'
+2025-09-15 13:27:43 -  	data/spells/scripts/attack/multi.lua:134: in function <data/spells/scripts/attack/multi.lua:133>
+2025-09-15 13:27:47 -  
+2025-09-15 13:27:47 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:47 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:47 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:47 -  stack traceback:
+2025-09-15 13:27:47 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:47 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:51 -  
+2025-09-15 13:27:51 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:51 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:51 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:51 -  stack traceback:
+2025-09-15 13:27:51 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:51 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:51 -  	[C]: at 0x55555580592e
+2025-09-15 13:27:51 -  
+2025-09-15 13:27:51 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:51 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:51 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:51 -  stack traceback:
+2025-09-15 13:27:51 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:51 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:51 -  	[C]: in function 'doCombat'
+2025-09-15 13:27:51 -  	data/spells/scripts/attack/multi.lua:130: in function <data/spells/scripts/attack/multi.lua:129>
+2025-09-15 13:27:53 -  
+2025-09-15 13:27:53 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:53 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:53 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:53 -  stack traceback:
+2025-09-15 13:27:53 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:53 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:53 -  	[C]: at 0x55555580592e
+2025-09-15 13:27:54 -  
+2025-09-15 13:27:54 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:54 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:54 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:54 -  stack traceback:
+2025-09-15 13:27:54 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:54 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:55 -  
+2025-09-15 13:27:55 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:55 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:55 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:55 -  stack traceback:
+2025-09-15 13:27:55 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:55 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:55 -  	[C]: at 0x55555580592e
+2025-09-15 13:27:55 -  
+2025-09-15 13:27:55 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:27:55 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:27:55 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:27:55 -  stack traceback:
+2025-09-15 13:27:55 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:27:55 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:27:55 -  	[C]: in function 'doCombat'
+2025-09-15 13:27:55 -  	data/spells/scripts/attack/multi.lua:137: in function <data/spells/scripts/attack/multi.lua:136>
+2025-09-15 13:27:56 -  Derethor has logged out.
+2025-09-15 13:28:04 -  
+2025-09-15 13:28:04 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:04 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:04 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:04 -  stack traceback:
+2025-09-15 13:28:04 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:04 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:04 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:09 -  
+2025-09-15 13:28:09 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:09 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:09 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:09 -  stack traceback:
+2025-09-15 13:28:09 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:09 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:10 -  
+2025-09-15 13:28:10 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:10 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:10 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:10 -  stack traceback:
+2025-09-15 13:28:10 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:10 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:10 -  	[C]: in function 'doCombat'
+2025-09-15 13:28:10 -  	data/spells/scripts/attack/multi.lua:140: in function <data/spells/scripts/attack/multi.lua:139>
+2025-09-15 13:28:11 -  
+2025-09-15 13:28:11 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:11 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:11 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:11 -  stack traceback:
+2025-09-15 13:28:11 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:11 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:12 -  
+2025-09-15 13:28:12 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:12 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:12 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:12 -  stack traceback:
+2025-09-15 13:28:12 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:12 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:12 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:13 -  
+2025-09-15 13:28:13 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:13 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:13 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:13 -  stack traceback:
+2025-09-15 13:28:13 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:13 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:13 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:17 -  
+2025-09-15 13:28:17 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:17 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:17 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:17 -  stack traceback:
+2025-09-15 13:28:17 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:17 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:17 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:18 -  
+2025-09-15 13:28:18 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:18 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:18 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:18 -  stack traceback:
+2025-09-15 13:28:18 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:18 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:19 -  
+2025-09-15 13:28:19 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:19 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:19 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:19 -  stack traceback:
+2025-09-15 13:28:19 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:19 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:19 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:20 -  
+2025-09-15 13:28:20 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:20 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:20 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:20 -  stack traceback:
+2025-09-15 13:28:20 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:20 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:22 -  
+2025-09-15 13:28:22 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:22 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:22 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:22 -  stack traceback:
+2025-09-15 13:28:22 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:22 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:22 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:23 -  
+2025-09-15 13:28:23 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:23 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:23 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:23 -  stack traceback:
+2025-09-15 13:28:23 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:23 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:23 -  
+2025-09-15 13:28:23 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:23 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:23 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:23 -  stack traceback:
+2025-09-15 13:28:23 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:23 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:23 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:24 -  
+2025-09-15 13:28:24 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:24 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:24 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:24 -  stack traceback:
+2025-09-15 13:28:24 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:24 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:26 -  
+2025-09-15 13:28:26 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:26 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:26 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:26 -  stack traceback:
+2025-09-15 13:28:26 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:26 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:26 -  	[C]: in function 'doCombat'
+2025-09-15 13:28:26 -  	data/spells/scripts/attack/multi.lua:137: in function <data/spells/scripts/attack/multi.lua:136>
+2025-09-15 13:28:28 -  
+2025-09-15 13:28:28 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:28 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:28 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:28 -  stack traceback:
+2025-09-15 13:28:28 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:28 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:28 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:28 -  Loading Derethor...
+2025-09-15 13:28:28 -  Derethor has logged in.
+2025-09-15 13:28:30 -  
+2025-09-15 13:28:30 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:30 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:30 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:30 -  stack traceback:
+2025-09-15 13:28:30 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:30 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:30 -  
+2025-09-15 13:28:30 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:30 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:30 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:30 -  stack traceback:
+2025-09-15 13:28:30 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:30 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:30 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:31 -  
+2025-09-15 13:28:31 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:31 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:31 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:31 -  stack traceback:
+2025-09-15 13:28:31 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:31 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:31 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:35 -  
+2025-09-15 13:28:35 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:35 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:35 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:35 -  stack traceback:
+2025-09-15 13:28:35 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:35 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:35 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:36 -  
+2025-09-15 13:28:36 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:36 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:36 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:36 -  stack traceback:
+2025-09-15 13:28:36 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:36 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:36 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:37 -  
+2025-09-15 13:28:37 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:37 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:37 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:37 -  stack traceback:
+2025-09-15 13:28:37 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:37 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:37 -  	[C]: in function 'doCombat'
+2025-09-15 13:28:37 -  	data/spells/scripts/attack/multi.lua:140: in function <data/spells/scripts/attack/multi.lua:139>
+2025-09-15 13:28:38 -  
+2025-09-15 13:28:38 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:38 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:38 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:38 -  stack traceback:
+2025-09-15 13:28:38 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:38 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:38 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:39 -  
+2025-09-15 13:28:39 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:39 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:39 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:39 -  stack traceback:
+2025-09-15 13:28:39 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:39 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:39 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:41 -  
+2025-09-15 13:28:41 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:41 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:41 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:41 -  stack traceback:
+2025-09-15 13:28:41 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:41 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:41 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:43 -  
+2025-09-15 13:28:43 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:43 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:43 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:43 -  stack traceback:
+2025-09-15 13:28:43 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:43 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:43 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:44 -  
+2025-09-15 13:28:44 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:44 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:44 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:44 -  stack traceback:
+2025-09-15 13:28:44 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:44 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:46 -  
+2025-09-15 13:28:46 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:46 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:46 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:46 -  stack traceback:
+2025-09-15 13:28:46 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:46 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:46 -  	[C]: in function 'doCombat'
+2025-09-15 13:28:46 -  	data/spells/scripts/attack/multi.lua:134: in function <data/spells/scripts/attack/multi.lua:133>
+2025-09-15 13:28:47 -  
+2025-09-15 13:28:47 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:47 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:47 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:47 -  stack traceback:
+2025-09-15 13:28:47 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:47 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:47 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:49 -  
+2025-09-15 13:28:49 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:49 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:49 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:49 -  stack traceback:
+2025-09-15 13:28:49 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:49 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:50 -  
+2025-09-15 13:28:50 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:50 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:50 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:50 -  stack traceback:
+2025-09-15 13:28:50 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:50 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:50 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:51 -  
+2025-09-15 13:28:51 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:51 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:51 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:51 -  stack traceback:
+2025-09-15 13:28:51 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:51 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:51 -  	[C]: at 0x55555580592e
+2025-09-15 13:28:57 -  
+2025-09-15 13:28:57 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:57 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:57 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:57 -  stack traceback:
+2025-09-15 13:28:57 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:57 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:59 -  
+2025-09-15 13:28:59 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:59 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:59 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:59 -  stack traceback:
+2025-09-15 13:28:59 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:59 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:59 -  
+2025-09-15 13:28:59 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:28:59 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:28:59 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:28:59 -  stack traceback:
+2025-09-15 13:28:59 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:28:59 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:28:59 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:00 -  Tu Culo Es Mio has logged out.
+2025-09-15 13:29:02 -  
+2025-09-15 13:29:02 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:02 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:02 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:02 -  stack traceback:
+2025-09-15 13:29:02 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:02 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:02 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:02 -  Loading Tu Culo Es Mio...
+2025-09-15 13:29:02 -  Tu Culo Es Mio has logged in.
+2025-09-15 13:29:07 -  
+2025-09-15 13:29:07 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:07 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:07 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:07 -  stack traceback:
+2025-09-15 13:29:07 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:07 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:07 -  
+2025-09-15 13:29:07 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:07 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:07 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:07 -  stack traceback:
+2025-09-15 13:29:07 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:07 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:07 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:08 -  
+2025-09-15 13:29:08 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:08 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:08 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:08 -  stack traceback:
+2025-09-15 13:29:08 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:08 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:09 -  
+2025-09-15 13:29:09 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:09 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:09 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:09 -  stack traceback:
+2025-09-15 13:29:09 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:09 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:09 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:10 -  
+2025-09-15 13:29:10 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:10 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:10 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:10 -  stack traceback:
+2025-09-15 13:29:10 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:10 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:11 -  
+2025-09-15 13:29:11 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:11 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:11 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:11 -  stack traceback:
+2025-09-15 13:29:11 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:11 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:11 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:12 -  
+2025-09-15 13:29:12 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:12 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:12 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:12 -  stack traceback:
+2025-09-15 13:29:12 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:12 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:12 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:13 -  
+2025-09-15 13:29:13 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:13 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:13 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:13 -  stack traceback:
+2025-09-15 13:29:13 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:13 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:14 -  
+2025-09-15 13:29:14 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:14 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:14 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:14 -  stack traceback:
+2025-09-15 13:29:14 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:14 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:14 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:15 -  
+2025-09-15 13:29:15 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:15 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:15 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:15 -  stack traceback:
+2025-09-15 13:29:15 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:15 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:15 -  	[C]: in function 'doCombat'
+2025-09-15 13:29:15 -  	data/spells/scripts/attack/multi.lua:134: in function <data/spells/scripts/attack/multi.lua:133>
+2025-09-15 13:29:17 -  
+2025-09-15 13:29:17 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:17 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:17 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:17 -  stack traceback:
+2025-09-15 13:29:17 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:17 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:18 -  
+2025-09-15 13:29:18 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:18 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:18 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:18 -  stack traceback:
+2025-09-15 13:29:18 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:18 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:18 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:20 -  Autobot Onn has logged out.
+2025-09-15 13:29:28 -  
+2025-09-15 13:29:28 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:28 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:28 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:28 -  stack traceback:
+2025-09-15 13:29:28 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:28 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:29 -  
+2025-09-15 13:29:29 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:29 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:29 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:29 -  stack traceback:
+2025-09-15 13:29:29 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:29 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:29 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:29 -  
+2025-09-15 13:29:29 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:29 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:29 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:29 -  stack traceback:
+2025-09-15 13:29:29 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:29 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:30 -  
+2025-09-15 13:29:30 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:30 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:30 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:30 -  stack traceback:
+2025-09-15 13:29:30 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:30 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:30 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:30 -  
+2025-09-15 13:29:30 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:30 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:30 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:30 -  stack traceback:
+2025-09-15 13:29:30 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:30 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:30 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:31 -  
+2025-09-15 13:29:31 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:31 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:31 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:31 -  stack traceback:
+2025-09-15 13:29:31 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:31 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:31 -  	[C]: in function 'doCombat'
+2025-09-15 13:29:31 -  	data/spells/scripts/attack/multi.lua:130: in function <data/spells/scripts/attack/multi.lua:129>
+2025-09-15 13:29:32 -  
+2025-09-15 13:29:32 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:32 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:32 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:32 -  stack traceback:
+2025-09-15 13:29:32 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:32 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:32 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:32 -  
+2025-09-15 13:29:32 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:32 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:32 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:32 -  stack traceback:
+2025-09-15 13:29:32 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:32 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:32 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:33 -  
+2025-09-15 13:29:33 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:33 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:33 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:33 -  stack traceback:
+2025-09-15 13:29:33 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:33 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:33 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:34 -  
+2025-09-15 13:29:34 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:34 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:34 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:34 -  stack traceback:
+2025-09-15 13:29:34 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:34 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:34 -  
+2025-09-15 13:29:34 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:34 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:34 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:34 -  stack traceback:
+2025-09-15 13:29:34 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:34 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:34 -  	[C]: at 0x55555580592e
+2025-09-15 13:29:35 -  
+2025-09-15 13:29:35 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:35 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-15 13:29:35 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-15 13:29:35 -  stack traceback:
+2025-09-15 13:29:35 -  	[C]: in function 'getManaMultiplier'
+2025-09-15 13:29:35 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-15 13:29:35 -  	[C]: in function 'doCombat'
+2025-09-15 13:29:35 -  	data/spells/scripts/attack/multi.lua:140: in function <data/spells/scripts/attack/multi.lua:139>
+2025-09-15 13:29:36 -  Mano Crack has logged out.
+2025-09-15 13:29:38 -  Loading Mano Crack...
+2025-09-15 13:29:38 -  Mano Crack has logged in.
+2025-09-15 13:29:42 -  
+2025-09-15 13:29:42 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:42 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 13:29:42 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 13:29:42 -  stack traceback:
+2025-09-15 13:29:42 -  	[C]: in function 'getLevel'
+2025-09-15 13:29:42 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 13:29:46 -  
+2025-09-15 13:29:46 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:46 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 13:29:46 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 13:29:46 -  stack traceback:
+2025-09-15 13:29:46 -  	[C]: in function 'getLevel'
+2025-09-15 13:29:46 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 13:29:50 -  
+2025-09-15 13:29:50 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:29:50 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 13:29:50 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 13:29:50 -  stack traceback:
+2025-09-15 13:29:50 -  	[C]: in function 'getLevel'
+2025-09-15 13:29:50 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 13:29:52 -  Loading Autobot Onn...
+2025-09-15 13:29:52 -  Autobot Onn has logged in.
+2025-09-15 13:31:04 -  Autobot Onn has logged out.
+2025-09-15 13:31:20 -  Nightwolf has logged out.
+2025-09-15 13:33:27 -  
+2025-09-15 13:33:27 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:33:27 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 13:33:27 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 13:33:27 -  stack traceback:
+2025-09-15 13:33:27 -  	[C]: in function 'getLevel'
+2025-09-15 13:33:27 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 13:34:17 -  Gynga Bilola has logged out.
+2025-09-15 13:34:19 -  Loading Gynga Bilola...
+2025-09-15 13:34:19 -  Gynga Bilola has logged in.
+2025-09-15 13:35:07 -  Loading Arthur Leywin...
+2025-09-15 13:35:07 -  Arthur Leywin has logged in.
+2025-09-15 13:35:39 -  Loading Nandox Pcd...
+2025-09-15 13:35:39 -  Nandox Pcd has logged in.
+2025-09-15 13:38:47 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-09-15 13:38:47 -  Terceiro has logged out.
+2025-09-15 13:40:19 -  Barnabe has logged out.
+2025-09-15 13:40:37 -  Gynga Bilola has logged out.
+2025-09-15 13:40:38 -  Loading Gynga Bilola...
+2025-09-15 13:40:38 -  Gynga Bilola has logged in.
+2025-09-15 13:41:24 -  Skylline has logged out.
+2025-09-15 13:41:37 -  Loading Skylline...
+2025-09-15 13:41:37 -  Skylline has logged in.
+2025-09-15 13:42:34 -  Alexandre De Moraes has logged out.
+2025-09-15 13:42:37 -  Loading Alexandre De Moraes...
+2025-09-15 13:42:37 -  Alexandre De Moraes has logged in.
+2025-09-15 13:44:24 -  Elven Sinistro has logged out.
+2025-09-15 13:44:30 -  John Wick has logged out.
+2025-09-15 13:45:05 -  Ogro Sinistro has logged out.
+2025-09-15 13:45:13 -  Loading Elven Sinistro...
+2025-09-15 13:45:13 -  Elven Sinistro has logged in.
+2025-09-15 13:45:22 -  Loading John Wick...
+2025-09-15 13:45:22 -  John Wick has logged in.
+2025-09-15 13:45:39 -  Loading Ogro Sinistro...
+2025-09-15 13:45:39 -  Ogro Sinistro has logged in.
+2025-09-15 13:45:51 -  Loading Duboldinho...
+2025-09-15 13:45:51 -  Duboldinho has logged in.
+2025-09-15 13:46:32 -  Andin Inevitavel has logged out.
+2025-09-15 13:46:47 -  Loading Anton Lavey...
+2025-09-15 13:46:47 -  Anton Lavey has logged in.
+2025-09-15 13:47:36 -  Druid Sinistro has logged out.
+2025-09-15 13:48:19 -  Loading Druid Sinistro...
+2025-09-15 13:48:19 -  Druid Sinistro has logged in.
+2025-09-15 13:49:19 -  Druid Sinistro has logged out.
+2025-09-15 13:49:45 -  Loading Druid Sinistro...
+2025-09-15 13:49:45 -  Druid Sinistro has logged in.
+2025-09-15 13:51:57 -  
+2025-09-15 13:51:57 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:51:57 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 13:51:57 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 13:51:57 -  stack traceback:
+2025-09-15 13:51:57 -  	[C]: in function 'getLevel'
+2025-09-15 13:51:57 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 13:52:00 -  
+2025-09-15 13:52:00 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:52:00 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 13:52:00 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 13:52:00 -  stack traceback:
+2025-09-15 13:52:00 -  	[C]: in function 'getLevel'
+2025-09-15 13:52:00 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 13:53:10 -  
+2025-09-15 13:53:10 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:53:10 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 13:53:10 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 13:53:10 -  stack traceback:
+2025-09-15 13:53:10 -  	[C]: in function 'getLevel'
+2025-09-15 13:53:10 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 13:54:17 -  Derethor has logged out.
+2025-09-15 13:55:50 -  
+2025-09-15 13:55:50 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:55:50 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 13:55:50 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 13:55:50 -  stack traceback:
+2025-09-15 13:55:50 -  	[C]: in function 'getLevel'
+2025-09-15 13:55:50 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 13:57:56 -  [BOSS SYSTEM] Spawned: Olog-hai
+2025-09-15 13:57:56 -  Saving server... 15/09/2025 13:57:56
+2025-09-15 13:57:58 -  > Saved house items in: 0.159 s
+2025-09-15 13:58:12 -  Gynga Bilola has logged out.
+2025-09-15 13:58:13 -  Loading Gynga Bilola...
+2025-09-15 13:58:13 -  Gynga Bilola has logged in.
+2025-09-15 13:59:42 -  
+2025-09-15 13:59:42 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 13:59:42 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 13:59:42 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 13:59:42 -  stack traceback:
+2025-09-15 13:59:42 -  	[C]: in function 'getLevel'
+2025-09-15 13:59:42 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 13:59:54 -  Loading Sou Broxa...
+2025-09-15 13:59:54 -  Sou Broxa has logged in.
+2025-09-15 14:02:46 -  
+2025-09-15 14:02:46 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 14:02:46 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 14:02:46 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 14:02:46 -  stack traceback:
+2025-09-15 14:02:46 -  	[C]: in function 'getLevel'
+2025-09-15 14:02:46 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 14:02:49 -  
+2025-09-15 14:02:49 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 14:02:49 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 14:02:49 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 14:02:49 -  stack traceback:
+2025-09-15 14:02:49 -  	[C]: in function 'getLevel'
+2025-09-15 14:02:49 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 14:03:42 -  Loading Miliel Hyuga...
+2025-09-15 14:03:42 -  Miliel Hyuga has logged in.
+2025-09-15 14:04:09 -  Loading Tanjiro Uzumaki...
+2025-09-15 14:04:09 -  Tanjiro Uzumaki has logged in.
+2025-09-15 14:04:25 -  Loading Thaynan Charlove...
+2025-09-15 14:04:25 -  Thaynan Charlove has logged in.
+2025-09-15 14:05:22 -  Loading Kaka Bueno...
+2025-09-15 14:05:22 -  Kaka Bueno has logged in.
+2025-09-15 14:05:58 -  Jumahu has logged out.
+2025-09-15 14:07:35 -  Logitch has logged out.
+2025-09-15 14:09:05 -  Alone Schadeck has logged out.
+2025-09-15 14:10:08 -  Paramax has logged out.
+2025-09-15 14:10:24 -  Loading Terceiro...
+2025-09-15 14:10:24 -  Terceiro has logged in.
+2025-09-15 14:11:43 -  Loading Derethor...
+2025-09-15 14:11:43 -  Derethor has logged in.
+2025-09-15 14:12:32 -  Jordin Sparks has logged out.
+2025-09-15 14:13:52 -  Elzinho Druid has logged out.
+2025-09-15 14:14:00 -  [CM] Middle Earth has logged out.
+2025-09-15 14:14:34 -  Xupaengola has logged out.
+2025-09-15 14:14:53 -  Loading Andin Inevitavel...
+2025-09-15 14:14:53 -  Andin Inevitavel has logged in.
+2025-09-15 14:15:46 -  Derethor has logged out.
+2025-09-15 14:15:50 -  Loading Nattus...
+2025-09-15 14:15:50 -  Nattus has logged in.
+2025-09-15 14:16:37 -  [BOSS SYSTEM] Spawned: Khel Thuzad
+2025-09-15 14:16:37 -  Loading Dgs'lz...
+2025-09-15 14:16:37 -  Dgs'lz has logged in.
+2025-09-15 14:17:10 -  Dgs'lz has logged out.
+2025-09-15 14:17:30 -  Loading Beckham...
+2025-09-15 14:17:30 -  Beckham has logged in.
+2025-09-15 14:17:57 -  Beckham has logged out.
+2025-09-15 14:17:59 -  Loading Barnabe...
+2025-09-15 14:17:59 -  Barnabe has logged in.
+2025-09-15 14:18:01 -  Loading Beckham...
+2025-09-15 14:18:01 -  Beckham has logged in.
+2025-09-15 14:18:10 -  Beckham has logged out.
+2025-09-15 14:18:39 -  Loading Derethor...
+2025-09-15 14:18:39 -  Derethor has logged in.
+2025-09-15 14:20:45 -  Loading Massey...
+2025-09-15 14:20:45 -  Massey has logged in.
+2025-09-15 14:23:07 -  Eho Jhon has logged out.
+2025-09-15 14:27:12 -  Loading Eho Jhon...
+2025-09-15 14:27:12 -  Eho Jhon has logged in.
+2025-09-15 14:28:03 -  Tumzao has logged out.
+2025-09-15 14:28:10 -  Loading Tumzao...
+2025-09-15 14:28:10 -  Tumzao has logged in.
+2025-09-15 14:29:00 -  Eho Jhon has logged out.
+2025-09-15 14:29:15 -  Derethor has logged out.
+2025-09-15 14:29:18 -  Loading Derethor...
+2025-09-15 14:29:18 -  Derethor has logged in.
+2025-09-15 14:35:41 -  Stormy has logged out.
+2025-09-15 14:35:42 -  Loading Stormy...
+2025-09-15 14:35:42 -  Stormy has logged in.
+2025-09-15 14:36:01 -  [BOSS SYSTEM] Spawned: Ferumbras
+2025-09-15 14:36:01 -  Nandox Pcd has logged out.
+2025-09-15 14:36:02 -  Stormy has logged out.
+2025-09-15 14:36:03 -  Loading Stormy...
+2025-09-15 14:36:03 -  Stormy has logged in.
+2025-09-15 14:36:14 -  Loading Nandox Pcd...
+2025-09-15 14:36:14 -  Nandox Pcd has logged in.
+2025-09-15 14:38:24 -  Loading King Gauderio...
+2025-09-15 14:38:24 -  King Gauderio has logged in.
+2025-09-15 14:39:56 -  Thaynan Charlove has logged out.
+2025-09-15 14:42:06 -  Loading Thaynan Charlove...
+2025-09-15 14:42:06 -  Thaynan Charlove has logged in.
+2025-09-15 14:47:41 -  Derethor has logged out.
+2025-09-15 14:51:05 -  
+2025-09-15 14:51:05 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 14:51:05 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 14:51:05 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 14:51:05 -  stack traceback:
+2025-09-15 14:51:05 -  	[C]: in function 'getLevel'
+2025-09-15 14:51:05 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 14:57:08 -  [BOSS SYSTEM] Spawned: Eddie
+2025-09-15 14:57:08 -  177.208.243.72 disconnected for exceeding packet per second limit.
+2025-09-15 14:57:12 -  Antedeguemon has logged out.
+2025-09-15 14:57:18 -  Loading Antedeguemon...
+2025-09-15 14:57:18 -  Antedeguemon has logged in.
+2025-09-15 14:57:56 -  Saving server... 15/09/2025 14:57:56
+2025-09-15 14:57:58 -  > Saved house items in: 0.152 s
+2025-09-15 15:01:27 -  Mono Dedo has logged out.
+2025-09-15 15:01:38 -  Silveex has logged out.
+2025-09-15 15:02:28 -  Loading Mano Sabotage...
+2025-09-15 15:02:28 -  Mano Sabotage has logged in.
+2025-09-15 15:08:12 -  Mano Sabotage has logged out.
+2025-09-15 15:08:15 -  Loading Mano Sabotage...
+2025-09-15 15:08:15 -  Mano Sabotage has logged in.
+2025-09-15 15:09:22 -  
+2025-09-15 15:09:22 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 15:09:22 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 15:09:22 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 15:09:22 -  stack traceback:
+2025-09-15 15:09:22 -  	[C]: in function 'getLevel'
+2025-09-15 15:09:22 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 15:12:41 -  Kaka Bueno has logged out.
+2025-09-15 15:13:23 -  Massey has logged out.
+2025-09-15 15:16:44 -  [BOSS SYSTEM] Spawned: The Necromancer
+2025-09-15 15:16:44 -  177.55.75.156 disconnected for exceeding packet per second limit.
+2025-09-15 15:17:45 -  Nandox Pcd has logged out.
+2025-09-15 15:18:44 -  Loading Silveex...
+2025-09-15 15:18:44 -  Silveex has logged in.
+2025-09-15 15:20:18 -  Loading Nandox Pcd...
+2025-09-15 15:20:18 -  Nandox Pcd has logged in.
+2025-09-15 15:22:37 -  Loading Mono Dedo...
+2025-09-15 15:22:37 -  Mono Dedo has logged in.
+2025-09-15 15:26:55 -  Jurasmo has logged out.
+2025-09-15 15:28:24 -  Mano Sabotage has logged out.
+2025-09-15 15:28:56 -  Loading Mano Sabotage...
+2025-09-15 15:28:56 -  Mano Sabotage has logged in.
+2025-09-15 15:29:51 -  Mano Crack has logged out.
+2025-09-15 15:37:50 -  [BOSS SYSTEM] Spawned: Avari Leader
+2025-09-15 15:37:50 -  Loading Criador De Jutsu...
+2025-09-15 15:37:50 -  Criador De Jutsu has logged in.
+2025-09-15 15:37:56 -  Criador De Jutsu has logged out.
+2025-09-15 15:38:00 -  Loading Criador De Jutsu...
+2025-09-15 15:38:00 -  Criador De Jutsu has logged in.
+2025-09-15 15:40:40 -  Criador De Jutsu has logged out.
+2025-09-15 15:40:48 -  Loading Rulex Infernalist...
+2025-09-15 15:40:48 -  Rulex Infernalist has logged in.
+2025-09-15 15:40:51 -  Rulex Infernalist has logged out.
+2025-09-15 15:40:53 -  Loading Rap Da Alma...
+2025-09-15 15:40:53 -  Rap Da Alma has logged in.
+2025-09-15 15:40:55 -  Rap Da Alma has logged out.
+2025-09-15 15:40:56 -  179.96.218.70 disconnected for exceeding packet per second limit.
+2025-09-15 15:40:57 -  Loading Obito Uchiha...
+2025-09-15 15:40:57 -  Obito Uchiha has logged in.
+2025-09-15 15:41:07 -  Tolkien has logged out.
+2025-09-15 15:41:09 -  Obito Uchiha has logged out.
+2025-09-15 15:41:11 -  Stormy has logged out.
+2025-09-15 15:41:11 -  Loading Criador De Jutsu...
+2025-09-15 15:41:11 -  Criador De Jutsu has logged in.
+2025-09-15 15:41:14 -  Kael has logged out.
+2025-09-15 15:48:33 -  Criador De Jutsu has logged out.
+2025-09-15 15:48:37 -  Loading Criador De Jutsu...
+2025-09-15 15:48:37 -  Criador De Jutsu has logged in.
+2025-09-15 15:49:42 -  Criador De Jutsu has logged out.
+2025-09-15 15:51:44 -  Loading Oppenheimer...
+2025-09-15 15:51:44 -  Oppenheimer has logged in.
+2025-09-15 15:53:05 -  Loading Ozymandias...
+2025-09-15 15:53:05 -  Ozymandias has logged in.
+2025-09-15 15:57:56 -  [BOSS SYSTEM] Spawned: Valaraukar
+2025-09-15 15:57:56 -  Saving server... 15/09/2025 15:57:56
+2025-09-15 15:57:58 -  > Saved house items in: 0.157 s
+2025-09-15 15:59:15 -  Tanjiro Uzumaki has logged out.
+2025-09-15 16:02:35 -  
+2025-09-15 16:02:35 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:02:35 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:02:35 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:02:35 -  stack traceback:
+2025-09-15 16:02:35 -  	[C]: in function 'getLevel'
+2025-09-15 16:02:35 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:02:37 -  
+2025-09-15 16:02:37 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:02:37 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:02:37 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:02:37 -  stack traceback:
+2025-09-15 16:02:37 -  	[C]: in function 'getLevel'
+2025-09-15 16:02:37 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:03:36 -  Skylline has logged out.
+2025-09-15 16:03:38 -  Loading Skylline...
+2025-09-15 16:03:38 -  Skylline has logged in.
+2025-09-15 16:04:25 -  
+2025-09-15 16:04:25 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:04:25 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:04:25 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:04:25 -  stack traceback:
+2025-09-15 16:04:25 -  	[C]: in function 'getLevel'
+2025-09-15 16:04:25 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:05:00 -  Porno Gay has logged out.
+2025-09-15 16:05:00 -  Ozymandias has logged out.
+2025-09-15 16:05:01 -  Loading Ozymandias...
+2025-09-15 16:05:01 -  Ozymandias has logged in.
+2025-09-15 16:05:02 -  Loading Porno Gay...
+2025-09-15 16:05:02 -  Porno Gay has logged in.
+2025-09-15 16:05:15 -  Porno Gay has logged out.
+2025-09-15 16:05:18 -  Ozymandias has logged out.
+2025-09-15 16:05:35 -  Loading Bolsonaro...
+2025-09-15 16:05:35 -  Bolsonaro has logged in.
+2025-09-15 16:05:37 -  Loading Porno Gay...
+2025-09-15 16:05:37 -  Porno Gay has logged in.
+2025-09-15 16:05:50 -  Bolsonaro has logged out.
+2025-09-15 16:06:00 -  Loading Ozymandias...
+2025-09-15 16:06:00 -  Ozymandias has logged in.
+2025-09-15 16:06:11 -  
+2025-09-15 16:06:11 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:06:11 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:06:11 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:06:11 -  stack traceback:
+2025-09-15 16:06:11 -  	[C]: in function 'getLevel'
+2025-09-15 16:06:11 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:06:17 -  
+2025-09-15 16:06:17 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:06:17 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:06:17 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:06:17 -  stack traceback:
+2025-09-15 16:06:17 -  	[C]: in function 'getLevel'
+2025-09-15 16:06:17 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:07:17 -  Aleska Teodoro has logged out.
+2025-09-15 16:07:27 -  Porno Gay has logged out.
+2025-09-15 16:07:28 -  Loading Porno Gay...
+2025-09-15 16:07:28 -  Porno Gay has logged in.
+2025-09-15 16:07:34 -  Porno Gay has logged out.
+2025-09-15 16:07:38 -  Loading Porno Gay...
+2025-09-15 16:07:38 -  Porno Gay has logged in.
+2025-09-15 16:07:43 -  Porno Gay has logged out.
+2025-09-15 16:07:48 -  Kyou Kai has logged out.
+2025-09-15 16:07:50 -  Loading Kyou Kai...
+2025-09-15 16:07:50 -  Kyou Kai has logged in.
+2025-09-15 16:08:02 -  Loading Porno Gay...
+2025-09-15 16:08:02 -  Porno Gay has logged in.
+2025-09-15 16:08:40 -  Loading Aleska Teodoro...
+2025-09-15 16:08:40 -  Aleska Teodoro has logged in.
+2025-09-15 16:08:44 -  Loading Kaka Bueno...
+2025-09-15 16:08:44 -  Kaka Bueno has logged in.
+2025-09-15 16:08:46 -  Kyou Kai has logged out.
+2025-09-15 16:08:46 -  Loading Massey...
+2025-09-15 16:08:46 -  Massey has logged in.
+2025-09-15 16:08:48 -  Loading Kyou Kai...
+2025-09-15 16:08:48 -  Kyou Kai has logged in.
+2025-09-15 16:12:48 -  
+2025-09-15 16:12:48 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:12:48 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:12:48 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:12:48 -  stack traceback:
+2025-09-15 16:12:48 -  	[C]: in function 'getLevel'
+2025-09-15 16:12:48 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:13:56 -  
+2025-09-15 16:13:56 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:13:56 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:13:56 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:13:56 -  stack traceback:
+2025-09-15 16:13:56 -  	[C]: in function 'getLevel'
+2025-09-15 16:13:56 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:13:59 -  
+2025-09-15 16:13:59 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:13:59 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:13:59 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:13:59 -  stack traceback:
+2025-09-15 16:13:59 -  	[C]: in function 'getLevel'
+2025-09-15 16:13:59 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:14:35 -  
+2025-09-15 16:14:35 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:14:35 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:14:35 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:14:35 -  stack traceback:
+2025-09-15 16:14:35 -  	[C]: in function 'getLevel'
+2025-09-15 16:14:35 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:14:36 -  
+2025-09-15 16:14:36 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:14:36 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:14:36 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:14:36 -  stack traceback:
+2025-09-15 16:14:36 -  	[C]: in function 'getLevel'
+2025-09-15 16:14:36 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:15:22 -  4
+2025-09-15 16:15:22 -  Loading Kael...
+2025-09-15 16:15:22 -  Kael has logged in.
+2025-09-15 16:15:32 -  Loading Stormy...
+2025-09-15 16:15:32 -  Stormy has logged in.
+2025-09-15 16:16:02 -  [BOSS SYSTEM] Spawned: Lord of The Elements
+2025-09-15 16:16:02 -  Loading Tolkien...
+2025-09-15 16:16:02 -  Tolkien has logged in.
+2025-09-15 16:16:22 -  Oppenheimer has logged out.
+2025-09-15 16:16:23 -  Loading Oppenheimer...
+2025-09-15 16:16:23 -  Oppenheimer has logged in.
+2025-09-15 16:17:27 -  Enfermeira Joy has logged out.
+2025-09-15 16:17:35 -  Alexandre De Moraes has logged out.
+2025-09-15 16:23:11 -  Loading Nightwolf...
+2025-09-15 16:23:11 -  Nightwolf has logged in.
+2025-09-15 16:24:32 -  Loading Joninha...
+2025-09-15 16:24:32 -  Joninha has logged in.
+2025-09-15 16:24:56 -  Porno Gay has logged out.
+2025-09-15 16:25:07 -  Loading Porno Gay...
+2025-09-15 16:25:07 -  Porno Gay has logged in.
+2025-09-15 16:25:39 -  Joninha has logged out.
+2025-09-15 16:29:10 -  Loading Joninha...
+2025-09-15 16:29:10 -  Joninha has logged in.
+2025-09-15 16:30:35 -  Joninha has logged out.
+2025-09-15 16:34:50 -  Stormy has logged out.
+2025-09-15 16:34:52 -  Loading Stormy...
+2025-09-15 16:34:52 -  Stormy has logged in.
+2025-09-15 16:40:43 -  [BOSS SYSTEM] Spawned: Azaka
+2025-09-15 16:40:43 -  Karol Star has logged out.
+2025-09-15 16:40:44 -  Loading Karol Star...
+2025-09-15 16:40:44 -  Karol Star has logged in.
+2025-09-15 16:41:40 -  Gorbatchov has logged out.
+2025-09-15 16:41:44 -  Loading Gorbatchov...
+2025-09-15 16:41:44 -  Gorbatchov has logged in.
+2025-09-15 16:42:03 -  Karol Star has logged out.
+2025-09-15 16:42:04 -  Loading Karol Star...
+2025-09-15 16:42:04 -  Karol Star has logged in.
+2025-09-15 16:45:29 -  Thaynan Charlove has logged out.
+2025-09-15 16:45:49 -  Loading Thaynan Charlove...
+2025-09-15 16:45:49 -  Thaynan Charlove has logged in.
+2025-09-15 16:47:53 -  Porno Gay has logged out.
+2025-09-15 16:47:58 -  
+2025-09-15 16:47:58 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:47:58 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:47:58 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:47:58 -  stack traceback:
+2025-09-15 16:47:58 -  	[C]: in function 'getLevel'
+2025-09-15 16:47:58 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:48:59 -  Gorbatchov has logged out.
+2025-09-15 16:49:02 -  Loading Gorbatchov...
+2025-09-15 16:49:02 -  Gorbatchov has logged in.
+2025-09-15 16:49:31 -  Aleska Teodoro has logged out.
+2025-09-15 16:49:33 -  Loading Aleska Teodoro...
+2025-09-15 16:49:33 -  Aleska Teodoro has logged in.
+2025-09-15 16:49:33 -  Loading Porno Gay...
+2025-09-15 16:49:33 -  Porno Gay has logged in.
+2025-09-15 16:49:49 -  
+2025-09-15 16:49:49 -  Lua Script Error: [Scripts Interface] 
+2025-09-15 16:49:49 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-15 16:49:49 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-15 16:49:49 -  stack traceback:
+2025-09-15 16:49:49 -  	[C]: in function 'getLevel'
+2025-09-15 16:49:49 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-15 16:49:59 -  Barnabe has logged out.
+2025-09-15 16:50:18 -  Nightwolf has logged out.
+2025-09-15 16:50:21 -  Loading Nightwolf...
+2025-09-15 16:50:21 -  Nightwolf has logged in.
+2025-09-15 16:50:22 -  Putifero has logged out.
+2025-09-15 16:52:34 -  Mono Dedo has logged out.
+2025-09-15 16:52:38 -  Loading Mono Dedo...
+2025-09-15 16:52:38 -  Mono Dedo has logged in.
+2025-09-15 16:52:41 -  Mono Dedo has logged out.
+2025-09-15 16:52:58 -  Silveex has logged out.
+2025-09-15 16:53:24 -  Loading Silveex...
+2025-09-15 16:53:24 -  Silveex has logged in.
+2025-09-15 16:53:36 -  Silveex has logged out.
+2025-09-15 16:53:52 -  Antedeguemon has logged out.
+2025-09-15 16:53:59 -  Loading Antedeguemon...
+2025-09-15 16:53:59 -  Antedeguemon has logged in.
+2025-09-15 16:54:03 -  Antedeguemon has logged out.
+2025-09-15 16:55:17 -  Zuckinha Pastor has logged out.
+2025-09-15 16:55:49 -  Loading Zuckinha Pastor...
+2025-09-15 16:55:49 -  Zuckinha Pastor has logged in.
+2025-09-15 16:55:49 -  Czolg Wojenny has logged out.
+2025-09-15 16:57:07 -  [BOSS SYSTEM] Spawned: Jormungand
+2025-09-15 16:57:07 -  Andin Inevitavel has logged out.
+2025-09-15 16:57:10 -  Loading Andin Inevitavel...
+2025-09-15 16:57:10 -  Andin Inevitavel has logged in.
+2025-09-15 16:57:56 -  Saving server... 15/09/2025 16:57:56
+2025-09-15 16:57:58 -  > Saved house items in: 0.148 s
+2025-09-15 16:59:44 -  Loading Sir Daniel...
+2025-09-15 16:59:44 -  Sir Daniel has logged in.
+2025-09-15 17:04:36 -  Loading Czolg Wojenny...
+2025-09-15 17:04:36 -  Czolg Wojenny has logged in.
+2025-09-15 17:05:10 -  Orc Vegano has logged out.
+2025-09-15 17:05:12 -  Loading Orc Vegano...
+2025-09-15 17:05:12 -  Orc Vegano has logged in.
+2025-09-15 17:06:26 -  Nightwolf has logged out.
+2025-09-15 17:06:29 -  Loading Nightwolf...
+2025-09-15 17:06:29 -  Nightwolf has logged in.
+2025-09-15 17:09:19 -  Magic Of Caos has logged out.
+2025-09-15 17:09:22 -  Loading Magic Of Caos...
+2025-09-15 17:09:22 -  Magic Of Caos has logged in.
+2025-09-15 17:10:14 -  Mano Sabotage has logged out.
+2025-09-15 17:10:22 -  Loading Mano Sabotage...
+2025-09-15 17:10:22 -  Mano Sabotage has logged in.
+2025-09-15 17:15:08 -  Benn Beckmann has logged out.
+2025-09-15 17:15:11 -  Loading Benn Beckmann...
+2025-09-15 17:15:11 -  Benn Beckmann has logged in.
+2025-09-15 17:15:32 -  Babalu has logged out.
+2025-09-15 17:15:39 -  Muzan has logged out.
+2025-09-15 17:15:48 -  Safe Heaven has logged out.
+2025-09-15 17:15:58 -  [BOSS SYSTEM] Spawned: Jaul
+2025-09-15 17:15:58 -  Loading Mano Crack...
+2025-09-15 17:15:58 -  Mano Crack has logged in.
+2025-09-15 17:18:06 -  Loading Muzan...
+2025-09-15 17:18:06 -  Muzan has logged in.
+2025-09-15 17:19:35 -  Loading Safe Heaven...
+2025-09-15 17:19:35 -  Safe Heaven has logged in.
+2025-09-15 17:21:08 -  Loading Babalu...
+2025-09-15 17:21:08 -  Babalu has logged in.
+2025-09-15 17:22:33 -  Nightwolf has logged out.
+2025-09-15 17:22:35 -  Loading Nightwolf...
+2025-09-15 17:22:35 -  Nightwolf has logged in.
+2025-09-15 17:24:31 -  Aleska Teodoro has logged out.
+2025-09-15 17:24:33 -  Loading Aleska Teodoro...
+2025-09-15 17:24:33 -  Aleska Teodoro has logged in.
+2025-09-15 17:26:22 -  Loading Lutaki Bebo...
+2025-09-15 17:26:22 -  Lutaki Bebo has logged in.
+2025-09-15 17:30:43 -  Andin Inevitavel has logged out.
+2025-09-15 17:30:46 -  177.37.174.83 disconnected for exceeding packet per second limit.
+2025-09-15 17:31:02 -  Loading Andin Inevitavel...
+2025-09-15 17:31:02 -  Andin Inevitavel has logged in.
+2025-09-15 17:33:22 -  > [GOD] Middle Earth broadcasted: "Boa tarde, vou corrigir a task e precisar reiniciar o servidor :/".
+2025-09-15 17:33:22 -  Atiira Muito has logged out.
+2025-09-15 17:34:21 -  Kyou Kai has logged out.
+2025-09-15 17:36:33 -  [BOSS SYSTEM] Spawned: Evancing
+2025-09-15 17:36:33 -  Andin Inevitavel has logged out.
+2025-09-15 17:36:45 -  Loading Andin Inevitavel...
+2025-09-15 17:36:45 -  Andin Inevitavel has logged in.
+2025-09-15 17:38:38 -  > [GOD] Middle Earth broadcasted: "O servidor vai ser reiniciado em 3 minutos.".
+2025-09-15 17:38:38 -  Nightwolf has logged out.
+2025-09-15 17:38:41 -  Loading Nightwolf...
+2025-09-15 17:38:41 -  Nightwolf has logged in.
+2025-09-15 17:39:11 -  177.66.254.123 disconnected for exceeding packet per second limit.
+2025-09-15 17:39:11 -  177.66.254.123 disconnected for exceeding packet per second limit.
+2025-09-15 17:39:11 -  177.66.254.123 disconnected for exceeding packet per second limit.
+2025-09-15 17:39:12 -  177.66.254.123 disconnected for exceeding packet per second limit.
+2025-09-15 17:39:45 -  Eufi has logged out.
+2025-09-15 17:39:52 -  Skull Warrior has logged out.
+2025-09-15 17:39:55 -  Sou Broxa has logged out.
+2025-09-15 17:39:57 -  Elrond Druid has logged out.
+2025-09-15 17:39:58 -  Loading Elrond Druid...
+2025-09-15 17:39:58 -  Elrond Druid has logged in.
+2025-09-15 17:40:07 -  Loading Sou Broxa...
+2025-09-15 17:40:07 -  Sou Broxa has logged in.
+2025-09-15 17:40:18 -  Saving server... 15/09/2025 17:40:18
+2025-09-15 17:40:19 -  > Saved house items in: 0.141 s
+2025-09-15 17:40:23 -  Sou Broxa has logged out.
+2025-09-15 17:40:23 -  Lutaki Bebo has logged out.
+2025-09-15 17:40:23 -  Babalu has logged out.
+2025-09-15 17:40:23 -  Safe Heaven has logged out.
+2025-09-15 17:40:23 -  Mano Crack has logged out.
+2025-09-15 17:40:23 -  Benn Beckmann has logged out.
+2025-09-15 17:40:23 -  Mano Sabotage has logged out.
+2025-09-15 17:40:23 -  Magic Of Caos has logged out.
+2025-09-15 17:40:23 -  Orc Vegano has logged out.
+2025-09-15 17:40:23 -  Czolg Wojenny has logged out.
+2025-09-15 17:40:23 -  Sir Daniel has logged out.
+2025-09-15 17:40:23 -  Porno Gay has logged out.
+2025-09-15 17:40:23 -  Gorbatchov has logged out.
+2025-09-15 17:40:23 -  Karol Star has logged out.
+2025-09-15 17:40:23 -  Stormy has logged out.
+2025-09-15 17:40:23 -  Kael has logged out.
+2025-09-15 17:40:23 -  Kaka Bueno has logged out.
+2025-09-15 17:40:23 -  Massey has logged out.
+2025-09-15 17:40:23 -  Nandox Pcd has logged out.
+2025-09-15 17:40:23 -  Tumzao has logged out.
+2025-09-15 17:40:23 -  Nightwolf has logged out.
+2025-09-15 17:40:23 -  Andin Inevitavel has logged out.
+2025-09-15 17:40:23 -  Terceiro has logged out.
+2025-09-15 17:40:23 -  Gynga Bilola has logged out.
+2025-09-15 17:40:23 -  Anton Lavey has logged out.
+2025-09-15 17:40:23 -  Ogro Sinistro has logged out.
+2025-09-15 17:40:23 -  John Wick has logged out.
+2025-09-15 17:40:23 -  Oppenheimer has logged out.
+2025-09-15 17:40:23 -  Podolski has logged out.
+2025-09-15 17:40:23 -  Paladin has logged out.
+2025-09-15 17:40:23 -  Tu Culo Es Mio has logged out.
+2025-09-15 17:40:23 -  Ozymandias has logged out.
+2025-09-15 17:40:23 -  Severino Elza has logged out.
+2025-09-15 17:40:23 -  Miliel Hyuga has logged out.
+2025-09-15 17:40:23 -  Marmaduk Com Alzheime has logged out.
+2025-09-15 17:40:23 -  Almoco De Peixe Frito has logged out.
+2025-09-15 17:40:23 -  Tutubarao has logged out.
+2025-09-15 17:40:23 -  Muzan has logged out.
+2025-09-15 17:40:23 -  Nattus has logged out.
+2025-09-15 17:40:23 -  Lic Loc has logged out.
+2025-09-15 17:40:23 -  Thaynan Charlove has logged out.
+2025-09-15 17:40:23 -  Roxo has logged out.
+2025-09-15 17:40:23 -  Orc The Criar has logged out.
+2025-09-15 17:40:23 -  Maker Hydra has logged out.
+2025-09-15 17:40:23 -  Negrosaki has logged out.
+2025-09-15 17:40:23 -  Awesome Sophia has logged out.
+2025-09-15 17:40:23 -  Mellion Adyarus has logged out.
+2025-09-15 17:40:23 -  Receptaculo has logged out.
+2025-09-15 17:40:23 -  Branco has logged out.
+2025-09-15 17:40:23 -  Caduhzin Here has logged out.
+2025-09-15 17:40:23 -  Duboldinho has logged out.
+2025-09-15 17:40:23 -  Totz has logged out.
+2025-09-15 17:40:23 -  Skylline has logged out.
+2025-09-15 17:40:23 -  Elven Sinistro has logged out.
+2025-09-15 17:40:23 -  Elrond Druid has logged out.
+2025-09-15 17:40:23 -  King Gauderio has logged out.
+2025-09-15 17:40:23 -  Verity has logged out.
+2025-09-15 17:40:24 -  Tolkien has logged out.
+2025-09-15 17:40:24 -  Aleska Teodoro has logged out.
+2025-09-15 17:40:24 -  Arthur Leywin has logged out.
+2025-09-15 17:40:24 -  Suukram has logged out.
+2025-09-15 17:40:24 -  Growatt has logged out.
+2025-09-15 17:40:24 -  Alagoano Alma has logged out.
+2025-09-15 17:40:24 -  Sacolin has logged out.
+2025-09-15 17:40:24 -  Zuckinha Pastor has logged out.
+2025-09-15 17:40:24 -  Druid Sinistro has logged out.
+2025-09-15 17:40:24 -  Saving server... 15/09/2025 17:40:24
+2025-09-15 17:40:24 -  > Saved house items in: 0.155 s
+2025-09-15 17:40:38 -  [GOD] Middle Earth has logged out.
+2025-09-15 17:40:38 -  Saving server... 15/09/2025 17:40:38
+2025-09-15 17:40:39 -  > Saved house items in: 0.136 s
+2025-09-15 17:40:39 -  Shutting down...Saving server... 15/09/2025 17:40:39
+2025-09-15 17:40:39 -  > Saved house items in: 0.137 s
+2025-09-15 17:40:39 -  [Thread 0x7ffff5322700 (LWP 366346) exited]
+2025-09-15 17:40:39 -  [Thread 0x7ffff4b0d700 (LWP 366347) exited]
+2025-09-15 17:40:39 -   done!
+2025-09-15 17:40:39 -  [Thread 0x7ffff5b23700 (LWP 366345) exited]
+2025-09-15 17:40:42 -  >> Saving player items.
+2025-09-15 17:40:43 -  [Inferior 1 (process 366341) exited normally]

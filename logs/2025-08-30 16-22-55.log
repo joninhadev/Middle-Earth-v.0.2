@@ -1,0 +1,1742 @@
+2025-08-30 16:22:55 -  [Thread debugging using libthread_db enabled]
+2025-08-30 16:22:55 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-08-30 16:22:55 -  [New Thread 0x7ffff5b23700 (LWP 192448)]
+2025-08-30 16:22:55 -  [New Thread 0x7ffff5322700 (LWP 192449)]
+2025-08-30 16:22:55 -  The OTG-BR - Version: (1.4)
+2025-08-30 16:22:55 -  Compiled with: GNU C++ version 9.4.0
+2025-08-30 16:22:55 -  Compiled on Aug 12 2025 23:00:12 for platform x64
+2025-08-30 16:22:55 -  
+2025-08-30 16:22:55 -  Engine Credits for: TFS Team, OTG Team....
+2025-08-30 16:22:55 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-08-30 16:22:55 -  
+2025-08-30 16:22:55 -  >> Loading config: config.lua
+2025-08-30 16:22:55 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-08-30 16:22:55 -   MySQL 8.0.42
+2025-08-30 16:22:55 -  >> Running database manager
+2025-08-30 16:22:55 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-08-30 16:22:55 -  [New Thread 0x7ffff4b0d700 (LWP 192450)]
+2025-08-30 16:22:55 -  > Optimizing table players_online... [success]
+2025-08-30 16:22:55 -  >> Loading vocations
+2025-08-30 16:22:55 -  >> Loading items
+2025-08-30 16:22:56 -  >> Loading script systems
+2025-08-30 16:22:56 -  >> Loading lua libs
+2025-08-30 16:22:56 -  >> Loading bestiary
+2025-08-30 16:22:56 -  >> Loading lua scripts
+2025-08-30 16:22:56 -  >> Loading monsters
+2025-08-30 16:22:56 -  >> Loading lua monsters
+2025-08-30 16:22:56 -  >> Loading outfits
+2025-08-30 16:22:56 -  >> Loading imbuements
+2025-08-30 16:22:56 -  >> Loading charms
+2025-08-30 16:22:56 -  >> Loading Store
+2025-08-30 16:22:56 -  >> Loading prey data
+2025-08-30 16:22:56 -  >> Checking world type... RETRO-PVP
+2025-08-30 16:22:56 -  >> Loading map
+2025-08-30 16:23:02 -  > Map size: 2293x2048.
+2025-08-30 16:23:14 -  > Map loading time: 17.007 seconds.
+2025-08-30 16:23:14 -  > Loaded house items in: 0.007 s
+2025-08-30 16:23:14 -  >> Loading guilds... No guild to load.
+2025-08-30 16:23:14 -  >> Initializing gamestate
+2025-08-30 16:23:15 -  > Loaded spawns in 0.524 seconds.
+2025-08-30 16:23:15 -  >> Loaded 202 npcs and spawned 21092 monsters.
+2025-08-30 16:23:15 -  >> Loaded 17 towns with 588 houses in total.
+2025-08-30 16:23:15 -  >> Start time: 30.08.2025 - 16:23:15
+2025-08-30 16:23:15 -  Initialization complete.
+2025-08-30 16:23:15 -  >> Loaded all modules, server starting up...
+2025-08-30 16:23:15 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-08-30 16:23:15 -  >> Server started in 19.638 seconds.
+2025-08-30 16:23:15 -  >> Middle Earth Server Server Online!
+2025-08-30 16:23:15 -  
+2025-08-30 16:23:15 -  Loading Solo Leveling...
+2025-08-30 16:23:15 -  Solo Leveling has logged in.
+2025-08-30 16:23:15 -  Loading Reiyu Shita...
+2025-08-30 16:23:15 -  Reiyu Shita has logged in.
+2025-08-30 16:23:15 -  Loading Stormy...
+2025-08-30 16:23:15 -  Stormy has logged in.
+2025-08-30 16:23:15 -  Loading Zhang Chulan...
+2025-08-30 16:23:15 -  Zhang Chulan has logged in.
+2025-08-30 16:23:15 -  Loading Matamata...
+2025-08-30 16:23:15 -  Matamata has logged in.
+2025-08-30 16:23:15 -  Loading Archmage...
+2025-08-30 16:23:15 -  Archmage has logged in.
+2025-08-30 16:23:15 -  Loading China Weed Lover...
+2025-08-30 16:23:15 -  China Weed Lover has logged in.
+2025-08-30 16:23:15 -  Loading China Money Maker...
+2025-08-30 16:23:15 -  China Money Maker has logged in.
+2025-08-30 16:23:15 -  Loading Luana Moranguinho...
+2025-08-30 16:23:15 -  Luana Moranguinho has logged in.
+2025-08-30 16:23:15 -  Loading Zangief...
+2025-08-30 16:23:15 -  Zangief has logged in.
+2025-08-30 16:23:15 -  Loading Lewandowski...
+2025-08-30 16:23:15 -  Lewandowski has logged in.
+2025-08-30 16:23:15 -  Loading Logitch...
+2025-08-30 16:23:15 -  Logitch has logged in.
+2025-08-30 16:23:15 -  Loading Nareba Maconha...
+2025-08-30 16:23:15 -  Nareba Maconha has logged in.
+2025-08-30 16:23:15 -  Loading Paramax...
+2025-08-30 16:23:15 -  Paramax has logged in.
+2025-08-30 16:23:15 -  Loading Elzinho Druid...
+2025-08-30 16:23:15 -  Elzinho Druid has logged in.
+2025-08-30 16:23:15 -  Loading Joviix...
+2025-08-30 16:23:15 -  Joviix has logged in.
+2025-08-30 16:23:15 -  Loading Tolkien...
+2025-08-30 16:23:15 -  Tolkien has logged in.
+2025-08-30 16:23:15 -  Loading Sujiro Kimechup...
+2025-08-30 16:23:15 -  Sujiro Kimechup has logged in.
+2025-08-30 16:23:15 -  Loading Orc Vegano...
+2025-08-30 16:23:15 -  Orc Vegano has logged in.
+2025-08-30 16:23:15 -  Loading [GOD] Middle Earth...
+2025-08-30 16:23:15 -  [GOD] Middle Earth has logged in.
+2025-08-30 16:23:15 -  Loading Kropokiev...
+2025-08-30 16:23:15 -  Kropokiev has logged in.
+2025-08-30 16:23:15 -  Loading Not Havenick...
+2025-08-30 16:23:15 -  Not Havenick has logged in.
+2025-08-30 16:23:15 -  Loading [CM] Middle Earth...
+2025-08-30 16:23:15 -  [CM] Middle Earth has logged in.
+2025-08-30 16:23:15 -  Loading Dwarf King...
+2025-08-30 16:23:15 -  Dwarf King has logged in.
+2025-08-30 16:23:15 -  Loading Gaa Ahz...
+2025-08-30 16:23:15 -  Gaa Ahz has logged in.
+2025-08-30 16:23:15 -  Loading Stark...
+2025-08-30 16:23:15 -  Stark has logged in.
+2025-08-30 16:23:15 -  Loading Orappa...
+2025-08-30 16:23:15 -  Orappa has logged in.
+2025-08-30 16:23:15 -  Loading Boia Fria...
+2025-08-30 16:23:15 -  Boia Fria has logged in.
+2025-08-30 16:23:15 -  Loading Dumdum...
+2025-08-30 16:23:15 -  Dumdum has logged in.
+2025-08-30 16:23:15 -  Loading Anna Koldings...
+2025-08-30 16:23:15 -  Anna Koldings has logged in.
+2025-08-30 16:23:15 -  Loading Aranha...
+2025-08-30 16:23:15 -  Aranha has logged in.
+2025-08-30 16:23:15 -  Loading Palla Dois...
+2025-08-30 16:23:15 -  Palla Dois has logged in.
+2025-08-30 16:23:16 -  Loading Labanquito...
+2025-08-30 16:23:16 -  Labanquito has logged in.
+2025-08-30 16:23:16 -  Loading Finado Guerme...
+2025-08-30 16:23:16 -  Finado Guerme has logged in.
+2025-08-30 16:23:16 -  Loading Legollas...
+2025-08-30 16:23:16 -  Legollas has logged in.
+2025-08-30 16:23:16 -  Loading Lula...
+2025-08-30 16:23:16 -  Lula has logged in.
+2025-08-30 16:23:16 -  Loading Oppenheimer...
+2025-08-30 16:23:16 -  Oppenheimer has logged in.
+2025-08-30 16:23:16 -  Loading Ozymandias...
+2025-08-30 16:23:16 -  Ozymandias has logged in.
+2025-08-30 16:23:16 -  Loading Elfzada...
+2025-08-30 16:23:16 -  Elfzada has logged in.
+2025-08-30 16:23:16 -  Loading Morte...
+2025-08-30 16:23:16 -  Morte has logged in.
+2025-08-30 16:23:16 -  Loading Jumahu...
+2025-08-30 16:23:16 -  Jumahu has logged in.
+2025-08-30 16:23:16 -  Loading Jurasmo...
+2025-08-30 16:23:16 -  Jurasmo has logged in.
+2025-08-30 16:23:16 -  Loading Terceiro...
+2025-08-30 16:23:16 -  Terceiro has logged in.
+2025-08-30 16:23:16 -  Loading Gepeto...
+2025-08-30 16:23:16 -  Gepeto has logged in.
+2025-08-30 16:23:16 -  Loading Aleska Teodoro...
+2025-08-30 16:23:16 -  Aleska Teodoro has logged in.
+2025-08-30 16:23:16 -  Loading Robin Hood...
+2025-08-30 16:23:16 -  Robin Hood has logged in.
+2025-08-30 16:23:16 -  Loading Elf Do Sann...
+2025-08-30 16:23:16 -  Elf Do Sann has logged in.
+2025-08-30 16:23:16 -  Loading Zico Dez...
+2025-08-30 16:23:17 -  Zico Dez has logged in.
+2025-08-30 16:23:17 -  Loading Sauron...
+2025-08-30 16:23:17 -  Sauron has logged in.
+2025-08-30 16:23:17 -  Loading Dulokz...
+2025-08-30 16:23:17 -  Dulokz has logged in.
+2025-08-30 16:23:17 -  Loading Papa Leguas...
+2025-08-30 16:23:17 -  Papa Leguas has logged in.
+2025-08-30 16:23:17 -  Loading Orc Lokao...
+2025-08-30 16:23:17 -  Orc Lokao has logged in.
+2025-08-30 16:23:17 -  Loading Kaka Bueno...
+2025-08-30 16:23:17 -  Kaka Bueno has logged in.
+2025-08-30 16:23:17 -  Loading Holly Bolter...
+2025-08-30 16:23:17 -  Holly Bolter has logged in.
+2025-08-30 16:23:18 -  Loading Kyou Kai...
+2025-08-30 16:23:18 -  Kyou Kai has logged in.
+2025-08-30 16:23:18 -  Loading Pinoquio...
+2025-08-30 16:23:18 -  Pinoquio has logged in.
+2025-08-30 16:23:18 -  Loading Alagoano Alma...
+2025-08-30 16:23:18 -  Alagoano Alma has logged in.
+2025-08-30 16:23:19 -  Loading Ojuara...
+2025-08-30 16:23:19 -  Ojuara has logged in.
+2025-08-30 16:23:19 -  Loading Putifero...
+2025-08-30 16:23:19 -  Putifero has logged in.
+2025-08-30 16:23:19 -  Loading Receptaculo...
+2025-08-30 16:23:19 -  Receptaculo has logged in.
+2025-08-30 16:23:20 -  Loading Tu Culo Es Mio...
+2025-08-30 16:23:20 -  Tu Culo Es Mio has logged in.
+2025-08-30 16:23:27 -  Solo Leveling has logged out.
+2025-08-30 16:23:29 -  Loading Re Zero Beatrice...
+2025-08-30 16:23:29 -  Re Zero Beatrice has logged in.
+2025-08-30 16:23:30 -  Elfzada has logged out.
+2025-08-30 16:23:35 -  Loading Duboldinho...
+2025-08-30 16:23:35 -  Duboldinho has logged in.
+2025-08-30 16:23:35 -  Holly Bolter has logged out.
+2025-08-30 16:23:36 -  Loading Eho Jhon...
+2025-08-30 16:23:36 -  Eho Jhon has logged in.
+2025-08-30 16:23:37 -  Loading Elfzada...
+2025-08-30 16:23:37 -  Elfzada has logged in.
+2025-08-30 16:23:37 -  Loading Holly Bolter...
+2025-08-30 16:23:37 -  Holly Bolter has logged in.
+2025-08-30 16:23:38 -  Loading Orc The Criar...
+2025-08-30 16:23:38 -  Orc The Criar has logged in.
+2025-08-30 16:23:39 -  Finado Guerme has logged out.
+2025-08-30 16:23:39 -  Loading Skylline...
+2025-08-30 16:23:39 -  Skylline has logged in.
+2025-08-30 16:23:43 -  Loading Finado Guerme...
+2025-08-30 16:23:43 -  Finado Guerme has logged in.
+2025-08-30 16:23:48 -  Orc The Criar has logged out.
+2025-08-30 16:23:51 -  Loading Aokiji...
+2025-08-30 16:23:51 -  Aokiji has logged in.
+2025-08-30 16:24:01 -  Loading Derethor...
+2025-08-30 16:24:01 -  Derethor has logged in.
+2025-08-30 16:24:06 -  Loading Tumzao...
+2025-08-30 16:24:06 -  Tumzao has logged in.
+2025-08-30 16:24:07 -  > [GOD] Middle Earth broadcasted: "Quem estava com problema nas tasks, foi resolvido?".
+2025-08-30 16:24:07 -  Loading Benn Beckmann...
+2025-08-30 16:24:07 -  Benn Beckmann has logged in.
+2025-08-30 16:24:07 -  Loading Tutubarao...
+2025-08-30 16:24:07 -  Tutubarao has logged in.
+2025-08-30 16:24:56 -  Loading Criador De Jutsu...
+2025-08-30 16:24:56 -  Criador De Jutsu has logged in.
+2025-08-30 16:25:57 -  Loading Alexia Putellas...
+2025-08-30 16:25:57 -  Alexia Putellas has logged in.
+2025-08-30 16:26:55 -  Loading Usain Arrow...
+2025-08-30 16:26:55 -  Usain Arrow has logged in.
+2025-08-30 16:27:52 -  Zangief has logged out.
+2025-08-30 16:27:56 -  Paramax has logged out.
+2025-08-30 16:27:59 -  Matamata has logged out.
+2025-08-30 16:28:22 -  Logitch has logged out.
+2025-08-30 16:28:31 -  Elzinho Druid has logged out.
+2025-08-30 16:28:41 -  Archmage has logged out.
+2025-08-30 16:28:45 -  [CM] Middle Earth has logged out.
+2025-08-30 16:28:58 -  Jumahu has logged out.
+2025-08-30 16:28:58 -  Holly Bolter has logged out.
+2025-08-30 16:29:07 -  Alexia Putellas has logged out.
+2025-08-30 16:29:17 -  Loading Holly Bolter...
+2025-08-30 16:29:17 -  Holly Bolter has logged in.
+2025-08-30 16:29:23 -  Finado Guerme has logged out.
+2025-08-30 16:29:25 -  Loading Tio Bimbo...
+2025-08-30 16:29:25 -  Tio Bimbo has logged in.
+2025-08-30 16:29:49 -  Loading Finado Guerme...
+2025-08-30 16:29:49 -  Finado Guerme has logged in.
+2025-08-30 16:29:50 -  Tio Bimbo has logged out.
+2025-08-30 16:30:52 -  Saving server... 30/08/2025 16:30:52
+2025-08-30 16:30:53 -  > Saved house items in: 0.134 s
+2025-08-30 16:36:18 -  Reloaded movements.
+2025-08-30 16:36:18 -  Lula has logged out.
+2025-08-30 16:36:19 -  Ozymandias has logged out.
+2025-08-30 16:37:12 -  Loading Alexia Putellas...
+2025-08-30 16:37:12 -  Alexia Putellas has logged in.
+2025-08-30 16:37:46 -  Alexia Putellas has logged out.
+2025-08-30 16:37:49 -  Legollas has logged out.
+2025-08-30 16:38:01 -  Loading Lula...
+2025-08-30 16:38:01 -  Lula has logged in.
+2025-08-30 16:38:08 -  Loading Ozymandias...
+2025-08-30 16:38:08 -  Ozymandias has logged in.
+2025-08-30 16:38:42 -  Re Zero Beatrice has logged out.
+2025-08-30 16:39:14 -  Loading Re Zero Beatrice...
+2025-08-30 16:39:14 -  Re Zero Beatrice has logged in.
+2025-08-30 16:39:20 -  Elf Do Sann has logged out.
+2025-08-30 16:39:23 -  Loading Elf Do Sann...
+2025-08-30 16:39:23 -  Elf Do Sann has logged in.
+2025-08-30 16:39:56 -  Lula has logged out.
+2025-08-30 16:40:15 -  Ozymandias has logged out.
+2025-08-30 16:40:19 -  Loading Lula...
+2025-08-30 16:40:19 -  Lula has logged in.
+2025-08-30 16:40:21 -  Loading Ozymandias...
+2025-08-30 16:40:21 -  Ozymandias has logged in.
+2025-08-30 16:41:19 -  Lula has logged out.
+2025-08-30 16:41:21 -  Ozymandias has logged out.
+2025-08-30 16:43:07 -  [BOSS SYSTEM] Spawned: Scatha
+2025-08-30 16:43:07 -  Loading Ozymandias...
+2025-08-30 16:43:07 -  Ozymandias has logged in.
+2025-08-30 16:43:13 -  Loading Lula...
+2025-08-30 16:43:13 -  Lula has logged in.
+2025-08-30 16:44:56 -  Nareba Maconha has logged out.
+2025-08-30 16:45:01 -  Joviix has logged out.
+2025-08-30 16:47:27 -  Not Havenick has logged out.
+2025-08-30 16:48:00 -  Loading Not Havenick...
+2025-08-30 16:48:00 -  Not Havenick has logged in.
+2025-08-30 16:50:10 -  Ozymandias has logged out.
+2025-08-30 16:50:23 -  Loading Ozymandias...
+2025-08-30 16:50:23 -  Ozymandias has logged in.
+2025-08-30 16:50:30 -  Lula has logged out.
+2025-08-30 16:51:00 -  Loading Lula...
+2025-08-30 16:51:00 -  Lula has logged in.
+2025-08-30 16:51:24 -  Ozymandias has logged out.
+2025-08-30 16:52:20 -  Lula has logged out.
+2025-08-30 16:55:26 -  Elf Do Sann has logged out.
+2025-08-30 16:55:29 -  Loading Elf Do Sann...
+2025-08-30 16:55:29 -  Elf Do Sann has logged in.
+2025-08-30 16:55:46 -  Elfzada has logged out.
+2025-08-30 16:56:20 -  Loading Elfzada...
+2025-08-30 16:56:20 -  Elfzada has logged in.
+2025-08-30 16:59:35 -  Elfzada has logged out.
+2025-08-30 16:59:42 -  Tu Culo Es Mio has logged out.
+2025-08-30 17:01:10 -  Loading Tio Bimbo...
+2025-08-30 17:01:10 -  Tio Bimbo has logged in.
+2025-08-30 17:01:47 -  Loading Chupacu De Goianinha...
+2025-08-30 17:01:47 -  Chupacu De Goianinha has logged in.
+2025-08-30 17:02:18 -  Loading Motumbo...
+2025-08-30 17:02:18 -  Motumbo has logged in.
+2025-08-30 17:05:41 -  [BOSS SYSTEM] Spawned: Deathstrike
+2025-08-30 17:05:41 -  Loading Ozymandias...
+2025-08-30 17:05:41 -  Ozymandias has logged in.
+2025-08-30 17:06:17 -  Loading Lula...
+2025-08-30 17:06:17 -  Lula has logged in.
+2025-08-30 17:07:06 -  Eho Jhon has logged out.
+2025-08-30 17:07:17 -  Derethor has logged out.
+2025-08-30 17:07:19 -  Loading Derethor...
+2025-08-30 17:07:19 -  Derethor has logged in.
+2025-08-30 17:07:39 -  Derethor has logged out.
+2025-08-30 17:07:52 -  Lewandowski has logged out.
+2025-08-30 17:08:27 -  Morte has logged out.
+2025-08-30 17:08:28 -  Loading Lewandowski...
+2025-08-30 17:08:28 -  Lewandowski has logged in.
+2025-08-30 17:08:31 -  Loading Morte...
+2025-08-30 17:08:31 -  Morte has logged in.
+2025-08-30 17:11:26 -  China Weed Lover has logged out.
+2025-08-30 17:11:27 -  Loading China Weed Lover...
+2025-08-30 17:11:27 -  China Weed Lover has logged in.
+2025-08-30 17:11:32 -  Elf Do Sann has logged out.
+2025-08-30 17:11:34 -  Loading Elf Do Sann...
+2025-08-30 17:11:34 -  Elf Do Sann has logged in.
+2025-08-30 17:12:20 -  Papa Leguas has logged out.
+2025-08-30 17:12:22 -  Loading Papa Leguas...
+2025-08-30 17:12:22 -  Papa Leguas has logged in.
+2025-08-30 17:13:51 -  Loading Soul Magister...
+2025-08-30 17:13:51 -  Soul Magister has logged in.
+2025-08-30 17:14:15 -  Not Havenick has logged out.
+2025-08-30 17:14:47 -  Loading Not Havenick...
+2025-08-30 17:14:47 -  Not Havenick has logged in.
+2025-08-30 17:15:15 -  Loading Negrosaki...
+2025-08-30 17:15:15 -  Negrosaki has logged in.
+2025-08-30 17:24:57 -  [BOSS SYSTEM] Spawned: Obujos
+2025-08-30 17:24:57 -  Saving server... 30/08/2025 17:24:57
+2025-08-30 17:24:57 -  > Saved house items in: 0.143 s
+2025-08-30 17:27:38 -  Elf Do Sann has logged out.
+2025-08-30 17:27:40 -  Loading Elf Do Sann...
+2025-08-30 17:27:40 -  Elf Do Sann has logged in.
+2025-08-30 17:28:34 -  Ozymandias has logged out.
+2025-08-30 17:28:37 -  Loading Ozymandias...
+2025-08-30 17:28:37 -  Ozymandias has logged in.
+2025-08-30 17:31:55 -  Saving server... 30/08/2025 17:31:55
+2025-08-30 17:31:56 -  > Saved house items in: 0.13 s
+2025-08-30 17:32:28 -  Reloaded weapons.
+2025-08-30 17:32:28 -  Gaa Ahz has logged out.
+2025-08-30 17:32:41 -  Loading Gaa Ahz...
+2025-08-30 17:32:41 -  Gaa Ahz has logged in.
+2025-08-30 17:38:27 -  Dwarf King has logged out.
+2025-08-30 17:41:04 -  Loading Tu Culo Es Mio...
+2025-08-30 17:41:04 -  Tu Culo Es Mio has logged in.
+2025-08-30 17:43:44 -  [BOSS SYSTEM] Spawned: Azaka
+2025-08-30 17:43:44 -  Elf Do Sann has logged out.
+2025-08-30 17:43:47 -  Loading Elf Do Sann...
+2025-08-30 17:43:47 -  Elf Do Sann has logged in.
+2025-08-30 17:45:12 -  Jurasmo has logged out.
+2025-08-30 17:45:14 -  Loading Jurasmo...
+2025-08-30 17:45:14 -  Jurasmo has logged in.
+2025-08-30 17:47:38 -  Re Zero Beatrice has logged out.
+2025-08-30 17:48:11 -  Loading Re Zero Beatrice...
+2025-08-30 17:48:11 -  Re Zero Beatrice has logged in.
+2025-08-30 17:48:52 -  Loading Alexia Putellas...
+2025-08-30 17:48:52 -  Alexia Putellas has logged in.
+2025-08-30 17:51:11 -  Orappa has logged out.
+2025-08-30 17:51:33 -  Loading Orappa...
+2025-08-30 17:51:33 -  Orappa has logged in.
+2025-08-30 17:57:28 -  Orappa has logged out.
+2025-08-30 17:57:35 -  Loading Orappa...
+2025-08-30 17:57:35 -  Orappa has logged in.
+2025-08-30 17:59:26 -  Not Havenick has logged out.
+2025-08-30 17:59:49 -  Elf Do Sann has logged out.
+2025-08-30 17:59:52 -  Loading Elf Do Sann...
+2025-08-30 17:59:52 -  Elf Do Sann has logged in.
+2025-08-30 17:59:59 -  Loading Not Havenick...
+2025-08-30 17:59:59 -  Not Havenick has logged in.
+2025-08-30 18:06:18 -  [BOSS SYSTEM] Spawned: Valaraukar
+2025-08-30 18:06:18 -  Alagoano Alma has logged out.
+2025-08-30 18:06:27 -  Loading Drumbash Pebblebeard...
+2025-08-30 18:06:27 -  Drumbash Pebblebeard has logged in.
+2025-08-30 18:06:30 -  Ojuara has logged out.
+2025-08-30 18:07:32 -  Putifero has logged out.
+2025-08-30 18:07:32 -  Receptaculo has logged out.
+2025-08-30 18:09:21 -  Loading Severino Elza...
+2025-08-30 18:09:21 -  Severino Elza has logged in.
+2025-08-30 18:09:37 -  Loading Zeus...
+2025-08-30 18:09:37 -  Zeus has logged in.
+2025-08-30 18:10:36 -  Severino Elza has logged out.
+2025-08-30 18:11:30 -  Drumbash Pebblebeard has logged out.
+2025-08-30 18:12:21 -  Zeus has logged out.
+2025-08-30 18:12:57 -  Loading Dark Bebo...
+2025-08-30 18:12:57 -  Dark Bebo has logged in.
+2025-08-30 18:13:07 -  Stormy has logged out.
+2025-08-30 18:13:10 -  Tolkien has logged out.
+2025-08-30 18:13:10 -  Loading Stormy...
+2025-08-30 18:13:10 -  Stormy has logged in.
+2025-08-30 18:13:12 -  Loading Tolkien...
+2025-08-30 18:13:12 -  Tolkien has logged in.
+2025-08-30 18:15:54 -  Elf Do Sann has logged out.
+2025-08-30 18:15:57 -  Loading Elf Do Sann...
+2025-08-30 18:15:57 -  Elf Do Sann has logged in.
+2025-08-30 18:19:12 -  Soul Magister has logged out.
+2025-08-30 18:19:16 -  Negrosaki has logged out.
+2025-08-30 18:20:19 -  Loading Magnitsky...
+2025-08-30 18:20:19 -  Magnitsky has logged in.
+2025-08-30 18:21:14 -  Reiyu Shita has logged out.
+2025-08-30 18:21:39 -  Magnitsky has logged out.
+2025-08-30 18:21:46 -  Loading Reiyu Shita...
+2025-08-30 18:21:46 -  Reiyu Shita has logged in.
+2025-08-30 18:21:47 -  Alexia Putellas has logged out.
+2025-08-30 18:21:48 -  Loading Alexia Putellas...
+2025-08-30 18:21:48 -  Alexia Putellas has logged in.
+2025-08-30 18:22:19 -  Loading Verde Orc...
+2025-08-30 18:22:19 -  Verde Orc has logged in.
+2025-08-30 18:23:57 -  [BOSS SYSTEM] Spawned: Jaul
+2025-08-30 18:23:57 -  Loading Xupaengola...
+2025-08-30 18:23:57 -  Xupaengola has logged in.
+2025-08-30 18:24:57 -  Saving server... 30/08/2025 18:24:57
+2025-08-30 18:24:57 -  > Saved house items in: 0.127 s
+2025-08-30 18:25:34 -  Loading Magnitsky...
+2025-08-30 18:25:34 -  Magnitsky has logged in.
+2025-08-30 18:25:46 -  Magnitsky has logged out.
+2025-08-30 18:26:23 -  Loading Thaynan Charlove...
+2025-08-30 18:26:23 -  Thaynan Charlove has logged in.
+2025-08-30 18:28:18 -  Anna Koldings has logged out.
+2025-08-30 18:29:13 -  Stormy has logged out.
+2025-08-30 18:29:16 -  Loading Stormy...
+2025-08-30 18:29:16 -  Stormy has logged in.
+2025-08-30 18:29:16 -  Tolkien has logged out.
+2025-08-30 18:29:19 -  Loading Tolkien...
+2025-08-30 18:29:19 -  Tolkien has logged in.
+2025-08-30 18:31:36 -  Loading Dwarf King...
+2025-08-30 18:31:36 -  Dwarf King has logged in.
+2025-08-30 18:31:44 -  Lula has logged out.
+2025-08-30 18:31:51 -  Loading Lula...
+2025-08-30 18:31:51 -  Lula has logged in.
+2025-08-30 18:32:01 -  Elf Do Sann has logged out.
+2025-08-30 18:32:04 -  Loading Elf Do Sann...
+2025-08-30 18:32:04 -  Elf Do Sann has logged in.
+2025-08-30 18:34:13 -  Usain Arrow has logged out.
+2025-08-30 18:35:21 -  Lula has logged out.
+2025-08-30 18:35:57 -  Loading Lula...
+2025-08-30 18:35:57 -  Lula has logged in.
+2025-08-30 18:36:21 -  Loading Usain Arrow...
+2025-08-30 18:36:21 -  Usain Arrow has logged in.
+2025-08-30 18:42:10 -  Morte has logged out.
+2025-08-30 18:44:51 -  [BOSS SYSTEM] Spawned: Azazel
+2025-08-30 18:44:51 -  Tu Culo Es Mio has logged out.
+2025-08-30 18:45:19 -  Stormy has logged out.
+2025-08-30 18:45:21 -  Tolkien has logged out.
+2025-08-30 18:45:21 -  Loading Stormy...
+2025-08-30 18:45:21 -  Stormy has logged in.
+2025-08-30 18:45:24 -  Loading Tolkien...
+2025-08-30 18:45:24 -  Tolkien has logged in.
+2025-08-30 18:46:42 -  Ozymandias has logged out.
+2025-08-30 18:46:45 -  Loading Ozymandias...
+2025-08-30 18:46:45 -  Ozymandias has logged in.
+2025-08-30 18:48:06 -  Loading Morte...
+2025-08-30 18:48:06 -  Morte has logged in.
+2025-08-30 18:48:06 -  Elf Do Sann has logged out.
+2025-08-30 18:48:09 -  Loading Elf Do Sann...
+2025-08-30 18:48:09 -  Elf Do Sann has logged in.
+2025-08-30 18:49:12 -  Lula has logged out.
+2025-08-30 18:49:16 -  Ozymandias has logged out.
+2025-08-30 18:49:28 -  Loading Ozymandias...
+2025-08-30 18:49:28 -  Ozymandias has logged in.
+2025-08-30 18:50:24 -  Loading Drumbash Pebblebeard...
+2025-08-30 18:50:24 -  Drumbash Pebblebeard has logged in.
+2025-08-30 18:51:34 -  Xupaengola has logged out.
+2025-08-30 18:51:35 -  Loading Xupaengola...
+2025-08-30 18:51:35 -  Xupaengola has logged in.
+2025-08-30 18:52:20 -  Terceiro has logged out.
+2025-08-30 18:52:27 -  Loading Terceiro...
+2025-08-30 18:52:27 -  Terceiro has logged in.
+2025-08-30 18:54:23 -  Tio Bimbo has logged out.
+2025-08-30 18:54:34 -  Chupacu De Goianinha has logged out.
+2025-08-30 18:54:36 -  Loading Chupacu De Goianinha...
+2025-08-30 18:54:36 -  Chupacu De Goianinha has logged in.
+2025-08-30 18:54:43 -  Motumbo has logged out.
+2025-08-30 18:54:56 -  Loading Matamata...
+2025-08-30 18:54:56 -  Matamata has logged in.
+2025-08-30 18:55:13 -  Loading Omaigodi...
+2025-08-30 18:55:13 -  Omaigodi has logged in.
+2025-08-30 19:00:36 -  Orc Lokao has logged out.
+2025-08-30 19:00:39 -  Loading Orc Lokao...
+2025-08-30 19:00:39 -  Orc Lokao has logged in.
+2025-08-30 19:00:52 -  Luana Moranguinho has logged out.
+2025-08-30 19:00:54 -  Oppenheimer has logged out.
+2025-08-30 19:00:58 -  Aleska Teodoro has logged out.
+2025-08-30 19:01:24 -  Stormy has logged out.
+2025-08-30 19:01:26 -  Tolkien has logged out.
+2025-08-30 19:01:27 -  Loading Stormy...
+2025-08-30 19:01:27 -  Stormy has logged in.
+2025-08-30 19:01:29 -  Loading Tolkien...
+2025-08-30 19:01:29 -  Tolkien has logged in.
+2025-08-30 19:01:31 -  Usain Arrow has logged out.
+2025-08-30 19:01:58 -  Loading Usain Arrow...
+2025-08-30 19:01:58 -  Usain Arrow has logged in.
+2025-08-30 19:01:58 -  Xupaengola has logged out.
+2025-08-30 19:02:05 -  Loading Xupaengola...
+2025-08-30 19:02:05 -  Xupaengola has logged in.
+2025-08-30 19:02:55 -  Usain Arrow has logged out.
+2025-08-30 19:03:14 -  [BOSS SYSTEM] Spawned: Son of Ancalagon
+2025-08-30 19:03:14 -  Chupacu De Goianinha has logged out.
+2025-08-30 19:03:33 -  Loading Yasabi...
+2025-08-30 19:03:33 -  Yasabi has logged in.
+2025-08-30 19:03:34 -  Matamata has logged out.
+2025-08-30 19:05:24 -  Yasabi has logged out.
+2025-08-30 19:05:59 -  Ozymandias has logged out.
+2025-08-30 19:06:02 -  Loading Ozymandias...
+2025-08-30 19:06:02 -  Ozymandias has logged in.
+2025-08-30 19:11:00 -  Ozymandias has logged out.
+2025-08-30 19:12:21 -  Loading Ozymandias...
+2025-08-30 19:12:21 -  Ozymandias has logged in.
+2025-08-30 19:15:22 -  Ozymandias has logged out.
+2025-08-30 19:17:29 -  Stormy has logged out.
+2025-08-30 19:17:31 -  Tolkien has logged out.
+2025-08-30 19:17:32 -  Loading Stormy...
+2025-08-30 19:17:32 -  Stormy has logged in.
+2025-08-30 19:17:34 -  Loading Tolkien...
+2025-08-30 19:17:34 -  Tolkien has logged in.
+2025-08-30 19:18:06 -  Xupaengola has logged out.
+2025-08-30 19:18:08 -  Loading Xupaengola...
+2025-08-30 19:18:08 -  Xupaengola has logged in.
+2025-08-30 19:19:00 -  Jurasmo has logged out.
+2025-08-30 19:19:03 -  Loading Jurasmo...
+2025-08-30 19:19:03 -  Jurasmo has logged in.
+2025-08-30 19:20:21 -  Xupaengola has logged out.
+2025-08-30 19:20:24 -  Loading Xupaengola...
+2025-08-30 19:20:24 -  Xupaengola has logged in.
+2025-08-30 19:24:57 -  [BOSS SYSTEM] Spawned: Ungoliant
+2025-08-30 19:24:57 -  Saving server... 30/08/2025 19:24:57
+2025-08-30 19:24:57 -  > Saved house items in: 0.134 s
+2025-08-30 19:27:30 -  Gepeto has logged out.
+2025-08-30 19:27:31 -  Loading Gepeto...
+2025-08-30 19:27:31 -  Gepeto has logged in.
+2025-08-30 19:28:15 -  Aranha has logged out.
+2025-08-30 19:28:22 -  Jurasmo has logged out.
+2025-08-30 19:28:24 -  Loading Jurasmo...
+2025-08-30 19:28:24 -  Jurasmo has logged in.
+2025-08-30 19:28:45 -  Palla Dois has logged out.
+2025-08-30 19:28:48 -  Loading Aranha...
+2025-08-30 19:28:48 -  Aranha has logged in.
+2025-08-30 19:29:18 -  Loading Palla Dois...
+2025-08-30 19:29:18 -  Palla Dois has logged in.
+2025-08-30 19:29:56 -  Loading Shawty...
+2025-08-30 19:29:56 -  Shawty has logged in.
+2025-08-30 19:32:03 -  Omaigodi has logged out.
+2025-08-30 19:32:53 -  Loading Omaigodi...
+2025-08-30 19:32:53 -  Omaigodi has logged in.
+2025-08-30 19:33:10 -  Loading Parabens Salles...
+2025-08-30 19:33:10 -  Parabens Salles has logged in.
+2025-08-30 19:33:29 -  Parabens Salles has logged out.
+2025-08-30 19:33:36 -  Stormy has logged out.
+2025-08-30 19:33:37 -  Tolkien has logged out.
+2025-08-30 19:33:38 -  Loading Stormy...
+2025-08-30 19:33:38 -  Stormy has logged in.
+2025-08-30 19:33:40 -  Loading Tolkien...
+2025-08-30 19:33:40 -  Tolkien has logged in.
+2025-08-30 19:39:29 -  Xupaengola has logged out.
+2025-08-30 19:39:31 -  Loading Xupaengola...
+2025-08-30 19:39:31 -  Xupaengola has logged in.
+2025-08-30 19:39:39 -  Gaa Ahz has logged out.
+2025-08-30 19:40:12 -  Loading Gaa Ahz...
+2025-08-30 19:40:12 -  Gaa Ahz has logged in.
+2025-08-30 19:41:34 -  Loading Ozymandias...
+2025-08-30 19:41:34 -  Ozymandias has logged in.
+2025-08-30 19:42:48 -  Skylline has logged out.
+2025-08-30 19:42:50 -  Loading Skylline...
+2025-08-30 19:42:50 -  Skylline has logged in.
+2025-08-30 19:43:01 -  [BOSS SYSTEM] Spawned: Cerberus
+2025-08-30 19:43:01 -  Loading Elrond Druid...
+2025-08-30 19:43:01 -  Elrond Druid has logged in.
+2025-08-30 19:43:15 -  Ozymandias has logged out.
+2025-08-30 19:44:28 -  Loading Ozymandias...
+2025-08-30 19:44:28 -  Ozymandias has logged in.
+2025-08-30 19:44:40 -  Loading [CM] Middle Earth...
+2025-08-30 19:44:40 -  [CM] Middle Earth has logged in.
+2025-08-30 19:45:26 -  Loading Lula...
+2025-08-30 19:45:26 -  Lula has logged in.
+2025-08-30 19:46:17 -  Loading Skull Warrior...
+2025-08-30 19:46:17 -  Skull Warrior has logged in.
+2025-08-30 19:46:41 -  Loading Archmage...
+2025-08-30 19:46:41 -  Archmage has logged in.
+2025-08-30 19:46:43 -  Loading Elzinho Druid...
+2025-08-30 19:46:43 -  Elzinho Druid has logged in.
+2025-08-30 19:48:17 -  Loading Jumahu...
+2025-08-30 19:48:17 -  Jumahu has logged in.
+2025-08-30 19:48:19 -  Loading Logitch...
+2025-08-30 19:48:19 -  Logitch has logged in.
+2025-08-30 19:49:01 -  Loading Paramax...
+2025-08-30 19:49:01 -  Paramax has logged in.
+2025-08-30 19:49:07 -  Loading Fuu Houhou...
+2025-08-30 19:49:07 -  Fuu Houhou has logged in.
+2025-08-30 19:49:41 -  Stormy has logged out.
+2025-08-30 19:49:43 -  Tolkien has logged out.
+2025-08-30 19:49:44 -  Loading Stormy...
+2025-08-30 19:49:44 -  Stormy has logged in.
+2025-08-30 19:49:45 -  Loading Tolkien...
+2025-08-30 19:49:45 -  Tolkien has logged in.
+2025-08-30 19:50:30 -  Fuu Houhou has logged out.
+2025-08-30 19:50:32 -  Loading Fuu Houhou...
+2025-08-30 19:50:32 -  Fuu Houhou has logged in.
+2025-08-30 19:52:22 -  Loading Pablo Escobar...
+2025-08-30 19:52:22 -  Pablo Escobar has logged in.
+2025-08-30 19:52:50 -  Xupaengola has logged out.
+2025-08-30 19:52:53 -  Loading Xupaengola...
+2025-08-30 19:52:53 -  Xupaengola has logged in.
+2025-08-30 19:54:49 -  Sauron has logged out.
+2025-08-30 19:54:51 -  Loading Sauron...
+2025-08-30 19:54:51 -  Sauron has logged in.
+2025-08-30 19:54:59 -  Sauron has logged out.
+2025-08-30 19:55:44 -  Pablo Escobar has logged out.
+2025-08-30 19:55:46 -  Loading Pablo Escobar...
+2025-08-30 19:55:46 -  Pablo Escobar has logged in.
+2025-08-30 19:58:52 -  Pablo Escobar has logged out.
+2025-08-30 20:01:01 -  Ozymandias has logged out.
+2025-08-30 20:01:03 -  Loading Ozymandias...
+2025-08-30 20:01:03 -  Ozymandias has logged in.
+2025-08-30 20:01:36 -  Loading Negrosaki...
+2025-08-30 20:01:36 -  Negrosaki has logged in.
+2025-08-30 20:02:50 -  Fuu Houhou has logged out.
+2025-08-30 20:03:50 -  [BOSS SYSTEM] Spawned: Eddie
+2025-08-30 20:03:50 -  Loading Chou Soran...
+2025-08-30 20:03:50 -  Chou Soran has logged in.
+2025-08-30 20:03:53 -  Loading Fuu Houhou...
+2025-08-30 20:03:53 -  Fuu Houhou has logged in.
+2025-08-30 20:05:06 -  Dwarf King has logged out.
+2025-08-30 20:05:08 -  Loading Dwarf King...
+2025-08-30 20:05:08 -  Dwarf King has logged in.
+2025-08-30 20:05:28 -  Chou Soran has logged out.
+2025-08-30 20:05:29 -  Dwarf King has logged out.
+2025-08-30 20:05:46 -  Stormy has logged out.
+2025-08-30 20:05:48 -  Tolkien has logged out.
+2025-08-30 20:05:49 -  Loading Stormy...
+2025-08-30 20:05:49 -  Stormy has logged in.
+2025-08-30 20:05:50 -  Loading Tolkien...
+2025-08-30 20:05:50 -  Tolkien has logged in.
+2025-08-30 20:06:14 -  Thaynan Charlove has logged out.
+2025-08-30 20:07:04 -  Loading Chou Soran...
+2025-08-30 20:07:04 -  Chou Soran has logged in.
+2025-08-30 20:08:02 -  Holly Bolter has logged out.
+2025-08-30 20:08:05 -  Loading Holly Bolter...
+2025-08-30 20:08:05 -  Holly Bolter has logged in.
+2025-08-30 20:08:10 -  Finado Guerme has logged out.
+2025-08-30 20:08:11 -  Loading Finado Guerme...
+2025-08-30 20:08:11 -  Finado Guerme has logged in.
+2025-08-30 20:12:47 -  Finado Guerme has logged out.
+2025-08-30 20:12:59 -  Loading Finado Guerme...
+2025-08-30 20:12:59 -  Finado Guerme has logged in.
+2025-08-30 20:20:57 -  Chou Soran has logged out.
+2025-08-30 20:20:58 -  Fuu Houhou has logged out.
+2025-08-30 20:21:00 -  Loading Fuu Houhou...
+2025-08-30 20:21:00 -  Fuu Houhou has logged in.
+2025-08-30 20:21:30 -  Loading Chou Soran...
+2025-08-30 20:21:30 -  Chou Soran has logged in.
+2025-08-30 20:21:36 -  
+2025-08-30 20:21:36 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:21:36 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:21:36 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:21:36 -  stack traceback:
+2025-08-30 20:21:36 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:21:36 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:21:37 -  
+2025-08-30 20:21:37 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:21:37 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:21:37 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:21:37 -  stack traceback:
+2025-08-30 20:21:37 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:21:37 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:21:39 -  
+2025-08-30 20:21:39 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:21:39 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:21:39 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:21:39 -  stack traceback:
+2025-08-30 20:21:39 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:21:39 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:21:51 -  Stormy has logged out.
+2025-08-30 20:21:52 -  Tolkien has logged out.
+2025-08-30 20:21:53 -  Loading Stormy...
+2025-08-30 20:21:53 -  Stormy has logged in.
+2025-08-30 20:21:55 -  Loading Tolkien...
+2025-08-30 20:21:55 -  Tolkien has logged in.
+2025-08-30 20:21:59 -  
+2025-08-30 20:21:59 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:21:59 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:21:59 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:21:59 -  stack traceback:
+2025-08-30 20:21:59 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:21:59 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:22:01 -  
+2025-08-30 20:22:01 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:22:01 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:22:01 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:22:01 -  stack traceback:
+2025-08-30 20:22:01 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:22:01 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:22:02 -  
+2025-08-30 20:22:02 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:22:02 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:22:02 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:22:02 -  stack traceback:
+2025-08-30 20:22:02 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:22:02 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:22:04 -  
+2025-08-30 20:22:04 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:22:04 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:22:04 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:22:04 -  stack traceback:
+2025-08-30 20:22:04 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:22:04 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:22:06 -  
+2025-08-30 20:22:06 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:22:06 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:22:06 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:22:06 -  stack traceback:
+2025-08-30 20:22:06 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:22:06 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:22:07 -  
+2025-08-30 20:22:07 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:22:07 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:22:07 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:22:07 -  stack traceback:
+2025-08-30 20:22:07 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:22:07 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:22:09 -  
+2025-08-30 20:22:09 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:22:09 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:22:09 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:22:09 -  stack traceback:
+2025-08-30 20:22:09 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:22:09 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:22:10 -  
+2025-08-30 20:22:10 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:22:10 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:22:10 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:22:10 -  stack traceback:
+2025-08-30 20:22:10 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:22:10 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:22:12 -  
+2025-08-30 20:22:12 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:22:12 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:22:12 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:22:12 -  stack traceback:
+2025-08-30 20:22:12 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:22:12 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:22:14 -  
+2025-08-30 20:22:14 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:22:14 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:22:14 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:22:14 -  stack traceback:
+2025-08-30 20:22:14 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:22:14 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:22:15 -  
+2025-08-30 20:22:15 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:22:15 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:22:15 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:22:15 -  stack traceback:
+2025-08-30 20:22:15 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:22:15 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:23:44 -  [BOSS SYSTEM] Spawned: Wormageddon
+2025-08-30 20:23:44 -  Loading Thaynan Charlove...
+2025-08-30 20:23:44 -  Thaynan Charlove has logged in.
+2025-08-30 20:24:00 -  
+2025-08-30 20:24:00 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:00 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:00 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:00 -  stack traceback:
+2025-08-30 20:24:00 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:00 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:02 -  
+2025-08-30 20:24:02 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:02 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:02 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:02 -  stack traceback:
+2025-08-30 20:24:02 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:02 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:03 -  
+2025-08-30 20:24:03 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:03 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:03 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:03 -  stack traceback:
+2025-08-30 20:24:03 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:03 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:05 -  
+2025-08-30 20:24:05 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:05 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:05 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:05 -  stack traceback:
+2025-08-30 20:24:05 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:05 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:07 -  
+2025-08-30 20:24:07 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:07 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:07 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:07 -  stack traceback:
+2025-08-30 20:24:07 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:07 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:09 -  
+2025-08-30 20:24:09 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:09 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:09 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:09 -  stack traceback:
+2025-08-30 20:24:09 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:09 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:11 -  
+2025-08-30 20:24:11 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:11 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:11 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:11 -  stack traceback:
+2025-08-30 20:24:11 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:11 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:12 -  
+2025-08-30 20:24:12 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:12 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:12 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:12 -  stack traceback:
+2025-08-30 20:24:12 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:12 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:14 -  
+2025-08-30 20:24:14 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:14 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:14 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:14 -  stack traceback:
+2025-08-30 20:24:14 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:14 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:16 -  
+2025-08-30 20:24:16 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:16 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:16 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:16 -  stack traceback:
+2025-08-30 20:24:16 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:16 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:17 -  
+2025-08-30 20:24:17 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:17 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:17 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:17 -  stack traceback:
+2025-08-30 20:24:17 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:17 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:19 -  
+2025-08-30 20:24:19 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:19 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:19 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:19 -  stack traceback:
+2025-08-30 20:24:19 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:19 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:20 -  
+2025-08-30 20:24:20 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:20 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:20 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:20 -  stack traceback:
+2025-08-30 20:24:20 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:20 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:22 -  
+2025-08-30 20:24:22 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:22 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:22 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:22 -  stack traceback:
+2025-08-30 20:24:22 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:22 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:24 -  
+2025-08-30 20:24:24 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:24 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:24 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:24 -  stack traceback:
+2025-08-30 20:24:24 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:24 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:25 -  
+2025-08-30 20:24:25 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:25 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:25 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:25 -  stack traceback:
+2025-08-30 20:24:25 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:25 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:27 -  
+2025-08-30 20:24:27 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:27 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:27 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:27 -  stack traceback:
+2025-08-30 20:24:27 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:27 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:28 -  
+2025-08-30 20:24:28 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:28 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:28 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:28 -  stack traceback:
+2025-08-30 20:24:28 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:28 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:30 -  
+2025-08-30 20:24:30 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:30 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:30 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:30 -  stack traceback:
+2025-08-30 20:24:30 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:30 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:32 -  
+2025-08-30 20:24:32 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:32 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:32 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:32 -  stack traceback:
+2025-08-30 20:24:32 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:32 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:33 -  
+2025-08-30 20:24:33 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:33 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:33 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:33 -  stack traceback:
+2025-08-30 20:24:33 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:33 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:35 -  
+2025-08-30 20:24:35 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:35 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:35 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:35 -  stack traceback:
+2025-08-30 20:24:35 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:35 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:36 -  
+2025-08-30 20:24:36 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:36 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:36 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:36 -  stack traceback:
+2025-08-30 20:24:36 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:36 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:41 -  
+2025-08-30 20:24:41 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:41 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:41 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:41 -  stack traceback:
+2025-08-30 20:24:41 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:41 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:43 -  
+2025-08-30 20:24:43 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:43 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:43 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:43 -  stack traceback:
+2025-08-30 20:24:43 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:43 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:44 -  
+2025-08-30 20:24:44 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:44 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:44 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:44 -  stack traceback:
+2025-08-30 20:24:44 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:44 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:46 -  
+2025-08-30 20:24:46 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:46 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:46 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:46 -  stack traceback:
+2025-08-30 20:24:46 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:46 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:48 -  
+2025-08-30 20:24:48 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:48 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:48 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:48 -  stack traceback:
+2025-08-30 20:24:48 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:48 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:49 -  
+2025-08-30 20:24:49 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:49 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:49 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:49 -  stack traceback:
+2025-08-30 20:24:49 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:49 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:51 -  
+2025-08-30 20:24:51 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:51 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:51 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:51 -  stack traceback:
+2025-08-30 20:24:51 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:51 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:52 -  
+2025-08-30 20:24:52 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:52 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:52 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:52 -  stack traceback:
+2025-08-30 20:24:52 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:52 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:54 -  
+2025-08-30 20:24:54 -  Lua Script Error: [Weapon Interface] 
+2025-08-30 20:24:54 -  data/weapons/scripts/tarsalArrow.lua:onUseWeapon
+2025-08-30 20:24:54 -  data/weapons/scripts/tarsalArrow.lua:18: attempt to call method 'isWarAllowed' (a nil value)
+2025-08-30 20:24:54 -  stack traceback:
+2025-08-30 20:24:54 -  	[C]: in function 'isWarAllowed'
+2025-08-30 20:24:54 -  	data/weapons/scripts/tarsalArrow.lua:18: in function <data/weapons/scripts/tarsalArrow.lua:16>
+2025-08-30 20:24:57 -  Saving server... 30/08/2025 20:24:57
+2025-08-30 20:24:57 -  > Saved house items in: 0.138 s
+2025-08-30 20:26:24 -  Ozymandias has logged out.
+2025-08-30 20:26:56 -  Loading Ozymandias...
+2025-08-30 20:26:56 -  Ozymandias has logged in.
+2025-08-30 20:31:32 -  Loading Oppenheimer...
+2025-08-30 20:31:32 -  Oppenheimer has logged in.
+2025-08-30 20:31:50 -  Orappa has logged out.
+2025-08-30 20:31:52 -  Loading Orappa...
+2025-08-30 20:31:52 -  Orappa has logged in.
+2025-08-30 20:34:15 -  Loading Aleska Teodoro...
+2025-08-30 20:34:15 -  Aleska Teodoro has logged in.
+2025-08-30 20:36:27 -  Skylline has logged out.
+2025-08-30 20:36:28 -  Loading Skylline...
+2025-08-30 20:36:28 -  Skylline has logged in.
+2025-08-30 20:37:26 -  Omaigodi has logged out.
+2025-08-30 20:37:32 -  Loading Severino Elza...
+2025-08-30 20:37:32 -  Severino Elza has logged in.
+2025-08-30 20:37:33 -  Loading Omaigodi...
+2025-08-30 20:37:33 -  Omaigodi has logged in.
+2025-08-30 20:37:41 -  Loading Elfzada...
+2025-08-30 20:37:41 -  Elfzada has logged in.
+2025-08-30 20:37:57 -  Stormy has logged out.
+2025-08-30 20:37:58 -  Tolkien has logged out.
+2025-08-30 20:37:59 -  Loading Stormy...
+2025-08-30 20:37:59 -  Stormy has logged in.
+2025-08-30 20:38:01 -  Loading Tolkien...
+2025-08-30 20:38:01 -  Tolkien has logged in.
+2025-08-30 20:39:44 -  Elfzada has logged out.
+2025-08-30 20:39:47 -  Loading Elfzada...
+2025-08-30 20:39:47 -  Elfzada has logged in.
+2025-08-30 20:39:50 -  Elfzada has logged out.
+2025-08-30 20:40:08 -  Orc Vegano has logged out.
+2025-08-30 20:40:10 -  Loading Orc Vegano...
+2025-08-30 20:40:10 -  Orc Vegano has logged in.
+2025-08-30 20:41:11 -  Re Zero Beatrice has logged out.
+2025-08-30 20:41:18 -  Loading Re Zero Beatrice...
+2025-08-30 20:41:18 -  Re Zero Beatrice has logged in.
+2025-08-30 20:41:19 -  Chou Soran has logged out.
+2025-08-30 20:41:36 -  Loading Chou Soran...
+2025-08-30 20:41:36 -  Chou Soran has logged in.
+2025-08-30 20:43:25 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-08-30 20:43:25 -  Fuu Houhou has logged out.
+2025-08-30 20:43:27 -  Loading Fuu Houhou...
+2025-08-30 20:43:27 -  Fuu Houhou has logged in.
+2025-08-30 20:45:15 -  Orc Vegano has logged out.
+2025-08-30 20:45:18 -  Loading Orc Vegano...
+2025-08-30 20:45:18 -  Orc Vegano has logged in.
+2025-08-30 20:45:27 -  Loading Joviix...
+2025-08-30 20:45:27 -  Joviix has logged in.
+2025-08-30 20:48:59 -  Jumahu has logged out.
+2025-08-30 20:49:00 -  Loading Jumahu...
+2025-08-30 20:49:00 -  Jumahu has logged in.
+2025-08-30 20:54:02 -  Stormy has logged out.
+2025-08-30 20:54:03 -  Tolkien has logged out.
+2025-08-30 20:54:04 -  Loading Stormy...
+2025-08-30 20:54:04 -  Stormy has logged in.
+2025-08-30 20:54:06 -  Loading Tolkien...
+2025-08-30 20:54:06 -  Tolkien has logged in.
+2025-08-30 20:56:12 -  Thaynan Charlove has logged out.
+2025-08-30 20:58:53 -  Joviix has logged out.
+2025-08-30 20:59:02 -  Loading Nareba Maconha...
+2025-08-30 20:59:02 -  Nareba Maconha has logged in.
+2025-08-30 20:59:19 -  Zhang Chulan has logged out.
+2025-08-30 20:59:20 -  Loading Zhang Chulan...
+2025-08-30 20:59:20 -  Zhang Chulan has logged in.
+2025-08-30 21:00:12 -  [DEBUG] Evento de invasão ativado pelo GlobalEvents!
+2025-08-30 21:00:12 -  [DEBUG] Criando o teleport da invasão...
+2025-08-30 21:00:12 -  [DEBUG] Teleport criado com sucesso! (AID: 1396)
+2025-08-30 21:00:12 -  Holly Bolter has logged out.
+2025-08-30 21:00:15 -  Orc Vegano has logged out.
+2025-08-30 21:00:16 -  Loading Orc Vegano...
+2025-08-30 21:00:16 -  Orc Vegano has logged in.
+2025-08-30 21:00:16 -  Loading Holly Bolter...
+2025-08-30 21:00:16 -  Holly Bolter has logged in.
+2025-08-30 21:01:22 -  Ozymandias has logged out.
+2025-08-30 21:01:23 -  Loading Ozymandias...
+2025-08-30 21:01:23 -  Ozymandias has logged in.
+2025-08-30 21:07:52 -  [BOSS SYSTEM] Spawned: Baalrog
+2025-08-30 21:07:52 -  [Invasion] Nenhum jogador suficiente participou do evento.
+2025-08-30 21:07:52 -  Terceiro has logged out.
+2025-08-30 21:07:53 -  Loading Terceiro...
+2025-08-30 21:07:53 -  Terceiro has logged in.
+2025-08-30 21:08:28 -  Nareba Maconha has logged out.
+2025-08-30 21:09:10 -  Aleska Teodoro has logged out.
+2025-08-30 21:09:11 -  Loading Aleska Teodoro...
+2025-08-30 21:09:11 -  Aleska Teodoro has logged in.
+2025-08-30 21:09:28 -  Oppenheimer has logged out.
+2025-08-30 21:09:29 -  Loading Oppenheimer...
+2025-08-30 21:09:29 -  Oppenheimer has logged in.
+2025-08-30 21:10:07 -  Stormy has logged out.
+2025-08-30 21:10:08 -  Tolkien has logged out.
+2025-08-30 21:10:09 -  Loading Stormy...
+2025-08-30 21:10:09 -  Stormy has logged in.
+2025-08-30 21:10:11 -  Loading Tolkien...
+2025-08-30 21:10:11 -  Tolkien has logged in.
+2025-08-30 21:10:32 -  Lula has logged out.
+2025-08-30 21:10:33 -  Loading Lula...
+2025-08-30 21:10:33 -  Lula has logged in.
+2025-08-30 21:21:20 -  Zico Dez has logged out.
+2025-08-30 21:21:22 -  Dulokz has logged out.
+2025-08-30 21:24:57 -  [BOSS SYSTEM] Spawned: The Necromancer
+2025-08-30 21:24:57 -  Saving server... 30/08/2025 21:24:57
+2025-08-30 21:24:57 -  > Saved house items in: 0.122 s
+2025-08-30 21:25:36 -  Aranha has logged out.
+2025-08-30 21:25:41 -  Zhang Chulan has logged out.
+2025-08-30 21:25:43 -  Loading Zhang Chulan...
+2025-08-30 21:25:43 -  Zhang Chulan has logged in.
+2025-08-30 21:25:54 -  Palla Dois has logged out.
+2025-08-30 21:26:08 -  Loading Aranha...
+2025-08-30 21:26:08 -  Aranha has logged in.
+2025-08-30 21:26:13 -  Stormy has logged out.
+2025-08-30 21:26:14 -  Tolkien has logged out.
+2025-08-30 21:26:15 -  Loading Stormy...
+2025-08-30 21:26:15 -  Stormy has logged in.
+2025-08-30 21:26:17 -  Loading Tolkien...
+2025-08-30 21:26:17 -  Tolkien has logged in.
+2025-08-30 21:26:27 -  Loading Palla Dois...
+2025-08-30 21:26:27 -  Palla Dois has logged in.
+2025-08-30 21:29:28 -  Chou Soran has logged out.
+2025-08-30 21:29:31 -  Loading Chou Soran...
+2025-08-30 21:29:31 -  Chou Soran has logged in.
+2025-08-30 21:36:12 -  [Error - mysql_real_query] Query: INSERT INTO `gh` (`guild`,`nomeguild`,`domination_time`) VALUES (99, 'AUTOBOT', 1756600572)
+2025-08-30 21:36:12 -  Message: Field 'id' doesn't have a default value
+2025-08-30 21:36:29 -  Loading Kudiom Pretu...
+2025-08-30 21:36:29 -  Kudiom Pretu has logged in.
+2025-08-30 21:37:32 -  Loading Luana Moranguinho...
+2025-08-30 21:37:32 -  Luana Moranguinho has logged in.
+2025-08-30 21:37:35 -  Orc Vegano has logged out.
+2025-08-30 21:37:36 -  Loading Orc Vegano...
+2025-08-30 21:37:36 -  Orc Vegano has logged in.
+2025-08-30 21:38:51 -  Alexia Putellas has logged out.
+2025-08-30 21:38:51 -  Loading Alexia Putellas...
+2025-08-30 21:38:51 -  Alexia Putellas has logged in.
+2025-08-30 21:39:06 -  [Error - mysql_real_query] Query: INSERT INTO `gh` (`guild`,`nomeguild`,`domination_time`) VALUES (100, 'FC Barcelona', 1756600746)
+2025-08-30 21:39:06 -  Message: Field 'id' doesn't have a default value
+2025-08-30 21:39:24 -  Orc Vegano has logged out.
+2025-08-30 21:40:43 -  Luana Moranguinho has logged out.
+2025-08-30 21:40:43 -  Loading Luana Moranguinho...
+2025-08-30 21:40:43 -  Luana Moranguinho has logged in.
+2025-08-30 21:42:05 -  [Error - mysql_real_query] Query: INSERT INTO `gh` (`guild`,`nomeguild`,`domination_time`) VALUES (99, 'AUTOBOT', 1756600925)
+2025-08-30 21:42:05 -  Message: Field 'id' doesn't have a default value
+2025-08-30 21:42:18 -  Stormy has logged out.
+2025-08-30 21:42:20 -  Tolkien has logged out.
+2025-08-30 21:42:21 -  Gepeto has logged out.
+2025-08-30 21:42:21 -  Loading Stormy...
+2025-08-30 21:42:21 -  Stormy has logged in.
+2025-08-30 21:42:22 -  Loading Gepeto...
+2025-08-30 21:42:22 -  Gepeto has logged in.
+2025-08-30 21:42:22 -  Loading Tolkien...
+2025-08-30 21:42:22 -  Tolkien has logged in.
+2025-08-30 21:42:22 -  Ozymandias has logged out.
+2025-08-30 21:42:24 -  Loading Ozymandias...
+2025-08-30 21:42:24 -  Ozymandias has logged in.
+2025-08-30 21:42:57 -  [BOSS SYSTEM] Spawned: Avari Leader
+2025-08-30 21:42:57 -  Robin Hood has logged out.
+2025-08-30 21:43:00 -  Loading Robin Hood...
+2025-08-30 21:43:00 -  Robin Hood has logged in.
+2025-08-30 21:43:18 -  Robin Hood has logged out.
+2025-08-30 21:43:20 -  Loading Robin Hood...
+2025-08-30 21:43:20 -  Robin Hood has logged in.
+2025-08-30 21:44:25 -  [Error - mysql_real_query] Query: INSERT INTO `gh` (`guild`,`nomeguild`,`domination_time`) VALUES (100, 'FC Barcelona', 1756601065)
+2025-08-30 21:44:25 -  Message: Field 'id' doesn't have a default value
+2025-08-30 21:46:44 -  [Error - mysql_real_query] Query: INSERT INTO `gh` (`guild`,`nomeguild`,`domination_time`) VALUES (99, 'AUTOBOT', 1756601204)
+2025-08-30 21:46:44 -  Message: Field 'id' doesn't have a default value
+2025-08-30 21:47:37 -  Elrond Druid has logged out.
+2025-08-30 21:47:48 -  Omaigodi has logged out.
+2025-08-30 21:47:49 -  Xupaengola has logged out.
+2025-08-30 21:49:58 -  [Error - mysql_real_query] Query: INSERT INTO `gh` (`guild`,`nomeguild`,`domination_time`) VALUES (99, 'AUTOBOT', 1756601398)
+2025-08-30 21:49:58 -  Message: Field 'id' doesn't have a default value
+2025-08-30 21:51:17 -  Loading Xupaengola...
+2025-08-30 21:51:17 -  Xupaengola has logged in.
+2025-08-30 21:51:27 -  Loading Elrond Druid...
+2025-08-30 21:51:27 -  Elrond Druid has logged in.
+2025-08-30 21:51:50 -  Loading Soul Magister...
+2025-08-30 21:51:50 -  Soul Magister has logged in.
+2025-08-30 21:51:59 -  Loading Omaigodi...
+2025-08-30 21:51:59 -  Omaigodi has logged in.
+2025-08-30 21:51:59 -  [Error - mysql_real_query] Query: INSERT INTO `gh` (`guild`,`nomeguild`,`domination_time`) VALUES (99, 'AUTOBOT', 1756601519)
+2025-08-30 21:51:59 -  Message: Field 'id' doesn't have a default value
+2025-08-30 21:54:14 -  [Error - mysql_real_query] Query: INSERT INTO `gh` (`guild`,`nomeguild`,`domination_time`) VALUES (99, 'AUTOBOT', 1756601654)
+2025-08-30 21:54:14 -  Message: Field 'id' doesn't have a default value
+2025-08-30 21:55:23 -  Omaigodi has logged out.
+2025-08-30 21:55:33 -  Loading Omaigodi...
+2025-08-30 21:55:33 -  Omaigodi has logged in.
+2025-08-30 21:56:21 -  Jumahu has logged out.
+2025-08-30 21:56:22 -  Loading Jumahu...
+2025-08-30 21:56:22 -  Jumahu has logged in.
+2025-08-30 21:56:59 -  [Error - mysql_real_query] Query: INSERT INTO `gh` (`guild`,`nomeguild`,`domination_time`) VALUES (100, 'FC Barcelona', 1756601819)
+2025-08-30 21:56:59 -  Message: Field 'id' doesn't have a default value
+2025-08-30 21:57:35 -  Loading Magnitsky...
+2025-08-30 21:57:35 -  Magnitsky has logged in.
+2025-08-30 21:58:24 -  Stormy has logged out.
+2025-08-30 21:58:25 -  Tolkien has logged out.
+2025-08-30 21:58:27 -  Loading Stormy...
+2025-08-30 21:58:27 -  Stormy has logged in.
+2025-08-30 21:58:28 -  Loading Tolkien...
+2025-08-30 21:58:28 -  Tolkien has logged in.
+2025-08-30 21:58:48 -  Magnitsky has logged out.
+2025-08-30 21:58:48 -  Loading Magnitsky...
+2025-08-30 21:58:48 -  Magnitsky has logged in.
+2025-08-30 21:58:59 -  [Error - mysql_real_query] Query: INSERT INTO `gh` (`guild`,`nomeguild`,`domination_time`) VALUES (100, 'FC Barcelona', 1756601939)
+2025-08-30 21:58:59 -  Message: Field 'id' doesn't have a default value
+2025-08-30 22:00:02 -  > Broadcasted message: "Os lizards se aproximam da cidade de anfallas venham ajudar".
+2025-08-30 22:00:56 -  > Broadcasted message: "Os lizards chegaram, ajudem a salvar a cidade".
+2025-08-30 22:01:01 -  Re Zero Beatrice has logged out.
+2025-08-30 22:01:41 -  Loading Re Zero Beatrice...
+2025-08-30 22:01:41 -  Re Zero Beatrice has logged in.
+2025-08-30 22:03:52 -  [BOSS SYSTEM] Spawned: Adramelech
+2025-08-30 22:03:52 -  > Broadcasted message: "Os lizards estao tomando conta da cidade, corram !".
+2025-08-30 22:04:04 -  Re Zero Beatrice has logged out.
+2025-08-30 22:04:06 -  Loading Re Zero Beatrice...
+2025-08-30 22:04:06 -  Re Zero Beatrice has logged in.
+2025-08-30 22:04:39 -  Re Zero Beatrice has logged out.
+2025-08-30 22:04:40 -  Loading Re Zero Beatrice...
+2025-08-30 22:04:40 -  Re Zero Beatrice has logged in.
+2025-08-30 22:04:58 -  Re Zero Beatrice has logged out.
+2025-08-30 22:04:59 -  Loading Re Zero Beatrice...
+2025-08-30 22:04:59 -  Re Zero Beatrice has logged in.
+2025-08-30 22:05:34 -  > Broadcasted message: "Baby Sladran chegou na cidade.".
+2025-08-30 22:07:02 -  Re Zero Beatrice has logged out.
+2025-08-30 22:07:03 -  Loading Re Zero Beatrice...
+2025-08-30 22:07:03 -  Re Zero Beatrice has logged in.
+2025-08-30 22:07:05 -  Re Zero Beatrice has logged out.
+2025-08-30 22:07:16 -  Loading Re Zero Beatrice...
+2025-08-30 22:07:16 -  Re Zero Beatrice has logged in.
+2025-08-30 22:13:05 -  Re Zero Beatrice has logged out.
+2025-08-30 22:13:06 -  Loading Re Zero Beatrice...
+2025-08-30 22:13:06 -  Re Zero Beatrice has logged in.
+2025-08-30 22:13:34 -  Re Zero Beatrice has logged out.
+2025-08-30 22:14:30 -  Stormy has logged out.
+2025-08-30 22:14:30 -  Tolkien has logged out.
+2025-08-30 22:14:32 -  Loading Stormy...
+2025-08-30 22:14:32 -  Stormy has logged in.
+2025-08-30 22:14:33 -  Loading Tolkien...
+2025-08-30 22:14:33 -  Tolkien has logged in.
+2025-08-30 22:17:50 -  Fuu Houhou has logged out.
+2025-08-30 22:18:24 -  Loading Fuu Houhou...
+2025-08-30 22:18:24 -  Fuu Houhou has logged in.
+2025-08-30 22:18:35 -  Criador De Jutsu has logged out.
+2025-08-30 22:18:39 -  Aokiji has logged out.
+2025-08-30 22:24:57 -  [BOSS SYSTEM] Spawned: Smaug
+2025-08-30 22:24:57 -  Saving server... 30/08/2025 22:24:57
+2025-08-30 22:24:57 -  > Saved house items in: 0.139 s
+2025-08-30 22:25:26 -  Finado Guerme has logged out.
+2025-08-30 22:25:59 -  Loading Finado Guerme...
+2025-08-30 22:25:59 -  Finado Guerme has logged in.
+2025-08-30 22:27:01 -  Luana Moranguinho has logged out.
+2025-08-30 22:27:13 -  Loading Luana Moranguinho...
+2025-08-30 22:27:13 -  Luana Moranguinho has logged in.
+2025-08-30 22:27:18 -  Aleska Teodoro has logged out.
+2025-08-30 22:27:19 -  Loading Aleska Teodoro...
+2025-08-30 22:27:19 -  Aleska Teodoro has logged in.
+2025-08-30 22:28:03 -  Jumahu has logged out.
+2025-08-30 22:28:36 -  Loading Jumahu...
+2025-08-30 22:28:36 -  Jumahu has logged in.
+2025-08-30 22:29:08 -  Loading Eho Jhon...
+2025-08-30 22:29:08 -  Eho Jhon has logged in.
+2025-08-30 22:29:57 -  Alexia Putellas has logged out.
+2025-08-30 22:30:00 -  Loading Alexia Putellas...
+2025-08-30 22:30:00 -  Alexia Putellas has logged in.
+2025-08-30 22:30:36 -  Stormy has logged out.
+2025-08-30 22:30:36 -  Tolkien has logged out.
+2025-08-30 22:30:39 -  Loading Stormy...
+2025-08-30 22:30:39 -  Stormy has logged in.
+2025-08-30 22:30:39 -  Loading Tolkien...
+2025-08-30 22:30:39 -  Tolkien has logged in.
+2025-08-30 22:33:04 -  Loading Aokiji...
+2025-08-30 22:33:04 -  Aokiji has logged in.
+2025-08-30 22:33:14 -  Loading Criador De Jutsu...
+2025-08-30 22:33:14 -  Criador De Jutsu has logged in.
+2025-08-30 22:34:33 -  Zhang Chulan has logged out.
+2025-08-30 22:34:34 -  Loading Zhang Chulan...
+2025-08-30 22:34:34 -  Zhang Chulan has logged in.
+2025-08-30 22:35:44 -  Eho Jhon has logged out.
+2025-08-30 22:35:46 -  Omaigodi has logged out.
+2025-08-30 22:35:59 -  Loading Omaigodi...
+2025-08-30 22:35:59 -  Omaigodi has logged in.
+2025-08-30 22:38:42 -  Zhang Chulan has logged out.
+2025-08-30 22:38:43 -  Loading Zhang Chulan...
+2025-08-30 22:38:43 -  Zhang Chulan has logged in.
+2025-08-30 22:39:05 -  Loading Tu Culo Es Mio...
+2025-08-30 22:39:05 -  Tu Culo Es Mio has logged in.
+2025-08-30 22:39:09 -  Jumahu has logged out.
+2025-08-30 22:39:14 -  Loading Jumahu...
+2025-08-30 22:39:14 -  Jumahu has logged in.
+2025-08-30 22:41:20 -  Jurasmo has logged out.
+2025-08-30 22:41:22 -  Loading Jurasmo...
+2025-08-30 22:41:22 -  Jurasmo has logged in.
+2025-08-30 22:42:01 -  Jurasmo has logged out.
+2025-08-30 22:42:03 -  Loading Jurasmo...
+2025-08-30 22:42:03 -  Jurasmo has logged in.
+2025-08-30 22:44:13 -  [BOSS SYSTEM] Spawned: Emelianenko
+2025-08-30 22:44:13 -  Loading Thaynan Charlove...
+2025-08-30 22:44:13 -  Thaynan Charlove has logged in.
+2025-08-30 22:44:20 -  Tu Culo Es Mio has logged out.
+2025-08-30 22:44:21 -  Loading Tu Culo Es Mio...
+2025-08-30 22:44:21 -  Tu Culo Es Mio has logged in.
+2025-08-30 22:45:56 -  Loading Andin Inevitavel...
+2025-08-30 22:45:56 -  Andin Inevitavel has logged in.
+2025-08-30 22:46:42 -  Stormy has logged out.
+2025-08-30 22:46:42 -  Tolkien has logged out.
+2025-08-30 22:46:44 -  Loading Stormy...
+2025-08-30 22:46:44 -  Stormy has logged in.
+2025-08-30 22:46:45 -  Loading Tolkien...
+2025-08-30 22:46:45 -  Tolkien has logged in.
+2025-08-30 22:48:23 -  Jurasmo has logged out.
+2025-08-30 22:48:26 -  Loading Jurasmo...
+2025-08-30 22:48:26 -  Jurasmo has logged in.
+2025-08-30 22:50:23 -  Magnitsky has logged out.
+2025-08-30 22:50:24 -  Loading Magnitsky...
+2025-08-30 22:50:24 -  Magnitsky has logged in.
+2025-08-30 22:54:19 -  Alexia Putellas has logged out.
+2025-08-30 22:54:20 -  Magnitsky has logged out.
+2025-08-30 22:54:20 -  Loading Alexia Putellas...
+2025-08-30 22:54:20 -  Alexia Putellas has logged in.
+2025-08-30 22:54:21 -  Loading Magnitsky...
+2025-08-30 22:54:21 -  Magnitsky has logged in.
+2025-08-30 22:55:15 -  Aokiji has logged out.
+2025-08-30 22:55:25 -  Criador De Jutsu has logged out.
+2025-08-30 22:56:11 -  Loading Tio Bimbo...
+2025-08-30 22:56:11 -  Tio Bimbo has logged in.
+2025-08-30 22:57:27 -  Tio Bimbo has logged out.
+2025-08-30 22:57:57 -  Loading Aokiji...
+2025-08-30 22:57:57 -  Aokiji has logged in.
+2025-08-30 22:57:57 -  Loading Criador De Jutsu...
+2025-08-30 22:57:57 -  Criador De Jutsu has logged in.
+2025-08-30 22:59:16 -  Loading Matamata...
+2025-08-30 22:59:16 -  Matamata has logged in.
+2025-08-30 22:59:23 -  Matamata has logged out.
+2025-08-30 23:00:08 -  Criador De Jutsu has logged out.
+2025-08-30 23:00:35 -  Alexia Putellas has logged out.
+2025-08-30 23:01:56 -  Gepeto has logged out.
+2025-08-30 23:02:07 -  Loading Alexia Putellas...
+2025-08-30 23:02:07 -  Alexia Putellas has logged in.
+2025-08-30 23:02:47 -  Stormy has logged out.
+2025-08-30 23:02:47 -  Tolkien has logged out.
+2025-08-30 23:02:50 -  Loading Stormy...
+2025-08-30 23:02:50 -  Stormy has logged in.
+2025-08-30 23:02:50 -  Loading Tolkien...
+2025-08-30 23:02:50 -  Tolkien has logged in.
+2025-08-30 23:03:56 -  [BOSS SYSTEM] Spawned: Saruman
+2025-08-30 23:03:56 -  Aokiji has logged out.
+2025-08-30 23:08:13 -  Loading Zangief...
+2025-08-30 23:08:13 -  Zangief has logged in.
+2025-08-30 23:08:38 -  Loading Sauron...
+2025-08-30 23:08:38 -  Sauron has logged in.
+2025-08-30 23:09:35 -  Jurasmo has logged out.
+2025-08-30 23:10:19 -  Sauron has logged out.
+2025-08-30 23:11:24 -  Magnitsky has logged out.
+2025-08-30 23:11:29 -  Loading Magnitsky...
+2025-08-30 23:11:29 -  Magnitsky has logged in.
+2025-08-30 23:12:02 -  Omaigodi has logged out.
+2025-08-30 23:12:21 -  Loading Omaigodi...
+2025-08-30 23:12:21 -  Omaigodi has logged in.
+2025-08-30 23:13:15 -  Dark Bebo has logged out.
+2025-08-30 23:13:20 -  Loading Dark Bebo...
+2025-08-30 23:13:20 -  Dark Bebo has logged in.
+2025-08-30 23:13:35 -  Orc Lokao has logged out.
+2025-08-30 23:13:37 -  Loading Orc Lokao...
+2025-08-30 23:13:37 -  Orc Lokao has logged in.
+2025-08-30 23:18:18 -  Zangief has logged out.
+2025-08-30 23:18:25 -  Elf Do Sann has logged out.
+2025-08-30 23:18:29 -  Orc Lokao has logged out.
+2025-08-30 23:18:32 -  Loading Orc Lokao...
+2025-08-30 23:18:32 -  Orc Lokao has logged in.
+2025-08-30 23:18:38 -  177.152.178.43 disconnected for exceeding packet per second limit.
+2025-08-30 23:18:43 -  Orc Lokao has logged out.
+2025-08-30 23:18:45 -  Loading Orc Lokao...
+2025-08-30 23:18:45 -  Orc Lokao has logged in.
+2025-08-30 23:18:52 -  Stormy has logged out.
+2025-08-30 23:18:53 -  Tolkien has logged out.
+2025-08-30 23:18:55 -  Loading Stormy...
+2025-08-30 23:18:55 -  Stormy has logged in.
+2025-08-30 23:18:55 -  Loading Tolkien...
+2025-08-30 23:18:55 -  Tolkien has logged in.
+2025-08-30 23:20:24 -  Loading Pandiny...
+2025-08-30 23:20:24 -  Pandiny has logged in.
+2025-08-30 23:21:55 -  Orc Lokao has logged out.
+2025-08-30 23:23:21 -  [BOSS SYSTEM] Spawned: Adramelech
+2025-08-30 23:23:21 -  Loading Zangief...
+2025-08-30 23:23:21 -  Zangief has logged in.
+2025-08-30 23:24:21 -  143.255.217.7 disconnected for exceeding packet per second limit.
+2025-08-30 23:24:57 -  Saving server... 30/08/2025 23:24:57
+2025-08-30 23:24:57 -  > Saved house items in: 0.127 s
+2025-08-30 23:25:19 -  Omaigodi has logged out.
+2025-08-30 23:26:01 -  Loading Omaigodi...
+2025-08-30 23:26:01 -  Omaigodi has logged in.
+2025-08-30 23:27:28 -  Andin Inevitavel has logged out.
+2025-08-30 23:27:34 -  Loading Andin Inevitavel...
+2025-08-30 23:27:34 -  Andin Inevitavel has logged in.
+2025-08-30 23:31:38 -  Lewandowski has logged out.
+2025-08-30 23:33:39 -  Zangief has logged out.
+2025-08-30 23:34:11 -  Loading Zangief...
+2025-08-30 23:34:11 -  Zangief has logged in.
+2025-08-30 23:34:24 -  Pandiny has logged out.
+2025-08-30 23:34:26 -  Loading Pandiny...
+2025-08-30 23:34:26 -  Pandiny has logged in.
+2025-08-30 23:34:28 -  Pandiny has logged out.
+2025-08-30 23:34:58 -  Stormy has logged out.
+2025-08-30 23:34:59 -  Tolkien has logged out.
+2025-08-30 23:35:01 -  Loading Stormy...
+2025-08-30 23:35:01 -  Stormy has logged in.
+2025-08-30 23:35:01 -  Loading Tolkien...
+2025-08-30 23:35:01 -  Tolkien has logged in.
+2025-08-30 23:39:05 -  Benn Beckmann has logged out.
+2025-08-30 23:39:06 -  Logitch has logged out.
+2025-08-30 23:39:09 -  Loading Logitch...
+2025-08-30 23:39:09 -  Logitch has logged in.
+2025-08-30 23:39:10 -  Loading Benn Beckmann...
+2025-08-30 23:39:10 -  Benn Beckmann has logged in.
+2025-08-30 23:40:57 -  Benn Beckmann has logged out.
+2025-08-30 23:41:27 -  Not Havenick has logged out.
+2025-08-30 23:41:31 -  Loading Benn Beckmann...
+2025-08-30 23:41:31 -  Benn Beckmann has logged in.
+2025-08-30 23:41:45 -  Kyou Kai has logged out.
+2025-08-30 23:42:00 -  Loading Not Havenick...
+2025-08-30 23:42:00 -  Not Havenick has logged in.
+2025-08-30 23:42:07 -  Loading Kyou Kai...
+2025-08-30 23:42:07 -  Kyou Kai has logged in.
+2025-08-30 23:42:30 -  Pinoquio has logged out.
+2025-08-30 23:42:54 -  Loading Pinoquio...
+2025-08-30 23:42:54 -  Pinoquio has logged in.
+2025-08-30 23:47:04 -  [BOSS SYSTEM] Spawned: Evancing
+2025-08-30 23:47:04 -  Zangief has logged out.
+2025-08-30 23:47:44 -  Thaynan Charlove has logged out.
+2025-08-30 23:47:45 -  Loading Thaynan Charlove...
+2025-08-30 23:47:45 -  Thaynan Charlove has logged in.
+2025-08-30 23:47:47 -  Kudiom Pretu has logged out.
+2025-08-30 23:47:50 -  Loading Kudiom Pretu...
+2025-08-30 23:47:50 -  Kudiom Pretu has logged in.
+2025-08-30 23:49:02 -  Kaka Bueno has logged out.
+2025-08-30 23:50:19 -  Loading Kaka Bueno...
+2025-08-30 23:50:19 -  Kaka Bueno has logged in.
+2025-08-30 23:50:54 -  Terceiro has logged out.
+2025-08-30 23:50:55 -  Verde Orc has logged out.
+2025-08-30 23:51:03 -  Andin Inevitavel has logged out.
+2025-08-30 23:51:03 -  Stormy has logged out.
+2025-08-30 23:51:04 -  Tolkien has logged out.
+2025-08-30 23:51:05 -  Loading Stormy...
+2025-08-30 23:51:05 -  Stormy has logged in.
+2025-08-30 23:51:07 -  Loading Tolkien...
+2025-08-30 23:51:07 -  Tolkien has logged in.
+2025-08-30 23:51:08 -  Loading Andin Inevitavel...
+2025-08-30 23:51:08 -  Andin Inevitavel has logged in.
+2025-08-30 23:55:03 -  Aleska Teodoro has logged out.
+2025-08-30 23:55:05 -  Loading Aleska Teodoro...
+2025-08-30 23:55:05 -  Aleska Teodoro has logged in.
+2025-08-30 23:55:06 -  Dark Bebo has logged out.
+2025-08-30 23:55:08 -  Loading Dark Bebo...
+2025-08-30 23:55:08 -  Dark Bebo has logged in.
+2025-08-30 23:55:15 -  Boia Fria has logged out.
+2025-08-30 23:55:59 -  Labanquito has logged out.
+2025-08-30 23:56:00 -  Loading Labanquito...
+2025-08-30 23:56:00 -  Labanquito has logged in.
+2025-08-30 23:56:13 -  Loading Mono Dedo...
+2025-08-30 23:56:13 -  Mono Dedo has logged in.
+2025-08-30 23:56:39 -  Luana Moranguinho has logged out.
+2025-08-30 23:56:42 -  Loading Luana Moranguinho...
+2025-08-30 23:56:42 -  Luana Moranguinho has logged in.
+2025-08-30 23:56:51 -  Loading Zangief...
+2025-08-30 23:56:51 -  Zangief has logged in.
+2025-08-30 23:58:21 -  Duboldinho has logged out.
+2025-08-31 00:00:42 -  All daily task type limits have been reset.
+2025-08-31 00:00:42 -  Zangief has logged out.
+2025-08-31 00:03:11 -  [BOSS SYSTEM] Spawned: Jormungand
+2025-08-31 00:03:11 -  Chou Soran has logged out.
+2025-08-31 00:03:52 -  Kudiom Pretu has logged out.
+2025-08-31 00:03:55 -  Loading Kudiom Pretu...
+2025-08-31 00:03:55 -  Kudiom Pretu has logged in.
+2025-08-31 00:03:59 -  Labanquito has logged out.
+2025-08-31 00:04:00 -  Loading Labanquito...
+2025-08-31 00:04:00 -  Labanquito has logged in.
+2025-08-31 00:05:59 -  Magnitsky has logged out.
+2025-08-31 00:06:00 -  Loading Magnitsky...
+2025-08-31 00:06:00 -  Magnitsky has logged in.
+2025-08-31 00:08:26 -  Labanquito has logged out.
+2025-08-31 00:08:28 -  Loading Labanquito...
+2025-08-31 00:08:28 -  Labanquito has logged in.
+2025-08-31 00:15:43 -  Not Havenick has logged out.
+2025-08-31 00:16:48 -  Thaynan Charlove has logged out.
+2025-08-31 00:18:53 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-08-31 00:19:58 -  Kudiom Pretu has logged out.
+2025-08-31 00:19:59 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-08-31 00:20:00 -  Loading Kudiom Pretu...
+2025-08-31 00:20:00 -  Kudiom Pretu has logged in.
+2025-08-31 00:21:04 -  Andin Inevitavel has logged out.
+2025-08-31 00:21:07 -  Loading Andin Inevitavel...
+2025-08-31 00:21:07 -  Andin Inevitavel has logged in.
+2025-08-31 00:24:57 -  [BOSS SYSTEM] Spawned: Smaug
+2025-08-31 00:24:57 -  Saving server... 31/08/2025 00:24:57
+2025-08-31 00:24:57 -  > Saved house items in: 0.128 s
+2025-08-31 00:28:26 -  Kaka Bueno has logged out.
+2025-08-31 00:29:03 -  Loading Kaka Bueno...
+2025-08-31 00:29:03 -  Kaka Bueno has logged in.
+2025-08-31 00:30:31 -  Labanquito has logged out.
+2025-08-31 00:30:33 -  Loading Labanquito...
+2025-08-31 00:30:33 -  Labanquito has logged in.
+2025-08-31 00:33:17 -  Loading Gepeto...
+2025-08-31 00:33:17 -  Gepeto has logged in.
+2025-08-31 00:33:27 -  Magnitsky has logged out.
+2025-08-31 00:33:42 -  Gepeto has logged out.
+2025-08-31 00:36:04 -  Kudiom Pretu has logged out.
+2025-08-31 00:36:06 -  Loading Kudiom Pretu...
+2025-08-31 00:36:06 -  Kudiom Pretu has logged in.
+2025-08-31 00:37:10 -  Andin Inevitavel has logged out.
+2025-08-31 00:37:13 -  Loading Andin Inevitavel...
+2025-08-31 00:37:13 -  Andin Inevitavel has logged in.
+2025-08-31 00:37:42 -  Kudiom Pretu has logged out.
+2025-08-31 00:37:59 -  Sujiro Kimechup has logged out.
+2025-08-31 00:38:19 -  Loading Eho Jhon...
+2025-08-31 00:38:19 -  Eho Jhon has logged in.
+2025-08-31 00:40:35 -  Eho Jhon has logged out.
+2025-08-31 00:40:36 -  Loading Eho Jhon...
+2025-08-31 00:40:36 -  Eho Jhon has logged in.
+2025-08-31 00:42:10 -  Benn Beckmann has logged out.
+2025-08-31 00:42:11 -  Skull Warrior has logged out.
+2025-08-31 00:42:14 -  Loading Skull Warrior...
+2025-08-31 00:42:14 -  Skull Warrior has logged in.
+2025-08-31 00:42:22 -  Skull Warrior has logged out.
+2025-08-31 00:42:49 -  Loading Thaynan Charlove...
+2025-08-31 00:42:49 -  Thaynan Charlove has logged in.
+2025-08-31 00:43:09 -  [BOSS SYSTEM] Spawned: Azaka
+2025-08-31 00:43:09 -  Thaynan Charlove has logged out.
+2025-08-31 00:44:24 -  Saving server... 31/08/2025 00:44:24
+2025-08-31 00:44:25 -  > Saved house items in: 0.122 s
+2025-08-31 00:46:25 -  Reloaded items.
+2025-08-31 00:46:25 -  Alexia Putellas has logged out.
+2025-08-31 00:49:21 -  Fuu Houhou has logged out.
+2025-08-31 00:49:24 -  Loading Fuu Houhou...
+2025-08-31 00:49:24 -  Fuu Houhou has logged in.
+2025-08-31 00:49:52 -  Jumahu has logged out.
+2025-08-31 00:49:54 -  Loading Jumahu...
+2025-08-31 00:49:54 -  Jumahu has logged in.
+2025-08-31 00:52:07 -  143.255.217.7 disconnected for exceeding packet per second limit.
+2025-08-31 00:53:02 -  Omaigodi has logged out.
+2025-08-31 00:55:51 -  Oppenheimer has logged out.
+2025-08-31 00:56:08 -  Loading Oppenheimer...
+2025-08-31 00:56:08 -  Oppenheimer has logged in.
+2025-08-31 00:56:45 -  Loading Omaigodi...
+2025-08-31 00:56:45 -  Omaigodi has logged in.
+2025-08-31 00:59:11 -  Loading Elfzada...
+2025-08-31 00:59:11 -  Elfzada has logged in.
+2025-08-31 00:59:36 -  Elfzada has logged out.
+2025-08-31 01:02:25 -  Logitch has logged out.
+2025-08-31 01:03:56 -  [BOSS SYSTEM] Spawned: Olog-hai
+2025-08-31 01:03:56 -  Loading Magnitsky...
+2025-08-31 01:03:56 -  Magnitsky has logged in.
+2025-08-31 01:04:50 -  Andin Inevitavel has logged out.
+2025-08-31 01:04:53 -  Loading Andin Inevitavel...
+2025-08-31 01:04:53 -  Andin Inevitavel has logged in.
+2025-08-31 01:05:20 -  Loading Thaynan Charlove...
+2025-08-31 01:05:20 -  Thaynan Charlove has logged in.
+2025-08-31 01:05:27 -  Fuu Houhou has logged out.
+2025-08-31 01:05:29 -  Loading Fuu Houhou...
+2025-08-31 01:05:29 -  Fuu Houhou has logged in.
+2025-08-31 01:06:16 -  Soul Magister has logged out.
+2025-08-31 01:06:22 -  Elzinho Druid has logged out.
+2025-08-31 01:06:30 -  Archmage has logged out.
+2025-08-31 01:07:08 -  Magnitsky has logged out.
+2025-08-31 01:08:50 -  Loading Logitch...
+2025-08-31 01:08:50 -  Logitch has logged in.
+2025-08-31 01:09:43 -  Loading Derethor...
+2025-08-31 01:09:43 -  Derethor has logged in.
+2025-08-31 01:09:56 -  143.255.217.7 disconnected for exceeding packet per second limit.
+2025-08-31 01:10:02 -  Logitch has logged out.
+2025-08-31 01:21:14 -  Skylline has logged out.
+2025-08-31 01:21:23 -  Orappa has logged out.
+2025-08-31 01:21:31 -  Fuu Houhou has logged out.
+2025-08-31 01:21:51 -  Loading Fuu Houhou...
+2025-08-31 01:21:51 -  Fuu Houhou has logged in.
+2025-08-31 01:23:35 -  [BOSS SYSTEM] Spawned: Ancalagon
+2025-08-31 01:23:35 -  Loading Logitch...
+2025-08-31 01:23:35 -  Logitch has logged in.
+2025-08-31 01:24:09 -  Stormy has logged out.
+2025-08-31 01:24:14 -  Tolkien has logged out.
+2025-08-31 01:24:15 -  Loading Stormy...
+2025-08-31 01:24:15 -  Stormy has logged in.
+2025-08-31 01:24:15 -  Loading Tolkien...
+2025-08-31 01:24:15 -  Tolkien has logged in.
+2025-08-31 01:24:37 -  Loading Magnitsky...
+2025-08-31 01:24:37 -  Magnitsky has logged in.
+2025-08-31 01:24:46 -  Logitch has logged out.
+2025-08-31 01:24:57 -  Saving server... 31/08/2025 01:24:57
+2025-08-31 01:24:57 -  > Saved house items in: 0.129 s
+2025-08-31 01:25:20 -  Tolkien has logged out.
+2025-08-31 01:25:30 -  Stormy has logged out.
+2025-08-31 01:25:48 -  Omaigodi has logged out.
+2025-08-31 01:26:15 -  Elrond Druid has logged out.
+2025-08-31 01:27:11 -  Fuu Houhou has logged out.
+2025-08-31 01:27:12 -  Loading Fuu Houhou...
+2025-08-31 01:27:12 -  Fuu Houhou has logged in.
+2025-08-31 01:27:26 -  Paramax has logged out.
+2025-08-31 01:28:04 -  Loading Paramax...
+2025-08-31 01:28:04 -  Paramax has logged in.
+2025-08-31 01:29:23 -  Andin Inevitavel has logged out.
+2025-08-31 01:29:26 -  Loading Andin Inevitavel...
+2025-08-31 01:29:26 -  Andin Inevitavel has logged in.
+2025-08-31 01:29:30 -  Loading Benn Beckmann...
+2025-08-31 01:29:30 -  Benn Beckmann has logged in.
+2025-08-31 01:30:09 -  Magnitsky has logged out.
+2025-08-31 01:30:11 -  Loading Magnitsky...
+2025-08-31 01:30:11 -  Magnitsky has logged in.
+2025-08-31 01:30:15 -  Magnitsky has logged out.
+2025-08-31 01:30:53 -  Loading Chou Soran...
+2025-08-31 01:30:53 -  Chou Soran has logged in.
+2025-08-31 01:32:43 -  Fuu Houhou has logged out.
+2025-08-31 01:32:45 -  Loading Fuu Houhou...
+2025-08-31 01:32:45 -  Fuu Houhou has logged in.
+2025-08-31 01:35:10 -  Labanquito has logged out.
+2025-08-31 01:35:42 -  Loading Labanquito...
+2025-08-31 01:35:42 -  Labanquito has logged in.
+2025-08-31 01:36:25 -  Saving server... 31/08/2025 01:36:25
+2025-08-31 01:36:26 -  > Saved house items in: 0.128 s
+2025-08-31 01:40:21 -  Reloaded npcs.
+2025-08-31 01:40:21 -  Zhang Chulan has logged out.
+2025-08-31 01:40:22 -  Loading Zhang Chulan...
+2025-08-31 01:40:22 -  Zhang Chulan has logged in.
+2025-08-31 01:56:57 -  [BOSS SYSTEM] Spawned: Khel Thuzad
+2025-08-31 01:56:57 -  Andin Inevitavel has logged out.
+2025-08-31 01:56:59 -  Loading Andin Inevitavel...
+2025-08-31 01:56:59 -  Andin Inevitavel has logged in.
+2025-08-31 01:57:56 -  Kaka Bueno has logged out.
+2025-08-31 02:00:46 -  Andin Inevitavel has logged out.
+2025-08-31 02:01:22 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-08-31 02:01:23 -  Robin Hood has logged out.
+2025-08-31 02:01:32 -  Loading Robin Hood...
+2025-08-31 02:01:32 -  Robin Hood has logged in.
+2025-08-31 02:02:48 -  Jumahu has logged out.
+2025-08-31 02:02:53 -  Paramax has logged out.
+2025-08-31 02:03:13 -  [BOSS SYSTEM] Spawned: Lord of The Elements
+2025-08-31 02:03:13 -  [CM] Middle Earth has logged out.
+2025-08-31 02:04:27 -  Dumdum has logged out.
+2025-08-31 02:04:47 -  Derethor has logged out.
+2025-08-31 02:04:55 -  Eho Jhon has logged out.
+2025-08-31 02:12:29 -  Finado Guerme has logged out.
+2025-08-31 02:12:35 -  Loading Finado Guerme...
+2025-08-31 02:12:35 -  Finado Guerme has logged in.
+2025-08-31 02:13:13 -  Mono Dedo has logged out.
+2025-08-31 02:13:15 -  Loading Mono Dedo...
+2025-08-31 02:13:15 -  Mono Dedo has logged in.
+2025-08-31 02:14:29 -  Loading Ojuara...
+2025-08-31 02:14:29 -  Ojuara has logged in.
+2025-08-31 02:15:13 -  [GOD] Middle Earth has logged out.
+2025-08-31 02:17:04 -  Tumzao has logged out.
+2025-08-31 02:17:12 -  Tutubarao has logged out.
+2025-08-31 02:24:57 -  [BOSS SYSTEM] Spawned: Deathstrike
+2025-08-31 02:24:57 -  Saving server... 31/08/2025 02:24:57
+2025-08-31 02:24:57 -  > Saved house items in: 0.134 s
+2025-08-31 02:25:24 -  Loading Receptaculo...
+2025-08-31 02:25:24 -  Receptaculo has logged in.
+2025-08-31 02:25:56 -  Oppenheimer has logged out.
+2025-08-31 02:26:05 -  Loading Alagoano Alma...
+2025-08-31 02:26:05 -  Alagoano Alma has logged in.
+2025-08-31 02:26:27 -  Loading Oppenheimer...
+2025-08-31 02:26:27 -  Oppenheimer has logged in.
+2025-08-31 02:27:12 -  Loading Putifero...
+2025-08-31 02:27:12 -  Putifero has logged in.
+2025-08-31 02:29:44 -  Robin Hood has logged out.
+2025-08-31 02:31:31 -  Loading Kaka Bueno...
+2025-08-31 02:31:31 -  Kaka Bueno has logged in.
+2025-08-31 02:32:59 -  Loading Eho Jhon...
+2025-08-31 02:32:59 -  Eho Jhon has logged in.
+2025-08-31 02:33:03 -  Eho Jhon has logged out.
+2025-08-31 02:33:14 -  Loading Eho Jhon...
+2025-08-31 02:33:14 -  Eho Jhon has logged in.
+2025-08-31 02:34:19 -  Loading Robin Hood...
+2025-08-31 02:34:19 -  Robin Hood has logged in.
+2025-08-31 02:41:58 -  Loading Dumdum...
+2025-08-31 02:41:58 -  Dumdum has logged in.
+2025-08-31 02:44:00 -  [BOSS SYSTEM] Spawned: Zamulosh
+2025-08-31 02:44:00 -  Fuu Houhou has logged out.
+2025-08-31 02:44:01 -  Chou Soran has logged out.
+2025-08-31 02:44:04 -  Loading Chou Soran...
+2025-08-31 02:44:04 -  Chou Soran has logged in.
+2025-08-31 02:44:08 -  Loading Fuu Houhou...
+2025-08-31 02:44:08 -  Fuu Houhou has logged in.
+2025-08-31 02:45:41 -  Loading Derethor...
+2025-08-31 02:45:41 -  Derethor has logged in.
+2025-08-31 02:45:46 -  Derethor has logged out.
+2025-08-31 02:46:07 -  Loading Derethor...
+2025-08-31 02:46:07 -  Derethor has logged in.
+2025-08-31 02:47:54 -  Reiyu Shita has logged out.
+2025-08-31 02:48:27 -  Loading Reiyu Shita...
+2025-08-31 02:48:27 -  Reiyu Shita has logged in.
+2025-08-31 02:52:13 -  Receptaculo has logged out.
+2025-08-31 02:52:24 -  Putifero has logged out.
+2025-08-31 02:56:03 -  Pinoquio has logged out.
+2025-08-31 02:56:36 -  Loading Pinoquio...
+2025-08-31 02:56:36 -  Pinoquio has logged in.
+2025-08-31 02:59:30 -  Kyou Kai has logged out.
+2025-08-31 03:00:03 -  Loading Kyou Kai...
+2025-08-31 03:00:03 -  Kyou Kai has logged in.
+2025-08-31 03:07:58 -  [BOSS SYSTEM] Spawned: The Necromancer
+2025-08-31 03:07:58 -  Robin Hood has logged out.
+2025-08-31 03:14:37 -  Alagoano Alma has logged out.
+2025-08-31 03:14:46 -  Ojuara has logged out.
+2025-08-31 03:18:51 -  Gaa Ahz has logged out.
+2025-08-31 03:19:06 -  Kropokiev has logged out.
+2025-08-31 03:22:44 -  Ozymandias has logged out.
+2025-08-31 03:22:47 -  Loading Ozymandias...
+2025-08-31 03:22:47 -  Ozymandias has logged in.
+2025-08-31 03:24:57 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-08-31 03:24:57 -  Saving server... 31/08/2025 03:24:57
+2025-08-31 03:24:57 -  > Saved house items in: 0.118 s
+2025-08-31 03:37:49 -  Papa Leguas has logged out.
+2025-08-31 03:38:06 -  Drumbash Pebblebeard has logged out.
+2025-08-31 03:38:21 -  Loading Papa Leguas...
+2025-08-31 03:38:21 -  Papa Leguas has logged in.
+2025-08-31 03:38:39 -  Loading Drumbash Pebblebeard...
+2025-08-31 03:38:39 -  Drumbash Pebblebeard has logged in.
+2025-08-31 03:55:38 -  [BOSS SYSTEM] Spawned: Adramelech
+2025-08-31 03:55:38 -  Kaka Bueno has logged out.
+2025-08-31 04:24:57 -  [BOSS SYSTEM] Spawned: Emelianenko
+2025-08-31 04:24:57 -  [BOSS SYSTEM] Spawned: Laracna
+2025-08-31 04:24:57 -  Saving server... 31/08/2025 04:24:57
+2025-08-31 04:24:57 -  > Saved house items in: 0.187 s
+2025-08-31 04:36:17 -  Kyou Kai has logged out.
+2025-08-31 04:36:50 -  Loading Kyou Kai...
+2025-08-31 04:36:50 -  Kyou Kai has logged in.
+2025-08-31 04:40:25 -  Pinoquio has logged out.
+2025-08-31 04:40:27 -  Loading Pinoquio...
+2025-08-31 04:40:27 -  Pinoquio has logged in.
+2025-08-31 04:50:02 -  [BOSS SYSTEM] Spawned: Ferumbras
+2025-08-31 04:50:02 -  Ozymandias has logged out.
+2025-08-31 04:59:11 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-08-31 05:00:00 -  Pinoquio has logged out.
+2025-08-31 05:00:00 -  Kyou Kai has logged out.
+2025-08-31 05:00:00 -  Drumbash Pebblebeard has logged out.
+2025-08-31 05:00:00 -  Papa Leguas has logged out.
+2025-08-31 05:00:00 -  Reiyu Shita has logged out.
+2025-08-31 05:00:00 -  Derethor has logged out.
+2025-08-31 05:00:00 -  Dumdum has logged out.
+2025-08-31 05:00:00 -  Eho Jhon has logged out.
+2025-08-31 05:00:00 -  Oppenheimer has logged out.
+2025-08-31 05:00:00 -  Mono Dedo has logged out.
+2025-08-31 05:00:00 -  Finado Guerme has logged out.
+2025-08-31 05:00:00 -  Zhang Chulan has logged out.
+2025-08-31 05:00:00 -  Labanquito has logged out.
+2025-08-31 05:00:00 -  Benn Beckmann has logged out.
+2025-08-31 05:00:00 -  Thaynan Charlove has logged out.
+2025-08-31 05:00:00 -  Luana Moranguinho has logged out.
+2025-08-31 05:00:00 -  Aleska Teodoro has logged out.
+2025-08-31 05:00:00 -  Tu Culo Es Mio has logged out.
+2025-08-31 05:00:00 -  Aranha has logged out.
+2025-08-31 05:00:00 -  Lula has logged out.
+2025-08-31 05:00:00 -  Holly Bolter has logged out.
+2025-08-31 05:00:00 -  Severino Elza has logged out.
+2025-08-31 05:00:00 -  Negrosaki has logged out.
+2025-08-31 05:00:00 -  Fuu Houhou has logged out.
+2025-08-31 05:00:00 -  Chou Soran has logged out.
+2025-08-31 05:00:00 -  Palla Dois has logged out.
+2025-08-31 05:00:00 -  Morte has logged out.
+2025-08-31 05:00:00 -  Xupaengola has logged out.
+2025-08-31 05:00:00 -  Dark Bebo has logged out.
+2025-08-31 05:00:00 -  Shawty has logged out.
+2025-08-31 05:00:00 -  China Weed Lover has logged out.
+2025-08-31 05:00:00 -  Stark has logged out.
+2025-08-31 05:00:00 -  China Money Maker has logged out.
+2025-08-31 05:00:00 -  Saving server... 31/08/2025 05:00:00
+2025-08-31 05:00:01 -  > Saved house items in: 0.152 s
+2025-08-31 05:00:01 -  >> 0 player kickado
+2025-08-31 05:00:01 -  Saving server... 31/08/2025 05:00:01
+2025-08-31 05:00:01 -  > Saved house items in: 0.129 s
+2025-08-31 05:00:01 -  Shutting down...Saving server... 31/08/2025 05:00:01
+2025-08-31 05:00:01 -  > Saved house items in: 0.125 s
+2025-08-31 05:00:01 -  [Thread 0x7ffff4b0d700 (LWP 192450) exited]
+2025-08-31 05:00:01 -  [Thread 0x7ffff5322700 (LWP 192449) exited]
+2025-08-31 05:00:01 -   done!
+2025-08-31 05:00:01 -  [Thread 0x7ffff5b23700 (LWP 192448) exited]
+2025-08-31 05:00:04 -  >> Saving player items.
+2025-08-31 05:00:06 -  [Inferior 1 (process 192444) exited normally]

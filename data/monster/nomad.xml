@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="nomad" nameDescription="um nomad" race="blood" experience="60" speed="85" manacost="420">
+<health now="160" max="160"/>
+<look type="146" head="114" body="20" legs="22" feet="2" addons="2" corpse="20463"/>
+<targetchange interval="5000" chance="8"/>
+<strategy attack="100" defense="0"/>
+
+<flags>
+<flag summonable="1"/>
+<flag attackable="1"/>
+<flag hostile="1"/>
+<flag illusionable="1"/>
+<flag convinceable="1"/>
+<flag pushable="0"/>
+<flag canpushitems="1"/>
+<flag canpushcreatures="0"/>
+<flag targetdistance="1"/>
+<flag staticattack="90"/>
+<flag runonhealth="10"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-25" max="-65"/>
+	
+	<attack name="physical" interval="3700" chance="99" range="7" min="-10" max="-20">
+		<attribute key="shootEffect" value="arrow"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0"/>
+
+<immunities>
+<immunity physical="0"/>
+<immunity energy="0"/>
+<immunity fire="0"/>
+<immunity poison="0"/>
+<immunity lifedrain="0"/>
+<immunity paralyze="0"/>
+<immunity outfit="0"/>
+<immunity drunk="0"/>
+<immunity invisible="0"/>
+</immunities>
+
+<voices interval="7000" chance="10">
+<voice sentence="Suas riquezas serao minhas!"/>
+<voice sentence="Somos os verdadeiros filhos do deserto!"/>
+<voice sentence="Vou deixar seus restos para os abutres!"/>
+</voices>
+
+<loot>
+<item id="2148" countmax="35" chance1="100000" chancemax="0"/>
+<item id="12448" chance="1500"/>
+<item id="2465" chance="2000"/>
+<item id="13535" chance="400"/>
+<item id="2461" chance="3000"/>
+<item id="5910" chance="15000"/>
+<item id="2649" chance="4000"/>
+<item id="2478" chance="3333"/>
+	<item id="2456" chance="2000"/>
+	<item id="2544" countmax="10" chance1="20000"/>
+	<item id="2546" countmax="5" chance1="10000"/>
+	<item id="2147" countmax="2" chance1="400"/>
+	<item id="2690" countmax="3" chance1="15000"/>
+	<item id="2201" chance="700"/>
+	
+</loot>
+
+</monster>

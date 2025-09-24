@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Quara Pincher" nameDescription="uma quara pincher" race="blood" experience="1200" speed="120" manacost="0">
+  <health now="1800" max="1800"/>
+  <look type="77" head="0" body="0" legs="0" feet="0" corpse="6063"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+  <attacks>
+	<attack name="melee" interval="2000" min="-200" max="-300"/>
+
+	<attack name="physical" interval="2750" chance="25" length="8" spread="3" min="-80" max="-200">
+		<attribute key="areaEffect" value="bluebubble"/>
+	</attack>
+  </attacks>
+  
+  <defenses armor="0" defense="0">
+    <defense name="healing" interval="1500" chance="18" min="113" max="187">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>	
+  </defenses>  
+  
+  <immunities>
+    <immunity lifedrain="1"/>
+    <immunity invisible="1"/>
+	<immunity drown="1"/>
+  </immunities>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Clank clank!"/>
+    <voice sentence="Clap!"/>
+	<voice sentence="Crrrk! Crrrk!"/>
+  </voices>
+  
+  <loot>
+	
+	<item id="2475" chance="333"/> 
+	<item id="7387" chance="150"/> 
+	<item id="2536" chance="180"/> 
+	<item id="2487" chance="100"/> 
+	
+	<item id="1987" chance="100000">
+	  
+		<item id="2670" chance="4500" countmax="5"/> 
+	    <item id="5895" chance="2000" countmax="1"/> 
+		<item id="2148" chance="25000" countmax="100"/> 
+		<item id="2148" chance="25000" countmax="100"/> 
+		<item id="2147" chance="538" countmax="3"/> 
+	  
+	</item>
+  </loot>
+  
+</monster>
+
+
+

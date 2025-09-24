@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mordor Guard" nameDescription="um guarda de mordor" race="blood" experience="0" speed="160">
+  <health now="3000" max="3000"/>
+  <look type="50" head="20" body="30" legs="40" feet="50" corpse="2920"/>
+  <targetchange interval="5000" chance="30"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="2"/>
+    <flag hostile="2"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-100" max="-250"/>
+
+	<attack name="physical" interval="2500" chance="99" range="7" target="1" min="-80" max="-200">
+		<attribute key="shootEffect" value="spear"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0"/>
+
+<immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+	<immunity drown="1"/>
+	<immunity ice="0"/>
+	<immunity holy="0"/>
+	<immunity death="0"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+<voices speed="10000" chance="10">
+	<voice sentence="Estamos sendo atacados!" yell="1"/>
+</voices>
+
+<loot>
+
+</loot>
+
+</monster>

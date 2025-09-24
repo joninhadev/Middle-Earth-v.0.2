@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Morvandir" nameDescription="the Morvandir" race="undead" experience="2500000" speed="220">
+	<health now="150000" max="150000" />
+	<look type="842" head="0" body="21" legs="19" feet="3" addons="2" corpse="6068" />
+	<targetchange interval="5000" chance="8" />
+	<flags>
+		<flag rewardboss="1"/>
+		<flag preyable="0" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag rewardboss="1" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-300" max="-650"/>
+		<attack name="sudden death" chance="70" interval="3000" min="-300" max="-550"/>
+		<attack name="death" interval="2850" chance="40" length="7" spread="0" min="-200" max="-700">
+		  <attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="death" interval="4000" chance="55" radius="6" target="0" min="-650" max="-1000">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="55" defense="65">
+		<defense name="healing" interval="3000" chance="35" min="100" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="20"/>
+		<element icePercent="0"/>
+		<element poisonPercent="40"/>
+		<element firePercent="20"/>
+		<element energyPercent="5"/>
+		<element holyPercent="0"/>
+		<element deathPercent="99"/>
+	</elements>
+	<immunities>
+		<immunity earth="1" />
+		<immunity paralyze="1" />
+		<immunity energy="1" />
+		<immunity fire="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="30">
+		<voice sentence="DAMMMMNNNNAAATIONN!"/>
+		<voice sentence="I WILL FEAST ON YOUR SOUL!" yell="1"/>
+		<voice sentence="YOU ARE ALL DAMNED!" yell="1"/>
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="99" chance="999999"/>
+		<item name="gold coin" countmax="99" chance="999999"/>
+		<item name="crystal coin" countmax="35" chance="999999"/>
+		<item name="small emerald" countmax="30" chance="999999"/>
+		<item name="bow of cataclysm" chance="1500"/>
+		<item name="ornate legs" chance="1500"/>
+		<item name="nightmare shield" chance="1000"/>
+		<item name="khel thuzad's skin" chance="2000"/>
+		<item name="sauron's breath scepter" chance="20000"/>
+		<item id="9932" chance="1000"/>
+	</loot>
+</monster>

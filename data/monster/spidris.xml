@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Spidris" nameDescription="a spidris" race="venom" experience="6000" speed="195" raceid="787">
+	<health now="5000" max="5000"/>
+	<look type="457" corpse="15296"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="1"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="0"/>
+		<flag canwalkonfire="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-200" max="-398"/>
+		<attack name="earth" interval="2000" chance="20" target="1" range="7" radius="3" min="-230" max="-310">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="greenbubble"/>
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="speed" interval="2000" chance="15" speedchange="450" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="10"/>
+		<element holyPercent="20"/>
+		<element deathPercent="20"/>
+		<element earthPercent="100"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="20"/>
+		<element icePercent="30"/>
+	</elements>
+	<immunities>
+		<immunity earth="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Eeeeeeyyyyh!"/>
+		<voice sentence="Iiiiieeeeeeh!"/>
+	</voices>
+	<loot>
+		<item name="small ruby" countmax="5" chance="11900"/>
+		<item name="platinum coin" countmax="2" chance="45000"/>
+		<item name="violet gem" chance="770"/>
+		<item name="great mana potion" countmax="2" chance="4100"/>
+		<item name="spidris mandible" chance="14960"/>
+		<item name="compound eye" chance="12500"/>
+		<item name="calopteryx cape" chance="370"/>
+		<item name="carapace shield" chance="520"/>
+		<item name="hive scythe" chance="490"/>
+	</loot>
+</monster>

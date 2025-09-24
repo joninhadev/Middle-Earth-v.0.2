@@ -1,0 +1,2 @@
+ALTER TABLE `players` 
+MODIFY COLUMN `conditions` LONGBLOB;

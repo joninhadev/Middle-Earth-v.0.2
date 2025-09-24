@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Malboro" nameDescription="the Malboro" race="blood" experience="5000000" speed="250">
+	<health now="250000" max="250000"/>
+	<look type="676" corpse="24269"/>
+	<targetchange interval="5000" chance="8"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag rewardboss="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag rewardboss="1"/>
+		<flag canwalkonenergy="1"/>
+		<flag canwalkonfire="1"/>
+		<flag canwalkonpoison="1"/>
+		<flag preyable="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1350" min="-1160" max="-1760"/>
+		<attack name="stone shower" interval="4000" chance="50" target="1" min="-1000" max="-1500">
+		</attack>
+		<attack name="earth" interval="2000" chance="50" range="7" min="-1000" max="-1500"><!-- EXORI TERA -->
+			<attribute key="shootEffect" value="earth" />
+		</attack>
+		<attack name="earth" interval="2000" chance="40" length="5" spread="3" min="-1666" max="-2220"><!-- Terra WAVE -->
+			<attribute key="areaEffect" value="carniphila"/>
+		</attack>
+		<attack name="earth" interval="2100" chance="50" radius="6" spread="3" min="-2200" max="-3500">
+			<attribute key="areaEffect" value="smallplants"/>
+		</attack>
+	</attacks>
+	<defenses armor="22" defense="35">
+		<defense name="healing" interval="2000" chance="11" min="500" max="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="40" />
+		<element icePercent="40" />
+		<element energyPercent="40" />
+		<element firePercent="40"/>
+		<element earthPercent="100"/>
+		<element holyPercent="40"/>
+		<element deathPercent="40"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity poison="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item name="crystal coin" countmax="15" chance="1000000"/>
+		<item name="giant emerald" chance="100000"/>
+		<item name="terra helmet" chance="300"/>
+		<item id="8909" chance="300"/><!-- Malboro Shield -->
+		<item name="ornate legs" chance="300"/>
+		<item name="pestilence omega" chance="600"/>
+	</loot>
+</monster>

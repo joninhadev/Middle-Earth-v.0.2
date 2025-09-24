@@ -1,0 +1,5 @@
+Ao inicializar um novo banco de dados, é obrigatório usar esse comando: 
+
+ALTER TABLE players CHANGE conditions conditions BLOB;
+
+

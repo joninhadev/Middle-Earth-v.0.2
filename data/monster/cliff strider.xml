@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cliff Strider" nameDescription="cliff strider" race="blood" experience="10400" speed="150" manacost="0">
+  <health now="9400" max="9400"/>
+  <look type="497" corpse="17421"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1000" skill="100" attack="120"/>
+		<attack name="earth" interval="2000" chance="30" length="7" spread="0" min="-270" max="-320">
+			<attribute key="areaEffect" value="stones"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="20" radius="4" range="4" target="1" min="-250" max="-350">
+			<attribute key="areaEffect" value="yellowenergy"/>			
+      		</attack>
+		<attack name="poison" interval="2000" chance="35" radius="3" target="1" min="-200" max="-350">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="25" radius="3" range="4" target="1" min="-150" max="-300">
+			<attribute key="areaEffect" value="bigplants"/>
+		</attack>	
+  </attacks>
+  <defenses armor="0" defense="0">    
+  </defenses>
+	<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="10"/>
+		<element icePercent="20"/>
+	</elements>
+  <immunities>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="100"/>
+    <immunity invisible="100"/>
+  </immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Knorrrr!"/>
+	</voices>     
+  <loot>
+ 	 <item id="2148" countmax="100" chance="30000"/>  
+ 	 <item id="2152" countmax="3" chance="33333"/>
+ 	 <item id="18435" countmax="8" chance="366"/>  
+        <item id="2477" chance="350"/>
+        <item id="2393" chance="300"/>
+        <item id="18450" chance="200"/>
+</loot>
+</monster>

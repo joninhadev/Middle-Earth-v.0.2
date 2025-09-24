@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Waspoid" nameDescription="waspoid" race="blood" experience="1430" speed="150" manacost="0">
+  <health now="1800" max="1800"/>
+  <look type="462" corpse="15397"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+		<attack name="melee" interval="2000" skill="30" attack="150" poison="5"/>	
+		<attack name="poison" interval="1000" chance="12" radius="3" target="1" min="-100" max="-160">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+  </attacks>
+  <defenses armor="0" defense="0">    
+  </defenses>
+	<elements><element physicalPercent="5"/>				
+		<element physicalPercent="0"/>
+		<element deathPercent="0"/>
+		<element energyPercent="0"/>
+	    <element earthPercent="100"/>
+	</elements>
+  <immunities>
+    <immunity earth="100"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity invisible="1"/>
+  </immunities> 
+	<voices interval="2500" chance="10">
+		<voice sentence="Peeex!"/>
+	</voices>    
+  <loot>
+    <item id="15484" chance="300"/> 
+	<item name="platinum coin" countmax="2" chance="99999"/>
+	<item id="15490" chance="80"/><!-- Grass LEgs -->
+
+  	
+</loot>
+</monster>

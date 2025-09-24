@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Ephis" script="default.lua" access="3" walkinterval="0">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="136" head="77" body="82" boots="79" feet="10" addon="1" corpse="3128"/>
+	
+ <parameters>
+  <parameter key="module_shop" value="1"/>
+ <parameter key="shop_buyable" value="sandals,2642,10;leather boots,2643,20;pirate boots,5462,7000;"/>
+<parameter key="shop_sellable" value="sandals,2642,7;leather boots,2643,10;crocodile boots,3982,3000;terra boots,7886,6000;pirate boots,5462,3000;steel boots,2645,15000;boots of haste,2195,8000;soft boots,6132,50000;fur boots,7457,4000;glacier boots,7892,14000;magma boots,7891,18000;zenit shoes,11303,50000;aghanim boots,7893,25000;dragon scale boots,11118,50000;firewalker boots,9932,300000;golden boots,2646,500000;crystal boots,11117,50000;draken boots,12646,70000;guardian boots,11240,70000;prismatic boots,18406,50000;depth calcei,15410,150000;"/>
+ </parameters>
+</npc>

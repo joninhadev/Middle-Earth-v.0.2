@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ferumbras" nameDescription="Ferumbras" race="blood" experience="600000" speed="250" manacost="0">
+  <health now="35000" max="35000"/>
+  <look type="229" head="20" body="30" legs="40" feet="50" corpse="6078"/>
+  <targetchange interval="6000" chance="12"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag rewardboss="1" />
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="2"/>
+	<flag staticattack="90"/>
+	<flag runonhealth="2500"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="2000" min="-720" max="-880"/>
+	
+	<attack name="fire" interval="2380" chance="1000" radius="1" target="1" min="-350" max="-600">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="explosionarea"/>
+	</attack>
+	<attack name="manadrain" interval="2700" chance="20" range="7" min="-450" max="-750">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</attack>
+	<attack name="poison" interval="2150" chance="24" radius="6" target="0" min="-450" max="-750">
+		<attribute key="areaEffect" value="poison"/>
+	</attack>
+	<attack name="energy" interval="1950" chance="25" radius="6" target="0" min="-400" max="-850">
+		<attribute key="areaEffect" value="energy"/>
+	</attack>
+	<attack name="lifedrain" interval="2650" chance="22" radius="6" target="0" min="-500" max="-850">
+		<attribute key="areaEffect" value="redshimmer"/>
+	</attack>
+	<attack name="firecondition" interval="3150" chance="40" range="7" radius="7" target="1" tick="1000" min="-30" max="-30" start="15">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+</attacks>
+
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="2350" chance="22" min="450" max="750"/>
+	<defense name="speed" interval="3000" chance="30" speedchange="360" duration="7000">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+	<defense name="invisible" interval="4000" chance="20" duration="3000">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+<elements>
+	<element physicalPercent="5"/>
+	<element physicalPercent="20"/>
+	<element icePercent="40"/>
+	<element poisonPercent="20"/>
+	<element firePercent="100"/>
+	<element energyPercent="35"/>
+	<element holyPercent="20"/>
+	<element deathPercent="40"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+<summons maxSummons="2">
+	<summon name="demon" interval="15000" chance="15" max="2"/>
+</summons>
+
+<voices interval="5000" chance="20">
+	<voice sentence="NOONE WILL STOP ME THIS TIME!" yell="1"/>
+	<voice sentence="THE POWER IS MINE!" yell="1"/>
+</voices>
+  
+<!--<script>
+<event name="ferumbrasAscendant"/>
+</script>-->
+<loot>
+ 	<item id="2187" chance="100000"/> 
+ 	<item id="2514" chance="5000"/> 
+ 	<item id="2472" chance="400"/>
+	<item id="2171" chance="50000"/> 
+	<item id="2415" chance="2000"/> 
+	<item id="2421" chance="2000"/> 
+	<item id="2195" chance="25000"/> 
+	<item id="2148" countmax="100" chance1="100000" chancemax="0"/> 
+	<item id="2148" countmax="100" chance1="80000" chancemax="0"/> 
+	<item id="2148" countmax="25" chance1="100000" chancemax="0"/> 
+	<item id="2148" countmax="100" chance1="100000" chancemax="0"/> 
+	<item id="2151" countmax="4" chance1="80000" chancemax="0"/> 
+	<item id="2149" countmax="10" chance1="65000" chancemax="0"/> 
+	  
+ 	
+  </loot>
+</monster>

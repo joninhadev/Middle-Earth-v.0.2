@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<npc name="Prosak" script="default.lua" access="3"  walkinterval="0">
+	<mana now="10" max="10"/>
+	<health now="10" max="10"/>
+	<look type="132" head="0" body="79" legs="116" feet="125" addon="2" corpse="3128"/>
+	
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="shovel,2554,20;rope,2120,20;fishing rod,2580,50;backpack,1988,10;bp,1988,10;pick,2553,20" />
+		
+		<parameter key="message_greet" value="Ola |PLAYERNAME|, eu vendo shovel, rope, fishing rod, backpack e pick"/>
+		
+	</parameters>
+	
+</npc>

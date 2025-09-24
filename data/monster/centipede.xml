@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Centipede" nameDescription="uma centipede" race="venom" experience="30" speed="70" manacost="335">
+  <health now="70" max="70"/>
+  <look type="124" head="0" body="0" legs="0" feet="0" corpse="4289"/>
+  <targetchange interval="2000" chance="6"/>
+  <strategy attack="70" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="2000" min="-10" max="-25" poison="15"/>
+</attacks>
+  
+<defenses armor="0" defense="0"/>
+  
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <loot capacity="600">
+    <item id="2148" countmax="16" chance1="90000"/>
+  </loot>
+</monster>

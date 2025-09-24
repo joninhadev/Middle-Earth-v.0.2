@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Valkyrie" nameDescription="uma valkyrie" race="blood" experience="85" speed="150" manacost="450">
+  <health now="190" max="190"/>
+  <look type="139" head="113" body="38" legs="76" feet="96" corpse="20523"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="10"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-20" max="-50"/>
+
+	<attack name="physical" interval="3250" chance="99" range="7" min="-15" max="-30">
+		<attribute key="shootEffect" value="spear"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0"/>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Stand still!"/>
+    <voice sentence="One more head for me!"/>
+    <voice sentence="Head off!"/>
+  </voices>
+
+<loot capacity="500">
+	<item id="2464" chance="3000"/>
+ 	<item id="2125" chance="400"/>
+ 	<item id="2387" chance="100"/>
+ 	<item id="2458" chance="4000"/>
+ 	<item id="2200" chance="50"/>
+ 	<item id="2463" chance="150"/>
+	<item id="2499" chance="25"/>
+ 	
+ 	<item id="2148" countmax="20" chance1="100000"/>
+	<item id="2674" countmax="4" chance1="10000"/>
+	<item id="2666" countmax="3" chance1="9000"/>
+	<item id="2147" countmax="1" chance1="700"/>
+	<item id="2145" countmax="1" chance1="500"/>
+
+</loot>
+
+</monster>

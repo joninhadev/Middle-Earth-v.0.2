@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lizard Dragon Priest" nameDescription="um lizard dragon priest" race="blood" experience="4850" speed="120" manacost="0">
+<health now="4250" max="4250"/>
+<look type="339" corpse="11277"/>
+<targetchange interval="8000" chance="8"/>
+<strategy attack="100" defense="0"/>
+
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="1"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="0"/>
+	<flag targetdistance="2"/>
+	<flag staticattack="90"/>
+	<flag runonhealth="550"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="1900" min="-224" max="-360"/>
+	
+	<attack name="poison" interval="2300" chance="25" range="5" min="-180" max="-280">
+		<attribute key="shootEffect" value="earth"/>
+		<attribute key="areaEffect" value="greenshimmer"/>
+	</attack>
+	
+	<attack name="fire" interval="2600" chance="35" target="1" range="6" spread="5" min="-160" max="-230">
+		<attribute key="shootEffect" value="redstar"/>
+		<attribute key="areaEffect" value="fireattack"/>
+	</attack>
+	
+	<attack name="poison" interval="3150" chance="45" target="1" range="6" spread="5" min="-100" max="-150">
+		<attribute key="shootEffect" value="earth"/>
+		<attribute key="areaEffect" value="greenbubble"/>
+	</attack>
+	
+	<attack name="poisoncondition" interval="6100" chance="30" range="1" target="1" start="300">
+		<attribute key="areaEffect" value="greenbubble"/>
+	</attack>
+
+</attacks>
+
+	<defenses armor="0" defense="0"/>
+	<elements>
+		<element firePercent="10"/>
+		<element holyPercent="20"/>
+		<element deathPercent="20"/>
+		<element earthPercent="100"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="20"/>
+		<element icePercent="30"/>
+	</elements>
+	
+	<immunities>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	    <immunity paralyze="1"/>
+	</immunities>
+	
+	<voices interval="5000" chance="10">
+		<voice sentence="Ssssss!"/>
+	</voices>
+	
+	<loot>
+		<item id="5876" chance="3000"/> 
+		<item id="2498" chance="220"/> 
+		<item id="8882" chance="210"/> 
+		<item id="2469" chance="220"/> 
+		<item id="7887" chance="250"/> 
+		<item id="2181" chance="550"/> 
+		<item id="2518" chance="620"/> 
+		<item id="3982" chance="550"/> 
+		<item id="2672" countmax="5" chance="10200"/> 	
+		<item id="2168" chance="850"/> 
+		<item id="2149" countmax="5" chance="650"/> 
+		<item id="2148" countmax="65" chance="35000"/> 
+		<item id="2148" countmax="65" chance="35000"/> 
+
+	</loot>
+</monster>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

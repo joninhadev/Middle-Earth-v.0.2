@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="General Azog" nameDescription="General Azog" race="blood" experience="1000000" speed="190" manacost="0">
+  <health now="800000" max="800000"/>
+  <look type="1422" head="20" body="30" legs="40" feet="50" corpse="5527"/>
+  <targetchange interval="5000" chance="70"/>
+  
+<flags>
+	<flag rewardboss="1"/>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="1700" min="-1500" max="-1800"/>
+
+	<attack name="physical" interval="1600" chance="99" range="7" target="1" min="-1500" max="-1700">
+		<attribute key="shootEffect" value="spear"/>
+	</attack>
+	
+	<attack name="physical" interval="1950" chance="35" target="0" radius="2" min="-1500" max="-2000">
+		<attribute key="areaEffect" value="blackspark"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="1000" chance="100" min="80" max="110">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+<elements>
+	<element physicalPercent="60"/>
+	<element icePercent="60"/>
+	<element poisonPercent="60"/>
+	<element firePercent="60"/>
+	<element energyPercent="60"/>
+	<element holyPercent="60"/>
+	<element deathPercent="60"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+<voices interval="10000" chance="5">
+	<voice sentence="Vamos monotetar as mulheres!"/>
+</voices>
+
+<loot>
+	<item name="crystal coin" countmin="10" countmax="50" chance="1000000"/>
+	<item name="golden boots" chance="3000"/>
+	<item name="nightmare shield" chance="3000"/>
+	<item name="magic plate armor" chance="5000"/>
+	<item name="valar kilt" chance="5000"/>
+	<item name="gladium aureum" chance="4000"/>
+	<item name="mjolnir" chance="5000"/>
+	<item name="battlefury axe" chance="4000"/>
+	<item name="bone fiddle" chance="3200"/>
+</loot>
+
+</monster>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Minotaur Amazon" nameDescription="a minotaur amazon" race="blood" experience="12500" speed="150" manacost="0">
+	<health now="12000" max="12000" />
+	<look type="608" corpse="23371" />
+	<targetchange interval="2000" chance="40" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="4" />
+		<flag staticattack="90" />
+		<flag runonhealth="240" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="50" />
+		<attack name="manadrain" interval="2000" chance="10" length="8" spread="0" min="-50" max="-305">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="lifedrain" interval="2000" chance="16" radius="4" target="0" min="-500" max="-700">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+		<attack name="physical" interval="2000" chance="100" range="7" min="-400" max="-650">
+			<attribute key="shootEffect" value="huntingspear" />
+			<attribute key="areaEffect" value="explosionarea" />
+		</attack>
+		<attack name="bleedcondition" interval="2000" chance="40" target="1" radius="4" min="-500" max="-750">
+			<attribute key="shootEffect" value="throwingknife" />
+			<attribute key="areaEffect" value="redspark" />
+		</attack>
+		<attack name="minotaur amazon paralyze" interval="2000" chance="15" />
+	</attacks>
+	<defenses armor="35" defense="35" />
+	<elements><element physicalPercent="5"/>
+	<element physicalPercent="15"/>
+	<element icePercent="20"/>
+	<element poisonPercent="40"/>
+	<element firePercent="20"/>
+	<element energyPercent="35"/>
+	<element holyPercent="25"/>
+	<element deathPercent="25"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="I'll protect the herd!" />
+		<voice sentence="Never surrender!" />
+		<voice sentence="You won't hurt us!" />
+		<voice sentence="I will not allow your evil to continue!" />
+	</voices>
+	<loot>
+		<item id="23571" chance="500"/>
+		<item id="2148" countmax="199" chance="99500"/>	<!-- gold coin -->
+		<item id="2152" countmax="3" chance="33000"/>	<!-- platinum coin -->
+		<item id="5878" chance="5000"/>					<!-- minotaur leather -->
+		<item id="12428" countmax="2" chance="4700"/>	<!-- minotaur horn -->
+		<item id="23545" chance="350"/>	<!-- mino lance -->
+		<item id="23546" chance="50"/>	<!-- mino shield -->
+	</loot>
+</monster>

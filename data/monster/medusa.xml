@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Medusa" nameDescription="uma medusa" race="blood" experience="7500" speed="140" manacost="0">
+  <health now="12500" max="12500"/>
+  <look type="330" corpse="10524"/>
+  <targetchange interval="9000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  
+   <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="50"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+	
+<elements>
+		<element firePercent="10"/>
+		<element holyPercent="20"/>
+		<element deathPercent="20"/>
+		<element earthPercent="100"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="20"/>
+		<element icePercent="30"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+	
+<attacks>
+	<attack name="melee" interval="1600" min="-312" max="-384"/>
+	
+	<attack name="speed" interval="1800" chance="25" radius="7" target="1" speedchange="-800" duration="3000">
+		<attribute key="areaEffect" value="poff"/>
+	</attack>
+	
+	<attack name="death" interval="2200" chance="35" range="7" radius="3" target="1" min="-270" max="-360">
+		<attribute key="shootEffect" value="suddendeath"/>
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	
+	<attack name="lifedrain" interval="2450" chance="30" radius="1" target="1" min="-260" max="-330">
+		<attribute key="areaEffect" value="yalaharighost"/>
+	</attack>
+	
+	<attack name="poison" interval="2800" chance="50" target="1" radius="3" min="-220" max="-280">
+		<attribute key="areaEffect" value="yellowbubble"/>
+	</attack>
+	
+	<attack name="outfit" interval="15500" chance="75" range="7" monster="gargoyle" duration="15000">
+	 <attribute key="areaEffect" value="smoke"/>
+	</attack>
+	
+	<attack name="poisoncondition" interval="6100" chance="60" range="1" target="1" start="300">
+		<attribute key="areaEffect" value="greenbubble"/>
+	</attack>
+
+</attacks>
+	
+    <defenses armor="0" defense="0">
+		
+	</defenses>
+	
+	<loot>
+	<item id="10316" chance="30"/> 
+	<item id="8888" chance="100"/> 
+	<item id="2648" chance="5000"/> 
+	<item id="11303" chance="35"/> 
+	<item id="2393" chance="420"/> 
+	<item id="7380" chance="320"/> 
+	<item id="2536" chance="250"/>
+	<item id="11226" chance="1800"/><!-- Medusa Cabelo -->	
+	<item id="25386" chance="7000"/><!-- Some Grimeleech Wings -->
+	<item id="2148" countmax="20" chance1="25000"/>
+	<item id="2148" countmax="25" chance1="25000"/>
+	<item id="2148" countmax="35" chance1="25000"/>
+	<item id="2169" chance="450"/> 
+	<item id="2011" chance="4200"/> 
+	<item id="2150" countmax="2" chance1="300"/> 
+	<item id="2144" countmax="2" chance1="300"/> 
+	<item id="2143" countmax="2" chance1="300"/> 
+	<item id="2145" countmax="2" chance1="300"/> 
+			
+    </loot>
+	
+</monster>
+
+
+

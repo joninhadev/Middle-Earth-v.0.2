@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "xstring": "cpp",
+        "utility": "cpp",
+        "ios": "cpp"
+    },
+    "cmake.sourceDirectory": "C:/Users/jonin/OneDrive/Documents/otserver/engine"
+}

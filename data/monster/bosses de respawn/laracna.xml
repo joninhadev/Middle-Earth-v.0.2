@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Laracna" nameDescription="Laracna" race="venom" experience="15000" speed="280" manacost="0" >
+  <health now="15000" max="15000"/>
+	<look type="208" head="20" body="30" legs="40" feet="50" corpse="5977"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="1950" min="-240" max="-480"/>
+	
+	<attack name="poison" interval="1750" chance="32" range="7" min="-250" max="-350">
+		<attribute key="shootEffect" value="poisonarrow"/>
+		<attribute key="areaEffect" value="poison"/>
+	</attack>
+	
+	<attack name="poisoncondition" interval="2150" chance="20" range="3" tick="1500" start="30">
+		<attribute key="shootEffect" value="poison"/>
+		<attribute key="areaEffect" value="poison"/>
+	</attack>
+	
+	<attack name="speed" interval="6000" chance="25" range="7" speedchange="-800" duration="5000">
+		<attribute key="shootEffect" value="poison"/>
+		<attribute key="areaEffect" value="poison"/>
+	</attack>
+	
+	<attack name="poisonfield" interval="1800" chance="99" range="7" radius="3" target="1">
+		<attribute key="shootEffect" value="poison"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="500" chance="100" min="50" max="70"/>
+</defenses>
+  
+<elements><element physicalPercent="5"/>
+	<element physicalPercent="20"/>
+	<element icePercent="20"/>
+	<element poisonPercent="99"/>
+	<element firePercent="10"/>
+	<element energyPercent="20"/>
+	<element holyPercent="20"/>
+	<element deathPercent="20"/>
+</elements>
+
+<immunities>
+	<immunity drown="0"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+<summons maxSummons="2">
+	<summon name="giant spider" interval="4000" chance="13" max="2"/>
+</summons>
+  
+<loot>
+	<item id="2152" countmax="7" chance1="20000" chancemax="0"/> 
+	<item id="2149" countmax="5" chance1="100000" chancemax="0"/> 
+	<item id="2182" chance="100000"/> 
+	<item id="2536" chance="2000"/> 
+	<item id="2138" chance="2000"/> 
+	<item id="2158" chance="100000"/> 
+	<item id="2430" chance="7000"/> 
+	<item id="2195" chance="2000"/> 
+	<item id="5953" chance="20000"/>
+</loot>
+
+</monster>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Crypt Shambler" nameDescription="um crypt shambler" race="undead" experience="195" speed="150" manacost="580">
+  <health now="330" max="330"/>
+  <look type="100" head="0" body="0" legs="0" feet="0" corpse="3028"/>
+  <targetchange interval="2000" chance="4"/>
+  <strategy attack="70" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1800" min="-65" max="-140"/>
+    <attack name="lifedrain" interval="2000" chance="23" range="1" min="-25" max="-65"/>
+  </attacks>
+  <defenses armor="0" defense="0"/>
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Uhhhhhhh!"/>
+    <voice sentence="Aaaaahhhh!"/>
+    <voice sentence="Hoooohhh!"/>
+    <voice sentence="Chhhhhhh!"/>
+  </voices>
+  <loot capacity="500">
+	<item id="2459" chance="2000"/> 
+ 	<item id="2377" chance="500"/> 
+ 	<item id="2541" chance="500"/> 
+ 	<item id="2450" chance="1000"/> 
+	<item id="5930" countmax="2" chance1="5000"/> 
+	<item id="5925" countmax="1" chance1="2000"/> 
+
+ 	
+	<item id="2148" countmax="20" chance1="90000"/> 
+	<item id="2145" countmax="1" chance1="600"/> 
+ 	
+  </loot>
+</monster>

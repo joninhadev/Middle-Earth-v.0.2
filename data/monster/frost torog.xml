@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Frost Torog" nameDescription="um frost torog" race="undead" experience="1500" speed="130" manacost="0">
+  <health now="1600" max="1600"/>
+  <look type="261" head="20" body="30" legs="40" feet="50" corpse="7282"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+  <attacks>
+	<attack name="melee" interval="2000" min="-96" max="-224"/>
+    
+	<attack name="speed" interval="1000" chance="13" length="8" spread="0" speedchange="-500" duration="20000">
+		<attribute key="areaEffect" value="poff"/>
+	</attack>
+	
+	<attack name="physical" interval="2000" chance="20" range="7" min="-120" max="-200">
+		<attribute key="shootEffect" value="largerock"/>
+	</attack>
+  </attacks>
+  
+  <defenses armor="0" defense="0"/>
+<elements>
+	<element physicalPercent="20"/>
+	<element earthPercent="30"/>
+	<element firePercent="15"/>
+	<element deathPercent="20"/>
+	<element energyPercent="50"/>
+	<element holyPercent="20"/>
+	<element icePercent="99"/>
+</elements> 
+  <immunities>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+	<immunity ice="1"/>
+  </immunities>
+  
+  <voices interval="2000" chance="5">
+    <voice sentence="Chrr."/>
+  </voices>
+  
+  <loot>
+    <item id="2148" countmax="98" chance1="45000" chancemax="0"/> 
+    <item id="2144" countmax="1" chance1="500" chancemax="0"/> 
+    <item id="2145" countmax="1" chance1="500" chancemax="0"/>
+	<item id="10578" chance="2000"/> 
+    <item id="7441" chance="2222"/> 
+	<item id="7901" chance="90"/> 
+      
+          <item id="2146" countmax="1" chance1="500" chancemax="0"/> 
+          <item id="2396" chance="250"/> 
+          <item id="2445" chance="200"/> 
+          <item id="7455" chance="120"/> 
+		  <item id="7407" chance="80"/> 
+       
+  </loot>
+  
+</monster>

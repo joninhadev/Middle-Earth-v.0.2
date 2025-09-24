@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Pirate Corsair" nameDescription="um pirate corsair" race="blood" experience="350" speed="150" manacost="0">
+  <health now="675" max="675"/>
+  <look type="98" corpse="20475"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="1800" min="-70" max="-160"/>
+	
+	<attack name="physical" interval="2850" chance="99" range="5" min="-60" max="-145">
+		<attribute key="shootEffect" value="throwingknife"/>
+	</attack>
+</attacks>
+  
+<defenses armor="0" defense="0"/>
+  
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+  </immunities>
+<loot>
+    <item id="11219" chance="400"/>
+	<item id="2385" chance="6000"/>
+	<item id="2489" chance="350"/>
+	<item id="2521" chance="500"/>
+	<item id="5462" chance="350"/>
+
+	<item id="6096" chance="1500"/>
+	<item id="2238" chance="3000"/>
+	<item id="6097" countmax="1" chance1="3000" chancemax="0"/>
+	<item id="6098" countmax="1" chance1="2000" chancemax="0"/>
+	<item id="6126" countmax="1" chance1="1000" chancemax="0"/>
+ 	
+	<item id="2148" countmax="50" chance1="40000" chancemax="0"/>
+	<item id="2114" chance="50"/>
+</loot>
+</monster>

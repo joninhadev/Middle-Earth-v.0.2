@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Scatha" nameDescription="Scatha" race="blood" experience="140000" speed="280">
+<health now="28000" max="28000"/>
+<look type="248" head="20" body="30" legs="40" feet="50" corpse="7091"/>
+<targetchange interval="6000" chance="30"/>
+<strategy attack="100" defense="100"/>
+
+<flags>
+    <flag rewardboss="1" />
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-640" max="-1040"/>
+
+	<attack name="ice" interval="2300" chance="99" range="7" radius="6" target="1" min="-420" max="-590">
+		<attribute key="shootEffect" value="ice"/>
+		<attribute key="areaEffect" value="icearea"/>
+	</attack>
+
+	<attack name="ice" interval="2150" chance="25" length="8" spread="3" min="-500" max="-800">
+		<attribute key="areaEffect" value="icearea"/>
+	</attack>
+	
+	<attack name="speed" interval="5200" chance="50" range="7" target="1" radius="5" speedchange="-800" duration="5000">
+		<attribute key="shootEffect" value="ice"/>
+		<attribute key="areaEffect" value="giantice"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="1000" chance="100" min="50" max="80"/>
+</defenses>
+
+<elements>
+	<element physicalPercent="35"/>
+	<element icePercent="95"/>
+	<element poisonPercent="95"/>
+	<element firePercent="10"/>
+	<element energyPercent="70"/>
+	<element holyPercent="60"/>
+	<element deathPercent="50"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+
+<summons maxSummons="2">
+	<summon name="frost dragon" interval="5000" chance="8" max="2"/>
+</summons>
+	
+<voices interval="10000" chance="10">
+	<voice sentence="Congelarei suas almas!" yell="1"/>
+</voices>
+	
+<loot capacity="900">
+	<item id="13539" unique="1" chance="100"/> 
+	<item id="2396" chance="8000"/> 
+	<item id="2640" chance="100"/> 
+    <item id="2445" chance="200"/> 
+    <item id="7455" chance="3000"/> 
+	<item id="7407" chance="3000"/> 
+	<item id="7898" chance="400"/> 
+	<item id="7895" chance="400"/> 
+	<item id="2536" chance="1500"/> 
+    <item id="2158" chance="5500"/>
+    <item id="2198" chance="3000"/>
+	<item id="2146" countmax="5" chance1="15000" chancemax="0"/> 
+	<item id="2547" countmax="45" chance1="15000" chancemax="0"/> 
+       
+
+</loot>
+
+</monster>

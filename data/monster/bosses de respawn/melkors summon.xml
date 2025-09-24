@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Melkors Summon" nameDescription="Melkors Summon" race="blood" experience="600000" speed="150" manacost="0">
+  <health now="200000" max="200000"/>
+  <look type="244" corpse="6336"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="100"/>
+  
+<flags>
+    <flag rewardboss="1" />
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="1900" min="-1040" max="-1440" chance="100"/>
+	
+	<attack name="melee" interval="2170" min="-1440" max="-1840" chance="15">
+		<attribute key="areaEffect" value="stun"/>
+	</attack>
+
+	<attack name="physical" interval="2550" chance="25" range="7" target="1" min="-750" max="-1000">
+		<attribute key="shootEffect" value="largerock"/>
+	</attack>
+	
+	<attack name="physical" interval="3150" chance="33" target="0" radius="5" min="-500" max="-700">
+		<attribute key="areaEffect" value="groundshaker"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	
+</defenses>
+
+<elements><element physicalPercent="5"/>
+	<element physicalPercent="5"/>
+	<element icePercent="10"/>
+	<element poisonPercent="20"/>
+	<element firePercent="30"/>
+	<element energyPercent="30"/>
+	<element holyPercent="12"/>
+	<element deathPercent="20"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+
+<voices interval="5000" chance="10">
+    <voice sentence="FOR MELKOR!!!"/>
+    <voice sentence="RAAARRR!"/>
+    <voice sentence="GRRRRRR!"/>
+</voices>
+  
+  <loot>
+    <item id="27628" chance="1000"/> 
+    <item id="11302" chance="1500"/> 
+	<item id="8886" chance="1000"/> 
+    <item id="9777"  chance="1550"/> 
+	<item id="11303" chance="1500"/> 
+	<item id="2393" chance="25000"/> 
+    <item id="6553" chance="1600"/> 
+	<item id="2444" chance="1700"/>  
+	<item id="2152" countmax="25" chance1="25600"/>
+	<item id="2152" countmax="25" chance1="25600"/>
+	<item id="2152" countmax="25" chance1="25600"/>
+  </loot>
+
+</monster>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Deathstrike" nameDescription="Deathstrike" race="blood" experience="600000" speed="280" manacost="0">
+  <health now="90000" max="90000"/>
+  <look type="500" corpse="18384"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="90" defense="10"/>
+	<flags>
+	    <flag rewardboss="1" />
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="0"/>
+		<flag staticattack="50"/>
+		<flag runonhealth="2000"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1300" skill="110" attack="120"/>
+		<attack name="speed" interval="2000" chance="20" range="7" speedchange="-400" duration="2500">
+			<attribute key="shootEffect" value="explosion"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="100" range="7" min="-820" max="-950">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="100" radius="4" range="4" target="1" min="-1000" max="-1300">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="energy" interval="750" chance="10" radius="4" range="4" target="1" min="-450" max="-800">
+			<attribute key="areaEffect" value="energy"/>			
+		</attack>
+		<attack name="energy" interval="1000" chance="12" radius="4" range="4" target="1" min="-550" max="-1000">
+			<attribute key="areaEffect" value="energy"/>			
+		</attack>
+		<attack name="physical" interval="1000" chance="10" length="7" spread="2" min="-800" max="-1460">
+			<attribute key="areaEffect" value="stun"/>
+		</attack>
+		<attack name="melee" interval="3000" chance="25" range="7" radius="3" target="1" min="-500" max="-850">
+			<attribute key="areaEffect" value="explosionarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="1000" chance="15" min="3000" max="5000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements><element physicalPercent="5"/>
+     <element firePercent="50"/>
+     <element earthPercent="90"/>
+     <element icePercent="40"/>
+     <element deathPercent="30"/>
+     <element physicalPercent="30"/>
+     <element energyPercent="40"/>
+     <element holyPercent="40"/>
+           
+	</elements>
+	<immunities>
+		<immunity outfit="1"/>
+		<immunity drown="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Deeestructiooon!"/>
+		<voice sentence="Maaahhhrrr!"/>
+		<voice sentence="You are nothing!"/>
+		<voice sentence="Taaake ... this!"/>
+	</voices>     
+  <loot>
+		<item id="2160" countmax="3" chance="53000"/>
+		<item id="18415" countmax="10" chance="53000"/>
+		<item id="2472" unique="1" chance="800"/>             
+		<item id="12645" chance="1200"/>      
+		<item id="18406" chance="1800"/> 
+		<item id="18410" chance="1500"/> 
+		<item id="15414" chance="1350"/><!-- ornate mace--> 
+		<item id="18451" chance="1350"/><!-- Crystaline axe--> 
+		<item id="18465" chance="1350"/><!-- Shiny Blade--> 
+	</loot>
+</monster>
+

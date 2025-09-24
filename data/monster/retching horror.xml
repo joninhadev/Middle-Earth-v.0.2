@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Retching Horror" nameDescription="Retching Horror" race="fire" experience="9000" speed="150" manacost="0">
+  <health now="8700" max="8700"/>
+  <look type="588" corpse="22508"/>
+  <targetchange interval="4000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+	 <attacks>
+		<attack name="melee" interval="1800" min="-800" max="-1000"/>
+		<attack name="drunk" interval="2000" chance="10" length="4" spread="3" target="1" duration="5000">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="15" radius="4" target="1" speechange="-700" duration="15000">
+		<attribute key="shootEffect" value="whirlwindclub"/>
+			<attribute key="areaEffect" value="stun"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="15" radius="4" target="0" min="-480" max="-620">
+			<attribute key="areaEffect" value="blackspark"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="15" radius="1" target="1" min="-560" max="-660">
+			<attribute key="shootEffect" value="sniperarrow"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="10" radius="1" target="1" min="-200" max="-350">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="fireattack"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0"/>
+	<elements>		
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="100"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Wait for us, little maggot..." />
+		<voice sentence="We will devour you..."/>
+		<voice sentence="My little beetles, go forth, eat, feast!"/>
+	</voices>     
+	<loot>
+		<item id="2148"  countmax="100"  chance="100000"/> 
+		<item id="2152"  countmax="9"  chance="100000"/> 
+		<item id="2514"  chance="100"/> 
+		<item id="18400"  chance="250"/> <!-- gill legs-->
+		<item id="22363"  chance="3700"/> 
+		<item id="2789"  countmax="2"  chance="14000"/> 
+		<item id="7590"  chance="12500"/> 
+		<item id="22539"  chance="16400"/> 
+		<item id="22541"  chance="14000"/> 
+</loot>
+</monster>

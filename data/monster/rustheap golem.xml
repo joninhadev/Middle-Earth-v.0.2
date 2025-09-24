@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Rustheap Golem" nameDescription="um rustheap golem" race="blood" experience="12500" speed="150" manacost="0">
+	<health now="13000" max="13000" />
+	<look type="603" corpse="23355" />
+  <targetchange interval="2000" chance="5" />
+  <strategy attack="100" defense="0" />
+  <flags>
+    <flag summonable="0" />
+    <flag attackable="1" />
+    <flag hostile="1" />
+    <flag illusionable="0" />
+    <flag convinceable="0" />
+    <flag pushable="0" />
+    <flag canpushitems="1" />
+    <flag canpushcreatures="1" />
+    <flag targetdistance="1" />
+    <flag staticattack="90" />
+    <flag runonhealth="0" />
+  </flags>
+  <attacks>
+    <attack name="melee" interval="1250" min="-350" max="-450"/>
+    <attack name="rustheap golem wave" interval="2000" chance="10" min="-600" max="-900" />
+		<attack name="death" interval="1810" chance="55" range="7" radius="2" target="1" min="-600" max="-900">
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+  </attacks>
+  <defenses armor="0" defense="0">
+    <defense name="speed" interval="2000" chance="11" speedchange="428" duration="6000">
+      <attribute key="areaEffect" value="blueshimmer" />
+    </defense>
+  </defenses>
+<elements><element physicalPercent="5"/>
+	<element physicalPercent="20"/>
+	<element icePercent="25"/>
+	<element poisonPercent="80"/>
+	<element firePercent="25"/>
+	<element energyPercent="60"/>
+	<element holyPercent="80"/>
+	<element deathPercent="90"/>
+</elements>
+  <immunities>
+    <immunity invisible="1" />
+    <immunity paralyze="1" />
+	<immunity lifedrain="1" />
+  </immunities>
+	<voices interval="2000" chance="5">
+		<voice sentence="*clatter*" />
+		<voice sentence="*krrk*" />
+		<voice sentence="*frzzp*" />
+	</voices>
+	<loot>
+		<item id="23567" chance="1000" /><!-- necromantic rust -->
+		<item id="2148" countmax="290" chance="100000" /><!-- gold coin -->
+		<item id="2152" countmax="3" chance="58310" /><!-- platinum coin -->
+		<item id="2391" chance="250" /><!-- war hammer -->
+		<item id="2195" chance="150" /><!-- BOH -->
+	</loot>
+</monster>

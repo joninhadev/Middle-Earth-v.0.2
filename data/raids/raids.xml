@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+	<!--Invasões Normais-->
+	<raid name="Drakes" file="invasoes/drakes.xml" interval2="30" margin="1000" enabled="no"/>
+	<raid name="Jorge" file="invasoes/jorge.xml" interval2="30" margin="1000" enabled="no"/>
+	<raid name="Zorba" file="invasoes/zorba.xml" interval2="30" margin="1000" enabled="no"/>
+	<raid name="Eddie" file="invasoes/eddie.xml" interval2="30" margin="1000" enabled="no"/>
+	<raid name="Turisas" file="invasoes/turisas.xml" interval2="30" margin="1000" enabled="no" />
+	<raid name="Inferno" file="invasoes/inferno.xml" interval2="30" margin="1000" enabled="no"/>
+	<raid name="pirata" file="invasoes/pirata.xml" interval2="30" margin="1000" enabled="no"/>
+	<raid name="quara" file="invasoes/quara.xml" interval2="30" margin="1000" enabled="no"/>
+	<raid name="achilles" file="invasoes/achilles.xml" interval2="30" margin="1000" enabled="no" />
+	<raid name="serpent" file="invasoes/serpent.xml" interval2="30" margin="1000" enabled="no"/>
+	<raid name="baby sladran" file="invasoes/baby sladran.xml" interval2="30" margin="1000" enabled="no"/>	
+	<raid name="Nazguls" file="invasoes/nazguls.xml" interval2="30" margin="1000" enabled="no"/>
+	<raid name="Ferumbras" file="invasoes/ferumbras.xml" interval2="30" margin="1000" enabled="no"/>
+	<raid name="Infernatil" file="invasoes/infernatil.xml" interval2="30" margin="1000" enabled="no"/>
+	
+	<!--Montarias-->
+	<raid name="Crystal Wolf" file="montarias/crystal wolf.xml" interval2="30" margin="1000" enabled="no"/> 
+    <raid name="Draptor" file="montarias/draptor.xml" interval2="30" margin="1000" enabled="no" /> 
+    <raid name="Midnight Panther" file="montarias/midnight panther.xml" interval2="30" margin="1000" enabled="no"/> 
+    <raid name="Crustacea Gigantica" file="montarias/crustacea gigantica.xml" interval2="30" margin="1000" enabled="no"/> 
+	<raid name="Undead Cavebear" file="montarias/undead cavebear.xml" interval2="30" margin="1000" enabled="no"/> 
+	<raid name="Sandstone Scorpion" file="montarias/sandstone scorpion.xml" interval2="30" margin="1000" enabled="no"/> 
+	<raid name="Noble Lion" file="montarias/noble lion.xml" interval2="30" margin="1000" enabled="no"/> 
+</raids>

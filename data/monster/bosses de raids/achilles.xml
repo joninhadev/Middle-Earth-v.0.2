@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Achilles" nameDescription="Achilles" race="blood" experience="500000" speed="400" manacost="0">
+  <health now="200000" max="200000"/>
+  <look type="134" head="78" body="57" legs="95" feet="57" addon="2" corpse="3058"/>
+  <targetchange interval="1900" chance="100"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+  	<flag rewardboss="1"/>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="500" min="-700" max="-1500"/>
+	
+	<attack name="physical" interval="2200" chance="99" range="10" min="-1200" max="-1700">
+		<attribute key="shootEffect" value="spear"/>
+	</attack>
+	
+	<attack name="physical" interval="2200" chance="25" target="0" radius="2" min="-900" max="-1800">
+		<attribute key="areaEffect" value="blackspark"/>
+	</attack>
+</attacks>
+  
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="600" chance="300" min="500" max="1000"/>
+</defenses>
+  
+<immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+	<immunity drown="0"/>
+	<immunity ice="0"/>
+	<immunity holy="0"/>
+	<immunity death="0"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+
+	<elements><element physicalPercent="5"/>
+		<element physicalPercent="35"/>
+		<element icePercent="35"/>
+		<element poisonPercent="35"/>
+		<element firePercent="35"/>
+		<element energyPercent="35"/>
+		<element holyPercent="35"/>
+		<element deathPercent="35"/>
+	</elements>
+  
+<voices interval="5000" chance="10">
+</voices>
+  
+	<loot capacity="900">
+    <item id="11302" chance="10000"/>
+ 	<item id="9776" chance="10000"/>
+ 	<item id="9777" unique="1" chance="10000"/>
+ 	<item id="9932" chance="10000"/>
+ 	<item id="6528" unique="1" chance="10000"/>
+ 	<item id="2425" unique="1" chance="10000"/>
+ 	<item id="8906" unique="1" chance="10000"/>
+	</loot>
+	
+</monster>

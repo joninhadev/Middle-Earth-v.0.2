@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Stone Rhino" nameDescription="um stone rhino" race="blood" experience="2500" speed="150" manacost="290">
+	<health now="2000" max="2000" />
+	<look type="936" corpse="27750" />
+	<targetchange interval="5000" chance="0" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="1" />
+		<flag convinceable="1" />
+		<flag pushable="1" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="0" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-260" max="-380"/>
+		<attack name="physical" interval="2000" chance="10" range="7" min="200" max="300">
+			<attribute key="shootEffect" value="smallstone" />
+		</attack>
+	</attacks>
+	<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="5"/>
+		<element icePercent="20"/>
+</elements>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+	<voices interval="2000" chance="7">
+		<voice sentence="Snarl!" />
+		<voice sentence="SNIFF!" />
+	</voices>
+	<loot>
+		<item id="5925" chance="50320" />
+		<item name="knight legs" chance="450"/>
+		<item name="knight armor" chance="450"/>
+		<item id="27054" chance="50320" />
+		<item id="27056" chance="50320" />
+		<item id="27057" chance="50320" />
+	</loot>
+</monster>

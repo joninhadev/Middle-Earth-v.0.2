@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Ihra" script="default.lua" access="3" walkinterval="0">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="128" head="77" body="0" legs="97" feet="114" addon="0" corpse="3128"/>
+	
+  <parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá. Como posso te ajudar |PLAYERNAME|?"/>
+		<parameter key="shop_buyable" value="shovel,2554,20;rope,2120,20;fishing rod,2580,50;backpack,1988,10;pick,2553,20;carpenter hammer,2557,30;iron hammer,2422,100;parcel,2595,29;label,2599,1;letter,2597,20;"/>
+ </parameters>
+</npc>
+
+

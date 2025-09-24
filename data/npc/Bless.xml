@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<npc name="Blessing" script="npcbless.lua" walkinterval="0" floorchange="0">
+<health now="100" max="100"/>
+<look type="154" head="114" body="119" legs="132" feet="114" addons="3"/>
+<parameters>
+<parameter key="message_greet" value="Ola {|PLAYERNAME|}, para saber o preco da bless basta digitar {valor}, se quiser comprar bless digite {bless}!" />
+</parameters>
+</npc>

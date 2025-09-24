@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="As tropas de mordor estão chegando a Minas Tirith comandadas por Azog!"/>
+<announce delay="45000" type="Event" message="Venham bravos guerreiros de Gondor, pois os guardas do castelo já abandonaram seus postos."/>
+<announce delay="90000" type="Event" message="Nas antigas escrituras constam que Azog é o mais poderoso dos Orcs!"/>
+<announce delay="115000" type="Event" message="Os orcs chegaram na base da cidade, corram!"/>
+
+<areaspawn delay="120000" fromx="1369" fromy="1352" fromz="7" tox="1374" toy="1358" toz="7">
+	<monster name="Orc Warlord" amount="5" />
+	<monster name="Orc Leader" amount="5" />
+</areaspawn>
+
+<areaspawn delay="130000" fromx="1369" fromy="1352" fromz="7" tox="1374" toy="1358" toz="7">
+	<monster name="Orc Berserker" amount="5" />
+	<monster name="Orc Warrior" amount="5" />
+</areaspawn>
+
+<areaspawn delay="140000" fromx="1369" fromy="1352" fromz="7" tox="1374" toy="1358" toz="7">
+	<monster name="Orc Berserker" amount="5" />
+	<monster name="Orc Warrior" amount="5" />
+</areaspawn>
+
+<announce delay="149000" type="Event" message="Os invasores estão subindo a cidade!"/>
+
+<areaspawn delay="150000" fromx="1359" fromy="1366" fromz="6" tox="1363" toy="1375" toz="6">
+	<monster name="Orc Warlord" amount="5" />
+	<monster name="Orc Leader" amount="5" />
+</areaspawn>
+
+<areaspawn delay="160000" fromx="1359" fromy="1366" fromz="6" tox="1363" toy="1375" toz="6">
+	<monster name="Orc Berserker" amount="5" />
+	<monster name="Orc Warrior" amount="5" />
+</areaspawn>
+
+<areaspawn delay="170000" fromx="1359" fromy="1366" fromz="6" tox="1363" toy="1375" toz="6">
+	<monster name="Orc Berserker" amount="5" />
+	<monster name="Orc Warrior" amount="5" />
+</areaspawn>
+
+<areaspawn delay="180000" fromx="1350" fromy="1375" fromz="5" tox="1353" toy="1377" toz="5">
+	<monster name="Orc Warlord" amount="3" />
+	<monster name="Orc Leader" amount="3" />
+</areaspawn>
+
+<areaspawn delay="185000" fromx="1350" fromy="1375" fromz="5" tox="1353" toy="1377" toz="5">
+	<monster name="Orc Berserker" amount="5" />
+	<monster name="Orc Warrior" amount="5" />
+</areaspawn>
+
+<areaspawn delay="190000" fromx="1350" fromy="1375" fromz="5" tox="1353" toy="1377" toz="5">
+	<monster name="Orc Berserker" amount="5" />
+	<monster name="Orc Warrior" amount="5" />
+</areaspawn>
+
+<announce delay="249000" type="Event" message="Eles chegaram ao topo de Minas Tirith, venham ajudar!"/>
+
+<areaspawn delay="250000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Orc Warlord" amount="8" />
+	<monster name="Orc Leader" amount="8" />
+</areaspawn>
+
+<areaspawn delay="290000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Orc Warlord" amount="8" />
+	<monster name="Orc Leader" amount="8" />
+</areaspawn>
+
+<areaspawn delay="330000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Orc Warlord" amount="8" />
+	<monster name="Orc Leader" amount="8" />
+</areaspawn>
+
+<singlespawn delay="335000" name="General Azog" x="1334" y="1360" z="2" />
+<announce delay="337000" type="Event" message="O Azog chegou no topo da cidade, corram!"/>
+
+<areaspawn delay="345000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Orc Warlord" amount="8" />
+	<monster name="Orc Leader" amount="8" />
+</areaspawn>
+
+<areaspawn delay="350000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Orc Spearman" amount="10" />
+</areaspawn>
+
+<areaspawn delay="360000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Orc Warlord" amount="8" />
+	<monster name="Orc Leader" amount="8" />
+</areaspawn>
+
+<areaspawn delay="365000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Orc Spearman" amount="10" />
+</areaspawn>
+
+<areaspawn delay="385000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Orc Warlord" amount="8" />
+	<monster name="Orc Leader" amount="8" />
+</areaspawn>
+
+<areaspawn delay="390000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Orc Spearman" amount="10" />
+</areaspawn>
+
+<areaspawn delay="400000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Orc Warlord" amount="8" />
+	<monster name="Orc Leader" amount="8" />
+</areaspawn>
+
+</raid>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="blightwalker" nameDescription="um blightwalker" race="undead" experience="4350" speed="150" manacost="0">
+  <health now="8900" max="8900"/>
+  <look type="246" corpse="6354"/>
+  <targetchange interval="7000" chance="8"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+    <attack name="melee" interval="2000" min="-120" max="-240"/>
+	
+    <attack name="physical" interval="2400" chance="99" range="7" min="-150" max="-400">
+		<attribute key="shootEffect" value="suddendeath"/>
+		<attribute key="areaEffect" value="mortarea"/>
+    </attack>
+	
+    <attack name="manadrain" interval="2150" chance="25" radius="5" min="-150" max="-350">
+		<attribute key="areaEffect" value="redshimmer"/>
+	</attack>
+	
+	<attack name="death" interval="2450" chance="20" radius="7" target="0" min="-200" max="-300">
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="3100" chance="50" min="75" max="125">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+  
+  <elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="100"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="I can see you decaying!"/>
+	<voice sentence="Let me taste your mortality!"/>
+  </voices>
+  
+<loot>
+	<item id="2148" countmax="98" chance="25000"/> 
+	<item id="2230" chance="6666"/> 
+	<item id="2436" chance="400"/>
+	<item id="7388" chance="70"/>
+	<item id="2260" chance="4500"/>
+	<item id="5922" chance="30000"/>
+	
+		<item id="6500" countmax="2" chance="2222"/> 
+		<item id="5944" chance="1667" countmax="1"/>
+		<item id="2550" chance="5000"/>
+	
+</loot>
+</monster>

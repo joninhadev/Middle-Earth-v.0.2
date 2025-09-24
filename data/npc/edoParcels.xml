@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Bastahd" script="default.lua" access="3" walkinterval="0">
+	<mana now="10" max="10"/>
+	<health now="10" max="10"/>
+	<look type="128" head="77" body="0" legs="97" feet="114" addon="0" corpse="3128"/>
+	
+<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá. Como posso te ajudar |PLAYERNAME|?"/>
+		<parameter key="shop_buyable" value="parcel,2595,10;label,2599,5;label,2597,8;"/>
+ </parameters>
+</npc>
+

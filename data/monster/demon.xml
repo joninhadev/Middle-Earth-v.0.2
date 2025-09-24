@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demon" nameDescription="um demon" race="fire" experience="8200" speed="150" manacost="0">
+  <health now="5500" max="5500"/>
+  <look type="35" head="0" body="0" legs="0" feet="0" corpse="2916"/>
+  <targetchange interval="8000" chance="10"/>
+  <strategy attack="100" defense="100"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-240" max="-440"/>
+
+	<attack name="manadrain" interval="2700" chance="23" range="8" min="-90" max="-150"/>
+
+	<attack name="energy" interval="2250" chance="15" length="8" spread="0" min="-300" max="-400">
+	<attribute key="areaEffect" value="energy"/>
+	</attack>
+
+	<attack name="fire" interval="1900" chance="31" range="8" radius="7" target="1" min="-140" max="-230">
+	<attribute key="shootEffect" value="fire"/>
+	<attribute key="areaEffect" value="firearea"/>
+	</attack>
+
+	<attack name="firefield" interval="2400" chance="35" range="8" radius="3" target="1">
+	<attribute key="shootEffect" value="fire"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="6000" chance="30" min="100" max="300">
+	<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+	<elements>
+		<element firePercent="100"/>
+		<element holyPercent="0"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="20"/>
+		<element icePercent="5"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+  
+<summons maxSummons="2">
+	<summon name="fire elemental" interval="5000" chance="9" max="2"/>
+</summons>
+
+<voices interval="5000" chance="10">
+	<voice sentence="MUHAHAHAHA!" yell="1"/>
+	<voice sentence="I SMELL FEEEEEAAAR!" yell="1"/>
+	<voice sentence="CHAMEK ATH UTHUL ARAK!" yell="1"/>
+	<voice sentence="Your resistance is futile!"/>
+	<voice sentence="Your soul will be mine!" yell="1"/>
+</voices>
+
+  <loot capacity="800">
+    <item id="2493" countmax="1" chance="120"/>
+    <item id="2494" countmax="1" chance="120"/>
+    <item id="2495" countmax="1" chance="120"/>
+    <item id="2520" countmax="1" chance="120"/>
+    <item id="2432" countmax="1" chance="250"/>
+    <item id="2179" countmax="1" chance="900"/>
+    <item id="2176" countmax="1" chance="2000"/>
+    <item id="2171" countmax="1" chance="2900"/>
+    <item id="2214" countmax="1" chance="3000"/>
+    <item id="2149" countmax="5" chance="6000"/>
+    <item id="2151" countmax="5" chance="1000"/>
+    <item id="5906" countmax="3" chance="5000"/>
+	<item id="5954" countmax="1" chance="3000"/>
+    
+	<item id="2152" countmax="1" chance="75000"/>
+	<item id="2148" countmax="100" chance="70000"/>
+	<item id="2418" countmax="1" chance="1500"/>
+	<item id="2795" countmax="6" chance="20000"/>
+	<item id="2387" countmax="1" chance="2000"/>
+	<item id="2165" countmax="1" chance="2400"/>
+   
+  </loot>
+
+</monster>

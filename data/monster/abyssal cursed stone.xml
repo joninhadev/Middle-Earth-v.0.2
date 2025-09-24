@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Abyssal Cursed Stone" nameDescription="uma abyssal cursed stone" race="undead" experience="2150" speed="160" manacost="0">
+  <health now="3500" max="3500"/>
+  <look type="67" head="20" body="30" legs="40" feet="50" corpse="2952"/>
+  <targetchange interval="5000" chance="15"/>
+  <strategy attack="100" defense="10"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="1900" min="-72" max="-160"/>
+	
+	<attack name="physical" interval="2170" chance="99" range="7" radius="4" target="1" min="-100" max="-200">
+		<attribute key="shootEffect" value="largerock"/>
+		<attribute key="areaEffect" value="poff"/>
+	</attack>
+</attacks>
+
+  
+	<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="10"/>
+		<element icePercent="20"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="5"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+<loot>
+	<item id="3968" chance="80"/>
+	<item id="2475" chance="650"/>
+	<item id="2647" chance="500"/>
+	<item id="7380" chance="700"/>
+	<item id="2148" countmax="30" chance1="100000" chancemax="0"/> 
+	<item id="2197" chance="400"/> 
+	<item id="1295" chance="10000"/>
+	<item id="1294" countmax="5" chance1="20000" chancemax="0"/>
+	<item id="7365" countmax="15" chance1="20000" chancemax="0"/>
+
+</loot>
+  
+</monster>

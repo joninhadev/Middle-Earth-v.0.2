@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ghoul" nameDescription="um ghoul" race="blood" experience="85" speed="84" manacost="450">
+  <health now="100" max="100"/>
+  <look type="18" head="0" body="0" legs="0" feet="0" corpse="2853"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+    <attack name="melee" interval="2000" min="-20" max="-60"/>
+    <attack name="lifedrain" interval="3000" chance="25" range="1" min="-15" max="-25"/>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="2800" chance="16" min="9" max="15">
+	<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+<loot capacity="400">
+	<item id="2483" chance="500"/>
+	<item id="2460" chance="950"/>
+	<item id="2473" chance="1000"/>
+	<item id="2398" chance="1200"/>
+	<item id="2229" countmax="1" chance1="2000"/>
+	<item id="2230" chance="1600"/>
+	<item id="2231" chance="900"/>
+	<item id="12440" chance="2000" />
+		
+		<item id="2148" countmax="23" chance1="100000"/>
+		<item id="2050" chance="20000"/>
+		<item id="2168" chance="100"/>
+</loot>
+</monster>

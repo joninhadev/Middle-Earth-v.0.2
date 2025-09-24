@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Erdem" script="default.lua" access="3" walkinterval="10000">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="7" head="39" body="100" legs="38" feet="38" addon="1" corpse="2862"/>
+	
+    <parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá. Como posso te ajudar |PLAYERNAME|?"/>
+<parameter key="shop_buyable" value="chain helmet,2458,30;studded helmet,2482,30;brass helmet,2460,50;viking helmet,2473,200;legion helmet,2480,200;soldier helmet,2481,450;dark helmet,2490,900;iron helmet,2459,900;terra hood,7903,1800;terra hood,7903,1800;dwarven helmet,2502,2000;horseman helmet,3969,2200;strange helmet,2479,2400;steel helmet,2457,2200;krimhorn helmet,7461,2200;ragnir helmet,7462,2200;devil helmet,2462,6000;amazon helmet,2499,8000;crown helmet,2491,12000;helmet of ultimate terror,10298,5800;"/>
+<parameter key="shop_sellable" value="charmer tiara,3971,600;batwing hatt,10016,1800;magician hat,2323,2500;chain helmet,2458,15;studded helmet,2482,15;brass helmet,2460,25;viking helmet,2473,100;mystic turban,2663,250;legion helmet,2480,100;glacier mask,7902,1200;soldier helmet,2481,225;dark helmet,2490,450;iron helmet,2459,450;terra hood,7903,900;dwarven helmet,2502,1000;horseman helmet,3969,1100;strange helmet,2479,1200;steel helmet,2457,1100;krimhorn helmet,7461,1100;ragnir helmet,7462,1100;devil helmet,2462,3000;amazon helmet,2499,4000;crown helmet,2491,6000;helmet of ultimate terror,10298,2900;"/>
+ </parameters>
+</npc>

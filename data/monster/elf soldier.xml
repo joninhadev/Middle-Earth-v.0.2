@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elf Soldier" nameDescription="um elf soldier" race="blood" experience="440" speed="150" manacost="0">
+  <health now="550" max="550"/>
+  <look type="62" head="20" body="30" legs="40" feet="50" corpse="2945"/>
+  <targetchange interval="5000" chance="15"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-70" max="-140"/>
+
+	<attack name="energy" interval="3200" chance="15" radius="2" min="-50" max="-80">
+		<attribute key="areaEffect" value="energy"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="5200" chance="25" min="40" max="75">
+	<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+	<elements><element physicalPercent="5"/>
+		<element energyPercent="90"/>
+		<element earthPercent="25"/>
+		<element icePercent="25"/>
+		<element firePercent="20"/>
+		<element holyPercent="60"/>
+		<element deathPercent="25"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Feel my wrath!"/>
+    <voice sentence="I'll bring balance upon you!"/>
+    <voice sentence="Tha'shi Cenath!"/>
+    <voice sentence="Vihil Ealuel!"/>
+  </voices>
+
+<loot capacity="800">
+ 	<item id="2507" chance="200"/>
+ 	<item id="2533" chance="380"/>
+ 	<item id="2505" chance="400"/>
+ 	<item id="2407" chance="220"/>
+ 	<item id="3969" chance="800"/>
+	<item id="12420" chance="2000"/>
+  	<item id="10552" chance="1000"/>	
+ 	<item id="2148" countmax="75" chance1="100000"/>
+ 	<item id="2669" countmax="1" chance1="2000"/>
+ 	<item id="2667" countmax="3" chance1="9000"/>
+ 	<item id="2668" countmax="3" chance1="3000"/>
+ 	
+</loot>
+
+</monster>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Avari Leader" nameDescription="Avari Leader" race="blood" experience="600000" speed="310" manacost="0">
+  <health now="50000" max="50000"/>
+	<look type="1725" head="0" body="0" legs="0" feet="0" addons="1" mount="1682" corpse="34569"/>
+	<targetchange speed="8000" chance="30"/>
+  <strategy attack="70" defense="0"/>
+  
+<flags>
+    <flag rewardboss="1" />
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="3"/>
+    <flag runonhealth="2000"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="1800" min="-600" max="-1000"/>
+
+	<attack name="holy" interval="2165" chance="30" length="8" spread="3" min="-1000" max="-2500">
+		<attribute key="areaEffect" value="holyarea"/>
+	</attack>
+	
+	<attack name="physical" interval="1650" chance="99" range="7" target="1" min="-450" max="-1050">
+		<attribute key="shootEffect" value="arrow"/>
+		<attribute key="areaEffect" value="redspark"/>
+	</attack>
+	
+	<attack name="holy" interval="1930" chance="45" range="7" radius="1" target="1" min="-800" max="-1000">
+		<attribute key="shootEffect" value="flammingarrow"/>
+		<attribute key="areaEffect" value="holyarea"/>
+	</attack>
+	
+	<attack name="fire" interval="2280" chance="75" range="7" radius="3" target="1" min="-550" max="-800">
+		<attribute key="shootEffect" value="burstarrow"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+	
+	<attack name="speed" interval="6510" chance="80" range="7" radius="1" target="1" speedchange="-500" duration="4000">
+		<attribute key="shootEffect" value="flasharrow"/>
+		<attribute key="areaEffect" value="stun"/>
+    </attack>
+	
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="2300" chance="350" min="200" max="350">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+  <elements><element physicalPercent="5"/>
+		<element energyPercent="55"/>
+		<element earthPercent="35"/>
+		<element icePercent="65"/>
+		<element firePercent="35"/>
+		<element holyPercent="85"/>
+		<element deathPercent="35"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+  
+  <voices interval="5000" chance="10">
+		<voice sentence="Feel my wrath!"/>
+		<voice sentence="For the Daughter of the Stars!"/>
+		<voice sentence="I'll bring balance upon you!"/>
+		<voice sentence="Tha'shi Cenath!"/>
+		<voice sentence="Vihil Ealuel!"/>
+  </voices>
+  
+  <loot capacity="900">
+   	<item id="2505" chance="400"/>
+	<item id="2466" chance="180"/>
+ 	<item id="2507" chance="35000"/>
+	<item id="2474" chance="3000"/>
+ 	<item id="7893" chance="10200"/>
+ 	<item id="7731" chance="850"/>
+ 	<item id="7438" chance="7900"/>
+	<item id="22418" chance="500"/>
+	<item id="2646" chance="400"/>
+	<item id="2470" chance="490"/>
+	<item id="49451" chance="100"/>
+	<item id="2150" countmax="3" chance1="950"/>
+	<item id="2152" countmax="5" chance1="35000"/>
+	<item id="2152" countmax="25" chance1="35000"/>
+	<item id="2152" countmax="15" chance1="35000"/>
+	<item id="2546" countmax="12" chance1="3000"/>
+	<item id="2544" countmax="12" chance1="3000"/>
+	<item id="7364" countmax="12" chance1="2200"/>
+	<item id="7365" countmax="12" chance1="2000"/>	
+  </loot>
+</monster>

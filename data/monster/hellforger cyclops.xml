@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hellforger Cyclops" nameDescription="um hellforger cyclops" race="blood" experience="2600" speed="150" manacost="0">
+	<health now="4100" max="4100"/>
+	<look type="277" head="0" body="0" legs="0" feet="0" corpse="7740"/>
+	<targetchange interval="8000" chance="10"/>
+	<strategy attack="100" defense="100"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+	<attacks>
+		<attack name="melee" interval="2000" min="-96" max="-256"/>
+		
+		<attack name="fire" interval="3300" chance="99" range="7" radius="3" target="1" min="-100" max="-160">
+			<attribute key="shootEffect" value="whirlwindclub"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+	</attacks>
+	
+	<defenses armor="0" defense="0"/>
+	<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="10"/>
+		<element icePercent="20"/>
+	</elements>	
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="1"/>
+		<immunity poison="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+  </immunities>
+	
+	<voices interval="4500" chance="33">
+		<voice sentence="Forjarei seus ossos!!!"/>
+	</voices>
+	
+	<loot capacity="600">
+		<item id="2463" countmax="1" chance="900"/> 
+		<item id="2643" countmax="1" chance="15000"/> 
+		<item id="2671" countmax="3" chance="2000"/> 
+		<item id="2666" countmax="3" chance="5000"/> 
+		<item id="2459" countmax="1" chance="1400"/> 
+		<item id="2391" countmax="1" chance="800"/> 
+		<item id="2422" countmax="1" chance="3200"/> 
+		<item id="7427" countmax="1" chance="300"/> 
+		<item id="2148" countmax="100" chance="4000"/> 
+		<item id="2148" countmax="50" chance="14000"/> 
+		<item id="2148" countmax="50" chance="14000"/> 
+		<item id="2148" countmax="50" chance="14000"/> 
+		<item id="6529" countmax="6" chance1="9000"/>
+		<item id="2149" countmax="1" chance1="1200"/>
+		<item id="2146" countmax="1" chance1="1200"/>
+		<item id="10574" chance="800"/><!-- Cyclops Toe -->	
+	
+	
+	</loot>
+	
+</monster>

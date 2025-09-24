@@ -1,0 +1,68 @@
+2025-08-27 13:30:15 -  [Thread debugging using libthread_db enabled]
+2025-08-27 13:30:15 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-08-27 13:30:15 -  [New Thread 0x7ffff5b23700 (LWP 154931)]
+2025-08-27 13:30:15 -  The OTG-BR - Version: (1.4)
+2025-08-27 13:30:15 -  Compiled with: GNU C++ version 9.4.0
+2025-08-27 13:30:15 -  Compiled on Aug 12 2025 23:00:12 for platform x64
+2025-08-27 13:30:15 -  
+2025-08-27 13:30:15 -  Engine Credits for: TFS Team, OTG Team....
+2025-08-27 13:30:15 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-08-27 13:30:15 -  
+2025-08-27 13:30:15 -  >> Loading config: config.lua
+2025-08-27 13:30:15 -  [New Thread 0x7ffff5322700 (LWP 154932)]
+2025-08-27 13:30:15 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-08-27 13:30:15 -   MySQL 8.0.42
+2025-08-27 13:30:15 -  >> Running database manager
+2025-08-27 13:30:15 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-08-27 13:30:15 -  [New Thread 0x7ffff4b0d700 (LWP 154933)]
+2025-08-27 13:30:15 -  > Optimizing table players_online... [success]
+2025-08-27 13:30:15 -  > Optimizing table tile_store... [success]
+2025-08-27 13:30:15 -  >> Loading vocations
+2025-08-27 13:30:15 -  >> Loading items
+2025-08-27 13:30:16 -  >> Loading script systems
+2025-08-27 13:30:16 -  >> Loading lua libs
+2025-08-27 13:30:16 -  >> Loading bestiary
+2025-08-27 13:30:16 -  >> Loading lua scripts
+2025-08-27 13:30:16 -  >> Loading monsters
+2025-08-27 13:30:16 -  >> Loading lua monsters
+2025-08-27 13:30:16 -  >> Loading outfits
+2025-08-27 13:30:16 -  >> Loading imbuements
+2025-08-27 13:30:16 -  >> Loading charms
+2025-08-27 13:30:16 -  >> Loading Store
+2025-08-27 13:30:16 -  >> Loading prey data
+2025-08-27 13:30:16 -  >> Checking world type... RETRO-PVP
+2025-08-27 13:30:16 -  >> Loading map
+2025-08-27 13:30:21 -  > Map size: 2293x2048.
+2025-08-27 13:30:32 -  > Map loading time: 15.907 seconds.
+2025-08-27 13:30:33 -  > Loaded house items in: 0.005 s
+2025-08-27 13:30:33 -  >> Loading guilds... No guild to load.
+2025-08-27 13:30:33 -  >> Initializing gamestate
+2025-08-27 13:30:34 -  > Loaded spawns in 0.575 seconds.
+2025-08-27 13:30:34 -  >> Loaded 202 npcs and spawned 20591 monsters.
+2025-08-27 13:30:34 -  >> Loaded 17 towns with 588 houses in total.
+2025-08-27 13:30:34 -  >> Start time: 27.08.2025 - 13:30:34
+2025-08-27 13:30:34 -  Initialization complete.
+2025-08-27 13:30:34 -  >> Loaded all modules, server starting up...
+2025-08-27 13:30:34 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-08-27 13:30:34 -  >> Server started in 18.57 seconds.
+2025-08-27 13:30:34 -  >> Middle Earth Server Server Online!
+2025-08-27 13:30:34 -  
+2025-08-27 13:31:05 -  Loading [GOD] Middle Earth...
+2025-08-27 13:31:05 -  [GOD] Middle Earth has logged in.
+2025-08-27 13:31:44 -  Saving server... 27/08/2025 13:31:44
+2025-08-27 13:31:44 -  > Saved house items in: 0.124 s
+2025-08-27 13:37:00 -  Reloaded globalevents.
+2025-08-27 13:37:00 -  Saving server... 27/08/2025 13:37:00
+2025-08-27 13:37:01 -  > Saved house items in: 0.115 s
+2025-08-27 13:37:01 -  [GOD] Middle Earth has logged out.
+2025-08-27 13:37:01 -  >> 1 player kickado
+2025-08-27 13:37:01 -  Saving server... 27/08/2025 13:37:01
+2025-08-27 13:37:01 -  > Saved house items in: 0.107 s
+2025-08-27 13:37:01 -  Shutting down...Saving server... 27/08/2025 13:37:01
+2025-08-27 13:37:01 -  > Saved house items in: 0.114 s
+2025-08-27 13:37:01 -  [Thread 0x7ffff4b0d700 (LWP 154933) exited]
+2025-08-27 13:37:01 -  [Thread 0x7ffff5322700 (LWP 154932) exited]
+2025-08-27 13:37:01 -   done!
+2025-08-27 13:37:01 -  [Thread 0x7ffff5b23700 (LWP 154931) exited]
+2025-08-27 13:37:04 -  >> Saving player items.
+2025-08-27 13:37:04 -  [Inferior 1 (process 154927) exited normally]

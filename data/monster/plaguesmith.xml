@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="plaguesmith" nameDescription="um plaguesmith" race="blood" experience="4000" speed="150" manacost="0">
+	<health now="6250" max="6250"/>
+	<look type="247" corpse="6516"/>
+	<targetchange interval="9000" chance="8"/>
+	<strategy attack="100" defense="50"/>
+	
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="1"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="90"/>
+	<flag runonhealth="500"/>
+</flags>
+
+<attacks>
+	<attack name="poison" interval="2000" chance="20" range="2" radius="1" target="1" min="-160" max="-320">
+		<attribute key="areaEffect" value="poison"/>
+	</attack>
+	
+	<attack name="poison" interval="2700" chance="99" target="6" radius="3" min="-150" max="-295">
+		<attribute key="areaEffect" value="yellowbubble"/>
+	</attack>
+	
+	<attack name="speed" interval="10000" chance="30" range="1" target="0" speedchange="-800" duration="8000">
+		<attribute key="areaEffect" value="poison"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="1000" chance="50" min="75" max="125">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+<elements>
+		<element firePercent="10"/>
+		<element holyPercent="20"/>
+		<element deathPercent="20"/>
+		<element earthPercent="100"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="20"/>
+		<element icePercent="30"/>
+</elements>
+
+<immunities>
+	<immunity paralyze="1"/>
+	<immunity invisible="1"/>
+</immunities>
+
+<voices interval="3000" chance="30">
+	<voice sentence="You are looking a bit feverish today!"/>
+	<voice sentence="Hachoo!"/>
+	<voice sentence="Cough Cough!"/>
+</voices>
+
+<loot>
+	<item id="2416" chance="3333"/> 
+	<item id="13298" chance="2000"/> 
+	<item id="2444" chance="50"/> 
+	<item id="2489" chance="1000"/> 
+	<item id="2645" chance="150"/> 
+	<item id="2515" chance="500"/> 
+		
+			<item id="2148" chance="40000" countmax="100"/> 
+			<item id="2148" chance="40000" countmax="100"/> 
+			<item id="2148" chance="40000" countmax="100"/> 
+			<item id="2148" chance="40000" countmax="100"/> 
+			<item id="2148" chance="40000" countmax="100"/> 
+			<item id="2417" chance="2500"/> 
+			<item id="2422" chance="3000"/> 
+			<item id="5944" chance="1538" countmax="1"/> 
+			<item id="2079" chance="2000"/> 
+			<item id="2209" chance="2222"/> 
+</loot>
+
+</monster>

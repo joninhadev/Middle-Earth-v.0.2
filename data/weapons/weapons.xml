@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weapons>
+
+	<!-- RODS -->
+	
+	<wand id="2182" level="7" mana="2" min="8" max="18" type="earth" event="function" value="default"> (Snakebite Rod)
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+		<vocation name="Celtic Druid"/>
+	</wand>
+	<wand id="2186" level="13" mana="3" min="13" max="24" type="ice" event="function" value="default"> (Moonlight Rod)
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+		<vocation name="Celtic Druid"/>
+		
+	</wand>
+	<wand id="2185" level="19" mana="5" min="23" max="35" type="death" event="function" value="default"> (Necrotic Rod)
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+		<vocation name="Celtic Druid"/>
+		
+	</wand>
+	<wand id="2181" level="26" mana="8" min="35" max="50" type="earth" event="function" value="default"> (Terra Rod)
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+		<vocation name="Celtic Druid"/>
+		<vocation name="Spirit Healer"/><vocation name="Divine Druid"/><vocation name="Divine Sorcerer"/>
+	</wand>
+	<wand id="2183" level="33" mana="13" min="50" max="70" type="ice" event="function" value="default"> (Hailstorm Rod)
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+		<vocation name="Celtic Druid"/>
+		<vocation name="Spirit Healer"/><vocation name="Divine Druid"/><vocation name="Divine Sorcerer"/>
+		
+	</wand>
+	<wand id="2184" level="50" mana="17" min="60" max="85" type="energy" event="function" value="default"> (Crystal Rod)
+		<vocation name="Druid"/>	
+		<vocation name="Elder Druid"/>
+		<vocation name="Celtic Druid"/>
+		<vocation name="Spirit Healer"/><vocation name="Divine Druid"/><vocation name="Divine Sorcerer"/>
+	</wand>
+        <wand id="7410" range="4" lvl="200" mana="50" enabled="1" exhaustion="0">	(Mekanmz)
+		<vocation name="Spirit Healer"/><vocation name="Divine Druid"/><vocation name="Divine Sorcerer"/>
+	</wand>
+	<wand id="35114" level="220" mana="60" min="135" max="250" type="earth" event="function" value="default"> (Cobra Rod)
+		<vocation name="Celtic Druid"/><vocation name="Spirit Healer"/><vocation name="Divine Druid"/><vocation name="Divine Sorcerer"/>
+	</wand>
+	<wand id="39555" level="250" mana="60" min="135" max="250" type="energy" event="function" value="default"> (Lion Rod)
+		<vocation name="Celtic Druid"/><vocation name="Spirit Healer"/><vocation name="Divine Druid"/><vocation name="Divine Sorcerer"/>
+	</wand>
+	<wand id="33218" level="300" mana="60" min="135" max="250" type="energy" event="function" value="default"> (Falcon Rod)
+		<vocation name="Celtic Druid"/><vocation name="Spirit Healer"/><vocation name="Divine Druid"/><vocation name="Divine Sorcerer"/>
+	</wand>
+	<wand id="39495" level="400" mana="60" min="135" max="250" type="ice" event="function" value="default"> (Soulhexer)
+		<vocation name="Celtic Druid"/><vocation name="Spirit Healer"/><vocation name="Divine Druid"/><vocation name="Divine Sorcerer"/>
+	</wand>
+	
+	
+		<!-- WANDS -->
+	
+	<wand id="2190" level="7" mana="2" min="8" max="18" type="energy" event="function" value="default"> (Wand of Vortex)
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Archmage"/>
+		<vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>
+		
+	</wand>
+	<wand id="2191" level="13" mana="3" min="13" max="24" type="fire" event="function" value="default"> (Wand of Dragonbreath)
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Archmage"/>
+		<vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>
+		
+	</wand>
+	<wand id="2188" level="19" mana="5" min="20" max="35" type="death" event="function" value="default"> (Wand of Decay)
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Archmage"/>
+		<vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>
+		
+	</wand>
+	<wand id="8921" level="22" mana="5" min="25" max="43" type="fire" event="function" value="default"> (Wand of Draconia)
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Archmage"/>
+		<vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>
+		
+	</wand>
+	<wand id="2189" level="26" mana="8" min="35" max="50" type="energy" event="function" value="default"> (Wand of Cosmic Energy)
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Archmage"/>
+		<vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>
+		
+	</wand>
+	<wand id="2187" level="33" mana="13" min="55" max="70" type="fire" event="function" value="default"> (Wand of Inferno)
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Archmage"/>
+		<vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>
+		
+	</wand>
+	<wand id="2453" level="50" mana="18" min="60" max="85" type="death" event="function" value="default"> (Arcane Wand)
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Archmage"/>
+		<vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>
+		
+	</wand>
+	<wand id="7379" level="70" mana="20" min="70" max="95" type="earth" event="function" value="default"> (Motaba Wand)
+		<vocation name="Sorcerer"/>
+		<vocation name="Master Sorcerer"/>
+		<vocation name="Archmage"/>
+		<vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>
+	</wand>
+
+	<wand id="35113" level="220" mana="65" min="140" max="270" type="energy" event="function" value="default"> (Cobra Wand)-->
+			<vocation name="Archmage"/><vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>		
+	</wand>	
+	
+	<wand id="39556" level="250" mana="65" min="140" max="270" type="energy" event="function" value="default"> (Lion Wand)-->
+			<vocation name="Archmage"/><vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>		
+	</wand>	
+	
+	<wand id="33219" level="300" mana="65" min="140" max="270" type="energy" event="function" value="default"> (Falcon Wand)-->
+			<vocation name="Archmage"/><vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>		
+	</wand>	
+	
+	<wand id="39494" level="400" mana="65" min="140" max="270" type="death" event="function" value="default"> (Soultainter)
+			<vocation name="Archmage"/><vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>		
+	</wand>	
+	
+	
+	
+			<!-- SCEPTRES -->
+
+	<wand id="7451" level="101" mana="25" min="80" max="115" type="energy" event="function" value="default"> (Saruman Scepter)
+			<vocation name="Archmage"/>
+			<vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>		
+			<vocation name="Celtic Druid"/>
+			<vocation name="Spirit Healer"/><vocation name="Divine Druid"/><vocation name="Divine Sorcerer"/>
+		
+	</wand>
+	<wand id="8910" level="150" mana="25" min="80" max="115" type="death" event="function" value="default"> (Saurons Breath Scepter)
+			<vocation name="Archmage"/>
+			<vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>		
+			<vocation name="Celtic Druid"/>
+			<vocation name="Spirit Healer"/><vocation name="Divine Druid"/><vocation name="Divine Sorcerer"/>
+	</wand>
+	<wand id="7429" level="170" mana="27" min="100" max="130" type="holy" event="function" value="default"> (Divine Scepter)
+			<vocation name="Archmage"/>
+			<vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>		
+			<vocation name="Celtic Druid"/>
+			<vocation name="Spirit Healer"/><vocation name="Divine Druid"/><vocation name="Divine Sorcerer"/>
+	</wand>
+	<wand id="7424" level="200" mana="36" min="140" max="170" type="energy" event="function" value="default"> (Aghanim Scepter)-->
+			<vocation name="Celtic Druid"/><vocation name="Spirit Healer"/><vocation name="Arcane Wizard"/><vocation name="Divine Sorcerer"/><vocation name="Divine Druid"/>		
+	</wand>	
+
+
+	<!-- SWORDS/ESPADAS -->
+	<melee id="2403" unproperly="1" event="function" value="default"/> -- Knife
+	<melee id="2379" unproperly="1" event="function" value="default"/> -- Dagger
+	<melee id="2404" unproperly="1" event="function" value="default"/> -- Combat Knife
+	<melee id="2402" unproperly="1" event="function" value="default"/> -- Silver Dagger
+	<melee id="2384" unproperly="1" event="function" value="default"/> -- Rappier
+	<melee id="2406" unproperly="1" event="function" value="default"/> -- Short Sword
+	<melee id="2385" unproperly="1" event="function" value="default"/> -- Sabre 
+	<melee id="2420" unproperly="1" event="function" value="default"/> -- Machete
+	<melee id="2450" unproperly="1" event="function" value="default"/> -- Bone Sword
+	<melee id="2395" unproperly="1" event="function" value="default"/> -- Carlin Sword
+	<melee id="2376" unproperly="1" event="function" value="default"/> -- Sword
+	<melee id="2442" unproperly="1" event="function" value="default"/> -- Heavy Machete
+	<melee id="2412" unproperly="1" event="function" value="default"/> -- Katana
+	<melee id="2411" unproperly="1" event="function" value="default"/> -- Poison Dagger
+	<melee id="2419" unproperly="1" event="function" value="default"/> -- Scimitar
+	<melee id="3963" unproperly="1" event="function" value="default"/> -- Templar Scytherblade
+	<melee id="2396" action="removecount" event="function" value="default"/> -- Ice Rapier
+	<melee id="2413" event="function" value="default"/> 					-- Broadsword
+	<melee id="2377" level="20" unproperly="1" event="function" value="default"/> -- Two-Handed Sword
+	<melee id="7408" level="32" unproperly="1" event="function" value="default"/> -- Wyvern Fang
+	<melee id="7404" level="35" unproperly="1" event="function" value="default"/> -- Sting
+	<melee id="2392" level="40" unproperly="1" event="function" value="default"/> -- Fire Sword
+	<melee id="2407" level="50" unproperly="1" event="function" value="default"/> -- Bright Sword
+	<melee id="7449" level="55" unproperly="1" event="function" value="default"/> -- Crystal Sword
+	<melee id="2451" level="60" unproperly="1" event="function" value="default"/> -- Djinn Blade
+	<melee id="8930" level="65" unproperly="1" event="function" value="default"/> -- Emerald Sword
+	<melee id="7407" level="70" unproperly="1" event="function" value="default"/> -- Haunted Blade
+	<melee id="2446" level="75" unproperly="1" event="function" value="default"/> -- Paraoh Sword
+	<melee id="2393" level="75" unproperly="1" event="function" value="default"/> -- Giant Sword 
+	<melee id="18450" level="75" unproperly="1" event="function" value="default"/> -- Crystalline Sword
+	<melee id="7382" level="80" unproperly="1" event="function" value="default"/> -- Demonrage Sword
+	<melee id="7391" level="90" unproperly="1" event="function" value="default"/> -- The Herugrin
+	<melee id="2400" level="101" unproperly="1" event="function" value="default"/> -- Magic Sword
+	<melee id="2408" level="115" unproperly="1" event="function" value="default"/> -- Warlord Sword
+	<melee id="12649" level="140" unproperly="1" event="function" value="default"/> -- Blade Of Corruption
+	<melee id="2390" level="150" unproperly="1" event="function" value="default"/> -- Anduril
+	<melee id="11307" level="170" unproperly="1" event="function" value="default"/> -- Chaos Blade
+	<melee id="18465" level="180" unproperly="1" event="function" value="default"/> -- Shiny Blade
+	<melee id="6528" level="200" unproperly="1" event="function" value="default"/> -- Narsil
+	<melee id="7405" level="220" unproperly="1" event="function" value="default"/> -- Sword Of Elendil
+	<melee id="8931" level="250" unproperly="1" event="function" value="default"/> -- Gladium Aureum
+	<melee id="35112" level="220" unproperly="1" event="function" value="default"/> -- Cobra Sword
+	<melee id="39559" level="250" unproperly="1" event="function" value="default"/> -- Lion Sword
+	<melee id="33225" level="300" unproperly="1" event="function" value="default"/> -- Falcon Sword
+	<melee id="39486" level="400" unproperly="1" event="function" value="default"/> -- Soulcutter
+	<melee id="39487" level="400" unproperly="1" event="function" value="default"/> -- Soulshredder
+	<!-- updates elemental weapons -->
+	<melee id="33915" level="250" unproperly="1" event="function" value="default"/> -- Winter Sword
+	<melee id="33914" level="250" unproperly="1" event="function" value="default"/> -- Summer Sword
+	<melee id="36328" level="250" unproperly="1" event="function" value="default"/> -- Tagralt Sword
+	<melee id="25921" level="250" unproperly="1" event="function" value="default"/> -- Remedy Slayer Sword
+	
+	<!-- AXES/MACHADOS -->
+	
+	<melee id="2388" unproperly="1" event="function" value="default"/> -- Hatchet
+	<melee id="2380" unproperly="1" event="function" value="default"/> -- Hand Axe
+	<melee id="2386" unproperly="1" event="function" value="default"/> -- An Axe
+	<melee id="2418" unproperly="1" event="function" value="default"/> -- Golden Sickle
+	<melee id="2428" unproperly="1" event="function" value="default"/> -- Orcish Maul
+	<melee id="2378" unproperly="1" event="function" value="default"/> -- Battle Axe
+	<melee id="2429" unproperly="1" event="function" value="default"/> -- Barbarian Axe
+	<melee id="3964" unproperly="1" event="function" value="default"/> -- Ripper Lance
+	<melee id="2405" unproperly="1" event="function" value="default"/> -- Sickle
+	<melee id="2381" level="20" unproperly="1" event="function" value="default"/> -- Halberd
+	<melee id="2387" level="30" unproperly="1" event="function" value="default"/> -- Double Axe
+	<melee id="2430" level="35" unproperly="1" event="function" value="default"/> -- Knight Axe
+	<melee id="2435" level="30" unproperly="1" event="function" value="default"/> -- Dwarven Axe
+	<melee id="7455" level="40" unproperly="1" event="function" value="default"/> -- Frost Razor
+	<melee id="2440" level="40" unproperly="1" event="function" value="default"/> -- Daramian Waraxe
+	<melee id="7380" level="40" unproperly="1" event="function" value="default"/> -- Headchopper
+	<melee id="2432" level="55" unproperly="1" event="function" value="default"/> -- Fire Axe
+	<melee id="2426" level="55" unproperly="1" event="function" value="default"/> -- Naginata
+	<melee id="3962" level="60" unproperly="1" event="function" value="default"/> -- Axe Of Maim
+	<melee id="2427" level="60" unproperly="1" event="function" value="default"/> -- Guardian Halberd
+	<melee id="11323" level="70" unproperly="1" event="function" value="default"/>-- Zaoan Halberd
+	<melee id="2447" level="70" unproperly="1" event="function" value="default"/> -- Twin Axe
+	<melee id="2414" level="75" unproperly="1" event="function" value="default"/> -- Dragon Lance
+	<melee id="6553" level="85" unproperly="1" event="function" value="default"/> -- Ruthless Axe
+	<melee id="2454" level="90" unproperly="1" event="function" value="default"/> -- War Axe
+	<melee id="7419" level="90" unproperly="1" event="function" value="default"/> -- Dread Cleaver
+	<melee id="2443" level="90" unproperly="1" event="function" value="default"/> -- Ravageners Axe
+	<melee id="7420" level="101" unproperly="1" event="function" value="default"/> -- Reapers Axe
+	<melee id="7388" level="130" unproperly="1" event="function" value="default"/> -- Vile Axe
+	<melee id="2431" level="140" unproperly="1" event="function" value="default"/> -- Stonecutter Axe
+	<melee id="2415" level="150" unproperly="1" event="function" value="default"/> -- Great Axe
+	<melee id="7413" level="150" unproperly="1" event="function" value="default"/> -- Drambolerg
+	<melee id="15404" level="160" unproperly="1" event="function" value="default"/> -- Deepling Axe
+	<melee id="18451" level="180" unproperly="1" event="function" value="default"/> -- Crystalline Axe
+	<melee id="8924" level="200" unproperly="1" event="function" value="default"/> -- Durin's Axe
+	<melee id="35110" level="220" unproperly="1" event="function" value="default"/> -- Cobra Axe
+	<melee id="8925" level="250" unproperly="1" event="function" value="default"/> -- Battlefury
+	<melee id="39656" level="250" unproperly="1" event="function" value="default"/> -- Lion Axe
+	<melee id="33226" level="300" unproperly="1" event="function" value="default"/> -- Falcon Axe
+	<melee id="39488" level="400" unproperly="1" event="function" value="default"/> -- Soulbiter
+	<melee id="39489" level="400" unproperly="1" event="function" value="default"/> -- Souleater
+	<!-- update elemental weapons -->
+	<melee id="37342" level="250" unproperly="1" event="function" value="default"/> -- Phantasmal
+	<melee id="40918" level="250" unproperly="1" event="function" value="default"/> -- Throwing
+	<melee id="25932" level="250" unproperly="1" event="function" value="default"/> -- Remedy Chopper
+	<melee id="42055" level="250" unproperly="1" event="function" value="default"/> -- Eldritch
+
+	<!-- CLAVAS/CLUBS -->
+	
+	<melee id="2416" unproperly="1" event="function" value="default"/> -- Crowbar
+	<melee id="2382" unproperly="1" event="function" value="default"/> -- Mace
+	<melee id="2448" unproperly="1" event="function" value="default"/> -- Studed Club
+	<melee id="2449" unproperly="1" event="function" value="default"/> -- Bone Club
+	<melee id="2398" unproperly="1" event="function" value="default"/> -- Mace
+	<melee id="2422" unproperly="1" event="function" value="default"/> -- Iron Hammer
+	<melee id="2439" unproperly="1" event="function" value="default"/> -- Daramian Mace
+	<melee id="2417" unproperly="1" event="function" value="default"/> -- Battle Hammer
+	<melee id="2394" unproperly="1" event="function" value="default"/> -- Morning Star
+	<melee id="3966" unproperly="1" event="function" value="default"/> -- Banana Staff
+	<melee id="2423" unproperly="1" event="function" value="default"/> -- Clerical Mace
+	<melee id="2434" level="30" unproperly="1" event="function" value="default"/> -- Dragon Hammer
+	<melee id="2436" level="40" unproperly="1" event="function" value="default"/> -- Skull Staff
+	<melee id="2445" level="50" unproperly="1" event="function" value="default"/> -- Crystal Mace
+	<melee id="7437" level="55" unproperly="1" event="function" value="default"/> -- Sapphire Hammer
+	<melee id="7387" level="60" unproperly="1" event="function" value="default"/> -- Diamond Sceptre
+	<melee id="2424" level="65" unproperly="1" event="function" value="default"/> -- Silver Mace
+	<melee id="2391" level="70" unproperly="1" event="function" value="default"/> -- War Hammer
+	<melee id="7427" level="80" unproperly="1" event="function" value="default"/> -- Chaos Mace
+	<melee id="7452" level="90" unproperly="1" event="function" value="default"/> -- Spiked Squelcher
+	<melee id="2444" level="90" unproperly="1" event="function" value="default"/> -- Hammer Of Wrath
+	<melee id="2421" level="101" unproperly="1" event="function" value="default"/> -- Thunder Hammer
+	<melee id="11308" level="110" unproperly="1" event="function" value="default"/> -- Drachaku
+	<melee id="2452" level="115" unproperly="1" event="function" value="default"/> -- Heavy Mace
+	<melee id="7431" level="130" unproperly="1" event="function" value="default"/> -- Demonbone
+	<melee id="7415" level="150" unproperly="1" event="function" value="default"/> -- Grond
+	<melee id="15414" level="160" unproperly="1" event="function" value="default"/> -- Ornate Mace
+	<melee id="7414" level="200" unproperly="1" event="function" value="default"/> -- Glamdring
+	<melee id="35109" level="220" unproperly="1" event="function" value="default"/> -- Cobra Club
+	<melee id="39657" level="250" unproperly="1" event="function" value="default"/> -- Lion Club
+	<melee id="33227" level="300" unproperly="1" event="function" value="default"/> -- Falcon Club
+	<melee id="39490" level="400" unproperly="1" event="function" value="default"/> -- Soulcrusher
+	<melee id="39491" level="400" unproperly="1" event="function" value="default"/> -- Soulmaimer
+	<!-- Elemental Weapons -->
+	<melee id="33912" level="250" unproperly="1" event="function" value="default"/> -- Resizer
+	<melee id="42054" level="250" unproperly="1" event="function" value="default"/> -- Jungle Flail
+	<melee id="40917" level="250" unproperly="1" event="function" value="default"/> -- Gilded Eldritch Hammer
+	<melee id="25940" level="250" unproperly="1" event="function" value="default"/> -- Remedy Hammer
+
+		<!-- BOWS E CROSSBOW -->
+
+	<distance id="5947" level="101" unproperly="1" event="function" value="default"> <!-- Heavy Crossbow -->
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner" showInDescription="1"/>
+		<vocation name="Divine Shooter" showInDescription="1"/>
+	</distance>
+	<distance id="5803" level="150" unproperly="1" event="function" value="default"> <!-- Executioners Crossbow -->
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner" showInDescription="1"/>
+		<vocation name="Divine Shooter" showInDescription="1"/>
+	</distance>
+	<distance id="8853" level="150" unproperly="1" event="function" value="default"> <!-- Hayha's Crossbow -->
+		<vocation name="Medieval Archer" />
+		<vocation name="Executioner" showInDescription="1"/>
+		<vocation name="Divine Shooter" showInDescription="1"/>
+	</distance>
+	
+	<distance id="18453" level="180" unproperly="1" event="function" value="default"> <!-- Crystal Crossbow -->
+		<vocation name="Medieval Archer" />
+		<vocation name="Executioner" showInDescription="1"/>
+		<vocation name="Divine Shooter" showInDescription="1"/>
+	</distance>
+	
+	<distance id="8852" level="200" unproperly="1" event="function" value="default"> <!--Buriza-->
+		<vocation name="Medieval Archer" />
+		<vocation name="Executioner" showInDescription="1"/>
+		<vocation name="Divine Shooter" showInDescription="1"/>
+	</distance>
+	
+	<distance id="15644" level="220" unproperly="1" event="function" value="default"> <!--Ornate Crossbow-->
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Divine Shooter" showInDescription="1"/>
+	</distance>
+	<distance id="35107" level="220" unproperly="1" event="function" value="default"> <!-- Cobra Crossbow -->
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+	</distance>
+	<distance id="39493" level="400" unproperly="1" event="function" value="default"> <!-- Soulpiercer -->
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+	</distance>
+	
+
+
+	<distance id="7438" level="35" unproperly="1" event="function" value="default"> <!-- Elven Bow -->
+	    <vocation name="Royal Archer"/>
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="8854" level="90" unproperly="1" event="function" value="default"> <!-- Warsinger Bow -->
+	    <vocation name="Royal Archer"/>
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="8856" level="150" unproperly="1" event="function" value="default"> <!-- Churchill's Bow -->
+	    <vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="15643" level="180" unproperly="1" event="function" value="default"> <!-- Hive Bow -->
+	    <vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="22418" level="180" unproperly="1" event="function" value="default"> <!-- Celeborn Bow -->
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="8855" level="200" unproperly="1" event="function" value="default"> <!-- Eaglehorn -->
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="39554" level="250" unproperly="1" event="function" value="default"> <!-- Lion Longbow -->
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="36295" level="300" unproperly="1" event="function" value="default"> <!-- Bow of Cataclysm -->
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="33220" level="300" unproperly="1" event="function" value="default"> <!-- Falcon Longbow -->
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="39492" level="400" unproperly="1" event="function" value="default"> <!-- Soulbleeder -->
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	
+	<!-- Munições -->
+	<distance id="2544"  action="removecount" event="script" value="default"><!-- Poison Arrow -->
+	</distance> 
+	<distance id="2546" level="35" action="removecount" event="script" value="burst_arrow.lua"><!-- Burst Arrow -->
+	    <vocation name="Royal Archer"/>
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf"/><vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance> 
+			
+	<distance id="7366" action="removecount" event="function" script="viper_star.lua"><!-- Viper Star -->
+	    <vocation name="Royal Archer"/>
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf"/><vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance> 
+	<distance id="7838" level="65" action="removecount" type="energy" event="function" value="default"><!-- Flash Arrow -->
+	    <vocation name="Royal Archer"/>
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf"/><vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance> 
+	<distance id="7839" level="70" action="removecount" type="ice" event="function" value="default"><!-- Shiver Arrow -->
+	    <vocation name="Royal Archer"/>
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf"/><vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance> 
+	<distance id="7840" level="75" action="removecount" type="fire" event="function" value="default"><!-- Flaming Arrow -->
+	    <vocation name="Royal Archer"/>
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf"/><vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+		</distance> 
+	<distance id="29057" action="removecount" unproperly="1" level="150" script="diamond_arrow.lua" />	<!-- Diamond Arrow -->
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf"/><vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+    <distance id="2543" level="20" action="removecount" event="function" value="default"><!-- Bolt -->	
+	</distance> 
+	<distance id="7363" level="45" action="removecount" event="function" value="default"><!-- Piercing Bolt -->		
+	</distance> 
+	<distance id="6529" level="80" action="removecount" event="function" value="default"><!-- Infernal Bolt -->	
+	</distance> 
+	<distance id="2547" level="100" action="removecount" event="function" value="default"><!-- Power Bolt -->		
+	</distance> 
+	<distance id="18435" level="150" action="removecount" event="function" value="default"><!-- Prismatic Bolt -->
+	</distance> 
+	<distance id="29058" level="150" action="removecount" event="function" value="default"/><!-- Spectral Bolt -->	
+	<distance id="15649" action="removecount" unproperly="1" level="180" /><!-- Vortex Bolt -->
+    <distance id="5907" type="physical" event="function" value="default"><!-- Slingshot -->
+	</distance> 
+	<distance id="3965" level="40" event="function" value="default"><!-- Hunting Spear -->
+		<vocation name="Royal Archer"/>
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Divine Shooter" showInDescription="1"/>
+		<vocation name="Elf"/><vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="7378" level="100" event="function" value="default"><!-- Royal Spear -->
+		<vocation name="Royal Archer"/>
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Divine Shooter" showInDescription="1"/>
+		<vocation name="Elf"/><vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="7367" level="75" event="function" value="default"><!-- Enchanted Spear -->
+		<vocation name="Royal Archer"/>
+		<vocation name="Medieval Archer" showInDescription="1"/>
+		<vocation name="Executioner" showInDescription="1"/>
+		<vocation name="Divine Shooter" showInDescription="1"/>
+		<vocation name="Elf"/><vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="7368" action="removecount" level="50" event="function" value="default"><!-- Assassin Star -->
+	</distance>
+	<distance id="7364" action="removecount" level="40" event="function" value="default"><!-- Sniper Arrow -->
+	</distance> 
+	<distance id="7365" action="removecount" level="50" event="function" value="default"><!-- Onix Arrow -->
+	</distance> 
+	<distance id="15648" action="removecount" level="120" event="function" value="default"><!-- Tarsal Arrow -->
+	</distance> 
+	<distance id="18304" action="removecount" level="150" event="function"><!-- Crystalline Arrow -->
+	</distance> 
+	<distance id="2425" level="200" event="function" value="default"><!-- Aiglos -->
+		<vocation name="Executioner" showInDescription="1"/> 
+		<vocation name="Divine Shooter" showInDescription="1"/>
+		<vocation name="Elf"/><vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+	</distance>
+	<distance id="2399"  action="removecount" event="function" value="default"><!-- Stars -->
+	</distance>
+	<distance id="2410"  action="removecount" event="function" value="default"><!-- Knifes -->
+	</distance>
+	<distance id="1294"  action="removecount" event="function" value="default"><!-- Small Stones -->
+	</distance>
+	 <distance id="2352" level="50" type="physical" mana="5" event="function" value="default"><!-- Crystal Arrow -->
+		<vocation name="Royal Archer"/>
+		<vocation name="Medieval Archer"/>
+		<vocation name="Executioner"/><vocation name="Divine Shooter"/>
+		<vocation name="Elf"/><vocation name="Elf Ranger"/><vocation name="Elf Sentinel"/><vocation name="High Elf"/><vocation name="Elven Elite"/>
+		</distance>
+</weapons>

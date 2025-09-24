@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Magma Crawler" nameDescription="magma crawler" race="blood" experience="3600" speed="120" manacost="0">
+  <health now="5200" max="5200"/>
+  <look type="492" corpse="17337"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+	<attacks>
+		<attack name="melee" interval="1700" min="-300" max="-500"/>
+		<attack name="fire" interval="2000" chance="70" range="5" length="8" spread="3" min="-300" max="-500">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="melee" interval="1000" chance="20" range="7" radius="3" target="0" min="-300" max="-450">
+			<attribute key="areaEffect" value="explosionarea"/>
+		</attack>
+	</attacks>
+  <defenses armor="0" defense="0">    
+  </defenses>
+	<elements>			
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+  <immunities>
+    <immunity fire="100"/>
+    <immunity lifedrain="100"/>
+    <immunity paralyze="100"/>
+    <immunity invisible="100"/>
+  </immunities>   
+	<voices interval="5000" chance="10">
+		<voice sentence="Crrroak!"/>
+		<voice sentence="Rrroarrr"/>
+	</voices>     
+  <loot>        
+ 	 <item id="2152" countmax="3" chance="100000"/>            
+ 	 <item id="2145" countmax="3" chance="800"/>
+        <item id="10553" chance="7000"/>
+		<item id="18425" chance="4300"/>
+        <item id="2173" chance="542"/>            
+        <item id="7894" chance="400"/>                    
+        <item id="5914" chance="3000"/> 
+		<item id="2392" chance="600"/>            
+        <item id="7891" chance="442"/>                                             
+        <item id="2154" chance="882"/>            
+        <item id="2187" chance="700"/>          
+</loot>
+</monster>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Hunter" nameDescription="um hunter" race="blood" experience="150" speed="100" manacost="530">
+  <health now="150" max="150"/>
+  <look type="129" head="95" body="116" legs="121" feet="115" corpse="20419"/>
+  <targetchange interval="2000" chance="50"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="3"/>
+    <flag runonhealth="15"/>
+  </flags>
+
+<attacks>
+	<attack name="physical" interval="2000" chance="100" range="7" min="-30" max="-60">
+		<attribute key="shootEffect" value="arrow"/>
+	</attack>
+		<attack name="physical" interval="1800" chance="25" range="7" min="-20" max="-40">
+		<attribute key="shootEffect" value="arrow"/>
+	</attack>
+		<attack name="physical" interval="1600" chance="10" range="7" min="-10" max="-20">
+		<attribute key="shootEffect" value="arrow"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0"/>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+
+  <loot capacity="200">
+    <item id="2465" chance="1000"/>
+ 	<item id="2456" chance="6666"/>
+ 	<item id="2478" chance="1000"/>
+ 	<item id="2480" chance="1000"/>
+ 	<item id="2456" chance="50"/>
+	<item id="2201" chance="160"/>
+	<item id="2544" countmax="15" chance1="10000"/>
+
+ 	
+ 	<item id="2148" countmax="20" chance1="75000"/>
+	<item id="2546" countmax="8" chance1="7000"/>
+	<item id="2147" countmax="1" chance1="350"/>
+	<item id="2675" countmax="4" chance1="5000"/>
+
+  </loot>
+</monster>

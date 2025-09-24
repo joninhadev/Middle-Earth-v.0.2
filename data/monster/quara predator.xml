@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Quara Predator" nameDescription="uma quara predator" race="blood" experience="1600" speed="150" manacost="0">
+  <health now="2200" max="2200"/>
+  <look type="20" head="0" body="0" legs="0" feet="0" corpse="6067"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag staticattack="90"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+  <attacks>
+	<attack name="melee" interval="2000" min="-160" max="-280"/>
+  </attacks>
+  
+  <defenses armor="0" defense="0">
+    <defense name="healing" interval="1500" chance="18" min="113" max="187">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>	
+  </defenses>
+  
+  <immunities>
+    <immunity lifedrain="1"/>
+    <immunity invisible="1"/>
+	<immunity drown="1"/>
+  </immunities>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Rrrah!"/>
+	<voice sentence="Rraaar!"/>
+  </voices>
+  
+  <loot>
+	<item id="2670" chance="4000" countmax="5"/> 	
+	<item id="7893" chance="75"/> 
+	<item id="5895" chance="5000" countmax="1"/> 
+	<item id="5461" chance="350"/> 
+	<item id="2483" chance="1000"/> 
+	  
+	  	<item id="2148" chance="2500" countmax="88"/> 
+		<item id="2148" chance="2500" countmax="88"/> 
+		<item id="2158" chance="500"/>
+		<item id="2148" chance="2500" countmax="88"/>  	
+		<item id="2145" chance="429" countmax="2"/> 
+		<item id="2457" chance="856"/> 
+  </loot>
+  
+</monster>
+
+
+

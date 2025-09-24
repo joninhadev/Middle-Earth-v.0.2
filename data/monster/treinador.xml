@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Treinador" nameDescription="um treinador" race="undead" experience="0" speed="0" manacost="0">
+  <health now="40000" max="40000"/>
+  <look type="131" head="95" body="95" legs="95" feet="95" corpse="3058"/>
+  <targetchange interval="2000" chance="3"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="2800" min="-0" max="-5"/>
+</attacks>
+  
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="3000" chance="100" min="3000" max="5000"/>
+</defenses>
+
+
+	<elements>
+		<element energyPercent="99"/>
+		<element earthPercent="99"/>
+		<element icePercent="99"/>
+		<element firePercent="99"/>
+		<element holyPercent="99"/>
+		<element deathPercent="99"/>
+	</elements>
+  
+<immunities>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+  <voices interval="5000" chance="10">
+  </voices>
+  
+  <loot capacity="900">
+  </loot>
+</monster>

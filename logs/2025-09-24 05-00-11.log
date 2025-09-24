@@ -1,0 +1,451 @@
+2025-09-24 05:00:12 -  [Thread debugging using libthread_db enabled]
+2025-09-24 05:00:12 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-09-24 05:00:12 -  [New Thread 0x7ffff5b23700 (LWP 486240)]
+2025-09-24 05:00:12 -  [New Thread 0x7ffff5322700 (LWP 486241)]
+2025-09-24 05:00:12 -  The OTG-BR - Version: (1.4)
+2025-09-24 05:00:12 -  Compiled with: GNU C++ version 9.4.0
+2025-09-24 05:00:12 -  Compiled on Sep 11 2025 23:45:59 for platform x64
+2025-09-24 05:00:12 -  
+2025-09-24 05:00:12 -  Engine Credits for: TFS Team, OTG Team....
+2025-09-24 05:00:12 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-09-24 05:00:12 -  
+2025-09-24 05:00:12 -  >> Loading config: config.lua
+2025-09-24 05:00:12 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-24 05:00:12 -   MySQL 8.0.42
+2025-09-24 05:00:12 -  >> Running database manager
+2025-09-24 05:00:12 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-24 05:00:12 -  [New Thread 0x7ffff4b0d700 (LWP 486242)]
+2025-09-24 05:00:12 -  > Optimizing table players_online... [success]
+2025-09-24 05:00:12 -  > Optimizing table player_depotitems... [success]
+2025-09-24 05:00:12 -  > Optimizing table player_items... [success]
+2025-09-24 05:00:12 -  > Optimizing table player_deaths... [success]
+2025-09-24 05:00:12 -  > Optimizing table tile_store... [success]
+2025-09-24 05:00:12 -  > Optimizing table player_storage... [success]
+2025-09-24 05:00:12 -  >> Loading vocations
+2025-09-24 05:00:13 -  >> Loading items
+2025-09-24 05:00:13 -  >> Loading script systems
+2025-09-24 05:00:13 -  >> Loading lua libs
+2025-09-24 05:00:13 -  >> Loading bestiary
+2025-09-24 05:00:13 -  >> Loading lua scripts
+2025-09-24 05:00:14 -  >> Loading monsters
+2025-09-24 05:00:14 -  >> Loading lua monsters
+2025-09-24 05:00:14 -  >> Loading outfits
+2025-09-24 05:00:14 -  >> Loading imbuements
+2025-09-24 05:00:14 -  >> Loading charms
+2025-09-24 05:00:14 -  >> Loading Store
+2025-09-24 05:00:14 -  >> Loading prey data
+2025-09-24 05:00:14 -  >> Checking world type... RETRO-PVP
+2025-09-24 05:00:14 -  >> Loading map
+2025-09-24 05:00:21 -  > Map size: 2293x2048.
+2025-09-24 05:00:36 -  > Map loading time: 21.969 seconds.
+2025-09-24 05:00:37 -  > Loaded house items in: 0.015 s
+2025-09-24 05:00:37 -  >> Loading guilds... All guilds have been loaded.
+2025-09-24 05:00:37 -  >> Initializing gamestate
+2025-09-24 05:00:38 -  > Loaded spawns in 0.86 seconds.
+2025-09-24 05:00:38 -  >> Loaded 202 npcs and spawned 25510 monsters.
+2025-09-24 05:00:38 -  >> Loaded 17 towns with 588 houses in total.
+2025-09-24 05:00:38 -  >> Start time: 24.09.2025 - 05:00:38
+2025-09-24 05:00:38 -  Initialization complete.
+2025-09-24 05:00:38 -  >> Loaded all modules, server starting up...
+2025-09-24 05:00:38 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-09-24 05:00:38 -  >> Server started in 25.733 seconds.
+2025-09-24 05:00:38 -  >> Middle Earth Server Server Online!
+2025-09-24 05:00:38 -  
+2025-09-24 05:00:38 -  Loading John Wick...
+2025-09-24 05:00:38 -  John Wick has logged in.
+2025-09-24 05:00:38 -  Loading Druid Sinistro...
+2025-09-24 05:00:38 -  Druid Sinistro has logged in.
+2025-09-24 05:00:39 -  Loading Kyou Kai...
+2025-09-24 05:00:39 -  Kyou Kai has logged in.
+2025-09-24 05:00:39 -  Loading Roxo...
+2025-09-24 05:00:39 -  Roxo has logged in.
+2025-09-24 05:00:39 -  Loading Preto...
+2025-09-24 05:00:39 -  Preto has logged in.
+2025-09-24 05:00:39 -  Loading Ogro Sinistro...
+2025-09-24 05:00:39 -  Ogro Sinistro has logged in.
+2025-09-24 05:00:39 -  Loading Awesome Sophia...
+2025-09-24 05:00:39 -  Awesome Sophia has logged in.
+2025-09-24 05:00:39 -  Loading Mage Of Rules...
+2025-09-24 05:00:39 -  Mage Of Rules has logged in.
+2025-09-24 05:00:39 -  Loading Mono...
+2025-09-24 05:00:39 -  Mono has logged in.
+2025-09-24 05:00:39 -  Loading Pallazin...
+2025-09-24 05:00:39 -  Pallazin has logged in.
+2025-09-24 05:00:39 -  Loading Marmaduk Com Alzheime...
+2025-09-24 05:00:39 -  Marmaduk Com Alzheime has logged in.
+2025-09-24 05:00:40 -  Loading Betty Boopy...
+2025-09-24 05:00:40 -  Betty Boopy has logged in.
+2025-09-24 05:00:40 -  Loading Gynga Bilola...
+2025-09-24 05:00:40 -  Gynga Bilola has logged in.
+2025-09-24 05:00:40 -  Loading Elven Sinistro...
+2025-09-24 05:00:40 -  Elven Sinistro has logged in.
+2025-09-24 05:00:44 -  Betty Boopy has logged out.
+2025-09-24 05:00:48 -  Pallazin has logged out.
+2025-09-24 05:01:16 -  Loading Betty Boopy...
+2025-09-24 05:01:16 -  Betty Boopy has logged in.
+2025-09-24 05:01:21 -  Loading Pallazin...
+2025-09-24 05:01:21 -  Pallazin has logged in.
+2025-09-24 05:01:45 -  Loading Karol Star...
+2025-09-24 05:01:45 -  Karol Star has logged in.
+2025-09-24 05:04:16 -  Loading Aleska Teodoro...
+2025-09-24 05:04:16 -  Aleska Teodoro has logged in.
+2025-09-24 05:48:38 -  [BOSS SYSTEM] Spawned: Valaraukar
+2025-09-24 05:48:38 -  [BOSS SYSTEM] Spawned: The Necromancer
+2025-09-24 05:48:38 -  200.138.20.114 disconnected for exceeding packet per second limit.
+2025-09-24 05:56:00 -  200.138.20.114 disconnected for exceeding packet per second limit.
+2025-09-24 06:00:29 -  [BOSS SYSTEM] Spawned: Obujos
+2025-09-24 06:00:29 -  200.138.20.114 disconnected for exceeding packet per second limit.
+2025-09-24 06:02:14 -  Saving server... 24/09/2025 06:02:14
+2025-09-24 06:02:15 -  > Saved house items in: 0.184 s
+2025-09-24 06:04:41 -  200.138.20.114 disconnected for exceeding packet per second limit.
+2025-09-24 06:10:18 -  Ogro Sinistro has logged out.
+2025-09-24 06:10:50 -  Loading Ogro Sinistro...
+2025-09-24 06:10:50 -  Ogro Sinistro has logged in.
+2025-09-24 06:25:24 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-09-24 06:25:24 -  Karol Star has logged out.
+2025-09-24 06:37:00 -  Elven Sinistro has logged out.
+2025-09-24 06:37:36 -  Loading Elven Sinistro...
+2025-09-24 06:37:36 -  Elven Sinistro has logged in.
+2025-09-24 06:48:59 -  [BOSS SYSTEM] Spawned: Ancalagon
+2025-09-24 06:48:59 -  Loading Case...
+2025-09-24 06:48:59 -  Case has logged in.
+2025-09-24 06:54:27 -  Loading Roxkill...
+2025-09-24 06:54:27 -  Roxkill has logged in.
+2025-09-24 07:02:14 -  [BOSS SYSTEM] Spawned: Azazel
+2025-09-24 07:02:14 -  Saving server... 24/09/2025 07:02:14
+2025-09-24 07:02:14 -  > Saved house items in: 0.136 s
+2025-09-24 07:04:10 -  Loading Gordaumm...
+2025-09-24 07:04:10 -  Gordaumm has logged in.
+2025-09-24 07:09:06 -  200.138.20.114 disconnected for exceeding packet per second limit.
+2025-09-24 07:17:41 -  Gordaumm has logged out.
+2025-09-24 07:17:44 -  Loading Gordaumm...
+2025-09-24 07:17:44 -  Gordaumm has logged in.
+2025-09-24 07:21:14 -  [BOSS SYSTEM] Spawned: Olog-hai
+2025-09-24 07:21:14 -  Ogro Sinistro has logged out.
+2025-09-24 07:21:16 -  John Wick has logged out.
+2025-09-24 07:21:17 -  Druid Sinistro has logged out.
+2025-09-24 07:21:18 -  Elven Sinistro has logged out.
+2025-09-24 07:34:36 -  Gordaumm has logged out.
+2025-09-24 07:34:38 -  Loading Karol Star...
+2025-09-24 07:34:38 -  Karol Star has logged in.
+2025-09-24 07:38:35 -  Loading Soraio...
+2025-09-24 07:38:35 -  Soraio has logged in.
+2025-09-24 07:53:54 -  [BOSS SYSTEM] Spawned: Zamulosh
+2025-09-24 07:53:54 -  Loading Oppenheimer...
+2025-09-24 07:53:54 -  Oppenheimer has logged in.
+2025-09-24 07:55:22 -  Loading Ozymandias...
+2025-09-24 07:55:22 -  Ozymandias has logged in.
+2025-09-24 08:00:29 -  [BOSS SYSTEM] Spawned: Laracna
+2025-09-24 08:00:29 -  Loading Enfermeira Joy...
+2025-09-24 08:00:29 -  Enfermeira Joy has logged in.
+2025-09-24 08:00:45 -  Enfermeira Joy has logged out.
+2025-09-24 08:00:47 -  Loading Enfermeira Joy...
+2025-09-24 08:00:47 -  Enfermeira Joy has logged in.
+2025-09-24 08:02:14 -  Saving server... 24/09/2025 08:02:14
+2025-09-24 08:02:15 -  > Saved house items in: 0.194 s
+2025-09-24 08:07:25 -  Loading Romario Jr...
+2025-09-24 08:07:25 -  Romario Jr has logged in.
+2025-09-24 08:07:33 -  Loading Alexandre De Moraes...
+2025-09-24 08:07:33 -  Alexandre De Moraes has logged in.
+2025-09-24 08:08:33 -  Loading Dark Bebo...
+2025-09-24 08:08:33 -  Dark Bebo has logged in.
+2025-09-24 08:12:19 -  Loading Victorsemc...
+2025-09-24 08:12:19 -  Victorsemc has logged in.
+2025-09-24 08:30:37 -  [BOSS SYSTEM] Spawned: Cerberus
+2025-09-24 08:30:37 -  
+2025-09-24 08:30:37 -  Lua Script Error: [Scripts Interface] 
+2025-09-24 08:30:37 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-24 08:30:37 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-24 08:30:37 -  stack traceback:
+2025-09-24 08:30:37 -  	[C]: in function 'getLevel'
+2025-09-24 08:30:37 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-24 08:36:26 -  Loading Massey...
+2025-09-24 08:36:26 -  Massey has logged in.
+2025-09-24 08:36:33 -  Loading Kaka Bueno...
+2025-09-24 08:36:33 -  Kaka Bueno has logged in.
+2025-09-24 08:42:33 -  [BOSS SYSTEM] Spawned: Ungoliant
+2025-09-24 08:42:33 -  Kaka Bueno has logged out.
+2025-09-24 08:48:12 -  Enfermeira Joy has logged out.
+2025-09-24 08:55:02 -  Loading Eric Kartmann...
+2025-09-24 08:55:02 -  Eric Kartmann has logged in.
+2025-09-24 09:02:14 -  [BOSS SYSTEM] Spawned: Son of Ancalagon
+2025-09-24 09:02:14 -  Saving server... 24/09/2025 09:02:14
+2025-09-24 09:02:15 -  > Saved house items in: 0.157 s
+2025-09-24 09:09:27 -  Victorsemc has logged out.
+2025-09-24 09:09:32 -  Loading Victorsemc...
+2025-09-24 09:09:32 -  Victorsemc has logged in.
+2025-09-24 09:09:34 -  Alexandre De Moraes has logged out.
+2025-09-24 09:09:38 -  Loading Alexandre De Moraes...
+2025-09-24 09:09:38 -  Alexandre De Moraes has logged in.
+2025-09-24 09:20:37 -  [BOSS SYSTEM] Spawned: Baalrog
+2025-09-24 09:20:37 -  Loading Elzinho Druid...
+2025-09-24 09:20:37 -  Elzinho Druid has logged in.
+2025-09-24 09:21:17 -  Loading Jumahu...
+2025-09-24 09:21:17 -  Jumahu has logged in.
+2025-09-24 09:21:23 -  Loading [CM] Middle Earth...
+2025-09-24 09:21:23 -  [CM] Middle Earth has logged in.
+2025-09-24 09:29:27 -  Loading Enfermeira Joy...
+2025-09-24 09:29:27 -  Enfermeira Joy has logged in.
+2025-09-24 09:30:38 -  Loading Logitch...
+2025-09-24 09:30:38 -  Logitch has logged in.
+2025-09-24 09:30:40 -  Loading Alone Schadeck...
+2025-09-24 09:30:40 -  Alone Schadeck has logged in.
+2025-09-24 09:30:41 -  Loading Paramax...
+2025-09-24 09:30:41 -  Paramax has logged in.
+2025-09-24 09:35:09 -  Loading Sir Daniel...
+2025-09-24 09:35:09 -  Sir Daniel has logged in.
+2025-09-24 09:54:04 -  [BOSS SYSTEM] Spawned: The Necromancer
+2025-09-24 09:54:04 -  Roxo has logged out.
+2025-09-24 09:54:36 -  Loading Roxo...
+2025-09-24 09:54:36 -  Roxo has logged in.
+2025-09-24 09:55:16 -  Enfermeira Joy has logged out.
+2025-09-24 09:55:48 -  Loading Tenkai...
+2025-09-24 09:55:48 -  Tenkai has logged in.
+2025-09-24 09:55:48 -  Alexandre De Moraes has logged out.
+2025-09-24 09:55:50 -  Loading Alexandre De Moraes...
+2025-09-24 09:55:50 -  Alexandre De Moraes has logged in.
+2025-09-24 09:58:05 -  Loading Old Spice...
+2025-09-24 09:58:05 -  Old Spice has logged in.
+2025-09-24 09:58:49 -  Loading Enfermeira Joy...
+2025-09-24 09:58:49 -  Enfermeira Joy has logged in.
+2025-09-24 10:02:14 -  [BOSS SYSTEM] Spawned: Azaka
+2025-09-24 10:02:14 -  Saving server... 24/09/2025 10:02:14
+2025-09-24 10:02:15 -  > Saved house items in: 0.136 s
+2025-09-24 10:03:16 -  170.247.239.156 disconnected for exceeding packet per second limit.
+2025-09-24 10:12:04 -  Old Spice has logged out.
+2025-09-24 10:14:30 -  Ozymandias has logged out.
+2025-09-24 10:14:42 -  Oppenheimer has logged out.
+2025-09-24 10:15:21 -  Karol Star has logged out.
+2025-09-24 10:15:22 -  Loading Karol Star...
+2025-09-24 10:15:22 -  Karol Star has logged in.
+2025-09-24 10:15:42 -  Loading Old Spice...
+2025-09-24 10:15:42 -  Old Spice has logged in.
+2025-09-24 10:17:05 -  Karol Star has logged out.
+2025-09-24 10:17:59 -  Aleska Teodoro has logged out.
+2025-09-24 10:28:20 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-09-24 10:28:20 -  Tenkai has logged out.
+2025-09-24 10:28:21 -  Loading Zeinn...
+2025-09-24 10:28:21 -  Zeinn has logged in.
+2025-09-24 10:28:26 -  Zeinn has logged out.
+2025-09-24 10:28:28 -  Loading Tenkai...
+2025-09-24 10:28:28 -  Tenkai has logged in.
+2025-09-24 10:30:05 -  Loading Gardenal Rs...
+2025-09-24 10:30:05 -  Gardenal Rs has logged in.
+2025-09-24 10:33:08 -  Old Spice has logged out.
+2025-09-24 10:33:10 -  Loading Old Spice...
+2025-09-24 10:33:10 -  Old Spice has logged in.
+2025-09-24 10:43:57 -  [BOSS SYSTEM] Spawned: Scatha
+2025-09-24 10:43:57 -  Tenkai has logged out.
+2025-09-24 10:44:23 -  Loading Tenkai...
+2025-09-24 10:44:23 -  Tenkai has logged in.
+2025-09-24 10:49:13 -  Old Spice has logged out.
+2025-09-24 10:49:16 -  Loading Old Spice...
+2025-09-24 10:49:16 -  Old Spice has logged in.
+2025-09-24 10:50:29 -  Roxkill has logged out.
+2025-09-24 10:55:46 -  
+2025-09-24 10:55:46 -  Thread 2 "tfs" received signal SIGSEGV, Segmentation fault.
+2025-09-24 10:55:46 -  [Switching to Thread 0x7ffff5b23700 (LWP 486240)]
+2025-09-24 10:55:46 -  0x00005555555b4940 in Item::isRemoved() const ()
+2025-09-24 10:55:46 -  
+2025-09-24 10:55:46 -  Thread 4 (Thread 0x7ffff4b0d700 (LWP 486242)):
+2025-09-24 10:55:46 -  #0  futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x555555bda1bc <g_databaseTasks+188>) at ../sysdeps/nptl/futex-internal.h:183
+2025-09-24 10:55:46 -          __ret = -512
+2025-09-24 10:55:46 -          oldtype = 0
+2025-09-24 10:55:46 -          err = <optimized out>
+2025-09-24 10:55:46 -          oldtype = <optimized out>
+2025-09-24 10:55:46 -          err = <optimized out>
+2025-09-24 10:55:46 -          __ret = <optimized out>
+2025-09-24 10:55:46 -          resultvar = <optimized out>
+2025-09-24 10:55:46 -          __arg4 = <optimized out>
+2025-09-24 10:55:46 -          __arg3 = <optimized out>
+2025-09-24 10:55:46 -          __arg2 = <optimized out>
+2025-09-24 10:55:46 -          __arg1 = <optimized out>
+2025-09-24 10:55:46 -          _a4 = <optimized out>
+2025-09-24 10:55:46 -          _a3 = <optimized out>
+2025-09-24 10:55:46 -          _a2 = <optimized out>
+2025-09-24 10:55:46 -          _a1 = <optimized out>
+2025-09-24 10:55:46 -  #1  __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x555555bda168 <g_databaseTasks+104>, cond=0x555555bda190 <g_databaseTasks+144>) at pthread_cond_wait.c:508
+2025-09-24 10:55:46 -          spin = 0
+2025-09-24 10:55:46 -          buffer = {__routine = 0x7ffff71c3050 <__condvar_cleanup_waiting>, __arg = 0x7ffff4b0ccb0, __canceltype = 0, __prev = 0x0}
+2025-09-24 10:55:46 -          cbuffer = {wseq = 27, cond = 0x555555bda190 <g_databaseTasks+144>, mutex = 0x555555bda168 <g_databaseTasks+104>, private = 0}
+2025-09-24 10:55:46 -          err = <optimized out>
+2025-09-24 10:55:46 -          g = 1
+2025-09-24 10:55:46 -          flags = <optimized out>
+2025-09-24 10:55:46 -          g1_start = <optimized out>
+2025-09-24 10:55:46 -          signals = <optimized out>
+2025-09-24 10:55:46 -          result = 0
+2025-09-24 10:55:46 -          wseq = 27
+2025-09-24 10:55:46 -          seq = 13
+2025-09-24 10:55:46 -          private = <optimized out>
+2025-09-24 10:55:46 -          maxspin = <optimized out>
+2025-09-24 10:55:46 -          err = <optimized out>
+2025-09-24 10:55:46 -          result = <optimized out>
+2025-09-24 10:55:46 -          wseq = <optimized out>
+2025-09-24 10:55:46 -          g = <optimized out>
+2025-09-24 10:55:46 -          seq = <optimized out>
+2025-09-24 10:55:46 -          flags = <optimized out>
+2025-09-24 10:55:46 -          private = <optimized out>
+2025-09-24 10:55:46 -          signals = <optimized out>
+2025-09-24 10:55:46 -          g1_start = <optimized out>
+2025-09-24 10:55:46 -          spin = <optimized out>
+2025-09-24 10:55:46 -          buffer = <optimized out>
+2025-09-24 10:55:46 -          cbuffer = <optimized out>
+2025-09-24 10:55:46 -          s = <optimized out>
+2025-09-24 10:55:46 -  #2  __pthread_cond_wait (cond=0x555555bda190 <g_databaseTasks+144>, mutex=0x555555bda168 <g_databaseTasks+104>) at pthread_cond_wait.c:647
+2025-09-24 10:55:46 -  No locals.
+2025-09-24 10:55:46 -  #3  0x00007ffff70a2e30 in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /lib/x86_64-linux-gnu/libstdc++.so.6
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #4  0x0000555555630b91 in DatabaseTasks::threadMain() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #5  0x0000555555633727 in void std::__invoke_impl<void, void (DatabaseTasks::*)(), DatabaseTasks*>(std::__invoke_memfun_deref, void (DatabaseTasks::*&&)(), DatabaseTasks*&&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #6  0x0000555555633656 in std::__invoke_result<void (DatabaseTasks::*)(), DatabaseTasks*>::type std::__invoke<void (DatabaseTasks::*)(), DatabaseTasks*>(void (DatabaseTasks::*&&)(), DatabaseTasks*&&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #7  0x00005555556335b7 in void std::thread::_Invoker<std::tuple<void (DatabaseTasks::*)(), DatabaseTasks*> >::_M_invoke<0ul, 1ul>(std::_Index_tuple<0ul, 1ul>) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #8  0x000055555563355d in std::thread::_Invoker<std::tuple<void (DatabaseTasks::*)(), DatabaseTasks*> >::operator()() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #9  0x0000555555633534 in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (DatabaseTasks::*)(), DatabaseTasks*> > >::_M_run() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #10 0x00007ffff70a8df4 in ?? () from /lib/x86_64-linux-gnu/libstdc++.so.6
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #11 0x00007ffff71bc609 in start_thread (arg=<optimized out>) at pthread_create.c:477
+2025-09-24 10:55:46 -          ret = <optimized out>
+2025-09-24 10:55:46 -          pd = <optimized out>
+2025-09-24 10:55:46 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737298618112, -8695617084464838663, 140737315481678, 140737315481679, 140737315481680, 140737298616192, 8695640767414650873, 8695633268110116857}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2025-09-24 10:55:46 -          not_first_call = 0
+2025-09-24 10:55:46 -  #12 0x00007ffff7eea353 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+2025-09-24 10:55:46 -  No locals.
+2025-09-24 10:55:46 -  
+2025-09-24 10:55:46 -  Thread 3 (Thread 0x7ffff5322700 (LWP 486241)):
+2025-09-24 10:55:46 -  #0  0x000055555596e3d6 in bool __gnu_cxx::__ops::_Iter_comp_iter<TaskComparator>::operator()<std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>, std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**> >(std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>, std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #1  0x000055555596e026 in void std::__adjust_heap<std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>, long, SchedulerTask*, __gnu_cxx::__ops::_Iter_comp_iter<TaskComparator> >(std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>, long, long, SchedulerTask*, __gnu_cxx::__ops::_Iter_comp_iter<TaskComparator>) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #2  0x000055555596db2d in void std::__pop_heap<std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>, __gnu_cxx::__ops::_Iter_comp_iter<TaskComparator> >(std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>, std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>, std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>, __gnu_cxx::__ops::_Iter_comp_iter<TaskComparator>&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #3  0x000055555596d606 in void std::pop_heap<std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>, TaskComparator>(std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>, std::_Deque_iterator<SchedulerTask*, SchedulerTask*&, SchedulerTask**>, TaskComparator) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #4  0x000055555596d022 in std::priority_queue<SchedulerTask*, std::deque<SchedulerTask*, std::allocator<SchedulerTask*> >, TaskComparator>::pop() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #5  0x000055555596c8ce in Scheduler::threadMain() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #6  0x000055555589a150 in void std::__invoke_impl<void, void (Scheduler::*)(), Scheduler*>(std::__invoke_memfun_deref, void (Scheduler::*&&)(), Scheduler*&&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #7  0x0000555555899de0 in std::__invoke_result<void (Scheduler::*)(), Scheduler*>::type std::__invoke<void (Scheduler::*)(), Scheduler*>(void (Scheduler::*&&)(), Scheduler*&&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #8  0x0000555555899829 in void std::thread::_Invoker<std::tuple<void (Scheduler::*)(), Scheduler*> >::_M_invoke<0ul, 1ul>(std::_Index_tuple<0ul, 1ul>) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #9  0x0000555555899061 in std::thread::_Invoker<std::tuple<void (Scheduler::*)(), Scheduler*> >::operator()() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #10 0x00005555558986d2 in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (Scheduler::*)(), Scheduler*> > >::_M_run() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #11 0x00007ffff70a8df4 in ?? () from /lib/x86_64-linux-gnu/libstdc++.so.6
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #12 0x00007ffff71bc609 in start_thread (arg=<optimized out>) at pthread_create.c:477
+2025-09-24 10:55:46 -          ret = <optimized out>
+2025-09-24 10:55:46 -          pd = <optimized out>
+2025-09-24 10:55:46 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737307092736, -8695617084464838663, 140737488346462, 140737488346463, 140737488346464, 140737307090816, 8695637454384252921, 8695633268110116857}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2025-09-24 10:55:46 -          not_first_call = 0
+2025-09-24 10:55:46 -  #13 0x00007ffff7eea353 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+2025-09-24 10:55:46 -  No locals.
+2025-09-24 10:55:46 -  
+2025-09-24 10:55:46 -  Thread 2 (Thread 0x7ffff5b23700 (LWP 486240)):
+2025-09-24 10:55:46 -  #0  0x00005555555b4940 in Item::isRemoved() const ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #1  0x00005555555b4974 in Item::isRemoved() const ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #2  0x000055555573b0ee in Item::canDecay() const ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #3  0x000055555566a22f in Game::checkDecay() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #4  0x00005555556aa535 in void std::__invoke_impl<void, void (Game::*&)(), Game*&>(std::__invoke_memfun_deref, void (Game::*&)(), Game*&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #5  0x00005555556a4017 in std::__invoke_result<void (Game::*&)(), Game*&>::type std::__invoke<void (Game::*&)(), Game*&>(void (Game::*&)(), Game*&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #6  0x000055555569a33b in void std::_Bind<void (Game::*(Game*))()>::__call<void, , 0ul>(std::tuple<>&&, std::_Index_tuple<0ul>) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #7  0x000055555568de3b in void std::_Bind<void (Game::*(Game*))()>::operator()<, void>() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #8  0x0000555555683967 in std::_Function_handler<void (), std::_Bind<void (Game::*(Game*))()> >::_M_invoke(std::_Any_data const&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #9  0x00005555559ace7e in std::function<void ()>::operator()() const ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #10 0x00005555559ac9a8 in Task::operator()() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #11 0x00005555559acbdd in Dispatcher::threadMain() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #12 0x000055555589a208 in void std::__invoke_impl<void, void (Dispatcher::*)(), Dispatcher*>(std::__invoke_memfun_deref, void (Dispatcher::*&&)(), Dispatcher*&&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #13 0x0000555555899e93 in std::__invoke_result<void (Dispatcher::*)(), Dispatcher*>::type std::__invoke<void (Dispatcher::*)(), Dispatcher*>(void (Dispatcher::*&&)(), Dispatcher*&&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #14 0x0000555555899873 in void std::thread::_Invoker<std::tuple<void (Dispatcher::*)(), Dispatcher*> >::_M_invoke<0ul, 1ul>(std::_Index_tuple<0ul, 1ul>) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #15 0x000055555589909f in std::thread::_Invoker<std::tuple<void (Dispatcher::*)(), Dispatcher*> >::operator()() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #16 0x00005555558986f4 in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (Dispatcher::*)(), Dispatcher*> > >::_M_run() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #17 0x00007ffff70a8df4 in ?? () from /lib/x86_64-linux-gnu/libstdc++.so.6
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #18 0x00007ffff71bc609 in start_thread (arg=<optimized out>) at pthread_create.c:477
+2025-09-24 10:55:46 -          ret = <optimized out>
+2025-09-24 10:55:46 -          pd = <optimized out>
+2025-09-24 10:55:46 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737315485440, -8695617084464838663, 140737488346462, 140737488346463, 140737488346464, 140737315483520, 8695638552285267961, 8695633268110116857}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2025-09-24 10:55:46 -          not_first_call = 0
+2025-09-24 10:55:46 -  #19 0x00007ffff7eea353 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+2025-09-24 10:55:46 -  No locals.
+2025-09-24 10:55:46 -  
+2025-09-24 10:55:46 -  Thread 1 (Thread 0x7ffff69d2780 (LWP 486236)):
+2025-09-24 10:55:46 -  #0  0x00007ffff7eea68e in epoll_wait (epfd=4, events=0x7fffffffd6f0, maxevents=128, timeout=-1) at ../sysdeps/unix/sysv/linux/epoll_wait.c:30
+2025-09-24 10:55:46 -          resultvar = 18446744073709551612
+2025-09-24 10:55:46 -          sc_cancel_oldtype = 0
+2025-09-24 10:55:46 -          sc_ret = <optimized out>
+2025-09-24 10:55:46 -  #1  0x00005555555ec39c in boost::asio::detail::epoll_reactor::run(long, boost::asio::detail::op_queue<boost::asio::detail::scheduler_operation>&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #2  0x00005555555eda12 in boost::asio::detail::scheduler::do_run_one(boost::asio::detail::conditionally_enabled_mutex::scoped_lock&, boost::asio::detail::scheduler_thread_info&, boost::system::error_code const&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #3  0x00005555555ed4c6 in boost::asio::detail::scheduler::run(boost::system::error_code&) ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #4  0x0000555555975ae4 in boost::asio::io_context::run() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #5  0x0000555555976d6c in ServiceManager::run() ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  #6  0x0000555555889454 in main ()
+2025-09-24 10:55:46 -  No symbol table info available.
+2025-09-24 10:55:46 -  Server crash :O
+2025-09-24 10:55:46 -  Saving server... 24/09/2025 10:55:46
+2025-09-24 10:55:46 -  Old Spice Position: 733, 512, 7
+2025-09-24 10:55:46 -  Tenkai Position: 899, 422, 7
+2025-09-24 10:55:46 -  Gardenal Rs Position: 1053, 1005, 6
+2025-09-24 10:55:46 -  Enfermeira Joy Position: 464, 871, 7
+2025-09-24 10:55:46 -  Alexandre De Moraes Position: 386, 823, 6
+2025-09-24 10:55:46 -  Roxo Position: 1480, 1480, 8
+2025-09-24 10:55:46 -  Sir Daniel Position: 1203, 748, 6
+2025-09-24 10:55:46 -  Gynga Bilola Position: 1604, 366, 4
+2025-09-24 10:55:46 -  Pallazin Position: 1071, 1037, 1
+2025-09-24 10:55:46 -  Jumahu Position: 685, 816, 10
+2025-09-24 10:55:47 -  Mono Position: 1207, 753, 7
+2025-09-24 10:55:47 -  Mage Of Rules Position: 1071, 1037, 1
+2025-09-24 10:55:47 -  Preto Position: 1479, 1480, 8
+2025-09-24 10:55:47 -  Betty Boopy Position: 1071, 1037, 1
+2025-09-24 10:55:47 -  Marmaduk Com Alzheime Position: 1594, 370, 4
+2025-09-24 10:55:47 -  [CM] Middle Earth Position: 1063, 1007, 5
+2025-09-24 10:55:47 -  Kyou Kai Position: 1844, 1172, 8
+2025-09-24 10:55:47 -  Victorsemc Position: 315, 842, 8
+2025-09-24 10:55:47 -  Awesome Sophia Position: 898, 1743, 6
+2025-09-24 10:55:47 -  Case Position: 1247, 1390, 7
+2025-09-24 10:55:47 -  Alone Schadeck Position: 688, 819, 10
+2025-09-24 10:55:47 -  Logitch Position: 687, 819, 10
+2025-09-24 10:55:47 -  Soraio Position: 1542, 375, 7
+2025-09-24 10:55:47 -  Romario Jr Position: 127, 1856, 8
+2025-09-24 10:55:47 -  Massey Position: 1457, 732, 9
+2025-09-24 10:55:47 -  Paramax Position: 688, 820, 10
+2025-09-24 10:55:47 -  Dark Bebo Position: 519, 49, 7
+2025-09-24 10:55:47 -  Eric Kartmann Position: 1594, 366, 4
+2025-09-24 10:55:47 -  Elzinho Druid Position: 126, 1856, 8
+2025-09-24 10:55:47 -  > Saved house items in: 0.136 s
+2025-09-24 10:55:47 -  A debugging session is active.
+2025-09-24 10:55:47 -  
+2025-09-24 10:55:47 -  	Inferior 1 [process 486236] will be killed.
+2025-09-24 10:55:47 -  
+2025-09-24 10:55:47 -  Quit anyway? (y or n) [answered Y; input not from terminal]

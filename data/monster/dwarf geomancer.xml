@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dwarf Geomancer" nameDescription="um dwarf geomancer" race="blood" experience="245" speed="70" manacost="0">
+  <health now="380" max="380"/>
+  <look type="66" head="0" body="0" legs="0" feet="0" corpse="2987"/>
+  <targetchange interval="2000" chance="50"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="70"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-30" max="-100"/>
+
+	<attack name="physical" interval="2270" chance="20" range="5" min="-30" max="-70">
+	<attribute key="shootEffect" value="largerock"/>
+	</attack>
+
+	<attack name="manadrain" interval="1300" chance="20" range="3" min="-40" max="-70"/>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="3000" chance="20" min="40" max="80">
+	<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="1"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  <voices interval="5000" chance="5">
+    <voice sentence="Hail Durin!"/>
+    <voice sentence="Earth is the strongest element."/>
+    <voice sentence="Dust to dust."/>
+  </voices>
+  <loot capacity="800">
+    <item id="2648" chance="5000"/>
+ 	<item id="2641" chance="150"/>
+
+ 	
+ 	<item id="2148" countmax="50" chance1="100000"/>
+	<item id="2787" countmax="3" chance1="20000"/>
+ 	<item id="2673" countmax="3" chance1="6666"/>
+ 	<item id="2260" chance="4000"/>
+ 	<item id="2162" chance="2500"/>
+ 	<item id="2088" chance="100000" actionId="201"/>
+ 	
+
+
+  </loot>
+</monster>

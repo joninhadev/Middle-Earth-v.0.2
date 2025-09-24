@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<monster name="Chakoya Windcaller" nameDescription="uma chakoya windcaller" race="blood" experience="48" speed="76" manacost="200">
+  <health now="84" max="84"/>
+  <look type="249" head="0" body="0" legs="0" feet="0" corpse="7320"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="6"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-15" max="-25" poison="5"/>
+
+	<attack name="lifedrain" interval="3250" chance="30" range="1" min="-7" max="-15"/>
+	
+	<attack name="energy" interval="3600" chance="99" range="7" min="-10" max="-25">
+		<attribute key="shootEffect" value="energy"/>
+		<attribute key="areaEffect" value="energy"/>
+	</attack>
+
+</attacks>
+
+<defenses armor="0" defense="0"/>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+
+<loot>
+    <item id="2148" countmax="20" chance="80000"/>
+    <item id="7158" countmax="1" chance="300"/>
+    <item id="7290" countmax="1" chance="6000"/>
+</loot>
+
+</monster>

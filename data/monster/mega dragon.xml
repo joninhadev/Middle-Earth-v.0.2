@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<monster name="Mega Dragon" nameDescription="a mega dragon" race="undead" experience="14300" speed="160">
+<health now="8350" max="8350"/>
+<look type="1712" head="20" body="30" legs="40" feet="50" corpse="50313"/>
+<targetchange speed="2000" chance="5"/>
+
+<flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+    <!-- Ataque corpo a corpo -->
+    <attack name="melee" interval="2000" chance="100" min="-300" max="-650" />
+
+    <!-- Ataque físico curto -->
+    <attack name="physical" interval="2500" chance="15" range="2" min="-250" max="-350" target="1">
+        <attribute key="areaEffect" value="blackspark"/>
+    </attack>
+
+    <!-- Fogo em linha -->
+    <attack name="fire" interval="2500" chance="20" length="8" spread="4" min="-250" max="-500" target="0">
+        <attribute key="areaEffect" value="explosionarea"/>
+    </attack>
+
+    <!-- Fogo em área com projétil -->
+    <attack name="fire" interval="2500" chance="15" range="7" radius="4" min="-300" max="-700" target="1">
+        <attribute key="shootEffect" value="fire"/>
+        <attribute key="areaEffect" value="firearea"/>
+    </attack>
+
+    <!-- Dano físico em área -->
+    <attack name="physical" interval="3000" chance="5" radius="4" min="-400" max="-750" target="1">
+        <attribute key="areaEffect" value="smoke"/>
+    </attack>
+
+    <!-- Corrente de morte -->
+    <attack name="death chain" interval="2500" chance="15" range="7" min="-200" max="-550" target="1" />
+</attacks>
+
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="2800" chance="16" min="100" max="300">
+	<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+	<elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+<loot>
+	<item name="gold coin" countmax="99" chance="99999"/>
+	<item name="molten dragon essence" chance="4000"/>
+	<item name="mega dragon heart" chance="3800"/>
+	<item name="dragon shield" chance="700"/>
+	<item name="red dragon leather" chance="3000"/>
+	<item name="platinum coin" countmax="3" chance="399999"/>
+	<item name="dragon lance" chance="500"/>
+</loot>
+
+</monster>

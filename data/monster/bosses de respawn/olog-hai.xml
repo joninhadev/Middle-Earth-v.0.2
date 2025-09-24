@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Olog-hai" nameDescription="Olog-hai" race="blood" experience="115000" speed="320" manacost="0">
+  <health now="35000" max="35000"/>
+  <look type="55" head="0" body="0" legs="0" feet="0" corpse="2931"/>
+  <targetchange interval="8000" chance="8"/>
+  <strategy attack="100" defense="100"/>
+
+<flags>
+	<flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-200" max="-480"/>
+
+	<attack name="physical" interval="2900" chance="99" range="6" min="-250" max="-390">
+		<attribute key="shootEffect" value="largerock"/>
+	</attack>
+	
+	<attack name="physical" interval="3700" chance="33" target="0" radius="5" min="-150" max="-450">
+		<attribute key="areaEffect" value="groundshaker"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="speed" interval="6000" chance="35" speedchange="300" duration="5000">
+		<attribute key="areaEffect" value="redshimmer"/>
+	</defense>
+	
+	<defense name="healing" interval="1000" chance="100" min="40" max="70"/>
+</defenses>
+
+<elements><element physicalPercent="5"/>
+	<element physicalPercent="70"/>
+	<element icePercent="15"/>
+	<element poisonPercent="20"/>
+	<element firePercent="30"/>
+	<element energyPercent="15"/>
+	<element holyPercent="15"/>
+	<element deathPercent="30"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Vou esmaga-lo!"/>
+    <voice sentence="Tente correr inseto!"/>
+    <voice sentence="Hahaha, isso eh tudo?!" yell="1"/>
+  </voices>
+
+  <loot>
+
+	<item id="2149" countmax="5" chance1="5000" chancemax="0"/> 
+	<item id="2496" chance="800"/> 
+	<item id="2528" chance="4000"/> 
+	<item id="3968" chance="900"/> 
+	<item id="2645" chance="2000"/> 
+	<item id="2391" chance="7800"/> 
+	<item id="2393" chance="2500"/> 
+	<item id="2138" chance="1500"/>
+	<item id="2365" chance="100000"> 	    
+	<item id="2152" countmax="5" chance1="20000" chancemax="0"/> 
+	<item id="2148" countmax="100" chance1="20000" chancemax="0"/> 
+	<item id="2148" countmax="100" chance1="20000" chancemax="0"/> 
+	<item id="2148" countmax="100" chance1="20000" chancemax="0"/> 
+	<item id="2547" countmax="10" chance1="20000" chancemax="0"/> 
+	<item id="2416" chance="100000"/> 	
+	<item id="2387" chance="40563"/> 	
+		
+	</item>
+	
+  </loot>
+
+</monster>

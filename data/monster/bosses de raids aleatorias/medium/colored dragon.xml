@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Colored Dragon" nameDescription="the Dragon Colored" race="blood" experience="1500000" speed="280" manacost="0">
+  <health now="300000" max="300000"/>
+  <look type="947" head="94" body="80" legs="120" feet="60" addons="3" corpse="27733"/>
+  <targetchange interval="8000" chance="15"/>
+  <strategy attack="100" defense="100"/>
+  
+  <flags>
+    <flag rewardboss="1" />
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="1250" chance="20" min="-560" max="-1040"/>
+	<attack name="fire" interval="1550" chance="60" range="7" radius="3" target="1" min="-700" max="-1200">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+	<attack name="great flame beam" interval="2500" chance="20" length="5" spread="0" min="-800" max="-1500">
+		<attribute key="areaEffect" value="firearea"/>
+		<attribute key="shootEffect" value="fire"/>
+	</attack>
+	<attack name="firefield" interval="2250" chance="99" range="9" radius="4" target="1" min="-700" max="-1000">
+		<attribute key="shootEffect" value="fire"/>
+	</attack>
+
+	<attack name="fire" interval="3350" chance="15" radius="8" min="-750" max="-1600">
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+	
+	<attack name="fire" interval="3700" chance="1" radius="8" min="-800" max="1300">
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="1000" chance="30" min="200" max="320"/>
+</defenses>
+
+<elements>
+		<element icePercent="50"/>
+		<element energyPercent="50"/>
+		<element earthPercent="50"/>
+		<element holyPercent="50"/>
+		<element deathPercent="50"/>
+		<element firePercent="50"/>
+		<element drownPercent="50"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+</immunities>
+
+<loot>
+		<item name="gold coin" countmax="99" chance="9999"/>
+		<item name="platinum coin" countmax="99" chance="9999"/>
+		<item name="crystal coin" countmax="20" chance="99999"/>
+		<item name="great shield" chance="300"/>
+		<item name="dragon scale helmet" chance="500"/>
+		<item name="dragon scale boots" chance="500"/>
+		<item name="dragon scale legs" chance="500"/>
+		<item name="dragon scale mail" chance="400"/>
+</loot>
+
+</monster>

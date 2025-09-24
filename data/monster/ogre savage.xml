@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Ogre Savage" nameDescription="an ogre savage" race="blood" experience="4200" speed="140" raceid="1162">
+	<health now="3800" max="3800"/>
+	<look type="858" corpse="24803"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-469" fire="6"/>
+		<attack name="fire" interval="2000" chance="15" range="7" min="-370" max="-480">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+
+
+
+	</attacks>
+	<defenses armor="20" defense="20">
+		<defense name="healing" interval="2000" chance="10" min="80" max="95">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+<element physicalPercent="20"/>
+<element earthPercent="50"/>
+<element firePercent="50"/>
+<element deathPercent="99"/>
+<element energyPercent="30"/>
+<element holyPercent="15"/>
+<element icePercent="20"/>
+	</elements>
+	<immunities>
+
+		<immunity earth="1"/>
+
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="3000" chance="50">
+		<voice sentence="Must! Chop! Food! Raahh!"/>
+		<voice sentence="You tasty!"/>
+		<voice sentence="UGGA UGGA!!"/>
+	</voices>
+	<loot>
+		<item id="2152" countmax="3" chance="92000"/><!-- platinum coin -->
+		<item id="2666" chance="6200"/><!-- meat -->
+		<item id="2147" chance="4200"/><!-- small ruby -->
+		<item id="24844" chance="5200"/><!-- ogre ear stud -->
+		<item id="24845" chance="5200"/><!-- Ogre Nose Ring -->
+		<item name="zenit cuirass" chance="20"/>
+		<item name="zenit legs" chance="50"/>
+		<item name="zenit shoes" chance="100"/>
+		<item id="24849" countmax="2" chance="3200"/><!-- Onyx Chip -->
+		<item id="24850" countmax="3" chance="3200"/><!-- Opal -->
+		<item id="24847" chance="1200"/><!--  Skull Fetish -->
+		<item id="24848" chance="300"/><!-- Shamanic Mask -->
+		<item id="11308" chance="50"/><!-- Drachaku -->
+	</loot>
+</monster>

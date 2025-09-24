@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Uruk-hai" nameDescription="um Uruk-hai" race="blood" experience="110" speed="150" manacost="0">
+  <health now="185" max="185"/>
+  <look type="7" head="20" body="30" legs="40" feet="50" corpse="2862"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="15"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-20" max="-60"/>
+
+	<attack name="physical" interval="3150" chance="99" range="6" min="-20" max="-40">
+		<attribute key="shootEffect" value="bolt"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0"/>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Grrrr"/>
+    <voice sentence="Groar"/>
+    <voice sentence="Gruntz!"/>
+    <voice sentence="Hmmm, bugs."/>
+    <voice sentence="Hmmm, dogs."/>
+  </voices>
+  <loot capacity="200">
+    <item id="2529" chance="3000"/>
+ 	<item id="2513" chance="1000"/>
+ 	<item id="2419" chance="1900"/>
+ 	<item id="2385" chance="2100"/>
+ 	<item id="2387" chance="50"/>
+ 	<item id="2489" chance="250"/>
+ 	<item id="2490" chance="245"/>
+ 	
+ 	<item id="2148" countmax="25" chance1="70000"/>
+ 	<item id="2007" chance="6000"/>
+ 	<item id="2009" chance="4000"/>
+  </loot>
+</monster>

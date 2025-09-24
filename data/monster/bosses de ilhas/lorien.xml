@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Lorien" nameDescription="um lorien" race="fire" experience="4000000" speed="380" manacost="0">
+	<health now="300000" max="300000"/>
+	<look type="862" head="16" body="12" legs="73" feet="55" addons="0" corpse="6068" />
+	<targetchange interval="5000" chance="20"/>
+	<flags>
+		<flag rewardboss="1"/>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+    <!-- melee -->
+    <attack name="melee" interval="2000" skill="230" attack="210"/>
+
+    <!-- explosão de energia em área -->
+    <attack name="energy" interval="1000" chance="8" radius="9" target="0" min="-800" max="-1900">
+        <attribute key="areaEffect" value="energyarea"/>
+    </attack>
+
+    <!-- SUBSTITUI: speed (energyshimmer) -> energy chain -->
+    <attack name="energy chain" interval="1200" chance="12" range="7" target="1" min="-600" max="-1450"/>
+
+    <!-- rajada de energia em área -->
+    <attack name="energy" interval="1200" chance="10" radius="5" target="0" min="-600" max="-1450">
+        <attribute key="areaEffect" value="blueshimmer"/>
+    </attack>
+
+    <!-- energia à distância + área -->
+    <attack name="energy" interval="3000" chance="13" range="7" radius="7" target="1" min="-800" max="-1200">
+        <attribute key="shootEffect" value="energy"/>
+        <attribute key="areaEffect" value="energyarea"/>
+    </attack>
+
+    <!-- tempestade de energia ampla -->
+    <attack name="energy" interval="3000" chance="8" radius="10" target="0" min="-600" max="-700">
+        <attribute key="areaEffect" value="bluebubble"/>
+    </attack>
+
+    <!-- SUBSTITUI: linha de energia (electrify) -> energy chain -->
+    <attack name="energy chain" interval="2000" chance="9" range="7" target="1" min="-700" max="-1200"/>
+
+    <!-- pulso forte de energia -->
+    <attack name="energy" interval="5000" chance="18" length="0" spread="0" min="-1500" max="-2000">
+        <attribute key="areaEffect" value="blueshimmer"/>
+    </attack>
+
+    <!-- onda massiva de energia -->
+    <attack name="energy" interval="2000" chance="6" radius="14" target="0" min="-800" max="-1600">
+        <attribute key="areaEffect" value="energyarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="1000" chance="5" min="300" max="500">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="8" speedchange="480" duration="6000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+		<elements>
+	<element physicalPercent="75"/>
+	<element icePercent="75"/>
+	<element poisonPercent="75"/>
+	<element firePercent="75"/>
+	<element energyPercent="75"/>
+	<element holyPercent="75"/>
+	<element deathPercent="75"/>
+		</elements>
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="1"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="BOW TO THE POWER OF THE RUTHLESS SEVEN!" yell="1"/>
+		<voice sentence="DESTRUCTION!" yell="1"/>
+		<voice sentence="CHAOS!" yell="1"/>
+		<voice sentence="DEATH TO ALL!" yell="1"/>
+	</voices>
+     <loot>
+		<item name="crystal coin" countmax="10" chance="399999"/>
+		<item name="vortex doll" chance="600"/>
+		<item name="voltage armor" chance="1000"/>
+		<item name="gnome legs" chance="600"/>
+		<item name="gnome armor" chance="600"/>
+		<item name="gnome helmet" chance="600"/>
+		<item name="munrah shield" chance="600"/>
+	</loot>
+</monster>

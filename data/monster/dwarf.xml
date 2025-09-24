@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dwarf" nameDescription="um dwarf" race="blood" experience="45" speed="80" manacost="320">
+  <health now="90" max="90"/>
+  <look type="69" head="0" body="0" legs="0" feet="0" corpse="2960"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="2000" min="-10" max="-25"/>
+</attacks>
+  
+<defenses armor="0" defense="0"/>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Hail Durin!"/>
+  </voices>
+
+<loot capacity="800">
+	<item id="2148" countmax="25" chance1="90000"/>
+	<item id="2388" chance="3000"/> 
+	<item id="2386" chance="4000"/> 
+	<item id="2484" chance="2000"/> 
+	<item id="2530" chance="2000"/> 
+	<item id="2649" chance="3000"/> 
+		
+		<item id="2787" countmax="3" chance1="20000"/> 
+		<item id="2553" chance="3000"/> 
+		<item id="2554" chance="1000"/> 
+		<item id="2597" chance="2000"/> 
+		<item id="2213" chance="50"/> 
+
+
+</loot>
+
+</monster>

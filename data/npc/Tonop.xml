@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Tonop" script="default.lua" access="3" walkinterval="0">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="251" head="58" body="29" legs="0" feet="126" addon="0" corpse="3128"/>
+
+ <parameters>
+  <parameter key="module_shop" value="1"/>
+  <parameter key="message_greet" value="Ola. Como posso te ajudar |PLAYERNAME|?"/>
+<parameter key="shop_buyable" value="axe,2386,26;hand axe,2380,16;hatchet,2388,50;orcish axe,2428,240;battle axe,2378,450;barbarian axe,2429,1300;ripper lance,3964,2000;dwarven axe,2435,2800;knight axe,2430,6000;double axe,2387,2600;halberd,2381,2200;frost razor,7455,12000;daramanian waraxe,2440,8000;fire axe,2432,16000;dreaded cleaver,7419,50000;naginata,2426,14000;"/>
+<parameter key="shop_sellable" value="axe,2386,13;hand axe,2380,8;hatchet,2388,25;orcish axe,2428,120;battle axe,2378,225;barbarian axe,2429,650;ripper lance,3964,1000;dwarven axe,2435,1400;knight axe,2430,3000;double axe,2387,1300;halberd,2381,1200;frost razor,7455,6000;daramanian waraxe,2440,4000;fire axe,2432,8000;dreaded cleaver,7419,25000;naginata,2426,7000;axe of maim,3962,20000;headchopper,7380,10000;twin axe,2447,14000;"/>
+ </parameters>
+</npc>
+

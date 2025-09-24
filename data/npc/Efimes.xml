@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Efimes" script="default.lua" access="3" walkinterval="0">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="136" head="58" body="19" legs="72" feet="71" addons="3" corpse="3128"/>
+	
+ <parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_buyable" value="zenit legs,11304,500000;leather legs,2649,16;studded legs,2468,70;chain legs,2648,250;brass legs,2478,600;mammoth fur shorts,7464,600;plate legs,2647,4000;pirate knee breeches,5918,4400;elven legs,2507,8000;aghanim legs,7895,36000;dwarven legs,2504,13000;glacier kilt,7896,14000;terra legs,7885,34000;knight legs,2477,24000;"/>
+<parameter key="shop_sellable" value="ornate legs,15412,350000;depth ocrea,15409,90000;blue legs,7730,150000;prismatic legs,18405,60000;grasshopper legs,15490,10000;gill legs,18400,70000;leather legs,2649,8;studded legs,2468,35;chain legs,2648,125;brass legs,2478,300;mammoth fur shorts,7464,300;plate legs,2647,2000;pirate knee breeches,5918,2200;elven legs,2507,4000;aghanim legs,7895,18000;dwarven legs,2504,6500;glacier kilt,7896,7000;terra legs,7885,17000;knight legs,2477,12000;magma	legs,7894,22000;crown legs,2488,22000;dragon scale legs,2469,35000;dragon scale legs,2469,35000;zenit legs,11304,42000;demon legs,2495,60000;"/>
+ </parameters>
+</npc>

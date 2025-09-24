@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="Eddie voltou para trazer o caos a Dunedain!"/>
+<announce delay="25000" type="Event" message="Venham a Dunedain ajudar!"/>
+<announce delay="40000" type="Event" message="Seu exército de undeads está chegando aos portões da cidade!"/>
+<announce delay="50000" type="Event" message="Os fracos se escondam!"/>
+
+<announce delay="75000" type="Event" message="Os undeads estão nos portões!"/>
+
+<!--fora da cidade-->
+<areaspawn delay="75000" fromx="1473" fromy="383" fromz="7" tox="1484" toy="398" toz="7">
+	<monster name="Crypt Shambler" amount="15" />
+	<monster name="Mummy" amount="5" />
+</areaspawn>
+
+<areaspawn delay="105000" fromx="1473" fromy="383" fromz="7" tox="1484" toy="398" toz="7">
+	<monster name="Crypt Shambler" amount="20" />
+	<monster name="Mummy" amount="5" />
+</areaspawn>
+
+<areaspawn delay="135000" fromx="1473" fromy="383" fromz="7" tox="1484" toy="398" toz="7">
+	<monster name="Crypt Shambler" amount="15" />
+	<monster name="Demon Skeleton" amount="10" />
+</areaspawn>
+
+
+<!--entrada da cidade-->
+<announce delay="180000" type="Event" message="Eles entraram na cidade!"/>
+
+<areaspawn delay="180000" fromx="1490" fromy="372" fromz="7" tox="1513" toy="395" toz="7">
+	<monster name="Crypt Shambler" amount="5" />
+	<monster name="Demon Skeleton" amount="15" />
+</areaspawn>
+
+<areaspawn delay="210000" fromx="1490" fromy="372" fromz="7" tox="1513" toy="395" toz="7">
+	<monster name="Crypt Shambler" amount="10" />
+	<monster name="Demon Skeleton" amount="20" />
+</areaspawn>
+
+<!--corredores-->
+<announce delay="250000" type="Event" message="Os undeads estão destruindo dunedain!"/>
+
+<areaspawn delay="250000" fromx="1502" fromy="397" fromz="7" tox="1547" toy="399" toz="7">
+	<monster name="Demon Skeleton" amount="5" />
+	<monster name="Vampire" amount="5" />
+</areaspawn>
+
+<areaspawn delay="250000" fromx="1511" fromy="1392" fromz="7" tox="1544" toy="384" toz="7">
+	<monster name="Demon Skeleton" amount="5" />
+	<monster name="Vampire" amount="5" />
+</areaspawn>
+
+<areaspawn delay="280000" fromx="1502" fromy="397" fromz="7" tox="1547" toy="399" toz="7">
+	<monster name="Demon Skeleton" amount="5" />
+	<monster name="Vampire" amount="8" />
+</areaspawn>
+
+<areaspawn delay="280000" fromx="1511" fromy="392" fromz="7" tox="1544" toy="384" toz="7">
+	<monster name="Demon Skeleton" amount="5" />
+	<monster name="Vampire" amount="8" />
+</areaspawn>
+
+
+<!--corredor vertical-->
+<announce delay="315000" type="Event" message="Os undeads estão se dirigindo ao centro da cidade de Dunedain!"/>
+
+<areaspawn delay="320000" fromx="1544" fromy="359" fromz="7" tox="1547" toy="398" toz="7">
+	<monster name="Necromancer" amount="10" />
+</areaspawn>
+
+<areaspawn delay="350000" fromx="1544" fromy="359" fromz="7" tox="1547" toy="398" toz="7">
+	<monster name="Necromancer" amount="15" />
+</areaspawn>
+
+<areaspawn delay="390000" fromx="1544" fromy="359" fromz="7" tox="1547" toy="398" toz="7">
+	<monster name="Necromancer" amount="15" />
+	<monster name="Priestess" amount="5" />
+</areaspawn>
+
+
+<!--corredor de baixo-->
+<announce delay="430000" type="Event" message="Os undeads estão se dirigindo ao centro da cidade de Dunedain!"/>
+
+<areaspawn delay="435000" fromx="1547" fromy="395" fromz="7" tox="1595" toy="402" toz="7">
+	<monster name="Banshee" amount="7" />
+</areaspawn>
+
+<areaspawn delay="470000" fromx="1547" fromy="395" fromz="7" tox="1595" toy="402" toz="7">
+	<monster name="Banshee" amount="10" />
+</areaspawn>
+
+<areaspawn delay="505000" fromx="1547" fromy="395" fromz="7" tox="1595" toy="402" toz="7">
+	<monster name="Banshee" amount="12" />
+</areaspawn>
+
+
+<!--cima da piramide-->
+<announce delay="535000" type="Event" message="Eles estão atacando a grande pirâmide!"/>
+
+<areaspawn delay="535000" fromx="1585" fromy="385" fromz="6" tox="1615" toy="392" toz="6">
+	<monster name="Blightwalker" amount="4" />
+</areaspawn>
+
+<areaspawn delay="575000" fromx="1585" fromy="385" fromz="6" tox="1615" toy="392" toz="6">
+	<monster name="Blightwalker" amount="5" />
+</areaspawn>
+
+<areaspawn delay="615000" fromx="1585" fromy="385" fromz="6" tox="1615" toy="392" toz="6">
+	<monster name="Blightwalker" amount="6" />
+</areaspawn>
+
+
+<!--corredores da piramide-->
+<announce delay="650000" type="Event" message="Chaos Dracos surgiram nas laterais da pirâmide!"/>
+
+<areaspawn delay="655000" fromx="1583" fromy="359" fromz="6" tox="1586" toy="384" toz="6">
+	<monster name="Chaos Draco" amount="3" />
+</areaspawn>
+<areaspawn delay="655000" fromx="1614" fromy="359" fromz="6" tox="1617" toy="384" toz="6">
+	<monster name="Chaos Draco" amount="3" />
+</areaspawn>
+
+
+<!--praca final-->
+<announce delay="740000" type="Event" message="Os undeads chegaram ao norte do depot!"/>
+
+<areaspawn delay="750000" fromx="1585" fromy="347" fromz="6" tox="1617" toy="357" toz="6">
+	<monster name="Chaos Draco" amount="3" />
+</areaspawn>
+
+<areaspawn delay="765000" fromx="1585" fromy="347" fromz="6" tox="1617" toy="357" toz="6">
+	<monster name="Mummy" amount="25" />
+</areaspawn>
+
+<areaspawn delay="780000" fromx="1585" fromy="347" fromz="6" tox="1617" toy="357" toz="6">
+	<monster name="Demon Skeleton" amount="25" />
+</areaspawn>
+
+<areaspawn delay="810000" fromx="1585" fromy="347" fromz="6" tox="1617" toy="357" toz="6">
+	<monster name="Chaos Draco" amount="4" />
+</areaspawn>
+
+
+<announce delay="840000" type="Event" message="O terrível Eddie, mestre do sub-mundo apareceu em Dunedain!"/>
+
+<singlespawn delay="840000" name="Eddie" x="1599" y="355" z="6" />
+
+</raid>

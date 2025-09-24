@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="Os portões do inferno foram abertos e Minas Tirith está em perigo!"/>
+<announce delay="45000" type="Event" message="Lutem e vençam ou percam suas almas!"/>
+<announce delay="65000" type="Event" message="As mais terríveis formas malignas chegaram as partes baixas da cidade!"/>
+
+
+<areaspawn delay="68000" fromx="1369" fromy="1352" fromz="7" tox="1374" toy="1358" toz="7">
+	<monster name="Diabolic Imp" amount="5" />
+	<monster name="Hellfire Fighter" amount="5" />
+</areaspawn>
+
+<areaspawn delay="150000" fromx="1369" fromy="1352" fromz="7" tox="1374" toy="1358" toz="7">
+	<monster name="Spirit Of Fire" amount="3" />
+	<monster name="Mancubus" amount="3" />
+</areaspawn>
+
+<announce delay="200000" type="Event" message="Eles surpreenderam a primeira resistência e agora estão ao lado do depot!"/>
+
+<areaspawn delay="205000" fromx="1359" fromy="1366" fromz="6" tox="1363" toy="1375" toz="6">
+	<monster name="Hellhound" amount="5" />
+	<monster name="Demon" amount="3" />
+</areaspawn>
+
+<areaspawn delay="255000" fromx="1359" fromy="1366" fromz="6" tox="1363" toy="1375" toz="6">
+	<monster name="Diabolic Imp" amount="6" />
+</areaspawn>
+
+<announce delay="310000" type="Event" message="Eles continuam subindo, o fim parece estar próximo!"/>
+
+<areaspawn delay="315000" fromx="1350" fromy="1375" fromz="5" tox="1353" toy="1377" toz="5">
+	<monster name="Grim Reaper" amount="3" />
+	<monster name="Saurons Possessed Beholder" amount="3" />
+</areaspawn>
+
+<areaspawn delay="380000" fromx="1350" fromy="1375" fromz="5" tox="1353" toy="1377" toz="5">
+	<monster name="Grim Reaper" amount="3" />
+	<monster name="Istari Follower" amount="1" />
+</areaspawn>
+
+<announce delay="440000" type="Event" message="Eles chegaram ao topo, peguem suas melhores armas pois essa é nossa única chance."/>
+
+<areaspawn delay="445000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Demon" amount="3" />
+	<monster name="Hellhound" amount="5" />
+	<monster name="Diabolic Imp" amount="8" />
+</areaspawn>
+
+<areaspawn delay="520000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Juggernaut" amount="3" />
+	<monster name="Spirit Of Fire" amount="5" />
+	<monster name="Mephisto" amount="1" />
+</areaspawn>
+
+<areaspawn delay="600000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Demon" amount="5" />
+	<monster name="Juggernaut" amount="3" />
+	<monster name="Mephisto" amount="2" />
+</areaspawn>
+
+<areaspawn delay="650000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Diabolic Imp" amount="10" />
+</areaspawn>
+
+<announce delay="700000" type="Event" message="A trindade do Inferno está chegando, somente os mais fortes e corajosos continuem!"/>
+
+<areaspawn delay="720000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Diabolic Imp" amount="10" />
+</areaspawn>
+
+<areaspawn delay="760000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Diabolic Imp" amount="10" />
+</areaspawn>
+
+<areaspawn delay="780000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Fire Devil" amount="15" />
+</areaspawn>
+
+<announce delay="820000" type="Event" message="O que há de mais terrível no inferno chegou, preparem-se para a batalha!"/>
+
+<areaspawn delay="830000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Melkors Summon" amount="1" />
+	<monster name="Baalrog" amount="1" />
+	<monster name="Cerberus" amount="1" />
+</areaspawn>
+
+<areaspawn delay="860000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Fire Devil" amount="15" />
+</areaspawn>
+
+<areaspawn delay="890000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Fire Devil" amount="15" />
+</areaspawn>
+
+<areaspawn delay="910000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Fire Devil" amount="15" />
+</areaspawn>
+
+<areaspawn delay="920000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Fire Devil" amount="15" />
+</areaspawn>
+
+<areaspawn delay="935000" fromx="1329" fromy="1356" fromz="2" tox="1350" toy="1365" toz="2">
+	<monster name="Fire Devil" amount="15" />
+</areaspawn>
+
+
+</raid>

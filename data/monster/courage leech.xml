@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Courage Leech" nameDescription="a courage leech" race="fire" experience="115000" speed="280">
+	<health now="27000" max="27000" />
+	<look type="1315" corpse="39313" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+	    <flag canwalkonfire="1" />
+	    <flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-700" max="-850" />
+		<!-- BR -->
+		<attack name="energy" interval="2500" chance="30" range="7" radius="5" target="0" min="-1000" max="-1100"><!-- AREA-->
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="purpleenergy" />
+		</attack>
+		<attack name="energy" interval="2500" chance="40" range="7" radius="4" target="1" min="-1000" max="-1100"><!-- AREA-->
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="energyarea" />
+		</attack>
+		<attack name="holy" interval="2000" chance="40" range="7" min="-800" max="-850"><!-- EXORI SAN -->
+			<attribute key="shootEffect" value="smallholy" />
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="healing" interval="2000" chance="15" min="180" max="250">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="320" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="20"/>
+		<element earthPercent="5"/>
+		<element firePercent="20"/>
+		<element deathPercent="10"/>
+		<element energyPercent="99"/>
+		<element holyPercent="20"/>
+		<element icePercent="50"/>
+	</elements>
+	<immunities>
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Hiss." />
+		<voice sentence="Zap! Zap!" />
+	</voices>
+	<loot>
+	<item name="crystal coin" chance="8000"/>
+	<item name="aghanim robe" chance="500"/>
+	<item name="platinum coin" countmax="5" chance="100000"/>
+	</loot>
+</monster>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="High Elf" nameDescription="um high elf" race="blood" experience="2000" speed="130" manacost="0">
+  <health now="1900" max="1900"/>
+  <look type="63" head="0" body="0" legs="0" feet="0" corpse="2979"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="3"/>
+    <flag runonhealth="300"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="1600" min="-152" max="-200"/>
+
+	<attack name="holy" interval="2320" chance="35" range="7" radius="4" target="1" min="-150" max="-190">
+		<attribute key="shootEffect" value="holy"/>
+		<attribute key="areaEffect" value="holyarea"/>
+	</attack>
+	
+	<attack name="physical" interval="1600" chance="99" range="7" min="-90" max="-180">
+		<attribute key="shootEffect" value="arrow"/>
+	</attack>
+	
+	<attack name="holy" interval="2530" chance="45" range="7" radius="1" target="1" min="-250" max="-350">
+		<attribute key="shootEffect" value="flammingarrow"/>
+		<attribute key="areaEffect" value="holyarea"/>
+	</attack>
+	
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="2300" chance="25" min="90" max="153">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+ <elements>
+		<element firePercent="50"/>
+		<element holyPercent="100"/>
+		<element deathPercent="10"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="10"/>
+		<element icePercent="30"/>
+</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Feel my wrath!"/>
+    <voice sentence="For the Daughter of the Stars!"/>
+    <voice sentence="I'll bring balance upon you!"/>
+    <voice sentence="Tha'shi Cenath!"/>
+    <voice sentence="Vihil Ealuel!"/>
+  </voices>
+  
+  <loot capacity="900">
+    <item id="21311" chance="1300"/>
+	<item id="2466" chance="10"/>
+ 	<item id="2507" chance="750"/>
+ 	<item id="7893" chance="100"/>
+ 	<item id="7731" chance="30"/>
+ 	<item id="7438" chance="450"/>
+		
+			<item id="2150" countmax="3" chance1="950"/>
+			<item id="2148" countmax="75" chance1="35000"/>
+			<item id="2148" countmax="75" chance1="35000"/>
+			<item id="2546" countmax="12" chance1="3000"/>
+			<item id="2544" countmax="12" chance1="3000"/>
+			<item id="7364" countmax="12" chance1="2200"/>
+			<item id="7365" countmax="12" chance1="2000"/>
+		
+
+  </loot>
+</monster>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="Kahntah, o capitão da frota de Forodwaith avistou um grande número de serpentes marinhas perto da costa!"/>
+<announce delay="30000" type="Event" message="Parece que elas nao tem boas intenções! Somente os mais fortes fiquem!"/>
+<announce delay="180000" type="Event" message="Elas chegaram! E parecem estar na companhia de quaras!"/>
+
+<areaspawn delay="185000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Ice Serpente" amount="12" />
+</areaspawn>
+
+<areaspawn delay="185000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Quara Pincher" amount="15" />
+</areaspawn>
+
+<areaspawn delay="185000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Quara Predator" amount="9" />
+</areaspawn>
+
+<areaspawn delay="195000" fromx="660" fromy="130" fromz="7" tox="684" toy="138" toz="7">
+	<monster name="Ice Serpente" amount="2" />
+</areaspawn>
+
+<areaspawn delay="195000" fromx="660" fromy="130" fromz="7" tox="684" toy="138" toz="7">
+	<monster name="Quara Predator" amount="19" />
+</areaspawn>
+
+<areaspawn delay="195000" fromx="660" fromy="130" fromz="7" tox="684" toy="138" toz="7">
+	<monster name="Quara Pincher" amount="16" />
+</areaspawn>
+
+<areaspawn delay="205000" fromx="646" fromy="116" fromz="7" tox="656" toy="137" toz="7">
+	<monster name="Ice Serpente" amount="10" />
+</areaspawn>
+
+<areaspawn delay="205000" fromx="646" fromy="116" fromz="7" tox="656" toy="137" toz="7">
+	<monster name="Quara Predator" amount="13" />
+</areaspawn>
+
+<areaspawn delay="205000" fromx="646" fromy="116" fromz="7" tox="656" toy="137" toz="7">
+	<monster name="Quara Pincher" amount="19" />
+</areaspawn>
+
+<areaspawn delay="205000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Ice Serpente" amount="12" />
+</areaspawn>
+
+<areaspawn delay="205000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Quara Pincher" amount="15" />
+</areaspawn>
+
+<areaspawn delay="205000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Quara Predator" amount="9" />
+</areaspawn>
+
+<areaspawn delay="240000" fromx="666" fromy="83" fromz="7" tox="677" toy="96" toz="7">
+	<monster name="Ice Serpente" amount="12" />
+</areaspawn>
+
+<areaspawn delay="240000" fromx="666" fromy="83" fromz="7" tox="677" toy="96" toz="7">
+	<monster name="Quara Pincher" amount="15" />
+</areaspawn>
+
+<areaspawn delay="240000" fromx="666" fromy="83" fromz="7" tox="677" toy="96" toz="7">
+	<monster name="Quara Predator" amount="9" />
+</areaspawn>
+
+<announce delay="280000" type="Event" message="As aranhas nas cavernas de forodwaith tambem parecem estar agitadas!"/>
+
+<areaspawn delay="280000" fromx="687" fromy="74" fromz="7" tox="701" toy="90" toz="7">
+	<monster name="Crystal Spider" amount="25" />
+</areaspawn>
+
+<areaspawn delay="280000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Ice Serpente" amount="11" />
+</areaspawn>
+
+<areaspawn delay="280000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Quara Pincher" amount="18" />
+</areaspawn>
+
+<areaspawn delay="280000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Quara Predator" amount="12" />
+</areaspawn>
+
+<areaspawn delay="280000" fromx="646" fromy="116" fromz="7" tox="656" toy="137" toz="7">
+	<monster name="Ice Serpente" amount="9" />
+</areaspawn>
+
+<areaspawn delay="280000" fromx="646" fromy="116" fromz="7" tox="656" toy="137" toz="7">
+	<monster name="Quara Predator" amount="20" />
+</areaspawn>
+
+<areaspawn delay="280000" fromx="646" fromy="116" fromz="7" tox="656" toy="137" toz="7">
+	<monster name="Quara Pincher" amount="13" />
+</areaspawn>
+
+<areaspawn delay="295000" fromx="687" fromy="74" fromz="7" tox="701" toy="90" toz="7">
+	<monster name="Crystal Spider" amount="15" />
+</areaspawn>
+
+<areaspawn delay="295000" fromx="687" fromy="74" fromz="7" tox="701" toy="90" toz="7">
+	<monster name="Crystal Spider" amount="13" />
+</areaspawn>
+
+<announce delay="510000" type="Event" message="O grande rei dos mares nórdicos está descarregando sua ira sobre os humanos! Protejam a cidade a todo custo!"/>
+
+<singlespawn delay="510000" name="Ice Of Eru Iluvatar" x="669" y="102" z="7" />
+
+<areaspawn delay="510000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Ice Serpente" amount="8" />
+</areaspawn>
+
+<areaspawn delay="510000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Quara Pincher" amount="11" />
+</areaspawn>
+
+<areaspawn delay="510000" fromx="662" fromy="74" fromz="7" tox="674" toy="110" toz="7">
+	<monster name="Quara Predator" amount="13" />
+</areaspawn>
+
+<areaspawn delay="510000" fromx="646" fromy="116" fromz="7" tox="656" toy="137" toz="7">
+	<monster name="Ice Serpente" amount="7" />
+</areaspawn>
+
+<areaspawn delay="510000" fromx="646" fromy="116" fromz="7" tox="656" toy="137" toz="7">
+	<monster name="Quara Predator" amount="18" />
+</areaspawn>
+
+<areaspawn delay="510000" fromx="646" fromy="116" fromz="7" tox="656" toy="137" toz="7">
+	<monster name="Quara Pincher" amount="12" />
+</areaspawn>
+
+
+</raid>

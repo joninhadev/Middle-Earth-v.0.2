@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="Os Spectros do Anel vieram sob o comando de Sauron para procurar aqueles que defendem a terra media!"/>
+<announce delay="30000" type="Event" message="Eles estao marchando de Minas Morgul para Mordor."/>
+
+<announce delay="90000" type="Event" message="O primeiro Spectro chegou na cidade de Mordor."/>
+<singlespawn delay="91000" name="The Undying" x="1521" y="1256" z="7" />
+
+<announce delay="250000" type="Event" message="O segundo Spectro chegou na cidade de Mordor."/>
+<singlespawn delay="251000" name="The Tainted" x="1521" y="1256" z="7" />
+
+<announce delay="500000" type="Event" message="O terceiro Spectro chegou na cidade de Mordor."/>
+<singlespawn delay="501000" name="The Dark Marshal" x="1521" y="1256" z="7" />
+
+<announce delay="750000" type="Event" message="O quarto Spectro chegou na cidade de Mordor."/>
+<singlespawn delay="751000" name="The Shadow Lord" x="1521" y="1256" z="7" />
+
+<announce delay="900000" type="Event" message="O quinto Spectro chegou na cidade de Mordor."/>
+<singlespawn delay="901000" name="The Betrayer" x="1521" y="1256" z="7" />
+
+<announce delay="1000000" type="Event" message="O sexto Spectro chegou na cidade de Mordor."/>
+<singlespawn delay="1001000" name="The Dwimmerlaik" x="1521" y="1256" z="7" />
+
+<announce delay="1150000" type="Event" message="O setimo Spectro chegou na cidade de Mordor."/>
+<singlespawn delay="1151000" name="The Knight of Umbar" x="1521" y="1256" z="7" />
+
+<announce delay="1250000" type="Event" message="O oitavo Spectro chegou na cidade de Mordor."/>
+<singlespawn delay="1251000" name="Morgomir" x="1521" y="1256" z="7" />
+
+<announce delay="1400000" type="Event" message="O general dos Spectros chegou na cidade."/>
+<singlespawn delay="1401000" name="Khamul" x="1521" y="1256" z="7" />
+
+<announce delay="1600000" type="Event" message="Os Spectros foram derrotados e agora o temivel Sauron esta a caminho!"/>
+<singlespawn delay="1701000" name="Sauron" x="1521" y="1256" z="7" />
+
+</raid>

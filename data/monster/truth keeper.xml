@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Truth Keeper" nameDescription="um truth keeper" race="blood" experience="220000" speed="250" manacost="0">
+  <health now="20000" max="20000"/>
+  <look type="229" head="20" body="30" legs="40" feet="50" corpse="6078"/>
+  <targetchange interval="6000" chance="12"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="0"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="4"/>
+	<flag staticattack="90"/>
+	<flag runonhealth="2500"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="2000" min="-60" max="-140"/>
+	<attack name="light san ethreal" interval="2500" min="-250" max="-400"/>
+	<attack name="strong holy beam" interval="7000" min="-500" max="-1500"/>
+	<attack name="great holy wave" interval="3800" min="-250" max="-700"/>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="divine healing" interval="4350" chance="22" min="350" max="750"/>
+</defenses>
+
+<elements>
+	<element physicalPercent="99"/>
+	<element icePercent="10"/>
+	<element poisonPercent="10"/>
+	<element firePercent="5"/>
+	<element energyPercent="35"/>
+	<element holyPercent="90"/>
+	<element deathPercent="15"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+<summons maxSummons="2">
+	<summon name="holy keeper" interval="15000" chance="15" max="1"/>
+	<summon name="town keeper" interval="15000" chance="15" max="1"/>
+</summons>
+
+<voices interval="5000" chance="20">
+	<voice sentence="NOONE WILL STOP ME THIS TIME!" yell="1"/>
+	<voice sentence="THE POWER IS MINE!" yell="1"/>
+</voices>
+  
+<loot>
+  <item name="holy missile rune" countmax="99" chance="999999"/>
+  <item name="yellow piece of cloth" countmax="5" chance="99999"/>
+  <item name="ultimate healing rune" countmax="49" chance="99999"/>
+  <item name="great mana potion" countmax="14" chance="999999"/>
+  <item name="platinum coin" countmax="99" chance="999999"/>
+  <item name="platinum coin" countmax="99" chance="999999"/>
+</loot>
+</monster>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="serpent spawn" nameDescription="uma serpent spawn" race="venom" experience="4200" speed="150" manacost="0">
+  <health now="3300" max="3300"/>
+  <look type="220" head="20" body="30" legs="40" feet="50" corpse="4323"/>
+  <targetchange interval="5000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="2000" min="-152" max="-336"/>
+	
+    <attack name="poison" interval="2200" chance="33" target="1" range="7" min="-80" max="-160">
+		<attribute key="shootEffect" value="poison"/>
+		<attribute key="areaEffect" value="greenspark"/>
+    </attack>
+	
+    <attack name="speed" interval="1900" chance="20" range="7" radius="4" target="1" speedchange="-700" duration="12000">
+		<attribute key="shootEffect" value="poison"/>
+		<attribute key="areaEffect" value="greenbubble"/>
+    </attack>
+	
+    <attack name="lifedrain" interval="400" chance="25" length="8" spread="0" min="-250" max="-400">
+      <attribute key="areaEffect" value="rednote"/>
+    </attack>
+	
+    <attack name="poison" interval="3000" chance="17" length="8" spread="3" min="-150" max="-210">
+		<attribute key="areaEffect" value="poison"/>
+    </attack>
+	
+</attacks>
+
+<defenses armor="0" defense="0">
+    <defense name="healing" interval="2500" chance="10" min="250" max="500">
+		<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+
+    <defense name="speed" interval="6100" chance="15" speedchange="320" duration="5000">
+		<attribute key="areaEffect" value="redshimmer"/>
+	</defense>
+</defenses>
+
+<elements>
+		<element firePercent="10"/>
+		<element holyPercent="20"/>
+		<element deathPercent="20"/>
+		<element earthPercent="100"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="20"/>
+		<element icePercent="30"/>
+</elements>
+
+<immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+	<immunity drown="1"/>
+	<immunity ice="0"/>
+	<immunity holy="0"/>
+	<immunity death="0"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+<voices interval="5000" chance="10">
+	<voice sentence="Ssssolus for the one"/>
+	<voice sentence="HISSSS" yell="1"/>
+	<voice sentence="Tsssse one will risssse again"/>
+	<voice sentence="I bring you deathhhh, mortalssss"/>
+</voices>
+
+<loot>
+    <item id="2182" chance="1533" /><!-- Cobra Rod -->
+    <item id="3982" chance="450"/><!-- Crocodile Boots -->
+    <item id="1976" chance="900"/><!-- Spell Book -->
+    <item id="2497" chance="330"/><!-- Crusader Helmet -->
+    <item id="8882" chance="220"/><!-- Earthborn Titan Armor -->
+	<item id="2409" chance="1000"/><!-- Serpent Sword -->
+	<item id="10611" chance="2000"/><!-- Snake Skin -->
+	<item id="7379" chance="350"/><!-- Motaba Wand -->  
+	<item id="2148" countmax="70" chance="100000"/><!-- Gold Coin -->
+	<item id="2796" countmax="1" chance="18000"/><!-- Mushroom -->
+	<item id="2149" countmax="2" chance="850"/><!-- Small -->
+	<item id="7366" countmax="3" chance="600"/><!-- Star -->
+	<item id="2167" chance="950"/><!-- Ring de Utamo -->
+	<item id="2168" chance="800"/><!-- Life Ring -->
+	<item id="2536" chance="220"/><!-- Medusa Shield -->
+</loot>
+
+</monster>

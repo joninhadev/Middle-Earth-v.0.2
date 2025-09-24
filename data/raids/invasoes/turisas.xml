@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="Bárbaros nórdicos estão se aproximando da cidade de Forodwaith!"/>
+<announce delay="30000" type="Event" message="Preparem-se para a batalha nas terras geladas!"/>
+<announce delay="65000" type="Event" message="Somente os mais fortes estão sendo convocados"/>
+
+<announce delay="90000" type="Event" message="Vanska entrou na cidade!"/>
+<singlespawn delay="91000" name="Vanska" x="686" y="120" z="7" />
+
+<announce delay="250000" type="Event" message="Horma acaba de chegar para a batalha!"/>
+<singlespawn delay="251000" name="Horma" x="686" y="120" z="7" />
+
+<announce delay="295000" type="Event" message="Ajudem a salvar a cidade de Forodwaith!"/>
+
+<announce delay="500000" type="Event" message="Nygard veio defender seus irmãos!"/>
+<singlespawn delay="501000" name="Nygard" x="686" y="120" z="7" />
+
+<announce delay="750000" type="Event" message="Wickstrom, o mais poderoso, veio vingar a morte de seu companheiro!"/>
+<singlespawn delay="751000" name="Wickstrom" x="686" y="120" z="7" />
+
+</raid>

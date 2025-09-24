@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Stampor" nameDescription="um stampor" race="blood" experience="2000" speed="150" manacost="0">
+	<health now="2200" max="2200"/>
+	<look type="381" corpse="13312"/>
+	<targetchange interval="2000" chance="10"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="50" attack="90"/>
+                <attack name="physical" interval="2000" chance="15" range="7" min="-100" max="-200">
+                <attribute key="shootEffect" value="smallstone"/>
+                </attack>		
+                <attack name="physical" interval="1000" chance="7" min="-150" max="-250">
+                <attribute key="areaEffect" value="poff"/>
+                </attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="2000" chance="11" min="90" max="120">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>		
+	</defenses>
+	<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="5"/>
+		<element icePercent="20"/>
+	</elements>
+	<immunities>		
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>    
+	<voices interval="2000" chance="10">
+		<voice sentence="KRRRRRNG" yell="1"/>
+	</voices>
+    <loot>
+    <item id="2148" countmax="100" chance="31250" />
+    <item id="2148" countmax="56" chance="31250" />
+    <item id="2152" countmax="2" chance="15000" />	
+    <item id="9970" countmax="2" chance="1500" />
+    <item id="2476" chance="100" />
+    <item id="7452" chance="100" />  
+    <item id="13299" countmax="2" chance="15000" />
+    <item id="13300" countmax="3" chance="15000" />
+    <item id="13301" chance="15000" />
+</loot>
+</monster>

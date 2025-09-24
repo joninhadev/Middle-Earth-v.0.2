@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Bilbo" script="default.lua" access="3" walkinterval="0">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="128" head="58" body="19" legs="68" feet="116" addon="1" corpse="3128"/>
+	
+<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Olá. Como posso te ajudar |PLAYERNAME|?"/>
+		<parameter key="shop_buyable" value="backpack marrom,1988,20;backpack verde,1998,20;backpack vermelha,2000,20;backpack roxa,2001,20;backpack azul,2002,20;backpack amarela,2004,20"/>
+ </parameters>
+</npc>
+

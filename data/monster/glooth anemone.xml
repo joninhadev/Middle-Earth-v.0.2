@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Glooth Anemone" nameDescription="a glooth anemone" race="blood" experience="13650" speed="150" manacost="490">
+	<health now="16000" max="16000"/>
+	<look type="604" corpse="23352"/>
+	<targetchange interval="4000" chance="50"/>
+	<flags>
+        <flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="120" attack="100"/>
+		<attack name="poison" interval="2000" chance="75" range="5" min="-750" max="-950" target="1">
+			<attribute key="shootEffect" value="greenstar" />
+			<attribute key="areaEffect" value="poison" />
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0"/>
+	<elements><element physicalPercent="5"/>
+	<element physicalPercent="25"/>
+	<element icePercent="25"/>
+	<element poisonPercent="90"/>
+	<element firePercent="25"/>
+	<element energyPercent="25"/>
+	<element holyPercent="25"/>
+	<element deathPercent="25"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Il lorstok human!"/>
+		<voice sentence="Toks utat."/>
+		<voice sentence="Human, uh whil dyh!"/>
+		<voice sentence="Youh ah trak!"/>
+		<voice sentence="Let da mashing begin!"/>
+	</voices>
+	<loot>
+	    <item id="23536" chance="40" />  <!-- rubber cap -->
+		<item id="7884" chance="300" />
+		<item id="2148" countmax="47" chance="82000"/><!-- gold coin -->
+		<item id="7590" chance="1200"/><!-- great mana potion -->
+			<item id="10557" chance="3000" /><!-- poisonous slime -->
+	<item id="23566" chance="800" /><!-- poisoned fang -->
+	<item id="23517"  chance="1000" /><!-- glooth steak -->
+	<item id="23565"  chance="1000" /><!-- slime heart -->
+	</loot>
+</monster>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Terror Deep" nameDescription="the Deep Terror" race="blood" experience="1000000" speed="250">
+	<health now="200000" max="200000"/>
+	<look type="676" corpse="24269"/>
+	<targetchange interval="5000" chance="8"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag rewardboss="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag rewardboss="1"/>
+		<flag canwalkonenergy="1"/>
+		<flag canwalkonfire="1"/>
+		<flag canwalkonpoison="1"/>
+		<flag preyable="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1350" min="-360" max="-1260"/>
+		<attack name="stone shower" interval="4000" chance="50" target="1" min="-400" max="-1000">
+		</attack>
+		<attack name="earth" interval="2000" chance="50" range="7" min="-300" max="-1200"><!-- EXORI TERA -->
+			<attribute key="shootEffect" value="earth" />
+		</attack>
+		<attack name="earth" interval="2000" chance="40" length="5" spread="3" min="-666" max="-1220"><!-- Terra WAVE -->
+			<attribute key="areaEffect" value="carniphila"/>
+		</attack>
+		<attack name="earth" interval="2100" chance="50" radius="6" spread="3" min="-400" max="-1000">
+			<attribute key="areaEffect" value="smallplants"/>
+		</attack>
+	</attacks>
+	<defenses armor="22" defense="35">
+		<defense name="healing" interval="2000" chance="11" min="500" max="1000">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="50"/>
+		<element energyPercent="50"/>
+		<element earthPercent="50"/>
+		<element holyPercent="50"/>
+		<element deathPercent="50"/>
+		<element firePercent="50"/>
+		<element drownPercent="50"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity poison="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item name="crystal coin" countmax="10" chance="1000000"/>
+		<item name="pestilence omega" chance="600"/>
+		<item name="small emerald" chance="99999" countmax="30"/>
+		<item name="gold coin" countmax="99" chance="99999"/>
+		<item name="gold coin" countmax="99" chance="99999"/>
+		<item name="gold coin" countmax="99" chance="99999"/>
+		<item name="terra legs" chance="9999"/>
+		<item name="terra hood" chance="99999"/>
+		<item name="slug drug" chance="500"/>
+		<item name="gill legs" chance="400"/>
+	</loot>
+</monster>

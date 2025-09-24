@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mephisto" nameDescription="Mephisto" race="undead" experience="20000" speed="170" manacost="0">
+  <health now="23000" max="23000"/>
+  <look type="287" corpse="8937"/>
+  <targetchange interval="6000" chance="30"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+    <attack name="melee" interval="1800" min="-804" max="-1160"/>
+  
+	<attack name="physical" interval="2900" chance="34" range="7" radius="2" target="1" min="-480" max="-620">
+      <attribute key="shootEffect" value="whirlwindaxe"/>
+      <attribute key="areaEffect" value="redspark"/>
+    </attack>
+	
+    <attack name="physical" interval="2230" chance="20" range="14" radius="5" target="0" min="-560" max="-660">
+        <attribute key="areaEffect" value="poff"/>
+    </attack>
+	
+	<attack name="death" interval="1820" chance="45" range="7" radius="2" target="1" min="-220" max="-460">
+		<attribute key="shootEffect" value="suddendeath"/>
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	
+	<attack name="physical" interval="4110" chance="35" range="7" radius="4" target="1" min="-450" max="-650">
+		<attribute key="shootEffect" value="suddendeath"/>
+		<attribute key="areaEffect" value="groundshaker"/>
+	</attack>
+
+    <attack name="lifedrain" interval="6030" chance="22" length="7" spread="0" min="-1200" max="-1600">
+		<attribute key="areaEffect" value="redspark"/>
+	</attack>
+</attacks>
+
+  <defenses armor="0" defense="0">
+  
+    <defense name="healing" interval="2400" chance="35" min="200" max="400">
+      <attribute key="areaEffect" value="bluefirework"/>
+    </defense>
+
+    <defense name="invisible" interval="15000" chance="45" duration="6000">
+		<attribute key="areaEffect" value="poff"/>
+	</defense>
+
+  </defenses>
+  
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+	<immunity death="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+
+  <elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="100"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+  
+  <voices interval="5000" chance="30">
+    <voice sentence="So it shall be written. So it shall be done."/>
+  </voices>
+
+<loot>
+	<item id="2640" chance="65" />
+	<item id="8889" chance="40" /> 
+	<item id="2514" chance="220" />
+	<item id="2077" chance="400" />
+	<item id="7419" chance="310" />
+	<item id="5741" chance="350" />
+	<item id="7378" chance="4000" countmax="1" />
+	<item id="7407" chance="475" />
+	<item id="2495" chance="175" />
+	
+		<item id="2160" chance="650" countmax="1" />
+		<item id="2144" chance="750" countmax="4" />
+		<item id="2146" chance="750" countmax="4" />
+		<item id="6300" chance="90" />
+
+</loot>
+
+</monster>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Vibrant Phantom" nameDescription="a vibrant phantom" race="blood" experience="125000" speed="230">
+	<health now="27000" max="27000" />
+	<look type="1298" head="85" body="85" legs="88" feet="91" corpse="39217" />
+	<targetchange interval="5000" chance="8" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="5" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-800" max="-1050" />
+		<attack name="energy chain" interval="4000" chance="65" target="1"/>
+		<attack name="energy" interval="2500" chance="30" range="1" radius="3" target="0" min="-900" max="-1200"><!-- EXORI -->
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="purpleenergy" />
+		</attack>
+		<attack name="energy" interval="2500" chance="30" range="7" radius="5" target="1" min="-700" max="-900"><!-- AREA-->
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="purpleenergy" />
+		</attack>
+		<attack name="holy" interval="2000" chance="27" range="7" min="-1200" max="-1500"><!-- EXORI SAN -->
+			<attribute key="shootEffect" value="smallholy" />
+		</attack>
+		<attack name="holy" interval="1300" chance="25" length="5" spread="3" min="-750" max="-900">
+			<attribute key="areaEffect" value="holyarea"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="15" radius="1" target="1" speedchange="-700" duration="30000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="healing" interval="2000" chance="15" min="180" max="250">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="speed" interval="2000" chance="15" speedchange="320" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="20"/>
+		<element earthPercent="5"/>
+		<element firePercent="20"/>
+		<element deathPercent="10"/>
+		<element energyPercent="99"/>
+		<element holyPercent="20"/>
+		<element icePercent="50"/>
+	</elements>
+	<immunities>
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="All this beautiful lightnining" />
+	</voices>
+	<loot>  
+		<item name="crystal coin" chance="2000"/>
+		<item name="sauron's breath scepter" chance="200"/>
+		<item name="aghanim legs" chance="700"/>
+		<item name="aghanim boots" chance="600"/>
+		<item name="green gem" chance="600"/>
+		<item name="violet gem" chance="700"/>
+		<item name="platinum coin" countmax="5" chance="100000"/>
+	</loot>
+</monster>

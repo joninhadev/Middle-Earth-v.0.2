@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Terminator" nameDescription="um terminator" race="undead" experience="10000" speed="140" manacost="0">
+  <health now="13000" max="13000"/>
+  <look type="326" corpse="10002"/>
+  <targetchange interval="8000" chance="10"/>
+  <strategy attack="100" defense="100"/>
+  
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+</flags>
+
+<attacks>
+	<attack name="melee" interval="1750" min="-350" max="-550"/>
+
+	<attack name="physical" interval="2000" chance="60" range="7" min="-200" max="-380">
+		<attribute key="shootEffect" value="suddendeath"/>
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	
+	<attack name="fire" interval="2320" chance="80" range="7" radius="3" target="1" min="-200" max="-400">
+		<attribute key="shootEffect" value="whirlwindclub"/>
+		<attribute key="areaEffect" value="firearea"/>
+	</attack>
+	
+	<attack name="energy" interval="1810" chance="55" range="7" radius="2" target="1" min="-200" max="-400">
+		<attribute key="shootEffect" value="energy"/>
+		<attribute key="areaEffect" value="yellowenergy"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="2002" chance="100" min="100" max="120"/>
+</defenses>
+
+<elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+</elements>
+
+<immunities>
+	<immunity drown="0"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+
+<voices interval="5000" chance="10">
+	<voice sentence="Hasta la vista"/>
+	<voice sentence="Talk to the hand"/>
+</voices>
+
+
+<loot capacity="900">
+    <item id="10571" chance="250"/>
+	<item id="2472" chance="20"/>
+	<item id="2475" chance="600"/>
+	<item id="2470" chance="20"/>
+	<item id="13938" chance="40"/>
+	<item id="2645" chance="420"/>
+	<item id="2408" chance="200"/>	
+	<item id="8822" chance="750"/>
+	<item id="2147" countmax="5" chance="1000"/>
+</loot>
+
+</monster>

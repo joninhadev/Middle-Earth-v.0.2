@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Lokathmor" nameDescription="the lokathmor" race="blood" experience="4000000" speed="250">
+	<health now="500000" max="500000"/>
+	<look type="12" head="19" body="96" legs="21" feet="81" corpse="6068"/>
+	<targetchange interval="5000" chance="8"/>
+	<flags>
+		<flag rewardboss="1" />
+		<flag preyable="0"/>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="85"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1000" min="-1500" max="-1900"/>
+		<attack name="physical" interval="2000" chance="55" target="0" radius="3" min="-1500" max="-2000">
+			<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+		
+		<attack name="death" interval="2850" chance="22" length="7" spread="0" min="-2500" max="-3900">
+		  <attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="physical" interval="2100" chance="50" length="8" spread="3" min="-1500" max="-2300">
+		<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+		<attack name="physical" interval="2000" chance="50" range="7" min="-1000" max="-1250">
+			<attribute key="shootEffect" value="whirlwindsword"/>
+		</attack>
+		<attack name="death" interval="5000" chance="35" radius="6" target="0" min="-1900" max="-2800">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="death" interval="4000" chance="55" radius="6" target="0" min="-1900" max="-2800">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+
+	</attacks>
+	<defenses armor="70" defense="65">
+		<defense name="healing" interval="1000" chance="11" min="400" max="900">
+			<attribute key="areaEffect" value="greenshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="75"/>
+		<element energyPercent="75"/>
+		<element earthPercent="75"/>
+		<element holyPercent="75"/>
+		<element deathPercent="75"/>
+		<element firePercent="75"/>
+		<element drownPercent="75"/>
+	</elements>
+	<immunities>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="0">
+		<voice sentence="I'll sacrifice yours souls to seven!"/>
+		<voice sentence="I'm bad news for you mortals!"/>
+		<voice sentence="No man can defeat me!"/>
+		<voice sentence="Your puny skills are no match for me."/>
+		<voice sentence="I smell your fear."/>
+		<voice sentence="Delicious!"/>
+	</voices>
+	<loot>
+		<item name="crystal coin" countmin="10" countmax="20" chance="39999"/>
+		<item name="cobra boots" chance="600"/>
+		<item name="gladium aureum" chance="600"/>
+		<item name="battlefury axe" chance="600"/>
+		<item name="demon helmet" chance="1200"/>
+		<item name="necromancer shield" chance="600"/>
+		<item name="elite draken mail" chance="900"/>
+		<item name="prismatic helmet" chance="600"/>
+		<item name="adventurer doll" chance="1200"/>
+	</loot>
+</monster>

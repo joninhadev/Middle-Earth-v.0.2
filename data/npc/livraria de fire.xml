@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Ancient of Fire Library" script="livraria de fire.lua" walkinterval="0">
+	<mana now="10" max="10"/>
+	<health now="10" max="10"/>
+	<look type="873" head="0" body="94" legs="94" feet="0" addons="3" corpse="3128"/>
+	 <parameters>
+	  <parameter key="module_shop" value="1"/>
+	  <parameter key="message_greet" value="Ola aventureiro, eu posso lhe conceder acesso a livraria de fogo, diga {mission}."/>
+	 </parameters>
+</npc>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Maxxen" nameDescription="the Maxxen" race="blood" experience="1000000" speed="250" script="boss.lua">
+	<health now="200000" max="200000" />
+	<look type="1142" corpse="34644" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+	    <flag preyable="0" />
+        <flag rewardboss="1" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-500" max="-740" />
+		<attack name="energy" chance="20" range="5" target="1" radius="5" min="-300" max="-600">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="energy" />
+		</attack>
+		<attack name="energy" interval="2000" chance="10" length="8" spread="3" min="-500" max="-700">
+			<attribute key="areaEffect" value="teleport"/>
+		</attack>
+		<attack name="energy" chance="15" length="9" spread="0" min="-710" max="-920">
+			<attribute key="shootEffect" value="energy" />
+			<attribute key="areaEffect" value="energyarea" />
+		</attack>
+	</attacks>
+	<defenses armor="80" defense="80">
+		<defense name="healing" interval="2000" chance="10" min="510" max="940">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element icePercent="50"/>
+		<element energyPercent="50"/>
+		<element earthPercent="50"/>
+		<element holyPercent="50"/>
+		<element deathPercent="50"/>
+		<element firePercent="50"/>
+		<element drownPercent="50"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<loot>
+	<item name="pestilence omega" chance="700"/>
+	<item name="terra amulet" chance="500"/>
+	<item name="gold coin" chance="99999" countmax="99"/>
+	<item name="gold coin" chance="99999" countmax="99"/>
+	<item name="gold coin" chance="99999" countmax="99"/>
+	<item name="gold coin" chance="99999" countmax="99"/>
+	<item name="small emerald" chance="3999" countmax="15"/>
+	<item name="great shield" chance="400"/>
+	<item name="platinum coin" countmax="99" chance="999939"/>
+	<item name="crystal coin" countmax="10" chance="99999"/>
+	</loot>
+</monster>

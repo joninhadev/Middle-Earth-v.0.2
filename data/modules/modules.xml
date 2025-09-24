@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modules>
+	<module type="recvbyte" byte="229" script="character/character.lua"/>
+	<module type="recvbyte" byte="129" script="character/character.lua"/>
+	<module type="recvbyte" byte="207" script="blessings/blessings.lua" />
+</modules>

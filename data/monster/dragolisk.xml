@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<monster name="Dragolisk" nameDescription="a dragolisk" race="undead" experience="13300" speed="160">
+<health now="8350" max="8350"/>
+<look type="1707" head="20" body="30" legs="40" feet="50" corpse="50304"/>
+<targetchange speed="2000" chance="5"/>
+
+<flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+    <!-- Ataque corpo a corpo -->
+    <attack name="melee" interval="2000" chance="100" min="-300" max="-650" />
+
+    <!-- Ataque físico em linha -->
+    <attack name="physical" interval="3000" chance="27" length="7" spread="0" min="-620" max="-750" target="0">
+        <attribute key="areaEffect" value="explosionarea"/>
+    </attack>
+
+    <!-- Ataque físico em área -->
+    <attack name="physical" interval="2500" chance="25" radius="4" min="-400" max="-750" target="1">
+        <attribute key="areaEffect" value="poff"/>
+    </attack>
+
+    <!-- Ataque tipo "death chain" -->
+    <attack name="death chain" interval="2500" chance="20" range="7" min="-350" max="-700" />
+</attacks>
+
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="2800" chance="16" min="100" max="300">
+	<attribute key="areaEffect" value="blueshimmer"/>
+	</defense>
+</defenses>
+
+	<elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+<loot>
+	<item name="gold coin" countmax="99" chance="99999"/>
+	<item name="green gem" chance="1200" countmax="1"/>
+	<item name="dragolisk eye" chance="4000"/>
+	<item name="dragolisk poison gland" chance="2800"/>
+	<item name="dragon's tail" chance="3200"/>
+	<item name="dragon shield" chance="800"/>
+	<item name="dragon scale mail" chance="500"/>
+	<item name="dragon scale legs" chance="500"/>
+	<item name="dragon scale helmet" chance="400"/>
+	<item name="platinum coin" countmax="3" chance="399999"/>
+</loot>
+
+</monster>

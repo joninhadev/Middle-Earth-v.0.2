@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Wickstrom" nameDescription="Wickstrom" race="blood" experience="375000" speed="290" manacost="0">
+    <health now="125000" max="125000"/>
+  <look type="253" head="115" body="105" legs="119" feet="132" corpse="20343"/>
+    <targetchange interval="5500" chance="70"/>
+    <strategy attack="100" defense="0"/>
+	
+    <flags>
+    	<flag rewardboss="1"/>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="70"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+	
+	<attacks>
+		<attack name="melee" interval="1500" min="-1400" max="-1600"/>
+		
+		<attack name="physical" interval="1600" chance="99" target="1" range="8" min="-1400" max="-1600">
+			<attribute key="shooteffect" value="whirlwindaxe"/>
+			<attribute key="areaEffect" value="redspark"/>
+		</attack>
+		
+		<attack name="physical" interval="1155" chance="75" radius="8" target="0" min="-800" max="-1000">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+		
+		<attack name="speed" interval="3380" chance="75" radius="8" target="0" speedchange="-700" duration="4500">
+			<attribute key="areaEffect" value="whitenote"/>
+		</attack>
+		
+		<attack name="manadrain" interval="2155" chance="65" radius="8" target="0" min="-2500" max="-3500">
+			<attribute key="areaEffect" value="bluenote"/>
+		</attack>
+	</attacks>
+	
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="500" chance="100" min="150" max="250"/>
+	</defenses>
+	
+	<elements><element physicalPercent="5"/>
+		<element physicalPercent="65"/>
+		<element icePercent="95"/>
+		<element poisonPercent="65"/>
+		<element firePercent="65"/>
+		<element energyPercent="65"/>
+		<element holyPercent="65"/>
+		<element deathPercent="65"/>
+	</elements>
+
+	<immunities>
+		<immunity drown="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="0"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	
+    <voices interval="8000" chance="10">
+      <voice sentence="Ra Ra Rasputin!" yell="1"/>
+    </voices>
+	
+    <loot>
+		<item id="2168" chance="50000"/>
+		<item id="7462" chance="50000"/>
+		<item id="8887" chance="50000"/>
+		<item id="8890" chance="50000"/>
+		<item id="2454" chance="50000"/>
+		<item id="2523" unique="1" chance="2000"/>
+		<item id="2474" chance="20000"/>
+    </loot>
+	
+  </monster>

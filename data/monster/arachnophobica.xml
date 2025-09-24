@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Arachnophobica" nameDescription="an arachnophobica" race="blood" experience="4700" speed="200" raceid="1729">
+	<health now="5000" max="5000" />
+	<look type="1135" corpse="34566" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag isblockable="0" />
+		<flag pushable="1" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-350"/>
+		<attack name="Arachnophobicawavedice" interval="2000" chance="20" min="-250" max="-350"/>
+		<attack name="Arachnophobicawaveenergy" interval="2000" chance="20" min="-250" max="-350"/>
+		<attack name="physical" interval="2000" chance="10" target="1" radius="4" min="-250" max="-350">
+		<attribute key="areaEffect" value="yellowspark"/>
+		</attack>
+			<attack name="death" interval="2000" chance="10" range="7" min="-200" max="-300">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+			<attribute key="areaEffect" value="smallclouds"/>
+		</attack>
+		</attacks>
+	<defenses armor="70" defense="0">
+		<defense name="healing" interval="2000" chance="10" min="150" max="250">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element holyPercent="-40" />
+		<element deathPercent="50" />
+		<element energyPercent="50" />
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<loot>
+	</loot>
+</monster>

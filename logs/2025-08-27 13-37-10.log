@@ -1,0 +1,311 @@
+2025-08-27 13:37:10 -  [Thread debugging using libthread_db enabled]
+2025-08-27 13:37:10 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-08-27 13:37:10 -  [New Thread 0x7ffff5b23700 (LWP 154959)]
+2025-08-27 13:37:10 -  [New Thread 0x7ffff5322700 (LWP 154960)]
+2025-08-27 13:37:10 -  The OTG-BR - Version: (1.4)
+2025-08-27 13:37:10 -  Compiled with: GNU C++ version 9.4.0
+2025-08-27 13:37:10 -  Compiled on Aug 12 2025 23:00:12 for platform x64
+2025-08-27 13:37:10 -  
+2025-08-27 13:37:10 -  Engine Credits for: TFS Team, OTG Team....
+2025-08-27 13:37:10 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-08-27 13:37:10 -  
+2025-08-27 13:37:10 -  >> Loading config: config.lua
+2025-08-27 13:37:10 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-08-27 13:37:10 -   MySQL 8.0.42
+2025-08-27 13:37:10 -  >> Running database manager
+2025-08-27 13:37:10 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-08-27 13:37:10 -  [New Thread 0x7ffff4b0d700 (LWP 154961)]
+2025-08-27 13:37:10 -  > Optimizing table players_online... [success]
+2025-08-27 13:37:10 -  >> Loading vocations
+2025-08-27 13:37:10 -  >> Loading items
+2025-08-27 13:37:11 -  >> Loading script systems
+2025-08-27 13:37:11 -  >> Loading lua libs
+2025-08-27 13:37:11 -  >> Loading bestiary
+2025-08-27 13:37:11 -  >> Loading lua scripts
+2025-08-27 13:37:11 -  >> Loading monsters
+2025-08-27 13:37:12 -  >> Loading lua monsters
+2025-08-27 13:37:12 -  >> Loading outfits
+2025-08-27 13:37:12 -  >> Loading imbuements
+2025-08-27 13:37:12 -  >> Loading charms
+2025-08-27 13:37:12 -  >> Loading Store
+2025-08-27 13:37:12 -  >> Loading prey data
+2025-08-27 13:37:12 -  >> Checking world type... RETRO-PVP
+2025-08-27 13:37:12 -  >> Loading map
+2025-08-27 13:37:17 -  > Map size: 2293x2048.
+2025-08-27 13:37:27 -  > Map loading time: 15.907 seconds.
+2025-08-27 13:37:28 -  > Loaded house items in: 0.004 s
+2025-08-27 13:37:28 -  >> Loading guilds... No guild to load.
+2025-08-27 13:37:28 -  >> Initializing gamestate
+2025-08-27 13:37:29 -  > Loaded spawns in 0.509 seconds.
+2025-08-27 13:37:29 -  >> Loaded 202 npcs and spawned 20591 monsters.
+2025-08-27 13:37:29 -  >> Loaded 17 towns with 588 houses in total.
+2025-08-27 13:37:29 -  >> Start time: 27.08.2025 - 13:37:29
+2025-08-27 13:37:29 -  Initialization complete.
+2025-08-27 13:37:29 -  >> Loaded all modules, server starting up...
+2025-08-27 13:37:29 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-08-27 13:37:29 -  >> Middle Earth Server Server Online!
+2025-08-27 13:37:29 -  
+2025-08-27 13:37:29 -  >> Server started in 18.417 seconds.
+2025-08-27 13:37:41 -  Loading [GOD] Middle Earth...
+2025-08-27 13:37:41 -  [GOD] Middle Earth has logged in.
+2025-08-27 13:39:02 -  
+2025-08-27 13:39:02 -  Thread 1 "tfs" received signal SIGINT, Interrupt.
+2025-08-27 13:39:02 -  0x00007ffff7eea68e in epoll_wait (epfd=4, events=0x7fffffffdb00, maxevents=128, timeout=-1) at ../sysdeps/unix/sysv/linux/epoll_wait.c:30
+2025-08-27 13:39:02 -  30	../sysdeps/unix/sysv/linux/epoll_wait.c: No such file or directory.
+2025-08-27 13:39:02 -  
+2025-08-27 13:39:02 -  Thread 4 (Thread 0x7ffff4b0d700 (LWP 154961)):
+2025-08-27 13:39:02 -  #0  futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x555555bd91bc <g_databaseTasks+188>) at ../sysdeps/nptl/futex-internal.h:183
+2025-08-27 13:39:02 -          __ret = -512
+2025-08-27 13:39:02 -          oldtype = 0
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          oldtype = <optimized out>
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          __ret = <optimized out>
+2025-08-27 13:39:02 -          resultvar = <optimized out>
+2025-08-27 13:39:02 -          __arg4 = <optimized out>
+2025-08-27 13:39:02 -          __arg3 = <optimized out>
+2025-08-27 13:39:02 -          __arg2 = <optimized out>
+2025-08-27 13:39:02 -          __arg1 = <optimized out>
+2025-08-27 13:39:02 -          _a4 = <optimized out>
+2025-08-27 13:39:02 -          _a3 = <optimized out>
+2025-08-27 13:39:02 -          _a2 = <optimized out>
+2025-08-27 13:39:02 -          _a1 = <optimized out>
+2025-08-27 13:39:02 -  #1  __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x555555bd9168 <g_databaseTasks+104>, cond=0x555555bd9190 <g_databaseTasks+144>) at pthread_cond_wait.c:508
+2025-08-27 13:39:02 -          spin = 0
+2025-08-27 13:39:02 -          buffer = {__routine = 0x7ffff71c3050 <__condvar_cleanup_waiting>, __arg = 0x7ffff4b0ccb0, __canceltype = 0, __prev = 0x0}
+2025-08-27 13:39:02 -          cbuffer = {wseq = 7, cond = 0x555555bd9190 <g_databaseTasks+144>, mutex = 0x555555bd9168 <g_databaseTasks+104>, private = 0}
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          g = 1
+2025-08-27 13:39:02 -          flags = <optimized out>
+2025-08-27 13:39:02 -          g1_start = <optimized out>
+2025-08-27 13:39:02 -          signals = <optimized out>
+2025-08-27 13:39:02 -          result = 0
+2025-08-27 13:39:02 -          wseq = 7
+2025-08-27 13:39:02 -          seq = 3
+2025-08-27 13:39:02 -          private = <optimized out>
+2025-08-27 13:39:02 -          maxspin = <optimized out>
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          result = <optimized out>
+2025-08-27 13:39:02 -          wseq = <optimized out>
+2025-08-27 13:39:02 -          g = <optimized out>
+2025-08-27 13:39:02 -          seq = <optimized out>
+2025-08-27 13:39:02 -          flags = <optimized out>
+2025-08-27 13:39:02 -          private = <optimized out>
+2025-08-27 13:39:02 -          signals = <optimized out>
+2025-08-27 13:39:02 -          g1_start = <optimized out>
+2025-08-27 13:39:02 -          spin = <optimized out>
+2025-08-27 13:39:02 -          buffer = <optimized out>
+2025-08-27 13:39:02 -          cbuffer = <optimized out>
+2025-08-27 13:39:02 -          s = <optimized out>
+2025-08-27 13:39:02 -  #2  __pthread_cond_wait (cond=0x555555bd9190 <g_databaseTasks+144>, mutex=0x555555bd9168 <g_databaseTasks+104>) at pthread_cond_wait.c:647
+2025-08-27 13:39:02 -  No locals.
+2025-08-27 13:39:02 -  #3  0x00007ffff70a2e30 in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /lib/x86_64-linux-gnu/libstdc++.so.6
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #4  0x0000555555630b99 in DatabaseTasks::threadMain() ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #5  0x000055555563372f in void std::__invoke_impl<void, void (DatabaseTasks::*)(), DatabaseTasks*>(std::__invoke_memfun_deref, void (DatabaseTasks::*&&)(), DatabaseTasks*&&) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #6  0x000055555563365e in std::__invoke_result<void (DatabaseTasks::*)(), DatabaseTasks*>::type std::__invoke<void (DatabaseTasks::*)(), DatabaseTasks*>(void (DatabaseTasks::*&&)(), DatabaseTasks*&&) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #7  0x00005555556335bf in void std::thread::_Invoker<std::tuple<void (DatabaseTasks::*)(), DatabaseTasks*> >::_M_invoke<0ul, 1ul>(std::_Index_tuple<0ul, 1ul>) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #8  0x0000555555633565 in std::thread::_Invoker<std::tuple<void (DatabaseTasks::*)(), DatabaseTasks*> >::operator()() ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #9  0x000055555563353c in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (DatabaseTasks::*)(), DatabaseTasks*> > >::_M_run() ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #10 0x00007ffff70a8df4 in ?? () from /lib/x86_64-linux-gnu/libstdc++.so.6
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #11 0x00007ffff71bc609 in start_thread (arg=<optimized out>) at pthread_create.c:477
+2025-08-27 13:39:02 -          ret = <optimized out>
+2025-08-27 13:39:02 -          pd = <optimized out>
+2025-08-27 13:39:02 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737298618112, 6208330071284429739, 140737315481678, 140737315481679, 140737315481680, 140737298616192, -6208350422415395925, -6208346806432386133}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2025-08-27 13:39:02 -          not_first_call = 0
+2025-08-27 13:39:02 -  #12 0x00007ffff7eea353 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+2025-08-27 13:39:02 -  No locals.
+2025-08-27 13:39:02 -  
+2025-08-27 13:39:02 -  Thread 3 (Thread 0x7ffff5322700 (LWP 154960)):
+2025-08-27 13:39:02 -  #0  futex_abstimed_wait_cancelable (private=<optimized out>, abstime=0x7ffff5321cf0, clockid=<optimized out>, expected=0, futex_word=0x555555bd92c8 <g_scheduler+104>) at ../sysdeps/nptl/futex-internal.h:320
+2025-08-27 13:39:02 -          __ret = -516
+2025-08-27 13:39:02 -          clockbit = <optimized out>
+2025-08-27 13:39:02 -          op = <optimized out>
+2025-08-27 13:39:02 -          __ret = <optimized out>
+2025-08-27 13:39:02 -          oldtype = 0
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          oldtype = <optimized out>
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          __ret = <optimized out>
+2025-08-27 13:39:02 -          clockbit = <optimized out>
+2025-08-27 13:39:02 -          op = <optimized out>
+2025-08-27 13:39:02 -          __ret = <optimized out>
+2025-08-27 13:39:02 -          resultvar = <optimized out>
+2025-08-27 13:39:02 -          __arg6 = <optimized out>
+2025-08-27 13:39:02 -          __arg5 = <optimized out>
+2025-08-27 13:39:02 -          __arg4 = <optimized out>
+2025-08-27 13:39:02 -          __arg3 = <optimized out>
+2025-08-27 13:39:02 -          __arg2 = <optimized out>
+2025-08-27 13:39:02 -          __arg1 = <optimized out>
+2025-08-27 13:39:02 -          _a6 = <optimized out>
+2025-08-27 13:39:02 -          _a5 = <optimized out>
+2025-08-27 13:39:02 -          _a4 = <optimized out>
+2025-08-27 13:39:02 -          _a3 = <optimized out>
+2025-08-27 13:39:02 -          _a2 = <optimized out>
+2025-08-27 13:39:02 -          _a1 = <optimized out>
+2025-08-27 13:39:02 -  #1  __pthread_cond_wait_common (abstime=0x7ffff5321cf0, clockid=<optimized out>, mutex=0x555555bd9278 <g_scheduler+24>, cond=0x555555bd92a0 <g_scheduler+64>) at pthread_cond_wait.c:520
+2025-08-27 13:39:02 -          spin = 0
+2025-08-27 13:39:02 -          buffer = {__routine = 0x7ffff71c3050 <__condvar_cleanup_waiting>, __arg = 0x7ffff5321c10, __canceltype = -181265312, __prev = 0x0}
+2025-08-27 13:39:02 -          cbuffer = {wseq = 31922, cond = 0x555555bd92a0 <g_scheduler+64>, mutex = 0x555555bd9278 <g_scheduler+24>, private = 0}
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          g = 0
+2025-08-27 13:39:02 -          flags = <optimized out>
+2025-08-27 13:39:02 -          g1_start = <optimized out>
+2025-08-27 13:39:02 -          maxspin = 0
+2025-08-27 13:39:02 -          signals = <optimized out>
+2025-08-27 13:39:02 -          result = 0
+2025-08-27 13:39:02 -          wseq = 31922
+2025-08-27 13:39:02 -          seq = 15961
+2025-08-27 13:39:02 -          private = <optimized out>
+2025-08-27 13:39:02 -          maxspin = <optimized out>
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          result = <optimized out>
+2025-08-27 13:39:02 -          wseq = <optimized out>
+2025-08-27 13:39:02 -          g = <optimized out>
+2025-08-27 13:39:02 -          seq = <optimized out>
+2025-08-27 13:39:02 -          flags = <optimized out>
+2025-08-27 13:39:02 -          private = <optimized out>
+2025-08-27 13:39:02 -          signals = <optimized out>
+2025-08-27 13:39:02 -          g1_start = <optimized out>
+2025-08-27 13:39:02 -          spin = <optimized out>
+2025-08-27 13:39:02 -          buffer = <optimized out>
+2025-08-27 13:39:02 -          cbuffer = <optimized out>
+2025-08-27 13:39:02 -          s = <optimized out>
+2025-08-27 13:39:02 -  #2  __pthread_cond_timedwait (cond=0x555555bd92a0 <g_scheduler+64>, mutex=0x555555bd9278 <g_scheduler+24>, abstime=0x7ffff5321cf0) at pthread_cond_wait.c:665
+2025-08-27 13:39:02 -          flags = <optimized out>
+2025-08-27 13:39:02 -          clockid = <optimized out>
+2025-08-27 13:39:02 -  #3  0x000055555596c0e7 in __gthread_cond_timedwait(pthread_cond_t*, pthread_mutex_t*, timespec const*) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #4  0x000055555596d13c in std::cv_status std::condition_variable::__wait_until_impl<std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::unique_lock<std::mutex>&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #5  0x000055555596cc17 in std::cv_status std::condition_variable::wait_until<std::chrono::duration<long, std::ratio<1l, 1000000000l> > >(std::unique_lock<std::mutex>&, std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > const&) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #6  0x000055555596c4bf in Scheduler::threadMain() ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #7  0x0000555555899ebe in void std::__invoke_impl<void, void (Scheduler::*)(), Scheduler*>(std::__invoke_memfun_deref, void (Scheduler::*&&)(), Scheduler*&&) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #8  0x0000555555899b4e in std::__invoke_result<void (Scheduler::*)(), Scheduler*>::type std::__invoke<void (Scheduler::*)(), Scheduler*>(void (Scheduler::*&&)(), Scheduler*&&) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #9  0x0000555555899597 in void std::thread::_Invoker<std::tuple<void (Scheduler::*)(), Scheduler*> >::_M_invoke<0ul, 1ul>(std::_Index_tuple<0ul, 1ul>) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #10 0x0000555555898dcf in std::thread::_Invoker<std::tuple<void (Scheduler::*)(), Scheduler*> >::operator()() ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #11 0x0000555555898440 in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (Scheduler::*)(), Scheduler*> > >::_M_run() ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #12 0x00007ffff70a8df4 in ?? () from /lib/x86_64-linux-gnu/libstdc++.so.6
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #13 0x00007ffff71bc609 in start_thread (arg=<optimized out>) at pthread_create.c:477
+2025-08-27 13:39:02 -          ret = <optimized out>
+2025-08-27 13:39:02 -          pd = <optimized out>
+2025-08-27 13:39:02 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737307092736, 6208330071284429739, 140737488347502, 140737488347503, 140737488347504, 140737307090816, -6208351540717505621, -6208346806432386133}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2025-08-27 13:39:02 -          not_first_call = 0
+2025-08-27 13:39:02 -  #14 0x00007ffff7eea353 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+2025-08-27 13:39:02 -  No locals.
+2025-08-27 13:39:02 -  
+2025-08-27 13:39:02 -  Thread 2 (Thread 0x7ffff5b23700 (LWP 154959)):
+2025-08-27 13:39:02 -  #0  futex_wait_cancelable (private=<optimized out>, expected=0, futex_word=0x555555bd922c <g_dispatcher+108>) at ../sysdeps/nptl/futex-internal.h:183
+2025-08-27 13:39:02 -          __ret = -512
+2025-08-27 13:39:02 -          oldtype = 0
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          oldtype = <optimized out>
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          __ret = <optimized out>
+2025-08-27 13:39:02 -          resultvar = <optimized out>
+2025-08-27 13:39:02 -          __arg4 = <optimized out>
+2025-08-27 13:39:02 -          __arg3 = <optimized out>
+2025-08-27 13:39:02 -          __arg2 = <optimized out>
+2025-08-27 13:39:02 -          __arg1 = <optimized out>
+2025-08-27 13:39:02 -          _a4 = <optimized out>
+2025-08-27 13:39:02 -          _a3 = <optimized out>
+2025-08-27 13:39:02 -          _a2 = <optimized out>
+2025-08-27 13:39:02 -          _a1 = <optimized out>
+2025-08-27 13:39:02 -  #1  __pthread_cond_wait_common (abstime=0x0, clockid=0, mutex=0x555555bd91d8 <g_dispatcher+24>, cond=0x555555bd9200 <g_dispatcher+64>) at pthread_cond_wait.c:508
+2025-08-27 13:39:02 -          spin = 0
+2025-08-27 13:39:02 -          buffer = {__routine = 0x7ffff71c3050 <__condvar_cleanup_waiting>, __arg = 0x7ffff5b22ce0, __canceltype = -172872464, __prev = 0x0}
+2025-08-27 13:39:02 -          cbuffer = {wseq = 19391, cond = 0x555555bd9200 <g_dispatcher+64>, mutex = 0x555555bd91d8 <g_dispatcher+24>, private = 0}
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          g = 1
+2025-08-27 13:39:02 -          flags = <optimized out>
+2025-08-27 13:39:02 -          g1_start = <optimized out>
+2025-08-27 13:39:02 -          signals = <optimized out>
+2025-08-27 13:39:02 -          result = 0
+2025-08-27 13:39:02 -          wseq = 19391
+2025-08-27 13:39:02 -          seq = 9695
+2025-08-27 13:39:02 -          private = <optimized out>
+2025-08-27 13:39:02 -          maxspin = <optimized out>
+2025-08-27 13:39:02 -          err = <optimized out>
+2025-08-27 13:39:02 -          result = <optimized out>
+2025-08-27 13:39:02 -          wseq = <optimized out>
+2025-08-27 13:39:02 -          g = <optimized out>
+2025-08-27 13:39:02 -          seq = <optimized out>
+2025-08-27 13:39:02 -          flags = <optimized out>
+2025-08-27 13:39:02 -          private = <optimized out>
+2025-08-27 13:39:02 -          signals = <optimized out>
+2025-08-27 13:39:02 -          g1_start = <optimized out>
+2025-08-27 13:39:02 -          spin = <optimized out>
+2025-08-27 13:39:02 -          buffer = <optimized out>
+2025-08-27 13:39:02 -          cbuffer = <optimized out>
+2025-08-27 13:39:02 -          s = <optimized out>
+2025-08-27 13:39:02 -  #2  __pthread_cond_wait (cond=0x555555bd9200 <g_dispatcher+64>, mutex=0x555555bd91d8 <g_dispatcher+24>) at pthread_cond_wait.c:647
+2025-08-27 13:39:02 -  No locals.
+2025-08-27 13:39:02 -  #3  0x00007ffff70a2e30 in std::condition_variable::wait(std::unique_lock<std::mutex>&) () from /lib/x86_64-linux-gnu/libstdc++.so.6
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #4  0x00005555559ac64c in Dispatcher::threadMain() ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #5  0x0000555555899f76 in void std::__invoke_impl<void, void (Dispatcher::*)(), Dispatcher*>(std::__invoke_memfun_deref, void (Dispatcher::*&&)(), Dispatcher*&&) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #6  0x0000555555899c01 in std::__invoke_result<void (Dispatcher::*)(), Dispatcher*>::type std::__invoke<void (Dispatcher::*)(), Dispatcher*>(void (Dispatcher::*&&)(), Dispatcher*&&) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #7  0x00005555558995e1 in void std::thread::_Invoker<std::tuple<void (Dispatcher::*)(), Dispatcher*> >::_M_invoke<0ul, 1ul>(std::_Index_tuple<0ul, 1ul>) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #8  0x0000555555898e0d in std::thread::_Invoker<std::tuple<void (Dispatcher::*)(), Dispatcher*> >::operator()() ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #9  0x0000555555898462 in std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (Dispatcher::*)(), Dispatcher*> > >::_M_run() ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #10 0x00007ffff70a8df4 in ?? () from /lib/x86_64-linux-gnu/libstdc++.so.6
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #11 0x00007ffff71bc609 in start_thread (arg=<optimized out>) at pthread_create.c:477
+2025-08-27 13:39:02 -          ret = <optimized out>
+2025-08-27 13:39:02 -          pd = <optimized out>
+2025-08-27 13:39:02 -          unwind_buf = {cancel_jmp_buf = {{jmp_buf = {140737315485440, 6208330071284429739, 140737488347502, 140737488347503, 140737488347504, 140737315483520, -6208352639692262485, -6208346806432386133}, mask_was_saved = 0}}, priv = {pad = {0x0, 0x0, 0x0, 0x0}, data = {prev = 0x0, cleanup = 0x0, canceltype = 0}}}
+2025-08-27 13:39:02 -          not_first_call = 0
+2025-08-27 13:39:02 -  #12 0x00007ffff7eea353 in clone () at ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+2025-08-27 13:39:02 -  No locals.
+2025-08-27 13:39:02 -  
+2025-08-27 13:39:02 -  Thread 1 (Thread 0x7ffff69d2780 (LWP 154955)):
+2025-08-27 13:39:02 -  #0  0x00007ffff7eea68e in epoll_wait (epfd=4, events=0x7fffffffdb00, maxevents=128, timeout=-1) at ../sysdeps/unix/sysv/linux/epoll_wait.c:30
+2025-08-27 13:39:02 -          resultvar = 18446744073709551612
+2025-08-27 13:39:02 -          sc_cancel_oldtype = 0
+2025-08-27 13:39:02 -          sc_ret = <optimized out>
+2025-08-27 13:39:02 -  #1  0x00005555555ec3a4 in boost::asio::detail::epoll_reactor::run(long, boost::asio::detail::op_queue<boost::asio::detail::scheduler_operation>&) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #2  0x00005555555eda1a in boost::asio::detail::scheduler::do_run_one(boost::asio::detail::conditionally_enabled_mutex::scoped_lock&, boost::asio::detail::scheduler_thread_info&, boost::system::error_code const&) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #3  0x00005555555ed4ce in boost::asio::detail::scheduler::run(boost::system::error_code&) ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #4  0x0000555555975730 in boost::asio::io_context::run() ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #5  0x00005555559769b8 in ServiceManager::run() ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  #6  0x00005555558891c2 in main ()
+2025-08-27 13:39:02 -  No symbol table info available.
+2025-08-27 13:39:02 -  Server crash :O
+2025-08-27 13:39:02 -  Saving server... 27/08/2025 13:39:02
+2025-08-27 13:39:02 -  [GOD] Middle Earth Position: 2173, 364, 9
+2025-08-27 13:39:02 -  
+2025-08-27 13:39:02 -  Thread 1 "tfs" received signal SIGINT, Interrupt.
+2025-08-27 13:39:02 -  0x00007ffff772b380 in ?? () from /lib/x86_64-linux-gnu/libmysqlclient.so.21
+2025-08-27 13:39:02 -  gdb_config:8: Error in sourced command file:
+2025-08-27 13:39:02 -  The program being debugged was signaled while in a function called from GDB.
+2025-08-27 13:39:02 -  GDB remains in the frame where the signal was received.
+2025-08-27 13:39:02 -  To change this behavior use "set unwindonsignal on".
+2025-08-27 13:39:02 -  Evaluation of the expression containing the function
+2025-08-27 13:39:02 -  (saveServer()) will be abandoned.
+2025-08-27 13:39:02 -  When the function is done executing, GDB will silently stop.

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Demon Skeleton" nameDescription="um demon skeleton" race="undead" experience="240" speed="150" manacost="620">
+  <health now="400" max="400"/>
+  <look type="37" head="0" body="0" legs="0" feet="0" corpse="2809"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="0"/>
+  <flags>
+    <flag summonable="1"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-70" max="-160"/>
+	
+	<attack name="lifedrain" interval="2700" chance="30" range="1" min="-30" max="-50"/>
+</attacks>
+
+<defenses armor="0" defense="0"/>
+
+	<elements><element physicalPercent="5"/>
+		<element energyPercent="20"/>
+		<element earthPercent="80"/>
+		<element icePercent="15"/>
+		<element firePercent="55"/>
+		<element holyPercent="10"/>
+		<element deathPercent="40"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+<loot capacity="500">
+	<item id="2515" chance="200"/> 
+ 	<item id="2462" chance="450"/> 
+ 	<item id="2417" chance="1000"/> 
+ 	<item id="2439" chance="1100"/> 
+	<item id="5906" chance="12000"/>
+	<item id="10564" chance="4000"/>
+	<item id="5925" countmax="1" chance1="6000"/> 
+ 	<item id="2148" countmax="40" chance1="80000"/> 
+ 	<item id="2194" chance="166"/>
+ 	<item id="2209" chance="99"/>
+ 	
+</loot>
+
+</monster>

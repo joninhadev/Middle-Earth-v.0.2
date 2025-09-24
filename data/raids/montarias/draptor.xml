@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Algumas criaturas diferentes foram avistadas na caverna dos dragons, ao norte de bree!" /> 
+  <announce delay="30000" type="Event" message="Os draptors estão aterrorizando seu habitat." />
+  <!--Single Spawns-->
+  <singlespawn delay="30000" name="Draptor" x="682" y="290" z="6" />
+  <singlespawn delay="30000" name="Draptor" x="691" y="269" z="6" />
+  <singlespawn delay="30000" name="Draptor" x="713" y="298" z="6" />
+  <singlespawn delay="30000" name="Draptor" x="691" y="269" z="5" />
+  <singlespawn delay="30000" name="Draptor" x="672" y="324" z="6" />
+ </raid>

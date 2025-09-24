@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<npc name="Salim" script="default.lua" access="3" walkinterval="0">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="134" head="78" body="19" legs="19" feet="97" addon="2" corpse="3128"/>
+	
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="elven brooch,2122,200;crystal ring,2124,250;emerald bangle,2127,350;crown,2128,600;silver brooch,2134,180;black pearl,2144,150;white pearl,2143,100;silver amulet,2170,120;bronze amulet,2172,75;gold ring,2179,450;small emerald,2149,220;small amethyst,2150,240;small sapphire,2146,180;small ruby,2147,260;small diamond,2145,300" />
+
+		<parameter key="message_greet" value="Ola |PLAYERNAME|, eu compro joias"/>
+	</parameters>
+	
+</npc>

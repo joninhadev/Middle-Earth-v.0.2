@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+
+	
+	<!-- Envia 1 mensagem a cada 30 minutos -->
+	<globalevent name="anuncios30" interval="1800000" script="anuncios30.lua" />
+	
+	<!-- Raids -->
+	<!--<globalevent name="invasoes" interval="1500" script="raid.lua"/>-->
+
+	<!-- Autoloot -->
+	<globalevent name="autoloot" type="startup" script="autoloot.lua"/>
+	
+	<!-- Invasão -->
+	<globalevent name="InvasionEvent" time="21:00:00" script="automatic_invasion.lua" />
+
+
+
+	
+	<!-- Bosses Aleatorios -->
+	<globalevent name="BossesRespawn" interval="1200000" script="bosses.lua" /> 
+
+	<!-- Others -->
+	<globalevent type="startup" name="ServerStartup" script="startup.lua" />
+	<globalevent type="record" name="PlayerRecord" script="record.lua" />
+	<globalevent name="ServerSave" time="04:55:00" script="serversave.lua" />-->
+	<globalevent name="SavePlayer" interval="3600000" script="save.lua" /> <!-- 1 horas -->
+
+
+	<globalevent type="startup" name="doCheckHouses" script="others/doCheckHouses.lua" />
+	<globalevent name="checkInbox" interval="30000" script="others/checkInbox.lua"/>
+	<globalevent name="trainerClean" interval="1800000" script="trainerClean.lua"/>
+</globalevents>

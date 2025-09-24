@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Elven Guard" nameDescription="um guarda de rivendell" race="blood" experience="0" speed="160">
+  <health now="3000" max="3000"/>
+  <look type="64" head="20" body="30" legs="40" feet="50" corpse="2981"/>
+  <targetchange interval="5000" chance="30"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="4"/>
+    <flag hostile="4"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="1"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="4"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-100" max="-250"/>
+
+	<attack name="physical" interval="2300" chance="99" range="7" target="1" min="-80" max="-200">
+		<attribute key="shootEffect" value="arrow"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="1000" chance="100" min="10" max="20"/>
+</defenses>
+
+<immunities>
+    <immunity physical="0"/>
+    <immunity energy="1"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+	<immunity drown="1"/>
+	<immunity ice="0"/>
+	<immunity holy="1"/>
+	<immunity death="0"/>
+	<immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="1"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+<voices speed="10000" chance="10">
+	<voice sentence="Estamos sendo atacados!" yell="1"/>
+</voices>
+
+<loot>
+</loot>
+
+</monster>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Aulmog" nameDescription="Aulmog" race="undead" experience="1000000" speed="320">
+	<health now="120000" max="120000" />
+	<look type="842" head="0" body="62" legs="22" feet="87" addons="1" corpse="6068" />
+	<targetchange interval="5000" chance="8" />
+	<flags>
+		<flag rewardboss="1"/>
+		<flag preyable="0" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag rewardboss="1" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-300" max="-550"/>
+		<attack name="stone shower" interval="4000" min="-300" max="-550"/>
+		<attack name="terra strike" interval="2000" min="-150" max="-320"/>
+		<attack name="terra wave" interval="6000" min="-600" max="-800"/>
+	</attacks>
+	<defenses armor="55" defense="65">
+		<defense name="healing" interval="3000" chance="35" min="100" max="400">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="20"/>
+		<element icePercent="20"/>
+		<element poisonPercent="99"/>
+		<element firePercent="5"/>
+		<element energyPercent="5"/>
+		<element holyPercent="30"/>
+		<element deathPercent="10"/>
+	</elements>
+	<immunities>
+		<immunity earth="1" />
+		<immunity paralyze="1" />
+		<immunity energy="1" />
+		<immunity fire="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="30">
+		<voice sentence="DAMMMMNNNNAAATIONN!"/>
+		<voice sentence="I WILL FEAST ON YOUR SOUL!" yell="1"/>
+		<voice sentence="YOU ARE ALL DAMNED!" yell="1"/>
+	</voices>
+	<loot>
+		<item name="gold coin" countmax="99" chance="999999"/>
+		<item name="gold coin" countmax="99" chance="999999"/>
+		<item name="crystal coin" countmax="35" chance="999999"/>
+		<item name="small emerald" countmax="30" chance="999999"/>
+		<item name="pestilence omega" chance="3000"/>
+		<item name="medusa shield" chance="50000"/>
+		<item name="terra helmet" chance="1000"/>
+		<item name="valar kilt" chance="1000"/>
+		<item name="foxtail amulet" chance="800"/>
+	</loot>
+</monster>

@@ -1,0 +1,368 @@
+2025-09-24 10:55:54 -  [Thread debugging using libthread_db enabled]
+2025-09-24 10:55:54 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-09-24 10:55:54 -  [New Thread 0x7ffff5b23700 (LWP 496387)]
+2025-09-24 10:55:54 -  [New Thread 0x7ffff5322700 (LWP 496388)]
+2025-09-24 10:55:54 -  The OTG-BR - Version: (1.4)
+2025-09-24 10:55:54 -  Compiled with: GNU C++ version 9.4.0
+2025-09-24 10:55:54 -  Compiled on Sep 11 2025 23:45:59 for platform x64
+2025-09-24 10:55:54 -  
+2025-09-24 10:55:54 -  Engine Credits for: TFS Team, OTG Team....
+2025-09-24 10:55:54 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-09-24 10:55:54 -  
+2025-09-24 10:55:54 -  >> Loading config: config.lua
+2025-09-24 10:55:54 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-24 10:55:54 -   MySQL 8.0.42
+2025-09-24 10:55:54 -  >> Running database manager
+2025-09-24 10:55:54 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-24 10:55:54 -  [New Thread 0x7ffff4b0d700 (LWP 496389)]
+2025-09-24 10:55:54 -  > Optimizing table players_online... [success]
+2025-09-24 10:55:54 -  > Optimizing table player_depotitems... [success]
+2025-09-24 10:55:55 -  > Optimizing table player_items... [success]
+2025-09-24 10:55:55 -  > Optimizing table player_deaths... [success]
+2025-09-24 10:55:55 -  > Optimizing table player_storage... [success]
+2025-09-24 10:55:55 -  >> Loading vocations
+2025-09-24 10:55:55 -  >> Loading items
+2025-09-24 10:55:55 -  >> Loading script systems
+2025-09-24 10:55:55 -  >> Loading lua libs
+2025-09-24 10:55:56 -  >> Loading bestiary
+2025-09-24 10:55:56 -  >> Loading lua scripts
+2025-09-24 10:55:56 -  >> Loading monsters
+2025-09-24 10:55:56 -  >> Loading lua monsters
+2025-09-24 10:55:56 -  >> Loading outfits
+2025-09-24 10:55:56 -  >> Loading imbuements
+2025-09-24 10:55:56 -  >> Loading charms
+2025-09-24 10:55:56 -  >> Loading Store
+2025-09-24 10:55:56 -  >> Loading prey data
+2025-09-24 10:55:56 -  >> Checking world type... RETRO-PVP
+2025-09-24 10:55:56 -  >> Loading map
+2025-09-24 10:56:04 -  > Map size: 2293x2048.
+2025-09-24 10:56:19 -  > Map loading time: 23.27 seconds.
+2025-09-24 10:56:20 -  > Loaded house items in: 0.013 s
+2025-09-24 10:56:21 -  >> Loading guilds... All guilds have been loaded.
+2025-09-24 10:56:21 -  >> Initializing gamestate
+2025-09-24 10:56:21 -  > Loaded spawns in 0.844 seconds.
+2025-09-24 10:56:21 -  >> Loaded 202 npcs and spawned 25510 monsters.
+2025-09-24 10:56:21 -  >> Loaded 17 towns with 588 houses in total.
+2025-09-24 10:56:21 -  >> Start time: 24.09.2025 - 10:56:21
+2025-09-24 10:56:21 -  Initialization complete.
+2025-09-24 10:56:21 -  >> Loaded all modules, server starting up...
+2025-09-24 10:56:21 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-09-24 10:56:21 -  >> Server started in 27.168 seconds.
+2025-09-24 10:56:21 -  >> Middle Earth Server Server Online!
+2025-09-24 10:56:21 -  
+2025-09-24 10:56:22 -  Loading Alexandre De Moraes...
+2025-09-24 10:56:22 -  Alexandre De Moraes has logged in.
+2025-09-24 10:56:22 -  Loading Marmaduk Com Alzheime...
+2025-09-24 10:56:22 -  Marmaduk Com Alzheime has logged in.
+2025-09-24 10:56:22 -  Loading Old Spice...
+2025-09-24 10:56:22 -  Old Spice has logged in.
+2025-09-24 10:56:22 -  Loading Preto...
+2025-09-24 10:56:22 -  Preto has logged in.
+2025-09-24 10:56:22 -  Loading Roxo...
+2025-09-24 10:56:22 -  Roxo has logged in.
+2025-09-24 10:56:22 -  Loading Awesome Sophia...
+2025-09-24 10:56:22 -  Awesome Sophia has logged in.
+2025-09-24 10:56:22 -  Loading [CM] Middle Earth...
+2025-09-24 10:56:22 -  [CM] Middle Earth has logged in.
+2025-09-24 10:56:22 -  Loading Tenkai...
+2025-09-24 10:56:22 -  Tenkai has logged in.
+2025-09-24 10:56:22 -  Loading Gardenal Rs...
+2025-09-24 10:56:22 -  Gardenal Rs has logged in.
+2025-09-24 10:56:22 -  Loading Pallazin...
+2025-09-24 10:56:22 -  Pallazin has logged in.
+2025-09-24 10:56:22 -  Loading Kyou Kai...
+2025-09-24 10:56:22 -  Kyou Kai has logged in.
+2025-09-24 10:56:22 -  Loading Betty Boopy...
+2025-09-24 10:56:23 -  Betty Boopy has logged in.
+2025-09-24 10:56:23 -  Loading Mage Of Rules...
+2025-09-24 10:56:23 -  Mage Of Rules has logged in.
+2025-09-24 10:56:23 -  Loading Mono...
+2025-09-24 10:56:23 -  Mono has logged in.
+2025-09-24 10:56:23 -  Loading Enfermeira Joy...
+2025-09-24 10:56:23 -  Enfermeira Joy has logged in.
+2025-09-24 10:56:23 -  Loading Gynga Bilola...
+2025-09-24 10:56:23 -  Gynga Bilola has logged in.
+2025-09-24 10:56:23 -  Loading Victorsemc...
+2025-09-24 10:56:23 -  Victorsemc has logged in.
+2025-09-24 10:56:30 -  Victorsemc has logged out.
+2025-09-24 10:56:48 -  Loading [GOD] Middle Earth...
+2025-09-24 10:56:48 -  [GOD] Middle Earth has logged in.
+2025-09-24 10:56:54 -  Loading Victorsemc...
+2025-09-24 10:56:54 -  Victorsemc has logged in.
+2025-09-24 10:57:05 -  Loading Psyco Ozzy...
+2025-09-24 10:57:05 -  Psyco Ozzy has logged in.
+2025-09-24 10:57:21 -  house leave code
+2025-09-24 10:57:21 -  Baixa 3
+2025-09-24 10:57:21 -  Loading Orc Vegano...
+2025-09-24 10:57:24 -  house leave house count:1
+2025-09-24 10:57:24 -  Loading Ozzy Osbourne...
+2025-09-24 10:57:24 -  Ozzy Osbourne has logged in.
+2025-09-24 10:58:32 -  Loading Paramax...
+2025-09-24 10:58:32 -  Paramax has logged in.
+2025-09-24 10:58:34 -  Loading Jumahu...
+2025-09-24 10:58:34 -  Jumahu has logged in.
+2025-09-24 10:58:35 -  Loading Logitch...
+2025-09-24 10:58:35 -  Logitch has logged in.
+2025-09-24 10:58:36 -  Loading Alone Schadeck...
+2025-09-24 10:58:36 -  Alone Schadeck has logged in.
+2025-09-24 10:58:37 -  Paramax has logged out.
+2025-09-24 10:58:40 -  Loading Paramax...
+2025-09-24 10:58:40 -  Paramax has logged in.
+2025-09-24 10:58:42 -  Loading Elzinho Druid...
+2025-09-24 10:58:42 -  Elzinho Druid has logged in.
+2025-09-24 10:59:08 -  Loading Skylline...
+2025-09-24 10:59:08 -  Skylline has logged in.
+2025-09-24 11:12:25 -  Old Spice has logged out.
+2025-09-24 11:12:27 -  Loading Old Spice...
+2025-09-24 11:12:27 -  Old Spice has logged in.
+2025-09-24 11:12:51 -  Loading Roxkill...
+2025-09-24 11:12:51 -  Roxkill has logged in.
+2025-09-24 11:15:23 -  Loading Sir Daniel...
+2025-09-24 11:15:23 -  Sir Daniel has logged in.
+2025-09-24 11:16:51 -  [BOSS SYSTEM] Spawned: Ferumbras
+2025-09-24 11:16:51 -  Alexandre De Moraes has logged out.
+2025-09-24 11:16:53 -  Loading Alexandre De Moraes...
+2025-09-24 11:16:53 -  Alexandre De Moraes has logged in.
+2025-09-24 11:17:34 -  Saving server... 24/09/2025 11:17:34
+2025-09-24 11:17:35 -  > Saved house items in: 0.152 s
+2025-09-24 11:20:46 -  Reloaded items.
+2025-09-24 11:20:46 -  Gardenal Rs has logged out.
+2025-09-24 11:24:14 -  Loading Lucky Roux...
+2025-09-24 11:24:14 -  Lucky Roux has logged in.
+2025-09-24 11:25:43 -  Lucky Roux has logged out.
+2025-09-24 11:28:14 -  [GOD] Middle Earth has logged out.
+2025-09-24 11:28:32 -  Old Spice has logged out.
+2025-09-24 11:28:35 -  Loading Old Spice...
+2025-09-24 11:28:35 -  Old Spice has logged in.
+2025-09-24 11:33:31 -  Ozzy Osbourne has logged out.
+2025-09-24 11:43:17 -  [BOSS SYSTEM] Spawned: Wormageddon
+2025-09-24 11:43:17 -  Psyco Ozzy has logged out.
+2025-09-24 11:44:37 -  Old Spice has logged out.
+2025-09-24 11:44:40 -  Loading Old Spice...
+2025-09-24 11:44:40 -  Old Spice has logged in.
+2025-09-24 11:53:06 -  Loading Zico Dez...
+2025-09-24 11:53:06 -  Zico Dez has logged in.
+2025-09-24 11:57:56 -  [BOSS SYSTEM] Spawned: Ferumbras
+2025-09-24 11:57:56 -  Saving server... 24/09/2025 11:57:56
+2025-09-24 11:57:57 -  > Saved house items in: 0.139 s
+2025-09-24 11:58:29 -  Loading Psyco Ozzy...
+2025-09-24 11:58:29 -  Psyco Ozzy has logged in.
+2025-09-24 11:58:36 -  Loading [GOD] Middle Earth...
+2025-09-24 11:58:36 -  [GOD] Middle Earth has logged in.
+2025-09-24 11:58:44 -  Loading Ozzy Osbourne...
+2025-09-24 11:58:44 -  Ozzy Osbourne has logged in.
+2025-09-24 11:59:02 -  Sir Daniel has logged out.
+2025-09-24 12:00:01 -  Loading Gordaumm...
+2025-09-24 12:00:01 -  Gordaumm has logged in.
+2025-09-24 12:00:43 -  Old Spice has logged out.
+2025-09-24 12:00:45 -  Loading Old Spice...
+2025-09-24 12:00:45 -  Old Spice has logged in.
+2025-09-24 12:03:02 -  Loading Eric Kartmann...
+2025-09-24 12:03:02 -  Eric Kartmann has logged in.
+2025-09-24 12:03:11 -  Loading Soraio...
+2025-09-24 12:03:11 -  Soraio has logged in.
+2025-09-24 12:03:40 -  Alexandre De Moraes has logged out.
+2025-09-24 12:03:48 -  Victorsemc has logged out.
+2025-09-24 12:04:03 -  Skylline has logged out.
+2025-09-24 12:04:12 -  Loading Alexandre De Moraes...
+2025-09-24 12:04:12 -  Alexandre De Moraes has logged in.
+2025-09-24 12:04:15 -  Loading Victorsemc...
+2025-09-24 12:04:15 -  Victorsemc has logged in.
+2025-09-24 12:10:30 -  Tenkai has logged out.
+2025-09-24 12:10:33 -  Loading Tenkai...
+2025-09-24 12:10:33 -  Tenkai has logged in.
+2025-09-24 12:16:48 -  [BOSS SYSTEM] Spawned: Azaka
+2025-09-24 12:16:48 -  Old Spice has logged out.
+2025-09-24 12:16:51 -  Loading Old Spice...
+2025-09-24 12:16:51 -  Old Spice has logged in.
+2025-09-24 12:32:53 -  > [GOD] Middle Earth broadcasted: "Bom dia, quem quiser entrar no discord e ficar por dentro das att, trocar uma ideia e tirar dúvidas...".
+2025-09-24 12:32:53 -  > [GOD] Middle Earth broadcasted: "https://discord.gg/sHT25XP2".
+2025-09-24 12:32:53 -  Old Spice has logged out.
+2025-09-24 12:32:55 -  Loading Old Spice...
+2025-09-24 12:32:55 -  Old Spice has logged in.
+2025-09-24 12:35:52 -  Gordaumm has logged out.
+2025-09-24 12:37:13 -  [BOSS SYSTEM] Spawned: Scatha
+2025-09-24 12:37:13 -  Loading Kaka Bueno...
+2025-09-24 12:37:13 -  Kaka Bueno has logged in.
+2025-09-24 12:37:36 -  Paramax has logged out.
+2025-09-24 12:38:48 -  Loading Paramax...
+2025-09-24 12:38:48 -  Paramax has logged in.
+2025-09-24 12:42:18 -  Loading Gordaumm...
+2025-09-24 12:42:18 -  Gordaumm has logged in.
+2025-09-24 12:42:24 -  Gordaumm has logged out.
+2025-09-24 12:42:26 -  Loading Gordaumm...
+2025-09-24 12:42:26 -  Gordaumm has logged in.
+2025-09-24 12:42:35 -  Gordaumm has logged out.
+2025-09-24 12:49:37 -  Loading Aleska Teodoro...
+2025-09-24 12:49:37 -  Aleska Teodoro has logged in.
+2025-09-24 12:50:04 -  Loading Karol Star...
+2025-09-24 12:50:04 -  Karol Star has logged in.
+2025-09-24 12:52:54 -  Karol Star has logged out.
+2025-09-24 12:52:57 -  Loading Karol Star...
+2025-09-24 12:52:57 -  Karol Star has logged in.
+2025-09-24 12:52:58 -  Old Spice has logged out.
+2025-09-24 12:53:01 -  Loading Old Spice...
+2025-09-24 12:53:01 -  Old Spice has logged in.
+2025-09-24 12:57:56 -  [BOSS SYSTEM] Spawned: Son of Ancalagon
+2025-09-24 12:57:56 -  Saving server... 24/09/2025 12:57:56
+2025-09-24 12:57:57 -  > Saved house items in: 0.136 s
+2025-09-24 13:03:22 -  Roxkill has logged out.
+2025-09-24 13:03:27 -  Loading Roxkill...
+2025-09-24 13:03:27 -  Roxkill has logged in.
+2025-09-24 13:09:04 -  Old Spice has logged out.
+2025-09-24 13:09:07 -  Loading Old Spice...
+2025-09-24 13:09:07 -  Old Spice has logged in.
+2025-09-24 13:18:54 -  [BOSS SYSTEM] Spawned: The Necromancer
+2025-09-24 13:18:54 -  Loading Jordin Sparks...
+2025-09-24 13:18:54 -  Jordin Sparks has logged in.
+2025-09-24 13:23:06 -  Roxkill has logged out.
+2025-09-24 13:23:07 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-24 13:23:09 -  Loading Roxkill...
+2025-09-24 13:23:09 -  Roxkill has logged in.
+2025-09-24 13:24:11 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-24 13:25:10 -  Old Spice has logged out.
+2025-09-24 13:25:12 -  Loading Old Spice...
+2025-09-24 13:25:12 -  Old Spice has logged in.
+2025-09-24 13:26:51 -  Alexandre De Moraes has logged out.
+2025-09-24 13:26:52 -  Jordin Sparks has logged out.
+2025-09-24 13:26:55 -  Loading Alexandre De Moraes...
+2025-09-24 13:26:55 -  Alexandre De Moraes has logged in.
+2025-09-24 13:27:02 -  Loading Incnoze Desalmado...
+2025-09-24 13:27:02 -  Incnoze Desalmado has logged in.
+2025-09-24 13:27:29 -  Incnoze Desalmado has logged out.
+2025-09-24 13:27:54 -  Loading Taryn Szpilman...
+2025-09-24 13:27:54 -  Taryn Szpilman has logged in.
+2025-09-24 13:28:26 -  Taryn Szpilman has logged out.
+2025-09-24 13:29:15 -  Roxkill has logged out.
+2025-09-24 13:29:18 -  Loading Roxkill...
+2025-09-24 13:29:18 -  Roxkill has logged in.
+2025-09-24 13:29:40 -  Alone Schadeck has logged out.
+2025-09-24 13:29:44 -  Logitch has logged out.
+2025-09-24 13:29:48 -  Paramax has logged out.
+2025-09-24 13:30:17 -  Jumahu has logged out.
+2025-09-24 13:31:12 -  [CM] Middle Earth has logged out.
+2025-09-24 13:31:42 -  Elzinho Druid has logged out.
+2025-09-24 13:41:15 -  [BOSS SYSTEM] Spawned: Deathstrike
+2025-09-24 13:41:15 -  Old Spice has logged out.
+2025-09-24 13:41:18 -  Loading Old Spice...
+2025-09-24 13:41:18 -  Old Spice has logged in.
+2025-09-24 13:45:52 -  Loading Tolkien...
+2025-09-24 13:45:52 -  Tolkien has logged in.
+2025-09-24 13:51:33 -  200.138.20.114 disconnected for exceeding packet per second limit.
+2025-09-24 13:53:14 -  200.138.20.114 disconnected for exceeding packet per second limit.
+2025-09-24 13:57:20 -  [BOSS SYSTEM] Spawned: Ferumbras
+2025-09-24 13:57:20 -  Old Spice has logged out.
+2025-09-24 13:57:23 -  Loading Old Spice...
+2025-09-24 13:57:23 -  Old Spice has logged in.
+2025-09-24 13:57:56 -  Saving server... 24/09/2025 13:57:56
+2025-09-24 13:57:57 -  > Saved house items in: 0.151 s
+2025-09-24 14:01:56 -  Tolkien has logged out.
+2025-09-24 14:01:58 -  Loading Tolkien...
+2025-09-24 14:01:58 -  Tolkien has logged in.
+2025-09-24 14:03:12 -  Old Spice has logged out.
+2025-09-24 14:06:18 -  Roxkill has logged out.
+2025-09-24 14:06:20 -  Loading Roxkill...
+2025-09-24 14:06:20 -  Roxkill has logged in.
+2025-09-24 14:18:01 -  [BOSS SYSTEM] Spawned: Evancing
+2025-09-24 14:18:01 -  Tolkien has logged out.
+2025-09-24 14:18:03 -  Loading Tolkien...
+2025-09-24 14:18:04 -  Tolkien has logged in.
+2025-09-24 14:21:13 -  Tenkai has logged out.
+2025-09-24 14:21:26 -  Loading Tenkai...
+2025-09-24 14:21:26 -  Tenkai has logged in.
+2025-09-24 14:21:50 -  200.138.20.114 disconnected for exceeding packet per second limit.
+2025-09-24 14:28:43 -  200.138.20.114 disconnected for exceeding packet per second limit.
+2025-09-24 14:34:06 -  4
+2025-09-24 14:34:06 -  4
+2025-09-24 14:34:06 -  Tolkien has logged out.
+2025-09-24 14:34:09 -  Loading Tolkien...
+2025-09-24 14:34:09 -  Tolkien has logged in.
+2025-09-24 14:41:27 -  [BOSS SYSTEM] Spawned: Emelianenko
+2025-09-24 14:41:27 -  Alexandre De Moraes has logged out.
+2025-09-24 14:41:30 -  Loading Alexandre De Moraes...
+2025-09-24 14:41:30 -  Alexandre De Moraes has logged in.
+2025-09-24 14:43:57 -  Loading Old Spice...
+2025-09-24 14:43:57 -  Old Spice has logged in.
+2025-09-24 14:44:42 -  Mage Of Rules has logged out.
+2025-09-24 14:45:15 -  Loading Mage Of Rules...
+2025-09-24 14:45:15 -  Mage Of Rules has logged in.
+2025-09-24 14:48:04 -  Roxkill has logged out.
+2025-09-24 14:48:07 -  Loading Roxkill...
+2025-09-24 14:48:07 -  Roxkill has logged in.
+2025-09-24 14:50:11 -  Tolkien has logged out.
+2025-09-24 14:50:14 -  Loading Tolkien...
+2025-09-24 14:50:14 -  Tolkien has logged in.
+2025-09-24 14:51:30 -  Old Spice has logged out.
+2025-09-24 14:51:34 -  Loading Old Spice...
+2025-09-24 14:51:34 -  Old Spice has logged in.
+2025-09-24 14:52:24 -  Old Spice has logged out.
+2025-09-24 14:52:27 -  Loading Old Spice...
+2025-09-24 14:52:27 -  Old Spice has logged in.
+2025-09-24 14:52:32 -  Old Spice has logged out.
+2025-09-24 14:55:22 -  Loading Old Spice...
+2025-09-24 14:55:22 -  Old Spice has logged in.
+2025-09-24 14:57:56 -  [BOSS SYSTEM] Spawned: Saruman
+2025-09-24 14:57:56 -  Saving server... 24/09/2025 14:57:56
+2025-09-24 14:57:57 -  > Saved house items in: 0.129 s
+2025-09-24 15:06:18 -  Tolkien has logged out.
+2025-09-24 15:06:20 -  Loading Tolkien...
+2025-09-24 15:06:20 -  Tolkien has logged in.
+2025-09-24 15:13:00 -  Old Spice has logged out.
+2025-09-24 15:13:19 -  Alexandre De Moraes has logged out.
+2025-09-24 15:20:53 -  [BOSS SYSTEM] Spawned: Jormungand
+2025-09-24 15:20:53 -  Kyou Kai has logged out.
+2025-09-24 15:20:55 -  Loading Kyou Kai...
+2025-09-24 15:20:55 -  Kyou Kai has logged in.
+2025-09-24 15:22:22 -  Tolkien has logged out.
+2025-09-24 15:22:25 -  Loading Tolkien...
+2025-09-24 15:22:25 -  Tolkien has logged in.
+2025-09-24 15:33:17 -  Roxkill has logged out.
+2025-09-24 15:38:28 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-09-24 15:38:28 -  Tolkien has logged out.
+2025-09-24 15:38:30 -  Loading Tolkien...
+2025-09-24 15:38:30 -  Tolkien has logged in.
+2025-09-24 15:52:32 -  Loading Joninha...
+2025-09-24 15:52:32 -  Joninha has logged in.
+2025-09-24 15:53:38 -  Joninha has logged out.
+2025-09-24 15:54:32 -  Tolkien has logged out.
+2025-09-24 15:54:34 -  Loading Tolkien...
+2025-09-24 15:54:34 -  Tolkien has logged in.
+2025-09-24 15:56:54 -  [BOSS SYSTEM] Spawned: Olog-hai
+2025-09-24 15:56:54 -  Loading Case...
+2025-09-24 15:56:54 -  Case has logged in.
+2025-09-24 15:57:05 -  Loading Gaa Ahz...
+2025-09-24 15:57:06 -  Gaa Ahz has logged in.
+2025-09-24 15:57:56 -  Saving server... 24/09/2025 15:57:56
+2025-09-24 15:57:57 -  > Saved house items in: 0.139 s
+2025-09-24 16:00:01 -  Loading Podolski...
+2025-09-24 16:00:01 -  Podolski has logged in.
+2025-09-24 16:10:37 -  Tolkien has logged out.
+2025-09-24 16:10:40 -  Loading Tolkien...
+2025-09-24 16:10:40 -  Tolkien has logged in.
+2025-09-24 16:25:15 -  [BOSS SYSTEM] Spawned: Ungoliant
+2025-09-24 16:25:15 -  Mono has logged out.
+2025-09-24 16:25:48 -  Loading Mono...
+2025-09-24 16:25:48 -  Mono has logged in.
+2025-09-24 16:26:10 -  Loading Massey...
+2025-09-24 16:26:10 -  Massey has logged in.
+2025-09-24 16:26:42 -  Tolkien has logged out.
+2025-09-24 16:26:45 -  Victorsemc has logged out.
+2025-09-24 16:26:45 -  Loading Tolkien...
+2025-09-24 16:26:45 -  Tolkien has logged in.
+2025-09-24 16:26:47 -  Loading Victorsemc...
+2025-09-24 16:26:47 -  Victorsemc has logged in.
+2025-09-24 16:27:01 -  Victorsemc has logged out.
+2025-09-24 16:27:04 -  Loading Victorsemc...
+2025-09-24 16:27:04 -  Victorsemc has logged in.
+2025-09-24 16:27:10 -  Victorsemc has logged out.
+2025-09-24 16:31:11 -  Case has logged out.
+2025-09-24 16:42:36 -  [BOSS SYSTEM] Spawned: Khel Thuzad
+2025-09-24 16:42:36 -  Loading Case...
+2025-09-24 16:42:36 -  Case has logged in.
+2025-09-24 16:42:48 -  Tolkien has logged out.
+2025-09-24 16:42:50 -  Loading Tolkien...
+2025-09-24 16:42:50 -  Tolkien has logged in.
+2025-09-24 16:43:15 -  Loading Sir Daniel...
+2025-09-24 16:43:15 -  Sir Daniel has logged in.
+2025-09-24 16:45:05 -  Massey has logged out.
+2025-09-24 16:46:00 -  Case has logged out.

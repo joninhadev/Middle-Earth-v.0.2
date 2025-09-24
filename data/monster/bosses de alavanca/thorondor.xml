@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Thorondor" nameDescription="the thorondor" race="fire" experience="5000000" speed="270">
+	<health now="300000" max="300000" />
+	<look type="1301"  head="58" body="2" legs="94" feet="10" addons="2" corpse="39229" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag rewardboss="1"/>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-850" max="-1350" />
+		<attack name="strong flame wave" interval="5000" chance="25" min="-1300" max="-2200"/>
+		<attack name="light san ethreal" interval="2000" chance="35" min="-1300" max="-1750"/>
+		<attack name="fire" interval="2500" chance="70" range="1" radius="3" target="0" min="-1450" max="-1750">
+			<attribute key="shootEffect" value="fire" />
+			<attribute key="areaEffect" value="firearea" />
+		</attack>
+	</attacks>
+	<defenses armor="38" defense="40">
+		<defense name="healing" interval="2000" chance="15" min="180" max="250">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>		
+	</defenses>
+	<elements>
+		<element physicalPercent="20"/>
+		<element earthPercent="99"/>
+		<element firePercent="90"/>
+		<element deathPercent="40"/>
+		<element energyPercent="40"/>
+		<element holyPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>	
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>		
+	<loot>		
+	<item name="crystal coin" countmax="10" chance="399999"/>
+	<item name="red silk flower" chance="800"/>
+	<item name="lion longsword" chance="180"/>
+	<item name="lion hammer" chance="200"/>
+	<item name="lion axe" chance="180"/>
+	<item name="lion longbow" chance="150"/>
+	<item name="lion helmet" chance="180"/>
+	<item name="lion plate" chance="120"/>
+	<item name="lion sacred amulet" chance="150"/>
+	<item name="ancient lion spellbook" chance="180"/>
+	<item name="lion rod" chance="200"/>
+	<item name="lion wand" chance="200"/>
+	<item name="lion shield" chance="150"/>
+	</loot>
+</monster>

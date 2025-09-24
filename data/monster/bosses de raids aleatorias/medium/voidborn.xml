@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Voidborn" nameDescription="Voidborn" race="undead" experience="1500000" speed="250">
+	<health now="300000" max="300000" />
+	<look type="987" corpse="29369" />
+	<targetchange interval="5000" chance="50" />
+	<flags>
+		<flag preyable="0" />
+		<flag rewardboss="1" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag lightlevel="0" />
+		<flag lightcolor="0" />
+		<flag targetdistance="1" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+<attacks>
+	<attack name="melee" interval="2000" min="-400" max="-850" />
+	
+	<attack name="death" interval="2000" chance="20" length="7" spread="5" min="-400" max="-1400">
+		<attribute key="areaEffect" value="smallclouds" />
+	</attack>
+	
+	<attack name="energy" interval="2000" chance="30" radius="5" min="-650" max="-1440"/>
+	<attack name="energy chain" interval="2500" chance="15" range="7" min="-500" max="-1200">
+	</attack>
+	<!-- Energy Area -->
+	<attack name="energy" interval="3000" chance="20" radius="6" target="0" min="-700" max="-1600">
+		<attribute key="areaEffect" value="energyarea" />
+	</attack>
+</attacks>
+
+	<defenses armor="50" defense="50"/>
+	<elements>
+		<element icePercent="50"/>
+		<element energyPercent="50"/>
+		<element earthPercent="50"/>
+		<element holyPercent="50"/>
+		<element deathPercent="50"/>
+		<element firePercent="50"/>
+		<element drownPercent="50"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<voices interval="7000" chance="10">
+		<voice sentence="CHHRRR!" />
+	</voices>
+	<loot>
+		<item name="small amethyst" countmax="50" chance="9999"/>
+		<item name="voltage armor" chance="400"/>
+		<item name="aghanim legs" chance="1000"/>
+		<item name="aghanim mask" chance="1000"/>
+		<item name="pair of soft boots" chance="400"/>
+		<item name="munrah shield" chance="300"/>
+		<item name="gold coin" countmax="99" chance="9999"/>
+		<item name="platinum coin" countmax="99" chance="9999"/>
+		<item name="crystal coin" countmax="20" chance="99999"/>
+	</loot>
+</monster>

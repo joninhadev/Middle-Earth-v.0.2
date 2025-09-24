@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Esdras" script="default.lua" access="3" walkinterval="0">
+	<mana now="10" max="10"/>
+	<health now="10" max="10"/>
+	<look type="143" head="0" body="75" legs="76" feet="76" addon="3" corpse="3128"/>
+
+<parameters>
+		<parameter key="module_shop" value="1"/>
+<parameter key="shop_buyable" value="snakebite rod,2182,50;moonlight rod,2186,800;necrotic rod,2185,1600;terra rod,2181,3000;wand of vortex,2190,50;wand of dragonbreath,2191,800;wand of decay,2188,1600;wand of cosmic energy,2189,3000;"/>
+<parameter key="shop_sellable" value="snakebite rod,2182,16;moonlight rod,2186,266;necrotic rod,2185,533;terra rod,2181,1000;wand of vortex,2190,16;wand of dragonbreath,2191,266;wand of decay,2188,533;wand of cosmic energy,2189,1000;wand of inferno,2187,2000;hailstorm rod,2183,2000;arcane wand,2453,4500;motaba wand,7379,7000;saruman scepter,7451,16000;saurons breath,8910,45000;aghanims scepter,7424,120000;mekansm,7410,150000;"/>
+ </parameters>
+</npc>
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Acolyte of the Cult" nameDescription="um acolyte of the cult" race="blood" experience="120" speed="190" manacost="0">
+  <health now="390" max="390"/>
+  <look type="194" head="114" body="121" legs="121" feet="57" corpse="20319"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="100"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="5"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-30" max="-100"/>
+
+	<attack name="holy" interval="1250" chance="28" range="6" min="-45" max="-60">
+		<attribute key="shootEffect" value="holy"/>
+		<attribute key="areaEffect" value="holyarea"/>
+	</attack>
+
+	<attack name="poisoncondition" interval="1300" chance="25" range="6" min="-30" max="-40" tick="2000" start="12">
+		<attribute key="shootEffect" value="poison"/>
+		<attribute key="areaEffect" value="poison"/>
+	</attack>
+
+	<attack name="energycondition" interval="1450" chance="18" range="6" min="-15" max="-15" tick="2000" start="10">
+		<attribute key="shootEffect" value="energy"/>
+		<attribute key="areaEffect" value="energy"/>
+	</attack>
+
+</attacks>
+
+
+	<elements><element physicalPercent="5"/>
+		<element energyPercent="30"/>
+		<element earthPercent="20"/>
+		<element icePercent="10"/>
+		<element firePercent="10"/>
+		<element holyPercent="90"/>
+		<element deathPercent="20"/>
+		<element physicalPercent="10"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="0"/>
+		<immunity outfit="0"/>
+		<immunity drunk="0"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+<summons maxSummons="3">
+	<summon name="Crypt Shambler" interval="4500" chance="50"/>
+</summons>
+
+<loot>
+	<item id="2148" countmax="40" chance1="40000" chancemax=""/> 
+	<item id="6087" chance="120"/> 
+	<item id="2662" chance="160"/> 
+    <item id="13940" chance="300"/>
+	<item id="10556" chance="1500"/>
+	<item id="12448" chance="1500"/>  
+	
+	        <item id="2146" countmax="1" chance1="1200" chancemax="0"/> 
+	        <item id="2167" chance="800"/> 
+	        <item id="2169" chance="500"/> 
+	
+
+</loot>
+
+</monster>

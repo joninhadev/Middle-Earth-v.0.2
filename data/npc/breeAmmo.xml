@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Anor" script="default.lua" access="3"  walkinterval="0">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="134" head="78" body="19" legs="19" feet="97" addon="2" corpse="3128"/>
+
+ <parameters>
+  <parameter key="module_shop" value="1"/>
+  <parameter key="message_greet" value="Ola. Como posso te ajudar |PLAYERNAME|?"/>
+  <parameter key="shop_buyable" value="prismatic bolt,18435,5;tarsal arrow,15648,4;shiver arrow,7839,1;flash arrow,7838,2;flaming arrow,7840,3;spear,2389,300;hunting spear,3965,500;throwing knives,2410,5;arrow,2544,1;piercing bolt,7363,3;infernal bolt,6529,4;power bolt,2547,30;onyx arrow,7365,4;sniper arrow,7364,4;bow,2456,100;crossbow,2455,150;bolt,2543,2;slingshot,5907,50"/>
+  <parameter key="shop_sellable" value="bow,2456,50;buriza,8852,150000;churchills bow,8856,200000;crystal arrow,2352,2000;eaglehorn,8855,2000;elven bow,7438,10000;Executioners Crossbow,5803,60000;heavy crossbow,5947,25000;royal spear,7378,5000;warsinger bow,8854,30000;hive bow,15643,250000;ornate crossbow,15644,300000"/>
+ </parameters>
+</npc>

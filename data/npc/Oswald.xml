@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<npc name="Oswald" script="default_bank.lua" walkinterval="0">
+	<mana now="10" max="10"/>
+	<health now="10" max="10"/>
+	<look type="132" head="39" body="77" legs="19" feet="58" addons="3" corpse="3128"/>
+<parameters>
+ <parameter key="message_greet" value="Olá |PLAYERNAME|, o que você deseja hoje? {depositar}, {sacar}, ver o {saldo} ou {transferir} seu dinheiro ?"/>
+        <parameter key="message_farewell" value="Foi um prazer te atender |PLAYERNAME|."/>
+	
+	</parameters>
+</npc>

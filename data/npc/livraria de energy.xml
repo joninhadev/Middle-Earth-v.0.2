@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<npc name="Ancient of Energy Library" script="livraria de energy.lua" walkinterval="0">
+	<mana now="10" max="10"/>
+	<health now="10" max="10"/>
+	<look type="873" head="91" body="88" legs="90" feet="92" addons="3" corpse="3128"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="message_greet" value="Ola aventureiro, eu posso lhe conceder acesso a livraria de energy, diga {mission}."/>
+	</parameters>
+</npc>

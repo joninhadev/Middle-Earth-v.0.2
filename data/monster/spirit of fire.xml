@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Spirit Of Fire" nameDescription="um spirit of fire" race="fire" experience="4100" speed="120" manacost="0">
+	<health now="4000" max="4000"/>
+	<look type="242" corpse="6324"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+	<attacks>
+		<attack name="melee" interval="1300" min="-136" max="-224"/>
+		
+		<attack name="fire" interval="2500" chance="35" range="4" radius="2" target="1" min="-150" max="-220">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		
+		<attack name="firefield" interval="1000" chance="34" range="4" radius="1" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		
+		<attack name="fire" interval="4100" chance="20" range="4" radius="13" target="0" min="-200" max="-450">
+			<attribute key="areaEffect" value="fireattack"/>
+		</attack>
+		
+	</attacks>
+	
+	<defenses armor="0" defense="0">
+		<defense name="speed" interval="1000" chance="9" speedchange="290" duration="4000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		
+		<defense name="healing" interval="1000" chance="20" min="150" max="230">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>	
+	
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="1"/>
+		<immunity poison="1"/>
+		<immunity lifedrain="0"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="0"/>
+		<immunity invisible="1"/>
+	</immunities>
+	
+	<voices interval="2500" chance="10">
+	</voices>
+	
+	
+	<loot>
+    <item id="2191" chance="1533" /> 
+    <item id="9932" chance="1"/>
+    <item id="8881" chance="100"/> 
+    <item id="2462" chance="900"/> 
+	<item id="2392" chance="550"/> 
+	<item id="7427" chance="200"/> 
+	<item id="2432" chance="150"/> 
+	<item id="10553" chance="7000"/>
+	<item id="2156" chance="500"/> 
+	<item id="2148" countmax="70" chance="100000"/>
+	<item id="2546" countmax="10" chance="1000"/> 
+	<item id="2147" countmax="2" chance="650"/> 
+	<item id="2151" countmax="2" chance="650"/> 
+	<item id="2201" chance="390"/> 
+	</loot>
+	
+</monster>

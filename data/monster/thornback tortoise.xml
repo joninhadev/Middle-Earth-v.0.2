@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Thornback Tortoise" nameDescription="uma thornback tortoise" race="blood" experience="150" speed="150" manacost="0">
+  <health now="300" max="300"/>
+  <look type="198" head="0" body="0" legs="0" feet="0" corpse="6073"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+    <attack name="melee" interval="2000" min="-20" max="-90"/>
+	
+    <attack name="poisonfield" interval="2300" chance="99" target="1" range="5" radius="1"/>
+	
+	<attack name="poison" interval="2250" chance="21" target="1" range="2" radius="1" min="-30" max="-60"/>
+</attacks>
+
+<defenses armor="0" defense="0"/>
+
+<immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+</immunities>
+
+<loot>
+    <item id="2148" countmax="40" chance1="100000" chancemax="0"/>
+    <item id="5678" countmax="3" chance1="10000" chancemax="0"/>
+    <item id="2667" countmax="3" chance1="26000" chancemax="0"/>
+    <item id="6131" countmax="1" chance1="3000"/>
+</loot>
+  
+</monster>

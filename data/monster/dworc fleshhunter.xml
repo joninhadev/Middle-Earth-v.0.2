@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Dworc Fleshhunter" nameDescription="um dworc fleshhunter" race="blood" experience="35" speed="35" manacost="300">
+  <health now="85" max="85"/>
+  <look type="215" head="0" body="0" legs="0" feet="0" corpse="4307"/>
+  <targetchange interval="2000" chance="0"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="1"/>
+    <flag pushable="1"/>
+    <flag canpushitems="0"/>
+    <flag canpushcreatures="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="8"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="2000" min="-12" max="-30"/>
+
+	<attack name="physical" interval="2600" chance="99" range="7" min="-8" max="-17">
+		<attribute key="shootEffect" value="throwingknife"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0"/>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  <voices interval="5000" chance="10">
+    <voice sentence="Grak brrretz!"/>
+    <voice sentence="Grow truk grrrrr."/>
+    <voice sentence="Prek tars, dekklep zurk."/>
+  </voices>
+  <loot capacity="400">
+	<item id="2148" countmax="15" chance1="90000"/>
+	<item id="2229" countmax="2" chance1="20000"/>
+	<item id="2467" chance="10000"/>
+	<item id="2541" chance="6000"/>
+	<item id="2411" chance="250"/>
+  </loot>
+</monster>

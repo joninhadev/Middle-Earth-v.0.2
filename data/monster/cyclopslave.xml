@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Cyclopslave" nameDescription="um cyclopslave" race="blood" experience="1750" speed="150" manacost="0">
+	<health now="1900" max="1900"/>
+	<look type="280" head="0" body="0" legs="0" feet="0" corpse="7847"/>
+	<targetchange interval="2000" chance="5"/>
+	<strategy attack="70" defense="0"/>
+	
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag runonhealth="50"/>
+	</flags>
+	
+	<attacks>
+		<attack name="melee" interval="1800" min="-96" max="-208"/>
+		
+		<attack name="physical" interval="2000" chance="99" range="7" min="-150" max="-230">
+			<attribute key="shootEffect" value="largerock"/>
+		</attack>
+		
+		<attack name="speed" interval="6000" chance="25" range="6" radius="1" target="1" speedchange="-600" duration="5000">
+			<attribute key="shootEffect" value="poison"/>
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		
+	</attacks>
+	
+	<defenses armor="0" defense="0"/>
+<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="10"/>
+		<element icePercent="20"/>
+	</elements>	
+	<immunities>
+		<immunity physical="0"/>
+		<immunity energy="0"/>
+		<immunity fire="0"/>
+		<immunity poison="0"/>
+		<immunity drown="0"/>
+		<immunity ice="0"/>
+		<immunity holy="0"/>
+		<immunity death="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="0"/>
+		<immunity invisible="1"/>
+	</immunities>
+	
+		
+	<voices interval="5000" chance="45">
+		<voice sentence="In frrah coi t'o massar Ico"/>		
+	</voices>
+	
+	<loot capacity="600">
+		<item id="7419" countmax="1" chance="20"/> 
+		<item id="2518" countmax="1" chance="750"/> 
+		<item id="2417" countmax="1" chance="950"/> 
+		<item id="2148" countmax="50" chance="40000"/> 
+		<item id="2148" countmax="50" chance="40000"/> 
+		<item id="2148" countmax="50" chance="40000"/> 
+		<item id="2148" countmax="50" chance="40000"/> 
+		<item id="10574" chance="800"/><!-- Cyclops Toe -->	
+	</loot>
+	
+</monster>

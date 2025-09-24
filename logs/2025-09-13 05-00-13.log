@@ -1,0 +1,1108 @@
+2025-09-13 05:00:14 -  [Thread debugging using libthread_db enabled]
+2025-09-13 05:00:14 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-09-13 05:00:14 -  [New Thread 0x7ffff5b23700 (LWP 335955)]
+2025-09-13 05:00:14 -  [New Thread 0x7ffff5322700 (LWP 335956)]
+2025-09-13 05:00:14 -  The OTG-BR - Version: (1.4)
+2025-09-13 05:00:14 -  Compiled with: GNU C++ version 9.4.0
+2025-09-13 05:00:14 -  Compiled on Sep 11 2025 23:45:59 for platform x64
+2025-09-13 05:00:14 -  
+2025-09-13 05:00:14 -  Engine Credits for: TFS Team, OTG Team....
+2025-09-13 05:00:14 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-09-13 05:00:14 -  
+2025-09-13 05:00:14 -  >> Loading config: config.lua
+2025-09-13 05:00:14 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-13 05:00:14 -   MySQL 8.0.42
+2025-09-13 05:00:14 -  >> Running database manager
+2025-09-13 05:00:14 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-13 05:00:14 -  [New Thread 0x7ffff4b0d700 (LWP 335957)]
+2025-09-13 05:00:14 -  > Optimizing table players_online... [success]
+2025-09-13 05:00:14 -  > Optimizing table player_depotitems... [success]
+2025-09-13 05:00:14 -  > Optimizing table player_items... [success]
+2025-09-13 05:00:14 -  > Optimizing table player_deaths... [success]
+2025-09-13 05:00:15 -  > Optimizing table player_storage... [success]
+2025-09-13 05:00:15 -  >> Loading vocations
+2025-09-13 05:00:15 -  >> Loading items
+2025-09-13 05:00:15 -  >> Loading script systems
+2025-09-13 05:00:15 -  >> Loading lua libs
+2025-09-13 05:00:16 -  >> Loading bestiary
+2025-09-13 05:00:16 -  >> Loading lua scripts
+2025-09-13 05:00:16 -  >> Loading monsters
+2025-09-13 05:00:16 -  [Monster - flimsy lost soul] [Error - Monsters::loadMonster] Failed to load data/monster/flimsy lost soul.xml: File was not found
+2025-09-13 05:00:16 -  [Monster - mean lost soul] [Error - Monsters::loadMonster] Failed to load data/monster/mean lost soul.xml: File was not found
+2025-09-13 05:00:16 -  [Monster - freakish lost soul] [Error - Monsters::loadMonster] Failed to load data/monster/freakish lost soul.xml: File was not found
+2025-09-13 05:00:16 -  >> Loading lua monsters
+2025-09-13 05:00:16 -  >> Loading outfits
+2025-09-13 05:00:16 -  >> Loading imbuements
+2025-09-13 05:00:16 -  >> Loading charms
+2025-09-13 05:00:16 -  >> Loading Store
+2025-09-13 05:00:16 -  >> Loading prey data
+2025-09-13 05:00:16 -  [Warning - Prey::loadFromXml] Monster with name Flimsy Lost Soul not found.
+2025-09-13 05:00:16 -  [Warning - Prey::loadFromXml] Monster with name Mean Lost Soul not found.
+2025-09-13 05:00:16 -  [Warning - Prey::loadFromXml] Monster with name Freakish Lost Soul not found.
+2025-09-13 05:00:16 -  >> Checking world type... RETRO-PVP
+2025-09-13 05:00:16 -  >> Loading map
+2025-09-13 05:00:22 -  > Map size: 2293x2048.
+2025-09-13 05:00:38 -  > Map loading time: 22.036 seconds.
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Mean Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Freakish Lost Soul
+2025-09-13 05:00:39 -  [Spawn::addMonster] Can not find Flimsy Lost Soul
+2025-09-13 05:00:39 -  > Loaded house items in: 0.016 s
+2025-09-13 05:00:39 -  >> Loading guilds... All guilds have been loaded.
+2025-09-13 05:00:39 -  >> Initializing gamestate
+2025-09-13 05:00:40 -  > Loaded spawns in 0.845 seconds.
+2025-09-13 05:00:40 -  >> Loaded 203 npcs and spawned 24813 monsters.
+2025-09-13 05:00:40 -  >> Loaded 17 towns with 588 houses in total.
+2025-09-13 05:00:40 -  >> Start time: 13.09.2025 - 05:00:40
+2025-09-13 05:00:40 -  Initialization complete.
+2025-09-13 05:00:40 -  >> Loaded all modules, server starting up...
+2025-09-13 05:00:40 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-09-13 05:00:40 -  >> Server started in 25.857 seconds.
+2025-09-13 05:00:40 -  >> Middle Earth Server Server Online!
+2025-09-13 05:00:40 -  
+2025-09-13 05:00:40 -  Loading Arrombador...
+2025-09-13 05:00:40 -  Arrombador has logged in.
+2025-09-13 05:00:40 -  Loading Alexandre De Moraes...
+2025-09-13 05:00:40 -  Alexandre De Moraes has logged in.
+2025-09-13 05:00:40 -  Loading Reiyu Shita...
+2025-09-13 05:00:40 -  Reiyu Shita has logged in.
+2025-09-13 05:00:40 -  Loading Fuu Houhou...
+2025-09-13 05:00:40 -  Fuu Houhou has logged in.
+2025-09-13 05:00:40 -  Loading Elven Sinistro...
+2025-09-13 05:00:40 -  Elven Sinistro has logged in.
+2025-09-13 05:00:40 -  Loading Charlie Brown...
+2025-09-13 05:00:40 -  Charlie Brown has logged in.
+2025-09-13 05:00:40 -  Loading Benn Beckmann...
+2025-09-13 05:00:40 -  Benn Beckmann has logged in.
+2025-09-13 05:00:40 -  Loading Drumbash Pebblebeard...
+2025-09-13 05:00:40 -  Drumbash Pebblebeard has logged in.
+2025-09-13 05:00:40 -  Loading Caduhzin Here...
+2025-09-13 05:00:40 -  Caduhzin Here has logged in.
+2025-09-13 05:00:40 -  Loading Abre Cast...
+2025-09-13 05:00:40 -  Abre Cast has logged in.
+2025-09-13 05:00:40 -  Loading Eufi...
+2025-09-13 05:00:40 -  Eufi has logged in.
+2025-09-13 05:00:40 -  Loading Skull Warrior...
+2025-09-13 05:00:40 -  Skull Warrior has logged in.
+2025-09-13 05:00:40 -  Loading Shawty...
+2025-09-13 05:00:40 -  Shawty has logged in.
+2025-09-13 05:00:41 -  Loading Thorin Oakenshield...
+2025-09-13 05:00:41 -  Thorin Oakenshield has logged in.
+2025-09-13 05:00:41 -  Loading Elrond Druid...
+2025-09-13 05:00:41 -  Elrond Druid has logged in.
+2025-09-13 05:00:41 -  Loading Sou Broxa...
+2025-09-13 05:00:41 -  Sou Broxa has logged in.
+2025-09-13 05:00:41 -  Loading Magic Of Caos...
+2025-09-13 05:00:41 -  Magic Of Caos has logged in.
+2025-09-13 05:00:41 -  Loading Black Lottus...
+2025-09-13 05:00:41 -  Black Lottus has logged in.
+2025-09-13 05:00:41 -  Loading John Wick...
+2025-09-13 05:00:41 -  John Wick has logged in.
+2025-09-13 05:00:42 -  Loading Ogro Sinistro...
+2025-09-13 05:00:42 -  Ogro Sinistro has logged in.
+2025-09-13 05:00:42 -  Loading Andin Inevitavel...
+2025-09-13 05:00:42 -  Andin Inevitavel has logged in.
+2025-09-13 05:00:44 -  Loading Chou Soran...
+2025-09-13 05:00:44 -  Chou Soran has logged in.
+2025-09-13 05:00:51 -  Loading Eldarion...
+2025-09-13 05:00:51 -  Eldarion has logged in.
+2025-09-13 05:00:59 -  Ogro Sinistro has logged out.
+2025-09-13 05:01:08 -  Loading Zhang Chulan...
+2025-09-13 05:01:08 -  Zhang Chulan has logged in.
+2025-09-13 05:01:32 -  Loading Ogro Sinistro...
+2025-09-13 05:01:32 -  Ogro Sinistro has logged in.
+2025-09-13 05:01:40 -  house leave code
+2025-09-13 05:01:40 -  Shire 2
+2025-09-13 05:01:40 -  Loading Dulokz...
+2025-09-13 05:01:40 -  Oeste 10
+2025-09-13 05:01:40 -  Loading China Weed Lover...
+2025-09-13 05:01:40 -  Loading China Weed Lover...
+2025-09-13 05:04:16 -  house leave house count:2
+2025-09-13 05:04:16 -  Loading Kyou Kai...
+2025-09-13 05:04:16 -  Kyou Kai has logged in.
+2025-09-13 05:05:11 -  Elven Sinistro has logged out.
+2025-09-13 05:05:44 -  Loading Elven Sinistro...
+2025-09-13 05:05:44 -  Elven Sinistro has logged in.
+2025-09-13 05:05:45 -  Loading Podolski...
+2025-09-13 05:05:45 -  Podolski has logged in.
+2025-09-13 05:16:44 -  Alexandre De Moraes has logged out.
+2025-09-13 05:16:44 -  Abre Cast has logged out.
+2025-09-13 05:16:46 -  Loading Alexandre De Moraes...
+2025-09-13 05:16:46 -  Alexandre De Moraes has logged in.
+2025-09-13 05:16:47 -  Loading Abre Cast...
+2025-09-13 05:16:47 -  Abre Cast has logged in.
+2025-09-13 05:21:36 -  [BOSS SYSTEM] Spawned: Scatha
+2025-09-13 05:21:36 -  Eufi has logged out.
+2025-09-13 05:21:40 -  Loading Eufi...
+2025-09-13 05:21:40 -  Eufi has logged in.
+2025-09-13 05:32:50 -  Abre Cast has logged out.
+2025-09-13 05:32:50 -  Alexandre De Moraes has logged out.
+2025-09-13 05:32:52 -  Loading Abre Cast...
+2025-09-13 05:32:52 -  Abre Cast has logged in.
+2025-09-13 05:32:52 -  Loading Alexandre De Moraes...
+2025-09-13 05:32:52 -  Alexandre De Moraes has logged in.
+2025-09-13 05:41:06 -  [BOSS SYSTEM] Spawned: Wormageddon
+2025-09-13 05:41:06 -  Caduhzin Here has logged out.
+2025-09-13 05:48:55 -  Abre Cast has logged out.
+2025-09-13 05:48:55 -  Alexandre De Moraes has logged out.
+2025-09-13 05:48:58 -  Loading Abre Cast...
+2025-09-13 05:48:58 -  Abre Cast has logged in.
+2025-09-13 05:48:58 -  Loading Alexandre De Moraes...
+2025-09-13 05:48:58 -  Alexandre De Moraes has logged in.
+2025-09-13 06:02:16 -  [BOSS SYSTEM] Spawned: Baalrog
+2025-09-13 06:02:16 -  Saving server... 13/09/2025 06:02:16
+2025-09-13 06:02:17 -  > Saved house items in: 0.189 s
+2025-09-13 06:04:27 -  Loading Aleska Teodoro...
+2025-09-13 06:04:27 -  Aleska Teodoro has logged in.
+2025-09-13 06:05:01 -  Alexandre De Moraes has logged out.
+2025-09-13 06:05:02 -  Abre Cast has logged out.
+2025-09-13 06:05:04 -  Loading Alexandre De Moraes...
+2025-09-13 06:05:04 -  Alexandre De Moraes has logged in.
+2025-09-13 06:05:04 -  Loading Abre Cast...
+2025-09-13 06:05:04 -  Abre Cast has logged in.
+2025-09-13 06:06:25 -  Loading Karol Star...
+2025-09-13 06:06:25 -  Karol Star has logged in.
+2025-09-13 06:16:29 -  Loading Ozymandias...
+2025-09-13 06:16:29 -  Ozymandias has logged in.
+2025-09-13 06:19:01 -  Karol Star has logged out.
+2025-09-13 06:20:35 -  [BOSS SYSTEM] Spawned: Cerberus
+2025-09-13 06:20:35 -  Loading Czolg Wojenny...
+2025-09-13 06:20:35 -  Czolg Wojenny has logged in.
+2025-09-13 06:21:06 -  Alexandre De Moraes has logged out.
+2025-09-13 06:21:07 -  Abre Cast has logged out.
+2025-09-13 06:21:09 -  Loading Alexandre De Moraes...
+2025-09-13 06:21:09 -  Alexandre De Moraes has logged in.
+2025-09-13 06:21:10 -  Loading Abre Cast...
+2025-09-13 06:21:10 -  Abre Cast has logged in.
+2025-09-13 06:22:07 -  Loading Lutaki Bebo...
+2025-09-13 06:22:07 -  Lutaki Bebo has logged in.
+2025-09-13 06:26:21 -  Loading Eho Jhon...
+2025-09-13 06:26:21 -  Eho Jhon has logged in.
+2025-09-13 06:34:07 -  Aleska Teodoro has logged out.
+2025-09-13 06:37:12 -  Alexandre De Moraes has logged out.
+2025-09-13 06:37:12 -  Abre Cast has logged out.
+2025-09-13 06:37:14 -  Loading Alexandre De Moraes...
+2025-09-13 06:37:14 -  Alexandre De Moraes has logged in.
+2025-09-13 06:37:15 -  Loading Abre Cast...
+2025-09-13 06:37:15 -  Abre Cast has logged in.
+2025-09-13 06:45:16 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-09-13 06:45:16 -  Loading Aleska Teodoro...
+2025-09-13 06:45:16 -  Aleska Teodoro has logged in.
+2025-09-13 06:45:51 -  Loading Karol Star...
+2025-09-13 06:45:51 -  Karol Star has logged in.
+2025-09-13 06:48:10 -  Loading Gaa Ahz...
+2025-09-13 06:48:10 -  Gaa Ahz has logged in.
+2025-09-13 06:48:59 -  Zhang Chulan has logged out.
+2025-09-13 06:53:18 -  Alexandre De Moraes has logged out.
+2025-09-13 06:53:18 -  Abre Cast has logged out.
+2025-09-13 06:53:20 -  Loading Abre Cast...
+2025-09-13 06:53:20 -  Abre Cast has logged in.
+2025-09-13 06:53:20 -  Loading Alexandre De Moraes...
+2025-09-13 06:53:20 -  Alexandre De Moraes has logged in.
+2025-09-13 07:02:16 -  [BOSS SYSTEM] Spawned: Smaug
+2025-09-13 07:02:16 -  Saving server... 13/09/2025 07:02:16
+2025-09-13 07:02:17 -  > Saved house items in: 0.177 s
+2025-09-13 07:09:24 -  Abre Cast has logged out.
+2025-09-13 07:09:27 -  Loading Abre Cast...
+2025-09-13 07:09:27 -  Abre Cast has logged in.
+2025-09-13 07:11:45 -  Loading Muzan...
+2025-09-13 07:11:45 -  Muzan has logged in.
+2025-09-13 07:12:24 -  Muzan has logged out.
+2025-09-13 07:13:06 -  Eho Jhon has logged out.
+2025-09-13 07:13:08 -  Loading Safe Heaven...
+2025-09-13 07:13:08 -  Safe Heaven has logged in.
+2025-09-13 07:18:34 -  Loading Massey...
+2025-09-13 07:18:34 -  Massey has logged in.
+2025-09-13 07:18:46 -  Loading Kaka Bueno...
+2025-09-13 07:18:46 -  Kaka Bueno has logged in.
+2025-09-13 07:22:49 -  [BOSS SYSTEM] Spawned: Eddie
+2025-09-13 07:22:49 -  Loading Tu Culo Es Mio...
+2025-09-13 07:22:49 -  Tu Culo Es Mio has logged in.
+2025-09-13 07:23:05 -  Alexandre De Moraes has logged out.
+2025-09-13 07:23:05 -  Loading Xupaengola...
+2025-09-13 07:23:06 -  Loading Xupaengola...
+2025-09-13 07:23:07 -  Loading Xupaengola...
+2025-09-13 07:23:07 -  Loading Xupaengola...
+2025-09-13 07:23:08 -  Loading Xupaengola...
+2025-09-13 07:23:51 -  Tu Culo Es Mio has logged out.
+2025-09-13 07:25:30 -  Abre Cast has logged out.
+2025-09-13 07:25:32 -  Loading Abre Cast...
+2025-09-13 07:25:32 -  Abre Cast has logged in.
+2025-09-13 07:27:30 -  Loading Arthur Leywin...
+2025-09-13 07:27:30 -  Arthur Leywin has logged in.
+2025-09-13 07:28:02 -  Loading [CM] Middle Earth...
+2025-09-13 07:28:02 -  [CM] Middle Earth has logged in.
+2025-09-13 07:31:56 -  Thorin Oakenshield has logged out.
+2025-09-13 07:32:29 -  Loading Thorin Oakenshield...
+2025-09-13 07:32:29 -  Thorin Oakenshield has logged in.
+2025-09-13 07:32:54 -  Loading Nareba Win...
+2025-09-13 07:32:54 -  Nareba Win has logged in.
+2025-09-13 07:34:22 -  Elrond Druid has logged out.
+2025-09-13 07:34:55 -  Loading Elrond Druid...
+2025-09-13 07:34:55 -  Elrond Druid has logged in.
+2025-09-13 07:40:58 -  [BOSS SYSTEM] Spawned: Valaraukar
+2025-09-13 07:40:58 -  Arthur Leywin has logged out.
+2025-09-13 07:41:35 -  Abre Cast has logged out.
+2025-09-13 07:41:37 -  Loading Abre Cast...
+2025-09-13 07:41:37 -  Abre Cast has logged in.
+2025-09-13 07:48:28 -  Loading Jordin Sparks...
+2025-09-13 07:48:28 -  Jordin Sparks has logged in.
+2025-09-13 07:48:29 -  Skull Warrior has logged out.
+2025-09-13 07:48:31 -  Loading Elzinho Druid...
+2025-09-13 07:48:31 -  Elzinho Druid has logged in.
+2025-09-13 07:48:32 -  Loading Paramax...
+2025-09-13 07:48:32 -  Paramax has logged in.
+2025-09-13 07:48:34 -  Loading Alone Schadeck...
+2025-09-13 07:48:34 -  Alone Schadeck has logged in.
+2025-09-13 07:48:35 -  Loading Logitch...
+2025-09-13 07:48:35 -  Logitch has logged in.
+2025-09-13 07:48:37 -  Loading Jumahu...
+2025-09-13 07:48:37 -  Jumahu has logged in.
+2025-09-13 07:49:02 -  Loading Skull Warrior...
+2025-09-13 07:49:02 -  Skull Warrior has logged in.
+2025-09-13 07:51:37 -  Sou Broxa has logged out.
+2025-09-13 07:52:11 -  Loading Sou Broxa...
+2025-09-13 07:52:11 -  Sou Broxa has logged in.
+2025-09-13 07:53:33 -  Charlie Brown has logged out.
+2025-09-13 07:53:40 -  Loading Nattus...
+2025-09-13 07:53:40 -  Nattus has logged in.
+2025-09-13 07:55:12 -  Nattus has logged out.
+2025-09-13 07:55:15 -  Loading Legollas...
+2025-09-13 07:55:15 -  Legollas has logged in.
+2025-09-13 07:55:20 -  Legollas has logged out.
+2025-09-13 07:55:27 -  Loading Gandalffo...
+2025-09-13 07:55:27 -  Gandalffo has logged in.
+2025-09-13 07:55:48 -  Gandalffo has logged out.
+2025-09-13 07:56:19 -  Andin Inevitavel has logged out.
+2025-09-13 07:56:24 -  Loading Andin Inevitavel...
+2025-09-13 07:56:24 -  Andin Inevitavel has logged in.
+2025-09-13 07:56:30 -  177.66.254.123 disconnected for exceeding packet per second limit.
+2025-09-13 07:57:40 -  Abre Cast has logged out.
+2025-09-13 07:57:42 -  Eufi has logged out.
+2025-09-13 07:57:43 -  Loading Abre Cast...
+2025-09-13 07:57:43 -  Abre Cast has logged in.
+2025-09-13 07:57:48 -  Loading Eufi...
+2025-09-13 07:57:48 -  Eufi has logged in.
+2025-09-13 07:58:14 -  Loading Oppenheimer...
+2025-09-13 07:58:14 -  Oppenheimer has logged in.
+2025-09-13 08:02:16 -  [BOSS SYSTEM] Spawned: Son of Ancalagon
+2025-09-13 08:02:16 -  Saving server... 13/09/2025 08:02:16
+2025-09-13 08:02:17 -  > Saved house items in: 0.152 s
+2025-09-13 08:02:22 -  Loading Severino Elza...
+2025-09-13 08:02:22 -  Severino Elza has logged in.
+2025-09-13 08:03:37 -  Elzinho Druid has logged out.
+2025-09-13 08:03:45 -  Thorin Oakenshield has logged out.
+2025-09-13 08:04:25 -  Loading Alexandre De Moraes...
+2025-09-13 08:04:25 -  Alexandre De Moraes has logged in.
+2025-09-13 08:13:31 -  Loading Criador De Jutsu...
+2025-09-13 08:13:31 -  Criador De Jutsu has logged in.
+2025-09-13 08:13:47 -  Abre Cast has logged out.
+2025-09-13 08:13:50 -  Loading Abre Cast...
+2025-09-13 08:13:50 -  Abre Cast has logged in.
+2025-09-13 08:15:23 -  Loading Thorin Oakenshield...
+2025-09-13 08:15:23 -  Thorin Oakenshield has logged in.
+2025-09-13 08:21:40 -  [BOSS SYSTEM] Spawned: Deathstrike
+2025-09-13 08:21:40 -  Andin Inevitavel has logged out.
+2025-09-13 08:26:48 -  Alexandre De Moraes has logged out.
+2025-09-13 08:26:52 -  Loading Alexandre De Moraes...
+2025-09-13 08:26:52 -  Alexandre De Moraes has logged in.
+2025-09-13 08:27:13 -  Loading Charlie Brown...
+2025-09-13 08:27:13 -  Charlie Brown has logged in.
+2025-09-13 08:29:32 -  John Wick has logged out.
+2025-09-13 08:29:33 -  Elven Sinistro has logged out.
+2025-09-13 08:29:42 -  Loading John Wick...
+2025-09-13 08:29:42 -  John Wick has logged in.
+2025-09-13 08:29:42 -  Loading Elven Sinistro...
+2025-09-13 08:29:42 -  Elven Sinistro has logged in.
+2025-09-13 08:29:53 -  Abre Cast has logged out.
+2025-09-13 08:29:55 -  Loading Abre Cast...
+2025-09-13 08:29:55 -  Abre Cast has logged in.
+2025-09-13 08:33:02 -  Alexandre De Moraes has logged out.
+2025-09-13 08:33:06 -  Loading Alexandre De Moraes...
+2025-09-13 08:33:06 -  Alexandre De Moraes has logged in.
+2025-09-13 08:34:12 -  Loading Lord Gaucho...
+2025-09-13 08:34:12 -  Lord Gaucho has logged in.
+2025-09-13 08:39:42 -  Loading Dark Bebo...
+2025-09-13 08:39:42 -  Dark Bebo has logged in.
+2025-09-13 08:40:28 -  [BOSS SYSTEM] Spawned: Avari Leader
+2025-09-13 08:40:28 -  Loading Romario Jr...
+2025-09-13 08:40:28 -  Romario Jr has logged in.
+2025-09-13 08:40:54 -  Alone Schadeck has logged out.
+2025-09-13 08:41:00 -  Paramax has logged out.
+2025-09-13 08:41:10 -  [CM] Middle Earth has logged out.
+2025-09-13 08:41:47 -  Jordin Sparks has logged out.
+2025-09-13 08:42:10 -  Jumahu has logged out.
+2025-09-13 08:42:11 -  Logitch has logged out.
+2025-09-13 08:43:39 -  177.23.187.233 disconnected for exceeding packet per second limit.
+2025-09-13 08:45:30 -  177.23.187.233 disconnected for exceeding packet per second limit.
+2025-09-13 08:45:44 -  Alexandre De Moraes has logged out.
+2025-09-13 08:45:44 -  177.23.187.233 disconnected for exceeding packet per second limit.
+2025-09-13 08:45:48 -  Loading Alexandre De Moraes...
+2025-09-13 08:45:48 -  Alexandre De Moraes has logged in.
+2025-09-13 08:45:58 -  Abre Cast has logged out.
+2025-09-13 08:46:01 -  Loading Abre Cast...
+2025-09-13 08:46:01 -  Abre Cast has logged in.
+2025-09-13 08:47:37 -  177.23.187.233 disconnected for exceeding packet per second limit.
+2025-09-13 08:51:42 -  Oppenheimer has logged out.
+2025-09-13 08:54:35 -  Loading Tutubarao...
+2025-09-13 08:54:35 -  Tutubarao has logged in.
+2025-09-13 08:54:38 -  Loading Tumzao...
+2025-09-13 08:54:38 -  Tumzao has logged in.
+2025-09-13 08:54:41 -  Loading Atiira Muito...
+2025-09-13 08:54:41 -  Atiira Muito has logged in.
+2025-09-13 08:54:47 -  Atiira Muito has logged out.
+2025-09-13 08:55:00 -  Loading Atiira Muito...
+2025-09-13 08:55:00 -  Atiira Muito has logged in.
+2025-09-13 08:55:40 -  Loading Illidian Rullex...
+2025-09-13 08:55:40 -  Illidian Rullex has logged in.
+2025-09-13 09:01:47 -  [BOSS SYSTEM] Spawned: Adramelech
+2025-09-13 09:01:47 -  Loading Bryan Mbeumo...
+2025-09-13 09:01:47 -  Bryan Mbeumo has logged in.
+2025-09-13 09:02:05 -  Abre Cast has logged out.
+2025-09-13 09:02:07 -  Loading Abre Cast...
+2025-09-13 09:02:07 -  Abre Cast has logged in.
+2025-09-13 09:02:16 -  Saving server... 13/09/2025 09:02:16
+2025-09-13 09:02:17 -  > Saved house items in: 0.143 s
+2025-09-13 09:06:30 -  Loading Gorbatchov...
+2025-09-13 09:06:30 -  Gorbatchov has logged in.
+2025-09-13 09:11:28 -  Nareba Win has logged out.
+2025-09-13 09:18:11 -  Abre Cast has logged out.
+2025-09-13 09:18:13 -  Loading Abre Cast...
+2025-09-13 09:18:13 -  Abre Cast has logged in.
+2025-09-13 09:19:08 -  Reiyu Shita has logged out.
+2025-09-13 09:19:11 -  Loading Reiyu Shita...
+2025-09-13 09:19:11 -  Reiyu Shita has logged in.
+2025-09-13 09:19:24 -  Loading Zhang Chulan...
+2025-09-13 09:19:24 -  Zhang Chulan has logged in.
+2025-09-13 09:25:05 -  [BOSS SYSTEM] Spawned: Ferumbras
+2025-09-13 09:25:05 -  Loading Loss N Blaze...
+2025-09-13 09:25:05 -  Loss N Blaze has logged in.
+2025-09-13 09:32:32 -  Loading Oppenheimer...
+2025-09-13 09:32:32 -  Oppenheimer has logged in.
+2025-09-13 09:34:06 -  Loading Druid Sinistro...
+2025-09-13 09:34:06 -  Druid Sinistro has logged in.
+2025-09-13 09:34:17 -  Abre Cast has logged out.
+2025-09-13 09:34:19 -  Loading Abre Cast...
+2025-09-13 09:34:19 -  Abre Cast has logged in.
+2025-09-13 09:38:45 -  Loading Skylline...
+2025-09-13 09:38:45 -  Skylline has logged in.
+2025-09-13 09:45:40 -  [BOSS SYSTEM] Spawned: Emelianenko
+2025-09-13 09:45:40 -  Loading Autobot Onn...
+2025-09-13 09:45:40 -  Autobot Onn has logged in.
+2025-09-13 09:46:35 -  Autobot Onn has logged out.
+2025-09-13 09:50:23 -  Abre Cast has logged out.
+2025-09-13 09:50:25 -  Loading Abre Cast...
+2025-09-13 09:50:25 -  Abre Cast has logged in.
+2025-09-13 10:00:15 -  Loading Thaynan Charlove...
+2025-09-13 10:00:15 -  Thaynan Charlove has logged in.
+2025-09-13 10:00:19 -  [BOSS SYSTEM] Spawned: Laracna
+2025-09-13 10:00:19 -  Loading Miliel Hyuga...
+2025-09-13 10:00:19 -  Miliel Hyuga has logged in.
+2025-09-13 10:00:49 -  Loading Tanjiro Uzumaki...
+2025-09-13 10:00:49 -  Tanjiro Uzumaki has logged in.
+2025-09-13 10:02:16 -  Saving server... 13/09/2025 10:02:16
+2025-09-13 10:02:17 -  > Saved house items in: 0.142 s
+2025-09-13 10:05:23 -  Illidian Rullex has logged out.
+2025-09-13 10:05:23 -  Loading Snop Doog...
+2025-09-13 10:05:23 -  Snop Doog has logged in.
+2025-09-13 10:05:25 -  Loading Illidian Rullex...
+2025-09-13 10:05:25 -  Illidian Rullex has logged in.
+2025-09-13 10:06:30 -  Abre Cast has logged out.
+2025-09-13 10:06:32 -  Loading Abre Cast...
+2025-09-13 10:06:32 -  Abre Cast has logged in.
+2025-09-13 10:07:08 -  Loading Victorsemc...
+2025-09-13 10:07:08 -  Victorsemc has logged in.
+2025-09-13 10:17:35 -  Loading Orc The Criar...
+2025-09-13 10:17:35 -  Orc The Criar has logged in.
+2025-09-13 10:18:05 -  Loading Mano Crack...
+2025-09-13 10:18:05 -  Mano Crack has logged in.
+2025-09-13 10:19:37 -  Elrond Druid has logged out.
+2025-09-13 10:20:07 -  Sou Broxa has logged out.
+2025-09-13 10:20:26 -  [BOSS SYSTEM] Spawned: Evancing
+2025-09-13 10:20:26 -  Skull Warrior has logged out.
+2025-09-13 10:20:28 -  Alexandre De Moraes has logged out.
+2025-09-13 10:20:31 -  Loading Alexandre De Moraes...
+2025-09-13 10:20:31 -  Alexandre De Moraes has logged in.
+2025-09-13 10:20:36 -  Victorsemc has logged out.
+2025-09-13 10:20:38 -  Loading Victorsemc...
+2025-09-13 10:20:38 -  Victorsemc has logged in.
+2025-09-13 10:21:48 -  Eufi has logged out.
+2025-09-13 10:22:11 -  Loading Dwarf King...
+2025-09-13 10:22:11 -  Dwarf King has logged in.
+2025-09-13 10:22:36 -  Abre Cast has logged out.
+2025-09-13 10:22:38 -  Loading Abre Cast...
+2025-09-13 10:22:38 -  Abre Cast has logged in.
+2025-09-13 10:23:35 -  Loading Elrond Druid...
+2025-09-13 10:23:35 -  Elrond Druid has logged in.
+2025-09-13 10:26:17 -  Loading Skull Warrior...
+2025-09-13 10:26:17 -  Skull Warrior has logged in.
+2025-09-13 10:26:26 -  Loading Eho Jhon...
+2025-09-13 10:26:26 -  Eho Jhon has logged in.
+2025-09-13 10:26:43 -  Loading Sir Daniel...
+2025-09-13 10:26:43 -  Sir Daniel has logged in.
+2025-09-13 10:27:23 -  Loading Sou Broxa...
+2025-09-13 10:27:23 -  Sou Broxa has logged in.
+2025-09-13 10:27:34 -  Ozymandias has logged out.
+2025-09-13 10:28:56 -  Loading Ozymandias...
+2025-09-13 10:28:56 -  Ozymandias has logged in.
+2025-09-13 10:29:43 -  Loading Magnitsky...
+2025-09-13 10:29:43 -  Magnitsky has logged in.
+2025-09-13 10:30:19 -  Loading Derethor...
+2025-09-13 10:30:19 -  Derethor has logged in.
+2025-09-13 10:31:41 -  Loading Arthur Leywin...
+2025-09-13 10:31:41 -  Arthur Leywin has logged in.
+2025-09-13 10:33:17 -  Loading [GOD] Middle Earth...
+2025-09-13 10:33:17 -  [GOD] Middle Earth has logged in.
+2025-09-13 10:34:22 -  Arthur Leywin has logged out.
+2025-09-13 10:35:30 -  Loading Eufi...
+2025-09-13 10:35:30 -  Eufi has logged in.
+2025-09-13 10:35:41 -  Loading Arthur Leywin...
+2025-09-13 10:35:41 -  Arthur Leywin has logged in.
+2025-09-13 10:38:41 -  Abre Cast has logged out.
+2025-09-13 10:38:44 -  Loading Abre Cast...
+2025-09-13 10:38:44 -  Abre Cast has logged in.
+2025-09-13 10:39:00 -  Druid Sinistro has logged out.
+2025-09-13 10:39:23 -  Loading Autobot Onn...
+2025-09-13 10:39:23 -  Autobot Onn has logged in.
+2025-09-13 10:43:41 -  [BOSS SYSTEM] Spawned: Ungoliant
+2025-09-13 10:43:41 -  170.203.197.220 disconnected for exceeding packet per second limit.
+2025-09-13 10:45:05 -  170.203.197.220 disconnected for exceeding packet per second limit.
+2025-09-13 10:46:07 -  Loading Druid Sinistro...
+2025-09-13 10:46:07 -  Druid Sinistro has logged in.
+2025-09-13 10:47:30 -  Alexandre De Moraes has logged out.
+2025-09-13 10:47:32 -  Loading Alexandre De Moraes...
+2025-09-13 10:47:32 -  Alexandre De Moraes has logged in.
+2025-09-13 10:47:51 -  Tanjiro Uzumaki has logged out.
+2025-09-13 10:49:24 -  Loading Nattus...
+2025-09-13 10:49:24 -  Nattus has logged in.
+2025-09-13 10:51:41 -  Nattus has logged out.
+2025-09-13 10:51:43 -  Loading Nattus...
+2025-09-13 10:51:43 -  Nattus has logged in.
+2025-09-13 10:52:26 -  Nattus has logged out.
+2025-09-13 10:52:28 -  Loading Gandalffo...
+2025-09-13 10:52:28 -  Gandalffo has logged in.
+2025-09-13 10:54:47 -  Abre Cast has logged out.
+2025-09-13 10:54:49 -  Loading Abre Cast...
+2025-09-13 10:54:49 -  Abre Cast has logged in.
+2025-09-13 10:55:06 -  Gandalffo has logged out.
+2025-09-13 10:55:08 -  Loading Nattus...
+2025-09-13 10:55:08 -  Nattus has logged in.
+2025-09-13 10:55:10 -  Saving server... 13/09/2025 10:55:10
+2025-09-13 10:55:12 -  > Saved house items in: 0.153 s
+2025-09-13 10:55:12 -  [Monster - flimsy lost soul] [Error - Monsters::loadMonster] Failed to load data/monster/flimsy lost soul.xml: File was not found
+2025-09-13 10:55:12 -  [Monster - mean lost soul] [Error - Monsters::loadMonster] Failed to load data/monster/mean lost soul.xml: File was not found
+2025-09-13 10:55:12 -  [Monster - freakish lost soul] [Error - Monsters::loadMonster] Failed to load data/monster/freakish lost soul.xml: File was not found
+2025-09-13 10:55:25 -  Reloaded monsters.
+2025-09-13 10:55:25 -  Loading Tanjiro Uzumaki...
+2025-09-13 10:55:25 -  Tanjiro Uzumaki has logged in.
+2025-09-13 10:57:47 -  Dwarf King has logged out.
+2025-09-13 11:01:40 -  [BOSS SYSTEM] Spawned: Khel Thuzad
+2025-09-13 11:01:40 -  Nattus has logged out.
+2025-09-13 11:01:43 -  Loading Gandalffo...
+2025-09-13 11:01:43 -  Gandalffo has logged in.
+2025-09-13 11:02:11 -  Gandalffo has logged out.
+2025-09-13 11:02:13 -  Loading Nattus...
+2025-09-13 11:02:13 -  Nattus has logged in.
+2025-09-13 11:02:16 -  Saving server... 13/09/2025 11:02:16
+2025-09-13 11:02:17 -  > Saved house items in: 0.137 s
+2025-09-13 11:03:43 -  Alexandre De Moraes has logged out.
+2025-09-13 11:03:46 -  Loading Alexandre De Moraes...
+2025-09-13 11:03:46 -  Alexandre De Moraes has logged in.
+2025-09-13 11:05:21 -  Nattus has logged out.
+2025-09-13 11:05:22 -  Loading Nattus...
+2025-09-13 11:05:22 -  Nattus has logged in.
+2025-09-13 11:07:33 -  Eldarion has logged out.
+2025-09-13 11:08:21 -  Loading Eldarion...
+2025-09-13 11:08:21 -  Eldarion has logged in.
+2025-09-13 11:08:57 -  Loading Tolkien...
+2025-09-13 11:08:57 -  Tolkien has logged in.
+2025-09-13 11:09:20 -  Loading Stormy...
+2025-09-13 11:09:20 -  Stormy has logged in.
+2025-09-13 11:09:21 -  Loading Kael...
+2025-09-13 11:09:21 -  Kael has logged in.
+2025-09-13 11:09:53 -  Loading Orc Vegano...
+2025-09-13 11:09:53 -  Orc Vegano has logged in.
+2025-09-13 11:10:55 -  Abre Cast has logged out.
+2025-09-13 11:10:57 -  Loading Abre Cast...
+2025-09-13 11:10:57 -  Abre Cast has logged in.
+2025-09-13 11:19:49 -  Alexandre De Moraes has logged out.
+2025-09-13 11:19:51 -  Loading Alexandre De Moraes...
+2025-09-13 11:19:51 -  Alexandre De Moraes has logged in.
+2025-09-13 11:21:05 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-09-13 11:21:05 -  Alexandre De Moraes has logged out.
+2025-09-13 11:21:22 -  Loading Alexandre De Moraes...
+2025-09-13 11:21:22 -  Alexandre De Moraes has logged in.
+2025-09-13 11:21:40 -  Bryan Mbeumo has logged out.
+2025-09-13 11:21:41 -  Loading Bryan Mbeumo...
+2025-09-13 11:21:41 -  Bryan Mbeumo has logged in.
+2025-09-13 11:21:56 -  Nattus has logged out.
+2025-09-13 11:22:40 -  Loading Enfermeira Joy...
+2025-09-13 11:22:40 -  Loading Enfermeira Joy...
+2025-09-13 11:22:41 -  Loading Bonequinha...
+2025-09-13 11:22:41 -  Loading Bonequinha...
+2025-09-13 11:22:42 -  Loading Bonequinha...
+2025-09-13 11:22:42 -  Loading Bonequinha...
+2025-09-13 11:22:43 -  Loading Bonequinha...
+2025-09-13 11:22:43 -  Loading Bonequinha...
+2025-09-13 11:22:43 -  Loading Bonequinha...
+2025-09-13 11:22:43 -  Loading Bonequinha...
+2025-09-13 11:22:54 -  200.39.133.31 disconnected for exceeding packet per second limit.
+2025-09-13 11:23:28 -  Sou Broxa has logged out.
+2025-09-13 11:23:34 -  Loading Sou Broxa...
+2025-09-13 11:23:34 -  Sou Broxa has logged in.
+2025-09-13 11:24:16 -  Victorsemc has logged out.
+2025-09-13 11:24:18 -  Loading Victorsemc...
+2025-09-13 11:24:18 -  Victorsemc has logged in.
+2025-09-13 11:24:56 -  Thorin Oakenshield has logged out.
+2025-09-13 11:25:29 -  Loading Thorin Oakenshield...
+2025-09-13 11:25:29 -  Thorin Oakenshield has logged in.
+2025-09-13 11:26:03 -  Lutaki Bebo has logged out.
+2025-09-13 11:26:56 -  Loading Suukram...
+2025-09-13 11:26:56 -  Suukram has logged in.
+2025-09-13 11:27:01 -  Abre Cast has logged out.
+2025-09-13 11:27:03 -  Loading Abre Cast...
+2025-09-13 11:27:03 -  Abre Cast has logged in.
+2025-09-13 11:28:22 -  Alexandre De Moraes has logged out.
+2025-09-13 11:28:25 -  Loading Alexandre De Moraes...
+2025-09-13 11:28:25 -  Alexandre De Moraes has logged in.
+2025-09-13 11:33:38 -  Aleska Teodoro has logged out.
+2025-09-13 11:36:33 -  Loading Aleska Teodoro...
+2025-09-13 11:36:33 -  Aleska Teodoro has logged in.
+2025-09-13 11:37:01 -  Loading Dwarf King...
+2025-09-13 11:37:01 -  Dwarf King has logged in.
+2025-09-13 11:39:39 -  Oppenheimer has logged out.
+2025-09-13 11:41:43 -  [BOSS SYSTEM] Spawned: Valaraukar
+2025-09-13 11:41:43 -  Black Lottus has logged out.
+2025-09-13 11:41:48 -  Loading Black Lottus...
+2025-09-13 11:41:48 -  Black Lottus has logged in.
+2025-09-13 11:42:56 -  Loading Nattus...
+2025-09-13 11:42:56 -  Nattus has logged in.
+2025-09-13 11:43:07 -  Abre Cast has logged out.
+2025-09-13 11:43:09 -  Loading Abre Cast...
+2025-09-13 11:43:09 -  Abre Cast has logged in.
+2025-09-13 11:45:06 -  Magic Of Caos has logged out.
+2025-09-13 11:45:10 -  Loading Pinoquio...
+2025-09-13 11:45:11 -  Pinoquio has logged in.
+2025-09-13 11:45:31 -  Loading Lutaki Bebo...
+2025-09-13 11:45:31 -  Lutaki Bebo has logged in.
+2025-09-13 11:47:20 -  Orc The Criar has logged out.
+2025-09-13 11:47:52 -  Loading Orc The Criar...
+2025-09-13 11:47:52 -  Orc The Criar has logged in.
+2025-09-13 11:48:23 -  Saving server... 13/09/2025 11:48:23
+2025-09-13 11:48:24 -  > Saved house items in: 0.136 s
+2025-09-13 11:48:24 -  [Monster - flimsy lost soul] [Error - Monsters::loadMonster] Failed to load data/monster/flimsy lost soul.xml: File was not found
+2025-09-13 11:48:24 -  [Monster - mean lost soul] [Error - Monsters::loadMonster] Failed to load data/monster/mean lost soul.xml: File was not found
+2025-09-13 11:48:24 -  [Monster - freakish lost soul] [Error - Monsters::loadMonster] Failed to load data/monster/freakish lost soul.xml: File was not found
+2025-09-13 11:55:12 -  Reloaded monsters.
+2025-09-13 11:55:12 -  Alexandre De Moraes has logged out.
+2025-09-13 11:55:13 -  Victorsemc has logged out.
+2025-09-13 11:55:14 -  Loading Alexandre De Moraes...
+2025-09-13 11:55:14 -  Alexandre De Moraes has logged in.
+2025-09-13 11:55:16 -  Loading Victorsemc...
+2025-09-13 11:55:16 -  Victorsemc has logged in.
+2025-09-13 11:58:39 -  Saving server... 13/09/2025 11:58:39
+2025-09-13 11:58:40 -  > Saved house items in: 0.134 s
+2025-09-13 11:58:40 -  Reloaded monsters.
+2025-09-13 11:58:40 -  Loading Sacolon...
+2025-09-13 11:58:40 -  Sacolon has logged in.
+2025-09-13 11:59:16 -  Abre Cast has logged out.
+2025-09-13 11:59:18 -  Loading Abre Cast...
+2025-09-13 11:59:18 -  Abre Cast has logged in.
+2025-09-13 12:02:16 -  [BOSS SYSTEM] Spawned: Olog-hai
+2025-09-13 12:02:16 -  Saving server... 13/09/2025 12:02:16
+2025-09-13 12:02:17 -  > Saved house items in: 0.144 s
+2025-09-13 12:03:44 -  Illidian Rullex has logged out.
+2025-09-13 12:03:54 -  Saving server... 13/09/2025 12:03:54
+2025-09-13 12:03:55 -  > Saved house items in: 0.144 s
+2025-09-13 12:04:17 -  Reloaded monsters.
+2025-09-13 12:04:17 -  Loading Illidian Rullex...
+2025-09-13 12:04:17 -  Illidian Rullex has logged in.
+2025-09-13 12:04:51 -  Suukram has logged out.
+2025-09-13 12:04:52 -  Loading Sukram...
+2025-09-13 12:04:52 -  Sukram has logged in.
+2025-09-13 12:05:41 -  Orc Vegano has logged out.
+2025-09-13 12:06:25 -  Loading Orc Vegano...
+2025-09-13 12:06:25 -  Orc Vegano has logged in.
+2025-09-13 12:07:54 -  Alexandre De Moraes has logged out.
+2025-09-13 12:07:57 -  Victorsemc has logged out.
+2025-09-13 12:07:59 -  Loading Alexandre De Moraes...
+2025-09-13 12:07:59 -  Alexandre De Moraes has logged in.
+2025-09-13 12:08:03 -  Loading Victorsemc...
+2025-09-13 12:08:03 -  Victorsemc has logged in.
+2025-09-13 12:15:25 -  Abre Cast has logged out.
+2025-09-13 12:15:27 -  Loading Abre Cast...
+2025-09-13 12:15:27 -  Abre Cast has logged in.
+2025-09-13 12:16:53 -  Abre Cast has logged out.
+2025-09-13 12:17:56 -  191.242.223.10 disconnected for exceeding packet per second limit.
+2025-09-13 12:19:06 -  [GOD] Middle Earth has logged out.
+2025-09-13 12:19:50 -  Sacolon has logged out.
+2025-09-13 12:19:52 -  Loading Sacolin...
+2025-09-13 12:19:52 -  Sacolin has logged in.
+2025-09-13 12:19:59 -  Loading [GOD] Middle Earth...
+2025-09-13 12:19:59 -  [GOD] Middle Earth has logged in.
+2025-09-13 12:21:12 -  [BOSS SYSTEM] Spawned: Azazel
+2025-09-13 12:21:12 -  Loading Azul...
+2025-09-13 12:21:12 -  Azul has logged in.
+2025-09-13 12:23:26 -  Black Lottus has logged out.
+2025-09-13 12:23:34 -  Loading Black Lottus...
+2025-09-13 12:23:34 -  Black Lottus has logged in.
+2025-09-13 12:25:11 -  Thorin Oakenshield has logged out.
+2025-09-13 12:25:22 -  Loading Gordaum...
+2025-09-13 12:25:22 -  Gordaum has logged in.
+2025-09-13 12:25:43 -  Loading Thorin Oakenshield...
+2025-09-13 12:25:43 -  Thorin Oakenshield has logged in.
+2025-09-13 12:25:56 -  [GOD] Middle Earth has logged out.
+2025-09-13 12:26:44 -  Loading Amarelo...
+2025-09-13 12:26:44 -  Amarelo has logged in.
+2025-09-13 12:27:48 -  Sou Broxa has logged out.
+2025-09-13 12:28:30 -  Loading Sou Broxa...
+2025-09-13 12:28:30 -  Sou Broxa has logged in.
+2025-09-13 12:28:40 -  Skull Warrior has logged out.
+2025-09-13 12:29:24 -  Loading Skull Warrior...
+2025-09-13 12:29:24 -  Skull Warrior has logged in.
+2025-09-13 12:29:24 -  Loading Caduhzin Here...
+2025-09-13 12:29:24 -  Caduhzin Here has logged in.
+2025-09-13 12:29:28 -  Elrond Druid has logged out.
+2025-09-13 12:29:43 -  Loading Elrond Druid...
+2025-09-13 12:29:43 -  Elrond Druid has logged in.
+2025-09-13 12:36:20 -  Gordaum has logged out.
+2025-09-13 12:36:25 -  Loading Gordaum...
+2025-09-13 12:36:25 -  Gordaum has logged in.
+2025-09-13 12:37:43 -  Eufi has logged out.
+2025-09-13 12:37:56 -  Loading Eufi...
+2025-09-13 12:37:56 -  Eufi has logged in.
+2025-09-13 12:39:53 -  Loading Maedhros...
+2025-09-13 12:39:53 -  Maedhros has logged in.
+2025-09-13 12:40:32 -  [BOSS SYSTEM] Spawned: Jaul
+2025-09-13 12:40:32 -  Loading [GOD] Middle Earth...
+2025-09-13 12:40:32 -  [GOD] Middle Earth has logged in.
+2025-09-13 12:40:49 -  Victorsemc has logged out.
+2025-09-13 12:40:51 -  Loading Victorsemc...
+2025-09-13 12:40:51 -  Victorsemc has logged in.
+2025-09-13 12:44:06 -  Maedhros has logged out.
+2025-09-13 12:50:13 -  Atiira Muito has logged out.
+2025-09-13 12:51:19 -  Loading Atiira Muito...
+2025-09-13 12:51:19 -  Atiira Muito has logged in.
+2025-09-13 12:51:36 -  Victorsemc has logged out.
+2025-09-13 12:51:43 -  Loading Victorsemc...
+2025-09-13 12:51:43 -  Victorsemc has logged in.
+2025-09-13 12:56:35 -  Loading Totz...
+2025-09-13 12:56:35 -  Totz has logged in.
+2025-09-13 12:59:31 -  Loading Porno Gay...
+2025-09-13 12:59:31 -  Porno Gay has logged in.
+2025-09-13 13:02:16 -  [BOSS SYSTEM] Spawned: The Necromancer
+2025-09-13 13:02:16 -  Saving server... 13/09/2025 13:02:16
+2025-09-13 13:02:17 -  > Saved house items in: 0.14 s
+2025-09-13 13:02:21 -  Loading Oppenheimer...
+2025-09-13 13:02:21 -  Oppenheimer has logged in.
+2025-09-13 13:05:23 -  Loading Verity...
+2025-09-13 13:05:23 -  Verity has logged in.
+2025-09-13 13:06:07 -  Alexandre De Moraes has logged out.
+2025-09-13 13:06:11 -  Loading Alexandre De Moraes...
+2025-09-13 13:06:11 -  Alexandre De Moraes has logged in.
+2025-09-13 13:15:48 -  Verity has logged out.
+2025-09-13 13:16:48 -  Loading Mellion Adyarus...
+2025-09-13 13:16:48 -  Mellion Adyarus has logged in.
+2025-09-13 13:16:52 -  Victorsemc has logged out.
+2025-09-13 13:16:54 -  Loading Victorsemc...
+2025-09-13 13:16:54 -  Victorsemc has logged in.
+2025-09-13 13:30:09 -  [BOSS SYSTEM] Spawned: Adramelech
+2025-09-13 13:30:09 -  Lutaki Bebo has logged out.
+2025-09-13 13:33:43 -  Skylline has logged out.
+2025-09-13 13:34:21 -  Victorsemc has logged out.
+2025-09-13 13:34:24 -  Loading Victorsemc...
+2025-09-13 13:34:24 -  Victorsemc has logged in.
+2025-09-13 13:38:54 -  [GOD] Middle Earth has logged out.
+2025-09-13 13:44:28 -  [BOSS SYSTEM] Spawned: Khel Thuzad
+2025-09-13 13:44:28 -  Loading [GOD] Middle Earth...
+2025-09-13 13:44:28 -  [GOD] Middle Earth has logged in.
+2025-09-13 13:45:54 -  Saving server... 13/09/2025 13:45:54
+2025-09-13 13:45:55 -  > Saved house items in: 0.134 s
+2025-09-13 13:46:03 -  Reloaded items.
+2025-09-13 13:46:03 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-13 13:47:39 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-13 13:51:34 -  > [GOD] Middle Earth broadcasted: "O servidor será reiniciado em 5 minutos e voltará em breve.".
+2025-09-13 13:51:34 -  Loading Negrosaki...
+2025-09-13 13:51:34 -  Negrosaki has logged in.
+2025-09-13 13:51:36 -  Thorin Oakenshield has logged out.
+2025-09-13 13:51:45 -  Loading Sauron...
+2025-09-13 13:51:45 -  Sauron has logged in.
+2025-09-13 13:53:12 -  > [GOD] Middle Earth broadcasted: "O servidor será reiniciado em 1 minuto e voltará em breve.".
+2025-09-13 13:53:12 -  Loading Putifero...
+2025-09-13 13:53:12 -  Putifero has logged in.
+2025-09-13 13:55:04 -  Saving server... 13/09/2025 13:55:04
+2025-09-13 13:55:06 -  > Saved house items in: 0.16 s
+2025-09-13 13:55:20 -  Putifero has logged out.
+2025-09-13 13:55:20 -  Sauron has logged out.
+2025-09-13 13:55:20 -  [GOD] Middle Earth has logged out.
+2025-09-13 13:55:20 -  Mellion Adyarus has logged out.
+2025-09-13 13:55:20 -  Porno Gay has logged out.
+2025-09-13 13:55:20 -  Totz has logged out.
+2025-09-13 13:55:20 -  Eufi has logged out.
+2025-09-13 13:55:20 -  Gordaum has logged out.
+2025-09-13 13:55:20 -  Elrond Druid has logged out.
+2025-09-13 13:55:20 -  Caduhzin Here has logged out.
+2025-09-13 13:55:20 -  Black Lottus has logged out.
+2025-09-13 13:55:20 -  Sacolin has logged out.
+2025-09-13 13:55:20 -  Orc Vegano has logged out.
+2025-09-13 13:55:20 -  Sukram has logged out.
+2025-09-13 13:55:20 -  Negrosaki has logged out.
+2025-09-13 13:55:20 -  Illidian Rullex has logged out.
+2025-09-13 13:55:20 -  Alexandre De Moraes has logged out.
+2025-09-13 13:55:20 -  Oppenheimer has logged out.
+2025-09-13 13:55:20 -  Orc The Criar has logged out.
+2025-09-13 13:55:20 -  Pinoquio has logged out.
+2025-09-13 13:55:20 -  Nattus has logged out.
+2025-09-13 13:55:20 -  Dwarf King has logged out.
+2025-09-13 13:55:20 -  Bryan Mbeumo has logged out.
+2025-09-13 13:55:20 -  Kael has logged out.
+2025-09-13 13:55:20 -  Stormy has logged out.
+2025-09-13 13:55:20 -  Tanjiro Uzumaki has logged out.
+2025-09-13 13:55:20 -  Druid Sinistro has logged out.
+2025-09-13 13:55:20 -  Azul has logged out.
+2025-09-13 13:55:20 -  Czolg Wojenny has logged out.
+2025-09-13 13:55:20 -  Podolski has logged out.
+2025-09-13 13:55:20 -  Kyou Kai has logged out.
+2025-09-13 13:55:20 -  Ogro Sinistro has logged out.
+2025-09-13 13:55:20 -  Tutubarao has logged out.
+2025-09-13 13:55:20 -  Chou Soran has logged out.
+2025-09-13 13:55:20 -  Atiira Muito has logged out.
+2025-09-13 13:55:20 -  Derethor has logged out.
+2025-09-13 13:55:20 -  Autobot Onn has logged out.
+2025-09-13 13:55:20 -  Arrombador has logged out.
+2025-09-13 13:55:20 -  Reiyu Shita has logged out.
+2025-09-13 13:55:20 -  Benn Beckmann has logged out.
+2025-09-13 13:55:20 -  Amarelo has logged out.
+2025-09-13 13:55:20 -  Aleska Teodoro has logged out.
+2025-09-13 13:55:20 -  Arthur Leywin has logged out.
+2025-09-13 13:55:20 -  Karol Star has logged out.
+2025-09-13 13:55:20 -  Fuu Houhou has logged out.
+2025-09-13 13:55:20 -  Charlie Brown has logged out.
+2025-09-13 13:55:20 -  Gaa Ahz has logged out.
+2025-09-13 13:55:20 -  Safe Heaven has logged out.
+2025-09-13 13:55:20 -  Massey has logged out.
+2025-09-13 13:55:20 -  Kaka Bueno has logged out.
+2025-09-13 13:55:20 -  Shawty has logged out.
+2025-09-13 13:55:20 -  Dark Bebo has logged out.
+2025-09-13 13:55:20 -  Criador De Jutsu has logged out.
+2025-09-13 13:55:20 -  Drumbash Pebblebeard has logged out.
+2025-09-13 13:55:20 -  John Wick has logged out.
+2025-09-13 13:55:20 -  Lord Gaucho has logged out.
+2025-09-13 13:55:20 -  Eldarion has logged out.
+2025-09-13 13:55:20 -  Tumzao has logged out.
+2025-09-13 13:55:20 -  Zhang Chulan has logged out.
+2025-09-13 13:55:20 -  Elven Sinistro has logged out.
+2025-09-13 13:55:20 -  Thaynan Charlove has logged out.
+2025-09-13 13:55:20 -  Miliel Hyuga has logged out.
+2025-09-13 13:55:20 -  Snop Doog has logged out.
+2025-09-13 13:55:20 -  Eho Jhon has logged out.
+2025-09-13 13:55:20 -  Mano Crack has logged out.
+2025-09-13 13:55:20 -  Victorsemc has logged out.
+2025-09-13 13:55:20 -  Gorbatchov has logged out.
+2025-09-13 13:55:20 -  Sou Broxa has logged out.
+2025-09-13 13:55:20 -  Romario Jr has logged out.
+2025-09-13 13:55:21 -  Magnitsky has logged out.
+2025-09-13 13:55:21 -  Skull Warrior has logged out.
+2025-09-13 13:55:21 -  Tolkien has logged out.
+2025-09-13 13:55:21 -  Loss N Blaze has logged out.
+2025-09-13 13:55:21 -  Sir Daniel has logged out.
+2025-09-13 13:55:21 -  Severino Elza has logged out.
+2025-09-13 13:55:21 -  Ozymandias has logged out.
+2025-09-13 13:55:21 -  Saving server... 13/09/2025 13:55:21
+2025-09-13 13:55:21 -  > Saved house items in: 0.135 s
+2025-09-13 13:55:21 -  Shutting down...Saving server... 13/09/2025 13:55:21
+2025-09-13 13:55:21 -  > Saved house items in: 0.143 s
+2025-09-13 13:55:21 -  [Thread 0x7ffff5322700 (LWP 335956) exited]
+2025-09-13 13:55:21 -  [Thread 0x7ffff4b0d700 (LWP 335957) exited]
+2025-09-13 13:55:21 -   done!
+2025-09-13 13:55:21 -  [Thread 0x7ffff5b23700 (LWP 335955) exited]
+2025-09-13 13:55:24 -  >> Saving player items.
+2025-09-13 13:55:25 -  [Inferior 1 (process 335951) exited normally]

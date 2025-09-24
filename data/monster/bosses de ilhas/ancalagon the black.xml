@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<monster name="Ancalagon the Black" nameDescription="the ancalagon black" race="undead" experience="4000000" speed="310">
+<health now="500000" max="500000"/>
+<look type="928" corpse="6068"/>
+<targetchange speed="8000" chance="30"/>
+
+<flags>
+    <flag rewardboss="1" />
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="1500"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="1000" min="-1200" max="-1500"/>
+	<attack name="fire" interval="2000" chance="55" target="0" radius="3" min="-1500" max="-2000">
+		<attribute key="areaEffect" value="fire"/>
+	</attack>
+	
+	<attack name="death" interval="2850" chance="22" length="7" spread="0" min="-2500" max="-3900">
+	  <attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	<attack name="fire" interval="2100" chance="50" length="8" spread="3" min="-1800" max="-2300">
+	<attribute key="areaEffect" value="fire"/>
+	</attack>
+		<attack name="fire" interval="2000" chance="50" range="7" min="-1200" max="-1800"><!-- EXORI FLAM -->
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+	<attack name="death" interval="4000" chance="55" radius="6" target="0" min="-2200" max="-3200">
+		<attribute key="areaEffect" value="mortarea"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="500" chance="100" min="70" max="100"/>
+</defenses>
+
+<elements>
+		<element firePercent="75"/>
+		<element holyPercent="75"/>
+		<element deathPercent="75"/>
+		<element earthPercent="75"/>
+		<element energyPercent="75"/>
+		<element physicalPercent="75"/>
+		<element icePercent="75"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+
+<summons maxSummons="3">
+
+</summons>
+
+  <loot>
+		<item name="cerberus shield" chance="600"/>
+		<item name="mystical scale robe" chance="600"/>
+		<item name="valar kilt" chance="600"/>
+		<item id="9933" chance="600"/><!-- fwb-->
+		<item name="burning doll" chance="600"/>
+		<item name="summerblade" chance="600"/>
+		<item name="phantasmal axe" chance="600"/>
+		<item name="gilded eldritch hammer" chance="600"/>
+		<item name="werewolf helmet" chance="600"/>
+		<item name="crystal coin" countmin="5" countmax="15" chance="39999"/>
+  </loot>
+
+</monster>

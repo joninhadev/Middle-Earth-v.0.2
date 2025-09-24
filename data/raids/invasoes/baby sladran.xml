@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+
+<announce delay="0" type="event" message="Os lizards se aproximam da cidade de anfallas venham ajudar" />
+
+<announce delay="55000" type="event" message="Os lizards chegaram, ajudem a salvar a cidade" />
+
+<announce delay="200000" type="event" message="Os lizards estao tomando conta da cidade, corram !" />
+
+<announce delay="300000" type="event" message="Baby Sladran chegou na cidade." />
+
+<singlespawn delay="55000" name="Lizard Legionnaire" x="978" y="1287" z="6" />
+
+<singlespawn delay="55000" name="Lizard High Guard" x="977" y="1286" z="6" />
+
+<singlespawn delay="55000" name="Lizard Dragon Priest" x="978" y="1286" z="6" />
+
+<singlespawn delay="55000" name="Lizard Legionnaire" x="982" y="1286" z="6" />
+
+<singlespawn delay="55000" name="Lizard High Guard" x="986" y="1289" z="6" />
+
+<singlespawn delay="55000" name="Lizard Legionnaire" x="985" y="1291" z="6" />
+
+<singlespawn delay="55000" name="Lizard High Guard" x="992" y="1291" z="6" />
+
+
+<singlespawn delay="55000" name="Lizard Legionnaire" x="969" y="1262" z="6" />
+<singlespawn delay="55000" name="Lizard High Guard" x="986" y="1262" z="6" />
+<singlespawn delay="55000" name="Lizard Dragon Priest" x="988" y="1262" z="6" />
+<singlespawn delay="55000" name="Lizard High Guard" x="976" y="1273" z="6" />
+<singlespawn delay="55000" name="Lizard High Guard" x="988" y="1273" z="6" />
+<singlespawn delay="55000" name="Lizard Dragon Priest" x="981" y="1278" z="6" />
+<singlespawn delay="55000" name="Lizard Legionnaire" x="982" y="1278" z="6" />
+<singlespawn delay="55000" name="Lizard High Guard" x="987" y="1287" z="6" />
+<singlespawn delay="55000" name="Lizard Legionnaire" x="976" y="1287" z="6" />
+<singlespawn delay="200000" name="Lizard Legionnaire" x="978" y="1287" z="6" />
+
+<singlespawn delay="200000" name="Lizard Zaogun" x="977" y="1286" z="6" />
+
+<singlespawn delay="200000" name="Lizard Chosen" x="978" y="1286" z="6" />
+
+<singlespawn delay="200000" name="Lizard High Guard" x="982" y="1286" z="6" />
+
+<singlespawn delay="200000" name="Lizard High Guard" x="986" y="1289" z="6" />
+
+<singlespawn delay="200000" name="Lizard Zaogun" x="985" y="1291" z="6" />
+
+<singlespawn delay="200000" name="Lizard High Guard" x="992" y="1291" z="6" />
+
+<singlespawn delay="200000" name="Lizard High Guard" x="990" y="1290" z="6" />
+
+<singlespawn delay="200000" name="Lizard Legionnaire" x="996" y="1292" z="6" />
+
+<singlespawn delay="200000" name="Lizard Legionnaire" x="998" y="1293" z="6" />
+
+
+<singlespawn delay="200000" name="Lizard Chosen" x="980" y="1277" z="6" />
+
+<singlespawn delay="200000" name="Lizard Legionnaire" x="981" y="1276" z="6" />
+
+<singlespawn delay="200000" name="Lizard High Guard" x="981" y="1275" z="6" />
+
+<singlespawn delay="200000" name="Lizard Zaogun" x="979" y="1274" z="6" />
+
+<singlespawn delay="200000" name="Lizard Zaogun" x="982" y="1283" z="6" />
+
+<singlespawn delay="260000" name="Lizard High Guard" x="981" y="1278" z="6" />
+<singlespawn delay="260000" name="Lizard High Guard" x="982" y="1274" z="6" />
+<singlespawn delay="260000" name="Lizard Legionnaire" x="981" y="1268" z="6" />
+<singlespawn delay="300000" name="Baby Sladran" x="981" y="1273" z="6" />
+
+</raid>

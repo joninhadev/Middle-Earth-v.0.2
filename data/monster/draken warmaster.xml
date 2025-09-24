@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draken Warmaster" nameDescription="a draken warmaster" race="blood" experience="5000" speed="150" manacost="0">
+	<health now="7000" max="7000"/>
+	<look type="334" corpse="11107"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1900" min="-204" max="-448"/>
+		<attack name="fire" interval="2000" chance="20" length="4" spread="3" min="-300" max="-380">
+			<attribute key="shootEffect" value="explosion"/>
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0"/>
+	<elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item id="2528" chance="480" /><!-- Tower Shield -->
+		<item id="2152" countmax="2" chance="30625" /><!-- Platinum Coin -->
+		<item id="2666" chance="30300" /><!-- Meat -->
+		<item id="2148" countmax="100" chance="41000" /><!-- Gold Coins -->
+		<item id="2148" countmax="100" chance="41000" /><!-- Gold Coins -->
+		<item id="11303" chance="520" /><!-- Z. Boots -->
+		<item id="11301" chance="460" /><!-- Z. Armor -->
+		<item id="11304" chance="480" /><!-- Z. Legs -->
+		<item id="2147" countmax="5" chance="1425" /><!-- Emerald -->
+		<item id="11322" chance="1200"/><!-- Imbui Item -->
+	</loot>
+</monster>

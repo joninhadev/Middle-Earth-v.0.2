@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Werehyaena" nameDescription="a werehyaena" race="blood" experience="7500" speed="120">
+	<health now="4200" max="4200" />
+    <look type="1300" head="57" body="77" legs="1" feet="1" corpse="39225" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="0" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+	</flags>
+	<attacks>
+        <attack name="melee" interval="2000" min="-200" max="-300" />
+		<attack name="death" interval="2000" chance="50" range="7" min="-250" max="-350"><!-- Death Strike  -->
+			<attribute key="shootEffect" value="death" />
+		</attack>
+		<attack name="death beam" interval="2000" chance="30" min="-250" max="-350"><!-- Death Beam  -->
+			<attribute key="shootEffect" value="death" />
+		</attack>
+		<attack name="earth" interval="2000" chance="35" target="0" radius="3" min="-280" max="-320"><!-- Exori Poison -->
+			<attribute key="areaEffect" value="greenspark"/>
+		</attack>
+	</attacks>
+	<defenses armor="35" defense="35">
+		<defense name="speed" interval="2000" chance="15" speedchange="700" duration="5000">
+			<attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>
+    <elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="100"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+    </elements>
+    <immunities>
+        <immunity invisible="1" />
+    </immunities>
+    <loot>
+	<item name="platinum coin" countmax="3" chance="100000"/>
+	<item name="werehyaena nose" countmax="2" chance="50000"/>
+	<item name="red gem" chance="1500"/>
+	<item name="green crystal splinter" countmax="2" chance="1500"/>
+	<item name="ratana" chance="1000"/>
+	<item name="yellow gem" chance="2000"/>
+	<item name="axe" chance="100000"/>
+	<item name="halberd" chance="1000"/>
+	<item name="red crystal fragment" chance="2400"/>
+	<item name="hailstorm rod" chance="2500"/>
+	<item name="skull helmet" chance="500"/>
+	<item name="skull staff" chance="700"/>
+    </loot>
+</monster>

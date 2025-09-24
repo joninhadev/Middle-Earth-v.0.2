@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Juvenile Bashmu" nameDescription="um juvenile bashmu" race="blood" experience="10000" speed="160" manacost="0">
+  <health now="5000" max="5000"/>
+  <look type="1408" head="0" body="112" legs="3" feet="79" corpse="42360"/>
+  <targetchange interval="2000" chance="5"/>
+  <strategy attack="70" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="1"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="1500" min="-200" max="-320"/>
+	<attack name="terra strike" interval="3000" min="-200" max="-320"/>
+	<attack name="energy beam" interval="5000" min="-300" max="-380"/>
+	<attack name="energy" interval="4000" chance="25" target="0" radius="3" min="-200" max="-320">
+		<attribute key="areaEffect" value="energy"/>
+	</attack>
+</attacks>
+
+  <defenses armor="0" defense="0">
+    <defense name="healing" interval="1500" chance="20" min="50" max="100">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+  
+	<elements>
+		<element firePercent="10"/>
+		<element holyPercent="20"/>
+		<element deathPercent="20"/>
+		<element earthPercent="100"/>
+		<element energyPercent="20"/>
+		<element physicalPercent="20"/>
+		<element icePercent="30"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="GROOAAARRR" yell="1"/>
+    <voice sentence="FCHHHHH" yell="1"/>
+  </voices>
+  
+  <loot capacity="800">
+	<item name="platinum coin" countmax="4" chance="99999"/>
+	<item name="haunted blade" chance="500"/>
+	<item name="lightning pendant" chance="50"/>
+	<item name="violet crystal shard" countmax="2" chance="1500"/>
+	<item name="green crystal shard" countmax="2" chance="1500"/>
+	<item name="violet gem" chance="1500"/>	
+  </loot>
+  
+</monster>

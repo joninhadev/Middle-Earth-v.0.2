@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draken Elite" nameDescription="a draken elite" race="blood" experience="6500" speed="150" manacost="0">
+<health now="7500" max="7500"/>
+<look type="362" corpse="12609"/>
+<targetchange interval="5000" chance="10"/>
+<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1900" min="-336" max="-480"/>
+		<attack name="fire" interval="2000" chance="20" length="4" spread="3" min="-300" max="-480">
+			<attribute key="shootEffect" value="explosion"/>
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="40" range="7" target="1" min="-400" max="-500">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="earth" interval="2000" chance="10" radius="3">
+			<attribute key="areaEffect" value="poff"/>
+		</attack>
+		<attack name="firecondition" interval="2000" chance="11" min="-400" max="-500" range="1" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="2000" chance="15" min="510" max="600">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="For ze emperor!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="100" chance="40625" /><!-- Gold -->
+		<item id="2148" countmax="100" chance="40625" /><!-- Gold -->
+		<item id="12617" chance="22300" /><!-- B. Slicer -->
+		<item id="2666" chance="30175" /><!-- Meat -->
+		<item id="2152" countmax="8" chance="28275" /><!-- Platinum -->
+		<item id="2145" countmax="4" chance="1800" /><!-- Emerald -->
+		<item id="12615" chance="9250" /><!-- CP -->
+		<item id="12616" chance="7000" /><!-- CP -->
+		<item id="12614" chance="700" /><!-- Draken Sulphur -->
+		<item id="12646" chance="60" /><!-- Draken Boots -->
+	    <item id="12645" chance="60" /><!-- Draken Helmet -->
+	    <item id="12607" chance="50" /><!-- Elite Draken Mail -->
+		<item id="11304" chance="70" /><!-- Cobra Crown -->
+	</loot>
+</monster>

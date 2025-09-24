@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Sandstone Scorpions foram avistados no Oeste da cidade de Dunedain!" /> 
+
+  <singlespawn delay="1000" name="Sandstone Scorpion" x="1476" y="409" z="7" />
+  <singlespawn delay="1000" name="Sandstone Scorpion" x="1480" y="409" z="7" />
+  <singlespawn delay="1000" name="Sandstone Scorpion" x="1470" y="409" z="7" />
+
+ </raid>

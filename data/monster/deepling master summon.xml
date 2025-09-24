@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Deepling Master" nameDescription="deepling master" race="blood" experience="13000" speed="220" manacost="0">
+  <health now="18025" max="18025"/>
+  <look type="443" corpse="15211"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="3"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+		<attack name="melee" interval="2000" skill="60" attack="55"/>
+		<attack name="energy" interval="2000" chance="100" range="7" min="-400" max="-500">
+			<attribute key="shootEffect" value="energy"/>
+		        <attribute key="areaEffect" value="BIGCLOUDS"/>
+                        </attack>
+	<attack name="speed" interval="1000" chance="20" radius="100" target="1" speedchange="-200">
+		<attribute key="areaEffect" value="poff"/>
+                </attack>
+		<attack name="ice" interval="2000" chance="100" range="7" min="-400" max="-500">
+			<attribute key="shootEffect" value="ice"/>
+		        <attribute key="areaEffect" value="GIANTICE"/>
+                </attack>
+		<attack name="death" interval="2000" chance="30" length="7" spread="0" min="-800" max="-900">
+		<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="speed" interval="2000" chance="37" range="7" speedchange="-400" duration="20000">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</attack>
+	</attacks>
+  <defenses armor="0" defense="0">    
+  </defenses>
+	<elements>
+<element physicalPercent="20"/>
+<element earthPercent="30"/>
+<element firePercent="15"/>
+<element deathPercent="20"/>
+<element energyPercent="50"/>
+<element holyPercent="20"/>
+<element icePercent="99"/>
+	</elements>
+  <immunities>
+   <immunity poison="100"/>
+   <immunity energy="100"/>
+   <immunity fire="100"/>
+	<immunity lifedrain="0"/>
+    <immunity paralyze="100"/>
+    <immunity invisible="100"/>
+  </immunities> 
+	<voices interval="5000" chance="10">
+		<voice sentence="Jey obu giotja!!"/>
+	</voices>  
+  <loot>
+		<item id="7730" chance="35"/> 
+		<item id="2149" chance="3000"/> 
+	        <item id="13870" chance="5500"/> 
+                 <item id="15545" chance="3000"/> 
+				<item id="7901" chance="250"/> 
+                <item id="2640" chance="15"/>                  
+           
+           <item id="2148" countmin="50" countmax="300" chance="31000"/> 
+           
+</loot>
+</monster>

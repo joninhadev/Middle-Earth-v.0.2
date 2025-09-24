@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--1000 = 1 segundo-->
+<raid>
+<announce delay="0" type="Event" message="Uma escuridão profunda desce sobre Dol Guldur, liderada pelo necromante Ferumbras! A batalha pela Terra Média começa agora!"/>
+<announce delay="45000" type="Event" message="Guerreiros valorosos, respondam ao chamado! As defesas de Dol Guldur estão prestes a ruir sob a pressão das forças das trevas!"/>
+<announce delay="90000" type="Event" message="Lendas antigas falam de Ferumbras, o necromante cujo poder rivaliza com o dos próprios Nazgûl! Preparem-se para enfrentar o verdadeiro terror!"/>
+<announce delay="115000" type="Event" message="As legiões de necromantes de Ferumbras chegaram aos portões de Dol Guldur! Defendam a fortaleza a qualquer custo!"/>
+
+
+<areaspawn delay="120000" fromx="1237" fromy="725" fromz="7" tox="1275" toy="721" toz="7"> <!-- {x = 1237, y = 725, z = 7} /{x = 1275, y = 721, z = 7}-->
+	<monster name="Necromancer" amount="5" />
+	<monster name="Ghost" amount="5" />
+</areaspawn>
+
+<areaspawn delay="120000" fromx="1237" fromy="776" fromz="7" tox="1275" toy="774" toz="7"> <!-- {x = 1237, y = 725, z = 7} /{x = 1275, y = 721, z = 7}-->
+	<monster name="Necromancer" amount="5" />
+	<monster name="Ghost" amount="5" />
+</areaspawn>
+
+
+<areaspawn delay="120000" fromx="1248" fromy="753" fromz="7" tox="1271" toy="753" toz="7"> <!-- {x = 1237, y = 725, z = 7} /{x = 1275, y = 721, z = 7}-->
+	<monster name="Necromancer" amount="5" />
+	<monster name="Ghost" amount="5" />
+</areaspawn>
+
+<areaspawn delay="120000" fromx="1248" fromy="753" fromz="7" tox="1271" toy="753" toz="7"> <!-- {x = 1237, y = 725, z = 7} /{x = 1275, y = 721, z = 7}-->
+	<monster name="Istari Follower" amount="3" />
+	<monster name="Saurons Possessed Beholder" amount="5" />
+</areaspawn>
+
+<areaspawn delay="120000" fromx="1237" fromy="725" fromz="7" tox="1275" toy="721" toz="7"><!-- {x = 1237, y = 776, z = 7} / {x = 1275, y = 774, z = 7} -->
+	<monster name="Istari Follower" amount="3" />
+	<monster name="Saurons Possessed Beholder" amount="5" />
+</areaspawn>
+
+<areaspawn delay="120000" fromx="1237" fromy="776" fromz="7" tox="1275" toy="774" toz="7"><!-- {x = 1237, y = 776, z = 7} / {x = 1275, y = 774, z = 7} -->
+	<monster name="Istari Follower" amount="3" />
+	<monster name="Saurons Possessed Beholder" amount="5" />
+</areaspawn>
+
+<areaspawn delay="120000" fromx="1237" fromy="776" fromz="7" tox="1275" toy="774" toz="7"><!-- {x = 1237, y = 776, z = 7} / {x = 1275, y = 774, z = 7} -->
+	<monster name="Fire Elemental" amount="3" />
+</areaspawn>
+
+<announce delay="200000" type="Event" message="Um silêncio sinistro toma conta de Dol Guldur. De repente, as sombras se agitam e um poder maligno é sentido em todo o reino. O necromante Ferumbras, mestre das trevas e aliado de Sauron, emerge das profundezas da fortaleza. Sua presença sombria ameaça consumir a luz e espalhar o caos por toda a Terra-média"/>
+
+<singlespawn delay="210000" name="Ferumbras Ascendant" x="1262" y="752" z="7" />
+
+
+</raid>

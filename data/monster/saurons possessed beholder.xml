@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Saurons Possessed Beholder" nameDescription="um saurons possessed beholder" race="undead" experience="7500" speed="140" manacost="0">
+	<health now="11000" max="11000"/>
+	<look type="256" corpse="6037"/>
+	<targetchange interval="8000" chance="28"/>
+	<strategy attack="100" defense="0"/>
+	
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="5"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	
+	<attacks>
+		<attack name="melee" interval="1720" min="-288" max="-504"/>
+		
+		<attack name="energy" interval="2500" chance="25" range="7" target="1" min="-150" max="-250">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+		
+		<attack name="fire" interval="2650" chance="30" range="7" target="1" min="-180" max="-280">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+		
+		<attack name="death" interval="2100" chance="35" range="7" target="1" min="-170" max="-390">
+			<attribute key="shootEffect" value="suddendeath"/>
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		
+		<attack name="poison" interval="3000" chance="25" range="7" target="1" min="-230" max="-270">
+			<attribute key="shootEffect" value="poison"/>
+		</attack>
+		
+		<attack name="lifedrain" interval="1823" chance="25" range="7" target="1" min="-75" max="-355">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</attack>
+		
+		<attack name="manadrain" interval="3110" chance="25" range="1" target="1" min="-50" max="-240">
+			<attribute key="areaEffect" value="bluebubble"/>
+		</attack>
+		
+		<attack name="speed" interval="10000" chance="70" range="7" target="1" speedchange="-400" duration="8000">
+			<attribute key="areaEffect" value="groundshaker"/>
+		</attack>
+		
+	</attacks>
+	
+	<defenses armor="0" defense="0">
+	</defenses>
+	
+<elements>
+		<element firePercent="50"/>
+		<element holyPercent="50"/>
+		<element deathPercent="30"/>
+		<element earthPercent="10"/>
+		<element energyPercent="100"/>
+		<element physicalPercent="50"/>
+		<element icePercent="30"/>
+</elements>
+
+<immunities>
+	<immunity drown="1"/>
+	<immunity lifedrain="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+
+
+  <voices interval="5000" chance="10">
+    <voice sentence="Let me see you..."/>
+	<voice sentence="I can see your death!!!"/>
+    
+  </voices>
+
+<loot capacity="900">
+	<item id="2148" countmax="59" chance="35000"/>
+	<item id="2148" countmax="59" chance="35000"/>
+	<item id="3972" chance="1500"/>
+	<item id="2518" chance="1800"/>
+	<item id="5898" countmax="5" chance="10000"/>
+	<item id="8865" chance="90"/>
+	<item id="7895" chance="120"/>
+	<item id="2436" chance="800"/>
+	<item id="2163" chance="3000"/>
+	<item id="10580" chance="5000"/>
+	<item id="2148" countmax="100" chance1="80000"/>
+	<item id="2149" countmax="5" chance1="950"/>
+	<item id="2127" chance="1200"/>
+	<item id="2167" chance="750"/>
+</loot>
+
+</monster>

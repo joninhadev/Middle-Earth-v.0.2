@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Myrmidon" nameDescription="um Myrmidon" race="blood" experience="20000" speed="350" manacost="0">
+  <health now="8000" max="8000"/>
+  <look type="134" head="95" body="57" legs="95" feet="57" addon="2" corpse="20355"/>
+  <targetchange interval="2120" chance="50"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="1300" min="-500" max="-900"/>
+	
+	<attack name="physical" interval="1111" chance="99" range="10" min="-500" max="-900">
+		<attribute key="shootEffect" value="spear"/>
+	</attack>
+	
+	<attack name="physical" interval="1498" chance="30" target="0" radius="2" min="-500" max="-900">
+		<attribute key="areaEffect" value="blackspark"/>
+	</attack>
+</attacks>
+  
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="1000" chance="100" min="80" max="100"/>
+</defenses>
+  
+<immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+	<immunity drown="0"/>
+	<immunity ice="0"/>
+	<immunity holy="0"/>
+	<immunity death="0"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+</immunities>
+
+	<elements><element physicalPercent="5"/>
+		<element physicalPercent="15"/>
+		<element icePercent="15"/>
+		<element poisonPercent="15"/>
+		<element firePercent="15"/>
+		<element energyPercent="15"/>
+		<element holyPercent="15"/>
+		<element deathPercent="15"/>
+	</elements>
+  
+<voices interval="6000" chance="70">
+	<voice sentence="Achilles!" yell="1"/>
+</voices>
+  
+	<loot capacity="900">
+		<item id="2489" chance="40000"/>
+		<item id="2490" chance="40000"/>
+		<item id="2521" chance="40000"/>
+    </loot>
+	
+</monster>

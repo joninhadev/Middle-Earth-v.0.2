@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Draptor" nameDescription="a draptor" race="blood" experience="12000" speed="150" manacost="0">
+	<health now="7200" max="7200"/>
+	<look type="382" corpse="13316"/>
+	<targetchange interval="5000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="350"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-300" max="-400"/>
+		<attack name="energy" interval="2000" chance="30" radius="3" min="-350" max="-400">
+			<attribute key="areaEffect" value="yellowenergy"/>
+		</attack>
+		<attack name="energy" interval="2000" chance="20" range="7" min="-200" max="-300">
+			<attribute key="shootEffect" value="energy"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="15" length="8" spread="3" min="-500" max="-700">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+	</attacks>
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="1000" chance="25" min="57" max="93">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+		<defense name="speed" interval="2000" chance="12" speedchange="457" duration="5000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+	</defenses>
+	<elements><element physicalPercent="5"/>
+		<element energyPercent="90"/>
+	    <element firePercent="90"/>
+	</elements>
+	<immunities>		
+		<immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item id="2148" countmax="90" chance="33750"/>
+		<item id="2148" countmax="60" chance="33750"/>	
+	    <item id="2492" chance="3000"/>	
+	    <item id="2506" chance="3000"/>	
+	    <item id="2469" chance="3000"/>	
+	</loot>
+</monster>

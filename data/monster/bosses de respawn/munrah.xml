@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Munrah" nameDescription="Rahemos" race="undead" experience="1000000" speed="320">
+	<health now="300000" max="300000" />
+	<look type="87" corpse="6031" />
+	<targetchange interval="5000" chance="8" />
+	<flags>
+		<flag summonable="0" />
+		<flag rewardboss="1"/>
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-800" max="-1280" />
+		<attack name="holy chain" interval="4000" chance="99" target="1"/>
+		<attack name="energy" interval="4000" chance="55" target="1" radius="5" min="-1100" max="-1300"><!-- UE EM ENERGY -->
+		<attribute key="areaEffect" value="purpleenergy"/>
+	</attack>
+	<attack name="energy" interval="2000" chance="55" target="0" radius="3" min="-1000" max="-1200"><!-- EXORI DE VIS -->
+		<attribute key="areaEffect" value="purpleenergy"/>
+	</attack>
+		<attack name="holy" interval="5000" chance="55" target="0" radius="6" min="-1200" max="-1300"><!-- UE EM HOLY -->
+		<attribute key="areaEffect" value="holyarea"/>
+	</attack>
+		<attack name="holy" interval="2000" chance="40" range="7" min="-900" max="-1100"><!-- EXORI SAN -->
+			<attribute key="shootEffect" value="smallholy" />
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="35">
+		<defense name="healing" interval="1000" chance="20" min="200" max="500">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+		<defense name="outfit" interval="1000" chance="5" monster="demon" duration="4000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="40" />
+		<element icePercent="40" />
+		<element earthPercent="40" />
+		<element energyPercent="40" />
+		<element firePercent="40"/>
+		<element earthPercent="100"/>
+		<element holyPercent="40"/>
+		<element deathPercent="40"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<summons maxSummons="1">
+		<!--<summon name="Demon" interval="1000" chance="12" max="1" />-->
+	</summons>
+	<voices interval="5000" chance="10">
+		<voice sentence="It's a kind of magic." />
+		<voice sentence="Abrah Kadabrah!" />
+		<voice sentence="Nothing hidden in my wrappings." />
+		<voice sentence="It's not a trick, it's Rahemos." />
+		<voice sentence="Meet my friend from hell!" />
+		<voice sentence="I will make you believe in magic." />
+	</voices>
+	<loot>
+		<item name="crystal coin" countmax="30" chance="1000000"/>
+		<item name="giant topaz" chance="100000"/>
+		<item name="golden helmet" chance="350"/>
+		<item id="8908" chance="300"/>
+		<item name="gnome helmet" chance="100"/>
+		<item name="gnome legs" chance="150"/>
+		<item name="gnome armor" chance="100"/>
+	</loot>
+</monster>

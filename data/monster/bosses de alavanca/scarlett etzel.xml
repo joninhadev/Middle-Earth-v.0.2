@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Scarlett Etzel" nameDescription="the scarlett" race="blood" experience="5000000" speed="225">
+	<health now="300000" max="300000"/>
+	<look type="1201" corpse="36166"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag rewardboss="1"/>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+		<flag canwalkonenergy="1"/>
+		<flag canwalkonfire="1"/>
+		<flag canwalkonpoison="1"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="1500" min="-1100" max="-1500"/>
+		<attack name="Sudden Death" interval="1500" chance="16" distance="7" target="1" min="-1500" max="-1700"/>
+		<attack name="holy" interval="1500" chance="23" length="7" spread="0" min="-1450" max="-3240">
+			<attribute key="areaEffect" value="holyarea"/>
+		</attack>
+		<attack name="earth" interval="1500" chance="25" radius="5" min="-1500" max="-1730">
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+	</attacks>
+	<defenses armor="88" defense="88"/>
+	<elements>
+		<element physicalPercent="50"/>
+		<element holyPercent="50"/>
+		<element deathPercent="100"/>
+		<element earthPercent="100"/>
+		<element firePercent="50"/>
+		<element energyPercent="50"/>
+		<element icePercent="50"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1"/>
+		<immunity paralyze="1"/>
+	</immunities>
+	<loot>
+		<item name="Energy Bar" chance="100000"/>
+		<item name="Platinum Coin" countmax="5" chance="87000"/>
+		<item name="Green Gem" chance="85000"/>
+		<item name="Red Gem" chance="42500"/>
+		<item name="Yellow Gem" countmax="2" chance="29600"/>
+		<item name="Blue Gem" countmax="2" chance="18500"/>
+		<item name="Magma Coat" chance="16600"/>
+		<item name="Terra Rod" chance="1100"/>
+		<item name="Crystal Coin" chance="9200"/>
+		<item name="Violet Gem" chance="9000"/>
+		<item name="Terra Legs" chance="8500"/>
+		<item name="Terra Hood" chance="7400"/>
+		<item name="Terra Mantle" chance="7250"/>
+		<item name="Gold Ingot" chance="5000"/>
+		<item name="Terra Amulet" chance="500"/>
+		<item name="Giant Sapphire" chance="4800"/>
+		<item name="jungle quiver" chance="400"/>
+		<item name="Magma Monocle" chance="3700"/>
+		<item name="Cobra Club" chance="220"/>
+		<item name="Cobra Axe" chance="200"/>
+		<item name="Cobra Crossbow" chance="190"/>
+		<item name="Cobra Hood" chance="180"/>
+		<item name="Cobra Rod" chance="200"/>
+		<item name="Cobra Boots" chance="150"/>
+		<item name="Cobra Sword" chance="200"/>
+		<item name="Cobra Wand" chance="200"/>
+		<item name="The Cobra Amulet" chance="100"/>
+	</loot>
+</monster>

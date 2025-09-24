@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Gravedigger" nameDescription="a gravedigger" race="blood" experience="3800" speed="170" manacost="0">
+  <health now="3300" max="3300"/>
+  <look type="558" corpse="21279"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" min="-40" max="-220" poison="20"/>
+	
+		<attack name="death" interval="1000" chance="20" range="2" min="-200" max="-250">
+			<attribute key="shootEffect" value="suddendeath"/>
+		</attack>		
+	
+  </attacks>
+	<defenses armor="0" defense="0">
+	
+		<defense name="speed" interval="2000" chance="6" speedchange="500" duration="10000">
+			<attribute key="areaEffect" value="redshimmer"/>
+		</defense>
+		
+		<defense name="healing" interval="2000" chance="25" min="100" max="115">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>	
+		
+	</defenses>
+	<elements>				
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="100"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+  <immunities>
+    <immunity death="1"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities> 
+	<voices interval="5000" chance="10">
+		<voice sentence="High Five!"/>
+		<voice sentence="No... don't go further, stranger... danger lies in every step..."/>
+		<voice sentence="scratch"/>
+	</voices>  
+	<loot>
+		<item id="2148" countmax="140" chance="23000"/>
+		<item id="12440" chance="4000" />
+        <item id="8865" chance="500"/>
+		<item id="2436" chance="800" />
+		<item id="2187" chance="900"/>
+	    <item id="11240" chance="325"/>
+	</loot>
+</monster>

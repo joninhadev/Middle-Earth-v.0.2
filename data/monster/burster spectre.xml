@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Burster Spectre" nameDescription="a burster spectre" race="blood" experience="13000" speed="200" raceid="1726">
+	<health now="7000" max="7000" />
+	<look type="1122" head="7" body="19" legs="86" feet="19" addons="0" corpse="34656" />
+	<targetchange interval="8000" chance="5" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag isblockable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-330" max="-640"/>
+		<attack name="lifedrain" interval="2000" chance="15" radius="4" min="-150" max="-490">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</attack>
+		<attack name="ice" interval="2000" chance="20" target="1" radius="4" min="-400" max="-510">
+			<attribute key="areaEffect" value="icearea"/>
+		</attack>
+		<attack name="ice" interval="2000" chance="20" target="1" min="-310" max="-470">
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+				<attack name="ice" interval="2000" chance="15" length="5" spread="3" min="-150" max="-290">
+			<attribute key="areaEffect" value="iceattack"/>
+		</attack>
+	</attacks>
+	<defenses armor="70" defense="70">
+		<defense name="healing" interval="2000" chance="10" min="150" max="200">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="10"/>
+		<element holyPercent="30"/>
+		<element deathPercent="30"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="100"/>
+	</elements>
+	<immunities>
+		<immunity invisible="1" />
+		<immunity paralyze="1" />
+	</immunities>
+	<loot>
+	<item name="platinum coin" countmax="4" chance="39999"/>
+	<item name="prismatic quartz" countmax="2" chance="5000"/>
+	<item name="hexagonal ruby" chance="450"/>
+	<item name="glacier kilt" chance="700"/>
+	<item name="glacier robe" chance="700"/>
+	<item name="hailstorm rod" chance="800"/>
+</loot>
+</monster>

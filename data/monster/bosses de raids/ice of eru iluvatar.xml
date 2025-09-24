@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Ice Of Eru Iluvatar" nameDescription="Ice Of Eru Iluvatar" race="undead" experience="200000" speed="280" manacost="0">
+  <health now="95000" max="95000"/>
+  <look type="11" corpse="8307"/>
+  <targetchange interval="5000" chance="35"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="4900"/>
+  </flags>
+  
+  <attacks>
+	<attack name="melee" interval="2900" min="-1000" max="-1800"/>
+
+	<attack name="speed" interval="2400" chance="35" range="7" speedchange="-450" duration="10000">
+		<attribute key="areaEffect" value="giantice"/>
+	</attack>
+
+	<attack name="manadrain" interval="2750" chance="60" range="7" min="-580" max="-900"/>
+
+	<attack name="ice" interval="1100" chance="85" target="1" range="7" min="-1100" max="-1500">
+		<attribute key="shootEffect" value="ice"/>
+		<attribute key="areaEffect" value="icearea"/>
+	</attack>
+
+	<attack name="ice" interval="500" chance="75" range="7" radius="5" target="1" min="-520" max="-850">
+		<attribute key="shootEffect" value="ice"/>
+		<attribute key="areaEffect" value="giantice"/>
+	</attack>
+
+	<attack name="ice" interval="2800" chance="65" length="8" spread="3" min="-1900" max="-2800">
+		<attribute key="areaEffect" value="poff"/>
+	</attack>
+  </attacks>
+  
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="4220" chance="35" min="190" max="450"/>
+	</defenses>
+	
+	<elements><element physicalPercent="5"/>
+		<element icePercent="100"/>
+		<element poisonPercent="50"/>
+		<element firePercent="20"/>
+		<element energyPercent="50"/>
+		<element holyPercent="50"/>
+		<element deathPercent="50"/>
+	</elements>
+  
+  <immunities>
+		<immunity drown="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="0"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+  </immunities>
+  
+  <voices interval="4000" chance="10">
+    <voice sentence="You shall face the wrath of the ocean!"/>
+	<voice sentence="No sane human would dare to face me!"/>
+	<voice sentence="Your lifeless bodies shall feed my spawns!"/>
+  </voices>
+  
+  <loot>
+    <item id="2145" countmax="1" chance1="500" chancemax="0"/> 
+    <item id="7902" chance="50000"/> 
+	<item id="8887" chance="10000"/> 
+	<item id="8878" chance="40000"/> 
+	<item id="7730" chance="20000"/> 
+	<item id="7892" chance="100000"/> 
+	<item id="8907" chance="5000"/> 
+	<item id="11117" chance="80000"/> 
+	<item id="7893" chance="70000"/> 
+	<item id="2396" chance="900000"/> 
+	<item id="2445" chance="900000"/> 
+	<item id="2542" chance="50000"/> 
+    <item id="1987" chance="100000"> 
+      
+	      <item id="2148" countmax="98" chance1="45000" chancemax="0"/> 
+		  <item id="2148" countmax="98" chance1="45000" chancemax="0"/> 
+          <item id="2146" countmax="1" chance1="500" chancemax="0"/> 
+      
+     </item>
+  </loot>
+  
+</monster>

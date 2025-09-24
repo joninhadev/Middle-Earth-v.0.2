@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monster name="destroyer" nameDescription="um destroyer" race="blood" experience="3700" speed="130" manacost="0">
+	<health now="3700" max="3700"/>
+	<look type="236" corpse="6320"/>
+	<targetchange interval="8000" chance="8"/>
+	<strategy attack="100" defense="0"/>
+	
+<flags>
+	<flag summonable="0"/>
+	<flag attackable="1"/>
+	<flag hostile="1"/>
+	<flag illusionable="1"/>
+	<flag convinceable="0"/>
+	<flag pushable="0"/>
+	<flag canpushitems="1"/>
+	<flag canpushcreatures="1"/>
+	<flag targetdistance="1"/>
+	<flag staticattack="90"/>
+	<flag runonhealth="0"/>
+</flags>
+	
+<attacks>
+	<attack name="melee" interval="1800" min="-160" max="-400"/>
+	
+	<attack name="physical" interval="2300" chance="99" range="7" min="-100" max="-250">
+		<attribute key="shootEffect" value="whirlwindsword"/>
+	</attack>
+</attacks>
+	
+<defenses armor="0" defense="0">
+	<defense name="speed" interval="1000" chance="7" speedchange="380" duration="8000">
+		<attribute key="areaEffect" value="redshimmer"/>
+	</defense>
+</defenses>
+ 
+	<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="10"/>
+		<element icePercent="20"/>
+	</elements>
+
+	<immunities>
+		<immunity physical="0"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="1"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+
+	<voices interval="5000" chance="10">
+	<voice sentence="Destructiooooon!"/>
+	<voice sentence="It's a good day to destroy!"/>
+	</voices>
+	<loot>
+	<item id="11215" chance="800"/> 
+	<item id="2645" chance="150"/> 
+	<item id="5741" chance="320"/> 
+	<item id="2463" chance="1200"/> 
+	<item id="7419" chance="260"/> 
+	<item id="7427" chance="80"/> 
+	<item id="2148" countmax="82" chance1="100000" chancemax="0"/> 
+	<item id="2152" countmax="3" chance1="20000" chancemax="0"/> 
+	<item id="2416" chance="9999"/> 
+	<item id="2150" countmax="2" chance1="5000" chancemax="0"/>
+		
+	</loot>
+</monster>

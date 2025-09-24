@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Valaraukar" nameDescription="Valaraukar" race="undead" experience="145000" speed="400" manacost="0">
+  <health now="40000" max="40000"/>
+  <look type="300" corpse="8955"/>
+  <targetchange interval="5000" chance="10"/>
+  <strategy attack="100" defense="0"/>
+  
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+  <attacks>
+  	<attack name="melee" interval="2000" min="-680" max="-1200"/>
+	
+	<attack name="death" interval="2500" chance="33" range="7" target="1" min="-450" max="-750">
+	  <attribute key="shootEffect" value="suddendeath"/>
+	  <attribute key="areaEffect" value="mortarea"/>
+	</attack>
+	
+	<attack name="lifedrain" interval="2700" chance="33" length="7" spread="0" target="0" min="-300" max="-600">
+	  <attribute key="areaEffect" value="redspark"/>
+	</attack>
+	
+	<attack name="physical" interval="3500" chance="5" range="7" radius="4" target="0" min="-750" max="-1200">
+	  <attribute key="shootEffect" value="whirlwindaxe"/>
+	  <attribute key="areaEffect" value="redspark"/>
+   	</attack>
+	
+  </attacks>
+	
+  <defenses armor="0" defense="0">
+    <defense name="healing" interval="1000" chance="50" min="100" max="195"/>
+  </defenses>
+  
+	<elements><element physicalPercent="5"/>
+	  <element energyPercent="10"/>
+	  <element earthPercent="-20"/>
+	  <element icePercent="-10"/>
+	  <element holyPercent="10"/>
+	  <element deathPercent="-20"/>
+	  <element firePercent="10"/>
+	</elements>
+	
+  <immunities>
+    <immunity paralyze="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="Death!" yell="1"/>
+    <voice sentence="Come a little closer!" yell="1"/>
+    <voice sentence="The end is near!" yell="1"/>
+  </voices>
+	<loot>
+      
+		<item id="6300" chance="12000"/>					
+		<item id="7382" chance="2500"/>					
+		<item id="8865" chance="2500"/>					<!-- dark lord's cape -->
+		<item id="5741" chance="15000"/>					<!-- skull helmet-->
+		<item id="7895" chance="5500"/>					<!-- aghanim legs-->
+		<item id="1987" chance="100000">
+		<item name="silver token" countmax="3" chance="5000" /> 
+		<item name="gold token" countmax="3" chance="5000"/>
+		<item id="5022" countmax="4" chance="40000"/>	
+		<item id="2160" countmax="5" chance="20000"/>		
+		<item id="2150" countmax="3" chance="10000"/>		
+		<item id="6558" chance="7500"/>					
+		<item id="4863" chance="15300"/>					
+		<item id="6500" countmax="1" chance="75000"/>			  
+		
+	  </item>
+	</loot>
+</monster>

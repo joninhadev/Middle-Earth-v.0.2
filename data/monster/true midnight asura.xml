@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="True Midnight Asura" nameDescription="a true midnight asura" race="blood" experience="8100" speed="180" raceid="1621" >
+	<health now="9000" max="9000" />
+	<look type="1068" head="58" body="76" legs="72" feet="38" addons="1" corpse="33135" />
+	<targetchange interval="4000" chance="5" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="80"/>
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonpoison="1" />
+		<flag canwalkonfire="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-470" max="-550" />
+		<attack name="death" interval="2000" chance="10" length="8" spread="0" min="-350" max="-480">
+			<attribute key="areaEffect" value="blacksmoke" />
+		</attack>
+		<attack name="death" interval="2000" chance="20" range="4" min="-320" max="-450">
+			<attribute key="shootEffect" value="death" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="death" interval="2000" chance="10" range="4" radius="4" min="-380" max="-420">
+			<attribute key="shootEffect" value="death" />
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="manadrain" interval="2000" chance="10" radius="4" target="1" min="-111" max="-220">
+			<attribute key="areaEffect" value="stun" />
+		</attack>
+	</attacks>
+	<defenses armor="80" defense="80">
+		<defense name="invisible" interval="2000" chance="15" duration="8000">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>
+	</defenses>
+	<elements>
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="100"/>
+		<element earthPercent="30"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+	</elements>
+	<immunities>
+		<immunity death="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<loot>
+		<item id="2148" countmax="180" chance="100000" /><!-- gold coin -->
+		<item id="2152" countmax="3" chance="100000"/><!-- platinum coin -->	
+		<item id="2170" countmax="1" chance="880"/><!-- Crystal coin -->			
+		<item id="7590" countmax="2" chance="1070" /><!-- Great Mana Potion -->		
+		<item id="2147" countmax="1" chance="410" /><!-- Small Ruby -->						
+		<item id="6500" chance="222120" /><!-- Demonic Essence -->
+		<item id="2145" countmax="2" chance="480" /><!-- Smal Diamond -->			
+		<item id="2149" countmax="5" chance="460" /><!-- Small Emerald -->	
+		<item id="2150" countmax="2" chance="410" /><!-- Small Amethyst -->	
+		<item id="9970" coutnmax="2" chance="450" /><!-- Small Topaz -->	
+		<item id="2147" coutnmax="2" chance="450" /><!-- Small Ruby -->	
+	</loot>
+</monster>

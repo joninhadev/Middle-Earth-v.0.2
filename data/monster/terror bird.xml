@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Terror Bird" nameDescription="um terror bird" race="blood" experience="150" speed="100" manacost="490">
+  <health now="300" max="300"/>
+  <look type="218" head="0" body="0" legs="0" feet="0" corpse="4317"/>
+  <targetchange interval="10000" chance="5"/>
+  <strategy attack="100" defense="100"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="1"/>
+    <flag pushable="0"/>
+    <flag canpushitems="0"/>
+    <flag staticattack="50"/>
+    <flag lightlevel="0"/>
+    <flag lightcolor="0"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+    <attack name="melee" interval="2000" min="-35" max="-90"/>
+    
+	<attack name="physical" interval="3350" chance="99" range="6" min="-25" max="-60">
+		<attribute key="shootEffect" value="smallstone"/>
+	</attack>
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="light healing" interval="5000" chance="80" min="10" max="40"/>
+</defenses>
+  
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="0"/>
+    <immunity outfit="0"/>
+    <immunity drunk="0"/>
+    <immunity invisible="0"/>
+  </immunities>
+  
+  <voices interval="2000" chance="5">
+    <voice sentence="CRAAAHHH!"/>
+  </voices>
+  
+<loot>
+    <item id="21310" chance="8000" />
+	<item id="3976" countmax="5" chance1="100000" chancemax="0"/>
+	<item id="2666" countmax="5" chance1="100000" chancemax="0"/>
+	<item id="2148" countmax="45" chance1="100000" chancemax="0"/>
+</loot>
+  
+</monster>

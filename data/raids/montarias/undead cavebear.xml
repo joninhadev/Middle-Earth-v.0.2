@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+  <announce delay="1000" type="Event" message="Alguns Undeads Cavebeas apareceram ao nordeste de Dolguldur." /> 
+  <!--Single Spawns-->
+	<singlespawn delay="1000" name="Undead Cavebear" x="1319" y="695" z="7" />
+	<singlespawn delay="1000" name="Undead Cavebear" x="1327" y="695" z="7" />
+	<singlespawn delay="1000" name="Undead Cavebear" x="1333" y="695" z="7" />
+	<singlespawn delay="1000" name="Undead Cavebear" x="1340" y="695" z="7" />
+	<singlespawn delay="1000" name="Undead Cavebear" x="1342" y="695" z="7" />
+
+ </raid>

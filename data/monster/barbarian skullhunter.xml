@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Barbarian Skullhunter" nameDescription="um skullhunter" race="blood" experience="170" speed="150" manacost="0">
+  <health now="270" max="270"/>
+  <look type="254" head="0" body="77" legs="77" feet="114" corpse="20347"/>
+    <targetchange interval="8000" chance="5"/>
+    <strategy attack="100" defense="0"/>
+	
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="70"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+	
+	<attacks>
+		<attack name="melee" interval="1900" min="-40" max="-120"/>
+	</attacks>
+	
+	<defenses armor="0" defense="0">
+	</defenses>
+	
+	<immunities>
+		<immunity paralyze="1"/>
+	</immunities>
+	
+    <voices interval="8000" chance="5">
+      <voice sentence="You will become my trophy."/>
+      <voice sentence="Fight harder, coward."/>
+      <voice sentence="Show that you are a worthy opponent."/>
+    </voices>
+	
+    <loot>
+      <item id="2148" countmax="30" chance="33333"/>
+      <item id="2403" chance="5000"/>
+      <item id="2460" chance="3000"/>
+      <item id="2168" chance="333"/>
+      <item id="7462" chance="300"/>
+      <item id="2430" chance="20"/>
+    </loot>
+	
+  </monster>

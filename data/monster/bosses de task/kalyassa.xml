@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Kalyassa" nameDescription="kalyassa" race="blood" experience="400000" speed="350" >
+	<health now="75000" max="75000"/>
+	<look type="947" head="37" body="113" legs="38" feet="95" addons="3" corpse="5984"/>
+	<targetchange interval="2000" chance="5"/>
+	<flags>
+		<flag rewardboss="1"/>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="800"/>
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+  	<attack name="melee" interval="1000" min="-380" max="-400"/>
+		<attack name="fire" interval="2000" chance="40" range="7" target="1" radius="5" min="-310" max="-495">
+			<attribute key="shootEffect" value="fire"/>
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" interval="2000" chance="45" length="9" spread="4" min="-310" max="-595">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="fire" interval="1500" chance="35" length="9" spread="0" min="-710" max="-895">
+			<attribute key="areaEffect" value="firearea"/>
+		</attack>
+		<attack name="firefield" interval="2000" chance="50" range="7" radius="7" target="1">
+			<attribute key="shootEffect" value="fire"/>
+		</attack>
+	</attacks>
+	<defenses armor="45" defense="70">
+		<defense name="healing" interval="2000" chance="25" min="400" max="700">
+			<attribute key="areaEffect" value="blueshimmer"/>
+		</defense>
+	</defenses>
+	<elements>
+		<element physicalPercent="5"/>
+		<element physicalPercent="35"/>
+		<element icePercent="15"/>
+		<element poisonPercent="15"/>
+		<element firePercent="90"/>
+		<element energyPercent="60"/>
+		<element holyPercent="30"/>
+		<element deathPercent="50"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1"/>
+		<immunity fire="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<summons maxSummons="2">
+		<summon name="Dragon Lord" interval="2000" chance="20" max="2"/>
+	</summons>
+	<loot>
+		<item id="27609" chance="99999"/>
+		<item name="molten plate" chance="500"/>
+		<item id="9933" chance="350"/>
+		<item name="great shield" chance="350"/>
+		<item name="dragon scale helmet" chance="4500"/>
+		<item name="dragon scale legs" chance="4500"/>
+		<item name="dragon scale mail" chance="4500"/>
+		<item name="platinum coin" countmax="99" chance="39999"/>
+		<item name="crystal coin" countmax="15" chance="39999"/>
+	</loot>
+</monster>

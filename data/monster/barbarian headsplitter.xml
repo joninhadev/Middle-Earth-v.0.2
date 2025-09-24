@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <monster name="Barbarian Headsplitter" nameDescription="um headsplitter" race="blood" experience="190" speed="150" manacost="0">
+    <health now="340" max="340"/>
+  <look type="253" head="115" body="105" legs="119" feet="132" corpse="20343"/>
+    <targetchange interval="60000" chance="0"/>
+    <strategy attack="100" defense="0"/>
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="70"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+	
+	<attacks>
+		<attack name="melee" interval="1900" min="-50" max="-150"/>
+		
+		<attack name="physical" interval="2500" chance="99" range="7" target="1" min="-20" max="-70">
+			<attribute key="shootEffect" value="infernalbolt"/>
+		</attack>
+	</attacks>
+	
+    <defenses armor="0" defense="0">
+    </defenses>
+
+	<immunities>
+		<immunity paralyze="1"/>
+	</immunities>
+
+    <voices interval="2000" chance="5">
+      <voice sentence="I will regain my honor with your blood!"/>
+      <voice sentence="Surrender is not option!"/>
+      <voice sentence="Its you or me!"/>
+    </voices>
+
+    <loot>
+      <item id="2148" countmax="30" chance="100000"/>
+      <item id="2111" countmax="6" chance="10000"/>
+      <item id="2473" chance="2000"/>
+      <item id="7457" chance="400"/>
+      <item id="2460" chance="1000"/>
+      <item id="2403" chance="2500"/>
+      <item id="5913" chance="15000"/> 
+      <item id="7461" chance="200"/>
+    </loot>
+  </monster>

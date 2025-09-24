@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Barhum" script="default.lua" access="3" walkinterval="10000">
+	<mana now="100" max="100"/>
+	<health now="1500" max="1500"/>
+	<look type="59" head="58" body="19" legs="68" feet="116" addon="1" corpse="2938"/>
+	
+   <parameters>
+  <parameter key="module_shop" value="1"/>
+  <parameter key="message_greet" value="Olá. Como posso te ajudar |PLAYERNAME|?"/>
+ <parameter key="shop_buyable" value="leather legs,2649,16;studded legs,2468,70;chain legs,2648,250;brass legs,2478,600;mammoth fur shorts,7464,600;plate legs,2647,4000;pirate knee breeches,5918,4400;elven legs,2507,8000;aghanim legs,7895,36000;dwarven legs,2504,13000;glacier kilt,7896,14000;terra legs,7885,34000;knight legs,2477,24000;"/>
+<parameter key="shop_sellable" value="leather legs,2649,8;studded legs,2468,35;blue legs,7730,150000;chain legs,2648,125;brass legs,2478,300;mammoth fur shorts,7464,300;plate legs,2647,2000;pirate knee breeches,5918,2200;elven legs,2507,4000;aghanim legs,7895,18000;dwarven legs,2504,6500;glacier kilt,7896,7000;terra legs,7885,1700;knight legs,2477,12000;"/>
+ </parameters>
+</npc>

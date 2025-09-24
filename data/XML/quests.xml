@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<quests>
+
+	<quest name="City Quest 1: Edoras" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Edoras City Quest" storageid="5004" startvalue="-1" endvalue="1" description="Vença as 5 etapas e o Boss da Edoras City Quest. Level: 20-30. Participantes 4.">
+		</mission>
+	</quest>
+	<quest name="City Quest 2: Bree" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Bree City Quest" storageid="5006" startvalue="-1" endvalue="1" description="Vença as 5 etapas e o Boss da Bree City Quest. Level: 30-40. Participantes 4.">
+		</mission>
+	</quest>
+	<quest name="City Quest 3: Forodwaith" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Forodwaith City Quest" storageid="5008" startvalue="-1" endvalue="1" description="Vença as 5 etapas e o Boss da Forodwaith City Quest. Level: 40-55. Participantes 4.">
+		</mission>
+	</quest>
+	<quest name="City Quest 4: Moria" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Moria City Quest" storageid="5030" startvalue="-1" endvalue="1" description="Vença as 5 etapas e o Boss da Moria City Quest. Level: 100-120. Participantes 4.">
+		</mission>
+	</quest>
+	<quest name="City Quest 5: Anfallas" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Anfallas City Quest" storageid="5080" startvalue="-1" endvalue="1" description="Vença as 5 etapas e o Boss da Anfallas City Quest. Level: 230+. Participantes 4.">
+		</mission>
+	</quest>
+	<quest name="Elemental Key" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Elemental Key" storageid="1114" startvalue="-1" endvalue="1" description="Use a chave do Lord of The Elements para acessar a sala do tesouro. Level: 175+">
+		</mission>
+	</quest>
+	<quest name="Northern" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Northern" storageid="5070" startvalue="-1" endvalue="1" description="Encontre o caminho para as armaduras divinas. Level: 250+">
+		</mission>
+	</quest>
+		<quest name="Lizard City" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Lizard City" storageid="87580" startvalue="-1" endvalue="1" description="Sobreviva ao labirinto do inferno. Level: 250+">
+		</mission>
+	</quest>
+	<quest name="Pentagrama" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Pentagrama" storageid="5050" startvalue="-1" endvalue="1" description="Derrote o poderoso Gothmog e solucione o mist�rio das alavancas. Level: 150+">
+		</mission>
+	</quest>
+	<quest name="Quests Tradicionais 100+" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Crown" storageid="1036" startvalue="-1" endvalue="1" description="Encontre a Crown que fica ao noroeste de Minas Tirith.">
+		</mission>
+		<mission name="Crystaline Armor" storageid="1096" startvalue="-1" endvalue="1" description="Encontre a Crystaline Armor que est� em Nimrais.">
+		</mission>
+		<mission name="Dark Lords Cape" storageid="1087" startvalue="-1" endvalue="1" description="Encontre a Dark Lords Cape que est� em Evendim.">
+		</mission>
+		<mission name="Divine Robe" storageid="1111" startvalue="-1" endvalue="1" description="Encontre a Divine Robe que est� em Beleghost.">
+		</mission>
+		<mission name="Divine Scepter" storageid="1112" startvalue="-1" endvalue="1" description="Encontre a Divine Scepter que est� em Beleghost.">
+		</mission>
+		<mission name="Dragon Scale Boots" storageid="1112" startvalue="-1" endvalue="1" description="Encontre a Dragon Scale Boots que est� no subsolo da Ilha de Tortuga.">
+		</mission>
+		<mission name="Four Leaf Clover" storageid="1115" startvalue="-1" endvalue="1" description="Encontre a Leaf Clover que est� ao sul de Dunedain.">
+		</mission>
+		<mission name="Gandalf Ring" storageid="1048" startvalue="-1" endvalue="1" description="Encontre a Gandalf Ring que fica no subsolo de Mordor.">
+		</mission>
+		<mission name="Giant Shrimp" storageid="1116" startvalue="-1" endvalue="1" description="Encontre o Giant Shrimp que est� nos mares profundos de Atlantida.">
+		</mission>
+		<mission name="Golden Key 666" storageid="1039" startvalue="-1" endvalue="1" description="Encontre a Golden Key 666  que fica no subsolo de Minas Tirith.">
+		</mission>
+		<mission name="Pharao Sword" storageid="1109" startvalue="-1" endvalue="1" description="Encontre a Pharao Sword que est� no subsolo de Dunedain.">
+		</mission>
+		<mission name="Saurons Breath Scepter" storageid="1086" startvalue="-1" endvalue="1" description="Encontre a Saurons Breath Scepter que est� em Evendim.">
+		</mission>
+		<mission name="Soft Boots" storageid="1049" startvalue="-1" endvalue="1" description="Encontre a Soft Boots que fica no subsolo de Mordor.">
+		</mission>
+		<mission name="Starlight Amulet" storageid="1118" startvalue="-1" endvalue="1" description="Encontre a Starlight Amulet que est� ao leste de Anfallas.">
+		</mission>
+		<mission name="Tempest Shield" storageid="1117" startvalue="-1" endvalue="1" description="Encontre Tempest Shield que est� no leste de Anfallas.">
+		</mission>
+		<mission name="Zenit Cuirass" storageid="1049" startvalue="-1" endvalue="1" description="Encontre a Zenit Cuirass que est� no subsolo de Anfallas.">
+		</mission>
+	</quest>
+	<quest name="Quests Tradicionais 51 ao 100" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Aghanim Boots" storageid="1050" startvalue="-1" endvalue="1" description="Encontre o Aghanim Boots que est� no vale de wyvern.">
+		</mission>
+		<mission name="Aghanim Legs" storageid="1038" startvalue="-1" endvalue="1" description="Encontre o Aghanim Legs que fica no subsolo de Minas Tirith.">
+		</mission>
+		<mission name="Aghanim Robe" storageid="1065" startvalue="-1" endvalue="1" description="Encontre o Aghanim Robe que est� no subsolo de Dragon VIP.">
+		</mission>
+		<mission name="Amazon Armor" storageid="1044" startvalue="-1" endvalue="1" description="Encontre o Aghanim Robe que fica ao noroeste de Argond.">
+		</mission>
+		<mission name="Blue Robe" storageid="1004" startvalue="-1" endvalue="1" description="Encontre a Blue Robe que est� no subsolo da Catedral De Eriador que fica ao sul de Bree.">
+		</mission>
+		<mission name="Elven Bow" storageid="1067" startvalue="-1" endvalue="1" description="Encontre a Elven Bow que est� no subsolo de Dragon VIP.">
+		</mission>
+		<mission name="Guardian Halberd" storageid="1047" startvalue="-1" endvalue="1" description="Encontre a Guardian Halber fica em Dragon Mountains.">
+		</mission>
+		<mission name="Magma Coat" storageid="1027" startvalue="-1" endvalue="1" description="Encontre a Magma Coat que fica ao noroeste de Bree.">
+		</mission>
+		<mission name="Magma Legs" storageid="1022" startvalue="-1" endvalue="1" description="Encontre a Magma Legs que est� na cidade Proibida ao noroeste de Bree.">
+		</mission>
+		<mission name="Motaba Wand" storageid="1040" startvalue="-1" endvalue="1" description="Encontre a Motaba Wand que fica na Caverna das Aranhas ao noroeste de Edoras.">
+		</mission>
+		<mission name="Red Robe" storageid="1010" startvalue="-1" endvalue="1" description="Encontre a Red Robe que fica na Ilha De Gelo que fica ao leste de Forodwaith.">
+		</mission>
+		<mission name="Ring of the Tarrasque" storageid="1031" startvalue="-1" endvalue="1" description="Encontre o Ring of the Tarrasque que fica em Dragon VIP.">
+		</mission>
+		<mission name="Saruman Scepter" storageid="1030" startvalue="-1" endvalue="1" description="Encontre a Saruman Scepter que fica na Ilha De Rhun.">
+		</mission>
+		<mission name="Skull Staff" storageid="1005" startvalue="-1" endvalue="1" description="Encontre a Skull Staff que est� no subsolo da Catedral De Eriador que fica ao sul de Bree">
+		</mission>
+		<mission name="Slingshot" storageid="1066" startvalue="-1" endvalue="1" description="Encontre o Slingshot que est� no subsolo de Dragon VIP.">
+		</mission>
+		<mission name="Terra Amulet" storageid="1061" startvalue="-1" endvalue="1" description="Encontre o Terra Amulet que est� no subsolo de Minas Tirith.">
+		</mission>
+		<mission name="Warsinger Bow" storageid="1088" startvalue="-1" endvalue="1" description="Encontre o Warsinger Bow que est� no subsolo do Vale Da Morte.">
+		</mission>
+	
+	</quest>
+	
+	<quest name="Quests Tradicionais 8 ao 50" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Amulet Of Loss" storageid="1069" startvalue="-1" endvalue="1" description="Encontre o Amulet Of Loss que fica ao norte de Beleghost.">
+		</mission>
+		<mission name="Ancient Rune" storageid="1045" startvalue="-1" endvalue="1" description="Encontre a Ancient Rune que fica no subsolo de Moria.">
+		</mission>	
+		<mission name="Ancient Tiara" storageid="1089" startvalue="-1" endvalue="1" description="Encontre a Ancient Tiara que est� no subsolo do Vale Da Morte.">
+		</mission>
+		<mission name="Arcane Wand" storageid="1020" startvalue="-1" endvalue="1" description="Encontre a Arcane Wand que fica na Caverna das Aranhas ao noroeste de Edoras.">
+		</mission>
+		<mission name="Backpack Yalahar" storageid="1093" startvalue="-1" endvalue="1" description="Encontre a Backpack Yalahar que est� no subsolo de Dunedain.">
+		</mission>
+		<mission name="Barbarian Axe" storageid="1026" startvalue="-1" endvalue="1" description="Encontre o Barbarian Axe que fica ao sudeste de Mordor.">
+		</mission>
+		<mission name="Battle Axe" storageid="1077" startvalue="-1" endvalue="1" description="Encontre o Battle Axe que est� ao nordeste de Enedwaith.">
+		</mission>
+		<mission name="Black Perl" storageid="1081" startvalue="-1" endvalue="1" description="Encontre o Black Perl que est� no Amazon Camp ao sul de Bree.">
+		</mission>
+		<mission name="Blue Note" storageid="1095" startvalue="-1" endvalue="1" description="Encontre o Blue Note que est� em Nimrais.">
+		</mission>
+		<mission name="Boots Of Haste" storageid="1035" startvalue="-1" endvalue="1" description="Encontre a Boots Of Haste que fica na Caverna das Aranhas ao noroeste de Edoras.">
+		</mission>
+		<mission name="Brass Armor" storageid="1072" startvalue="-1" endvalue="1" description="Encontre a Brass Armor que est� no subsolo de Lorien que fica ao sudoeste de Dol'Guldur.">
+		</mission>
+		<mission name="Brass Legs" storageid="1075" startvalue="-1" endvalue="1" description="Encontre a Brass Legs que est� na floresta de Edoras.">
+		</mission>
+		<mission name="Bright Sword" storageid="1033" startvalue="-1" endvalue="1" description="Encontre a Bright Sword que fica ao noroeste de Minas Tirith.">
+		</mission>
+		<mission name="Burning Heart" storageid="1070" startvalue="-1" endvalue="1" description="Encontre o Burning Heart que fica ao nordeste de Beleghost.">
+		</mission>
+		<mission name="Chain Armor" storageid="1006" startvalue="-1" endvalue="1" description="Encontre a Chain Armor que fica no subsolo de Bree.">
+		</mission>
+		<mission name="Cook Book" storageid="1062" startvalue="-1" endvalue="1" description="Encontre o Cook Book que fica no subsolo da Vila Dos Dworcs ao sudoeste Forodwaith.">
+		</mission>
+		<mission name="Crocodile Boots" storageid="1076" startvalue="-1" endvalue="1" description="Encontre a Crocodile Boots que est� no subsolo do Mist�rio Das Wyverns.">
+		</mission>
+		<mission name="Crossbow" storageid="1034" startvalue="-1" endvalue="1" description="Econtre o Crossbow que est� Rivendell em cima do Depot.">
+		</mission>
+		<mission name="Dark Helmet" storageid="1017" startvalue="-1" endvalue="1" description="Encontre o Dark Helmet que est� noroeste de Mordor.">
+		</mission>
+		<mission name="Defiler Remains" storageid="1064" startvalue="-1" endvalue="1" description="Encontre o Defiler Remains que fica no Arredores de Minas Tirith.">
+		</mission>
+		<mission name="Devil Helmet" storageid="1015" startvalue="-1" endvalue="1" description="Encontre o Devil Helmet que est� ao noroeste de Mordor.">
+		</mission>
+		<mission name="Drum" storageid="1079" startvalue="-1" endvalue="1" description="Encontre o Drum que est� ao norte de Eriador.">
+		</mission>
+		<mission name="Dwarven Legs 1" storageid="1002" startvalue="-1" endvalue="1" description="Encontre a Dwarven Legs na Montanha Solit�ria que fica ao norte de Esgaroth.">
+		</mission>
+		<mission name="Dwarven Legs 2" storageid="1082" startvalue="-1" endvalue="1" description="Encontre a Dwarven Legs que est� no subsolo de Rivendell.">
+		</mission>
+		<mission name="Emerald Sword" storageid="1092" startvalue="-1" endvalue="1" description="Encontre a Emerald Sword que est� no subsolo de Mordor.">
+		</mission>
+		<mission name="Fire Axe" storageid="1029" startvalue="-1" endvalue="1" description="Encontre o Fire Axe que fica na Ilha De Rhun.">
+		</mission>
+		<mission name="Frost Razor" storageid="1032" startvalue="-1" endvalue="1" description="Encontre a Frost Razor que fica ao noroeste de Minas Tirith.">
+		</mission>
+		<mission name="Glacier Boots" storageid="1021" startvalue="-1" endvalue="1" description="Encontre a Glacier Boots que fica na Aldeia dos B�rbaros ao leste de Forodwaith.">
+		</mission>
+		<mission name="Glacier Kilt" storageid="1018" startvalue="-1" endvalue="1" description="Encontre a Glacier Kilt que fica no subsolo de Esgaroth.">
+		</mission>
+		<mission name="Glacier Robe" storageid="1037" startvalue="-1" endvalue="1" description="Encontre a Glacier Robe que fica no subsolo de Forochel.">
+		</mission>
+		<mission name="Gold Nugeet" storageid="1105" startvalue="-1" endvalue="1" description="Encontre o Gold Nugget que est� no subsolo do Pantano dos Lichs.">
+		</mission>
+		<mission name="Green Gem" storageid="1083" startvalue="-1" endvalue="1" description="Encontre a Green Gem que est� no subsolo do Vale Da Morte.">
+		</mission>
+		<mission name="Griffin Shield" storageid="1099" startvalue="-1" endvalue="1" description="Encontre o Griffin Shield que est� no subsolo do Condado.">
+		</mission>
+		<mission name="Guardian Shield" storageid="1046" startvalue="-1" endvalue="1" description="Encontre Guardian Shield que est� ao norte de Mordor.">
+		</mission>
+		<mission name="Hailstorm Rod 1" storageid="1000" startvalue="-1" endvalue="1" description="Encontre a Hailstorm Rod na Ilha De Gelo que fica ao leste de Forodwaith.">
+		</mission>
+		<mission name="Hailstorm Rod 2" storageid="1098" startvalue="-1" endvalue="1" description="Encontre a Hailstorm Rod que est� ao noroeste de Minas Tirith.">
+		</mission>
+		<mission name="Helmet of the Deep" storageid="1019" startvalue="-1" endvalue="1" description="Encontre o Helmet of the Deep que est� na Ilha Dos Piratas ao sudoeste de Edoras.">
+		</mission>
+		<mission name="Holly Orchid" storageid="1051" startvalue="-1" endvalue="1" description="Encontre Holly Orchid que fia no subsolo de Moria.">
+		</mission>
+		<mission name="Horseman Helmet" storageid="1014" startvalue="-1" endvalue="1" description="Encontre a Horseman Helmet que fica na cidade dos Heros ao norte de Belfallas.">
+		</mission>
+		<mission name="Ice Rapier 1" storageid="1012" startvalue="-1" endvalue="1" description="Encontre a Ice Rapier que est� no subsolo de Dol'Guldur.">
+		</mission>
+		<mission name="Ice Rapier 2" storageid="1043" startvalue="-1" endvalue="1" description="Encontre a Ice Rapier que fica no subsolo de Forodwaith.">
+		</mission>
+		<mission name="Icicle" storageid="1094" startvalue="-1" endvalue="1" description="Encontre a Icicle que est� no subsolo de Nimrais.">
+		</mission>
+		<mission name="Iron Helmet" storageid="1084" startvalue="-1" endvalue="1" description="Encontre o Iron Helmet que est� no subsolo do cemit�rio de Bree.">
+		</mission>
+		<mission name="Knight Axe" storageid="1001" startvalue="-1" endvalue="1" description="Encontre o Knight Axe que est� em Dark Fortess ao nordeste de Bree.">
+		</mission>
+		<mission name="Light Shovel" storageid="1042" startvalue="-1" endvalue="1" description="Encontre a Light Shovel que fica no subsolo de Moria.">
+		</mission>
+		<mission name="Magician Hat" storageid="1106" startvalue="-1" endvalue="1" description="Encontre a Magician Hat que fica na Vila Dos Dworcs ao sudoeste de Forodwaith.">
+		</mission>
+		<mission name="Mysterious Fetish" storageid="1078" startvalue="-1" endvalue="1" description="Encontre a Mysterious Fetish que est� ao norte de Eriador.">
+		</mission>
+		<mission name="Native Armor 1" storageid="1008" startvalue="-1" endvalue="1" description="Encontre a Native Armor que fica no subsolo da Vila Dos Dworcs ao sudoeste de Forodwaith.">
+		</mission>
+		<mission name="Native Armor 2" storageid="1104" startvalue="-1" endvalue="1" description="Encontre a Native Armor que est� no subsolo do Pantano Dos Lichs.">
+		</mission>
+		<mission name="Noble Armor" storageid="1013" startvalue="-1" endvalue="1" description="Encontre a Noble Armor que fica na cidade dos Heros ao norte de Belfallas.">
+		</mission>
+		<mission name="Phoenix Plate" storageid="1090" startvalue="-1" endvalue="1" description="Encontre a Phoenix Plate que est� no subsolo de Dunedain.">
+		</mission>
+		<mission name="Pirate Boots 1" storageid="1011" startvalue="-1" endvalue="1" description="Encontre a Pirate Boots que est� em Pirate Bay ao oeste de Ashenport.">
+		</mission>
+		<mission name="Pirate Boots 2" storageid="1052" startvalue="-1" endvalue="1" description="Encontre a Pirate Boots que fica em Corsario.">
+		</mission>
+		<mission name="Plate armor" storageid="1080" startvalue="-1" endvalue="1" description="Encontre a Plate Armor que est� proximo a entrada de Moria.">
+		</mission>
+		<mission name="Raspberry" storageid="1101" startvalue="-1" endvalue="1" description="Encontre a Raspbery que est� na cidade dos Elfs.">
+		</mission>
+		<mission name="Red Robe" storageid="1010" startvalue="-1" endvalue="1" description="Encontre a Red Robe que fica no Subsolo da Vila Dos Dworcs ao sudoeste de Forodwaith.">
+		</mission>
+		<mission name="Ripper Lance" storageid="1003" startvalue="-1" endvalue="1" description="Encontre a Ripper Lance que est� no Amazon Camp ao sul de Bree">
+		</mission>
+		<mission name="Sapphire Hammer" storageid="1028" startvalue="-1" endvalue="1" description="Encontre a Sapphire Hammer que est� em Orc Forteress que fica ao Lest de Dol'Guldur.">
+		</mission>
+		<mission name="Scale Armor 1" storageid="1007" startvalue="-1" endvalue="1" description="Encontre a Scale Armor que est� em Minotown que fica ao norte de Bree.">
+		</mission>
+		<mission name="Scale Armor 2" storageid="1073" startvalue="-1" endvalue="1" description="Encontre a Scale Armor que est� na Floresta De Edoras.">
+		</mission>
+		<mission name="Scimitar" storageid="1074" startvalue="-1" endvalue="1" description="Encontre a Scimitar que est� na Floresta de Edoras.">
+		</mission>
+		<mission name="Shield of Honor" storageid="1102" startvalue="-1" endvalue="1" description="Encontre o Shield of Honor que est� em Peninsula de Argond.">
+		</mission>
+		<mission name="Stell Helmet" storageid="1071" startvalue="-1" endvalue="1" description="Encontre o Stell Helmet que est� em Lorien que fica ao sudoeste de Dol'Guldur.">
+		</mission>
+		<mission name="Strange Book" storageid="1063" startvalue="-1" endvalue="1" description="Encontre a Strange Book que fica no subsolo do Arredores de Minas Tirith.">
+		</mission>
+		<mission name="Tear of Daraman" storageid="1097" startvalue="-1" endvalue="1" description="Encontre a Tear of Daraman que est� em Nimrais.">
+		</mission>
+		<mission name="Tower Shield" storageid="1053" startvalue="-1" endvalue="1" description="Encontre o Tower Shield que fica no subsolo de Moria.">
+		</mission>
+		<mission name="Vampire Dust" storageid="1068" startvalue="-1" endvalue="1" description="Encontre o Vampire Dust que fica ao nordeste de Beleghost.">
+		</mission>
+		<mission name="Vile Axe" storageid="1091" startvalue="-1" endvalue="1" description="Encontre a Vile Axe que est� no subsolo de Dunedain.">
+		</mission>
+		<mission name="Wand Of Cosmic Energy" storageid="1085" startvalue="-1" endvalue="1" description="Encontre a Wand of Cosmic Energy que est� no subsolo de Minotown.">
+		</mission>
+		<mission name="Wand Of Inferno" storageid="1009" startvalue="-1" endvalue="1" description="Encontre a Wand Of Inferno que est� no Dragon Layer a norte de Bree.">
+		</mission>
+		<mission name="Wooden Key 3001" storageid="1023" startvalue="-1" endvalue="1" description="Encontre a Wooden Key 3001 que fica no subsolo da Vila dos Macacos ao leste de Dol'Guldur.">
+		</mission>
+		<mission name="Wooden Key 3002" storageid="1024" startvalue="-1" endvalue="1" description="Encontre a Wooden Key 3002 que fica no subsolo da Vila dos Macacos ao leste de Dol'Guldur.">
+		</mission>
+		<mission name="Wooden Key 3003" storageid="1025" startvalue="-1" endvalue="1" description="Encontre a Wooden Key 3003 que fica no subsolo da Vila dos Macacos ao leste de Dol'Guldur.">
+		</mission>
+		<mission name="Yellow Gem" storageid="1103" startvalue="-1" endvalue="1" description="Encontre a Yellow Gem que esta no subsolo do Condado.">
+		</mission>
+	 </quest>
+     <quest name="Saruman Key" startstorageid="30001" startstoragevalue="-1" >
+		<mission name="Saruman Key" storageid="5060" startvalue="-1" endvalue="1" description="Descubra onde usar a chave do Saruman.\nLevel: 200+">
+		</mission>
+	</quest>
+
+	
+</quests>

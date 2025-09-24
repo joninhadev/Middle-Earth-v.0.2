@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<npc name="Abdulah" script="default.lua" access="3" lookdir="2" speed="50" walkinterval="10000">
+	<mana now="10" max="10"/>
+	<health now="10" max="10"/>
+	<look type="129" head="96" body="41" legs="39" feet="97" addon="0" corpse="3128"/>
+
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_buyable" value="great spirit potion, 8472, 650; strong mana potion,7589,380;great mana,7590,650;ultimate mana,26029,850;mana potion,7620,200;" />
+		<parameter key="shop_sellable" value="flask,7636,10;big flask,7634,15;large flask,7635,20" />
+
+		<parameter key="message_greet" value="Ola |PLAYERNAME|, eu vendo mana potions, strong mana potions e great mana potions"/>
+	</parameters>
+	
+</npc>

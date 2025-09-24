@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<npc name="Ros Bif" script="barcoBelfallas.lua" access="3" walkinterval="0">
+	<mana now="1000" max="1000"/>
+	<health now="10" max="10"/>
+	<look type="146" head="76" body="101" legs="19" feet="39" addon="0" corpse="3128"/>
+</npc>

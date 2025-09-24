@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+  <monster name="Vanska" nameDescription="Vanska" race="blood" experience="150000" speed="280" manacost="0">
+  <health now="50000" max="50000"/>
+  <look type="254" head="0" body="77" legs="77" feet="114" corpse="20347"/>
+    <targetchange interval="5500" chance="70"/>
+    <strategy attack="100" defense="0"/>
+	
+    <flags>
+      <flag summonable="0"/>
+      <flag attackable="1"/>
+      <flag hostile="1"/>
+      <flag illusionable="0"/>
+      <flag convinceable="0"/>
+      <flag pushable="0"/>
+      <flag canpushitems="1"/>
+      <flag staticattack="70"/>
+      <flag lightlevel="0"/>
+      <flag lightcolor="0"/>
+      <flag targetdistance="1"/>
+      <flag runonhealth="0"/>
+    </flags>
+	
+	<attacks>
+		<attack name="melee" interval="1500" min="-1200" max="-1400"/>
+		
+		<attack name="physical" interval="1420" chance="99" target="1" range="8" min="-1000" max="-1200">
+			<attribute key="shooteffect" value="whirlwindaxe"/>
+			<attribute key="areaEffect" value="redspark"/>
+		</attack>
+		
+		<attack name="physical" interval="1855" chance="75" radius="8" target="0" min="-800" max="-1200">
+			<attribute key="areaEffect" value="rednote"/>
+		</attack>
+	</attacks>
+	
+	<defenses armor="0" defense="0">
+		<defense name="healing" interval="500" chance="100" min="100" max="200"/>
+	</defenses>
+	
+	<elements><element physicalPercent="5"/>
+		<element icePercent="95"/>
+		<element poisonPercent="50"/>
+		<element firePercent="50"/>
+		<element energyPercent="50"/>
+		<element holyPercent="50"/>
+		<element deathPercent="50"/>
+	</elements>
+
+	<immunities>
+		<immunity drown="1"/>
+		<immunity lifedrain="1"/>
+		<immunity paralyze="1"/>
+		<immunity outfit="0"/>
+		<immunity drunk="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	
+    <voices interval="8000" chance="10">
+      <voice sentence="Lai lai lalalai." yell="1"/>
+    </voices>
+	
+    <loot>
+	  <item id="2168" chance="50000"/>
+	  <item id="2168" chance="50000"/>
+      <item id="7462" chance="50000"/>
+      <item id="2430" chance="50000"/>
+      <item id="10298" chance="50000"/>
+      <item id="8884" chance="50000"/>
+    </loot>
+	
+  </monster>

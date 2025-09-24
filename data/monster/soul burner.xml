@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Soul Burner" nameDescription="um Soul Burner" race="fire" experience="15000" speed="120" manacost="0">
+  <health now="12000" max="12000"/>
+  <look type="243" head="0" body="0" legs="0" feet="0" corpse="6324"/>
+  <targetchange interval="5000" chance="5"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="3"/>
+    <flag runonhealth="0"/>
+  </flags>
+
+<attacks>
+	<attack name="melee" interval="1750" min="-520" max="-840"/>
+	
+	<attack name="firefield" interval="3500" chance="65" range="7" radius="4" target="1">
+		<attribute key="shootEffect" value="fire"/>
+	</attack>
+
+	<attack name="fire" interval="2200" chance="50" range="7" radius="2" target="1" min="-550" max="-600">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="explosionarea"/>
+	</attack>
+	
+	<attack name="fire" interval="2450" chance="65" range="7" target= "0" min="-450" max="-800">
+		<attribute key="shootEffect" value="fire"/>
+		<attribute key="areaEffect" value="fireattack"/>
+	</attack>
+	
+	<attack name="fire" interval="2650" chance="70" range="7" radius="3" target="1" min="-450" max="-750">
+		<attribute key="shootEffect" value="flammingarrow"/>
+		<attribute key="areaEffect" value="firearea"/>
+    </attack>
+	
+	<attack name="fire" interval="3500" chance="55" radius="5" min="-800" max="-990">
+		<attribute key="areaEffect" value="redfirework"/>
+	</attack>
+	
+	<attack name="manadrain" interval="2250" chance="45" range="7" min="-250" max="-560"/>
+
+</attacks>
+
+<defenses armor="0" defense="0">
+	<defense name="healing" interval="4220" chance="35" min="250" max="650">
+		
+	</defense>
+</defenses>
+
+  <immunities>
+    <immunity physical="0"/>
+    <immunity energy="0"/>
+    <immunity fire="0"/>
+    <immunity poison="0"/>
+    <immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="1"/>
+    <immunity invisible="1"/>
+  </immunities>
+  
+  <elements>
+		<element firePercent="100"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="30"/>
+		<element icePercent="10"/>
+</elements>
+
+<loot>
+	<item id="9932" chance="5" />
+	<item id="2112" chance="300" />
+	<item id="8877" chance="65" />
+	<item id="7894" chance="170" />
+	<item id="2392" chance="320" />
+	<item id="2421" chance="15" />
+	<item id="2539" chance="120" />
+	<item id="2432" chance="250" />
+	<item id="2187" chance="360" />
+	<item id="10553" chance="9000"/>
+	<item id="2160" chance="240" countmax="1" />
+	<item id="2156" chance="550" />
+	<item id="2151" chance="450" countmax="3" />
+	<item id="2147" chance="850" countmax="3" />
+	<item id="6529" chance="25600" countmax="12" />
+</loot>
+
+</monster>

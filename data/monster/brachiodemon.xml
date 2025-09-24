@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Brachiodemon" nameDescription="a brachiodemon" race="fire" experience="115000" speed="220">
+	<health now="25000" max="25000" />
+	<look type="1299" corpse="39221" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+	    <flag canwalkonfire="1" />
+	    <flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-800" max="-1050" />
+		<attack name="death strike" interval="2000" chance="50" range="7" min="-500" max="-900"><!-- Death Strike  -->
+		</attack>
+		<attack name="fire" interval="2000" chance="55" target="0" radius="3" min="-350" max="-900"><!-- Berserk Fire -->
+			<attribute key="areaEffect" value="fire"/>
+		</attack>
+		<attack name="death" interval="2000" chance="55" target="0" radius="3" min="-350" max="-900"><!-- Berserk Death -->
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+		<attack name="death" interval="2850" chance="22" length="7" spread="0" min="-700" max="-900"><!-- Explos�o de Death -->
+		  <attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="70" defense="70">
+		<defense name="healing" interval="2000" chance="10" min="100" max="350">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>	
+	</defenses>
+	<elements>
+		<element physicalPercent="30" />
+		<element deathPercent="70" />
+		<element icePercent="10" />
+		<element holyPercent="0" />
+		<element firePercent="60" />
+		<element earthPercent="40"/>
+		<element energyPercent="40"/>
+	</elements>
+	<immunities>
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="30">
+		<voice sentence="Hand over your life" />
+		<voice sentence="Feel the heat!" />
+		<voice sentence="I can give you a hand...or two" />
+	</voices>
+	<loot>	
+	<item name="mastermind shield" chance="300"/>
+	<item name="crystal coin" chance="39999"/>
+	<item name="crystal coin" chance="39990"/>
+	<item name="skull staff" chance="500"/>
+	<item name="royal helmet" chance="500"/>
+	<item name="gold coin" countmax="99" chance="39999"/>
+	</loot>
+</monster>

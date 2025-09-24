@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Infernal Demon" nameDescription="a infernal demon" race="fire" experience="125000" speed="200">
+	<health now="32000" max="32000" />
+	<look type="1313" corpse="39305" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+	    <flag canwalkonfire="1" />
+	    <flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-700" max="-1050" />
+		<attack name="fire" interval="2000" chance="50" range="7" min="-500" max="-1000"><!-- Fire Strike  -->
+			<attribute key="shootEffect" value="fire" />
+		</attack>
+		<attack name="great flame beam" interval="4000" chance="35" range="7" min="-350" max="-900">
+		</attack>
+		<attack name="death chain" interval="3000" chance="35">
+		</attack>
+		<attack name="death" interval="2000" chance="55" target="0" radius="3" min="-350" max="-900">
+			<attribute key="areaEffect" value="mortarea"/>
+		</attack>
+	</attacks>
+	<defenses armor="120" defense="50">
+		<defense name="healing" interval="2000" chance="15" min="190" max="350">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>	
+	</defenses>
+	<elements>
+		<element physicalPercent="30" />
+		<element deathPercent="70" />
+		<element icePercent="10" />
+		<element holyPercent="0" />
+		<element firePercent="60" />
+		<element earthPercent="40"/>
+		<element energyPercent="40"/>
+	</elements>
+	<immunities>
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity energy="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="The smell of fear follows you" />
+		<voice sentence="Your soul will burn" />
+	</voices>
+	<loot>
+	<item name="stone skin amulet" chance="1000"/>
+	<item name="magma boots" chance="1000"/>
+	<item name="crystal coin" chance="39990"/>
+	<item name="chaos mace" chance="500"/>
+	<item name="fire axe" chance="600"/>
+	<item name="fire mushroom" countmax="5"/>
+	<item name="gold coin" countmax="99" chance="39999"/>
+	</loot>
+</monster>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Stone Devourer" nameDescription="stone devourer" race="venom" experience="10000" speed="120" manacost="0">
+ <health now="9000" max="9000"/>
+  <look type="486" corpse="18374"/>
+  <targetchange interval="5000" chance="8"/>
+  <strategy attack="90" defense="10"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag staticattack="90"/>
+    <flag runonhealth="0"/>
+  </flags>
+  <attacks>
+    <attack name="melee" interval="2000" skill="100" attack="170"/>
+		<attack name="poison" interval="2000" chance="30" radius="3" target="0" min="-200" max="-300">
+			<attribute key="areaEffect" value="poison"/>
+		</attack>
+		<attack name="energy" interval="5000" chance="5" radius="3" target="0" min="-200" max="-350">
+			<attribute key="areaEffect" value="energy"/>
+		</attack>			
+  
+  </attacks>
+  <defenses armor="0" defense="0">
+    <defense name="healing" interval="1000" chance="10" min="100" max="250">
+      <attribute key="areaEffect" value="blueshimmer"/>
+    </defense>
+  </defenses>
+	<elements>	
+		<element firePercent="30"/>
+		<element holyPercent="10"/>
+		<element deathPercent="30"/>
+		<element earthPercent="50"/>
+		<element energyPercent="50"/>
+		<element physicalPercent="10"/>
+		<element icePercent="20"/>
+	</elements>
+  <immunities>
+    <immunity lifedrain="0"/>
+    <immunity paralyze="100"/>
+    <immunity invisible="100"/>
+  </immunities>       
+  <loot>
+ 	 <item id="2148" countmax="200" chance="99900"/>
+ 	 <item id="18419" countmax="5" chance="2500"/>
+	 <item id="18421" countmax="5" chance="2500"/>
+	 <item id="12658" chance="600"/>
+	  <item id="12659" chance="2000"/>
+	 <item id="2496" chance="90"/>
+ 	 <item id="2536" chance="220"/>
+	 <item id="8880" chance="120"/>
+	 <item id="2444" chance="150"/>
+</loot>
+</monster>

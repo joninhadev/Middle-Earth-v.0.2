@@ -1,0 +1,1416 @@
+2025-09-21 05:00:12 -  [Thread debugging using libthread_db enabled]
+2025-09-21 05:00:12 -  Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+2025-09-21 05:00:13 -  [New Thread 0x7ffff5b23700 (LWP 439002)]
+2025-09-21 05:00:13 -  [New Thread 0x7ffff5322700 (LWP 439003)]
+2025-09-21 05:00:13 -  The OTG-BR - Version: (1.4)
+2025-09-21 05:00:13 -  Compiled with: GNU C++ version 9.4.0
+2025-09-21 05:00:13 -  Compiled on Sep 11 2025 23:45:59 for platform x64
+2025-09-21 05:00:13 -  
+2025-09-21 05:00:13 -  Engine Credits for: TFS Team, OTG Team....
+2025-09-21 05:00:13 -  A server developed by Johncore, Mark Samman and Jonathan..
+2025-09-21 05:00:13 -  
+2025-09-21 05:00:13 -  >> Loading config: config.lua
+2025-09-21 05:00:13 -  >> Establishing database connection...WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-21 05:00:13 -   MySQL 8.0.42
+2025-09-21 05:00:13 -  >> Running database manager
+2025-09-21 05:00:13 -  WARNING: MYSQL_OPT_RECONNECT is deprecated and will be removed in a future version.
+2025-09-21 05:00:13 -  [New Thread 0x7ffff4b0d700 (LWP 439004)]
+2025-09-21 05:00:13 -  > Optimizing table players_online... [success]
+2025-09-21 05:00:13 -  > Optimizing table player_depotitems... [success]
+2025-09-21 05:00:13 -  > Optimizing table player_items... [success]
+2025-09-21 05:00:13 -  > Optimizing table player_deaths... [success]
+2025-09-21 05:00:13 -  > Optimizing table tile_store... [success]
+2025-09-21 05:00:13 -  > Optimizing table player_storage... [success]
+2025-09-21 05:00:13 -  >> Loading vocations
+2025-09-21 05:00:13 -  >> Loading items
+2025-09-21 05:00:14 -  >> Loading script systems
+2025-09-21 05:00:14 -  >> Loading lua libs
+2025-09-21 05:00:14 -  >> Loading bestiary
+2025-09-21 05:00:14 -  >> Loading lua scripts
+2025-09-21 05:00:14 -  >> Loading monsters
+2025-09-21 05:00:14 -  >> Loading lua monsters
+2025-09-21 05:00:14 -  >> Loading outfits
+2025-09-21 05:00:14 -  >> Loading imbuements
+2025-09-21 05:00:14 -  >> Loading charms
+2025-09-21 05:00:14 -  >> Loading Store
+2025-09-21 05:00:14 -  >> Loading prey data
+2025-09-21 05:00:14 -  >> Checking world type... RETRO-PVP
+2025-09-21 05:00:14 -  >> Loading map
+2025-09-21 05:00:22 -  > Map size: 2293x2048.
+2025-09-21 05:00:36 -  > Map loading time: 21.993 seconds.
+2025-09-21 05:00:37 -  > Loaded house items in: 0.015 s
+2025-09-21 05:00:37 -  >> Loading guilds... All guilds have been loaded.
+2025-09-21 05:00:37 -  >> Initializing gamestate
+2025-09-21 05:00:38 -  > Loaded spawns in 0.796 seconds.
+2025-09-21 05:00:38 -  >> Loaded 202 npcs and spawned 25173 monsters.
+2025-09-21 05:00:38 -  >> Loaded 17 towns with 588 houses in total.
+2025-09-21 05:00:38 -  >> Start time: 21.09.2025 - 05:00:38
+2025-09-21 05:00:38 -  Initialization complete.
+2025-09-21 05:00:38 -  >> Loaded all modules, server starting up...
+2025-09-21 05:00:38 -  > Warning: OTG-BR has been executed as root user, please consider running it as a normal user.
+2025-09-21 05:00:38 -  >> Middle Earth Server Server Online!
+2025-09-21 05:00:38 -  
+2025-09-21 05:00:38 -  >> Server started in 25.632 seconds.
+2025-09-21 05:00:38 -  Loading Gynga Bilola...
+2025-09-21 05:00:38 -  Gynga Bilola has logged in.
+2025-09-21 05:00:39 -  Loading Eric Kartmann...
+2025-09-21 05:00:39 -  Eric Kartmann has logged in.
+2025-09-21 05:00:39 -  Loading Doby...
+2025-09-21 05:00:39 -  Doby has logged in.
+2025-09-21 05:00:39 -  Loading Gorbatchov...
+2025-09-21 05:00:39 -  Gorbatchov has logged in.
+2025-09-21 05:00:39 -  Loading Kyou Kai...
+2025-09-21 05:00:39 -  Kyou Kai has logged in.
+2025-09-21 05:00:40 -  Loading Mage Of Rules...
+2025-09-21 05:00:40 -  Mage Of Rules has logged in.
+2025-09-21 05:00:40 -  Loading Betty Boopy...
+2025-09-21 05:00:40 -  Betty Boopy has logged in.
+2025-09-21 05:00:40 -  Loading Pallazin...
+2025-09-21 05:00:40 -  Pallazin has logged in.
+2025-09-21 05:00:40 -  Loading Tumzao...
+2025-09-21 05:00:40 -  Tumzao has logged in.
+2025-09-21 05:00:40 -  Loading Amarelo...
+2025-09-21 05:00:40 -  Amarelo has logged in.
+2025-09-21 05:00:40 -  Loading Soraio...
+2025-09-21 05:00:40 -  Soraio has logged in.
+2025-09-21 05:00:40 -  Loading Dobby...
+2025-09-21 05:00:40 -  Dobby has logged in.
+2025-09-21 05:00:40 -  Loading Mono...
+2025-09-21 05:00:41 -  Mono has logged in.
+2025-09-21 05:00:41 -  Loading Vermelho...
+2025-09-21 05:00:41 -  Vermelho has logged in.
+2025-09-21 05:00:41 -  Loading Totz...
+2025-09-21 05:00:41 -  Totz has logged in.
+2025-09-21 05:00:50 -  Loading Karol Star...
+2025-09-21 05:00:50 -  Karol Star has logged in.
+2025-09-21 05:00:50 -  Loading Xupaengola...
+2025-09-21 05:00:50 -  Xupaengola has logged in.
+2025-09-21 05:01:12 -  Loading Aleska Teodoro...
+2025-09-21 05:01:12 -  Aleska Teodoro has logged in.
+2025-09-21 05:02:54 -  Loading Sento Rebolando...
+2025-09-21 05:02:54 -  Sento Rebolando has logged in.
+2025-09-21 05:23:12 -  [BOSS SYSTEM] Spawned: Azaka
+2025-09-21 05:23:12 -  168.0.190.189 disconnected for exceeding packet per second limit.
+2025-09-21 05:23:12 -  168.0.190.189 disconnected for exceeding packet per second limit.
+2025-09-21 05:23:44 -  Karol Star has logged out.
+2025-09-21 05:23:48 -  Aleska Teodoro has logged out.
+2025-09-21 05:30:29 -  Loading Aleska Teodoro...
+2025-09-21 05:30:29 -  Aleska Teodoro has logged in.
+2025-09-21 05:30:53 -  Loading Karol Star...
+2025-09-21 05:30:53 -  Karol Star has logged in.
+2025-09-21 05:32:52 -  Sento Rebolando has logged out.
+2025-09-21 06:02:15 -  [BOSS SYSTEM] Spawned: Laracna
+2025-09-21 06:02:15 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-09-21 06:02:15 -  Saving server... 21/09/2025 06:02:15
+2025-09-21 06:02:15 -  > Saved house items in: 0.207 s
+2025-09-21 06:34:34 -  [BOSS SYSTEM] Spawned: Avari Leader
+2025-09-21 06:34:34 -  Vermelho has logged out.
+2025-09-21 06:35:06 -  Loading Vermelho...
+2025-09-21 06:35:06 -  Vermelho has logged in.
+2025-09-21 06:52:32 -  [BOSS SYSTEM] Spawned: Azazel
+2025-09-21 06:52:32 -  Amarelo has logged out.
+2025-09-21 06:52:34 -  Loading Amarelo...
+2025-09-21 06:52:34 -  Amarelo has logged in.
+2025-09-21 06:52:39 -  Amarelo has logged out.
+2025-09-21 06:52:39 -  Vermelho has logged out.
+2025-09-21 06:52:40 -  Loading Branco...
+2025-09-21 06:52:40 -  Branco has logged in.
+2025-09-21 06:53:09 -  Loading Vermelho...
+2025-09-21 06:53:09 -  Vermelho has logged in.
+2025-09-21 06:53:15 -  Vermelho has logged out.
+2025-09-21 06:53:16 -  Loading Azul...
+2025-09-21 06:53:16 -  Azul has logged in.
+2025-09-21 06:53:33 -  Loading Kaka Bueno...
+2025-09-21 06:53:33 -  Kaka Bueno has logged in.
+2025-09-21 06:53:46 -  Loading Massey...
+2025-09-21 06:53:46 -  Massey has logged in.
+2025-09-21 06:54:10 -  Kaka Bueno has logged out.
+2025-09-21 06:54:47 -  Massey has logged out.
+2025-09-21 06:57:47 -  Loading Kaka Bueno...
+2025-09-21 06:57:47 -  Kaka Bueno has logged in.
+2025-09-21 06:58:48 -  Kaka Bueno has logged out.
+2025-09-21 06:59:51 -  Loading Massey...
+2025-09-21 06:59:51 -  Massey has logged in.
+2025-09-21 07:00:06 -  Massey has logged out.
+2025-09-21 07:00:18 -  [BOSS SYSTEM] Spawned: Khel Thuzad
+2025-09-21 07:00:18 -  Loading Kaka Bueno...
+2025-09-21 07:00:18 -  Kaka Bueno has logged in.
+2025-09-21 07:01:38 -  Totz has logged out.
+2025-09-21 07:02:11 -  Loading Totz...
+2025-09-21 07:02:11 -  Totz has logged in.
+2025-09-21 07:02:15 -  Saving server... 21/09/2025 07:02:15
+2025-09-21 07:02:15 -  > Saved house items in: 0.16 s
+2025-09-21 07:03:13 -  Loading Massey...
+2025-09-21 07:03:13 -  Massey has logged in.
+2025-09-21 07:11:34 -  Betty Boopy has logged out.
+2025-09-21 07:12:07 -  Loading Betty Boopy...
+2025-09-21 07:12:07 -  Betty Boopy has logged in.
+2025-09-21 07:13:19 -  Mage Of Rules has logged out.
+2025-09-21 07:13:51 -  Loading Mage Of Rules...
+2025-09-21 07:13:51 -  Mage Of Rules has logged in.
+2025-09-21 07:15:38 -  Pallazin has logged out.
+2025-09-21 07:16:10 -  Loading Pallazin...
+2025-09-21 07:16:10 -  Pallazin has logged in.
+2025-09-21 07:24:23 -  [BOSS SYSTEM] Spawned: Wormageddon
+2025-09-21 07:24:23 -  Mono has logged out.
+2025-09-21 07:24:56 -  Loading Mono...
+2025-09-21 07:24:56 -  Mono has logged in.
+2025-09-21 07:37:32 -  Loading Oppenheimer...
+2025-09-21 07:37:32 -  Oppenheimer has logged in.
+2025-09-21 07:40:58 -  [BOSS SYSTEM] Spawned: Valaraukar
+2025-09-21 07:40:58 -  Tumzao has logged out.
+2025-09-21 07:41:30 -  Loading Tumzao...
+2025-09-21 07:41:30 -  Tumzao has logged in.
+2025-09-21 07:56:54 -  Oppenheimer has logged out.
+2025-09-21 08:02:15 -  [BOSS SYSTEM] Spawned: Ferumbras
+2025-09-21 08:02:15 -  Saving server... 21/09/2025 08:02:15
+2025-09-21 08:02:15 -  > Saved house items in: 0.157 s
+2025-09-21 08:03:09 -  Kyou Kai has logged out.
+2025-09-21 08:03:11 -  Loading Kyou Kai...
+2025-09-21 08:03:11 -  Kyou Kai has logged in.
+2025-09-21 08:19:05 -  Loading Tutubarao...
+2025-09-21 08:19:05 -  Tutubarao has logged in.
+2025-09-21 08:30:29 -  [BOSS SYSTEM] Spawned: Jaul
+2025-09-21 08:30:29 -  Azul has logged out.
+2025-09-21 08:31:01 -  Loading Azul...
+2025-09-21 08:31:01 -  Azul has logged in.
+2025-09-21 08:38:16 -  Branco has logged out.
+2025-09-21 08:38:49 -  Loading Branco...
+2025-09-21 08:38:49 -  Branco has logged in.
+2025-09-21 09:01:05 -  [BOSS SYSTEM] Spawned: Cerberus
+2025-09-21 09:01:05 -  [BOSS SYSTEM] Spawned: Ancalagon
+2025-09-21 09:01:05 -  Loading Bryan Mbeumo...
+2025-09-21 09:01:05 -  Bryan Mbeumo has logged in.
+2025-09-21 09:02:15 -  Saving server... 21/09/2025 09:02:15
+2025-09-21 09:02:15 -  > Saved house items in: 0.145 s
+2025-09-21 09:39:00 -  [BOSS SYSTEM] Spawned: Saruman
+2025-09-21 09:39:00 -  Loading Omaigodi...
+2025-09-21 09:39:00 -  Omaigodi has logged in.
+2025-09-21 09:39:45 -  Loading Antedeguemon...
+2025-09-21 09:39:45 -  Antedeguemon has logged in.
+2025-09-21 09:40:05 -  Loading Silveex...
+2025-09-21 09:40:05 -  Silveex has logged in.
+2025-09-21 09:40:23 -  [BOSS SYSTEM] Spawned: Obujos
+2025-09-21 09:40:23 -  Loading Mono Dedo...
+2025-09-21 09:40:23 -  Mono Dedo has logged in.
+2025-09-21 09:43:41 -  Loading Romario Jr...
+2025-09-21 09:43:41 -  Romario Jr has logged in.
+2025-09-21 09:44:56 -  Loading Dark Bebo...
+2025-09-21 09:44:56 -  Dark Bebo has logged in.
+2025-09-21 09:49:32 -  Loading Lord Gaucho...
+2025-09-21 09:49:32 -  Lord Gaucho has logged in.
+2025-09-21 09:52:09 -  Lord Gaucho has logged out.
+2025-09-21 09:52:10 -  Loading King Gauderio...
+2025-09-21 09:52:10 -  King Gauderio has logged in.
+2025-09-21 09:56:44 -  Loading Re Zero Beatrice...
+2025-09-21 09:56:44 -  Re Zero Beatrice has logged in.
+2025-09-21 10:02:15 -  [BOSS SYSTEM] Spawned: Zamulosh
+2025-09-21 10:02:15 -  Saving server... 21/09/2025 10:02:15
+2025-09-21 10:02:15 -  > Saved house items in: 0.156 s
+2025-09-21 10:13:00 -  Loading Tu Culo Es Mio...
+2025-09-21 10:13:00 -  Tu Culo Es Mio has logged in.
+2025-09-21 10:14:28 -  Tu Culo Es Mio has logged out.
+2025-09-21 10:17:46 -  Loading Gardenal Rs...
+2025-09-21 10:17:46 -  Gardenal Rs has logged in.
+2025-09-21 10:18:35 -  Loading Podolski...
+2025-09-21 10:18:35 -  Podolski has logged in.
+2025-09-21 10:21:04 -  [BOSS SYSTEM] Spawned: Olog-hai
+2025-09-21 10:21:04 -  Loading Gaa Ahz...
+2025-09-21 10:21:04 -  Gaa Ahz has logged in.
+2025-09-21 10:21:48 -  Loading Case...
+2025-09-21 10:21:48 -  Case has logged in.
+2025-09-21 10:24:08 -  Branco has logged out.
+2025-09-21 10:24:41 -  Loading Branco...
+2025-09-21 10:24:41 -  Branco has logged in.
+2025-09-21 10:32:30 -  King Gauderio has logged out.
+2025-09-21 10:46:33 -  [BOSS SYSTEM] Spawned: Lord of The Elements
+2025-09-21 10:46:33 -  Loading Zico Dez...
+2025-09-21 10:46:33 -  Zico Dez has logged in.
+2025-09-21 10:46:47 -  Gardenal Rs has logged out.
+2025-09-21 10:46:50 -  Loading Gardenal Rs...
+2025-09-21 10:46:50 -  Gardenal Rs has logged in.
+2025-09-21 10:48:17 -  Loading Skylline...
+2025-09-21 10:48:17 -  Skylline has logged in.
+2025-09-21 10:49:31 -  Gardenal Rs has logged out.
+2025-09-21 10:50:50 -  Loading Gardenal Rs...
+2025-09-21 10:50:50 -  Gardenal Rs has logged in.
+2025-09-21 10:53:03 -  Re Zero Beatrice has logged out.
+2025-09-21 10:53:37 -  Loading Re Zero Beatrice...
+2025-09-21 10:53:37 -  Re Zero Beatrice has logged in.
+2025-09-21 10:59:45 -  Loading Tolkien...
+2025-09-21 10:59:45 -  Tolkien has logged in.
+2025-09-21 11:01:21 -  [BOSS SYSTEM] Spawned: Scatha
+2025-09-21 11:01:21 -  Loading Stormy...
+2025-09-21 11:01:21 -  Stormy has logged in.
+2025-09-21 11:01:22 -  Loading Kael...
+2025-09-21 11:01:22 -  Kael has logged in.
+2025-09-21 11:02:15 -  Saving server... 21/09/2025 11:02:15
+2025-09-21 11:02:16 -  > Saved house items in: 0.146 s
+2025-09-21 11:02:16 -  Gardenal Rs has logged out.
+2025-09-21 11:02:21 -  Loading Gardenal Rs...
+2025-09-21 11:02:21 -  Gardenal Rs has logged in.
+2025-09-21 11:04:34 -  Loading Zhang Chulan...
+2025-09-21 11:04:34 -  Zhang Chulan has logged in.
+2025-09-21 11:12:43 -  Gardenal Rs has logged out.
+2025-09-21 11:13:07 -  Loading Gardenal Rs...
+2025-09-21 11:13:07 -  Gardenal Rs has logged in.
+2025-09-21 11:16:01 -  Loading Psychobolt...
+2025-09-21 11:16:01 -  Psychobolt has logged in.
+2025-09-21 11:26:43 -  [BOSS SYSTEM] Spawned: Evancing
+2025-09-21 11:26:43 -  Gardenal Rs has logged out.
+2025-09-21 11:27:24 -  Loading Gardenal Rs...
+2025-09-21 11:27:24 -  Gardenal Rs has logged in.
+2025-09-21 11:27:54 -  Gardenal Rs has logged out.
+2025-09-21 11:28:19 -  Loading Nandox Pcd...
+2025-09-21 11:28:19 -  Nandox Pcd has logged in.
+2025-09-21 11:28:31 -  Loading Gardenal Rs...
+2025-09-21 11:28:31 -  Gardenal Rs has logged in.
+2025-09-21 11:28:47 -  Loading [GOD] Middle Earth...
+2025-09-21 11:28:47 -  [GOD] Middle Earth has logged in.
+2025-09-21 11:30:11 -  Loading Dwarf King...
+2025-09-21 11:30:11 -  Dwarf King has logged in.
+2025-09-21 11:31:15 -  Re Zero Beatrice has logged out.
+2025-09-21 11:31:21 -  Loading Re Zero Beatrice...
+2025-09-21 11:31:21 -  Re Zero Beatrice has logged in.
+2025-09-21 11:38:44 -  Loading Sacolon...
+2025-09-21 11:38:44 -  Sacolon has logged in.
+2025-09-21 11:38:50 -  Sacolon has logged out.
+2025-09-21 11:38:51 -  Loading Sacolin...
+2025-09-21 11:38:51 -  Sacolin has logged in.
+2025-09-21 11:41:16 -  [BOSS SYSTEM] Spawned: Deathstrike
+2025-09-21 11:41:16 -  Loading Sukram...
+2025-09-21 11:41:16 -  Sukram has logged in.
+2025-09-21 11:43:06 -  Sukram has logged out.
+2025-09-21 11:43:08 -  Loading Suukram...
+2025-09-21 11:43:08 -  Suukram has logged in.
+2025-09-21 11:51:06 -  Loading Drumbash Pebblebeard...
+2025-09-21 11:51:06 -  Drumbash Pebblebeard has logged in.
+2025-09-21 12:02:15 -  [BOSS SYSTEM] Spawned: Emelianenko
+2025-09-21 12:02:15 -  Saving server... 21/09/2025 12:02:15
+2025-09-21 12:02:16 -  > Saved house items in: 0.19 s
+2025-09-21 12:07:14 -  Loading Old Spice...
+2025-09-21 12:07:14 -  Old Spice has logged in.
+2025-09-21 12:08:19 -  Loading Alexandre De Moraes...
+2025-09-21 12:08:19 -  Alexandre De Moraes has logged in.
+2025-09-21 12:15:19 -  Tumzao has logged out.
+2025-09-21 12:16:08 -  Tutubarao has logged out.
+2025-09-21 12:16:48 -  Loading Tumzao...
+2025-09-21 12:16:48 -  Tumzao has logged in.
+2025-09-21 12:17:25 -  Old Spice has logged out.
+2025-09-21 12:21:06 -  [BOSS SYSTEM] Spawned: Ferumbras
+2025-09-21 12:21:06 -  Sacolin has logged out.
+2025-09-21 12:21:08 -  Loading Sacolon...
+2025-09-21 12:21:08 -  Sacolon has logged in.
+2025-09-21 12:21:10 -  Sacolon has logged out.
+2025-09-21 12:21:23 -  Suukram has logged out.
+2025-09-21 12:26:30 -  Tumzao has logged out.
+2025-09-21 12:27:37 -  Loading Fuu Houhou...
+2025-09-21 12:27:37 -  Fuu Houhou has logged in.
+2025-09-21 12:28:46 -  Loading Chou Soran...
+2025-09-21 12:28:46 -  Chou Soran has logged in.
+2025-09-21 12:37:12 -  Antedeguemon has logged out.
+2025-09-21 12:37:22 -  Re Zero Beatrice has logged out.
+2025-09-21 12:37:39 -  Loading Re Zero Beatrice...
+2025-09-21 12:37:39 -  Re Zero Beatrice has logged in.
+2025-09-21 12:38:01 -  Silveex has logged out.
+2025-09-21 12:38:35 -  Loading Antedeguemon...
+2025-09-21 12:38:35 -  Antedeguemon has logged in.
+2025-09-21 12:39:43 -  Antedeguemon has logged out.
+2025-09-21 12:39:44 -  Loading Antedeguemon...
+2025-09-21 12:39:44 -  Antedeguemon has logged in.
+2025-09-21 12:40:42 -  [BOSS SYSTEM] Spawned: Son of Ancalagon
+2025-09-21 12:40:42 -  Antedeguemon has logged out.
+2025-09-21 12:40:54 -  Loading Antedeguemon...
+2025-09-21 12:40:54 -  Antedeguemon has logged in.
+2025-09-21 12:41:19 -  Antedeguemon has logged out.
+2025-09-21 12:43:02 -  Mono Dedo has logged out.
+2025-09-21 12:43:35 -  Kyou Kai has logged out.
+2025-09-21 12:43:37 -  Loading Kyou Kai...
+2025-09-21 12:43:37 -  Kyou Kai has logged in.
+2025-09-21 12:44:12 -  Omaigodi has logged out.
+2025-09-21 12:48:06 -  Re Zero Beatrice has logged out.
+2025-09-21 12:58:49 -  Loading Porno Gay...
+2025-09-21 12:58:49 -  Porno Gay has logged in.
+2025-09-21 13:02:15 -  [BOSS SYSTEM] Spawned: Ungoliant
+2025-09-21 13:02:15 -  Saving server... 21/09/2025 13:02:15
+2025-09-21 13:02:15 -  > Saved house items in: 0.144 s
+2025-09-21 13:03:53 -  Loading Re Zero Beatrice...
+2025-09-21 13:03:53 -  Re Zero Beatrice has logged in.
+2025-09-21 13:04:43 -  Psychobolt has logged out.
+2025-09-21 13:07:08 -  Massey has logged out.
+2025-09-21 13:08:11 -  Loading Oppenheimer...
+2025-09-21 13:08:11 -  Oppenheimer has logged in.
+2025-09-21 13:09:32 -  Loading Ozymandias...
+2025-09-21 13:09:32 -  Ozymandias has logged in.
+2025-09-21 13:10:48 -  Alexandre De Moraes has logged out.
+2025-09-21 13:12:29 -  Loading Psychobolt...
+2025-09-21 13:12:29 -  Psychobolt has logged in.
+2025-09-21 13:13:23 -  Xupaengola has logged out.
+2025-09-21 13:13:29 -  Psychobolt has logged out.
+2025-09-21 13:13:32 -  Loading Psychobolt...
+2025-09-21 13:13:32 -  Psychobolt has logged in.
+2025-09-21 13:14:12 -  
+2025-09-21 13:14:12 -  Lua Script Error: [Scripts Interface] 
+2025-09-21 13:14:12 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-21 13:14:12 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-21 13:14:12 -  stack traceback:
+2025-09-21 13:14:12 -  	[C]: in function 'getManaMultiplier'
+2025-09-21 13:14:12 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-21 13:14:12 -  	[C]: at 0x555555805964
+2025-09-21 13:14:14 -  
+2025-09-21 13:14:14 -  Lua Script Error: [Scripts Interface] 
+2025-09-21 13:14:14 -  /otserver/data/scripts/creaturescripts/guild_house_no_frag.lua:callback
+2025-09-21 13:14:14 -  ...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: attempt to call method 'getManaMultiplier' (a nil value)
+2025-09-21 13:14:14 -  stack traceback:
+2025-09-21 13:14:14 -  	[C]: in function 'getManaMultiplier'
+2025-09-21 13:14:14 -  	...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:53: in function <...ver/data/scripts/creaturescripts/guild_house_no_frag.lua:44>
+2025-09-21 13:14:14 -  	[C]: at 0x555555805964
+2025-09-21 13:14:15 -  Nandox Pcd has logged out.
+2025-09-21 13:14:53 -  Re Zero Beatrice has logged out.
+2025-09-21 13:14:57 -  Loading Re Zero Beatrice...
+2025-09-21 13:14:57 -  Re Zero Beatrice has logged in.
+2025-09-21 13:14:59 -  Ozymandias has logged out.
+2025-09-21 13:15:26 -  Loading Ozymandias...
+2025-09-21 13:15:26 -  Ozymandias has logged in.
+2025-09-21 13:15:48 -  Ozymandias has logged out.
+2025-09-21 13:16:01 -  Oppenheimer has logged out.
+2025-09-21 13:20:27 -  [BOSS SYSTEM] Spawned: The Necromancer
+2025-09-21 13:20:27 -  Loading Enfermeira Joy...
+2025-09-21 13:20:27 -  Enfermeira Joy has logged in.
+2025-09-21 13:29:04 -  Loading Alexandre De Moraes...
+2025-09-21 13:29:04 -  Alexandre De Moraes has logged in.
+2025-09-21 13:32:33 -  Psychobolt has logged out.
+2025-09-21 13:35:53 -  Loading Psychobolt...
+2025-09-21 13:35:53 -  Psychobolt has logged in.
+2025-09-21 13:36:25 -  Psychobolt has logged out.
+2025-09-21 13:36:28 -  Loading Lucky Roux...
+2025-09-21 13:36:28 -  Lucky Roux has logged in.
+2025-09-21 13:36:34 -  Lucky Roux has logged out.
+2025-09-21 13:38:12 -  Porno Gay has logged out.
+2025-09-21 13:38:13 -  Loading Porno Gay...
+2025-09-21 13:38:13 -  Porno Gay has logged in.
+2025-09-21 13:39:07 -  Dwarf King has logged out.
+2025-09-21 13:39:08 -  Loading Dwarf King...
+2025-09-21 13:39:08 -  Dwarf King has logged in.
+2025-09-21 13:42:38 -  [BOSS SYSTEM] Spawned: Eddie
+2025-09-21 13:42:38 -  Enfermeira Joy has logged out.
+2025-09-21 13:42:39 -  Loading Enfermeira Joy...
+2025-09-21 13:42:39 -  Enfermeira Joy has logged in.
+2025-09-21 13:44:30 -  Alexandre De Moraes has logged out.
+2025-09-21 13:44:33 -  Loading Alexandre De Moraes...
+2025-09-21 13:44:33 -  Alexandre De Moraes has logged in.
+2025-09-21 13:44:40 -  Enfermeira Joy has logged out.
+2025-09-21 13:46:23 -  Re Zero Beatrice has logged out.
+2025-09-21 13:46:27 -  Loading Re Zero Beatrice...
+2025-09-21 13:46:27 -  Re Zero Beatrice has logged in.
+2025-09-21 13:46:53 -  Loading Oppenheimer...
+2025-09-21 13:46:53 -  Oppenheimer has logged in.
+2025-09-21 13:48:01 -  Oppenheimer has logged out.
+2025-09-21 13:50:07 -  Loading Nandox Pcd...
+2025-09-21 13:50:07 -  Nandox Pcd has logged in.
+2025-09-21 13:50:18 -  Zico Dez has logged out.
+2025-09-21 13:57:50 -  Betty Boopy has logged out.
+2025-09-21 13:58:22 -  Loading Betty Boopy...
+2025-09-21 13:58:22 -  Betty Boopy has logged in.
+2025-09-21 14:02:00 -  [BOSS SYSTEM] Spawned: Azaka
+2025-09-21 14:02:00 -  Pallazin has logged out.
+2025-09-21 14:02:15 -  Saving server... 21/09/2025 14:02:15
+2025-09-21 14:02:15 -  > Saved house items in: 0.19 s
+2025-09-21 14:02:17 -  Branco has logged out.
+2025-09-21 14:02:32 -  Loading Pallazin...
+2025-09-21 14:02:32 -  Pallazin has logged in.
+2025-09-21 14:02:49 -  Loading Branco...
+2025-09-21 14:02:49 -  Branco has logged in.
+2025-09-21 14:04:31 -  Alexandre De Moraes has logged out.
+2025-09-21 14:04:34 -  Loading Alexandre De Moraes...
+2025-09-21 14:04:34 -  Alexandre De Moraes has logged in.
+2025-09-21 14:10:50 -  Mage Of Rules has logged out.
+2025-09-21 14:11:22 -  Loading Mage Of Rules...
+2025-09-21 14:11:22 -  Mage Of Rules has logged in.
+2025-09-21 14:22:42 -  [BOSS SYSTEM] Spawned: Ancalagon
+2025-09-21 14:22:42 -  Dark Bebo has logged out.
+2025-09-21 14:22:45 -  Loading Dark Bebo...
+2025-09-21 14:22:45 -  Dark Bebo has logged in.
+2025-09-21 14:29:36 -  Alexandre De Moraes has logged out.
+2025-09-21 14:29:40 -  Loading Alexandre De Moraes...
+2025-09-21 14:29:40 -  Alexandre De Moraes has logged in.
+2025-09-21 14:29:43 -  Alexandre De Moraes has logged out.
+2025-09-21 14:29:45 -  Loading Alexandre De Moraes...
+2025-09-21 14:29:45 -  Alexandre De Moraes has logged in.
+2025-09-21 14:29:51 -  Alexandre De Moraes has logged out.
+2025-09-21 14:31:28 -  Mono has logged out.
+2025-09-21 14:32:01 -  Loading Mono...
+2025-09-21 14:32:01 -  Mono has logged in.
+2025-09-21 14:33:23 -  Re Zero Beatrice has logged out.
+2025-09-21 14:33:27 -  Loading Re Zero Beatrice...
+2025-09-21 14:33:27 -  Re Zero Beatrice has logged in.
+2025-09-21 14:46:43 -  [BOSS SYSTEM] Spawned: Olog-hai
+2025-09-21 14:46:43 -  Loading Kropokiev...
+2025-09-21 14:46:43 -  Kropokiev has logged in.
+2025-09-21 14:47:08 -  Loading Oppenheimer...
+2025-09-21 14:47:08 -  Oppenheimer has logged in.
+2025-09-21 14:49:28 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-21 14:50:53 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-21 14:53:10 -  Kropokiev has logged out.
+2025-09-21 14:53:40 -  Loading Massey...
+2025-09-21 14:53:40 -  Massey has logged in.
+2025-09-21 14:56:36 -  Oppenheimer has logged out.
+2025-09-21 14:57:25 -  168.0.190.189 disconnected for exceeding packet per second limit.
+2025-09-21 14:58:20 -  Karol Star has logged out.
+2025-09-21 15:00:57 -  [BOSS SYSTEM] Spawned: Valaraukar
+2025-09-21 15:00:57 -  Loading Sento Rebolando...
+2025-09-21 15:00:57 -  Sento Rebolando has logged in.
+2025-09-21 15:01:14 -  177.208.243.72 disconnected for exceeding packet per second limit.
+2025-09-21 15:01:14 -  177.208.243.72 disconnected for exceeding packet per second limit.
+2025-09-21 15:02:15 -  Saving server... 21/09/2025 15:02:15
+2025-09-21 15:02:15 -  > Saved house items in: 0.157 s
+2025-09-21 15:02:46 -  Gardenal Rs has logged out.
+2025-09-21 15:02:51 -  Loading Gardenal Rs...
+2025-09-21 15:02:51 -  Gardenal Rs has logged in.
+2025-09-21 15:02:55 -  Loading Alexandre De Moraes...
+2025-09-21 15:02:55 -  Alexandre De Moraes has logged in.
+2025-09-21 15:03:23 -  Alexandre De Moraes has logged out.
+2025-09-21 15:03:45 -  Stormy has logged out.
+2025-09-21 15:03:51 -  Gardenal Rs has logged out.
+2025-09-21 15:03:52 -  177.208.243.72 disconnected for exceeding packet per second limit.
+2025-09-21 15:03:54 -  Loading Stormy...
+2025-09-21 15:03:54 -  Stormy has logged in.
+2025-09-21 15:04:08 -  Loading Old Spice...
+2025-09-21 15:04:08 -  Old Spice has logged in.
+2025-09-21 15:08:12 -  Old Spice has logged out.
+2025-09-21 15:11:50 -  Loading Kropokiev...
+2025-09-21 15:11:50 -  Kropokiev has logged in.
+2025-09-21 15:12:10 -  Case has logged out.
+2025-09-21 15:12:51 -  Kaka Bueno has logged out.
+2025-09-21 15:14:05 -  Loading Andin Inevitavel...
+2025-09-21 15:14:05 -  Andin Inevitavel has logged in.
+2025-09-21 15:14:17 -  Loading Case...
+2025-09-21 15:14:17 -  Case has logged in.
+2025-09-21 15:15:45 -  Andin Inevitavel has logged out.
+2025-09-21 15:15:55 -  Loading Andin Inevitavel...
+2025-09-21 15:15:55 -  Andin Inevitavel has logged in.
+2025-09-21 15:15:57 -  Chou Soran has logged out.
+2025-09-21 15:19:22 -  Kropokiev has logged out.
+2025-09-21 15:23:42 -  [BOSS SYSTEM] Spawned: Baalrog
+2025-09-21 15:23:42 -  Fuu Houhou has logged out.
+2025-09-21 15:33:41 -  Loading Autobot Onn...
+2025-09-21 15:33:41 -  Autobot Onn has logged in.
+2025-09-21 15:34:51 -  Loading Orc Lokao...
+2025-09-21 15:34:51 -  Orc Lokao has logged in.
+2025-09-21 15:36:14 -  Loading Alexandre De Moraes...
+2025-09-21 15:36:14 -  Alexandre De Moraes has logged in.
+2025-09-21 15:37:39 -  Alexandre De Moraes has logged out.
+2025-09-21 15:38:51 -  Loading Oppenheimer...
+2025-09-21 15:38:51 -  Oppenheimer has logged in.
+2025-09-21 15:50:15 -  [BOSS SYSTEM] Spawned: Jormungand
+2025-09-21 15:50:15 -  Aleska Teodoro has logged out.
+2025-09-21 15:52:29 -  Sento Rebolando has logged out.
+2025-09-21 15:52:37 -  Loading Sento Rebolando...
+2025-09-21 15:52:37 -  Sento Rebolando has logged in.
+2025-09-21 15:54:53 -  Loading Czolg Wojenny...
+2025-09-21 15:54:53 -  Czolg Wojenny has logged in.
+2025-09-21 15:55:00 -  Loading Tu Culo Es Mio...
+2025-09-21 15:55:00 -  Loading Tu Culo Es Mio...
+2025-09-21 15:55:00 -  Loading Tu Culo Es Mio...
+2025-09-21 15:55:02 -  Czolg Wojenny has logged out.
+2025-09-21 15:57:01 -  Dwarf King has logged out.
+2025-09-21 15:59:12 -  Sento Rebolando has logged out.
+2025-09-21 15:59:16 -  Loading Sento Rebolando...
+2025-09-21 15:59:16 -  Sento Rebolando has logged in.
+2025-09-21 16:02:15 -  [BOSS SYSTEM] Spawned: Avari Leader
+2025-09-21 16:02:15 -  Saving server... 21/09/2025 16:02:15
+2025-09-21 16:02:15 -  > Saved house items in: 0.142 s
+2025-09-21 16:02:36 -  Loading Illidian Rullex...
+2025-09-21 16:02:36 -  Illidian Rullex has logged in.
+2025-09-21 16:10:36 -  Stormy has logged out.
+2025-09-21 16:10:38 -  Tolkien has logged out.
+2025-09-21 16:10:38 -  Kael has logged out.
+2025-09-21 16:11:06 -  Loading Stormy...
+2025-09-21 16:11:06 -  Stormy has logged in.
+2025-09-21 16:11:06 -  Loading Kael...
+2025-09-21 16:11:06 -  Kael has logged in.
+2025-09-21 16:11:06 -  Loading Tolkien...
+2025-09-21 16:11:06 -  Tolkien has logged in.
+2025-09-21 16:11:47 -  Loading Awesome Sophia...
+2025-09-21 16:11:47 -  Awesome Sophia has logged in.
+2025-09-21 16:12:06 -  Awesome Sophia has logged out.
+2025-09-21 16:15:53 -  Kael has logged out.
+2025-09-21 16:15:57 -  Loading Kael...
+2025-09-21 16:15:57 -  Kael has logged in.
+2025-09-21 16:29:52 -  [BOSS SYSTEM] Spawned: Ancalagon
+2025-09-21 16:29:52 -  Sento Rebolando has logged out.
+2025-09-21 16:30:02 -  Loading Sento Rebolando...
+2025-09-21 16:30:02 -  Sento Rebolando has logged in.
+2025-09-21 16:31:39 -  Loading Gardenal Rs...
+2025-09-21 16:31:39 -  Gardenal Rs has logged in.
+2025-09-21 16:35:45 -  Stormy has logged out.
+2025-09-21 16:36:02 -  Loading Stormy...
+2025-09-21 16:36:02 -  Stormy has logged in.
+2025-09-21 16:41:25 -  [BOSS SYSTEM] Spawned: Adramelech
+2025-09-21 16:41:25 -  Loading [CM] Middle Earth...
+2025-09-21 16:41:25 -  [CM] Middle Earth has logged in.
+2025-09-21 16:45:23 -  Loading Elzinho Druid...
+2025-09-21 16:45:24 -  Elzinho Druid has logged in.
+2025-09-21 16:47:24 -  Loading Jumahu...
+2025-09-21 16:47:24 -  Jumahu has logged in.
+2025-09-21 16:47:25 -  Loading Logitch...
+2025-09-21 16:47:25 -  Logitch has logged in.
+2025-09-21 16:47:26 -  Loading Alone Schadeck...
+2025-09-21 16:47:26 -  Alone Schadeck has logged in.
+2025-09-21 16:47:26 -  Loading Paramax...
+2025-09-21 16:47:26 -  Paramax has logged in.
+2025-09-21 16:51:57 -  Sento Rebolando has logged out.
+2025-09-21 16:52:09 -  Loading Sento Rebolando...
+2025-09-21 16:52:09 -  Sento Rebolando has logged in.
+2025-09-21 16:53:18 -  Re Zero Beatrice has logged out.
+2025-09-21 16:53:23 -  Loading Re Zero Beatrice...
+2025-09-21 16:53:23 -  Re Zero Beatrice has logged in.
+2025-09-21 16:56:01 -  Bryan Mbeumo has logged out.
+2025-09-21 16:56:03 -  Loading Bryan Mbeumo...
+2025-09-21 16:56:03 -  Bryan Mbeumo has logged in.
+2025-09-21 16:56:22 -  Loading Ogro Sinistro...
+2025-09-21 16:56:22 -  Ogro Sinistro has logged in.
+2025-09-21 16:57:39 -  Loading Old Spice...
+2025-09-21 16:57:39 -  Old Spice has logged in.
+2025-09-21 16:58:13 -  Dark Bebo has logged out.
+2025-09-21 16:58:16 -  Loading Dark Bebo...
+2025-09-21 16:58:16 -  Dark Bebo has logged in.
+2025-09-21 17:02:15 -  [BOSS SYSTEM] Spawned: Smaug
+2025-09-21 17:02:15 -  Saving server... 21/09/2025 17:02:15
+2025-09-21 17:02:16 -  > Saved house items in: 0.149 s
+2025-09-21 17:02:22 -  Loading Elven Sinistro...
+2025-09-21 17:02:22 -  Elven Sinistro has logged in.
+2025-09-21 17:05:46 -  Loading Tumzao...
+2025-09-21 17:05:46 -  Tumzao has logged in.
+2025-09-21 17:07:48 -  Loading Druid Sinistro...
+2025-09-21 17:07:48 -  Druid Sinistro has logged in.
+2025-09-21 17:09:45 -  Gardenal Rs has logged out.
+2025-09-21 17:09:50 -  Loading Gardenal Rs...
+2025-09-21 17:09:50 -  Gardenal Rs has logged in.
+2025-09-21 17:09:59 -  Loading Alexandre De Moraes...
+2025-09-21 17:09:59 -  Alexandre De Moraes has logged in.
+2025-09-21 17:11:18 -  Alexandre De Moraes has logged out.
+2025-09-21 17:11:52 -  Loading John Wick...
+2025-09-21 17:11:52 -  John Wick has logged in.
+2025-09-21 17:13:41 -  Old Spice has logged out.
+2025-09-21 17:13:44 -  Loading Old Spice...
+2025-09-21 17:13:44 -  Old Spice has logged in.
+2025-09-21 17:20:45 -  [BOSS SYSTEM] Spawned: Olog-hai
+2025-09-21 17:20:45 -  John Wick has logged out.
+2025-09-21 17:20:49 -  Loading John Wick...
+2025-09-21 17:20:49 -  John Wick has logged in.
+2025-09-21 17:27:07 -  Loading Alexandre De Moraes...
+2025-09-21 17:27:07 -  Alexandre De Moraes has logged in.
+2025-09-21 17:27:28 -  Alexandre De Moraes has logged out.
+2025-09-21 17:27:31 -  Gardenal Rs has logged out.
+2025-09-21 17:28:27 -  Kyou Kai has logged out.
+2025-09-21 17:28:29 -  Loading Kyou Kai...
+2025-09-21 17:28:29 -  Kyou Kai has logged in.
+2025-09-21 17:32:27 -  Loading Alexandre De Moraes...
+2025-09-21 17:32:27 -  Alexandre De Moraes has logged in.
+2025-09-21 17:32:45 -  Alexandre De Moraes has logged out.
+2025-09-21 17:33:48 -  Old Spice has logged out.
+2025-09-21 17:33:54 -  Loading Old Spice...
+2025-09-21 17:33:54 -  Old Spice has logged in.
+2025-09-21 17:37:03 -  Loading Alexandre De Moraes...
+2025-09-21 17:37:04 -  Alexandre De Moraes has logged in.
+2025-09-21 17:38:32 -  Old Spice has logged out.
+2025-09-21 17:39:23 -  Alexandre De Moraes has logged out.
+2025-09-21 17:40:41 -  [BOSS SYSTEM] Spawned: Ferumbras
+2025-09-21 17:40:41 -  Loading Kaka Bueno...
+2025-09-21 17:40:41 -  Kaka Bueno has logged in.
+2025-09-21 17:40:49 -  Kaka Bueno has logged out.
+2025-09-21 17:40:56 -  Loading Kaka Bueno...
+2025-09-21 17:40:56 -  Kaka Bueno has logged in.
+2025-09-21 17:42:03 -  Loading Enfermeira Joy...
+2025-09-21 17:42:03 -  Enfermeira Joy has logged in.
+2025-09-21 17:46:21 -  Bryan Mbeumo has logged out.
+2025-09-21 17:46:23 -  Loading Bryan Mbeumo...
+2025-09-21 17:46:23 -  Bryan Mbeumo has logged in.
+2025-09-21 17:46:27 -  Illidian Rullex has logged out.
+2025-09-21 17:46:28 -  Loading Illidian Rullex...
+2025-09-21 17:46:28 -  Illidian Rullex has logged in.
+2025-09-21 17:46:53 -  Loading Omaigodi...
+2025-09-21 17:46:53 -  Omaigodi has logged in.
+2025-09-21 17:47:06 -  Omaigodi has logged out.
+2025-09-21 17:52:15 -  Loading Alexandre De Moraes...
+2025-09-21 17:52:15 -  Alexandre De Moraes has logged in.
+2025-09-21 17:53:57 -  Alexandre De Moraes has logged out.
+2025-09-21 17:55:59 -  Loading Gardenal Rs...
+2025-09-21 17:55:59 -  Gardenal Rs has logged in.
+2025-09-21 17:56:50 -  Bryan Mbeumo has logged out.
+2025-09-21 17:56:51 -  Loading Bryan Mbeumo...
+2025-09-21 17:56:51 -  Bryan Mbeumo has logged in.
+2025-09-21 17:57:36 -  Loading Ozymandias...
+2025-09-21 17:57:36 -  Ozymandias has logged in.
+2025-09-21 18:00:41 -  [BOSS SYSTEM] Spawned: Valaraukar
+2025-09-21 18:00:41 -  Loading Alexandre De Moraes...
+2025-09-21 18:00:41 -  Alexandre De Moraes has logged in.
+2025-09-21 18:01:00 -  Alexandre De Moraes has logged out.
+2025-09-21 18:01:28 -  Enfermeira Joy has logged out.
+2025-09-21 18:02:15 -  Saving server... 21/09/2025 18:02:15
+2025-09-21 18:02:16 -  > Saved house items in: 0.163 s
+2025-09-21 18:03:41 -  Loading Alexandre De Moraes...
+2025-09-21 18:03:41 -  Alexandre De Moraes has logged in.
+2025-09-21 18:03:44 -  Bryan Mbeumo has logged out.
+2025-09-21 18:03:45 -  Loading Bryan Mbeumo...
+2025-09-21 18:03:45 -  Bryan Mbeumo has logged in.
+2025-09-21 18:03:48 -  Illidian Rullex has logged out.
+2025-09-21 18:03:49 -  Loading Illidian Rullex...
+2025-09-21 18:03:49 -  Illidian Rullex has logged in.
+2025-09-21 18:04:03 -  Alexandre De Moraes has logged out.
+2025-09-21 18:04:13 -  Ozymandias has logged out.
+2025-09-21 18:08:10 -  Re Zero Beatrice has logged out.
+2025-09-21 18:08:51 -  Loading Re Zero Beatrice...
+2025-09-21 18:08:51 -  Re Zero Beatrice has logged in.
+2025-09-21 18:12:27 -  Loading Alexandre De Moraes...
+2025-09-21 18:12:27 -  Alexandre De Moraes has logged in.
+2025-09-21 18:12:52 -  177.208.243.72 disconnected for exceeding packet per second limit.
+2025-09-21 18:14:47 -  Alexandre De Moraes has logged out.
+2025-09-21 18:20:08 -  Loading Karol Star...
+2025-09-21 18:20:08 -  Karol Star has logged in.
+2025-09-21 18:20:31 -  [BOSS SYSTEM] Spawned: Avari Leader
+2025-09-21 18:20:31 -  Loading Aleska Teodoro...
+2025-09-21 18:20:31 -  Aleska Teodoro has logged in.
+2025-09-21 18:25:27 -  Loading Precoce De Souza...
+2025-09-21 18:25:27 -  Precoce De Souza has logged in.
+2025-09-21 18:31:07 -  Andin Inevitavel has logged out.
+2025-09-21 18:34:47 -  Druid Sinistro has logged out.
+2025-09-21 18:35:21 -  Loading Druid Sinistro...
+2025-09-21 18:35:21 -  Druid Sinistro has logged in.
+2025-09-21 18:36:47 -  Loading Socaqui...
+2025-09-21 18:36:47 -  Socaqui has logged in.
+2025-09-21 18:38:18 -  John Wick has logged out.
+2025-09-21 18:38:51 -  Loading John Wick...
+2025-09-21 18:38:51 -  John Wick has logged in.
+2025-09-21 18:43:18 -  [BOSS SYSTEM] Spawned: Scatha
+2025-09-21 18:43:18 -  Elven Sinistro has logged out.
+2025-09-21 18:43:54 -  Loading Elven Sinistro...
+2025-09-21 18:43:54 -  Elven Sinistro has logged in.
+2025-09-21 18:43:54 -  Ogro Sinistro has logged out.
+2025-09-21 18:44:27 -  Loading Ogro Sinistro...
+2025-09-21 18:44:27 -  Ogro Sinistro has logged in.
+2025-09-21 18:46:47 -  Loading Ozymandias...
+2025-09-21 18:46:47 -  Ozymandias has logged in.
+2025-09-21 18:57:21 -  Loading Alexandre De Moraes...
+2025-09-21 18:57:21 -  Alexandre De Moraes has logged in.
+2025-09-21 18:57:35 -  Dark Bebo has logged out.
+2025-09-21 18:57:39 -  Loading Dark Bebo...
+2025-09-21 18:57:39 -  Dark Bebo has logged in.
+2025-09-21 18:58:04 -  Alexandre De Moraes has logged out.
+2025-09-21 19:02:15 -  [BOSS SYSTEM] Spawned: Baalrog
+2025-09-21 19:02:15 -  Saving server... 21/09/2025 19:02:15
+2025-09-21 19:02:16 -  > Saved house items in: 0.161 s
+2025-09-21 19:09:00 -  Bryan Mbeumo has logged out.
+2025-09-21 19:09:02 -  Loading Bryan Mbeumo...
+2025-09-21 19:09:02 -  Bryan Mbeumo has logged in.
+2025-09-21 19:23:07 -  [BOSS SYSTEM] Spawned: Ancalagon
+2025-09-21 19:23:07 -  Socaqui has logged out.
+2025-09-21 19:25:07 -  Loading Socaqui...
+2025-09-21 19:25:07 -  Socaqui has logged in.
+2025-09-21 19:29:29 -  Mage Of Rules has logged out.
+2025-09-21 19:30:02 -  Loading Mage Of Rules...
+2025-09-21 19:30:02 -  Mage Of Rules has logged in.
+2025-09-21 19:30:24 -  Kyou Kai has logged out.
+2025-09-21 19:31:56 -  Re Zero Beatrice has logged out.
+2025-09-21 19:32:04 -  Loading Re Zero Beatrice...
+2025-09-21 19:32:04 -  Re Zero Beatrice has logged in.
+2025-09-21 19:32:34 -  Gardenal Rs has logged out.
+2025-09-21 19:32:37 -  Loading Gardenal Rs...
+2025-09-21 19:32:37 -  Gardenal Rs has logged in.
+2025-09-21 19:33:51 -  Skylline has logged out.
+2025-09-21 19:34:12 -  Loading Skylline...
+2025-09-21 19:34:12 -  Skylline has logged in.
+2025-09-21 19:34:16 -  Skylline has logged out.
+2025-09-21 19:34:41 -  Loading Skylline...
+2025-09-21 19:34:41 -  Skylline has logged in.
+2025-09-21 19:35:35 -  Betty Boopy has logged out.
+2025-09-21 19:35:45 -  Loading Kyou Kai...
+2025-09-21 19:35:45 -  Kyou Kai has logged in.
+2025-09-21 19:36:07 -  Loading Betty Boopy...
+2025-09-21 19:36:07 -  Betty Boopy has logged in.
+2025-09-21 19:36:57 -  Re Zero Beatrice has logged out.
+2025-09-21 19:37:05 -  Loading Re Zero Beatrice...
+2025-09-21 19:37:05 -  Re Zero Beatrice has logged in.
+2025-09-21 19:37:27 -  Pallazin has logged out.
+2025-09-21 19:37:30 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-21 19:37:30 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-21 19:38:00 -  Loading Pallazin...
+2025-09-21 19:38:00 -  Pallazin has logged in.
+2025-09-21 19:38:05 -  Re Zero Beatrice has logged out.
+2025-09-21 19:38:22 -  Socaqui has logged out.
+2025-09-21 19:40:10 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-21 19:43:09 -  [BOSS SYSTEM] Spawned: Ferumbras
+2025-09-21 19:43:09 -  Logitch has logged out.
+2025-09-21 19:44:54 -  Alone Schadeck has logged out.
+2025-09-21 19:46:59 -  Loading Socaqui...
+2025-09-21 19:46:59 -  Socaqui has logged in.
+2025-09-21 19:47:00 -  Loading Re Zero Beatrice...
+2025-09-21 19:47:00 -  Re Zero Beatrice has logged in.
+2025-09-21 19:47:02 -  Socaqui has logged out.
+2025-09-21 19:47:09 -  Loading Socaqui...
+2025-09-21 19:47:09 -  Socaqui has logged in.
+2025-09-21 19:47:52 -  Socaqui has logged out.
+2025-09-21 19:48:55 -  Re Zero Beatrice has logged out.
+2025-09-21 19:52:02 -  Paramax has logged out.
+2025-09-21 19:57:50 -  Loading Sir Daniel...
+2025-09-21 19:57:50 -  Sir Daniel has logged in.
+2025-09-21 20:02:15 -  [BOSS SYSTEM] Spawned: Smaug
+2025-09-21 20:02:15 -  Saving server... 21/09/2025 20:02:15
+2025-09-21 20:02:16 -  > Saved house items in: 0.183 s
+2025-09-21 20:05:42 -  Tolkien has logged out.
+2025-09-21 20:05:48 -  Kael has logged out.
+2025-09-21 20:06:00 -  Stormy has logged out.
+2025-09-21 20:06:56 -  Mono has logged out.
+2025-09-21 20:07:29 -  Loading Mono...
+2025-09-21 20:07:29 -  Mono has logged in.
+2025-09-21 20:09:14 -  Loading Lagado...
+2025-09-21 20:09:14 -  Lagado has logged in.
+2025-09-21 20:09:19 -  Lagado has logged out.
+2025-09-21 20:09:21 -  Loading Zuckinha Pastor...
+2025-09-21 20:09:21 -  Zuckinha Pastor has logged in.
+2025-09-21 20:09:23 -  Loading Stormy...
+2025-09-21 20:09:23 -  Stormy has logged in.
+2025-09-21 20:09:26 -  Stormy has logged out.
+2025-09-21 20:09:28 -  Zuckinha Pastor has logged out.
+2025-09-21 20:09:32 -  Loading Stormy...
+2025-09-21 20:09:32 -  Stormy has logged in.
+2025-09-21 20:09:38 -  Loading Tolkien...
+2025-09-21 20:09:38 -  Tolkien has logged in.
+2025-09-21 20:09:42 -  Loading Sukram...
+2025-09-21 20:09:42 -  Sukram has logged in.
+2025-09-21 20:09:50 -  Sukram has logged out.
+2025-09-21 20:09:51 -  Loading Suukram...
+2025-09-21 20:09:51 -  Suukram has logged in.
+2025-09-21 20:09:59 -  Loading Kael...
+2025-09-21 20:09:59 -  Kael has logged in.
+2025-09-21 20:10:11 -  Suukram has logged out.
+2025-09-21 20:11:53 -  Sir Daniel has logged out.
+2025-09-21 20:12:17 -  Loading Sir Daniel...
+2025-09-21 20:12:17 -  Sir Daniel has logged in.
+2025-09-21 20:12:21 -  Sir Daniel has logged out.
+2025-09-21 20:12:21 -  Loading Sir Daniel...
+2025-09-21 20:12:21 -  Sir Daniel has logged in.
+2025-09-21 20:13:18 -  Stormy has logged out.
+2025-09-21 20:13:25 -  Tolkien has logged out.
+2025-09-21 20:13:26 -  Kael has logged out.
+2025-09-21 20:20:08 -  Sir Daniel has logged out.
+2025-09-21 20:20:47 -  [BOSS SYSTEM] Spawned: Adramelech
+2025-09-21 20:20:47 -  Loading Sir Daniel...
+2025-09-21 20:20:47 -  Sir Daniel has logged in.
+2025-09-21 20:22:12 -  Jumahu has logged out.
+2025-09-21 20:23:44 -  Loading Sacolon...
+2025-09-21 20:23:45 -  Sacolon has logged in.
+2025-09-21 20:23:47 -  Sacolon has logged out.
+2025-09-21 20:23:49 -  Loading Sacolin...
+2025-09-21 20:23:49 -  Sacolin has logged in.
+2025-09-21 20:24:44 -  Oppenheimer has logged out.
+2025-09-21 20:26:43 -  [CM] Middle Earth has logged out.
+2025-09-21 20:28:47 -  Sir Daniel has logged out.
+2025-09-21 20:28:57 -  Bryan Mbeumo has logged out.
+2025-09-21 20:29:09 -  Elzinho Druid has logged out.
+2025-09-21 20:29:43 -  Gardenal Rs has logged out.
+2025-09-21 20:30:15 -  Loading Gardenal Rs...
+2025-09-21 20:30:15 -  Gardenal Rs has logged in.
+2025-09-21 20:32:44 -  Skylline has logged out.
+2025-09-21 20:35:46 -  Gardenal Rs has logged out.
+2025-09-21 20:35:48 -  Loading Gardenal Rs...
+2025-09-21 20:35:48 -  Gardenal Rs has logged in.
+2025-09-21 20:47:04 -  [BOSS SYSTEM] Spawned: Avari Leader
+2025-09-21 20:47:04 -  Loading Re Zero Beatrice...
+2025-09-21 20:47:04 -  Re Zero Beatrice has logged in.
+2025-09-21 20:47:37 -  Loading Skylline...
+2025-09-21 20:47:37 -  Skylline has logged in.
+2025-09-21 20:49:10 -  Gardenal Rs has logged out.
+2025-09-21 20:50:55 -  Loading Zeinn...
+2025-09-21 20:50:55 -  Zeinn has logged in.
+2025-09-21 20:54:17 -  Mono has logged out.
+2025-09-21 20:55:22 -  Mage Of Rules has logged out.
+2025-09-21 20:56:48 -  Betty Boopy has logged out.
+2025-09-21 21:00:37 -  [DEBUG] Evento de invasão ativado pelo GlobalEvents!
+2025-09-21 21:00:37 -  [DEBUG] Criando o teleport da invasão...
+2025-09-21 21:00:37 -  [DEBUG] Teleport criado com sucesso! (AID: 1396)
+2025-09-21 21:00:37 -  Pallazin has logged out.
+2025-09-21 21:01:53 -  Loading Andin Inevitavel...
+2025-09-21 21:01:53 -  Andin Inevitavel has logged in.
+2025-09-21 21:02:15 -  Saving server... 21/09/2025 21:02:15
+2025-09-21 21:02:16 -  > Saved house items in: 0.168 s
+2025-09-21 21:04:52 -  Loading Elzinho Druid...
+2025-09-21 21:04:52 -  Elzinho Druid has logged in.
+2025-09-21 21:05:21 -  [Invasion] Nenhum jogador suficiente participou do evento.
+2025-09-21 21:05:21 -  Re Zero Beatrice has logged out.
+2025-09-21 21:05:34 -  179.107.4.205 disconnected for exceeding packet per second limit.
+2025-09-21 21:05:36 -  Loading Re Zero Beatrice...
+2025-09-21 21:05:36 -  Re Zero Beatrice has logged in.
+2025-09-21 21:05:48 -  Loading Suukram...
+2025-09-21 21:05:48 -  Suukram has logged in.
+2025-09-21 21:07:46 -  Dark Bebo has logged out.
+2025-09-21 21:07:47 -  Loading Dark Bebo...
+2025-09-21 21:07:47 -  Dark Bebo has logged in.
+2025-09-21 21:09:48 -  Loading Tolkien...
+2025-09-21 21:09:48 -  Tolkien has logged in.
+2025-09-21 21:09:51 -  Loading Stormy...
+2025-09-21 21:09:51 -  Stormy has logged in.
+2025-09-21 21:10:44 -  Loading Kael...
+2025-09-21 21:10:44 -  Kael has logged in.
+2025-09-21 21:13:02 -  Totz has logged out.
+2025-09-21 21:13:36 -  Loading Totz...
+2025-09-21 21:13:36 -  Totz has logged in.
+2025-09-21 21:15:48 -  Suukram has logged out.
+2025-09-21 21:19:32 -  Loading Joninha...
+2025-09-21 21:19:32 -  Joninha has logged in.
+2025-09-21 21:29:07 -  Loading Picanha Na Chapa...
+2025-09-21 21:29:07 -  Picanha Na Chapa has logged in.
+2025-09-21 21:29:15 -  Sacolin has logged out.
+2025-09-21 21:32:19 -  Joninha has logged out.
+2025-09-21 21:33:13 -  Picanha Na Chapa has logged out.
+2025-09-21 21:33:26 -  Massey has logged out.
+2025-09-21 21:34:38 -  Re Zero Beatrice has logged out.
+2025-09-21 21:34:46 -  Loading Re Zero Beatrice...
+2025-09-21 21:34:46 -  Re Zero Beatrice has logged in.
+2025-09-21 21:37:40 -  Loading Awesome Sophia...
+2025-09-21 21:37:40 -  Awesome Sophia has logged in.
+2025-09-21 21:37:55 -  Awesome Sophia has logged out.
+2025-09-21 21:40:40 -  > Broadcasted message: "3 enormes Dragões foram avistados chegando a Edoras!".
+2025-09-21 21:41:01 -  Loading Picanha Na Chapa...
+2025-09-21 21:41:01 -  Picanha Na Chapa has logged in.
+2025-09-21 21:41:04 -  > Broadcasted message: "Corram todos para salvar a cidade!".
+2025-09-21 21:41:24 -  > Broadcasted message: "Os fracos, corram para suas casas!".
+2025-09-21 21:41:44 -  > Broadcasted message: "Um enorme dragão venenoso está na entrada de Edoras!".
+2025-09-21 21:42:14 -  > Broadcasted message: "Um terrível dragão de gelo chegou dentro da cidade!".
+2025-09-21 21:42:44 -  > Broadcasted message: "Um feroz dragão de fogo chegou ao lado do depot de Edoras!".
+2025-09-21 21:43:39 -  > Broadcasted message: "Os 3 dragoes estao acabando com a cidade de Edoras! Venham ajudar!".
+2025-09-21 21:44:34 -  Re Zero Beatrice has logged out.
+2025-09-21 21:44:38 -  Loading Re Zero Beatrice...
+2025-09-21 21:44:38 -  Re Zero Beatrice has logged in.
+2025-09-21 21:44:39 -  > Broadcasted message: "Os 3 dragoes estao acabando com a cidade de Edoras! Venham ajudar!".
+2025-09-21 21:44:45 -  Zeinn has logged out.
+2025-09-21 21:44:46 -  Loading Zeinn...
+2025-09-21 21:44:46 -  Zeinn has logged in.
+2025-09-21 21:45:12 -  Re Zero Beatrice has logged out.
+2025-09-21 21:45:15 -  Loading Re Zero Beatrice...
+2025-09-21 21:45:15 -  Re Zero Beatrice has logged in.
+2025-09-21 21:45:30 -  Zeinn has logged out.
+2025-09-21 21:45:36 -  Loading Oppenheimer...
+2025-09-21 21:45:36 -  Oppenheimer has logged in.
+2025-09-21 21:46:13 -  Re Zero Beatrice has logged out.
+2025-09-21 21:46:16 -  Loading Re Zero Beatrice...
+2025-09-21 21:46:16 -  Re Zero Beatrice has logged in.
+2025-09-21 21:50:39 -  > Broadcasted message: "A cidade esta salva, mas inumeros guerreiros perderam suas vidas".
+2025-09-21 21:54:21 -  Dark Bebo has logged out.
+2025-09-21 21:56:24 -  Loading Dark Bebo...
+2025-09-21 21:56:24 -  Dark Bebo has logged in.
+2025-09-21 21:57:41 -  168.0.190.189 disconnected for exceeding packet per second limit.
+2025-09-21 21:57:43 -  Re Zero Beatrice has logged out.
+2025-09-21 21:57:47 -  Loading Re Zero Beatrice...
+2025-09-21 21:57:47 -  Re Zero Beatrice has logged in.
+2025-09-21 21:58:33 -  168.0.190.189 disconnected for exceeding packet per second limit.
+2025-09-21 22:02:15 -  [BOSS SYSTEM] Spawned: Smaug
+2025-09-21 22:02:15 -  Saving server... 21/09/2025 22:02:15
+2025-09-21 22:02:16 -  > Saved house items in: 0.155 s
+2025-09-21 22:04:28 -  Loading Zico Dez...
+2025-09-21 22:04:28 -  Zico Dez has logged in.
+2025-09-21 22:07:04 -  Loading Massey...
+2025-09-21 22:07:04 -  Massey has logged in.
+2025-09-21 22:16:28 -  Massey has logged out.
+2025-09-21 22:16:48 -  Loading Massey...
+2025-09-21 22:16:48 -  Massey has logged in.
+2025-09-21 22:32:10 -  [BOSS SYSTEM] Spawned: Avari Leader
+2025-09-21 22:32:10 -  Illidian Rullex has logged out.
+2025-09-21 22:32:38 -  Loading Illidian Rullex...
+2025-09-21 22:32:38 -  Illidian Rullex has logged in.
+2025-09-21 22:36:03 -  Loading Logitch...
+2025-09-21 22:36:03 -  Logitch has logged in.
+2025-09-21 22:37:49 -  Loading Jumahu...
+2025-09-21 22:37:49 -  Jumahu has logged in.
+2025-09-21 22:39:42 -  Loading Kropokiev...
+2025-09-21 22:39:42 -  Kropokiev has logged in.
+2025-09-21 22:41:09 -  [BOSS SYSTEM] Spawned: The Necromancer
+2025-09-21 22:41:09 -  Kropokiev has logged out.
+2025-09-21 22:42:38 -  Logitch has logged out.
+2025-09-21 22:43:33 -  Autobot Onn has logged out.
+2025-09-21 22:48:23 -  Azul has logged out.
+2025-09-21 22:48:56 -  Loading Azul...
+2025-09-21 22:48:56 -  Azul has logged in.
+2025-09-21 22:51:09 -  Jumahu has logged out.
+2025-09-21 22:52:24 -  Case has logged out.
+2025-09-21 22:56:30 -  Oppenheimer has logged out.
+2025-09-21 22:59:19 -  Loading Case...
+2025-09-21 22:59:19 -  Case has logged in.
+2025-09-21 22:59:30 -  Andin Inevitavel has logged out.
+2025-09-21 22:59:33 -  Loading Andinn Inevitavel...
+2025-09-21 22:59:33 -  Andinn Inevitavel has logged in.
+2025-09-21 23:00:20 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-09-21 23:00:20 -  Loading Sir Daniel...
+2025-09-21 23:00:20 -  Sir Daniel has logged in.
+2025-09-21 23:00:29 -  Andinn Inevitavel has logged out.
+2025-09-21 23:00:32 -  Loading Andin Inevitavel...
+2025-09-21 23:00:32 -  Andin Inevitavel has logged in.
+2025-09-21 23:01:14 -  Andin Inevitavel has logged out.
+2025-09-21 23:01:17 -  Loading Andinn Inevitavel...
+2025-09-21 23:01:17 -  Andinn Inevitavel has logged in.
+2025-09-21 23:02:01 -  Andinn Inevitavel has logged out.
+2025-09-21 23:02:04 -  Loading Andin Inevitavel...
+2025-09-21 23:02:04 -  Andin Inevitavel has logged in.
+2025-09-21 23:02:12 -  Andin Inevitavel has logged out.
+2025-09-21 23:02:15 -  Saving server... 21/09/2025 23:02:15
+2025-09-21 23:02:16 -  > Saved house items in: 0.195 s
+2025-09-21 23:02:16 -  Loading Andinn Inevitavel...
+2025-09-21 23:02:16 -  Andinn Inevitavel has logged in.
+2025-09-21 23:03:27 -  Kaka Bueno has logged out.
+2025-09-21 23:03:35 -  Andinn Inevitavel has logged out.
+2025-09-21 23:03:38 -  Loading Andin Inevitavel...
+2025-09-21 23:03:38 -  Andin Inevitavel has logged in.
+2025-09-21 23:03:43 -  Andin Inevitavel has logged out.
+2025-09-21 23:03:47 -  Loading Andinn Inevitavel...
+2025-09-21 23:03:47 -  Andinn Inevitavel has logged in.
+2025-09-21 23:03:52 -  Andinn Inevitavel has logged out.
+2025-09-21 23:03:56 -  Loading Andin Inevitavel...
+2025-09-21 23:03:56 -  Andin Inevitavel has logged in.
+2025-09-21 23:03:58 -  Loading Kaka Bueno...
+2025-09-21 23:03:58 -  Kaka Bueno has logged in.
+2025-09-21 23:04:23 -  Massey has logged out.
+2025-09-21 23:04:53 -  Loading Massey...
+2025-09-21 23:04:53 -  Massey has logged in.
+2025-09-21 23:05:30 -  Zico Dez has logged out.
+2025-09-21 23:09:56 -  Andin Inevitavel has logged out.
+2025-09-21 23:10:11 -  Loading Andin Inevitavel...
+2025-09-21 23:10:11 -  Andin Inevitavel has logged in.
+2025-09-21 23:10:18 -  Zhang Chulan has logged out.
+2025-09-21 23:21:02 -  [BOSS SYSTEM] Spawned: Emelianenko
+2025-09-21 23:21:02 -  Kael has logged out.
+2025-09-21 23:21:13 -  Loading Kael...
+2025-09-21 23:21:13 -  Kael has logged in.
+2025-09-21 23:22:35 -  Orc Lokao has logged out.
+2025-09-21 23:26:31 -  
+2025-09-21 23:26:31 -  Lua Script Error: [Action Interface] 
+2025-09-21 23:26:31 -  data/actions/scripts/other/music.lua:onUse
+2025-09-21 23:26:31 -  data/actions/scripts/other/music.lua:51: attempt to call method 'addAchievementProgress' (a nil value)
+2025-09-21 23:26:31 -  stack traceback:
+2025-09-21 23:26:31 -  	[C]: in function 'addAchievementProgress'
+2025-09-21 23:26:31 -  	data/actions/scripts/other/music.lua:51: in function <data/actions/scripts/other/music.lua:37>
+2025-09-21 23:26:34 -  
+2025-09-21 23:26:34 -  Lua Script Error: [Action Interface] 
+2025-09-21 23:26:34 -  data/actions/scripts/other/music.lua:onUse
+2025-09-21 23:26:34 -  data/actions/scripts/other/music.lua:51: attempt to call method 'addAchievementProgress' (a nil value)
+2025-09-21 23:26:34 -  stack traceback:
+2025-09-21 23:26:34 -  	[C]: in function 'addAchievementProgress'
+2025-09-21 23:26:34 -  	data/actions/scripts/other/music.lua:51: in function <data/actions/scripts/other/music.lua:37>
+2025-09-21 23:26:35 -  
+2025-09-21 23:26:35 -  Lua Script Error: [Action Interface] 
+2025-09-21 23:26:35 -  data/actions/scripts/other/music.lua:onUse
+2025-09-21 23:26:35 -  data/actions/scripts/other/music.lua:51: attempt to call method 'addAchievementProgress' (a nil value)
+2025-09-21 23:26:35 -  stack traceback:
+2025-09-21 23:26:35 -  	[C]: in function 'addAchievementProgress'
+2025-09-21 23:26:35 -  	data/actions/scripts/other/music.lua:51: in function <data/actions/scripts/other/music.lua:37>
+2025-09-21 23:26:55 -  
+2025-09-21 23:26:55 -  Lua Script Error: [Action Interface] 
+2025-09-21 23:26:55 -  data/actions/scripts/other/music.lua:onUse
+2025-09-21 23:26:55 -  data/actions/scripts/other/music.lua:51: attempt to call method 'addAchievementProgress' (a nil value)
+2025-09-21 23:26:55 -  stack traceback:
+2025-09-21 23:26:55 -  	[C]: in function 'addAchievementProgress'
+2025-09-21 23:26:55 -  	data/actions/scripts/other/music.lua:51: in function <data/actions/scripts/other/music.lua:37>
+2025-09-21 23:26:58 -  
+2025-09-21 23:26:58 -  Lua Script Error: [Action Interface] 
+2025-09-21 23:26:58 -  data/actions/scripts/other/music.lua:onUse
+2025-09-21 23:26:58 -  data/actions/scripts/other/music.lua:51: attempt to call method 'addAchievementProgress' (a nil value)
+2025-09-21 23:26:58 -  stack traceback:
+2025-09-21 23:26:58 -  	[C]: in function 'addAchievementProgress'
+2025-09-21 23:26:58 -  	data/actions/scripts/other/music.lua:51: in function <data/actions/scripts/other/music.lua:37>
+2025-09-21 23:26:58 -  
+2025-09-21 23:26:58 -  Lua Script Error: [Action Interface] 
+2025-09-21 23:26:58 -  data/actions/scripts/other/music.lua:onUse
+2025-09-21 23:26:58 -  data/actions/scripts/other/music.lua:51: attempt to call method 'addAchievementProgress' (a nil value)
+2025-09-21 23:26:58 -  stack traceback:
+2025-09-21 23:26:58 -  	[C]: in function 'addAchievementProgress'
+2025-09-21 23:26:58 -  	data/actions/scripts/other/music.lua:51: in function <data/actions/scripts/other/music.lua:37>
+2025-09-21 23:26:59 -  
+2025-09-21 23:26:59 -  Lua Script Error: [Action Interface] 
+2025-09-21 23:26:59 -  data/actions/scripts/other/music.lua:onUse
+2025-09-21 23:26:59 -  data/actions/scripts/other/music.lua:51: attempt to call method 'addAchievementProgress' (a nil value)
+2025-09-21 23:26:59 -  stack traceback:
+2025-09-21 23:26:59 -  	[C]: in function 'addAchievementProgress'
+2025-09-21 23:26:59 -  	data/actions/scripts/other/music.lua:51: in function <data/actions/scripts/other/music.lua:37>
+2025-09-21 23:26:59 -  
+2025-09-21 23:26:59 -  Lua Script Error: [Action Interface] 
+2025-09-21 23:26:59 -  data/actions/scripts/other/music.lua:onUse
+2025-09-21 23:26:59 -  data/actions/scripts/other/music.lua:51: attempt to call method 'addAchievementProgress' (a nil value)
+2025-09-21 23:26:59 -  stack traceback:
+2025-09-21 23:26:59 -  	[C]: in function 'addAchievementProgress'
+2025-09-21 23:26:59 -  	data/actions/scripts/other/music.lua:51: in function <data/actions/scripts/other/music.lua:37>
+2025-09-21 23:29:27 -  Stormy has logged out.
+2025-09-21 23:29:59 -  Loading Stormy...
+2025-09-21 23:29:59 -  Stormy has logged in.
+2025-09-21 23:31:15 -  Kael has logged out.
+2025-09-21 23:31:45 -  Loading Kael...
+2025-09-21 23:31:45 -  Kael has logged in.
+2025-09-21 23:34:12 -  177.37.18.21 disconnected for exceeding packet per second limit.
+2025-09-21 23:34:58 -  Stormy has logged out.
+2025-09-21 23:35:25 -  Tolkien has logged out.
+2025-09-21 23:35:57 -  Loading Tolkien...
+2025-09-21 23:35:57 -  Tolkien has logged in.
+2025-09-21 23:36:19 -  Kael has logged out.
+2025-09-21 23:36:21 -  Loading Kael...
+2025-09-21 23:36:21 -  Kael has logged in.
+2025-09-21 23:36:42 -  Kael has logged out.
+2025-09-21 23:38:01 -  
+2025-09-21 23:38:01 -  Lua Script Error: [Scripts Interface] 
+2025-09-21 23:38:01 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-21 23:38:01 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-21 23:38:01 -  stack traceback:
+2025-09-21 23:38:01 -  	[C]: in function 'getLevel'
+2025-09-21 23:38:01 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-21 23:38:18 -  Tolkien has logged out.
+2025-09-21 23:38:23 -  Drumbash Pebblebeard has logged out.
+2025-09-21 23:38:25 -  Loading Tolkien...
+2025-09-21 23:38:25 -  Tolkien has logged in.
+2025-09-21 23:38:28 -  Tolkien has logged out.
+2025-09-21 23:38:38 -  Karol Star has logged out.
+2025-09-21 23:38:40 -  168.0.190.189 disconnected for exceeding packet per second limit.
+2025-09-21 23:38:40 -  168.0.190.189 disconnected for exceeding packet per second limit.
+2025-09-21 23:39:29 -  Aleska Teodoro has logged out.
+2025-09-21 23:39:35 -  Illidian Rullex has logged out.
+2025-09-21 23:39:48 -  Loading Illidian Rullex...
+2025-09-21 23:39:48 -  Illidian Rullex has logged in.
+2025-09-21 23:40:13 -  Illidian Rullex has logged out.
+2025-09-21 23:56:34 -  [BOSS SYSTEM] Spawned: Smaug
+2025-09-21 23:56:34 -  Sir Daniel has logged out.
+2025-09-21 23:58:56 -  Re Zero Beatrice has logged out.
+2025-09-21 23:59:07 -  Loading Re Zero Beatrice...
+2025-09-21 23:59:07 -  Re Zero Beatrice has logged in.
+2025-09-22 00:00:58 -  All daily task type limits have been reset.
+2025-09-22 00:00:58 -  Loading Aleska Teodoro...
+2025-09-22 00:00:58 -  Aleska Teodoro has logged in.
+2025-09-22 00:01:45 -  Aleska Teodoro has logged out.
+2025-09-22 00:01:52 -  Loading Karol Star...
+2025-09-22 00:01:52 -  Karol Star has logged in.
+2025-09-22 00:01:58 -  Gynga Bilola has logged out.
+2025-09-22 00:02:00 -  Loading Gynga Bilola...
+2025-09-22 00:02:00 -  Gynga Bilola has logged in.
+2025-09-22 00:02:15 -  Saving server... 22/09/2025 00:02:15
+2025-09-22 00:02:15 -  > Saved house items in: 0.149 s
+2025-09-22 00:02:20 -  Karol Star has logged out.
+2025-09-22 00:03:19 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-22 00:04:27 -  [Network error - Connection::parseHeader] Invalid Client Login
+2025-09-22 00:14:17 -  Skylline has logged out.
+2025-09-22 00:14:28 -  Sento Rebolando has logged out.
+2025-09-22 00:14:33 -  Loading Sento Rebolando...
+2025-09-22 00:14:33 -  Sento Rebolando has logged in.
+2025-09-22 00:16:24 -  Sento Rebolando has logged out.
+2025-09-22 00:21:10 -  Re Zero Beatrice has logged out.
+2025-09-22 00:21:13 -  Loading Re Zero Beatrice...
+2025-09-22 00:21:13 -  Re Zero Beatrice has logged in.
+2025-09-22 00:27:17 -  177.37.18.21 disconnected for exceeding packet per second limit.
+2025-09-22 00:27:54 -  Andin Inevitavel has logged out.
+2025-09-22 00:32:05 -  Loading Andin Inevitavel...
+2025-09-22 00:32:05 -  Andin Inevitavel has logged in.
+2025-09-22 00:43:07 -  Loading Oppenheimer...
+2025-09-22 00:43:07 -  Oppenheimer has logged in.
+2025-09-22 00:45:55 -  Tumzao has logged out.
+2025-09-22 00:46:27 -  Loading Tumzao...
+2025-09-22 00:46:27 -  Tumzao has logged in.
+2025-09-22 00:49:43 -  186.250.31.155 disconnected for exceeding packet per second limit.
+2025-09-22 00:50:14 -  Kaka Bueno has logged out.
+2025-09-22 00:51:46 -  Case has logged out.
+2025-09-22 00:52:27 -  Podolski has logged out.
+2025-09-22 01:02:15 -  [BOSS SYSTEM] Spawned: The Necromancer
+2025-09-22 01:02:15 -  Saving server... 22/09/2025 01:02:15
+2025-09-22 01:02:15 -  > Saved house items in: 0.148 s
+2025-09-22 01:04:47 -  Loading Kaka Bueno...
+2025-09-22 01:04:47 -  Kaka Bueno has logged in.
+2025-09-22 01:05:51 -  Oppenheimer has logged out.
+2025-09-22 01:06:17 -  Gorbatchov has logged out.
+2025-09-22 01:07:20 -  177.37.18.21 disconnected for exceeding packet per second limit.
+2025-09-22 01:07:39 -  Gaa Ahz has logged out.
+2025-09-22 01:08:21 -  Loading Oppenheimer...
+2025-09-22 01:08:21 -  Oppenheimer has logged in.
+2025-09-22 01:09:37 -  Loading Orc Lokao...
+2025-09-22 01:09:37 -  Orc Lokao has logged in.
+2025-09-22 01:10:10 -  Loading [CM] Middle Earth...
+2025-09-22 01:10:10 -  [CM] Middle Earth has logged in.
+2025-09-22 01:10:28 -  Loading Trackxyz...
+2025-09-22 01:10:28 -  Trackxyz has logged in.
+2025-09-22 01:10:48 -  Re Zero Beatrice has logged out.
+2025-09-22 01:11:02 -  Trackxyz has logged out.
+2025-09-22 01:11:03 -  Loading Re Zero Beatrice...
+2025-09-22 01:11:03 -  Re Zero Beatrice has logged in.
+2025-09-22 01:11:35 -  Loading Trackxyz...
+2025-09-22 01:11:35 -  Trackxyz has logged in.
+2025-09-22 01:12:58 -  Trackxyz has logged out.
+2025-09-22 01:14:22 -  Loading Autobot Onn...
+2025-09-22 01:14:22 -  Autobot Onn has logged in.
+2025-09-22 01:14:57 -  Autobot Onn has logged out.
+2025-09-22 01:15:03 -  Re Zero Beatrice has logged out.
+2025-09-22 01:15:06 -  Loading Re Zero Beatrice...
+2025-09-22 01:15:06 -  Re Zero Beatrice has logged in.
+2025-09-22 01:17:24 -  Loading Autobot Onn...
+2025-09-22 01:17:24 -  Autobot Onn has logged in.
+2025-09-22 01:18:39 -  Tumzao has logged out.
+2025-09-22 01:19:12 -  Loading Tumzao...
+2025-09-22 01:19:12 -  Tumzao has logged in.
+2025-09-22 01:21:23 -  Loading Gorbatchov...
+2025-09-22 01:21:23 -  Gorbatchov has logged in.
+2025-09-22 01:22:10 -  
+2025-09-22 01:22:10 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 01:22:10 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 01:22:10 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 01:22:10 -  stack traceback:
+2025-09-22 01:22:10 -  	[C]: in function 'getLevel'
+2025-09-22 01:22:10 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 01:22:12 -  
+2025-09-22 01:22:12 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 01:22:12 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 01:22:12 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 01:22:12 -  stack traceback:
+2025-09-22 01:22:12 -  	[C]: in function 'getLevel'
+2025-09-22 01:22:12 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 01:23:09 -  Autobot Onn has logged out.
+2025-09-22 01:24:11 -  Loading Jumahu...
+2025-09-22 01:24:11 -  Jumahu has logged in.
+2025-09-22 01:29:34 -  Tumzao has logged out.
+2025-09-22 01:33:10 -  Oppenheimer has logged out.
+2025-09-22 01:33:49 -  
+2025-09-22 01:33:49 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 01:33:49 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 01:33:49 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 01:33:49 -  stack traceback:
+2025-09-22 01:33:49 -  	[C]: in function 'getLevel'
+2025-09-22 01:33:49 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 01:34:39 -  Gorbatchov has logged out.
+2025-09-22 01:37:30 -  Jumahu has logged out.
+2025-09-22 01:37:31 -  Loading Jumahu...
+2025-09-22 01:37:31 -  Jumahu has logged in.
+2025-09-22 01:38:35 -  Jumahu has logged out.
+2025-09-22 01:38:36 -  Loading Jumahu...
+2025-09-22 01:38:36 -  Jumahu has logged in.
+2025-09-22 01:39:00 -  
+2025-09-22 01:39:00 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 01:39:00 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 01:39:00 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 01:39:00 -  stack traceback:
+2025-09-22 01:39:00 -  	[C]: in function 'getLevel'
+2025-09-22 01:39:00 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 01:39:31 -  Loading Paramax...
+2025-09-22 01:39:31 -  Paramax has logged in.
+2025-09-22 01:40:48 -  [BOSS SYSTEM] Spawned: Zamulosh
+2025-09-22 01:40:48 -  
+2025-09-22 01:40:48 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 01:40:48 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 01:40:48 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 01:40:48 -  stack traceback:
+2025-09-22 01:40:48 -  	[C]: in function 'getLevel'
+2025-09-22 01:40:48 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 01:42:32 -  Loading Gorbatchov...
+2025-09-22 01:42:32 -  Gorbatchov has logged in.
+2025-09-22 01:43:28 -  Paramax has logged out.
+2025-09-22 01:43:47 -  Gorbatchov has logged out.
+2025-09-22 01:45:06 -  Elzinho Druid has logged out.
+2025-09-22 01:53:31 -  Jumahu has logged out.
+2025-09-22 01:56:31 -  
+2025-09-22 01:56:31 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 01:56:31 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 01:56:31 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 01:56:31 -  stack traceback:
+2025-09-22 01:56:31 -  	[C]: in function 'getLevel'
+2025-09-22 01:56:31 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 01:56:49 -  [CM] Middle Earth has logged out.
+2025-09-22 01:57:35 -  177.37.18.21 disconnected for exceeding packet per second limit.
+2025-09-22 01:59:26 -  
+2025-09-22 01:59:26 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 01:59:26 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 01:59:26 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 01:59:26 -  stack traceback:
+2025-09-22 01:59:26 -  	[C]: in function 'getLevel'
+2025-09-22 01:59:26 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 01:59:32 -  
+2025-09-22 01:59:32 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 01:59:32 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 01:59:32 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 01:59:32 -  stack traceback:
+2025-09-22 01:59:32 -  	[C]: in function 'getLevel'
+2025-09-22 01:59:32 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 01:59:35 -  
+2025-09-22 01:59:35 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 01:59:35 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 01:59:35 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 01:59:35 -  stack traceback:
+2025-09-22 01:59:35 -  	[C]: in function 'getLevel'
+2025-09-22 01:59:35 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 02:02:15 -  [BOSS SYSTEM] Spawned: Melkors Summon
+2025-09-22 02:02:15 -  Saving server... 22/09/2025 02:02:15
+2025-09-22 02:02:15 -  > Saved house items in: 0.16 s
+2025-09-22 02:03:26 -  Kyou Kai has logged out.
+2025-09-22 02:03:28 -  Loading Kyou Kai...
+2025-09-22 02:03:28 -  Kyou Kai has logged in.
+2025-09-22 02:06:44 -  Loading Verity...
+2025-09-22 02:06:44 -  Verity has logged in.
+2025-09-22 02:08:09 -  
+2025-09-22 02:08:09 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 02:08:09 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 02:08:09 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 02:08:09 -  stack traceback:
+2025-09-22 02:08:09 -  	[C]: in function 'getLevel'
+2025-09-22 02:08:09 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 02:08:17 -  
+2025-09-22 02:08:17 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 02:08:17 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 02:08:17 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 02:08:17 -  stack traceback:
+2025-09-22 02:08:17 -  	[C]: in function 'getLevel'
+2025-09-22 02:08:17 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 02:08:38 -  
+2025-09-22 02:08:38 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 02:08:38 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 02:08:38 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 02:08:38 -  stack traceback:
+2025-09-22 02:08:38 -  	[C]: in function 'getLevel'
+2025-09-22 02:08:38 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 02:08:50 -  Re Zero Beatrice has logged out.
+2025-09-22 02:08:53 -  Loading Re Zero Beatrice...
+2025-09-22 02:08:53 -  Re Zero Beatrice has logged in.
+2025-09-22 02:10:29 -  Re Zero Beatrice has logged out.
+2025-09-22 02:14:11 -  [GOD] Middle Earth has logged out.
+2025-09-22 02:20:48 -  [BOSS SYSTEM] Spawned: Avari Leader
+2025-09-22 02:20:48 -  177.37.18.21 disconnected for exceeding packet per second limit.
+2025-09-22 02:30:52 -  177.37.18.21 disconnected for exceeding packet per second limit.
+2025-09-22 02:49:04 -  [BOSS SYSTEM] Spawned: Khel Thuzad
+2025-09-22 02:49:04 -  Dark Bebo has logged out.
+2025-09-22 02:54:15 -  Loading [GOD] Middle Earth...
+2025-09-22 02:54:15 -  [GOD] Middle Earth has logged in.
+2025-09-22 02:54:18 -  [GOD] Middle Earth has logged out.
+2025-09-22 02:56:17 -  
+2025-09-22 02:56:17 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 02:56:17 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 02:56:17 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 02:56:17 -  stack traceback:
+2025-09-22 02:56:17 -  	[C]: in function 'getLevel'
+2025-09-22 02:56:17 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 03:01:32 -  [BOSS SYSTEM] Spawned: Saruman
+2025-09-22 03:01:32 -  
+2025-09-22 03:01:32 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 03:01:32 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 03:01:32 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 03:01:32 -  stack traceback:
+2025-09-22 03:01:32 -  	[C]: in function 'getLevel'
+2025-09-22 03:01:32 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 03:02:15 -  Saving server... 22/09/2025 03:02:15
+2025-09-22 03:02:15 -  > Saved house items in: 0.152 s
+2025-09-22 03:24:01 -  [BOSS SYSTEM] Spawned: Obujos
+2025-09-22 03:24:01 -  177.37.18.21 disconnected for exceeding packet per second limit.
+2025-09-22 03:37:58 -  Precoce De Souza has logged out.
+2025-09-22 03:40:41 -  [BOSS SYSTEM] Spawned: Adramelech
+2025-09-22 03:40:41 -  
+2025-09-22 03:40:41 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 03:40:41 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 03:40:41 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 03:40:41 -  stack traceback:
+2025-09-22 03:40:41 -  	[C]: in function 'getLevel'
+2025-09-22 03:40:41 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 03:50:18 -  
+2025-09-22 03:50:18 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 03:50:18 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 03:50:18 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 03:50:18 -  stack traceback:
+2025-09-22 03:50:18 -  	[C]: in function 'getLevel'
+2025-09-22 03:50:18 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 03:55:26 -  
+2025-09-22 03:55:26 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 03:55:26 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 03:55:26 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 03:55:26 -  stack traceback:
+2025-09-22 03:55:26 -  	[C]: in function 'getLevel'
+2025-09-22 03:55:26 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 03:55:29 -  
+2025-09-22 03:55:29 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 03:55:29 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 03:55:29 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 03:55:29 -  stack traceback:
+2025-09-22 03:55:29 -  	[C]: in function 'getLevel'
+2025-09-22 03:55:29 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 03:55:31 -  
+2025-09-22 03:55:31 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 03:55:31 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 03:55:31 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 03:55:31 -  stack traceback:
+2025-09-22 03:55:31 -  	[C]: in function 'getLevel'
+2025-09-22 03:55:31 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 04:02:15 -  [BOSS SYSTEM] Spawned: Azazel
+2025-09-22 04:02:15 -  Saving server... 22/09/2025 04:02:15
+2025-09-22 04:02:15 -  > Saved house items in: 0.145 s
+2025-09-22 04:02:35 -  
+2025-09-22 04:02:35 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 04:02:35 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 04:02:35 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 04:02:35 -  stack traceback:
+2025-09-22 04:02:35 -  	[C]: in function 'getLevel'
+2025-09-22 04:02:35 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 04:15:14 -  Andin Inevitavel has logged out.
+2025-09-22 04:15:51 -  Loading Andin Inevitavel...
+2025-09-22 04:15:51 -  Andin Inevitavel has logged in.
+2025-09-22 04:27:41 -  [BOSS SYSTEM] Spawned: Jaul
+2025-09-22 04:27:41 -  Druid Sinistro has logged out.
+2025-09-22 04:27:49 -  John Wick has logged out.
+2025-09-22 04:28:17 -  Loading Druid Sinistro...
+2025-09-22 04:28:17 -  Druid Sinistro has logged in.
+2025-09-22 04:28:23 -  Loading John Wick...
+2025-09-22 04:28:23 -  John Wick has logged in.
+2025-09-22 04:35:11 -  Elven Sinistro has logged out.
+2025-09-22 04:35:43 -  
+2025-09-22 04:35:43 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 04:35:43 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 04:35:43 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 04:35:43 -  stack traceback:
+2025-09-22 04:35:43 -  	[C]: in function 'getLevel'
+2025-09-22 04:35:43 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 04:35:47 -  Loading Elven Sinistro...
+2025-09-22 04:35:47 -  Elven Sinistro has logged in.
+2025-09-22 04:43:50 -  [BOSS SYSTEM] Spawned: Lord of The Elements
+2025-09-22 04:43:50 -  Ogro Sinistro has logged out.
+2025-09-22 04:44:23 -  Loading Ogro Sinistro...
+2025-09-22 04:44:23 -  Ogro Sinistro has logged in.
+2025-09-22 04:54:43 -  Loading Magic Bruxo...
+2025-09-22 04:54:43 -  Magic Bruxo has logged in.
+2025-09-22 04:55:17 -  
+2025-09-22 04:55:17 -  Lua Script Error: [Scripts Interface] 
+2025-09-22 04:55:17 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:callback
+2025-09-22 04:55:17 -  /otserver/data/scripts/movements/falcons/spark teleport.lua:20: attempt to call method 'getLevel' (a nil value)
+2025-09-22 04:55:17 -  stack traceback:
+2025-09-22 04:55:17 -  	[C]: in function 'getLevel'
+2025-09-22 04:55:17 -  	/otserver/data/scripts/movements/falcons/spark teleport.lua:20: in function </otserver/data/scripts/movements/falcons/spark teleport.lua:14>
+2025-09-22 04:55:47 -  Magic Bruxo has logged out.
+2025-09-22 05:00:00 -  Ogro Sinistro has logged out.
+2025-09-22 05:00:00 -  Elven Sinistro has logged out.
+2025-09-22 05:00:00 -  Druid Sinistro has logged out.
+2025-09-22 05:00:00 -  Andin Inevitavel has logged out.
+2025-09-22 05:00:00 -  Verity has logged out.
+2025-09-22 05:00:00 -  Kyou Kai has logged out.
+2025-09-22 05:00:00 -  Orc Lokao has logged out.
+2025-09-22 05:00:01 -  Massey has logged out.
+2025-09-22 05:00:01 -  Azul has logged out.
+2025-09-22 05:00:01 -  Ozymandias has logged out.
+2025-09-22 05:00:01 -  Nandox Pcd has logged out.
+2025-09-22 05:00:01 -  Porno Gay has logged out.
+2025-09-22 05:00:01 -  Totz has logged out.
+2025-09-22 05:00:01 -  John Wick has logged out.
+2025-09-22 05:00:01 -  Gynga Bilola has logged out.
+2025-09-22 05:00:01 -  Doby has logged out.
+2025-09-22 05:00:01 -  Dobby has logged out.
+2025-09-22 05:00:01 -  Branco has logged out.
+2025-09-22 05:00:01 -  Kaka Bueno has logged out.
+2025-09-22 05:00:01 -  Soraio has logged out.
+2025-09-22 05:00:01 -  Picanha Na Chapa has logged out.
+2025-09-22 05:00:01 -  Romario Jr has logged out.
+2025-09-22 05:00:01 -  Eric Kartmann has logged out.
+2025-09-22 05:00:01 -  Saving server... 22/09/2025 05:00:01
+2025-09-22 05:00:01 -  > Saved house items in: 0.15 s
+2025-09-22 05:00:01 -  >> 0 player kickado
+2025-09-22 05:00:01 -  Saving server... 22/09/2025 05:00:01
+2025-09-22 05:00:01 -  > Saved house items in: 0.149 s
+2025-09-22 05:00:01 -  Shutting down...Saving server... 22/09/2025 05:00:01
+2025-09-22 05:00:02 -  > Saved house items in: 0.156 s
+2025-09-22 05:00:02 -  [Thread 0x7ffff5322700 (LWP 439003) exited]
+2025-09-22 05:00:02 -  [Thread 0x7ffff4b0d700 (LWP 439004) exited]
+2025-09-22 05:00:02 -   done!
+2025-09-22 05:00:02 -  [Thread 0x7ffff5b23700 (LWP 439002) exited]
+2025-09-22 05:00:05 -  >> Saving player items.
+2025-09-22 05:00:07 -  [Inferior 1 (process 438998) exited normally]

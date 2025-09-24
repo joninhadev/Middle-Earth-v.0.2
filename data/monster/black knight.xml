@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Black Knight" nameDescription="um black knight" race="blood" experience="1600" speed="200" manacost="0">
+  <health now="1800" max="1800"/>
+  <look type="131" head="95" body="95" legs="95" feet="95" corpse="20355"/>
+  <targetchange interval="2000" chance="3"/>
+  <strategy attack="100" defense="0"/>
+  <flags>
+    <flag summonable="0"/>
+    <flag attackable="1"/>
+    <flag hostile="1"/>
+    <flag illusionable="0"/>
+    <flag convinceable="0"/>
+    <flag pushable="0"/>
+    <flag canpushitems="1"/>
+    <flag canpushcreatures="1"/>
+    <flag targetdistance="1"/>
+    <flag runonhealth="0"/>
+  </flags>
+  
+<attacks>
+	<attack name="melee" interval="1800" min="-120" max="-200"/>
+	
+	<attack name="physical" interval="2600" chance="60" range="6" min="-90" max="-120">
+		<attribute key="shootEffect" value="spear"/>
+	</attack>
+	
+	<attack name="physical" interval="3450" chance="20" target="0" radius="2" min="-100" max="-200">
+		<attribute key="areaEffect" value="blackspark"/>
+	</attack>
+</attacks>
+  
+<defenses armor="0" defense="0"/>
+
+<elements>
+<element physicalPercent="20"/>
+<element earthPercent="20"/>
+<element firePercent="30"/>
+<element deathPercent="15"/>
+<element energyPercent="20"/>
+<element holyPercent="20"/>
+<element icePercent="30"/>
+</elements>
+  
+<immunities>
+    <immunity physical="0"/>
+    <immunity poison="0"/>
+	<immunity drown="1"/>
+	<immunity ice="0"/>
+	<immunity holy="0"/>
+	<immunity death="0"/>
+	<immunity lifedrain="1"/>
+    <immunity paralyze="1"/>
+    <immunity outfit="1"/>
+    <immunity drunk="0"/>
+    <immunity invisible="1"/>
+</immunities>
+  
+  <voices interval="5000" chance="10">
+    <voice sentence="MINE!" yell="1"/>
+    <voice sentence="NO PRISONERS!" yell="1"/>
+    <voice sentence="NO MERCY!" yell="1"/>
+    <voice sentence="By Bolg's Blood!"/>
+    <voice sentence="You're no match for me!"/>
+  </voices>
+  <loot capacity="900">
+    <item id="2476" chance="520"/><!-- Knight Armor -->
+ 	<item id="2489" chance="400"/><!-- Dark Armor -->
+ 	<item id="2490" chance="300"/><!-- Dark Helmet -->
+ 	<item id="13247" chance="50"/><!-- Hunting Horn -->
+	<item id="2381" chance="1000"/><!-- Halberd --> 
+ 	<item id="2387" chance="1000"/><!-- Double Axe -->
+ 	<item id="2430" chance="2800"/><!-- Knight Axe -->
+ 	<item id="2148" countmax="80" chance1="90000"/><!-- Gold -->
+ 	<item id="2414" chance="450"/><!-- Dragon Lance -->
+ 	<item id="2195" chance="520"/><!-- Boots of Haste -->
+
+  </loot>
+</monster>

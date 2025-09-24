@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Baron Bellow" nameDescription="The Baron From Below" race="blood" experience="1000000" speed="240">
+	<health now="200000" max="200000" />
+	<look type="1045" corpse="30868" />
+	<targetchange interval="4000" chance="10" />
+	<flags>
+		<flag rewardboss="1" />
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="90" />
+		<flag runonhealth="0" />
+		<flag canwalkonenergy="1" />
+		<flag canwalkonfire="1" />
+		<flag canwalkonpoison="1" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="-400" max="-700" />
+		<attack name="physical" interval="2000" chance="15" radius="8" min="0" max="-1700">
+			<attribute key="areaEffect" value="blackspark" />
+		</attack>
+		<attack name="earth" interval="2000" chance="15" length="8" spread="5" min="-500" max="-1800">
+			<attribute key="areaEffect" value="yellowbubble" />
+		</attack>
+		<attack name="earth" interval="2000" chance="15" length="8" spread="9" min="-300" max="-2200">
+			<attribute key="areaEffect" value="poff" />
+		</attack>
+		<attack name="death" interval="2000" chance="100" radius="3" min="-500" max="-1700">
+			<attribute key="areaEffect" value="mortarea" />
+		</attack>
+		<attack name="earth" interval="2000" chance="15" radius="5" min="-500" max="-1200" >
+			<attribute key="areaEffect" value="smallplants"/>
+		</attack>
+	</attacks>
+	<elements>
+		<element icePercent="50"/>
+		<element energyPercent="50"/>
+		<element earthPercent="50"/>
+		<element holyPercent="50"/>
+		<element deathPercent="50"/>
+		<element firePercent="50"/>
+		<element drownPercent="50"/>
+	</elements>
+	<immunities>
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Krrrk!" />
+	</voices>
+	<loot>
+	<item name="munrah shield" chance="400"/>
+	<item name="gold coin" chance="99999" countmax="99"/>
+	<item name="gold coin" chance="99999" countmax="99"/>
+	<item name="gold coin" chance="99999" countmax="99"/>
+	<item name="gold coin" chance="99999" countmax="99"/>
+	<item name="gold coin" chance="99999" countmax="99"/>
+	<item name="small amethyst" countmax="30" chance="99932"/>
+	<item name="platinum coin" countmax="99" chance="999939"/>
+	<item name="crystal coin" countmax="10" chance="99999"/>
+	<item name="voltage armor" chance="500"/>
+	<item name="khel thuzad's skin" chance="1000"/>
+	</loot>
+</monster>
