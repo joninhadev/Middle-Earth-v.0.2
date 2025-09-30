@@ -30,7 +30,7 @@ struct Character {
 };
 
 struct Account {
-	std::vector<std::string> characters;
+	std::vector<Character> characters;
 	std::string name;
 	std::string key;
 	time_t lastDay = 0;
